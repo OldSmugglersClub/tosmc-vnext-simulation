@@ -1,0 +1,12 @@
+ERSETZEN:
+- VERSION.txt
+- index.html
+- hall-of-fame.html
+- champion-trophy.jpeg
+
+NEU:
+- RELEASE_NOTES_4.9.2-HF12-HF98-TEST1.md
+- ERSETZEN_NEU_LOESCHEN_4.9.2-HF12-HF98-TEST1.txt
+
+LOESCHEN:
+- nichts

@@ -1,0 +1,23 @@
+{
+  "version": "4.7.1-TEST10",
+  "sha256": {
+    "VERSION.txt": "e745b6ec3d6f57db9ecb463a6fe2ffd1abe3b93b1718a0ec0c15c36ecac558ab",
+    "CHANGELOG.md": "d3c448bea49276aaa7fdf9724237d4be1830d10f08744a36a1919c32404934e5",
+    "index.html": "fd66676363d6381373b382360629262f91853e89f598cbe294649282c5032eef",
+    "wettbewerb.js": "5083adca0efef8a5d8e56f040a1996816912e37c6dedabb11b21bb676846fa56",
+    "wettbewerb.css": "3d9e7c59f87cb0ec4a267e38760d2c68220790b95dd41c5cc0da1b9b9a268a2b",
+    "bundesliga.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "dfb-pokal.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "champions-league.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "europa-league.html": "cbbfe9b4b1f7d957717b24c450df3a2913417136d6bfaf024a1a6ffd35018856",
+    "relegation.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "dynamo-dresden.html": "104c4482904547e97700b5437e640b79d22e903083a1e3dc6db9112e6d33f2cf",
+    "piratenkodex.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "weihnachtsregatta.html": "dbd3530ecae66419f4d0b8bb7ab0383fd4c6d926981e6223e5ca125306412958",
+    "CHANGELOG_4.7.1-TEST10.md": "d43da1848d006b723434b2c0d982dc04b5ffdac7a17e6d448c402473d8b0fb7e",
+    "README_4.7.1-TEST10.md": "caac5046ff5e88ce1f15001e715f1bc550cd0ae999aea7a87ac4fce7723dbf6b",
+    "TESTPROTOKOLL_4.7.1-TEST10.md": "5258fa7f9c8dbdbbd456949aca785ce747771d18238ecb5e3741d7065ab1460b",
+    "GITHUB-DESKTOP_4.7.1-TEST10.md": "5a979232b270e5689bbd70d63a2e689ca85c8f8d56e5f2e6549814d0bef74381",
+    "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST10.md": "b4633d8b4e3f02b9b51865d1a6a621fae261bb016ebfb651405e94ea2afa9a67"
+  }
+}

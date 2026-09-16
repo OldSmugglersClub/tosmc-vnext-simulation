@@ -1,0 +1,55 @@
+{
+  "bereich": "Sonderduelle",
+  "statusSchild": "7 von 7 festgelegt",
+  "titel": "Piratenkodex",
+  "beschreibung": "Sieben ausgewählte europäische Traditionsduelle bilden in der Saison 2026/27 jeweils einen eigenen Wertungsspieltag und fließen vollständig in die Einzel-Gesamtwertung ein.",
+  "karten": [
+    {
+      "titel": "Wertung",
+      "text": "Jedes Piratenkodex-Spiel ist ein eigener Tippspieltag. Es gelten die regulären Punkte: 2 für die Tendenz, 3 für die Tordifferenz und 5 für das exakte Ergebnis."
+    },
+    {
+      "titel": "Saison 2026/27",
+      "text": "Alle sieben Piratenkodex-Duelle der Saison 2026/27 sind festgelegt."
+    },
+    {
+      "titel": "Auswahl",
+      "text": "Gewertet werden gezielt ausgewählte Klassiker und Derbys aus den europäischen Topligen."
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [
+    {
+      "typ": "liste",
+      "titel": "Saisonplanung",
+      "anzeigen": true,
+      "eintraege": [
+        "Piratenkodex I – El Clásico",
+        "Piratenkodex II – Derby della Madonnina",
+        "Piratenkodex III – North-West Derby",
+        "Piratenkodex IV – Derby d’Italia",
+        "Piratenkodex V – Le Classique",
+        "Piratenkodex VI – Manchester Derby",
+        "Piratenkodex VII – Title Decider"
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Piratenkodex"
+}

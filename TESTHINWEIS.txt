@@ -1,0 +1,3 @@
+TESTPAKET – AUSSCHLIESSLICH INS SEPARATE TESTREPOSITORY LADEN.
+Die JSON-Dateien besitzen absichtlich die normalen Website-Dateinamen, weil die Testwebsite dieselben Datenpfade wie die Live-Website verwendet.
+NIEMALS in das Live-/Produktiv-Repository hochladen.

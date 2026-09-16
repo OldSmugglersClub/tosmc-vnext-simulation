@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "name": "TOSMC Schutzarchitektur",
+  "referenceIsTemporary": true,
+  "changeTypes": ["local", "shared", "system"],
+  "website": {
+    "sharedPages": ["bundesliga.html", "champions-league.html", "dfb-pokal.html", "dynamo-dresden.html", "europa-league.html", "piratenkodex.html", "relegation.html", "weihnachtsregatta.html"],
+    "sharedAssets": ["wettbewerb.js", "wettbewerb.css"],
+    "protectedData": ["spielbetrieb.json", "spieldaten.json", "highscore.json", "website-view.json", "teams.json"]
+  },
+  "admin": {
+    "requiredGuards": ["assertOfficialOverallIntegrity", "assertLogbookHistoryPreserved", "assertMonotonicOutputVersions"],
+    "partialAllowedOutputs": ["spielbetrieb.json", "spieldaten.json", "highscore.json", "website-view.json"],
+    "partialForbiddenArtifacts": ["spieltag-logbuch.json", "spieltagpunkte.json", "topspieler.json", "hall-of-fame.json"]
+  },
+  "ranking": ["totalPoints", "matchdayWins", "joinedAt"],
+  "rules": {
+    "noSyntheticBadges": true,
+    "emptyCacheTestRequired": true,
+    "desktopAndMobileRequired": true,
+    "separateTestAndLivePackages": true,
+    "rollbackPackageRequired": true,
+    "beforeAfterReportRequired": true
+  }
+}

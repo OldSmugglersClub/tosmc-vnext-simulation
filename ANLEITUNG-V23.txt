@@ -1,0 +1,17 @@
+THE OLD SMUGGLERS CLUB – WEBSITE VERSION 23
+
+Neu:
+- zentrale Datei spieltag.json eingeführt
+- Startseite zeigt den aktuellen Bundesliga-Spieltag
+- Bundesliga-Unterseite zeigt dieselben Daten
+- Begegnungen, Anstoßzeiten, Status und Ergebnisse werden aus spieltag.json geladen
+- bei Fehlern bleibt die Website funktionsfähig
+
+Installation:
+1. ZIP entpacken.
+2. Alle HTML-Dateien, clubdaten.json und spieltag.json ins GitHub-Hauptverzeichnis hochladen.
+3. Vorhandene Dateien ersetzen.
+4. GitHub Pages abwarten.
+5. Strg+F5 drücken.
+
+Künftig können Spieltagsdaten durch Austausch von spieltag.json geändert werden.

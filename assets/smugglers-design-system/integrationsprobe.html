@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SDS Integrationsprobe – The Old Smugglers Club</title>
+  <link rel="stylesheet" href="./integrationsprobe.css">
+</head>
+<body>
+  <main class="probe-shell">
+    <header class="probe-head">
+      <p class="eyebrow">Smugglers Design System · nicht öffentlich</p>
+      <h1>Integrationsprobe mit Fallback</h1>
+      <p>Diese Seite prüft die technische Einbindung der Schmugglersiegel, ohne eine öffentliche Website-Seite zu verändern.</p>
+    </header>
+
+    <section class="probe-panel" aria-labelledby="game-title">
+      <div class="panel-head">
+        <h2 id="game-title">Beispielhafte Spielansicht</h2>
+        <label>
+          Darstellung
+          <select id="sizeSelect">
+            <option value="32">32 px</option>
+            <option value="48" selected>48 px</option>
+            <option value="64">64 px</option>
+            <option value="96">96 px</option>
+          </select>
+        </label>
+      </div>
+      <div id="gameRows" class="game-list" aria-live="polite"></div>
+    </section>
+
+    <section class="probe-panel" aria-labelledby="fallback-title">
+      <h2 id="fallback-title">Fallback-Prüfung</h2>
+      <p>Der letzte Eintrag verwendet absichtlich eine unbekannte Team-ID. Statt eines defekten Bildes muss ein neutrales Kürzel erscheinen.</p>
+      <div id="fallbackRow" class="game-list"></div>
+    </section>
+
+    <section class="probe-panel status-panel" aria-labelledby="status-title">
+      <h2 id="status-title">Prüfstatus</h2>
+      <div id="status" class="status-grid"></div>
+    </section>
+  </main>
+  <script src="./integrationsprobe.js" defer></script>
+</body>
+</html>

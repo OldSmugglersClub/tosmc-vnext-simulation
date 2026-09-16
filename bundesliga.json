@@ -1,0 +1,41 @@
+{
+  "bereich": "Wettbewerbszentrale",
+  "statusSchild": "Vorbereitung",
+  "titel": "Bundesliga",
+  "beschreibung": "Die Bundesliga-Zentrale bündelt alle 34 Spieltage, Ergebnisse, die automatisch berechnete Tabelle sowie kompakte Saisonstatistiken der Saison 2026/2027.",
+  "karten": [
+    {
+      "titel": "Torjäger",
+      "text": ""
+    },
+    {
+      "titel": "Verfolgerfeld",
+      "text": ""
+    },
+    {
+      "titel": "",
+      "logo": "./assets/bundesliga-logo.png",
+      "logoAlt": "Bundesliga Logo"
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Bundesliga 2026/2027"
+}

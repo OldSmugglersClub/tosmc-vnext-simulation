@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Kicktipp Integration – The Old Smugglers Club</title>
+  <style>
+    :root {
+      --bg: #080705;
+      --panel: #100c08;
+      --panel-2: #171007;
+      --gold: #d6a84b;
+      --gold-light: #f1d99a;
+      --text: #f1e6cb;
+      --muted: #bcae91;
+      --line: rgba(214,168,75,.42);
+      --max: 1180px;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); color: var(--text); }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 50% 0, rgba(131,85,28,.10), transparent 34rem),
+        linear-gradient(#090705, #050403 70%);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    a { color: inherit; }
+    .site-header { width: 100%; background: #050403; }
+    .banner-image { display: block; width: 100%; height: auto; }
+    .nav-shell {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-top: 1px solid rgba(214,168,75,.28);
+      border-bottom: 1px solid rgba(214,168,75,.32);
+      background: rgba(9,7,5,.97);
+      backdrop-filter: blur(10px);
+    }
+    .nav-inner {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+      min-height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      text-decoration: none;
+      color: var(--gold-light);
+      font-weight: 700;
+    }
+    .brand img { width: 34px; height: 34px; object-fit: cover; border-radius: 50%; border: 1px solid var(--line); }
+    .actions { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; justify-content: flex-end; }
+    .action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: .55rem .8rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      text-decoration: none;
+      color: #f0ddb0;
+      font-weight: 700;
+      background: #171007;
+    }
+    .action:hover, .action:focus-visible {
+      color: #120b05;
+      background: linear-gradient(#e4bb5d, #98631f);
+      outline: none;
+    }
+    main { width: min(var(--max), calc(100% - 2rem)); margin: 0 auto; padding: 1.4rem 0 3rem; }
+    .intro {
+      margin-bottom: 1rem;
+      padding: 1rem 1.15rem;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(28,19,10,.96), rgba(13,10,7,.96));
+      box-shadow: 0 18px 45px rgba(0,0,0,.35);
+    }
+    .eyebrow { display: block; margin-bottom: .3rem; color: var(--gold); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 0 0 .45rem; color: var(--gold-light); font-size: clamp(1.35rem, 3vw, 2rem); }
+    .intro p { margin: .3rem 0; color: var(--muted); line-height: 1.5; }
+    .integration-shell {
+      position: relative;
+      min-height: 420px;
+      overflow: hidden;
+      border: 1px solid #4d2e11;
+      border-radius: 18px;
+      padding: 8px;
+      background:
+        radial-gradient(circle at 16px 16px, rgba(240,196,92,.55) 0 2px, rgba(87,48,14,.95) 2.5px 5px, transparent 5.5px),
+        radial-gradient(circle at calc(100% - 16px) 16px, rgba(240,196,92,.55) 0 2px, rgba(87,48,14,.95) 2.5px 5px, transparent 5.5px),
+        radial-gradient(circle at 16px calc(100% - 16px), rgba(240,196,92,.55) 0 2px, rgba(87,48,14,.95) 2.5px 5px, transparent 5.5px),
+        radial-gradient(circle at calc(100% - 16px) calc(100% - 16px), rgba(240,196,92,.55) 0 2px, rgba(87,48,14,.95) 2.5px 5px, transparent 5.5px),
+        repeating-linear-gradient(90deg, rgba(255,218,134,.04) 0 2px, transparent 2px 7px),
+        linear-gradient(180deg, #3a210d 0%, #120a05 12%, #070504 50%, #160c06 88%, #3a210d 100%);
+      box-shadow:
+        0 24px 58px rgba(0,0,0,.60),
+        0 0 0 1px #9a6a28,
+        0 0 0 4px #090604,
+        0 0 0 6px rgba(214,168,75,.28),
+        inset 0 0 28px rgba(0,0,0,.88),
+        inset 0 0 0 1px rgba(244,211,139,.22);
+    }
+    .integration-shell::before,
+    .integration-shell::after {
+      content: "";
+      position: absolute;
+      z-index: 8;
+      left: 18px;
+      right: 18px;
+      height: 5px;
+      pointer-events: none;
+      opacity: .82;
+      background:
+        repeating-linear-gradient(135deg, #4d2b0c 0 4px, #b47b2d 4px 7px, #2b1809 7px 11px);
+      box-shadow: 0 1px 0 rgba(248,218,150,.24), 0 -1px 0 rgba(0,0,0,.85);
+    }
+    .integration-shell::before { top: 2px; }
+    .integration-shell::after { bottom: 2px; }
+    .integration-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .8rem;
+      padding: .95rem 1.2rem;
+      border: 1px solid rgba(194,139,48,.58);
+      border-bottom-color: rgba(237,194,103,.38);
+      border-radius: 10px 10px 0 0;
+      background:
+        linear-gradient(90deg, rgba(45,25,9,.98), rgba(18,11,6,.99) 24%, rgba(10,8,6,.99) 62%, rgba(43,25,10,.98)),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.025) 0 1px, transparent 1px 4px);
+      box-shadow:
+        inset 0 1px 0 rgba(248,216,144,.17),
+        inset 0 -1px 0 rgba(0,0,0,.85),
+        0 4px 16px rgba(0,0,0,.38);
+    }
+    .integration-head strong {
+      color: #f3d78f;
+      letter-spacing: .025em;
+      text-shadow: 0 1px 0 #000, 0 0 12px rgba(214,168,75,.14);
+    }
+    #kicktipp-status { color: #cbb98e; font-size: .9rem; }
+    .integration-content {
+      position: relative;
+      min-height: 360px;
+      overflow: hidden;
+      border: 1px solid rgba(118,73,24,.72);
+      border-top: 0;
+      border-radius: 0 0 10px 10px;
+      background:
+        radial-gradient(circle at 80% 15%, rgba(115,73,25,.13), transparent 28rem),
+        linear-gradient(180deg, #17100a, #090705 38%, #070504);
+      color: #eee4cf;
+      box-shadow: inset 0 0 34px rgba(0,0,0,.52);
+    }
+    .integration-content > iframe {
+      display: block;
+      width: 100% !important;
+      max-width: 100% !important;
+      border: 0 !important;
+      background: #0d0a07;
+    }
+    .integration-fallback {
+      display: none;
+      padding: 2rem 1.2rem;
+      text-align: center;
+      color: var(--text);
+      background: #100c08;
+    }
+    .integration-fallback.is-visible { display: block; }
+    .integration-fallback p { color: var(--muted); line-height: 1.55; }
+    .integration-fallback .action { margin-top: .5rem; }
+    .integration-shell::selection { background: #a36d22; color: #fff4cf; }
+    @media (max-width: 720px) {
+      .nav-inner { min-height: 54px; }
+      .brand span { display: none; }
+      .actions { gap: .4rem; }
+      .action { padding: .5rem .65rem; font-size: .9rem; }
+      main { width: min(100% - 1rem, var(--max)); padding-top: .7rem; }
+      .intro { padding: .85rem .9rem; }
+      .integration-head { align-items: flex-start; flex-direction: column; }
+      .integration-shell { border-radius: 9px; }
+    }
+    @media (max-width: 430px) {
+      .nav-inner { width: min(var(--max), calc(100% - 1rem)); }
+      .brand { display: none; }
+      .actions {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+        gap: .35rem;
+      }
+      .action {
+        min-width: 0;
+        min-height: 40px;
+        padding: .48rem .2rem;
+        font-size: clamp(.7rem, 3vw, .8rem);
+        white-space: nowrap;
+      }
+    }
+    @media (max-width: 340px) {
+      .action {
+        padding-right: .12rem;
+        padding-left: .12rem;
+        font-size: .65rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+</head>
+<body>
+  <header class="site-header">
+    <img class="banner-image" src="./banner.png" alt="The Old Smugglers Club – Saison 2026/2027">
+  </header>
+
+  <div class="nav-shell">
+    <div class="nav-inner">
+      <a class="brand" href="./index.html">
+        <img src="./logo.jpeg" alt="">
+        <span>Old Smugglers Club</span>
+      </a>
+      <div class="actions tosmc-nav">
+        <a class="action tosmc-nav-button tosmc-nav-button--back" href="./index.html">Zur Clubseite</a>
+        <a class="action tosmc-nav-button tosmc-nav-button--secondary" href="./coco/">Frage Coco</a>
+        <a class="action tosmc-nav-button tosmc-nav-button--primary" href="https://www.kicktipp.de/the-old-smugglers-club/" target="_blank" rel="noopener noreferrer">Kicktipp direkt</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="intro" aria-labelledby="integration-title">
+      <span class="eyebrow">Kicktipp-Integration · unabhängig von der Clubseite</span>
+      <h1 id="integration-title">Kicktipp Live Action</h1>
+    </section>
+
+    <section class="integration-shell" aria-label="Eingebettetes Kicktipp-Tippspiel">
+      <div class="integration-head">
+        <strong>Kicktipp Live Action · The Old Smugglers Club</strong>
+      </div>
+      <div class="integration-content" id="kicktipp-host">
+        <script>
+          window.__tosmcKicktippLoaded = false;
+          window.__tosmcKicktippFailed = false;
+        </script>
+        <script src="https://www.kicktipp.de/the-old-smugglers-club/javascript"
+                onload="window.__tosmcKicktippLoaded=true"
+                onerror="window.__tosmcKicktippFailed=true"></script>
+        <script>
+          (function () {
+            var status = document.getElementById('kicktipp-status');
+            var fallback = document.getElementById('kicktipp-fallback');
+            var desiredPath = '/tippuebersicht';
+            var navigationConfirmed = false;
+            var navigationAttempts = 0;
+
+            try {
+              var requested = new URL(window.location.href).searchParams.get('path');
+              if (requested) desiredPath = normalisePath(requested);
+            } catch (e) {}
+
+            function normalisePath(path) {
+              var value = String(path || '').trim();
+              if (!value) return '';
+              if (/^[a-z0-9_-]+$/i.test(value)) value = '/' + value;
+              try { value = new URL(value, 'https://www.kicktipp.de').pathname; } catch (e) {}
+              return value.replace(/^\/the-old-smugglers-club(?=\/|$)/, '') || '/';
+            }
+
+            function showFallback(message) {
+              if (status) status.textContent = message;
+              if (fallback) fallback.classList.add('is-visible');
+            }
+
+            function tryVisibleNavigation() {
+              if (navigationConfirmed || navigationAttempts >= 24) return;
+              navigationAttempts += 1;
+              var host = document.getElementById('kicktipp-host');
+              if (!host) return;
+              var candidates = host.querySelectorAll('a,button,[role="link"]');
+              for (var i = 0; i < candidates.length; i += 1) {
+                var node = candidates[i];
+                var href = node.getAttribute && (node.getAttribute('href') || '');
+                var text = String(node.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+                if (/tippuebersicht/i.test(href) || text === 'tippübersicht' || text === 'tippuebersicht') {
+                  try { node.click(); return; } catch (e) {}
+                }
+              }
+              window.setTimeout(tryVisibleNavigation, 180);
+            }
+
+            try {
+              if (window.kicktipp && typeof window.kicktipp.darkmode === 'function') {
+                window.kicktipp.darkmode(true);
+              }
+              if (window.kicktipp) {
+                window.kicktipp.click = function () {};
+                window.kicktipp.onPageChanged = function (path) {
+                  var current = normalisePath(path);
+                  if (current === desiredPath) {
+                    navigationConfirmed = true;
+                    if (status) status.textContent = 'Live-Tippübersicht bereit.';
+                  } else if (!navigationConfirmed) {
+                    window.setTimeout(tryVisibleNavigation, 0);
+                  }
+                  try {
+                    var u = new URL(window.location.href);
+                    if (path) u.searchParams.set('path', normalisePath(path).replace(/^\//, ''));
+                    else u.searchParams.delete('path');
+                    window.history.replaceState(null, '', u.pathname + u.search);
+                  } catch (e) {}
+                };
+              }
+            } catch (e) {
+              // Die Einbettung ist optional. Fehler dürfen die TOSMC-Seite nicht beeinflussen.
+            }
+
+            window.setTimeout(tryVisibleNavigation, 180);
+
+            window.setTimeout(function () {
+              if (window.__tosmcKicktippFailed) {
+                showFallback('Kicktipp konnte nicht geladen werden.');
+                return;
+              }
+              if (window.__tosmcKicktippLoaded) {
+                if (status && !navigationConfirmed) status.textContent = 'Kicktipp ist eingebunden.';
+                return;
+              }
+              showFallback('Kicktipp antwortet derzeit nicht zuverlässig.');
+            }, 7000);
+          }());
+        </script>
+        <div class="integration-fallback" id="kicktipp-fallback">
+          <h2>Kicktipp ist gerade nicht verfügbar</h2>
+          <p>Die Clubseite funktioniert unabhängig weiter. Das Tippspiel kann zusätzlich direkt bei Kicktipp geöffnet werden.</p>
+          <a class="action tosmc-nav-button tosmc-nav-button--primary" href="https://www.kicktipp.de/the-old-smugglers-club/" target="_blank" rel="noopener noreferrer">Kicktipp direkt öffnen</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

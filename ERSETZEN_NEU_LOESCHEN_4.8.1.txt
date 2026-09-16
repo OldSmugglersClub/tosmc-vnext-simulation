@@ -1,0 +1,15 @@
+ERSETZEN:
+- index.html
+- VERSION.txt
+
+NEU:
+- logbuch.html
+- logbuch.css
+- logbuch.js
+- spieltag-logbuch.json
+- CHANGELOG_4.8.1.md
+- README-WEBSITE-4.8.1.md
+- ERSETZEN_NEU_LOESCHEN_4.8.1.txt
+
+LÖSCHEN:
+- nichts

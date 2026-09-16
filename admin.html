@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administrationszentrum | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <header class="admin-header">
+      <p class="admin-kicker">The Old Smugglers Club</p>
+      <h1>Administrations- und Wartungszentrum</h1>
+      <p>Lesende Kontrollansicht für Version, Datenquellen, Strukturprüfung und Export. Diese Seite verändert keine Website-Daten.</p>
+      <nav class="admin-nav" aria-label="Administration">
+        <a class="admin-button" href="index.html">Zur Startseite</a>
+        <a class="admin-button" href="daten-cockpit.html">Daten-Cockpit öffnen</a>
+        <a class="admin-button" href="spielpflege.html">Zentrale Spielpflege</a>
+        <a class="admin-button" href="wettbewerbspflege.html">Wettbewerbsverwaltung</a>
+        <a class="admin-button" href="team-teilnehmerpflege.html">Teams & Teilnehmer</a>
+        <a class="admin-button" href="tipppflege.html">Zentrale Tippdaten</a>
+        <a class="admin-button" href="punkteberechnung.html">Punkteberechnung</a>
+        <a class="admin-button" href="bonuspflege.html">Bonusfragen & Sonderpunkte</a>
+        <a class="admin-button" href="smugglerpflege.html">Smuggleraufträge</a>
+        <a class="admin-button" href="smugglerwertung.html">Smugglerwertung</a>
+        <a class="admin-button" href="teamwertung.html">Teamwertung</a>
+        <a class="admin-button" href="wettbewerbswertung.html">Wettbewerbswertungen</a>
+        <a class="admin-button" href="spieltagwertung.html">Spieltagwertungen</a>
+        <a class="admin-button" href="ranglistenverlauf.html">Ranglistenverlauf</a>
+        <a class="admin-button" href="saisonarchiv.html">Saisonarchiv & Hall of Fame</a>
+        <a class="admin-button" href="tippfristen.html">Tippfristen & Abgaben</a>
+        <a class="admin-button" href="abgabe-erinnerungen.html">Abgabe-Erinnerungen</a>
+        <a class="admin-button" href="erinnerungsprotokoll.html">Erinnerungsprotokoll</a>
+        <a class="admin-button" href="abgabezuverlaessigkeit.html">Abgabezuverlässigkeit</a>
+        <button class="admin-button" id="refreshButton" type="button">Prüfung neu starten</button>
+        <button class="admin-button" id="downloadButton" type="button" disabled>Systembericht herunterladen</button>
+        <button class="admin-button" id="backupButton" type="button" disabled>Datenbestand sichern</button>
+        <label class="admin-button admin-file-button" for="restoreFile">Sicherung prüfen<input id="restoreFile" type="file" accept="application/json,.json"></label>
+      </nav>
+    </header>
+
+    <section class="admin-section" aria-labelledby="statusHeading">
+      <div class="admin-heading-row"><h2 id="statusHeading">Systemstatus</h2><span id="overallBadge" class="admin-badge">Prüfung läuft</span></div>
+      <div id="summaryGrid" class="admin-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="sourcesHeading">
+      <div class="admin-heading-row"><h2 id="sourcesHeading">Zentrale Datenquellen</h2><span id="sourceCount" class="admin-badge">–</span></div>
+      <div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Quelle</th><th>Datei</th><th>Status</th><th>Details</th><th>Ladezeit</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="validationHeading">
+      <div class="admin-heading-row"><h2 id="validationHeading">Datenkonsistenz</h2><span id="validationBadge" class="admin-badge">Prüfung läuft</span></div>
+      <div id="validationGrid" class="admin-grid" aria-live="polite"></div>
+      <div id="validationDetails" class="admin-notices"></div>
+    </section>
+
+
+    <section class="admin-section" aria-labelledby="restoreHeading">
+      <div class="admin-heading-row"><h2 id="restoreHeading">Wiederherstellungsprüfung</h2><span id="restoreBadge" class="admin-badge">Keine Datei gewählt</span></div>
+      <p class="admin-explanation">Eine lokale Sicherungsdatei wird ausschließlich im Browser geprüft. Es werden keine GitHub-Dateien automatisch überschrieben.</p>
+      <div id="restoreGrid" class="admin-grid" aria-live="polite"></div>
+      <div id="restoreDetails" class="admin-notices"><p>Wähle über „Sicherung prüfen“ eine zuvor exportierte OSC-Datensicherung aus.</p></div>
+      <div class="admin-actions">
+        <button class="admin-button" id="planButton" type="button" disabled>Importplan herunterladen</button>
+        <button class="admin-button" id="verifiedBackupButton" type="button" disabled>Geprüfte Sicherung herunterladen</button>
+      </div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="notesHeading">
+      <h2 id="notesHeading">Wartungshinweise</h2>
+      <div id="noticeList" class="admin-notices"><p>Die Prüfung wird vorbereitet.</p></div>
+    </section>
+  </main>
+  <script src="datenregister.js"></script>
+  <script src="datenmodell.js"></script>
+  <script src="admin.js"></script>
+  <script src="./accessibility-v33.js" defer></script>
+</body>
+</html>

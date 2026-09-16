@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zentrale Wettbewerbsverwaltung | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="wettbewerbspflege.css">
+  <link rel="stylesheet" href="accessibility-v33.css">
+</head>
+<body>
+  <main class="admin-shell competition-editor-shell">
+    <header class="admin-header">
+      <p class="admin-kicker">The Old Smugglers Club</p>
+      <h1>Zentrale Wettbewerbsverwaltung</h1>
+      <p>Wettbewerbe lokal bearbeiten, validieren und anschließend eine vollständige <code>wettbewerbe.json</code> für den manuellen GitHub-Upload herunterladen. Bestehende Wettbewerbsseiten und das freigegebene Layout werden dabei nicht automatisch verändert.</p>
+      <nav class="admin-nav" aria-label="Wettbewerbsverwaltung">
+        <a class="admin-button" href="admin.html">Zum Administrationszentrum</a>
+        <a class="admin-button" href="daten-cockpit.html">Zum Daten-Cockpit</a>
+        <a class="admin-button" href="spielpflege.html">Zur Spielpflege</a>
+        <button class="admin-button" id="reloadButton" type="button">Daten neu laden</button>
+        <button class="admin-button" id="newButton" type="button">Neuer Wettbewerb</button>
+        <button class="admin-button" id="exportButton" type="button" disabled>wettbewerbe.json herunterladen</button>
+      </nav>
+    </header>
+
+    <section class="admin-section" aria-labelledby="overviewHeading">
+      <div class="admin-heading-row"><h2 id="overviewHeading">Datenstand</h2><span id="statusBadge" class="admin-badge">Wird geladen</span></div>
+      <div id="summaryGrid" class="admin-grid" aria-live="polite"></div>
+      <div id="messageBox" class="admin-notices" aria-live="polite"></div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="competitionsHeading">
+      <div class="admin-heading-row"><h2 id="competitionsHeading">Wettbewerbe</h2><span id="resultCount" class="admin-badge">–</span></div>
+      <div class="competition-filters">
+        <label>Suche<input id="searchInput" type="search" placeholder="ID, Name, Seite oder Status"></label>
+        <label>Filtertyp<select id="typeFilter"><option value="">Alle Typen</option><option value="wettbewerb">Wettbewerb</option><option value="sonderwertung">Sonderwertung</option></select></label>
+      </div>
+      <div class="admin-table-wrap">
+        <table class="admin-table competition-list">
+          <thead><tr><th>Name</th><th>ID</th><th>Typ</th><th>Ziel</th><th>Status</th><th>Aktion</th></tr></thead>
+          <tbody id="competitionRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="editorHeading">
+      <div class="admin-heading-row"><h2 id="editorHeading">Wettbewerb bearbeiten</h2><span id="editorBadge" class="admin-badge">Kein Wettbewerb gewählt</span></div>
+      <form id="competitionForm" class="competition-form" novalidate>
+        <input id="originalId" type="hidden">
+        <label>Wettbewerbs-ID<input id="competitionId" required autocomplete="off" placeholder="z. B. bundesliga"></label>
+        <label>Anzeigename<input id="label" required></label>
+        <label>HTML-Seite<input id="page" required placeholder="z. B. bundesliga.html"></label>
+        <label>Filtertyp<select id="filterType" required><option value="wettbewerb">Wettbewerb</option><option value="sonderwertung">Sonderwertung</option></select></label>
+        <label>Filterwert<input id="filterValue" required></label>
+        <label>Spielplan-Überschrift<input id="scheduleTitle" required></label>
+        <label>Saisonbezeichnung<input id="seasonLabel" required></label>
+        <label>Ziel Tippspieltage<input id="matchdaysTarget" type="number" min="0" step="1"></label>
+        <label>Ziel Spiele<input id="gamesTarget" type="number" min="0" step="1"></label>
+        <label>Zeitraum<input id="period" required></label>
+        <label>Status<input id="competitionStatus" required list="statusSuggestions"><datalist id="statusSuggestions"><option value="geplant"><option value="vorbereitet"><option value="aktiv"><option value="abgeschlossen"><option value="wartet auf Spielplan"></datalist></label>
+        <label class="competition-checkbox"><input id="visible" type="checkbox" checked> In Navigation und Übersichten sichtbar</label>
+        <label class="competition-form-wide">Pflegehinweis<textarea id="note" rows="3" placeholder="Optionaler interner Hinweis"></textarea></label>
+        <div class="competition-form-actions competition-form-wide">
+          <button class="admin-button" type="submit">Änderung übernehmen</button>
+          <button class="admin-button" id="deleteButton" type="button" disabled>Wettbewerb löschen</button>
+          <button class="admin-button" id="cancelButton" type="button">Eingabe zurücksetzen</button>
+        </div>
+      </form>
+      <div id="formErrors" class="admin-notices" aria-live="polite"></div>
+    </section>
+  </main>
+  <script src="datenregister.js"></script>
+  <script src="wettbewerbspflege.js"></script>
+  <script src="accessibility-v33.js" defer></script>
+</body>
+</html>

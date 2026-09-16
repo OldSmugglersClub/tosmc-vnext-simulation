@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Stalk-O-Meter – öffentliche Aufrufstatistik des The Old Smugglers Club">
+  <title>Stalk-O-Meter | The Old Smugglers Club</title>
+  <link rel="stylesheet" href="./wettbewerb.css?v=4.9.2-HF12-HF86">
+  <link rel="stylesheet" href="./stalk-o-meter.css?v=4.7.2-TEST1">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+  <link rel="stylesheet" href="./legal.css">
+  <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF86">
+</head>
+<body>
+  <main class="page">
+    <section class="hero stalk-hero">
+      <div class="topline">
+        <div class="eyebrow">Logbuch der Seitenaufrufe</div>
+        <div class="status-plaque">Stalk-O-Meter</div>
+      </div>
+
+      <h1>Stalk-O-Meter</h1>
+      <p class="lead">Welche Bereiche werden an Bord am häufigsten aufgerufen? Gezählt werden echte Seitenaufrufe seit Aktivierung des Stalk-O-Meters – unabhängig davon, über welchen Weg die Zielseite geöffnet wurde.</p>
+
+      <section class="stalk-total" aria-labelledby="stalk-total-title">
+        <span id="stalk-total-title">Gesamtaufrufe seit Aktivierung</span>
+        <strong id="stalk-total-count" aria-live="polite">–</strong>
+        <small id="stalk-total-status">Aufrufzahlen werden geladen …</small>
+      </section>
+
+      <section class="dynamic-section stalk-ranking" aria-labelledby="stalk-ranking-title">
+        <h2 id="stalk-ranking-title">Beliebteste Bereiche</h2>
+        <p class="stalk-note">Mehrfachaufrufe derselben Person zählen mehrfach. Impressum, Datenschutz und das Stalk-O-Meter selbst sind nicht Bestandteil der Gesamtzahl.</p>
+        <div class="stalk-list" id="stalk-list" aria-live="polite"></div>
+      </section>
+
+      <div class="actions tosmc-nav">
+        <a class="tosmc-nav-button tosmc-nav-button--back" href="./index.html">Zurück zur Clubseite</a>
+      </div>
+
+      <div class="error is-hidden" id="stalk-error" role="status">
+        Die Aufrufzahlen sind derzeit nicht verfügbar. Die übrige Website ist davon nicht betroffen.
+      </div>
+    </section>
+  </main>
+
+  <footer class="legal-footer" aria-label="Rechtliche Hinweise">
+    <div class="legal-footer__inner">
+      <span>© 2026 The Old Smugglers Club</span>
+      <nav class="legal-footer__links" aria-label="Rechtliche Navigation">
+        <a href="./impressum.html">Impressum</a>
+        <a href="./datenschutz.html">Datenschutz</a>
+      <a href="./nutzungsrechte.html">Nutzungsrechte</a>
+        <span id="legal-version">Version wird geladen</span>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./stalk-o-meter.js?v=4.7.2-TEST1" defer></script>
+  <script>
+  (function(){
+    const target=document.getElementById('legal-version');
+    if(!target) return;
+    fetch('./VERSION.txt',{cache:'no-store'})
+      .then(response=>response.ok?response.text():Promise.reject())
+      .then(value=>{target.textContent='Version '+value.trim();})
+      .catch(()=>{target.textContent='Version nicht verfügbar';});
+  })();
+  </script>
+</body>
+</html>

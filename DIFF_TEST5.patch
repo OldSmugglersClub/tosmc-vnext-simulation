@@ -1,0 +1,29 @@
+--- /mnt/data/test5_diff_base/the-old-smugglers-club-test2-v2-main/VERSION.txt	2026-09-15 17:40:37.521916884 +0000
++++ /mnt/data/tosmc_test5_work/the-old-smugglers-club-test2-v2-main/VERSION.txt	2026-09-15 17:40:34.595699040 +0000
+@@ -1 +1 @@
+-4.9.2-HF12-HF101-TEST4
++4.9.2-HF12-HF101-TEST5
+--- /mnt/data/test5_diff_base/the-old-smugglers-club-test2-v2-main/highscore.html	2026-09-15 16:33:49.000000000 +0000
++++ /mnt/data/tosmc_test5_work/the-old-smugglers-club-test2-v2-main/highscore.html	2026-09-15 17:40:35.074506577 +0000
+@@ -44,7 +44,7 @@
+ </main>
+ <footer class="legal-footer" aria-label="Rechtliche Hinweise"><div class="legal-footer__inner"><span>© 2026 The Old Smugglers Club</span><nav class="legal-footer__links"><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a>
+       <a href="./nutzungsrechte.html">Nutzungsrechte</a><span id="legal-version">Version wird geladen</span></nav></div></footer>
+-<script src="./highscore-data-adapter.js"></script>
++<script src="./highscore-data-adapter.js?v=4.9.2-HF12-HF101-TEST5"></script>
+ <script src="./highscore.js?v=4.9.2-HF12-HF96-TEST1"></script>
+ 
+ <script>
+--- /mnt/data/test5_diff_base/the-old-smugglers-club-test2-v2-main/highscore-data-adapter.js	2026-09-15 16:33:49.000000000 +0000
++++ /mnt/data/tosmc_test5_work/the-old-smugglers-club-test2-v2-main/highscore-data-adapter.js	2026-09-15 17:40:35.074372324 +0000
+@@ -52,9 +52,7 @@
+       overallTeams:normalized.overall.team.length,
+       sourceHasGesamtTeam:Array.isArray(gesamt.team),
+       sourceHasTeamsOverall:Array.isArray(teamSources.overall),
+-      warning:sourcePath!=='./website-view.json'
+-        ? 'Aktuelle Ranglistendaten sind nicht vollständig verfügbar.'
+-        : ''
++      warning:''
+     };
+     return normalized;
+   }

@@ -1,0 +1,18 @@
+ERSETZEN:
+- VERSION.txt
+- wettbewerb.js
+- champions-league.html
+- europa-league.html
+- dfb-pokal.html
+- saison-2026-2027.html
+
+NEU:
+- torjaeger-fallback.js
+- torjaeger-snapshots.json
+- tests/hf97-goalgetter-fallback-regression.js
+- tests/hf97-ko-statistics-season-regression.js
+- RELEASE_NOTES_4.9.2-HF12-HF97-TEST1.md
+- ERSETZEN_NEU_LOESCHEN_4.9.2-HF12-HF97-TEST1.txt
+
+LOESCHEN:
+- nichts

@@ -1,0 +1,162 @@
+{
+  "version": "4.0.4",
+  "modus": "Plan B · datengetrieben",
+  "aktualisiertAm": "2026-07-31T13:15:00+02:00",
+  "module": [
+    {
+      "name": "Clubdaten",
+      "datei": "clubdaten.json",
+      "status": "aktiv"
+    },
+    {
+      "name": "Spieltag",
+      "datei": "spieltag.json",
+      "status": "aktiv"
+    },
+    {
+      "name": "Bundesliga-Tabelle",
+      "datei": "bundesliga-tabelle.json",
+      "status": "aktiv"
+    },
+    {
+      "name": "Topspieler",
+      "datei": "topspieler.json",
+      "status": "aktiv"
+    },
+    {
+      "name": "Administrationszentrum",
+      "datei": "admin.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Datensicherung",
+      "datei": "admin.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Wiederherstellungsprüfung",
+      "datei": "admin.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Pflegeprotokoll",
+      "datei": "admin.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Rückrollkontrolle",
+      "datei": "admin.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrales Daten-Cockpit",
+      "datei": "daten-cockpit.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Spielpflege",
+      "datei": "spielpflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Wettbewerbsverwaltung",
+      "datei": "wettbewerbspflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Team- und Teilnehmerpflege",
+      "datei": "team-teilnehmerpflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Tippdaten",
+      "datei": "tipppflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Punkteberechnung",
+      "datei": "punkteberechnung.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Automatische Highscore-Auswertung",
+      "datei": "highscore.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Bonusfragen und Sonderpunkte",
+      "datei": "bonuspflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Smugglerauftrag-Pflege",
+      "datei": "smugglerpflege.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Smugglerauftrag-Auswertung",
+      "datei": "smugglerwertung.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Teamwertung",
+      "datei": "teamwertung.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Wettbewerbs-Einzelwertungen",
+      "datei": "wettbewerbswertung.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Spieltag-Einzelwertungen",
+      "datei": "spieltagwertung.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Ranglistenverlauf und Formkurve",
+      "datei": "ranglistenverlauf.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Saisonarchiv und Hall of Fame",
+      "datei": "saisonarchiv.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Tippfristen- und Abgabekontrolle",
+      "datei": "tippfristen.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Abgabe-Erinnerungen",
+      "datei": "abgabe-erinnerungen.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Erinnerungsprotokoll",
+      "datei": "erinnerungsprotokoll.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Abgabezuverlässigkeit und Teilnehmerstatus",
+      "datei": "abgabezuverlaessigkeit.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Zentrale Datenqualitätsprüfung",
+      "datei": "datenqualitaet.html",
+      "status": "aktiv"
+    },
+    {
+      "name": "Aktueller Teilnehmerimport und Datenschutzprüfung",
+      "datei": "teilnehmer-importbericht.json",
+      "status": "aktiv"
+    }
+  ],
+  "releaseStatus": "produktionsbereit",
+  "datenregisterVersion": 40,
+  "aktualisiert": "2026-07-31",
+  "status": "produktionsbereit",
+  "administration": "separates lokales Paket, nicht öffentlich bereitgestellt"
+}

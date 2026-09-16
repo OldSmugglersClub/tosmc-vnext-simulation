@@ -1,0 +1,20 @@
+TOSMC Test2v2 – 4.9.2-HF12-HF101-TEST4
+
+Nur für Test2v2.
+
+Zu ersetzen:
+- logbuch.html
+- logbuch.js
+- logbuch.css
+- VERSION.txt
+
+Nicht verändern:
+- spieltag-logbuch.json
+- website-view.json
+- teams.json
+- Hall of Fame / Ehrenlogbuch
+- Admin- und Abschlusslogik
+
+Testziel:
+Unter „Frühere Einträge“ zuerst Wettbewerb wählen, danach Spieltag/Runde.
+Die Logbuchdaten selbst bleiben unverändert.

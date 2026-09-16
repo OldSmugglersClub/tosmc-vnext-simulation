@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:30:33.158Z",
+  "changeType": "local",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "CHANGELOG.md",
+      "type": "changed",
+      "before": "c2362a18c11b0d87da00d5284470abaa7ca438a0a0f6b8b6e5090b8ca796c60a",
+      "after": "43640051044767b18562b2cb233f13453027315e1a4b106380df8b0a370a00e2"
+    },
+    {
+      "path": "ERSETZEN_NEU_LOESCHEN_HF89_TEST2.txt",
+      "type": "new",
+      "before": null,
+      "after": "087d617124a28c74b3e94634addf6f738c216c09ce6f5b18005512ff36388fdd"
+    },
+    {
+      "path": "README_HF89_TEST2.md",
+      "type": "new",
+      "before": null,
+      "after": "06c8f1e06da24f8493a671f3f99e5453c6038db37acda3f0d6a0101b83110109"
+    },
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "9f0c79033c61c3fcdbebc298fc631b2d6bbb8a85745576bc0bd702707b6bc96e",
+      "after": "76dbe3e6a93443fb31f1ee5dd20ec362dd5407aebe63edf71f2f5034e6c8bc63"
+    },
+    {
+      "path": "index.html",
+      "type": "changed",
+      "before": "9cc883dcdeb98361b472cc76c541ce675052104575f9f77f9ef985f2a2c6be55",
+      "after": "b5a9a1c5778542e0fcb12254fc6e9c69697acfc248b0917408fc5740844da926"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "schemaVersion": 1,
+    "changeType": "local",
+    "description": "Desktop-Feinabstimmung Kicktipp-Schaltfläche auf Test2v2 HF89-TEST1",
+    "allowedPaths": [
+      "index.html",
+      "VERSION.txt",
+      "CHANGELOG.md",
+      "README_HF89_TEST2.md",
+      "ERSETZEN_NEU_LOESCHEN_HF89_TEST2.txt",
+      "TOSMC-AENDERUNGSNACHWEIS-HF89-TEST2.json",
+      "TOSMC-SCHUTZPRUEFUNG-HF89-TEST2.json"
+    ],
+    "protectedPaths": [
+      "spielbetrieb.json",
+      "spieldaten.json",
+      "highscore.json",
+      "website-view.json",
+      "teams.json",
+      "teilnehmer.json",
+      "wettbewerbe.json",
+      "schedule-data-adapter.js",
+      "wettbewerb.js",
+      "wettbewerb.css"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

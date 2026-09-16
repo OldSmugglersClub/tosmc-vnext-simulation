@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 1,
+  "aktualisiertAm": "2026-08-03T20:59:28.589Z",
+  "saison": "2026-27",
+  "status": "Noch ohne Wertung",
+  "kategorien": [
+    {
+      "titel": "Spieltagsführer",
+      "name": "Noch offen",
+      "wert": "–"
+    },
+    {
+      "titel": "Meiste exakte Tipps",
+      "name": "Noch offen",
+      "wert": "–"
+    },
+    {
+      "titel": "Beste Serie",
+      "name": "Noch offen",
+      "wert": "–"
+    }
+  ]
+}

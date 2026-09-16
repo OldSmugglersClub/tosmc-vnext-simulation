@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 10,
+  "aktualisiertAm": "2026-09-13T19:00:32.291Z",
+  "saison": "2026-27",
+  "status": "Berechnet",
+  "kategorien": [
+    {
+      "titel": "Spieltagsführer",
+      "name": "18AMFG99",
+      "wert": "96 Punkte"
+    },
+    {
+      "titel": "Meiste exakte Tipps",
+      "name": "18AMFG99",
+      "wert": "8"
+    },
+    {
+      "titel": "Beste Serie",
+      "name": "Noch offen",
+      "wert": "–"
+    }
+  ]
+}

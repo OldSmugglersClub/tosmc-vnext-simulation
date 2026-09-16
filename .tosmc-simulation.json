@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "type": "tosmc-vnext-website-simulation",
+  "writeTarget": true,
+  "sourceBaseline": "Test2v2 4.9.2-HF12-HF101-TEST9",
+  "sourcePolicy": "Copied baseline only. Original Test2v2, Live Repo, TestAdmin and LiveAdmin remain READ ONLY.",
+  "createdFor": "TOSMC Admin vNext"
+}

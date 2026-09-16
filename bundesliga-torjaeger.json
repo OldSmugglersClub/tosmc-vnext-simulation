@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 17,
+  "aktualisiert": "2026-09-13",
+  "saison": "2026/2027",
+  "quelle": "OpenLigaDB getgoalgetters/bl1/2026",
+  "status": "bereit",
+  "torjaeger": [
+    {
+      "name": "Younes Ebnoutalib",
+      "tore": 3
+    },
+    {
+      "name": "P. Schick",
+      "tore": 3
+    },
+    {
+      "name": "I. Matanovic",
+      "tore": 3
+    },
+    {
+      "name": "Y. Suzuki",
+      "tore": 3
+    },
+    {
+      "name": "M. Gregoritsch",
+      "tore": 3
+    },
+    {
+      "name": "M. Krattenmacher",
+      "tore": 3
+    },
+    {
+      "name": "P. Tietz",
+      "tore": 3
+    },
+    {
+      "name": "J. Vagnoman",
+      "tore": 2
+    },
+    {
+      "name": "A. Nusa",
+      "tore": 2
+    },
+    {
+      "name": "R. Baku",
+      "tore": 2
+    },
+    {
+      "name": "T. Skarke",
+      "tore": 2
+    },
+    {
+      "name": "Thijs Dallinga",
+      "tore": 2
+    },
+    {
+      "name": "C. Kofane",
+      "tore": 2
+    },
+    {
+      "name": "S. Guirassy",
+      "tore": 2
+    },
+    {
+      "name": "Fabio Silva",
+      "tore": 2
+    },
+    {
+      "name": "H. Bolin",
+      "tore": 2
+    },
+    {
+      "name": "N. Füllkrug",
+      "tore": 2
+    },
+    {
+      "name": "M. Eggestein",
+      "tore": 2
+    },
+    {
+      "name": "J. Burkardt",
+      "tore": 2
+    },
+    {
+      "name": "F. Nmecha",
+      "tore": 2
+    },
+    {
+      "name": "A. Hložek",
+      "tore": 2
+    },
+    {
+      "name": "Y. Engelhardt",
+      "tore": 2
+    },
+    {
+      "name": "C. Uzun",
+      "tore": 2
+    },
+    {
+      "name": "Luis Díaz",
+      "tore": 1
+    },
+    {
+      "name": "M. Olise",
+      "tore": 1
+    },
+    {
+      "name": "D. Upamecano",
+      "tore": 1
+    },
+    {
+      "name": "Aleksandar Pavlovic",
+      "tore": 1
+    },
+    {
+      "name": "R. Reitz",
+      "tore": 1
+    },
+    {
+      "name": "Emmanuel Latte Lath",
+      "tore": 1
+    },
+    {
+      "name": "L. Querfeld",
+      "tore": 1
+    },
+    {
+      "name": "A. Daghim",
+      "tore": 1
+    },
+    {
+      "name": "S. El Mala",
+      "tore": 1
+    },
+    {
+      "name": "O. Kabak",
+      "tore": 1
+    },
+    {
+      "name": "Cole Campbell",
+      "tore": 1
+    },
+    {
+      "name": "David Mokwa Ntusu",
+      "tore": 1
+    },
+    {
+      "name": "L. Petkov",
+      "tore": 1
+    },
+    {
+      "name": "Giannis Konstantelias",
+      "tore": 1
+    },
+    {
+      "name": "D. Stalmach",
+      "tore": 1
+    },
+    {
+      "name": "A. Kade",
+      "tore": 1
+    },
+    {
+      "name": "Rodrigo Ribeiro",
+      "tore": 1
+    },
+    {
+      "name": "B. El Khannouss",
+      "tore": 1
+    },
+    {
+      "name": "E. Demirovic",
+      "tore": 1
+    },
+    {
+      "name": "G. Prömel",
+      "tore": 1
+    },
+    {
+      "name": "T. Lemperle",
+      "tore": 1
+    },
+    {
+      "name": "L. Avdullahu",
+      "tore": 1
+    },
+    {
+      "name": "Facundo Medina",
+      "tore": 1
+    },
+    {
+      "name": "E. Fernández",
+      "tore": 1
+    },
+    {
+      "name": "Ibrahim Maza",
+      "tore": 1
+    },
+    {
+      "name": "J. Scally",
+      "tore": 1
+    },
+    {
+      "name": "D. Mokwa",
+      "tore": 1
+    },
+    {
+      "name": "F. Keidel",
+      "tore": 1
+    },
+    {
+      "name": "E. Dinkçi",
+      "tore": 1
+    },
+    {
+      "name": "M. Grüll",
+      "tore": 1
+    },
+    {
+      "name": "P. Mwene",
+      "tore": 1
+    },
+    {
+      "name": "S. Becker",
+      "tore": 1
+    },
+    {
+      "name": "R. Königsdörffer",
+      "tore": 1
+    },
+    {
+      "name": "A. Ibrahimovic",
+      "tore": 1
+    },
+    {
+      "name": "Alexis Claude-Maurice",
+      "tore": 1
+    },
+    {
+      "name": "R. Fellhauer",
+      "tore": 1
+    },
+    {
+      "name": "F. Rieder",
+      "tore": 1
+    },
+    {
+      "name": "R. Gosens",
+      "tore": 1
+    },
+    {
+      "name": "M. Wöber",
+      "tore": 1
+    },
+    {
+      "name": "A. Aouchiche",
+      "tore": 1
+    },
+    {
+      "name": "M. Mittelstädt",
+      "tore": 1
+    },
+    {
+      "name": "L. Maina",
+      "tore": 1
+    },
+    {
+      "name": "C. Nkunku",
+      "tore": 1
+    },
+    {
+      "name": "T. Gomis",
+      "tore": 1
+    },
+    {
+      "name": "Romulo",
+      "tore": 1
+    },
+    {
+      "name": "W. Orbán",
+      "tore": 1
+    },
+    {
+      "name": "Lennart Karl",
+      "tore": 1
+    },
+    {
+      "name": "H. Kane",
+      "tore": 1
+    }
+  ]
+}

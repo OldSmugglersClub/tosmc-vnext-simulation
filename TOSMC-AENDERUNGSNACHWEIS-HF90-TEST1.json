@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:46:20.464Z",
+  "changeType": "local",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "CHANGELOG.md",
+      "type": "changed",
+      "before": "992dce98ea96dc32ef74cf798095fc54191e763a1416e8a44432e967134b5150",
+      "after": "b74201e0e3b16a7986c958c48a3920ef803da95f9af187f243c948d979dca875"
+    },
+    {
+      "path": "ERSETZEN_NEU_LOESCHEN_HF90_TEST1.txt",
+      "type": "new",
+      "before": null,
+      "after": "f7e9bdc91885dbadc51b298293274c8a9645e7d6eba65145038724551f94525e"
+    },
+    {
+      "path": "README_HF90_TEST1.md",
+      "type": "new",
+      "before": null,
+      "after": "960c40ed94bbd22b9dfb60385461e2a041fbc2446d185cbccb79a76b089419f1"
+    },
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "e2674b8e48e032cc280a44717fc4ebbcd01f06930bafbd18d93d742d35ba7c8c",
+      "after": "319a74edb35647d3a0942c5b745842148bb53f139c14442dd311c6be8ee5427b"
+    },
+    {
+      "path": "index.html",
+      "type": "changed",
+      "before": "b5a9a1c5778542e0fcb12254fc6e9c69697acfc248b0917408fc5740844da926",
+      "after": "1cb8c46ed66bc57e6b4a48abad886972522c97c1adf49e6b14ca618b42675ac6"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "schemaVersion": 1,
+    "changeType": "local",
+    "description": "Responsive Layoutkorrektur für Counter und mobile Schnellzugriffe",
+    "allowedPaths": [
+      "index.html",
+      "VERSION.txt",
+      "CHANGELOG.md",
+      "README_HF90_TEST1.md",
+      "ERSETZEN_NEU_LOESCHEN_HF90_TEST1.txt",
+      "TOSMC-AENDERUNGSNACHWEIS-HF90-TEST1.json",
+      "TOSMC-SCHUTZPRUEFUNG-HF90-TEST1.json"
+    ],
+    "protectedPaths": [
+      "spielbetrieb.json",
+      "spieldaten.json",
+      "highscore.json",
+      "website-view.json",
+      "teams.json",
+      "teilnehmer.json",
+      "wettbewerbe.json",
+      "schedule-data-adapter.js",
+      "wettbewerb.js",
+      "wettbewerb.css"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

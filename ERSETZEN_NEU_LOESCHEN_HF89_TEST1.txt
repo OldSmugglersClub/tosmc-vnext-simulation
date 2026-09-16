@@ -1,0 +1,14 @@
+The Old Smugglers Club – Test2v2 4.9.2-HF12-HF89-TEST1
+
+ERSETZEN:
+- index.html
+- VERSION.txt
+- CHANGELOG.md
+
+NEU:
+- README_HF89_TEST1.md
+- ERSETZEN_NEU_LOESCHEN_HF89_TEST1.txt
+- SHA256_HF89_TEST1.txt
+
+LOESCHEN:
+- nichts

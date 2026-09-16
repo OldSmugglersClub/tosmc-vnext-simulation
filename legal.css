@@ -1,0 +1,88 @@
+/* Rechtliche Seiten und Footer – Version 4.4.14 */
+.legal-footer{width:100%;margin-top:0;border-top:0;background:rgba(15,10,7,.88);color:#d8c49a;font-family:Georgia,"Times New Roman",serif}
+.legal-footer__inner{max-width:1180px;margin:0 auto;padding:12px 22px;display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;font-size:.9rem;letter-spacing:.025em}
+.legal-footer__links{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.legal-footer a{color:#e3c57a;text-decoration:none;border-bottom:1px solid transparent}
+.legal-footer a:hover,.legal-footer a:focus-visible{color:#fff0b5;border-bottom-color:currentColor}
+.legal-page{min-height:100vh;margin:0;background:#15100b url("./background.jpeg") center/cover fixed;color:#eadfca;font-family:Georgia,"Times New Roman",serif}
+.legal-page::before{content:"";position:fixed;inset:0;pointer-events:none;background:rgba(10,7,5,.67)}
+.legal-shell{position:relative;z-index:1;width:min(920px,calc(100% - 28px));margin:28px auto;padding:clamp(20px,4vw,42px);box-sizing:border-box;border:1px solid rgba(196,151,71,.65);border-radius:18px;background:linear-gradient(145deg,rgba(48,31,20,.96),rgba(22,15,11,.97));box-shadow:0 18px 46px rgba(0,0,0,.48),inset 0 0 0 2px rgba(255,221,141,.06)}
+.legal-kicker{margin:0 0 8px;color:#c99c4b;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem}
+.legal-shell h1{margin:0 0 24px;color:#f0cf79;font-size:clamp(2rem,5vw,3.25rem);line-height:1.05;text-shadow:0 2px 10px rgba(0,0,0,.55)}
+.legal-shell h2{margin:28px 0 10px;color:#e4bc64;font-size:1.28rem}
+.legal-shell p,.legal-shell li,.legal-shell address{line-height:1.65;font-style:normal}
+.legal-shell a{color:#f0cf79}
+.legal-shell ul{padding-left:1.25rem}
+.legal-note{padding:14px 16px;border-left:3px solid #bd8c39;background:rgba(0,0,0,.22)}
+.legal-back{display:inline-block;margin-top:26px;padding:10px 15px;border:1px solid rgba(221,177,83,.7);border-radius:999px;color:#f3d586;text-decoration:none;background:rgba(80,50,24,.55)}
+.legal-back:hover,.legal-back:focus-visible{background:rgba(112,70,31,.72)}
+@media(max-width:620px){
+  .legal-footer__inner,.legal-footer__links{justify-content:center;text-align:center}
+  .legal-shell{margin:14px auto;width:min(100% - 18px,920px);padding:20px 17px}
+  .legal-shell h1{font-size:clamp(1.7rem,7.2vw,2rem);line-height:1.12;overflow-wrap:anywhere;hyphens:auto}
+  .legal-page{background-attachment:scroll}
+}
+
+@media(min-width:721px){
+  .legal-footer__links{gap:18px}
+}
+
+
+/* HF2 Korrektur: keine Wortzerreißung in Überschriften auf Rechtsseiten */
+.legal-page h1,
+.legal-page h2,
+.legal-page .legal-kicker {
+  hyphens: none;
+  -webkit-hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+@media (max-width: 700px) {
+  .legal-page h1,
+  .legal-page h2 {
+    hyphens: none;
+    -webkit-hyphens: none;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+}
+
+
+/* HF2 Abnahmekorrektur 2:
+   Mobile Rechtsseiten: vollständige Wörter in H1 nicht trennen.
+   Schriftgröße nur mobil reduzieren, damit "Nutzungsrechte" ungeteilt passt. */
+@media (max-width: 700px) {
+  .legal-page h1 {
+    font-size: clamp(1.72rem, 7.1vw, 2.25rem);
+    line-height: 1.08;
+    hyphens: none;
+    -webkit-hyphens: none;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+}
+
+
+/* 4.7.2-HF3: Nur lange Kontakt-Mailadressen dürfen auf schmalen Displays umbrechen.
+   Fließtext und Überschriften behalten die HF2-Regeln gegen Wortzerreißung. */
+.legal-page .legal-email {
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+
+/* 4.7.2-HF3-HF1: Mobile Rechtsseiten-H1 verkleinert, damit lange Titel wie
+   „Datenschutzerklärung“ vollständig im bestehenden Kasten bleiben.
+   Keine Worttrennung, kein Desktop-Eingriff. */
+
+/* 4.9.2-HF12-HF22 / TEST25:
+   Footer-Kacheln unten geschlossen, solange die bestehende mobile
+   nav-Rahmenregel bis 720 px aktiv ist. */
+@media (max-width: 720px) {
+  .legal-footer a {
+    border-bottom-color: rgba(196,151,71,.65);
+  }
+}

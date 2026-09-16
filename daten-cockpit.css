@@ -1,0 +1,47 @@
+:root{color-scheme:dark;--wood:#160f0b;--wood-2:#28180f;--leather:#3b2417;--brass:#c39a4a;--brass-light:#ead08d;--ink:#f3e7c8;--muted:#c8b895;--line:rgba(222,184,103,.32);--ok:#a9c88d;--warn:#e4bd6f;--error:#df8d7d}
+*{box-sizing:border-box}
+html{min-height:100%;background:#0d0907}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(circle at 50% -10%,rgba(170,115,48,.18),transparent 38%),linear-gradient(rgba(12,8,6,.76),rgba(12,8,6,.9)),url("piraten-spieltag-hintergrund.jpg") center/cover fixed}
+a{color:inherit}
+.cockpit-shell{width:min(1180px,calc(100% - 32px));margin:0 auto;padding:38px 0 56px}
+.cockpit-header,.cockpit-section{border:1px solid var(--line);background:linear-gradient(145deg,rgba(55,34,21,.94),rgba(21,14,10,.96));box-shadow:0 18px 45px rgba(0,0,0,.38),inset 0 1px rgba(255,231,174,.08)}
+.cockpit-header{padding:32px;border-radius:18px;text-align:center}
+.cockpit-kicker{text-transform:uppercase;letter-spacing:.22em;color:var(--brass-light);font-size:.78rem;margin:0 0 8px}
+h1,h2{color:var(--brass-light);text-shadow:0 2px 5px #000}
+h1{margin:.15em 0;font-size:clamp(2rem,5vw,3.35rem)}
+h2{margin:0;font-size:clamp(1.35rem,3vw,1.8rem)}
+.cockpit-header>p:not(.cockpit-kicker){max-width:760px;margin:12px auto 0;color:var(--muted);line-height:1.6}
+.cockpit-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:24px}
+.cockpit-button{appearance:none;border:1px solid rgba(234,208,141,.5);border-radius:9px;padding:11px 16px;background:linear-gradient(#5d3d22,#342014);color:var(--ink);font:700 .94rem Georgia,serif;text-decoration:none;cursor:pointer;box-shadow:inset 0 1px rgba(255,255,255,.08)}
+.cockpit-button:hover{border-color:var(--brass-light);transform:translateY(-1px)}
+.cockpit-section{margin-top:22px;padding:24px;border-radius:15px}
+.cockpit-heading-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
+.cockpit-badge{display:inline-flex;align-items:center;min-height:30px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(0,0,0,.28);font-size:.84rem;color:var(--muted)}
+.cockpit-badge[data-status="ok"]{color:var(--ok);border-color:rgba(169,200,141,.5)}
+.cockpit-badge[data-status="warning"]{color:var(--warn);border-color:rgba(228,189,111,.5)}
+.cockpit-badge[data-status="error"]{color:var(--error);border-color:rgba(223,141,125,.5)}
+.cockpit-overview{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.overview-card,.competition-card{border:1px solid var(--line);background:linear-gradient(160deg,rgba(87,52,28,.42),rgba(15,10,8,.6));box-shadow:inset 0 1px rgba(255,255,255,.05)}
+.overview-card{padding:16px;border-radius:12px;text-align:center}
+.overview-card strong{display:block;font-size:clamp(1.45rem,4vw,2.15rem);color:var(--brass-light)}
+.overview-card span{display:block;margin-top:5px;color:var(--muted);font-size:.87rem}
+.competition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.competition-card{position:relative;padding:20px;border-radius:13px;overflow:hidden}
+.competition-card::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(var(--brass-light),#79511f)}
+.competition-card h3{margin:0;color:var(--brass-light);font-size:1.28rem}
+.competition-meta{margin:7px 0 16px;color:var(--muted);font-size:.9rem}
+.competition-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:16px}
+.competition-stat{padding:10px 7px;border:1px solid rgba(222,184,103,.2);border-radius:8px;background:rgba(0,0,0,.18);text-align:center}
+.competition-stat strong{display:block;color:var(--ink);font-size:1.1rem}
+.competition-stat span{font-size:.75rem;color:var(--muted)}
+.progress-track{height:8px;border-radius:999px;background:rgba(0,0,0,.42);overflow:hidden;margin:0 0 16px}
+.progress-bar{height:100%;background:linear-gradient(90deg,#8b632c,var(--brass-light));border-radius:inherit}
+.competition-link{display:inline-flex;align-items:center;min-height:40px;padding:9px 14px;border:1px solid rgba(234,208,141,.45);border-radius:8px;text-decoration:none;background:rgba(91,57,31,.45);font-weight:700}
+.competition-link:hover{background:rgba(121,78,37,.62)}
+.cockpit-notices{color:var(--muted);line-height:1.6}
+.cockpit-notices ul{margin:8px 0 0;padding-left:20px}
+.cockpit-notices .error{color:var(--error)}
+.cockpit-notices .warning{color:var(--warn)}
+@media(max-width:900px){.cockpit-overview{grid-template-columns:repeat(3,minmax(0,1fr))}.competition-grid{grid-template-columns:1fr}}
+@media(max-width:620px){.cockpit-shell{width:min(100% - 18px,1180px);padding-top:14px}.cockpit-header,.cockpit-section{padding:18px}.cockpit-overview{grid-template-columns:repeat(2,minmax(0,1fr))}.competition-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.cockpit-heading-row{align-items:flex-start;flex-direction:column}.cockpit-nav{flex-direction:column}.cockpit-button{width:100%}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}

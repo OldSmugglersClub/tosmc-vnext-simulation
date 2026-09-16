@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Old Smugglers Club – Countdown-Kachel Final V2</title>
+
+<style>
+:root {
+  --sc-brass-light: #e8c36e;
+  --sc-brass: #b77b22;
+  --sc-brass-dark: #6c420e;
+  --sc-parchment: #ead7a2;
+  --sc-leather-1: #17100a;
+  --sc-leather-2: #100b07;
+  --sc-leather-3: #090604;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background: #080604;
+  color: var(--sc-parchment);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.smuggler-countdown {
+  position: relative;
+  width: min(100%, 385px);
+  min-height: 426px;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid #8f5c19;
+  border-radius: 18px;
+  padding: 32px 31px 26px;
+  background:
+    radial-gradient(circle at 72% 23%, rgba(143,92,25,.07), transparent 34%),
+    radial-gradient(circle at 22% 78%, rgba(123,78,19,.045), transparent 38%),
+    linear-gradient(145deg, var(--sc-leather-1), var(--sc-leather-2) 48%, var(--sc-leather-3));
+  box-shadow:
+    inset 0 0 0 1px rgba(225,171,61,.08),
+    inset 0 0 28px rgba(0,0,0,.82),
+    inset 0 0 72px rgba(0,0,0,.48),
+    0 12px 30px rgba(0,0,0,.42);
+}
+
+/* Gealtertes Leder: feine Körnung, Kratzer und Druckstellen */
+.smuggler-countdown::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -4;
+  opacity: .55;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255,255,255,.028) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 72% 62%, rgba(255,255,255,.018) 0 1px, transparent 1.8px),
+    repeating-linear-gradient(14deg, transparent 0 10px, rgba(255,255,255,.015) 10px 11px),
+    repeating-linear-gradient(102deg, transparent 0 15px, rgba(0,0,0,.13) 15px 16px),
+    linear-gradient(96deg, transparent 0 12%, rgba(255,255,255,.02) 12.4%, transparent 13% 67%, rgba(0,0,0,.16) 67.5%, transparent 68%);
+  mix-blend-mode: soft-light;
+}
+
+/* Große, fast schwarze Windrose als Gravur */
+.smuggler-countdown::after {
+  content: "";
+  position: absolute;
+  right: -88px;
+  bottom: -92px;
+  width: 255px;
+  height: 255px;
+  z-index: -3;
+  border-radius: 50%;
+  opacity: .23;
+  background:
+    linear-gradient(0deg, transparent 48.8%, rgba(139,93,31,.32) 49.2% 50.8%, transparent 51.2%),
+    linear-gradient(45deg, transparent 48.8%, rgba(139,93,31,.28) 49.2% 50.8%, transparent 51.2%),
+    linear-gradient(90deg, transparent 48.8%, rgba(139,93,31,.32) 49.2% 50.8%, transparent 51.2%),
+    linear-gradient(135deg, transparent 48.8%, rgba(139,93,31,.28) 49.2% 50.8%, transparent 51.2%),
+    radial-gradient(circle, transparent 0 40px, rgba(122,79,24,.28) 41px 42px, transparent 43px 66px, rgba(122,79,24,.22) 67px 68px, transparent 69px);
+  filter: blur(.1px);
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,.2),
+    0 1px 0 rgba(193,132,37,.05);
+  transform: rotate(-9deg);
+}
+
+/* Sehr dezente Seekartenlinien */
+.smuggler-countdown .map-engraving {
+  position: absolute;
+  inset: 88px 0 0 0;
+  z-index: -2;
+  opacity: .09;
+  pointer-events: none;
+  background:
+    repeating-radial-gradient(ellipse at 22% 36%, transparent 0 29px, rgba(152,101,31,.8) 30px 31px, transparent 32px 48px),
+    linear-gradient(21deg, transparent 49.6%, rgba(151,99,29,.5) 50%, transparent 50.4%),
+    linear-gradient(111deg, transparent 49.6%, rgba(151,99,29,.4) 50%, transparent 50.4%);
+}
+
+/* Messingplakette */
+.countdown-plaque {
+  position: relative;
+  margin: 0 0 18px;
+  min-height: 34px;
+  display: grid;
+  place-items: center;
+  padding: 8px 24px;
+  border: 1px solid #d6a447;
+  border-radius: 7px;
+  color: #170d05;
+  background:
+    linear-gradient(180deg, #dfbc6a 0%, #b47a24 50%, #875318 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.45),
+    inset 0 -2px 4px rgba(57,27,4,.55),
+    0 3px 8px rgba(0,0,0,.42);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-shadow: 0 1px rgba(255,255,255,.25);
+}
+
+.countdown-plaque::before,
+.countdown-plaque::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: radial-gradient(circle at 35% 30%, #f7d477, #8d5719 58%, #3d2106);
+  box-shadow: 0 1px 2px #2b1705;
+}
+
+.countdown-plaque::before { left: 9px; }
+.countdown-plaque::after { right: 9px; }
+
+/* Mechanische Countdown-Felder */
+.countdown-dials {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.countdown-dial {
+  position: relative;
+  min-width: 0;
+  height: 112px;
+  padding: 19px 4px 8px;
+  border: 1px solid #b97b23;
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.022), transparent 18% 82%, rgba(255,255,255,.012)),
+    linear-gradient(180deg, #28170c 0%, #140c07 48%, #0c0704 52%, #1b1008 100%);
+  box-shadow:
+    inset 0 0 0 2px rgba(0,0,0,.42),
+    inset 0 9px 15px rgba(255,170,45,.025),
+    0 5px 12px rgba(0,0,0,.38);
+  text-align: center;
+}
+
+.countdown-dial::before,
+.countdown-dial::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e6c16b, #835015 58%, #351c05);
+}
+.countdown-dial::before { left: 8px; }
+.countdown-dial::after { right: 8px; }
+
+.countdown-value {
+  display: block;
+  color: #e7b84f;
+  font-size: clamp(28px, 7vw, 38px);
+  line-height: 1;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-shadow:
+    0 2px 0 #4d2b08,
+    0 0 10px rgba(217,167,63,.12);
+}
+
+.countdown-divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 56px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(185,123,35,.35), transparent);
+  box-shadow: 0 1px rgba(0,0,0,.8);
+}
+
+.countdown-label {
+  display: block;
+  margin-top: 14px;
+  color: #e2c982;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+/* Ruhiger Trenner, ohne zusätzliche Clipart-Wirkung */
+.countdown-separator {
+  display: grid;
+  grid-template-columns: 1fr 28px 1fr;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 0 13px;
+}
+
+.countdown-separator::before,
+.countdown-separator::after {
+  content: "";
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(180,119,33,.32));
+}
+
+.countdown-separator::after {
+  transform: scaleX(-1);
+}
+
+.countdown-separator span {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(180,119,33,.34);
+  border-radius: 50%;
+  color: #bd8731;
+  background: rgba(12,7,4,.72);
+  font-size: 14px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,.7);
+}
+
+/* Information direkt in die Lederfläche integriert */
+.countdown-info {
+  position: relative;
+  padding: 14px 14px 12px 16px;
+  border-left: 3px solid #b87c25;
+  border-radius: 4px;
+  background:
+    linear-gradient(90deg, rgba(78,43,20,.28), rgba(33,19,10,.16) 72%, transparent);
+  box-shadow:
+    inset 0 1px rgba(255,255,255,.018),
+    inset 0 -1px rgba(0,0,0,.32);
+}
+
+.countdown-info strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #edd9a7;
+  font-size: 14px;
+  line-height: 1.28;
+}
+
+.countdown-info .date-line {
+  color: #cfa757;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.countdown-info .mission-line {
+  margin-top: 11px;
+  color: #dec27f;
+  font-size: 12px;
+  line-height: 1.32;
+  font-weight: 700;
+}
+
+.countdown-info .anchor {
+  color: #7fa6ad;
+  margin-right: 5px;
+  filter: saturate(.6);
+}
+
+@media (max-width: 430px) {
+  body { padding: 10px; }
+
+  .smuggler-countdown {
+    width: 100%;
+    min-height: 0;
+    padding: 22px 18px 20px;
+    border-radius: 15px;
+  }
+
+  .countdown-plaque {
+    font-size: 10px;
+    padding-inline: 20px;
+  }
+
+  .countdown-dials {
+    gap: 6px;
+  }
+
+  .countdown-dial {
+    height: 99px;
+    padding-top: 17px;
+  }
+
+  .countdown-divider {
+    top: 49px;
+  }
+
+  .countdown-value {
+    font-size: clamp(27px, 10vw, 34px);
+  }
+
+  .countdown-label {
+    margin-top: 12px;
+    font-size: 8px;
+  }
+
+  .countdown-info {
+    padding: 13px 12px 12px 14px;
+  }
+
+  .smuggler-countdown::after {
+    right: -118px;
+    bottom: -108px;
+    opacity: .18;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="smuggler-countdown" aria-labelledby="countdown-heading">
+  <div class="map-engraving" aria-hidden="true"></div>
+
+  <h2 class="countdown-plaque" id="countdown-heading">
+    Bundesliga-Start · 28. August 2026
+  </h2>
+
+  <div class="countdown-dials" aria-live="polite" aria-label="Countdown bis zum Bundesliga-Start">
+    <div class="countdown-dial">
+      <span class="countdown-value" id="days">00</span>
+      <span class="countdown-divider" aria-hidden="true"></span>
+      <span class="countdown-label">Tage</span>
+    </div>
+    <div class="countdown-dial">
+      <span class="countdown-value" id="hours">00</span>
+      <span class="countdown-divider" aria-hidden="true"></span>
+      <span class="countdown-label">Stunden</span>
+    </div>
+    <div class="countdown-dial">
+      <span class="countdown-value" id="minutes">00</span>
+      <span class="countdown-divider" aria-hidden="true"></span>
+      <span class="countdown-label">Minuten</span>
+    </div>
+    <div class="countdown-dial">
+      <span class="countdown-value" id="seconds">00</span>
+      <span class="countdown-divider" aria-hidden="true"></span>
+      <span class="countdown-label">Sekunden</span>
+    </div>
+  </div>
+
+  <div class="countdown-separator" aria-hidden="true"><span>☸</span></div>
+
+  <div class="countdown-info">
+    <strong>Der Zähler läuft bis zum offiziellen Bundesliga-Start.</strong>
+    <div class="date-line">28. August 2026 · Start der Bundesliga-Saison</div>
+    <div class="mission-line">
+      <span class="anchor">⚓</span>Bereits am 09. August 2026 beginnt der Smugglerauftrag „Auftakt“.
+    </div>
+  </div>
+</section>
+
+<script>
+(() => {
+  /*
+    Zielzeit: 28.08.2026, 20:30 Uhr deutscher Sommerzeit.
+    Falls eure bestehende Countdown-Funktion bereits zentral eingebunden ist,
+    kann dieses Script entfernt und nur das vorhandene Script weiterverwendet werden.
+  */
+  const target = new Date("2026-08-28T20:30:00+02:00").getTime();
+
+  const nodes = {
+    days: document.getElementById("days"),
+    hours: document.getElementById("hours"),
+    minutes: document.getElementById("minutes"),
+    seconds: document.getElementById("seconds")
+  };
+
+  const pad = value => String(value).padStart(2, "0");
+
+  function updateCountdown() {
+    const distance = Math.max(0, target - Date.now());
+
+    const days = Math.floor(distance / 86400000);
+    const hours = Math.floor((distance % 86400000) / 3600000);
+    const minutes = Math.floor((distance % 3600000) / 60000);
+    const seconds = Math.floor((distance % 60000) / 1000);
+
+    nodes.days.textContent = pad(days);
+    nodes.hours.textContent = pad(hours);
+    nodes.minutes.textContent = pad(minutes);
+    nodes.seconds.textContent = pad(seconds);
+
+    if (distance === 0) {
+      clearInterval(timer);
+    }
+  }
+
+  updateCountdown();
+  const timer = setInterval(updateCountdown, 1000);
+})();
+</script>
+
+  <script src="performance-v247.js" defer></script>
+</body>
+</html>

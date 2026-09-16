@@ -1,0 +1,46 @@
+{
+  "version": "4.7.1-TEST8",
+  "scope": "update",
+  "files": [
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "5d5bdc5ac4a38eb1a98ab77aa1c1844981c5d20405b02b14d7079a2313373f8a",
+      "size": 24724
+    },
+    {
+      "file": "CHANGELOG_4.7.1-TEST8.md",
+      "sha256": "aae748a0612a8f5d6f1e430e7a9f4069d7057f36e650c94e6c9a4a3f0dfd1f0d",
+      "size": 534
+    },
+    {
+      "file": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST8.md",
+      "sha256": "f9c9af62ffbfbdc2a1dd74e8386ae02a1ef427b74a64caece984e40948e461dd",
+      "size": 488
+    },
+    {
+      "file": "GITHUB-DESKTOP_4.7.1-TEST8.md",
+      "sha256": "0660df3976c6ddb9d06218ed48450faf38ecceee4791a0920850312c5fc9d1fd",
+      "size": 951
+    },
+    {
+      "file": "README_4.7.1-TEST8.md",
+      "sha256": "b5ea6b15fbe69d65490ff656cb51cdbfe5c30a5ebbe6c8104ffdb282d059ea1b",
+      "size": 184
+    },
+    {
+      "file": "TESTPROTOKOLL_4.7.1-TEST8.md",
+      "sha256": "cd74fa265ecd211377abbbff30c444a5a74470810d98df10859f718ef128fc17",
+      "size": 519
+    },
+    {
+      "file": "VERSION.txt",
+      "sha256": "c92ec0baa4e4e313cd29b03ed2f8db41240972ea928886e483491f95d376942b",
+      "size": 12
+    },
+    {
+      "file": "index.html",
+      "sha256": "6c3b50c138510eb4dd75bae525c35bf5df267b2c30fed961b58bcd6bd51b3e8f",
+      "size": 201632
+    }
+  ]
+}

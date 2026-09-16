@@ -1,0 +1,10 @@
+VERSION 32 HOCHLADEN
+
+Mindestens ersetzen bzw. neu hochladen:
+- index.html
+- club-style.css
+- club-app.js
+- hero-segelschiff.jpg
+
+Die JSON-Dateien und Unterseiten bleiben bestehen.
+Nach dem Upload GitHub Pages abwarten und Strg+F5 drücken.

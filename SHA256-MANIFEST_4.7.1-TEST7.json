@@ -1,0 +1,45 @@
+{
+  "version": "4.7.1-TEST7",
+  "files": {
+    "CHANGELOG.md": {
+      "sha256": "9d44629e6cf672ab9df1d84f6f47b4916b872177aa3b101de48afd2ae099f74a",
+      "bytes": 24407
+    },
+    "CHANGELOG_4.7.1-TEST7.md": {
+      "sha256": "ca9b5b7f4cb90a7bb3149f7d4d8e05a74e6bb9ffd7a0df029929de7dc8857553",
+      "bytes": 672
+    },
+    "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST7.md": {
+      "sha256": "9fe069a9462e1e5ccc26069987206c430aa9c24838bbfa542823a285dfaa057a",
+      "bytes": 479
+    },
+    "GITHUB-DESKTOP_4.7.1-TEST7.md": {
+      "sha256": "2ad4c39b2e310d40c4554ec7abe0937bfc3706d97da95c8c1105dcf097d3e5c8",
+      "bytes": 1027
+    },
+    "README_4.7.1-TEST7.md": {
+      "sha256": "0b022491ad61ac1f658c3d693c69b5c8a278ecfce9b0e31a9e260e3469efee9c",
+      "bytes": 297
+    },
+    "TESTPROTOKOLL_4.7.1-TEST7.md": {
+      "sha256": "3304e5711f166ffc8d619054a4848c90037a3d54026dc251525c67ff1ccab9dd",
+      "bytes": 759
+    },
+    "VERSION.txt": {
+      "sha256": "d9c30fe76785324108b4686f30656236b02544b42088c3c217188609566b9ad6",
+      "bytes": 12
+    },
+    "index.html": {
+      "sha256": "adc88382f09b415a225f00c6a1fdbbddb2e22e896edd93e77b7e1bea1589ec94",
+      "bytes": 200740
+    },
+    "highscore.css": {
+      "sha256": "9c22f654b56d72d9cbcbb76068a2d4ca013b945946b8133b0ba2e76c2c7ed8f7",
+      "bytes": 71691
+    },
+    "highscore.html": {
+      "sha256": "bb21bb48903b5cea430c9fa809fcffeacf1dd062b646e8779574d252310114ca",
+      "bytes": 4845
+    }
+  }
+}

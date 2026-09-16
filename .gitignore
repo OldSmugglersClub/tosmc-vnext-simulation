@@ -1,17 +1,7 @@
-# vNext runtime / local test output
-runtime/
-sandbox/
-worktree/
-worktrees/
+# Local vNext simulation runtime artifacts
+.vnext-runtime/
 snapshots/
 *.tmp
 *.log
-
-# OS/editor
 Thumbs.db
 .DS_Store
-.vscode/
-.idea/
-
-# ZIP test packages should not be committed by default
-*.zip

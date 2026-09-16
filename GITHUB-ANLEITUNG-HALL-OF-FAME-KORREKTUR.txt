@@ -1,0 +1,29 @@
+GITHUB-UPLOAD – HALL OF FAME KORREKTUR
+
+Im GitHub-Hauptverzeichnis ersetzen bzw. ergänzen:
+
+1. index.html
+2. hall-of-fame.json
+3. Champion-Trophäe.jpeg
+
+WAS KORRIGIERT WURDE
+
+- Der ursprüngliche Hall-of-Fame-Aufbau bleibt vollständig erhalten.
+- Der originale Champion-Pokal ist wieder fest eingebunden.
+- Die hochgeladene Pokaldatei wird als Champion-Trophäe.jpeg bereitgestellt.
+- Der Hintergrund ist deutlich sichtbarer im Piratenstil.
+- Keine Änderung an Kachelgröße, Raster oder bestehendem Layout.
+- Die Datenlogik lädt jetzt hall-of-fame.json.
+- Champion, Wettbewerbsgewinner, Meisterchronik, Rekorde und Ehrenmitglieder
+  werden weiterhin automatisch befüllt.
+
+WICHTIG
+
+Die Datei muss auf GitHub exakt heißen:
+
+Champion-Trophäe.jpeg
+
+Nach dem Upload:
+1. alle drei Dateien committen
+2. GitHub Pages kurz aktualisieren lassen
+3. Seite mit Strg+F5 neu laden

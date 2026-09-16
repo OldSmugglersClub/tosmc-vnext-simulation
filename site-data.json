@@ -1,0 +1,140 @@
+{
+  "season": "2026/2027",
+  "kickoff": "2026-08-28T20:30:00+02:00",
+  "matches": [
+    {
+      "day": "FR 28.08.",
+      "home": "HSV",
+      "away": "BVB",
+      "time": "20:30",
+      "venue": "VOLKSPARKSTADION",
+      "hc": "#0a4d9c",
+      "ac": "#f5d600"
+    },
+    {
+      "day": "SA 29.08.",
+      "home": "FCB",
+      "away": "SVW",
+      "time": "15:30",
+      "venue": "ALLIANZ ARENA",
+      "hc": "#d71920",
+      "ac": "#138a55"
+    },
+    {
+      "day": "SA 29.08.",
+      "home": "RBL",
+      "away": "VFB",
+      "time": "15:30",
+      "venue": "RED BULL ARENA",
+      "hc": "#dc1f2f",
+      "ac": "#df182b"
+    },
+    {
+      "day": "SA 29.08.",
+      "home": "SGE",
+      "away": "SCF",
+      "time": "18:30",
+      "venue": "DEUTSCHE BANK PARK",
+      "hc": "#c91d29",
+      "ac": "#e51b23"
+    },
+    {
+      "day": "SO 30.08.",
+      "home": "KOE",
+      "away": "FCU",
+      "time": "17:30",
+      "venue": "RHEINENERGIESTADION",
+      "hc": "#e31a2a",
+      "ac": "#b00020"
+    }
+  ],
+  "table": [
+    [
+      1,
+      "FC Bayern München",
+      0,
+      0,
+      0,
+      0,
+      "0:0",
+      0,
+      0,
+      "#d71920"
+    ],
+    [
+      2,
+      "Borussia Dortmund",
+      0,
+      0,
+      0,
+      0,
+      "0:0",
+      0,
+      0,
+      "#f5d600"
+    ],
+    [
+      3,
+      "RB Leipzig",
+      0,
+      0,
+      0,
+      0,
+      "0:0",
+      0,
+      0,
+      "#dc1f2f"
+    ],
+    [
+      4,
+      "Bayer 04 Leverkusen",
+      0,
+      0,
+      0,
+      0,
+      "0:0",
+      0,
+      0,
+      "#e51b23"
+    ],
+    [
+      5,
+      "Eintracht Frankfurt",
+      0,
+      0,
+      0,
+      0,
+      "0:0",
+      0,
+      0,
+      "#c91d29"
+    ]
+  ],
+  "stats": [
+    {
+      "title": "Beste Punktzahl",
+      "name": "Noch offen",
+      "unit": "Punkte",
+      "icon": "trophy"
+    },
+    {
+      "title": "Meiste exakte Tipps",
+      "name": "Noch offen",
+      "unit": "Treffer",
+      "icon": "target"
+    },
+    {
+      "title": "Beste Serie",
+      "name": "Noch offen",
+      "unit": "Siege in Folge",
+      "icon": "star"
+    }
+  ],
+  "champion": {
+    "name": "ZweikampfGott",
+    "title": "Weltmeisterschaft-Champion · 2026",
+    "points": 346,
+    "bonus": 60,
+    "exact": 17
+  }
+}

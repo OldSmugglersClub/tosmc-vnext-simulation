@@ -1,3 +1,1 @@
-TOSMC Admin vNext 2.0.0 Repo Bootstrap SAFE
-Based on validated 1.9.0 Historical Regression baseline
-READ ONLY for all operative reference systems
+4.9.2-HF12-HF101-TEST9

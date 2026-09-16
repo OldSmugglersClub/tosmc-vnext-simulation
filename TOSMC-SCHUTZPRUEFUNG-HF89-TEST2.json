@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:30:33.158Z",
+  "root": "/workspace/scratch/42cfa3a91f62/work/website-hf89-test2",
+  "kind": "website",
+  "status": "OK",
+  "checks": [
+    "Alle aktiven JSON-Dateien sind syntaktisch gültig.",
+    "Website-Version: 4.9.2-HF12-HF89-TEST2",
+    "wettbewerb.js: gemeinsame Cache-Kennung 4.9.2-HF12-HF88.",
+    "wettbewerb.css: gemeinsame Cache-Kennung 4.9.2-HF12-HF88.",
+    "highscore.json: Gesamtwertungs-Spiegel konsistent (100 Teilnehmer).",
+    "Originalwappen: 75/75 verwendete Teams abgesichert.",
+    "Teamstammdaten: 75/75 verwendete Teams kanonisch.",
+    "Startseitenadapter verwendet den kanonischen Teamstammdatenbestand.",
+    "Geschützte Dateien gegenüber HF89-TEST1 byte-identisch."
+  ],
+  "errors": []
+}

@@ -1,0 +1,35 @@
+{
+  "bereich": "Sonderevent",
+  "statusSchild": "1 Spieltag · 5 Spiele",
+  "titel": "Weihnachtsregatta",
+  "beschreibung": "Fünf ausgewählte Begegnungen über den Jahreswechsel bilden gemeinsam einen besonderen Kicktipp-Spieltag des Old Smugglers Club.",
+  "karten": [
+    {
+      "titel": "",
+      "text": "",
+      "featureImage": "./assets/weihnachtsregatta-2026.jpg?v=20260910-2",
+      "featureImageAlt": "Weihnachtsregatta 2026/2027 – Weihnachtstippspiel des Old Smugglers Club",
+      "featureImageClass": "feature-image--contain"
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Weihnachtsregatta"
+}

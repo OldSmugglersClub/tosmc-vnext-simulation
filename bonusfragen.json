@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 2,
+  "aktualisiert": "2026-07-31",
+  "saison": "2026/2027",
+  "beschreibung": "Saisonbegleitender Bonuswettbewerb mit 25 Fragen.",
+  "bonusfragen": [],
+  "wettbewerb": {
+    "id": "bonuswettbewerb",
+    "label": "Bonuswettbewerb",
+    "tippspieltagNummer": 1,
+    "anzahlFragen": 25,
+    "punkteProRichtigerAntwort": 5,
+    "maximalPunkte": 125,
+    "zaehltZurGesamtwertung": true,
+    "status": "läuft saisonbegleitend"
+  },
+  "hinweis": "Die konkreten Fragen werden erst übernommen, wenn sie als verlässlicher Datensatz vorliegen."
+}

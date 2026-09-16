@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Erinnerungsprotokoll | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="erinnerungsprotokoll.css">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+</head>
+<body>
+<main class="admin-shell">
+  <header class="admin-header">
+    <p class="admin-kicker">The Old Smugglers Club</p>
+    <h1>Erinnerungsprotokoll</h1>
+    <p>Dokumentiert manuell versendete Abgabe-Erinnerungen und verhindert unübersichtliche Doppelansprachen. Es werden keine Nachrichten automatisch versendet.</p>
+    <nav class="admin-nav" aria-label="Erinnerungsprotokoll">
+      <a class="admin-button" href="admin.html">Administration</a>
+      <a class="admin-button" href="abgabe-erinnerungen.html">Erinnerungen vorbereiten</a>
+      <button class="admin-button" id="reloadButton" type="button">Neu laden</button>
+      <label class="admin-button admin-file-button" for="importFile">Protokoll importieren<input id="importFile" type="file" accept="application/json,.json"></label>
+      <button class="admin-button" id="jsonButton" type="button" disabled>JSON exportieren</button>
+      <button class="admin-button" id="csvButton" type="button" disabled>CSV exportieren</button>
+    </nav>
+  </header>
+
+  <section class="admin-section">
+    <div class="admin-heading-row"><h2>Protokollstatus</h2><span id="statusBadge" class="admin-badge">Laden</span></div>
+    <div id="summaryGrid" class="admin-grid"></div>
+    <div id="message"></div>
+  </section>
+
+  <section class="admin-section">
+    <div class="admin-heading-row"><h2>Offene Erinnerungsfälle</h2><span id="candidateBadge" class="admin-badge">0 Fälle</span></div>
+    <div class="log-filters">
+      <label>Teilnehmer<input id="searchInput" type="search" placeholder="Name suchen"></label>
+      <label>Status<select id="statusFilter"><option value="open">Noch nicht protokolliert</option><option value="all">Alle offenen Fälle</option><option value="sent">Bereits protokolliert</option></select></label>
+      <label>Zeitraum<select id="rangeFilter"><option value="24">Nächste 24 Stunden</option><option value="72">Nächste 3 Tage</option><option value="168" selected>Nächste 7 Tage</option><option value="720">Nächste 30 Tage</option></select></label>
+    </div>
+    <div id="candidateList" class="log-list"></div>
+  </section>
+
+  <section class="admin-section">
+    <div class="admin-heading-row"><h2>Gespeichertes Versandprotokoll</h2><span id="logBadge" class="admin-badge">0 Einträge</span></div>
+    <div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Zeitpunkt</th><th>Teilnehmer</th><th>Begegnung</th><th>Kanal</th><th>Bearbeiter</th><th>Aktion</th></tr></thead><tbody id="logRows"></tbody></table></div>
+  </section>
+
+  <section class="admin-section"><h2>Hinweise</h2><div class="admin-notices"><p>Eine Markierung wird zunächst nur lokal im Browser geführt. Für die dauerhafte Website-Pflege muss anschließend die exportierte Datei <code>erinnerungsprotokoll.json</code> manuell im GitHub-Repository ersetzt werden.</p><p>Einträge können über den Import einer zuvor exportierten Datei wieder aufgenommen werden.</p></div></section>
+</main>
+<script src="erinnerungsprotokoll.js"></script>
+<script src="./accessibility-v33.js" defer></script>
+</body>
+</html>

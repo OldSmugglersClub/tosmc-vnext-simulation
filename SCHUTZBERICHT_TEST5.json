@@ -1,0 +1,24 @@
+{
+  "version": "4.9.2-HF12-HF101-TEST5",
+  "status": "BESTANDEN",
+  "schutzobjekte": {
+    "highscore.json": "04dcdfb893e0ffbc8a1af28b775dc40b093414004ce80e0b859085ca075cd882",
+    "website-view.json": "77b30aee56392afda72480a57da5955028d612a5f33a446272ef2c50890139ea",
+    "teams.json": "aca62c36c9c424da9b2f2bd24eba72629a1d06f04c4009038d651cf6fd391fc5",
+    "spieltag-logbuch.json": "9b787a94943ad16059ea2f2a133415aa46185d6503eadf936ecbf64061c7bd5c",
+    "hall-of-fame.json": "910c1a88aacc14e7b58d1a117034d061843f6c742907876dc22ac71477dc5d6a",
+    "ehrenlogbuch-archiv.json": "68c3d18ad8c7fb278a2dc15c5c1944d55d661c394d2a353178a428845600ca64",
+    "index.html": "6b5ff13abd0fce21858dbbf019d074a3598a5ed2912fab73bacee32072207263",
+    "hall-of-fame-runtime.js": "17e4f3956e95da03627b64447997d64a0cf98430a90f9eb0a7629529f9331a1e",
+    "logbuch.js": "0c14c2f8ec66ec3762664546b08885a4901e66c875d3f5015a36c2738d100c04",
+    "logbuch.css": "966b9ae6335582ffcb324f6dc54f532225634265fa904fdab4b607b82e990816",
+    "logbuch.html": "ec8569369df3cfeb5e407416b942f7dbf8e9cfa281c728398a53ba10b90da389"
+  },
+  "pruefungen": [
+    "JavaScript-Syntax highscore-data-adapter.js: OK",
+    "JavaScript-Syntax highscore.js: OK",
+    "website-view.json und highscore.json: valides JSON",
+    "Ranglisten-/Logbuch-/Hall-of-Fame-Daten unverändert",
+    "Highscore-Fallback bleibt aktiv, aber wird nicht mehr pauschal als Datenfehler markiert"
+  ]
+}

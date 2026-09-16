@@ -1,0 +1,1423 @@
+{
+  "schemaVersion": 1,
+  "stand": "2026-07-31",
+  "quelle": "Offizielle UEFA-Teamlisten Champions League und Europa League 2026/27",
+  "hinweis": "Vorsorglicher Kandidatenpool. Enthält direkt qualifizierte Teams und alle auf den UEFA-Teamseiten geführten Qualifikationsteilnehmer. Ausgeschiedene Teams dürfen als ungenutzte Datensätze erhalten bleiben.",
+  "anzahlEindeutigeUefaTeams": 126,
+  "teams": [
+    {
+      "teamId": "ac-mailand",
+      "name": "AC Mailand",
+      "land": "Italien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "aek-athen",
+      "name": "AEK Athen",
+      "land": "Griechenland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "afc-bournemouth",
+      "name": "AFC Bournemouth",
+      "land": "England",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "as-rom",
+      "name": "AS Rom",
+      "land": "Italien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "az-alkmaar",
+      "name": "AZ Alkmaar",
+      "land": "Niederlande",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "aarhus-gf",
+      "name": "Aarhus GF",
+      "land": "Dänemark",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "ararat-armenia",
+      "name": "Ararat-Armenia",
+      "land": "Armenien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "arsenal",
+      "name": "Arsenal",
+      "land": "England",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "aston-villa",
+      "name": "Aston Villa",
+      "land": "England",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "atert-bissen",
+      "name": "Atert Bissen",
+      "land": "Luxemburg",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "atletico-madrid",
+      "name": "Atlético Madrid",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "leverkusen",
+      "name": "Bayer 04 Leverkusen",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "benfica-lissabon",
+      "name": "Benfica Lissabon",
+      "land": "Portugal",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "besiktas",
+      "name": "Beşiktaş",
+      "land": "Türkei",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "bod-glimt",
+      "name": "Bodø/Glimt",
+      "land": "Norwegen",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "borac-banja-luka",
+      "name": "Borac Banja Luka",
+      "land": "Bosnien und Herzegowina",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "dortmund",
+      "name": "Borussia Dortmund",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "celta-vigo",
+      "name": "Celta Vigo",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "celtic-glasgow",
+      "name": "Celtic Glasgow",
+      "land": "Schottland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "club-brugge",
+      "name": "Club Brügge",
+      "land": "Belgien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "como-1907",
+      "name": "Como 1907",
+      "land": "Italien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "crystal-palace",
+      "name": "Crystal Palace",
+      "land": "England",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "derry-city",
+      "name": "Derry City",
+      "land": "Irland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "dinamo-zagreb",
+      "name": "Dinamo Zagreb",
+      "land": "Kroatien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "dynamo-kiew",
+      "name": "Dynamo Kiew",
+      "land": "Ukraine",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "barcelona",
+      "name": "FC Barcelona",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "bayern-muenchen",
+      "name": "FC Bayern München",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "fc-drita",
+      "name": "FC Drita",
+      "land": "Kosovo",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "fc-hradec-kralove",
+      "name": "FC Hradec Králové",
+      "land": "Tschechien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "fc-liverpool",
+      "name": "FC Liverpool",
+      "land": "England",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "fc-midtjylland",
+      "name": "FC Midtjylland",
+      "land": "Dänemark",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "fc-porto",
+      "name": "FC Porto",
+      "land": "Portugal",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "fc-st-gallen",
+      "name": "FC St. Gallen",
+      "land": "Schweiz",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "fc-thun",
+      "name": "FC Thun",
+      "land": "Schweiz",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "fc-twente",
+      "name": "FC Twente",
+      "land": "Niederlande",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "fenerbahce",
+      "name": "Fenerbahçe",
+      "land": "Türkei",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "ferencvaros",
+      "name": "Ferencváros",
+      "land": "Ungarn",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "feyenoord-rotterdam",
+      "name": "Feyenoord Rotterdam",
+      "land": "Niederlande",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "flora-tallinn",
+      "name": "Flora Tallinn",
+      "land": "Estland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "floriana-fc",
+      "name": "Floriana FC",
+      "land": "Malta",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "galatasaray",
+      "name": "Galatasaray",
+      "land": "Türkei",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "glasgow-rangers",
+      "name": "Glasgow Rangers",
+      "land": "Schottland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "gyori-eto",
+      "name": "Győri ETO",
+      "land": "Ungarn",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "gornik-zabrze",
+      "name": "Górnik Zabrze",
+      "land": "Polen",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "hajduk-split",
+      "name": "Hajduk Split",
+      "land": "Kroatien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "hammarby-if",
+      "name": "Hammarby IF",
+      "land": "Schweden",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "hapoel-beer-scheva",
+      "name": "Hapoel Be’er Scheva",
+      "land": "Israel",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "heart-of-midlothian",
+      "name": "Heart of Midlothian",
+      "land": "Schottland",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "iberia-tiflis",
+      "name": "Iberia Tiflis",
+      "land": "Georgien",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "inter-club-descaldes",
+      "name": "Inter Club d’Escaldes",
+      "land": "Andorra",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "inter-mailand",
+      "name": "Inter Mailand",
+      "land": "Italien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "jagiellonia-biaystok",
+      "name": "Jagiellonia Białystok",
+      "land": "Polen",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "juventus-turin",
+      "name": "Juventus Turin",
+      "land": "Italien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "kf-egnatia",
+      "name": "KF Egnatia",
+      "land": "Albanien",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "kairat-almaty",
+      "name": "Kairat Almaty",
+      "land": "Kasachstan",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "kauno-zalgiris",
+      "name": "Kauno Žalgiris",
+      "land": "Litauen",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "kups-kuopio",
+      "name": "KuPS Kuopio",
+      "land": "Finnland",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "ki-klaksvik",
+      "name": "KÍ Klaksvík",
+      "land": "Färöer",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "lask",
+      "name": "LASK",
+      "land": "Österreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "larne-fc",
+      "name": "Larne FC",
+      "land": "Nordirland",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "lech-posen",
+      "name": "Lech Posen",
+      "land": "Polen",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "levski-sofia",
+      "name": "Levski Sofia",
+      "land": "Bulgarien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "lillestrm-sk",
+      "name": "Lillestrøm SK",
+      "land": "Norwegen",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "lincoln-red-imps",
+      "name": "Lincoln Red Imps",
+      "land": "Gibraltar",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "ml-vitebsk",
+      "name": "ML Vitebsk",
+      "land": "Belarus",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "maccabi-tel-aviv",
+      "name": "Maccabi Tel Aviv",
+      "land": "Israel",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "manchester-city",
+      "name": "Manchester City",
+      "land": "England",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "manchester-united",
+      "name": "Manchester United",
+      "land": "England",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "mjallby-aif",
+      "name": "Mjällby AIF",
+      "land": "Schweden",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "msk-zilina",
+      "name": "MŠK Žilina",
+      "land": "Slowakei",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "nec-nijmegen",
+      "name": "NEC Nijmegen",
+      "land": "Niederlande",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "nk-aluminij",
+      "name": "NK Aluminij",
+      "land": "Slowenien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "nk-celje",
+      "name": "NK Celje",
+      "land": "Slowenien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "ofi-kreta",
+      "name": "OFI Kreta",
+      "land": "Griechenland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "osc-lille",
+      "name": "OSC Lille",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "olympiakos-piraus",
+      "name": "Olympiakos Piräus",
+      "land": "Griechenland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "olympique-lyon",
+      "name": "Olympique Lyon",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "olympique-marseille",
+      "name": "Olympique Marseille",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "omonia-nikosia",
+      "name": "Omonia Nikosia",
+      "land": "Zypern",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "paok-thessaloniki",
+      "name": "PAOK Thessaloniki",
+      "land": "Griechenland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "psv-eindhoven",
+      "name": "PSV Eindhoven",
+      "land": "Niederlande",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "pafos-fc",
+      "name": "Pafos FC",
+      "land": "Zypern",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "petrocub-hincesti",
+      "name": "Petrocub Hîncești",
+      "land": "Moldau",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "qarabag-agdam",
+      "name": "Qarabağ Ağdam",
+      "land": "Aserbaidschan",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "rb-leipzig",
+      "name": "RB Leipzig",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "rc-lens",
+      "name": "RC Lens",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "rsc-anderlecht",
+      "name": "RSC Anderlecht",
+      "land": "Belgien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "real-betis",
+      "name": "Real Betis",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "real-madrid",
+      "name": "Real Madrid",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "real-sociedad",
+      "name": "Real Sociedad",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "red-bull-salzburg",
+      "name": "Red Bull Salzburg",
+      "land": "Österreich",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "riga-fc",
+      "name": "Riga FC",
+      "land": "Lettland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "roter-stern-belgrad",
+      "name": "Roter Stern Belgrad",
+      "land": "Serbien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "scu-torreense",
+      "name": "SCU Torreense",
+      "land": "Portugal",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "ssc-neapel",
+      "name": "SSC Neapel",
+      "land": "Italien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "sabah-fc",
+      "name": "Sabah FC",
+      "land": "Aserbaidschan",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "schachtar-donezk",
+      "name": "Schachtar Donezk",
+      "land": "Ukraine",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "shamrock-rovers",
+      "name": "Shamrock Rovers",
+      "land": "Irland",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "sheriff-tiraspol",
+      "name": "Sheriff Tiraspol",
+      "land": "Moldau",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "sint-truidense-vv",
+      "name": "Sint-Truidense VV",
+      "land": "Belgien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "slavia-prag",
+      "name": "Slavia Prag",
+      "land": "Tschechien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "slovan-bratislava",
+      "name": "Slovan Bratislava",
+      "land": "Slowakei",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "sparta-prag",
+      "name": "Sparta Prag",
+      "land": "Tschechien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "sporting-lissabon",
+      "name": "Sporting Lissabon",
+      "land": "Portugal",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "stade-rennes",
+      "name": "Stade Rennes",
+      "land": "Frankreich",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "sturm-graz",
+      "name": "Sturm Graz",
+      "land": "Österreich",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "sunderland-afc",
+      "name": "Sunderland AFC",
+      "land": "England",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "sutjeska-niksic",
+      "name": "Sutjeska Nikšić",
+      "land": "Montenegro",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "hoffenheim",
+      "name": "TSG Hoffenheim",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "the-new-saints",
+      "name": "The New Saints",
+      "land": "Wales",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "trabzonspor",
+      "name": "Trabzonspor",
+      "land": "Türkei",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "tre-fiori",
+      "name": "Tre Fiori",
+      "land": "San Marino",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "troms-il",
+      "name": "Tromsø IL",
+      "land": "Norwegen",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-2"
+      }
+    },
+    {
+      "teamId": "union-saint-gilloise",
+      "name": "Union Saint-Gilloise",
+      "land": "Belgien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "universitatea-cluj",
+      "name": "Universitatea Cluj",
+      "land": "Rumänien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "universitatea-craiova",
+      "name": "Universitatea Craiova",
+      "land": "Rumänien",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "vardar-skopje",
+      "name": "Vardar Skopje",
+      "land": "Nordmazedonien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "vestri",
+      "name": "Vestri",
+      "land": "Island",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "stuttgart",
+      "name": "VfB Stuttgart",
+      "land": "Deutschland",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "viking-fk",
+      "name": "Viking FK",
+      "land": "Norwegen",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "viktoria-pilsen",
+      "name": "Viktoria Pilsen",
+      "land": "Tschechien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "play-offs"
+      }
+    },
+    {
+      "teamId": "villarreal-cf",
+      "name": "Villarreal CF",
+      "land": "Spanien",
+      "wettbewerbe": [
+        "champions-league"
+      ],
+      "status2026_27": {
+        "champions-league": "league-phase"
+      }
+    },
+    {
+      "teamId": "vojvodina-novi-sad",
+      "name": "Vojvodina Novi Sad",
+      "land": "Serbien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-1"
+      }
+    },
+    {
+      "teamId": "vikingur-reykjavik",
+      "name": "Víkingur Reykjavík",
+      "land": "Island",
+      "wettbewerbe": [
+        "champions-league",
+        "europa-league"
+      ],
+      "status2026_27": {
+        "champions-league": "qualifikation-2",
+        "europa-league": "qualifikation-3"
+      }
+    },
+    {
+      "teamId": "zska-sofia",
+      "name": "ZSKA Sofia",
+      "land": "Bulgarien",
+      "wettbewerbe": [
+        "europa-league"
+      ],
+      "status2026_27": {
+        "europa-league": "qualifikation-3"
+      }
+    }
+  ]
+}

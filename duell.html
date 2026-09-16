@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Duell auf hoher See – direkter Tippervergleich des The Old Smugglers Club">
+  <title>Duell auf hoher See | The Old Smugglers Club</title>
+  <link rel="stylesheet" href="./duell.css?v=4.9.0">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+  <link rel="stylesheet" href="./legal.css">
+  <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+</head>
+<body>
+<main class="duel-page" id="duel-top">
+  <div class="duel-shell">
+    <section class="duel-hero" aria-labelledby="duel-title">
+      <div class="duel-crest-wrap"><img class="duel-crest" src="./club-crest.svg" alt=""></div>
+      <div class="duel-kicker">Zwei Freibeuter · ein Kurs · kein Versteck</div>
+      <h1 id="duel-title">Duell auf hoher See</h1>
+      <p>Wähle zwei Mitglieder der Crew. Verglichen werden ausschließlich belastbare Werte aus den gespeicherten Tipp- und Spieltagsdaten.</p>
+      <div class="duel-toolbar tosmc-nav">
+        <a class="duel-btn tosmc-nav-button tosmc-nav-button--back" href="./index.html#highscore">Zurück zur Clubseite</a>
+        <a class="duel-btn tosmc-nav-button tosmc-nav-button--secondary" href="./highscore.html">Highscore öffnen</a>
+      </div>
+    </section>
+
+    <section class="duel-selector-panel" aria-labelledby="duel-select-title">
+      <div class="duel-panel-heading">
+        <span class="duel-engraving">DUELLANTEN MUSTERN</span>
+        <h2 id="duel-select-title">Wer tritt gegeneinander an?</h2>
+      </div>
+      <div class="duel-select-grid">
+        <label class="duel-select-card duel-select-card--a">
+          <span>Freibeuter A</span>
+          <select id="duel-a" aria-label="Freibeuter A auswählen"></select>
+        </label>
+
+        <div class="duel-versus" aria-hidden="true">
+          <span class="duel-versus-line"></span>
+          <b>VS</b>
+          <span class="duel-versus-line"></span>
+        </div>
+
+        <label class="duel-select-card duel-select-card--b">
+          <span>Freibeuter B</span>
+          <select id="duel-b" aria-label="Freibeuter B auswählen"></select>
+        </label>
+      </div>
+      <div class="duel-status" id="duel-status" role="status">Crewdaten werden geladen …</div>
+    </section>
+
+    <section class="duel-board" id="duel-board" hidden aria-live="polite">
+      <div class="duel-board-ornament duel-board-ornament--top" aria-hidden="true"></div>
+
+      <header class="duel-nameplate-grid">
+        <article class="duel-nameplate duel-nameplate--a">
+          <span class="duel-side-label">Freibeuter A</span>
+          <h2 id="duel-name-a">–</h2>
+          <p id="duel-team-a">–</p>
+        </article>
+
+        <div class="duel-compass" aria-hidden="true">
+          <span class="duel-compass-n">N</span>
+          <span class="duel-compass-e">O</span>
+          <span class="duel-compass-s">S</span>
+          <span class="duel-compass-w">W</span>
+          <b>DUELL</b>
+        </div>
+
+        <article class="duel-nameplate duel-nameplate--b">
+          <span class="duel-side-label">Freibeuter B</span>
+          <h2 id="duel-name-b">–</h2>
+          <p id="duel-team-b">–</p>
+        </article>
+      </header>
+
+      <section class="duel-score-banner" aria-label="Direktes Duell">
+        <span class="duel-score-label">Direktes Duell nach gemeinsamen Spieltagen</span>
+        <div class="duel-scoreline duel-scoreline--three">
+          <strong id="duel-wins-a">0 Siege</strong>
+          <span class="duel-score-separator">·</span>
+          <strong id="duel-draws">0 Remis</strong>
+          <span class="duel-score-separator">·</span>
+          <strong id="duel-wins-b">0 Siege</strong>
+        </div>
+      </section>
+
+      <div class="duel-metrics" id="duel-metrics"></div>
+
+      <section class="duel-form" aria-labelledby="duel-form-title">
+        <div class="duel-section-head">
+          <span class="duel-engraving">LETZTE FAHRTEN</span>
+          <h2 id="duel-form-title">Aktuelle Form</h2>
+          <p id="duel-form-hint">Bis zu fünf gemeinsame abgeschlossene Spieltage.</p>
+        </div>
+        <div class="duel-form-grid">
+          <div>
+            <h3 id="duel-form-name-a">Freibeuter A</h3>
+            <div class="duel-form-track" id="duel-form-a"></div>
+          </div>
+          <div>
+            <h3 id="duel-form-name-b">Freibeuter B</h3>
+            <div class="duel-form-track" id="duel-form-b"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="duel-verdict" aria-labelledby="duel-verdict-title">
+        <span class="duel-engraving">KAPITÄNSURTEIL</span>
+        <h2 id="duel-verdict-title">Stand des Duells</h2>
+        <p id="duel-verdict-text">–</p>
+      </section>
+
+      <div class="duel-board-ornament duel-board-ornament--bottom" aria-hidden="true"></div>
+    </section>
+
+    <div class="tosmc-nav" aria-label="Duell-Navigation"><a class="tosmc-nav-button tosmc-nav-button--back" href="./index.html#highscore">Zurück zur Clubseite</a><a class="tosmc-nav-button tosmc-nav-button--secondary" href="./highscore.html">Highscore öffnen</a><a class="tosmc-nav-button tosmc-nav-button--top" href="#duel-top">Nach oben</a></div>
+    <p class="duel-legal-note">Keine eigene Wertung: „Duell auf hoher See“ stellt vorhandene OSC-Daten nur im direkten Vergleich dar.</p>
+  </div>
+</main>
+
+<footer class="legal-footer" aria-label="Rechtliche Hinweise">
+  <div class="legal-footer__inner">
+    <span>© 2026 The Old Smugglers Club</span>
+    <nav class="legal-footer__links">
+      <a href="./impressum.html">Impressum</a>
+      <a href="./datenschutz.html">Datenschutz</a>
+      <a href="./nutzungsrechte.html">Nutzungsrechte</a>
+      <span id="legal-version">Version wird geladen</span>
+    </nav>
+  </div>
+</footer>
+
+<script src="./duell.js?v=4.9.0"></script>
+<script>
+(function(){const t=document.getElementById("legal-version");if(!t)return;fetch("./VERSION.txt",{cache:"no-store"}).then(r=>r.ok?r.text():Promise.reject()).then(v=>t.textContent="Version "+v.trim()).catch(()=>t.textContent="Version nicht verfügbar");})();
+</script>
+<script data-goatcounter="https://oldsmugglersclub.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

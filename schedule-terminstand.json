@@ -1,0 +1,2535 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-13T20:48:45.835Z",
+  "entries": {
+    "sma-2026-27-auftakt-001": {
+      "datum": "2026-08-09",
+      "datumVon": "2026-08-09",
+      "datumBis": "2026-08-09",
+      "anstoss": "13:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "sma-2026-27-02-013": {
+      "datum": "2026-08-16",
+      "datumVon": "2026-08-16",
+      "datumBis": "2026-08-16",
+      "anstoss": "13:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "sma-2026-27-03-020": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "13:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "sma-2026-27-04-032": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "20:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "sma-2026-27-05-044": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "13:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "sma-2026-27-06-050": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-01-001": {
+      "datum": "2026-08-28",
+      "datumVon": "2026-08-28",
+      "datumBis": "2026-08-28",
+      "anstoss": "20:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-28"
+    },
+    "bl-2026-27-01-003": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-006": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-007": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-008": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-009": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-002": {
+      "datum": "2026-08-29",
+      "datumVon": "2026-08-29",
+      "datumBis": "2026-08-29",
+      "anstoss": "18:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-29"
+    },
+    "bl-2026-27-01-004": {
+      "datum": "2026-08-30",
+      "datumVon": "2026-08-30",
+      "datumBis": "2026-08-30",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-30"
+    },
+    "bl-2026-27-01-005": {
+      "datum": "2026-08-30",
+      "datumVon": "2026-08-30",
+      "datumBis": "2026-08-30",
+      "anstoss": "17:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-30"
+    },
+    "bl-2026-27-02-010": {
+      "datum": "2026-09-04",
+      "datumVon": "2026-09-04",
+      "datumBis": "2026-09-04",
+      "anstoss": "20:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-04"
+    },
+    "bl-2026-27-02-011": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-012": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-014": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-016": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-018": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-017": {
+      "datum": "2026-09-05",
+      "datumVon": "2026-09-05",
+      "datumBis": "2026-09-05",
+      "anstoss": "18:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-05"
+    },
+    "bl-2026-27-02-015": {
+      "datum": "2026-09-06",
+      "datumVon": "2026-09-06",
+      "datumBis": "2026-09-06",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-06"
+    },
+    "bl-2026-27-02-013": {
+      "datum": "2026-09-06",
+      "datumVon": "2026-09-06",
+      "datumBis": "2026-09-06",
+      "anstoss": "17:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-06"
+    },
+    "bl-2026-27-03-025": {
+      "datum": "2026-09-11",
+      "datumVon": "2026-09-11",
+      "datumBis": "2026-09-11",
+      "anstoss": "20:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-019": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-021": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-022": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-023": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-024": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-026": {
+      "datum": "2026-09-12",
+      "datumVon": "2026-09-12",
+      "datumBis": "2026-09-12",
+      "anstoss": "18:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-12"
+    },
+    "bl-2026-27-03-020": {
+      "datum": "2026-09-13",
+      "datumVon": "2026-09-13",
+      "datumBis": "2026-09-13",
+      "anstoss": "15:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-13"
+    },
+    "bl-2026-27-03-027": {
+      "datum": "2026-09-13",
+      "datumVon": "2026-09-13",
+      "datumBis": "2026-09-13",
+      "anstoss": "17:30",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-028": {
+      "datum": "2026-09-18",
+      "datumVon": "2026-09-18",
+      "datumBis": "2026-09-18",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-031": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-032": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-033": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-034": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-029": {
+      "datum": "2026-09-19",
+      "datumVon": "2026-09-19",
+      "datumBis": "2026-09-19",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-030": {
+      "datum": "2026-09-20",
+      "datumVon": "2026-09-20",
+      "datumBis": "2026-09-20",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-035": {
+      "datum": "2026-09-20",
+      "datumVon": "2026-09-20",
+      "datumBis": "2026-09-20",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-04-036": {
+      "datum": "2026-09-20",
+      "datumVon": "2026-09-20",
+      "datumBis": "2026-09-20",
+      "anstoss": "19:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-01-el-clasico": {
+      "datum": "2026-10-25",
+      "datumVon": "2026-10-25",
+      "datumBis": "2026-10-25",
+      "anstoss": "15:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-02-madonnina": {
+      "datum": "2026-11-01",
+      "datumVon": "2026-11-01",
+      "datumBis": "2026-11-01",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-03-nw-derby": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "16:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-04-ditalia": {
+      "datum": "2027-01-10",
+      "datumVon": "2027-01-10",
+      "datumBis": "2027-01-10",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-05-le-classique": {
+      "datum": "2027-02-07",
+      "datumVon": "2027-02-07",
+      "datumBis": "2027-02-07",
+      "anstoss": "20:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-06-mancu-derby": {
+      "datum": "2027-03-20",
+      "datumVon": "2027-03-20",
+      "datumBis": "2027-03-20",
+      "anstoss": "16:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "wr-2026-27-01": {
+      "datum": "2026-12-26",
+      "datumVon": "2026-12-26",
+      "datumBis": "2026-12-26",
+      "anstoss": "16:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "wr-2026-27-02": {
+      "datum": "2026-12-27",
+      "datumVon": "2026-12-27",
+      "datumBis": "2026-12-27",
+      "anstoss": "18:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "wr-2026-27-03": {
+      "datum": "2026-12-30",
+      "datumVon": "2026-12-30",
+      "datumBis": "2026-12-30",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "wr-2026-27-04": {
+      "datum": "2027-01-02",
+      "datumVon": "2027-01-02",
+      "datumBis": "2027-01-02",
+      "anstoss": "16:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "wr-2026-27-05": {
+      "datum": "2027-01-03",
+      "datumVon": "2027-01-03",
+      "datumBis": "2027-01-03",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "rel-2026-27-bl-hin": {
+      "datum": "2027-05-27",
+      "datumVon": "2027-05-27",
+      "datumBis": "2027-05-27",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "rel-2026-27-2bl-hin": {
+      "datum": "2027-05-28",
+      "datumVon": "2027-05-28",
+      "datumBis": "2027-05-28",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "rel-2026-27-bl-rueck": {
+      "datum": "2027-05-31",
+      "datumVon": "2027-05-31",
+      "datumBis": "2027-05-31",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "rel-2026-27-2bl-rueck": {
+      "datum": "2027-06-01",
+      "datumVon": "2027-06-01",
+      "datumBis": "2027-06-01",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "pk-2026-27-07-title-decider": {
+      "datum": "2027-05-08",
+      "datumVon": "2027-05-08",
+      "datumBis": "2027-05-08",
+      "anstoss": "16:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-08-14"
+    },
+    "bl-2026-27-34-298": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-299": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-300": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-301": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-302": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-303": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-304": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-305": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-34-306": {
+      "datum": "2027-05-22",
+      "datumVon": "2027-05-22",
+      "datumBis": "2027-05-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "ucl-2026-27-1-spieltag-87388": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87389": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87390": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87391": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87392": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87393": {
+      "datum": "2026-09-08",
+      "datumVon": "2026-09-08",
+      "datumBis": "2026-09-08",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-09"
+    },
+    "ucl-2026-27-1-spieltag-87394": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87395": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87396": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87397": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87398": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87399": {
+      "datum": "2026-09-09",
+      "datumVon": "2026-09-09",
+      "datumBis": "2026-09-09",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "ucl-2026-27-1-spieltag-87400": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-1-spieltag-87405": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "18:45",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-1-spieltag-87401": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-1-spieltag-87402": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-1-spieltag-87403": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-1-spieltag-87404": {
+      "datum": "2026-09-10",
+      "datumVon": "2026-09-10",
+      "datumBis": "2026-09-10",
+      "anstoss": "21:00",
+      "status": "beendet",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87406": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87407": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87408": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87409": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87410": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87411": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87412": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87413": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87414": {
+      "datum": "2026-10-13",
+      "datumVon": "2026-10-13",
+      "datumBis": "2026-10-13",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87415": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87416": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87417": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87418": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87419": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87420": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87421": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87422": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-2-spieltag-87423": {
+      "datum": "2026-10-14",
+      "datumVon": "2026-10-14",
+      "datumBis": "2026-10-14",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87424": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87425": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87426": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87427": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87428": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87429": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87430": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87431": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87432": {
+      "datum": "2026-10-20",
+      "datumVon": "2026-10-20",
+      "datumBis": "2026-10-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87433": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87434": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87435": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87436": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87437": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87438": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87439": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87440": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-3-spieltag-87441": {
+      "datum": "2026-10-21",
+      "datumVon": "2026-10-21",
+      "datumBis": "2026-10-21",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87442": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87443": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87444": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87445": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87446": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87447": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87448": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87449": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87450": {
+      "datum": "2026-11-03",
+      "datumVon": "2026-11-03",
+      "datumBis": "2026-11-03",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87451": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87452": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87453": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87454": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87455": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87456": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87457": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87458": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-4-spieltag-87459": {
+      "datum": "2026-11-04",
+      "datumVon": "2026-11-04",
+      "datumBis": "2026-11-04",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87460": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87461": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87462": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87463": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87464": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87465": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87466": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87467": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87468": {
+      "datum": "2026-11-24",
+      "datumVon": "2026-11-24",
+      "datumBis": "2026-11-24",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87469": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87470": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87471": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87472": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87473": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87474": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87475": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87476": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-5-spieltag-87477": {
+      "datum": "2026-11-25",
+      "datumVon": "2026-11-25",
+      "datumBis": "2026-11-25",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87478": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87479": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87480": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87481": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87482": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87483": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87484": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87485": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87486": {
+      "datum": "2026-12-08",
+      "datumVon": "2026-12-08",
+      "datumBis": "2026-12-08",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87487": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87488": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87489": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87490": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87491": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87492": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87493": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87494": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-6-spieltag-87495": {
+      "datum": "2026-12-09",
+      "datumVon": "2026-12-09",
+      "datumBis": "2026-12-09",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87496": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87497": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87498": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87499": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87500": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87501": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87502": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87503": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87504": {
+      "datum": "2027-01-19",
+      "datumVon": "2027-01-19",
+      "datumBis": "2027-01-19",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87505": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87506": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "18:45",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87507": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87508": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87509": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87510": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87511": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87512": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-7-spieltag-87513": {
+      "datum": "2027-01-20",
+      "datumVon": "2027-01-20",
+      "datumBis": "2027-01-20",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87514": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87515": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87516": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87517": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87518": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87519": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87520": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87521": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87522": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87523": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87524": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87525": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87526": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87527": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87528": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87529": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87530": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "ucl-2026-27-8-spieltag-87531": {
+      "datum": "2027-01-27",
+      "datumVon": "2027-01-27",
+      "datumBis": "2027-01-27",
+      "anstoss": "21:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-11"
+    },
+    "sma-2026-27-07-063": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "13:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "sma-2026-27-08-068": {
+      "datum": "2026-10-18",
+      "datumVon": "2026-10-18",
+      "datumBis": "2026-10-18",
+      "anstoss": "13:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-03"
+    },
+    "sma-2026-27-09-078": {
+      "datum": "2026-10-25",
+      "datumVon": "2026-10-25",
+      "datumBis": "2026-10-25",
+      "anstoss": "13:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-03"
+    },
+    "sma-2026-27-10-084": {
+      "datum": "2026-11-01",
+      "datumVon": "2026-11-01",
+      "datumBis": "2026-11-01",
+      "anstoss": "13:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-03"
+    },
+    "sma-2026-27-11-095": {
+      "datum": "2026-11-06",
+      "datumVon": "2026-11-06",
+      "datumBis": "2026-11-06",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "sma-2026-27-12-104": {
+      "datum": "2026-11-22",
+      "datumVon": "2026-11-22",
+      "datumBis": "2026-11-22",
+      "anstoss": "13:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-03"
+    },
+    "sma-2026-27-13-112": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "13:00",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-05-037": {
+      "datum": "2026-10-09",
+      "datumVon": "2026-10-09",
+      "datumBis": "2026-10-09",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-05-038": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-05-039": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-05-040": {
+      "datum": "2026-10-11",
+      "datumVon": "2026-10-11",
+      "datumBis": "2026-10-11",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-05-041": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-05-042": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-05-043": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-05-044": {
+      "datum": "2026-10-11",
+      "datumVon": "2026-10-11",
+      "datumBis": "2026-10-11",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-05-045": {
+      "datum": "2026-10-10",
+      "datumVon": "2026-10-10",
+      "datumBis": "2026-10-10",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-06-046": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-06-047": {
+      "datum": "2026-10-18",
+      "datumVon": "2026-10-18",
+      "datumBis": "2026-10-18",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-06-048": {
+      "datum": "2026-10-16",
+      "datumVon": "2026-10-16",
+      "datumBis": "2026-10-16",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-06-049": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-06-050": {
+      "datum": "2026-10-18",
+      "datumVon": "2026-10-18",
+      "datumBis": "2026-10-18",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-06-051": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-06-052": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-06-053": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-06-054": {
+      "datum": "2026-10-17",
+      "datumVon": "2026-10-17",
+      "datumBis": "2026-10-17",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-07-055": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-07-056": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-07-057": {
+      "datum": "2026-10-23",
+      "datumVon": "2026-10-23",
+      "datumBis": "2026-10-23",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-07-058": {
+      "datum": "2026-10-25",
+      "datumVon": "2026-10-25",
+      "datumBis": "2026-10-25",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-07-059": {
+      "datum": "2026-10-25",
+      "datumVon": "2026-10-25",
+      "datumBis": "2026-10-25",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-07-060": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-07-061": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-07-062": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-07-063": {
+      "datum": "2026-10-24",
+      "datumVon": "2026-10-24",
+      "datumBis": "2026-10-24",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-064": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-08-065": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-066": {
+      "datum": "2026-11-01",
+      "datumVon": "2026-11-01",
+      "datumBis": "2026-11-01",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-08-067": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-068": {
+      "datum": "2026-11-01",
+      "datumVon": "2026-11-01",
+      "datumBis": "2026-11-01",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-08-069": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-070": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-071": {
+      "datum": "2026-10-31",
+      "datumVon": "2026-10-31",
+      "datumBis": "2026-10-31",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-08-072": {
+      "datum": "2026-10-30",
+      "datumVon": "2026-10-30",
+      "datumBis": "2026-10-30",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-073": {
+      "datum": "2026-11-07",
+      "datumVon": "2026-11-07",
+      "datumBis": "2026-11-07",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-09-074": {
+      "datum": "2026-11-07",
+      "datumVon": "2026-11-07",
+      "datumBis": "2026-11-07",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-09-075": {
+      "datum": "2026-11-07",
+      "datumVon": "2026-11-07",
+      "datumBis": "2026-11-07",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-076": {
+      "datum": "2026-11-08",
+      "datumVon": "2026-11-08",
+      "datumBis": "2026-11-08",
+      "anstoss": "19:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-077": {
+      "datum": "2026-11-08",
+      "datumVon": "2026-11-08",
+      "datumBis": "2026-11-08",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-078": {
+      "datum": "2026-11-07",
+      "datumVon": "2026-11-07",
+      "datumBis": "2026-11-07",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-09-079": {
+      "datum": "2026-11-06",
+      "datumVon": "2026-11-06",
+      "datumBis": "2026-11-06",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-080": {
+      "datum": "2026-11-08",
+      "datumVon": "2026-11-08",
+      "datumBis": "2026-11-08",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-09-081": {
+      "datum": "2026-11-07",
+      "datumVon": "2026-11-07",
+      "datumBis": "2026-11-07",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-10-082": {
+      "datum": "2026-11-20",
+      "datumVon": "2026-11-20",
+      "datumBis": "2026-11-20",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-10-083": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-10-084": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-10-085": {
+      "datum": "2026-11-22",
+      "datumVon": "2026-11-22",
+      "datumBis": "2026-11-22",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-10-086": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-10-087": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-10-088": {
+      "datum": "2026-11-22",
+      "datumVon": "2026-11-22",
+      "datumBis": "2026-11-22",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-10-089": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-10-090": {
+      "datum": "2026-11-21",
+      "datumVon": "2026-11-21",
+      "datumBis": "2026-11-21",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-11-091": {
+      "datum": "2026-11-29",
+      "datumVon": "2026-11-29",
+      "datumBis": "2026-11-29",
+      "anstoss": "19:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-11-092": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "18:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-11-093": {
+      "datum": "2026-11-29",
+      "datumVon": "2026-11-29",
+      "datumBis": "2026-11-29",
+      "anstoss": "17:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-11-094": {
+      "datum": "2026-11-29",
+      "datumVon": "2026-11-29",
+      "datumBis": "2026-11-29",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-11-095": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-11-096": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-11-097": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    },
+    "bl-2026-27-11-098": {
+      "datum": "2026-11-27",
+      "datumVon": "2026-11-27",
+      "datumBis": "2026-11-27",
+      "anstoss": "20:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-09-10"
+    },
+    "bl-2026-27-11-099": {
+      "datum": "2026-11-28",
+      "datumVon": "2026-11-28",
+      "datumBis": "2026-11-28",
+      "anstoss": "15:30",
+      "status": "terminiert",
+      "terminBestaetigt": true,
+      "quelleStand": "2026-07-30"
+    }
+  }
+}

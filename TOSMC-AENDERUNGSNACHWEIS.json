@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:16:16.216Z",
+  "changeType": "local",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "CHANGELOG.md",
+      "type": "changed",
+      "before": "52f245efb48e24179cc33548736fc318c25a030028bfb72b716a23fb0ce47fe5",
+      "after": "66932106ac660bd54c1daa745faa355668fe87ef3542fe86e1917b4b5fcbfc0f"
+    },
+    {
+      "path": "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      "type": "new",
+      "before": null,
+      "after": "a74dca093cce56b393c41b3593a0072b6e5acc38deb27a57585747c138bc0116"
+    },
+    {
+      "path": "README_HF89.md",
+      "type": "new",
+      "before": null,
+      "after": "50d3dc0b24c7cce221d89537550b5bd62871859b5d258d4bc6c30444662890b3"
+    },
+    {
+      "path": "TOSMC-AENDERUNGSNACHWEIS.json",
+      "type": "changed",
+      "before": "ddf8bc5e0c311e3a908147f78e67181771b5a30ab1c903dad64bc9f7c3f772db",
+      "after": "adf4df2a470619859a82b710a3af180842e9322ffee39c92799ce782d602dca3"
+    },
+    {
+      "path": "TOSMC-SCHUTZPRUEFUNG-HF89.json",
+      "type": "new",
+      "before": null,
+      "after": "b92879f7e549cd26c375734e44a1bc9b57610db7aa8071adba53c6e84b95c876"
+    },
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "70bb8e28103948bcdb9bbf017afda8a0ea05910174a681d3758bee06642e4251",
+      "after": "e2674b8e48e032cc280a44717fc4ebbcd01f06930bafbd18d93d742d35ba7c8c"
+    },
+    {
+      "path": "index.html",
+      "type": "changed",
+      "before": "7d35ec51094e181551aec982b5537d83e919a4a50d47d7b3c4e3d431dfc46f7d",
+      "after": "1ce7c21e1697cec6c7b109a87a7bf6958381e79cb24c8be2e27ebe00584a96b7"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "schemaVersion": 1,
+    "changeType": "local",
+    "description": "Desktop-Höhenkorrektur der Startseitenkachel Der Hohe Schmugglerrat auf Website HF88",
+    "allowedPaths": [
+      "index.html",
+      "VERSION.txt",
+      "CHANGELOG.md",
+      "README_HF89.md",
+      "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      "TOSMC-AENDERUNGSNACHWEIS.json",
+      "TOSMC-SCHUTZPRUEFUNG-HF89.json"
+    ],
+    "protectedPaths": [
+      "spielbetrieb.json",
+      "spieldaten.json",
+      "highscore.json",
+      "website-view.json",
+      "teams.json",
+      "teilnehmer.json",
+      "wettbewerbe.json",
+      "schedule-data-adapter.js",
+      "wettbewerb.js",
+      "wettbewerb.css"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

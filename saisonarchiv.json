@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 1,
+  "aktualisiert": "2026-07-31",
+  "beschreibung": "Zentrales Saisonarchiv und Hall of Fame.",
+  "saisons": [
+    {
+      "id": "2025-2026",
+      "label": "Saison 2025/2026",
+      "status": "abgeschlossen",
+      "meister": "Manuel",
+      "wettbewerbe": [
+        {
+          "name": "Gesamtwertung",
+          "sieger": "Manuel"
+        },
+        {
+          "name": "DFB-Pokal",
+          "sieger": "Manuel"
+        },
+        {
+          "name": "Champions League",
+          "sieger": "ZweikampfGott"
+        }
+      ]
+    },
+    {
+      "id": "wm-2026",
+      "label": "Weltmeisterschaft 2026",
+      "status": "abgeschlossen",
+      "meister": "ZweikampfGott",
+      "wettbewerbe": [
+        {
+          "name": "WM-Gesamtwertung",
+          "sieger": "ZweikampfGott"
+        }
+      ]
+    },
+    {
+      "id": "2026-2027",
+      "label": "Saison 2026/2027",
+      "status": "laufend",
+      "meister": "Noch offen",
+      "wettbewerbe": []
+    }
+  ],
+  "rekorde": [
+    {
+      "id": "gesamtpunkte",
+      "label": "Meiste Gesamtpunkte",
+      "wert": "346",
+      "inhaber": "Manuel",
+      "quelle": "Saison 2025/2026"
+    },
+    {
+      "id": "bonuspunkte",
+      "label": "Meiste Bonuspunkte",
+      "wert": "60",
+      "inhaber": "ZweikampfGott",
+      "quelle": "Saison 2025/2026"
+    },
+    {
+      "id": "exakte-tipps",
+      "label": "Meiste exakte Tipps",
+      "wert": "17",
+      "inhaber": "Marius",
+      "quelle": "Saison 2025/2026"
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+/* Website 4.8.1 – Spieltags-Logbuch */
+.logbook-teaser{
+  position:relative;
+  overflow:hidden;
+  border-color:rgba(179,126,43,.58);
+  background:
+    linear-gradient(110deg,rgba(20,11,6,.96),rgba(39,21,9,.9)),
+    url("./piraten-spieltag-hintergrund.jpg") center/cover;
+}
+.logbook-teaser::after{
+  content:"";position:absolute;inset:8px;border:1px solid rgba(225,180,88,.14);
+  border-radius:inherit;pointer-events:none;
+}
+.logbook-teaser > *{position:relative;z-index:1}
+.logbook-teaser-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:stretch}
+.logbook-teaser-main,.logbook-teaser-side{
+  border:1px solid rgba(190,137,48,.34);border-radius:12px;
+  background:rgba(14,8,4,.72);padding:16px 18px;
+}
+.logbook-kicker{display:block;color:#c4903b;text-transform:uppercase;letter-spacing:.13em;font-size:.69rem;font-weight:800}
+.logbook-teaser-main h3{margin:.35rem 0 .55rem;color:#f0d5a0;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.25rem,2.5vw,1.8rem)}
+.logbook-teaser-main p{margin:.35rem 0;color:#d4c09b;line-height:1.55}
+.logbook-teaser-side{display:grid;gap:10px;align-content:center}
+.logbook-mini-stat{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(190,137,48,.17)}
+.logbook-mini-stat:last-child{border-bottom:0}
+.logbook-mini-stat span{color:#bda783;font-size:.76rem}
+.logbook-mini-stat strong{color:#efcb78;text-align:right}
+.logbook-teaser-action{text-align:center;margin:16px 0 0}
+
+/* Logbuch-Seite */
+.lb-page{min-height:100vh;padding:28px 18px 54px;background:
+ linear-gradient(rgba(7,4,2,.78),rgba(7,4,2,.91)),
+ url("./piraten-hintergrund.jpg") center/cover fixed;color:#e8d4ab}
+.lb-shell{width:min(1120px,100%);margin:0 auto}
+.lb-hero,.lb-entry,.lb-archive{border:1px solid rgba(186,132,45,.5);border-radius:16px;background:
+ linear-gradient(135deg,rgba(42,23,10,.94),rgba(12,7,4,.96));
+ box-shadow:0 18px 45px rgba(0,0,0,.35),inset 0 0 0 1px rgba(255,230,170,.035)}
+.lb-hero{padding:26px;margin-bottom:18px;text-align:center}
+.lb-crest{width:84px;height:84px;margin:0 auto 10px;filter:drop-shadow(0 7px 10px rgba(0,0,0,.45))}
+.lb-kicker{color:#c58c33;letter-spacing:.15em;text-transform:uppercase;font-weight:800;font-size:.72rem}
+.lb-hero h1{font-family:Georgia,"Times New Roman",serif;color:#f1d7a1;font-size:clamp(2rem,5vw,3.3rem);margin:.28rem 0 .5rem}
+.lb-hero p{max-width:760px;margin:0 auto;color:#cdbb98;line-height:1.6}
+.lb-toolbar{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:16px 0 0}
+.lb-btn{display:inline-flex;align-items:center;justify-content:center;padding:.72rem 1rem;border:1px solid #a66f22;border-radius:9px;background:#27150a;color:#edcf91;text-decoration:none;font-weight:800}
+.lb-btn:hover,.lb-btn:focus-visible{border-color:#d7a34d;color:#ffe0a1;outline:none}
+.lb-status{margin:16px 0;padding:12px 14px;border:1px solid rgba(188,135,47,.34);border-radius:10px;background:rgba(14,8,4,.75);text-align:center;color:#bda987}
+.lb-entry{padding:22px;margin-bottom:18px}
+.lb-entry-head{text-align:center;padding-bottom:16px;border-bottom:1px solid rgba(190,137,48,.24)}
+.lb-entry-head span{display:block;color:#b97f2d;text-transform:uppercase;font-size:.7rem;letter-spacing:.11em}
+.lb-entry-head h2{margin:.35rem 0 0;font-family:Georgia,"Times New Roman",serif;color:#f0d29a}
+.lb-highlight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.lb-highlight{padding:15px;border:1px solid rgba(190,137,48,.28);border-radius:11px;background:rgba(26,14,7,.7)}
+.lb-highlight--hero{grid-column:1/-1;background:linear-gradient(135deg,rgba(77,42,14,.66),rgba(24,13,7,.78))}
+.lb-highlight h3{margin:0 0 8px;color:#d8a84e;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+.lb-highlight strong{color:#f1d49a}
+.lb-highlight p{margin:.35rem 0;color:#cdbb99;line-height:1.55}
+.lb-names{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.lb-name{padding:5px 8px;border:1px solid rgba(190,137,48,.27);border-radius:999px;background:rgba(10,6,4,.5);color:#e7ca8f;font-size:.75rem}
+.lb-scoreline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.lb-scoreline div{text-align:center;padding:9px 6px;border:1px solid rgba(190,137,48,.22);border-radius:8px;background:rgba(9,5,3,.44)}
+.lb-scoreline strong{display:block;font-size:1.35rem;color:#f0cb75}
+.lb-scoreline span{display:block;color:#a99572;font-size:.68rem}
+.lb-archive{padding:18px}
+.lb-archive h2{margin:0 0 12px;color:#e3bd6d;font-family:Georgia,"Times New Roman",serif}
+.lb-archive-list{display:flex;flex-wrap:wrap;gap:8px}
+.lb-archive button{border:1px solid rgba(174,119,37,.54);border-radius:8px;background:#1b0e07;color:#d9bd84;padding:8px 11px;cursor:pointer}
+.lb-archive button[aria-current="true"]{background:#5b3513;color:#ffe1a0;border-color:#d3a04a}
+.lb-legal{margin-top:22px;text-align:center;color:#8f7c61;font-size:.73rem}
+@media(max-width:760px){
+ .logbook-teaser-grid,.lb-highlight-grid{grid-template-columns:1fr}
+ .lb-highlight--hero{grid-column:auto}
+ .lb-page{padding:14px 9px 38px}.lb-entry,.lb-hero{padding:16px}
+ .lb-scoreline{gap:5px}.lb-scoreline div{padding:8px 3px}
+}
+
+/* 4.8.1 – reiner Darstellungs-Feinschliff */
+html,body{margin:0;padding:0;background:#070402}
+body{overflow-x:hidden}
+.lb-shell{width:min(1180px,100%)}
+.lb-hero,.lb-entry,.lb-archive{border-color:rgba(196,139,45,.62);box-shadow:0 18px 45px rgba(0,0,0,.38),inset 0 0 0 1px rgba(255,226,160,.045)}
+.lb-hero{padding:28px 30px 25px}
+.lb-entry{padding:24px}
+.lb-entry-head{padding-bottom:18px}
+.lb-entry-head h2{font-size:clamp(1.55rem,3vw,2rem)}
+.lb-highlight-grid{gap:14px}
+.lb-highlight{padding:18px;border-color:rgba(198,142,47,.38);background:linear-gradient(135deg,rgba(43,23,10,.82),rgba(20,11,6,.86));box-shadow:inset 0 0 18px rgba(0,0,0,.14)}
+.lb-highlight--hero{background:linear-gradient(135deg,rgba(76,42,15,.72),rgba(28,15,7,.88))}
+.lb-highlight h3{margin-bottom:10px;font-size:.86rem;letter-spacing:.095em}
+.lb-highlight p{font-size:1rem;line-height:1.62}
+.lb-names{gap:8px;margin-top:12px}
+.lb-name{padding:7px 11px;border-color:rgba(201,146,49,.42);background:rgba(18,10,5,.72);color:#f0d39a;font-size:.9rem;line-height:1.15;font-weight:700;letter-spacing:.01em}
+.lb-scoreline{gap:10px;margin-top:13px}
+.lb-scoreline div{padding:11px 7px;border-color:rgba(198,142,47,.34);background:rgba(13,7,4,.58)}
+.lb-scoreline strong{font-size:1.55rem}
+.lb-scoreline span{margin-top:2px;color:#b8a17b;font-size:.74rem;font-weight:700}
+.lb-archive{padding:20px 22px}
+.lb-archive button{font-size:.86rem;font-weight:700}
+.logbook-teaser-main,.logbook-teaser-side{border-color:rgba(198,142,47,.42)}
+.logbook-mini-stat strong{font-size:1.02rem}
+@media(max-width:760px){.lb-hero,.lb-entry,.lb-archive{border-radius:12px}.lb-highlight{padding:15px}.lb-name{padding:7px 10px;font-size:.86rem}.lb-highlight p{font-size:.95rem}}
+
+
+/* 4.8.1 – Flächennutzung und Klarheit */
+.lb-highlight--wide{
+  grid-column:1/-1;
+}
+.lb-highlight--captains{
+  background:linear-gradient(135deg,rgba(31,17,8,.92),rgba(18,10,5,.9));
+}
+.lb-highlight--captains .lb-names{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:10px;
+}
+.lb-highlight--captains .lb-name{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  text-align:center;
+  border-radius:10px;
+  font-size:.96rem;
+}
+
+.lb-highlight--galley{
+  background:linear-gradient(135deg,rgba(31,17,8,.92),rgba(18,10,5,.9));
+}
+.lb-galley-grid{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:10px;
+  margin-top:10px;
+}
+.lb-galley-grid div{
+  text-align:center;
+  padding:12px 8px;
+  border:1px solid rgba(198,142,47,.28);
+  border-radius:9px;
+  background:rgba(11,6,3,.45);
+}
+.lb-galley-grid strong{
+  display:block;
+  color:#f0cb75;
+  font-size:1.55rem;
+}
+.lb-galley-grid span{
+  display:block;
+  margin-top:3px;
+  color:#b9a47e;
+  font-size:.72rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+}
+
+.lb-highlight--crew .lb-crewline{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  gap:12px;
+  align-items:center;
+  margin-top:12px;
+}
+.lb-crewline>div:not(.lb-crew-vs){
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:14px;
+  min-height:58px;
+  padding:11px 14px;
+  border:1px solid rgba(198,142,47,.32);
+  border-radius:9px;
+  background:rgba(11,6,3,.5);
+}
+.lb-crewline span{
+  color:#cbb58e;
+  font-weight:700;
+}
+.lb-crewline strong{
+  color:#f0cb75;
+  font-size:1.45rem;
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+.lb-crew-vs{
+  color:#9e8967;
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.logbook-teaser-main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.logbook-teaser-distribution{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+  margin-top:14px;
+}
+.logbook-teaser-distribution div{
+  text-align:center;
+  padding:10px 6px;
+  border:1px solid rgba(198,142,47,.28);
+  border-radius:8px;
+  background:rgba(12,7,4,.5);
+}
+.logbook-teaser-distribution strong{
+  display:block;
+  color:#efcb78;
+  font-size:1.28rem;
+}
+.logbook-teaser-distribution span{
+  display:block;
+  margin-top:2px;
+  color:#ae9977;
+  font-size:.67rem;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+@media(max-width:760px){
+  .lb-highlight--captains .lb-names{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lb-galley-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lb-galley-grid div:last-child{grid-column:1/-1}
+  .lb-highlight--crew .lb-crewline{grid-template-columns:1fr}
+  .lb-crew-vs{text-align:center}
+  .logbook-teaser-distribution{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+
+/* 4.8.1-P1 – Lesbarkeit personenbezogener Auszeichnungen */
+.lb-highlight--captains .lb-name,
+.lb-highlight--volltreffer .lb-name {
+  font-size: 1.08rem;
+}
+
+
+/* Website 4.9.1-S30-2 – Spieltag in 30 Sekunden ersetzt den redundanten Startseiten-Logbuch-Teaser */
+.logbook-30s{
+  margin:0 0 18px;padding:14px 16px 16px;border:1px solid rgba(207,151,54,.48);border-radius:12px;
+  background:linear-gradient(135deg,rgba(55,30,11,.82),rgba(18,10,5,.84));
+  box-shadow:inset 0 0 24px rgba(0,0,0,.18);
+}
+.logbook-30s-titleline{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.logbook-30s-mark{
+  display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;border:1px solid rgba(218,164,68,.62);border-radius:50%;
+  color:#f1cf86;background:rgba(16,9,4,.7);font-family:Georgia,"Times New Roman",serif;font-size:1.35rem;font-weight:800;
+  box-shadow:inset 0 0 0 3px rgba(191,130,37,.12);
+}
+.logbook-30s-titleline h3{margin:.15rem 0 0;color:#f1d7a1;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.15rem,2vw,1.45rem)}
+.logbook-30s-head{display:flex;align-items:end;justify-content:space-between;gap:12px;padding-bottom:9px;border-bottom:1px solid rgba(198,142,47,.22)}
+.logbook-30s-head strong{color:#d8bd88;font-size:.8rem;font-weight:700}
+.logbook-30s-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:10px}
+.logbook-30s-item{min-width:0;padding:11px 12px;border:1px solid rgba(198,142,47,.28);border-radius:9px;background:rgba(12,7,4,.52)}
+.logbook-30s-item>span{display:block;color:#d7a64d;font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.logbook-30s-item p{margin:.35rem 0 0;color:#d6c29e;line-height:1.45;font-size:.88rem}
+.logbook-30s-empty{padding:8px 0;color:#ae9977;font-size:.86rem}
+@media(max-width:760px){
+  .logbook-30s{padding:13px 12px 14px}
+  .logbook-30s-head{align-items:flex-start;flex-direction:column;gap:4px}
+  .logbook-30s-list{grid-template-columns:1fr}
+  .logbook-30s-mark{flex-basis:44px;width:44px;height:44px;font-size:1.22rem}
+  .logbook-30s-item{padding:10px 11px}
+}
+
+/* Website 4.9.1 – Typografie-Feinschliff für die Spieltagszuordnung in „Spieltag in 30 Sekunden“ */
+.logbook-30s-head .logbook-kicker{
+  font-size:.82rem;
+  letter-spacing:.10em;
+  line-height:1.3;
+}
+@media(max-width:760px){
+  .logbook-30s-head .logbook-kicker{font-size:.80rem}
+}
+
+/* Website 4.9.1-S30-3 – laufender Wertungsblock ohne veraltete Spieltagsauswertung */
+.logbook-30s-pending{
+  padding:12px 14px;border:1px solid rgba(207,151,54,.34);border-radius:9px;
+  background:linear-gradient(135deg,rgba(30,17,8,.72),rgba(12,7,4,.64));
+}
+.logbook-30s-pending>strong{display:block;margin:.3rem 0 .45rem;color:#f0d29a;font-family:Georgia,"Times New Roman",serif;font-size:1.08rem}
+.logbook-30s-pending p{margin:0;color:#d2bd98;line-height:1.5}
+.logbook-30s-pending small{display:block;margin-top:.65rem;color:#c99b4d;font-weight:800;letter-spacing:.02em}
+.lb-entry--pending{background:linear-gradient(135deg,rgba(55,30,11,.92),rgba(14,8,4,.96))}
+.lb-pending-copy{max-width:760px;margin:20px auto 2px;text-align:center}
+.lb-pending-copy p{margin:0;color:#d4c09b;line-height:1.65;font-size:1rem}
+.lb-pending-copy strong{display:block;margin-top:14px;color:#efcb78;font-size:1rem}
+.lb-pending-copy small{display:block;margin-top:14px;color:#9f8b69;line-height:1.45}
+
+/* Website 4.9.2-HF5 – sichere Dreierstruktur: Titel oben, Text im Restbereich ausbalanciert */
+.logbook-30s-head .logbook-30s-round{
+  display:inline-block;
+  font-size:1.55em;
+  line-height:.82;
+  font-weight:900;
+  letter-spacing:0;
+  vertical-align:-.08em;
+}
+@media(min-width:761px){
+  .logbook-30s-item{display:flex;flex-direction:column;justify-content:flex-start;}
+  .logbook-30s-item>span{flex:0 0 auto;}
+  .logbook-30s-item p{
+    flex:1 1 auto;
+    display:flex;
+    align-items:center;
+    margin:.35rem 0 0;
+  }
+}
+@media(max-width:760px){
+  .logbook-30s-item{display:block;}
+  .logbook-30s-item p{display:block;margin-top:.35rem;}
+  .logbook-30s-head .logbook-30s-round{font-size:1.38em;line-height:1;}
+}
+
+/* Website 4.9.2-HF6-TEST1 – Mobile Tippernamen ohne Wortbruch */
+@media (max-width:760px){
+  .lb-highlight--captains .lb-name{
+    min-width:0;
+    white-space:nowrap;
+    overflow-wrap:normal;
+    word-break:normal;
+    hyphens:none;
+    font-size:.82rem;
+    letter-spacing:0;
+    padding-left:6px;
+    padding-right:6px;
+  }
+}
+@media (max-width:360px){
+  .lb-highlight--captains .lb-name{
+    font-size:.76rem;
+    padding-left:4px;
+    padding-right:4px;
+  }
+}
+
+
+/* Website 4.9.2-HF10-TEST3 – Startseiten-Teaser: feste Vertikalstruktur der Kennzahlen */
+.logbook-teaser>.lead{
+  margin-top:-2px;
+  color:#bda783;
+  font-size:.95rem;
+}
+.logbook-teaser .logbook-30s-head{
+  align-items:center;
+  min-height:24px;
+  padding-bottom:8px;
+}
+.logbook-teaser .logbook-30s-stats{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  margin-top:10px;
+}
+.logbook-teaser .logbook-30s-stat{
+  min-width:0;
+  padding:12px 10px 11px;
+  border:1px solid rgba(198,142,47,.30);
+  border-radius:9px;
+  background:linear-gradient(180deg,rgba(15,9,5,.62),rgba(8,5,3,.48));
+  text-align:center;
+  display:grid;
+  grid-template-rows:auto auto auto;
+  row-gap:6px;
+  align-content:center;
+}
+.logbook-teaser .logbook-30s-stat>span{
+  display:block;
+  color:#d7a64d;
+  font-size:.69rem;
+  font-weight:800;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+.logbook-teaser .logbook-30s-stat>strong{
+  display:block;
+  margin:0;
+  color:#f1cf86;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(2rem,4vw,2.7rem);
+  line-height:1;
+  text-shadow:0 1px 10px rgba(205,148,50,.13);
+}
+.logbook-teaser .logbook-30s-stat>small{
+  display:block;
+  color:#bca989;
+  font-size:.78rem;
+  line-height:1.25;
+}
+.logbook-teaser .logbook-30s-story{
+  margin-top:11px;
+  padding:12px 14px 13px;
+  border-left:3px solid rgba(215,166,77,.72);
+  border-radius:7px;
+  background:rgba(10,6,3,.48);
+}
+.logbook-teaser .logbook-30s-story>span{
+  display:block;
+  color:#d7a64d;
+  font-size:.67rem;
+  font-weight:900;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+}
+.logbook-teaser .logbook-30s-story>strong{
+  display:block;
+  margin:.32rem 0 .26rem;
+  color:#f0d29a;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1.06rem;
+  line-height:1.3;
+}
+.logbook-teaser .logbook-30s-story p{
+  margin:0;
+  color:#cdb995;
+  font-size:.86rem;
+  line-height:1.4;
+}
+@media(max-width:760px){
+  .logbook-teaser .logbook-30s-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+  .logbook-teaser .logbook-30s-stat{padding:10px 5px 9px;grid-template-rows:2.35em auto auto;row-gap:5px}
+  .logbook-teaser .logbook-30s-stat>span{display:flex;align-items:center;justify-content:center;font-size:.57rem;letter-spacing:.045em;line-height:1.18}
+  .logbook-teaser .logbook-30s-stat>strong{font-size:clamp(1.65rem,9vw,2.15rem);margin:0}
+  .logbook-teaser .logbook-30s-stat>small{font-size:.67rem}
+  .logbook-teaser .logbook-30s-story{padding:11px 12px 12px}
+  .logbook-teaser .logbook-30s-story>strong{font-size:1rem}
+  .logbook-teaser .logbook-30s-story p{font-size:.82rem}
+}
+
+
+/* Website 4.9.2-HF10-TEST4 – gezielter Positionsfix: mittlere Kennzahl (Gegen den Strom) */
+.logbook-teaser .logbook-30s-stat:nth-child(2)>strong{
+  position:relative;
+  top:-6px;
+}
+@media(max-width:760px){
+  .logbook-teaser .logbook-30s-stat:nth-child(2)>strong{top:-8px}
+}
+
+/* Website 4.9.2-HF10-TEST5 – „Wer hat’s gerochen?“ kompakt, desktop- und mobilefest. */
+.lb-highlight--smelled .lb-name--more{
+  font-weight:800;
+  white-space:nowrap;
+}
+@media(max-width:760px){
+  .lb-highlight--smelled .lb-names{gap:7px}
+  .lb-highlight--smelled .lb-name{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+  .lb-highlight--smelled .lb-name--more{white-space:nowrap}
+}
+
+/* COCO-PHASE4-TEST1 – bestehender Highlight-Typ im Logbuch */
+.lb-highlight--coco{
+ background:linear-gradient(135deg,rgba(54,31,12,.74),rgba(20,11,6,.82));
+ border-color:rgba(201,149,58,.42);
+}
+
+
+/* WER-HATS-GEROCHEN-TABLE-TEST1 – tabellarische Darstellung innerhalb bestehender Logbuch-Kachel */
+.lb-smelled-table-wrap{
+  margin-top:12px;
+  border:1px solid rgba(190,137,48,.30);
+  border-radius:10px;
+  overflow:hidden;
+  background:rgba(9,5,3,.34);
+}
+.lb-smelled-table{
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
+}
+.lb-smelled-table th,
+.lb-smelled-table td{
+  padding:10px 12px;
+  border-right:1px solid rgba(190,137,48,.18);
+  border-bottom:1px solid rgba(190,137,48,.18);
+  vertical-align:middle;
+}
+.lb-smelled-table th:last-child,
+.lb-smelled-table td:last-child{border-right:0}
+.lb-smelled-table tbody tr:last-child td{border-bottom:0}
+.lb-smelled-table th{
+  color:#d8a84e;
+  background:rgba(67,38,14,.44);
+  font-size:.69rem;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  text-align:left;
+}
+.lb-smelled-table td{
+  color:#e7d1a2;
+  font-size:.82rem;
+}
+.lb-smelled-table th:nth-child(1),
+.lb-smelled-table td:nth-child(1){width:50%}
+.lb-smelled-table th:nth-child(2),
+.lb-smelled-table td:nth-child(2){width:20%;text-align:center}
+.lb-smelled-table th:nth-child(3),
+.lb-smelled-table td:nth-child(3){width:30%;text-align:center}
+.lb-smelled-name{font-weight:800;color:#f0d29a!important}
+.lb-smelled-result{color:#d9bd84!important;font-weight:800}
+.lb-hit-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:76px;
+  padding:4px 7px;
+  border:1px solid rgba(190,137,48,.35);
+  border-radius:999px;
+  font-size:.66rem;
+  font-weight:900;
+  letter-spacing:.05em;
+}
+.lb-hit-label--mobile{display:none}
+.lb-hit-badge.is-exact{
+  color:#d8efb9;
+  border-color:rgba(112,156,57,.55);
+  background:rgba(56,91,24,.25);
+}
+.lb-hit-badge.is-tendency{
+  color:#f0d29a;
+  background:rgba(91,53,19,.28);
+}
+.lb-smelled-more{
+  padding:10px 12px;
+  border-top:1px dashed rgba(190,137,48,.25);
+  color:#d8a84e;
+  font-size:.76rem;
+  font-weight:800;
+}
+
+@media(max-width:760px){
+  .lb-smelled-table th,
+  .lb-smelled-table td{padding:8px 6px;font-size:.72rem}
+  .lb-smelled-table th{font-size:.60rem}
+  .lb-smelled-table th:nth-child(1),
+  .lb-smelled-table td:nth-child(1){width:48%}
+  .lb-smelled-table th:nth-child(2),
+  .lb-smelled-table td:nth-child(2){width:20%}
+  .lb-smelled-table th:nth-child(3),
+  .lb-smelled-table td:nth-child(3){width:32%}
+  .lb-hit-badge{min-width:0;padding:3px 5px;font-size:.57rem}
+}
+  .lb-smelled-table th:nth-child(3),
+  .lb-smelled-table td:nth-child(3){width:22%}
+  .lb-smelled-table th:nth-child(5),
+  .lb-smelled-table td:nth-child(5){width:28%}
+}
+
+/* WER-HATS-GEROCHEN-SENSATION-TEST3 */
+.lb-sensation-case + .lb-sensation-case{
+  margin-top:24px;
+  padding-top:20px;
+  border-top:1px solid rgba(190,137,48,.26);
+}
+.lb-sensation-case .lb-smelled-table-wrap{
+  margin-bottom:0;
+}
+.lb-sensation-case + .lb-sensation-case .lb-sensation-number{
+  margin-top:2px;
+}
+.lb-sensation-number{
+  display:inline-block;
+  margin-bottom:6px;
+  color:#d8a84e;
+  font-size:.68rem;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.09em;
+}
+
+/* TEST7: Abstand sicher innerhalb des vorherigen Überraschungsblocks erzeugen */
+.lb-sensation-case:not(:last-child){
+  padding-bottom:28px;
+}
+.lb-sensation-case + .lb-sensation-case{
+  margin-top:0;
+  padding-top:20px;
+}
+
+/* TEST8 – Wer hat's gerochen: bessere Lesbarkeit, keine Logikänderung */
+.lb-highlight--smelled{
+  background:linear-gradient(135deg,rgba(43,24,10,.86),rgba(19,10,5,.90));
+}
+.lb-highlight--smelled h3{
+  font-size:1rem;
+  letter-spacing:.07em;
+  margin-bottom:10px;
+}
+.lb-sensation-number{
+  font-size:.82rem;
+  margin-bottom:8px;
+}
+.lb-sensation-case p{
+  font-size:.98rem;
+  line-height:1.6;
+  margin:.45rem 0 .8rem;
+}
+.lb-smelled-table-wrap{
+  margin-top:10px;
+  background:rgba(18,10,5,.58);
+  border-color:rgba(190,137,48,.42);
+}
+.lb-smelled-table th{
+  font-size:.78rem;
+  padding:12px 14px;
+  background:rgba(73,42,15,.58);
+}
+.lb-smelled-table td{
+  font-size:1rem;
+  padding:13px 14px;
+}
+.lb-smelled-name{
+  font-size:1rem!important;
+}
+.lb-smelled-tip{
+  font-size:1.02rem!important;
+  font-weight:800;
+}
+.lb-hit-badge{
+  min-width:110px;
+  padding:6px 10px;
+  font-size:.72rem;
+}
+.lb-smelled-more{
+  padding:12px 14px;
+  font-size:.86rem;
+}
+.lb-sensation-case:not(:last-child){
+  padding-bottom:20px;
+}
+.lb-sensation-case + .lb-sensation-case{
+  padding-top:16px;
+}
+
+@media(max-width:760px){
+  .lb-sensation-case p{font-size:.9rem}
+  .lb-smelled-table th{font-size:.66rem;padding:10px 6px}
+  .lb-smelled-table td{font-size:.86rem;padding:10px 8px}
+  .lb-smelled-table th:nth-child(3){white-space:nowrap;letter-spacing:.05em}
+  .lb-smelled-name{font-size:.86rem!important}
+  .lb-smelled-tip{font-size:.9rem!important}
+  .lb-hit-badge{box-sizing:border-box;width:100%;min-width:0;font-size:.60rem;padding:5px 3px;letter-spacing:.02em;white-space:nowrap}
+  .lb-hit-label--desktop{display:none}
+  .lb-hit-label--mobile{display:inline}
+  .lb-smelled-more{font-size:.78rem}
+}
+
+.lb-name--movement strong{white-space:nowrap}
+.lb-name--movement.is-up strong{color:#d9c778}
+.lb-name--movement.is-down strong{color:#ba8e76}
+
+
+/* FORM-DER-CREW-WEBSITE-ONLY-TEST1 */
+.lb-highlight--form{
+  background:linear-gradient(145deg,rgba(42,24,10,.90),rgba(18,10,6,.94));
+  border-color:rgba(190,137,48,.36);
+}
+.lb-highlight--form p{
+  margin-bottom:10px;
+}
+.lb-form-list{
+  border:1px solid rgba(190,137,48,.28);
+  border-radius:9px;
+  overflow:hidden;
+  background:rgba(11,6,4,.36);
+}
+.lb-form-row{
+  display:grid;
+  grid-template-columns:30px minmax(0,1fr) auto;
+  gap:8px;
+  align-items:center;
+  min-height:39px;
+  padding:7px 10px;
+  border-bottom:1px solid rgba(190,137,48,.16);
+}
+.lb-form-row:last-child{border-bottom:0}
+.lb-form-rank{
+  color:#b88b45;
+  font-weight:900;
+}
+.lb-form-row strong{
+  color:#edcf91;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.lb-form-course{
+  min-width:82px;
+  text-align:right;
+  font-weight:900;
+  letter-spacing:.02em;
+}
+.lb-form-course.is-up{color:#d9c778}
+.lb-form-course.is-down{color:#ba8e76}
+.lb-form-course.is-flat{color:#95866e}
+.lb-form-note{
+  display:block;
+  margin-top:8px;
+  color:#8f8069;
+  font-size:.69rem;
+  line-height:1.35;
+}
+@media(max-width:760px){
+  .lb-form-row{grid-template-columns:26px minmax(0,1fr) auto;padding:7px 8px}
+  .lb-form-course{min-width:70px;font-size:.76rem}
+  .lb-form-note{font-size:.65rem}
+}
+
+
+
+
+
+
+
+
+/* CREWDUELL-COMPACT-TEST4
+   Bestehendes Motiv bereinigt; keine Bildgenerierung. */
+.lb-highlight--crew{
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 50% 34%,rgba(107,68,27,.15),transparent 48%),
+    linear-gradient(145deg,rgba(42,24,10,.94),rgba(15,9,5,.98));
+}
+.lb-crew-head h3{margin-bottom:10px}
+.lb-crew-head p{margin-bottom:0}
+
+.lb-crew-visual{
+  min-height:160px;
+  margin:14px 0 7px;
+  border:1px solid rgba(190,137,48,.38);
+  border-radius:10px;
+  background:
+    linear-gradient(180deg,rgba(8,5,3,.02),rgba(8,5,3,.12)),
+    url("./assets/logbuch/crewduell-motiv.jpg") center center / cover no-repeat;
+  box-shadow:inset 0 0 30px rgba(0,0,0,.28);
+}
+
+.lb-crew-scorebar{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 48px minmax(0,1fr);
+  align-items:center;
+  min-height:64px;
+  border:1px solid rgba(190,137,48,.38);
+  border-radius:9px 9px 0 0;
+  background:rgba(12,7,4,.62);
+  overflow:hidden;
+}
+.lb-crew-side{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:9px 13px;
+}
+.lb-crew-side--left{justify-content:flex-end}
+.lb-crew-side--right{justify-content:flex-start}
+.lb-crew-side span{
+  min-width:0;
+  color:#edcf91;
+  font-weight:900;
+  line-height:1.12;
+  overflow-wrap:normal;
+  word-break:normal;
+  hyphens:none;
+}
+.lb-crew-side strong{
+  flex:0 0 auto;
+  color:#f2c65f;
+  font-size:1.30rem;
+  white-space:nowrap;
+}
+.lb-crew-vs{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-self:stretch;
+  border-left:1px solid rgba(190,137,48,.18);
+  border-right:1px solid rgba(190,137,48,.18);
+  color:#c8a75d;
+  font-weight:900;
+  font-size:.82rem;
+  white-space:nowrap;
+}
+.lb-crew-scorelabel{
+  padding:5px 10px 7px;
+  border:1px solid rgba(190,137,48,.38);
+  border-top:0;
+  border-radius:0 0 9px 9px;
+  color:#8f7d63;
+  font-size:.62rem;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  background:rgba(12,7,4,.62);
+}
+.lb-crew-note{
+  display:block;
+  margin-top:9px;
+  color:#8e7f69;
+  font-size:.67rem;
+  line-height:1.35;
+}
+
+@media(max-width:760px){
+  .lb-crew-visual{
+    min-height:0;
+    height:112px;
+    margin-top:10px;
+    margin-bottom:7px;
+    background-size:cover;
+    background-position:center center;
+  }
+  .lb-crew-scorebar{
+    grid-template-columns:1fr;
+    min-height:0;
+  }
+  .lb-crew-side{
+    justify-content:space-between;
+    min-height:46px;
+    padding:8px 12px;
+  }
+  .lb-crew-side--right{flex-direction:row-reverse}
+  .lb-crew-side span{
+    font-size:.82rem;
+    max-width:72%;
+  }
+  .lb-crew-side strong{font-size:1.12rem}
+  .lb-crew-vs{
+    min-height:25px;
+    border-left:0;
+    border-right:0;
+    border-top:1px solid rgba(190,137,48,.18);
+    border-bottom:1px solid rgba(190,137,48,.18);
+  }
+  .lb-crew-scorelabel{font-size:.57rem}
+  .lb-crew-note{font-size:.63rem}
+}
+
+
+/* TEST16 – Coco schaut in das Startseiten-Logbuch.
+   Rein dekorativ, absolut positioniert; keine Änderung an Grid/Kachelgeometrie. */
+.logbook-teaser .logbook-coco{
+  position:absolute;
+  z-index:3;
+  top:8px;
+  right:10px;
+  width:clamp(190px,24vw,310px);
+  height:auto;
+  display:block;
+  pointer-events:none;
+  user-select:none;
+  filter:drop-shadow(0 10px 12px rgba(0,0,0,.38));
+  transform:rotate(-1.5deg);
+  transform-origin:80% 20%;
+}
+.logbook-teaser .section-title,
+.logbook-teaser>.lead{
+  padding-right:clamp(200px,25vw,320px);
+}
+
+@media(max-width:760px){
+  .logbook-teaser .logbook-coco{
+    top:46px;
+    right:-4px;
+    width:118px;
+    transform:rotate(-2deg);
+  }
+  .logbook-teaser .section-title,
+  .logbook-teaser>.lead{
+    padding-right:0;
+  }
+}
+@media(max-width:430px){
+  .logbook-teaser .logbook-coco{
+    top:54px;
+    right:-10px;
+    width:104px;
+  }
+}
+
+
+/* Website 4.9.2-HF12-HF70 – Kursbewegung ohne doppelte Aussage. */
+.lb-highlight--movement .lb-movement-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.lb-movement-side{
+  min-width:0;
+  padding:12px;
+  border:1px solid rgba(190,137,48,.24);
+  border-radius:9px;
+  background:rgba(10,6,4,.34);
+}
+.lb-movement-side h4{
+  margin:0 0 10px;
+  color:#d8a84e;
+  font-size:.82rem;
+  text-transform:uppercase;
+  letter-spacing:.075em;
+}
+.lb-movement-side .lb-movement-names{
+  margin-top:0;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:7px;
+}
+.lb-movement-side .lb-name--movement{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  border-radius:8px;
+  white-space:normal;
+}
+.lb-movement-side .lb-name--movement > span{
+  min-width:0;
+  overflow-wrap:anywhere;
+}
+.lb-movement-side .lb-name--movement strong{
+  flex:0 0 auto;
+}
+@media(max-width:760px){
+  .lb-highlight--movement .lb-movement-grid{grid-template-columns:1fr}
+  .lb-movement-side{padding:10px}
+}
+
+/* Website 4.9.2-HF72 – laufender Wertungsblock blockiert abgeschlossene Rueckblicke nicht mehr */
+.logbook-30s-previous-label{
+  margin:14px 0 8px;
+  padding-top:12px;
+  border-top:1px solid rgba(198,142,47,.22);
+}
+.logbook-30s-previous-label .logbook-kicker{
+  color:#d7a64d;
+  font-size:.68rem;
+  font-weight:900;
+  letter-spacing:.10em;
+  text-transform:uppercase;
+}
+#lb-current .lb-entry--pending + .lb-entry{margin-top:18px}
+
+
+/* Website 4.9.2-HF12-HF101-TEST4 – Frühere Einträge nach Wettbewerb und Spieltag/Runde */
+.lb-archive-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.lb-archive-field{display:flex;flex-direction:column;gap:7px;min-width:0}
+.lb-archive-field label{color:#c99b4d;font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.lb-archive-field select{width:100%;min-height:44px;border:1px solid rgba(174,119,37,.54);border-radius:8px;background:#1b0e07;color:#ead09a;padding:9px 38px 9px 11px;font:inherit;font-weight:700;cursor:pointer}
+.lb-archive-field select:focus{outline:2px solid rgba(211,160,74,.7);outline-offset:2px}
+.lb-archive-empty{color:#bda783;line-height:1.5}
+@media(max-width:760px){.lb-archive-controls{grid-template-columns:1fr}}
+
+/* Website 4.9.2-HF12-HF101-TEST8 – Mobile Logbuch-Navigation ohne Seitenüberlauf */
+@media(max-width:520px){
+  .lb-toolbar .tosmc-nav-button{
+    box-sizing:border-box;
+    max-width:100%;
+  }
+}
+

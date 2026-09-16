@@ -1,0 +1,20 @@
+{
+  "wettbewerbSchild": "Nächste Ereignisse",
+  "titel": "Die nächsten 7 Tage",
+  "statusSchild": "",
+  "anzeigeTage": 7,
+  "locale": "de-DE",
+  "testJetzt": "",
+  "liveDauerMinuten": 120,
+  "hinweisAnzeigen": false,
+  "hinweis": "",
+  "uebersichtLink": "",
+  "uebersichtButtonText": "Alle Termine ansehen",
+  "kicktippLink": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+  "kicktippButtonText": "Kicktipp Live Action",
+  "platzhalterDatum": "TT.MM.JJJJ · --:--",
+  "platzhalterWettbewerb": "Wettbewerb offen",
+  "platzhalterHeim": "Heimteam",
+  "platzhalterTrenner": "–",
+  "platzhalterAuswaerts": "Auswärtsteam"
+}

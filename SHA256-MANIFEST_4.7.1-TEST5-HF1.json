@@ -1,0 +1,3240 @@
+{
+  "release": "4.7.1-TEST5-HF1",
+  "files": [
+    {
+      "path": "ADMIN-HANDBUCH.md",
+      "sha256": "2fb57af760999d27d9006eacf46ad6d143d154128306d6858acc88adab05a8aa",
+      "size": 45
+    },
+    {
+      "path": "ADMIN-SYSTEMANALYSE.md",
+      "sha256": "a3065fe256db91d608adca4531d8c1a228c3b25d7278879c8dd28560a41668e4",
+      "size": 13532
+    },
+    {
+      "path": "ADMIN_COCKPIT_KONZEPT.md",
+      "sha256": "05c9c81288e5497f93204d34eb19632720a69dcfe37fdad6dce44b87e4c0b26c",
+      "size": 4233
+    },
+    {
+      "path": "ADMIN_HANDBUCH.md",
+      "sha256": "09149257e83bfed175315fd5b7df56e8bb38311d4de68ccc1ec0309c03b8034b",
+      "size": 20435
+    },
+    {
+      "path": "ANLEITUNG-KAPITAENSTISCH-V2.txt",
+      "sha256": "edaf2f075249ac383e20860889612d749cde18a9e7d9b52b70f1ebcd908edecf",
+      "size": 669
+    },
+    {
+      "path": "ANLEITUNG-KAPITAENSTISCH.txt",
+      "sha256": "b16e3d4082fc5fe8d277f7c0c2e06078428f6fddc3489b48266e39bf882a57d0",
+      "size": 543
+    },
+    {
+      "path": "ANLEITUNG-V21.txt",
+      "sha256": "eec6aa5bd6fed9efdb8c75eb6867f1901816ae57b6d6b8fe5e24c813efd08f7f",
+      "size": 1072
+    },
+    {
+      "path": "ANLEITUNG-V23.txt",
+      "sha256": "d6f0866875093052312aaf2634d1360b9e4f96ff7b651e4a725190db0b3c4429",
+      "size": 636
+    },
+    {
+      "path": "ANLEITUNG.txt",
+      "sha256": "14ed21d9b00a3b3c99e93f2bc1477292d572d85675c8ff86b3c34f7a9f81e3ec",
+      "size": 486
+    },
+    {
+      "path": "ARCHITEKTUR.md",
+      "sha256": "cc6c5ff6208e0fef19fd9f55cfc5dbf7adb0429cfe912168095f8e0507fef366",
+      "size": 12904
+    },
+    {
+      "path": "BACKUP_RESTORE.md",
+      "sha256": "92c6fc225262fcf4d543071b890d17fb26f276ea44eedc291314f2429eb9a034",
+      "size": 53
+    },
+    {
+      "path": "BENUTZERHANDBUCH.md",
+      "sha256": "11bc803e8fe681b730bc93ee053ac3eb205321f5b58bde427a6a2ab4b508ada8",
+      "size": 40
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0c2ae32e48571627639c2e488f3ac3b4099d5a4bb2de475047be8a4bc2e22f97",
+      "size": 23437
+    },
+    {
+      "path": "CHANGELOG_4.7.0-HF1.md",
+      "sha256": "7b1652072c52ab1894439708d34674f95209e0a5bd42384305f96f79e9ebbb6b",
+      "size": 305
+    },
+    {
+      "path": "CHANGELOG_4.7.0-HF2.md",
+      "sha256": "fd9a5a9046b3c0e19739a1d224f74167f7681aa12b4c1840a4c950de0e0b355a",
+      "size": 474
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST2.md",
+      "sha256": "8112481edce243ba72c9a9708f5e49b436f1a4ff0591276cf6e4f86d64f70ef6",
+      "size": 908
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST3.md",
+      "sha256": "b7d644f98482db36bd07cea3c8e097130bb1904b404879315c837013c41adb41",
+      "size": 537
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST4.md",
+      "sha256": "3d8bfd6c3fa337035f8f4b91886d1c9f931e2dc0e0a7f001a85d7384a1781323",
+      "size": 716
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST5-HF1.md",
+      "sha256": "6e8a896cfda45cdcee99d92dec7de893821d3f5c9fd5ea42473646104125629a",
+      "size": 825
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST5.md",
+      "sha256": "84a06fc3c7eeb8ddfd0ac4146ce5399f1be44a417dbf028dfe9cb16795a9cc7d",
+      "size": 1257
+    },
+    {
+      "path": "CNAME",
+      "sha256": "fbb54b525696c8b148a1232625cfd9b6978921f267fa3a5fe17ee4555695de19",
+      "size": 25
+    },
+    {
+      "path": "Champion-Troph#U00e4e.jpeg",
+      "sha256": "f190b21f9e644b10a80cb4faaf4205830010db8424f980cb72f0f3c66afa0582",
+      "size": 342558
+    },
+    {
+      "path": "Champion-Troph#U251c#U00f1e.jpeg",
+      "sha256": "f190b21f9e644b10a80cb4faaf4205830010db8424f980cb72f0f3c66afa0582",
+      "size": 342558
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.0-FINAL.md",
+      "sha256": "5eb1f4eca4d2dc7eec7ba1d371a8e8838fd674b62c526de336ff870376790078",
+      "size": 330
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.0-HF1.md",
+      "sha256": "3ef3b67db68be0087135cd51d489ee04d0f1fa2a77ac8cc315983754e84111ad",
+      "size": 210
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.0-HF2.md",
+      "sha256": "c06d8d27b3a531040f6651a06c55817f2dc41fcdf423ed32859ad04f3ca9da67",
+      "size": 241
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST2.md",
+      "sha256": "f20384f96d8083286b7bb1a76848ee76e19c8ecb21a970ba891dab2d8b807784",
+      "size": 700
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST3.md",
+      "sha256": "f02e349c8285e5e9f6b1c92d34eb980846102da04522f808c725d132ea6d59bb",
+      "size": 294
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST4.md",
+      "sha256": "d105d7b9fa4a9ebaa8f61a01ba57807110921b673146c2f49f75ae779604d162",
+      "size": 388
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST5-HF1.md",
+      "sha256": "1724ab735928877c0e06c78d5748b3c84e512dd21260cf8104b658e4a9e8d64a",
+      "size": 603
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST5.md",
+      "sha256": "d2b1d94de7f032c80e395a603e5343a8b1ee7861c7cb08ac29b70bf432ac60dd",
+      "size": 732
+    },
+    {
+      "path": "DATENARCHITEKTUR.md",
+      "sha256": "079ae4390aec16216cdd953c60b1ca700e77a45c229516fa03720b64aad589fb",
+      "size": 14047
+    },
+    {
+      "path": "DATENSCHUTZ-HINWEIS.md",
+      "sha256": "34df063b484b558712d5e9e3607ba56d61b97c07db48fc0c4ac6c5e5ab5fc6c2",
+      "size": 540
+    },
+    {
+      "path": "DATENSTRUKTUR.md",
+      "sha256": "c14cc43e200ff66652c48e7fe016855c5acf063b6292a462e919d3876aefe301",
+      "size": 52
+    },
+    {
+      "path": "DESIGN_GUIDE.md",
+      "sha256": "8b5356e2baf5a03a73b8618875ef5d849ce67687b830d2eb4749ccbbd6dcb493",
+      "size": 9729
+    },
+    {
+      "path": "FINAL-CHECKLIST.md",
+      "sha256": "8952b68b985f0b0f4784c4eee92758555f09a4c618e8840ed762931a28a955f3",
+      "size": 848
+    },
+    {
+      "path": "GITHUB-AENDERUNGEN-V3.0.1.md",
+      "sha256": "2e62ad4bc7aeba90e5da1621d067d48fe7bfb8300412958d4568cee013ca30e6",
+      "size": 1707
+    },
+    {
+      "path": "GITHUB-ANLEITUNG-HALL-OF-FAME-KORREKTUR.txt",
+      "sha256": "6acf00327021286b1bae85eb2efe8966749641dee1638e60141d3e9cd1fc93cf",
+      "size": 906
+    },
+    {
+      "path": "GITHUB-ANLEITUNG-HIGHSCORE-2.txt",
+      "sha256": "79d6ebf0d8812ba4f34dc82ddc236027809f167fb53671fbc0ba9646a568e787",
+      "size": 673
+    },
+    {
+      "path": "GITHUB-ANLEITUNG.txt",
+      "sha256": "6351b60b2b7ad48f5e70fdaa43bed99b4790f424a858058265795643dd971319",
+      "size": 2140
+    },
+    {
+      "path": "GITHUB-DESKTOP-ANLEITUNG.md",
+      "sha256": "9556c80bd1050415a51b208a31e0d25d66fe89dabf4d8bcc5f2714b1cf51ce0c",
+      "size": 2106
+    },
+    {
+      "path": "GITHUB-DESKTOP-ANLEITUNG_4.7.1-TEST3.md",
+      "sha256": "73580350a5b6b5ab96b13addf8e0d0cbe892902d4e6e67776e23fa080d460ab8",
+      "size": 1580
+    },
+    {
+      "path": "GITHUB-DESKTOP_4.7.1-TEST4.md",
+      "sha256": "fef95b360046a40ea62c5b53304a8bc551fcc1722f055b8f96ceae57f15792cd",
+      "size": 1465
+    },
+    {
+      "path": "GITHUB-DESKTOP_4.7.1-TEST5-HF1.md",
+      "sha256": "d3d94b7bcc64d94cd6db8c1a14ac0495d7e6690be3167098908e80bcb51a7ed3",
+      "size": 687
+    },
+    {
+      "path": "GITHUB-DESKTOP_4.7.1-TEST5.md",
+      "sha256": "bf853aab1ea58094d64ddad0a0ce06a19adc35c0bf22c8d2f429ab1816f8e319",
+      "size": 1782
+    },
+    {
+      "path": "GITHUB-UPDATE-3.0.2.md",
+      "sha256": "cb14f456f5dc25efb90f5c6d6840b82b66582956567f6aeb2166167021b64c3d",
+      "size": 590
+    },
+    {
+      "path": "GITHUB-UPDATE-3.1.md",
+      "sha256": "6ac19eefcb94963d7f3aaea1df0a9ccd500865485357bdff581f7cb2f97e6545",
+      "size": 504
+    },
+    {
+      "path": "GITHUB-UPDATE-3.10.md",
+      "sha256": "59194402b49a23674c43987bdcbe46d52c9350c06de14d3dc0f0cf6a5ccc4257",
+      "size": 448
+    },
+    {
+      "path": "GITHUB-UPDATE-3.11.md",
+      "sha256": "874412e7a314b8f2908415c228013355a8707e8b1d95a38fe57104d8ba9c0a27",
+      "size": 411
+    },
+    {
+      "path": "GITHUB-UPDATE-3.12.md",
+      "sha256": "128da83f8646c2f6f58974a43b3a5e71a65f1fca9fcb1c23c8fc6f553be4f15e",
+      "size": 470
+    },
+    {
+      "path": "GITHUB-UPDATE-3.13.md",
+      "sha256": "69fb1245b803d95e9e095fa268040d58007b915cb9c3255364c2dc5377244644",
+      "size": 405
+    },
+    {
+      "path": "GITHUB-UPDATE-3.14.md",
+      "sha256": "612131148a337ed72aa2492b385eb91083b4a7f28ee4c274298aaf9c4c5eaa89",
+      "size": 542
+    },
+    {
+      "path": "GITHUB-UPDATE-3.15.md",
+      "sha256": "d1fdceb95d45ad48f7b83ffae2bd36fe3e6230248b9625c5139010291221ff02",
+      "size": 478
+    },
+    {
+      "path": "GITHUB-UPDATE-3.16.md",
+      "sha256": "9ab0658a32a86fb0ee78251f571b04ee184e73aeeb5fbc192efcc8ec809e2897",
+      "size": 484
+    },
+    {
+      "path": "GITHUB-UPDATE-3.17.md",
+      "sha256": "64574e3bbb8ebd3cd5d108a90d7e23223cf84bf21be8dbb79e77535d7f99a405",
+      "size": 480
+    },
+    {
+      "path": "GITHUB-UPDATE-3.18.md",
+      "sha256": "b981e4e5cc5e43307e04c2ab6123b56b4637af4f2da7885a55f6bf9de1ece0aa",
+      "size": 446
+    },
+    {
+      "path": "GITHUB-UPDATE-3.19.md",
+      "sha256": "48d567e93cd58e6f4c47b33fd4621dbd8db595ebb4788ebbb8500d86a2513309",
+      "size": 484
+    },
+    {
+      "path": "GITHUB-UPDATE-3.2.md",
+      "sha256": "4b0100f648c70e5e470861c89b3629cb432faa3b3af086ecd6db227f547e4869",
+      "size": 448
+    },
+    {
+      "path": "GITHUB-UPDATE-3.20.md",
+      "sha256": "ee731fc9994637333c4a5d577699110a717d72d0af0d35aa08e0a58cefa5ff02",
+      "size": 493
+    },
+    {
+      "path": "GITHUB-UPDATE-3.21.md",
+      "sha256": "d420a16a60e02f2dcfb9fa8e6712a52f5dd995cd51589158480d5cb7d4cd6f9c",
+      "size": 442
+    },
+    {
+      "path": "GITHUB-UPDATE-3.22.md",
+      "sha256": "91220b3900ed2e90629c9e17a3c0dd8fc5ed5a94bd626e139f1d18fa831b49d1",
+      "size": 419
+    },
+    {
+      "path": "GITHUB-UPDATE-3.23.md",
+      "sha256": "d10e5d786b36ec49cc01c49fa319db0920ad090160bcce5494b200d6e493c37f",
+      "size": 471
+    },
+    {
+      "path": "GITHUB-UPDATE-3.24.md",
+      "sha256": "d97a128e3cde06f0e66dab7ab8a181732a47f1357d70ae81216c6255a4397d1e",
+      "size": 529
+    },
+    {
+      "path": "GITHUB-UPDATE-3.25.md",
+      "sha256": "75a0ab5814c12e13afa6f8f4dca5d4d24746b53759bf10d1cfc110a5f399887a",
+      "size": 487
+    },
+    {
+      "path": "GITHUB-UPDATE-3.3.md",
+      "sha256": "08a925c79324c7dbc3dfab609fcb25e90ab6988983654223ebab10e34d50abc6",
+      "size": 745
+    },
+    {
+      "path": "GITHUB-UPDATE-3.4.md",
+      "sha256": "77c64c3028081818b5eae9dcf5b1221a325c5a9de5ecf9b9a49bc0da3cf75bde",
+      "size": 424
+    },
+    {
+      "path": "GITHUB-UPDATE-3.5.md",
+      "sha256": "0c2d7889194143edf5f5ea2a04203795232bbd8db1390b5190b5207eb0aab457",
+      "size": 377
+    },
+    {
+      "path": "GITHUB-UPDATE-3.6.md",
+      "sha256": "1f92c9894498c6b4240db8286f20164e162e7e95e7267cf0195fe3de813b679b",
+      "size": 389
+    },
+    {
+      "path": "GITHUB-UPDATE-3.7.1.md",
+      "sha256": "494e0dfaec012bfe566c29648e7f536e66d1dc7091e8d4ee993057830203e259",
+      "size": 432
+    },
+    {
+      "path": "GITHUB-UPDATE-3.7.2.md",
+      "sha256": "d1bc3b24d447d9a0e1e8bebb22ce9efc1279e7f6b8bff6771f9e907cc9d02528",
+      "size": 757
+    },
+    {
+      "path": "GITHUB-UPDATE-3.7.3.md",
+      "sha256": "0361b0c43691344ec7fc02536808bbf4d913e1520faa1939afe2caa07de3faae",
+      "size": 500
+    },
+    {
+      "path": "GITHUB-UPDATE-3.7.md",
+      "sha256": "ac0497f3d42604348421d80fdc1ccb0fbaff7d270c8fa4a80d53a8f8b54ca408",
+      "size": 462
+    },
+    {
+      "path": "GITHUB-UPDATE-3.8.md",
+      "sha256": "85c1769943e0dcd5f7bb3884602960f73ab735c52549696f5eb7a84368c2b7f4",
+      "size": 416
+    },
+    {
+      "path": "GITHUB-UPDATE-3.9.md",
+      "sha256": "bf45364fe2091c875f207d90aa3ea27b146a3125cf64d017b98718d5cbb8c6d2",
+      "size": 426
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.1.md",
+      "sha256": "9b708be9664bf93180ebfb8894ce2960ce157e74badb1a1cd2b63b0f55bc4d10",
+      "size": 365
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.2.md",
+      "sha256": "5dfdc4bbbb49617ab2c389bdb0b5c054f8c8387f38de32e7b34adc2e2f7cf1ac",
+      "size": 367
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.3.md",
+      "sha256": "ae443ced1674d9defb9a062c0aed05b791bbbab4f42115b07e74aeaaa556b38c",
+      "size": 568
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.4.md",
+      "sha256": "a13ca5e4a447979e368125a91e9cdbfed75fee867921c4c13ff3b313456efbe5",
+      "size": 2077
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.5.md",
+      "sha256": "45356b93b5ce43ecf83e86f533af0c1e7421d7cbedb121d061b43dd0ee569f09",
+      "size": 384
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.6.md",
+      "sha256": "a0683e6a6f83520a73f49c48c77cde08e40fc56d63404e5c294b988e4c03d89d",
+      "size": 210
+    },
+    {
+      "path": "GITHUB-UPDATE-4.0.md",
+      "sha256": "74ffe3dcf898420b9f6803588028ffb4272cb9dce85cbb8f2116be5bde8222a9",
+      "size": 649
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.0.md",
+      "sha256": "24857f9ac837cc3956ca36e5cb0b0f94a7f51f8425ca86a4dee200ec61622e47",
+      "size": 273
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.1.md",
+      "sha256": "fb68a635ae758ccd1e21798d4f06a1eeb62e9404fa5ef62960494a136cd5a597",
+      "size": 242
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.2.md",
+      "sha256": "568a1f55f00992c044777a0427d5e04528d990b19797f9fdaa90bdc0a9fa82d4",
+      "size": 257
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.3.md",
+      "sha256": "0e3ac97c0318e91f6b29daa4b98782fb1f552b7cb9dc760df45867f29ddcba71",
+      "size": 203
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.4.md",
+      "sha256": "386df40eab143a2a9c8a1963f9f792add05bb06bd88a3cc332b5f1a5657fa6e1",
+      "size": 212
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.5.md",
+      "sha256": "9f1eb52a0dce8b51f7d691ce6205684c90536416f745d4db55c6de848309a380",
+      "size": 212
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.6.md",
+      "sha256": "724afaf2903091ae69024e68dd4d5cca3e3c72fdf3fe9a175b729b5f0bcb1b2b",
+      "size": 264
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.7.md",
+      "sha256": "bf4e7c1ae97c1d77e1f3b8b28eb74456633bacec2c753396c066647dfaeeeeea",
+      "size": 255
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.8.md",
+      "sha256": "f069d8f57b922612514786dc3cbd2e4b39f38450b66324827868b1cf7b637b01",
+      "size": 218
+    },
+    {
+      "path": "GITHUB-UPDATE-4.1.9.md",
+      "sha256": "52b740609f7b14b5291ed74fbcb56abca5621ac0767e3c5158c9d2e081a1575f",
+      "size": 270
+    },
+    {
+      "path": "GITHUB-UPDATE-4.2.0.md",
+      "sha256": "096b0e7253be70348d8cff1210f11eef4e22ee7bb41c211fad9239d909546e23",
+      "size": 357
+    },
+    {
+      "path": "GITHUB-UPDATE-4.2.1.md",
+      "sha256": "f4bac71e0ec7d65a307529b9c438048e233756685c7fcbd0640905486cf9fb28",
+      "size": 417
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.0.md",
+      "sha256": "2251c2358b399a215b440af0fc613e823030d10667f3940785a61b9c8a03d13c",
+      "size": 331
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.1.md",
+      "sha256": "4e47cf2ed432e17390db5cec9d2744a678f69f1f5a58bdbfdbb14c4ce8025e5e",
+      "size": 230
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.2.md",
+      "sha256": "fe8002d5320c469de13ae96fd589ee96a0b63a1e42a6f602f5679b53e4ec1b4a",
+      "size": 218
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.3.md",
+      "sha256": "0d1e3125e4802541d76afb80537f0ab9d1c859e5d5b2e52dc1c2985c2e76cdbd",
+      "size": 353
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.4.md",
+      "sha256": "e77758316937fa6bedf55b4b44c578f8efdf8c13c0dfd9eec8f7ae85111c94fb",
+      "size": 218
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.5.md",
+      "sha256": "22479e4279b8ac7d3ce6ea283e9e787d1e244d0dd61e294b1e033d5f298cb257",
+      "size": 212
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.6.md",
+      "sha256": "66764d195081ce1b449c961d43dfc459b92fd5f9c0be9a5a92e1a767311570a2",
+      "size": 212
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.7.md",
+      "sha256": "48819e3a159db1187478d830a47a097871dfab8b3514a674dfb748f3f14e4b83",
+      "size": 423
+    },
+    {
+      "path": "GITHUB-UPDATE-4.3.8.md",
+      "sha256": "3293d32927bc13a8a59bb2519d1e7ebe34120d6661928d874d58db517e3224da",
+      "size": 506
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.0.md",
+      "sha256": "6e247857c78eec3104c8d299d0a19172c74c412d09ace90b15242e2d8fd23300",
+      "size": 392
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.1.md",
+      "sha256": "fd9523d1603f3c0a4a88003f9cfdcd78a95fdb99bf87878a265324d6e25a90e7",
+      "size": 363
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.10.md",
+      "sha256": "8dfe3ab99312de39603876bf4a41edd2a262684cb04b12e0ea7dd2d5bbe1e1ec",
+      "size": 268
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.11.md",
+      "sha256": "be70b50a862c574c38016aa9e47f36d1c49f4484bbe36f49ac6c417402f9e3fb",
+      "size": 234
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.12.md",
+      "sha256": "4d6a1d755bcb404da9ade4c99529bbf83688e2f3c93a1fc4fea0d73468b90bbc",
+      "size": 467
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.13.md",
+      "sha256": "a44334f4f62e3b6263c59dd471775324b32a35a62169b95349357357b66f24ac",
+      "size": 355
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.14.md",
+      "sha256": "7d9902bdc3e6b66947d635f19f8c605d34d3a92dfea2db44b7179f6f74f3ee3d",
+      "size": 420
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.15.md",
+      "sha256": "8a33a09b388642f9b8734c153475a23c6baf46e03e4a8fd26eb4e3a97e06c2f5",
+      "size": 357
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.2.md",
+      "sha256": "0ac86720ce2869e06f5a5d3f29ec9084774bd7cff3a1717e13d1248460918ed5",
+      "size": 445
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.3.md",
+      "sha256": "1db2c0da0713ba0850f4a4561e601bab6797ffcbfb95379caf188e43a5de0328",
+      "size": 492
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.5.md",
+      "sha256": "df857737c90945e1af4e864bf10b8a10754c3ade0d58214275eb7d3f155e029d",
+      "size": 968
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.6.md",
+      "sha256": "ea1adffdb094c67bc329d77448917fd15cd64a5480d48399147d32090b4fd99a",
+      "size": 375
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.7.md",
+      "sha256": "011f1e2a8a9fd95fce9e5e2ba3c663a9a8f6590d2ac9ad1690001f821f2295b1",
+      "size": 343
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.8.md",
+      "sha256": "41dba4226994b19f63c903c15c5595d5fe1ff88de2ba10b1f2da90c1699296c8",
+      "size": 611
+    },
+    {
+      "path": "GITHUB-UPDATE-4.4.9.md",
+      "sha256": "275f91ac65bd3f844fb4caa188a33dfbfa84fca9a26c00f012649b86fcee86d3",
+      "size": 399
+    },
+    {
+      "path": "GITHUB-UPDATE-4.5.0.md",
+      "sha256": "29efaf469648aeed1ccda8d7433f3f742f18dc1c8ff57437c2276a3e7e2ecf4b",
+      "size": 397
+    },
+    {
+      "path": "GITHUB-UPDATE-4.5.1.md",
+      "sha256": "490c70eea77a1bd02ed57e41b4483c764baaa74d45cefc49f0d07e58db7dc5ef",
+      "size": 421
+    },
+    {
+      "path": "GITHUB-UPDATE-4.5.2.md",
+      "sha256": "cd8cfc17f4d0b15d07db8d8d374eae559e62833ce529b9a6c6071a928927c01e",
+      "size": 337
+    },
+    {
+      "path": "GITHUB-UPDATE-4.6.0.md",
+      "sha256": "e5579960edc3f422070329919e94308298997184a6096da8bbe48c147a1a1306",
+      "size": 445
+    },
+    {
+      "path": "GITHUB-UPDATE-4.6.1.md",
+      "sha256": "00a80b28c29d62ce2c7a09451bbaa7394059ed6398d97c1695dd5e8314e872f2",
+      "size": 605
+    },
+    {
+      "path": "INSTALLATION.md",
+      "sha256": "c12e89d8f85e28c48951a5b2a7547233bb3e5d996fa035c0f26d37efa4c5c579",
+      "size": 58
+    },
+    {
+      "path": "KICKTIPP_EXPORTANALYSE.md",
+      "sha256": "ac19e675c7e36eab370a276fb3599ccc0f0d6e2805cfa412ee5547536617509a",
+      "size": 6197
+    },
+    {
+      "path": "KICKTIPP_IMPORTSPEZIFIKATION.md",
+      "sha256": "d014b53e06620843b05bb4399f20e6a23d2120c0353aa37c49b5b9264ab78a22",
+      "size": 6006
+    },
+    {
+      "path": "LIZENZ.md",
+      "sha256": "f89211b74fccc2255edb634f5f1ee310fa7c1b55f429b7ba3047d26f9b90dbd6",
+      "size": 33
+    },
+    {
+      "path": "MIGRATIONSMATRIX.md",
+      "sha256": "18b2c4088bd8c14a45781cdfcaa56d9ced7507819f70137ee88dd218c1fd438c",
+      "size": 12128
+    },
+    {
+      "path": "PRUEFPROTOKOLL.json",
+      "sha256": "31bd52d49007c89b7bc2ed61bb3ad2e354cd86dfdc7a3e661f0c6b8dcfe39188",
+      "size": 725
+    },
+    {
+      "path": "PromptManual/PROJECT_MANUAL.md",
+      "sha256": "c841bf108b3974e502c8fcd5d4a24789baa44a01bbfc08940d43740875f49805",
+      "size": 7421
+    },
+    {
+      "path": "README-KUMULATIVES-UPDATE.md",
+      "sha256": "344f6da574c6db6ae56f550dcd57c5cab9811f23c564034d36cda3630d75d8fa",
+      "size": 632
+    },
+    {
+      "path": "README-ROLLBACK.md",
+      "sha256": "691fd62fd0f1b00e6a93981400df959881ac8bc3e70ae1c27a17b45622c2e5f4",
+      "size": 329
+    },
+    {
+      "path": "README-V30.md",
+      "sha256": "df3c0a06020eed5015777f90999a3eb1751f287adff8f55feb576b8e689eaa98",
+      "size": 1073
+    },
+    {
+      "path": "README-V31.md",
+      "sha256": "cdce31fe9389ec1f157367bda66a2509834e9b0cac83b652147a60bc38896f98",
+      "size": 477
+    },
+    {
+      "path": "README-V32.md",
+      "sha256": "ce16aa91817476854122d8a6c4832fd36e4654625ec38967a0c82a5ba954543f",
+      "size": 287
+    },
+    {
+      "path": "README-V37.md",
+      "sha256": "52843a109a7c72c8946c79ed33fd3f1fff5e1abfe8edb6dcf0508aab5ab9d9c4",
+      "size": 256
+    },
+    {
+      "path": "README-V38.md",
+      "sha256": "1701884629435bb61bdbbd1e0b25c9078b704a4a7833765a8c0a8dbf919d0827",
+      "size": 631
+    },
+    {
+      "path": "README-V39.md",
+      "sha256": "e5a799a1106cb33026b1a7f93a594b0e3027e70f504de189e7c4f11651cba07f",
+      "size": 490
+    },
+    {
+      "path": "README-V40.md",
+      "sha256": "9c477a090ed82188f65c9e2a529dad7f84e1b59a5e0b7e38868b12195d6edb07",
+      "size": 844
+    },
+    {
+      "path": "README-V41.md",
+      "sha256": "c753062480d109ea167668090e696c8610540dd1aad5a9a1b6814506ed8ed906",
+      "size": 561
+    },
+    {
+      "path": "README-V42.md",
+      "sha256": "ba998a953a2cb76bd726db61e7b6bffc98dfc06e2d78b4f60981fc766254ff6f",
+      "size": 567
+    },
+    {
+      "path": "README-V43.md",
+      "sha256": "45bcad2f512e36468e4917de67135dd2ce1bf817c8b33369f2f2defd4c7c40b0",
+      "size": 597
+    },
+    {
+      "path": "README-V44.md",
+      "sha256": "c395cfeae908bb282790b58776b9eee9245d63ecb3fdfb9bcd16d6bfd2c94009",
+      "size": 582
+    },
+    {
+      "path": "README-V45.md",
+      "sha256": "b648b214979b1577ce21dfa2549ad8d51719c0caa141953289e4bf12d16392ec",
+      "size": 312
+    },
+    {
+      "path": "README-V46.md",
+      "sha256": "501c2d5060349aae1332e432c299083132bf676994cfa9319568bf960300671d",
+      "size": 718
+    },
+    {
+      "path": "README-V47.md",
+      "sha256": "16a8258ffbe620774699c579fce9890eb970189a880909a2de3535260d554617",
+      "size": 626
+    },
+    {
+      "path": "README-V48.md",
+      "sha256": "7da664b4f53062df0a402dc54723dae9c49cba448d1fa8125acba0b6ba622be2",
+      "size": 624
+    },
+    {
+      "path": "README-V49.md",
+      "sha256": "99a30665f805f3d1dbb0b6264b0517b6e4c29d1693c6f8a9a4c09bbe9097eb32",
+      "size": 732
+    },
+    {
+      "path": "README-V50.md",
+      "sha256": "641635d3a94e430aedbe97f35bf7806e4270cecd0fe4dc29fd316524a5d56225",
+      "size": 810
+    },
+    {
+      "path": "README-WEBSITE-4.7.0-FINAL.md",
+      "sha256": "ecd537a95b79ebf02234bbb4bde678681f751027c7b14d56fc006ab61eb4529e",
+      "size": 955
+    },
+    {
+      "path": "README-WEBSITE-4.7.0-HF1.md",
+      "sha256": "a5a05d79db73459ba20b3c3c2b266947212782a983bc8db84017bbd099248008",
+      "size": 521
+    },
+    {
+      "path": "README-WEBSITE-4.7.0-HF2.md",
+      "sha256": "1282ec41ab000902aa3e31929b7360bf957831dc16f67a24de474a301ecb92ad",
+      "size": 376
+    },
+    {
+      "path": "README-WEBSITE-4.7.1-TEST2.md",
+      "sha256": "6de5d86cb937b5123bf1e5cf65757af8fcdd59c9d26e289e2c152abd20678f28",
+      "size": 746
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f7cac5f5995d2d797f33b12a4fc48820492b81f9f50d83a3ed05e44b01e32f3",
+      "size": 5671
+    },
+    {
+      "path": "README_4.7.1-TEST5-HF1.md",
+      "sha256": "ba3f0d41d25a1da533666cd05b23a6377a6af55275da20af89f93296864b3173",
+      "size": 1097
+    },
+    {
+      "path": "RELEASE-AUDIT.json",
+      "sha256": "6a0e4114cf6cdc62c91d413e13c65543e0c928705a3e3672131e6cf6eed06768",
+      "size": 328
+    },
+    {
+      "path": "RELEASE-CANDIDATE.md",
+      "sha256": "87e5cf20ac94d5b959279116aadabe7c060766502a86cc699cc9aa241dca502d",
+      "size": 1047
+    },
+    {
+      "path": "RELEASE-MANIFEST.json",
+      "sha256": "73e9222eff08bfb8e8f1729b24442786d1fb562aa034cea56b3b93653118633b",
+      "size": 25031
+    },
+    {
+      "path": "RELEASE_NOTES_4.7.0_FINAL.md",
+      "sha256": "4d3b9a0bd0763866f3346018ff2ee6796a651c89350fdd9f7867c7e3a39bb333",
+      "size": 646
+    },
+    {
+      "path": "RELEASE_NOTES_v3.0.1.md",
+      "sha256": "c0cc2ab0d13ff6d1df5fd0f4a480fe21db4f7f1722230af7093a666b01554f38",
+      "size": 652
+    },
+    {
+      "path": "RELEASE_NOTES_v3.0.2.md",
+      "sha256": "0e7c9ac0e410ae5b6987a1670ba0ebd60e4ce1a2a4043d72802399216a9e8234",
+      "size": 576
+    },
+    {
+      "path": "RELEASE_NOTES_v3.0.md",
+      "sha256": "081d7e2dc533e9958ac45953580101f5e159037f7e626592c80932caffe87f38",
+      "size": 53
+    },
+    {
+      "path": "RELEASE_NOTES_v3.1.md",
+      "sha256": "4df7f796b0db7f4d3866a80d971034b83cc90a2dc629aec666f143e19068f761",
+      "size": 622
+    },
+    {
+      "path": "RELEASE_NOTES_v3.10.md",
+      "sha256": "15826c8ae5523d2d222549a7b66a8ff7248562dae67d734a8ea9dafc263e965e",
+      "size": 232
+    },
+    {
+      "path": "RELEASE_NOTES_v3.11.md",
+      "sha256": "43af989e820233f9221e66bd3b6a346e35e9dd5138d7720125923c84b131ede5",
+      "size": 193
+    },
+    {
+      "path": "RELEASE_NOTES_v3.12.md",
+      "sha256": "88af0a27eb9a895b9679ca3093f2c90c30c9b4ae5a2ca17b900a768dabe76edf",
+      "size": 534
+    },
+    {
+      "path": "RELEASE_NOTES_v3.13.md",
+      "sha256": "9cb125d97c64ef428a1b9a1b81671141853f0a2abfdc1837eda48140dfcbef97",
+      "size": 476
+    },
+    {
+      "path": "RELEASE_NOTES_v3.14.md",
+      "sha256": "8e83104d98572a62de13857abc37190ab899857c45ba25615f1ac562b9222de6",
+      "size": 325
+    },
+    {
+      "path": "RELEASE_NOTES_v3.15.md",
+      "sha256": "aed10cf18c5eda1beac47540c74b35c9c0e5db38525f2cd5e1a727d5637a0e49",
+      "size": 221
+    },
+    {
+      "path": "RELEASE_NOTES_v3.16.md",
+      "sha256": "2b18d42ece1bba7f6f1bc9bc43e34f7b8757a63a61b64ba4b6232f880f2f8843",
+      "size": 409
+    },
+    {
+      "path": "RELEASE_NOTES_v3.17.md",
+      "sha256": "71234437ec15ef33e587c4efd33784f10a2f63956c47d322c6318b78e30e4d88",
+      "size": 293
+    },
+    {
+      "path": "RELEASE_NOTES_v3.18.md",
+      "sha256": "1fbca3e5f09e5ec24d5a97aab8ec8ff809791eb445a9ef280cd1e1d65c9358f7",
+      "size": 359
+    },
+    {
+      "path": "RELEASE_NOTES_v3.19.md",
+      "sha256": "ff3318c57975ec05e0bf489e4ee8545aa19992af3f503ba7d26e920c04f22ce1",
+      "size": 440
+    },
+    {
+      "path": "RELEASE_NOTES_v3.2.md",
+      "sha256": "f0422ddeed5dcaecad3de905d2eed92eb933efa88b0f8af1657dffb9f7a770cc",
+      "size": 469
+    },
+    {
+      "path": "RELEASE_NOTES_v3.20.md",
+      "sha256": "979420b39270165dcc4e5a866c3016f725732fde0d9131d252d6a550c9d7c3d3",
+      "size": 447
+    },
+    {
+      "path": "RELEASE_NOTES_v3.21.md",
+      "sha256": "79444f4f0dc0bed7839a06ece83c2b1cf9068d9fa88ad907224398867e4c91ef",
+      "size": 194
+    },
+    {
+      "path": "RELEASE_NOTES_v3.22.md",
+      "sha256": "5199b4b2866cf7bee3b1aa6b3a43eb398f426e70e765c74ee46180d2b69bf5ff",
+      "size": 557
+    },
+    {
+      "path": "RELEASE_NOTES_v3.23.md",
+      "sha256": "3e4b9b52d5eccba2cda553e95874b9a88407a045be25855b14e0add321df7e63",
+      "size": 353
+    },
+    {
+      "path": "RELEASE_NOTES_v3.24.md",
+      "sha256": "633cc9a1e409b10e54a3b483fbca92a6398095c9bd6352b7cc3d0255aa1c25ab",
+      "size": 603
+    },
+    {
+      "path": "RELEASE_NOTES_v3.25.md",
+      "sha256": "a6aaa9a8dde99086111dc0ce89a99608ab0ab9c4b44088cb57f70b2d1364e247",
+      "size": 428
+    },
+    {
+      "path": "RELEASE_NOTES_v3.3.md",
+      "sha256": "34eaf0b90018837efda7fdfaaed74adc4a6e234a2da14f088679f2dd5c506a8f",
+      "size": 743
+    },
+    {
+      "path": "RELEASE_NOTES_v3.4.md",
+      "sha256": "6434f7aff4f4945f01ae79eb6d3b4ade3098cb71acc58772d7d0a89ff87046d6",
+      "size": 388
+    },
+    {
+      "path": "RELEASE_NOTES_v3.5.md",
+      "sha256": "964b36d00302ff49c46817a593dc1d5167a6782b90c893ed6e85f51b964b4d7f",
+      "size": 514
+    },
+    {
+      "path": "RELEASE_NOTES_v3.6.md",
+      "sha256": "e461d972ea6a87f998213556c8ac3e051b91dbdb9eee93f7d138a1a6fe45bcfe",
+      "size": 463
+    },
+    {
+      "path": "RELEASE_NOTES_v3.7.1.md",
+      "sha256": "8d551b563c1a1ea80dce219ae778a42271ecbbd43dad5ed3693bc1896402d5b2",
+      "size": 317
+    },
+    {
+      "path": "RELEASE_NOTES_v3.7.2.md",
+      "sha256": "3152f406b0f1c29654c0220b9d9cd807a8f2eeb673911343795c0e17cb233dae",
+      "size": 1575
+    },
+    {
+      "path": "RELEASE_NOTES_v3.7.3.md",
+      "sha256": "83a77bbfb28aa17ea1821651abcf37fe66917f4fe225b7198331766f3554a2f9",
+      "size": 359
+    },
+    {
+      "path": "RELEASE_NOTES_v3.7.md",
+      "sha256": "0a9fcc6fc24ed3fe63d3d7444abf7fc666c5aa1175b3be58bdea9748b0190ff2",
+      "size": 586
+    },
+    {
+      "path": "RELEASE_NOTES_v3.8.md",
+      "sha256": "e78f92c9a991f0ccf6be5b8fb8f73768bc73e3d0a364edda31c282947e76f869",
+      "size": 667
+    },
+    {
+      "path": "RELEASE_NOTES_v3.9.md",
+      "sha256": "3acb3de023b22a447c82a245fa4304a1bc77ef4a16d3568672a6014ec2a457a8",
+      "size": 314
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.1.md",
+      "sha256": "549755d88731965f5de091c6d034ef2786e76cd0b2512fc18978dc34288a760c",
+      "size": 583
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.2.md",
+      "sha256": "b54bdae91b7a62dd4774f3ed8a1ae42c735054f13378053e52467699a555e4a5",
+      "size": 324
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.3.md",
+      "sha256": "c90caf4ee850dc0273a6ee992b30ce7b6a47ea6c77b650d1d4f6fd50f4bb61ff",
+      "size": 1078
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.4.md",
+      "sha256": "346c96c5a43de976477f227953698f0546f6de19ce5c2656a0b4cafdb0ed90b0",
+      "size": 2183
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.5.md",
+      "sha256": "03bb1aa4d6c456723afe610bf0089cfafd51e4426543c31009eeedebae82be72",
+      "size": 336
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.6.md",
+      "sha256": "330347da669872bd3778f27338872915252d6bd5d937f2babba4db08e848b865",
+      "size": 516
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.7.md",
+      "sha256": "7b48820c4e011fafddada2d4938cac46d01f8e102df6ac53e3e1370f693f7529",
+      "size": 354
+    },
+    {
+      "path": "RELEASE_NOTES_v4.0.md",
+      "sha256": "768c2faa1701d04a1aa2c63bab42aa2cba469cd8423d120e47e99c426af922f5",
+      "size": 806
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.0.md",
+      "sha256": "eef7830ee9f0d40da8a82f87f2b33d5db24151a23b1637cfd5055b06f8602768",
+      "size": 442
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.1.md",
+      "sha256": "c13138f148fb69a1fc5462665c2bacb0b215c1f82fec0a016088cf415f6570c4",
+      "size": 261
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.2.md",
+      "sha256": "906a1c9d2dfecade1a8025407d9ccdac1dc9b3bab6754e0d87e6049659f7d1cd",
+      "size": 526
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.3.md",
+      "sha256": "e2a1346e9a036258e40b9ce996e6d9115003d2921e0c6a58e5825b90e4b69985",
+      "size": 616
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.4.md",
+      "sha256": "ebe270e5b62f50ba40bf519ccf1eff25219e86bcebf199f50192a31f30700498",
+      "size": 562
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.5.md",
+      "sha256": "437133590e5e663bf83c2b51595baab837ec7b1ce5248e5b2551909a406191f0",
+      "size": 340
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.6.md",
+      "sha256": "45559bf19402e0ad2bbb8d178ecd89128d4272d45a40e32ae25487bd36e1cb97",
+      "size": 403
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.7.md",
+      "sha256": "4f742bdc11d1b1bdd3d38973f9a799a0ce93ad6d33db20fdf02c9221ddd0d3eb",
+      "size": 678
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.8.md",
+      "sha256": "63cb05d0084ddfc460b515247890d82a405bf5583532341f71d5a4c064490d3c",
+      "size": 563
+    },
+    {
+      "path": "RELEASE_NOTES_v4.1.9.md",
+      "sha256": "7807a7a580888ba9e6d7cc2f28726ad02973b514782b73fa08b70db45c792cc9",
+      "size": 388
+    },
+    {
+      "path": "RELEASE_NOTES_v4.2.0.md",
+      "sha256": "2ee9553b286e2fbd39b984194899108b6eaaaf1ab0d13c255a9b082c8156a62d",
+      "size": 590
+    },
+    {
+      "path": "RELEASE_NOTES_v4.2.1.md",
+      "sha256": "76441de493daf135865ea397b0ff9796e52a05f81d090980b21fda96d27c759c",
+      "size": 794
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.0.md",
+      "sha256": "e7514f5395afc68dbb172fa761c6decf6656df128830e5df6183bc45837589ef",
+      "size": 760
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.1.md",
+      "sha256": "661138bc43247e22145672d87d632c92e7a1de62a9ba8b8fb7e2122e17785e5a",
+      "size": 446
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.2.md",
+      "sha256": "7ba3b8facecb211b9557395623df85b0b9e44d8f4c18650a315c7ac1c7e6c7e3",
+      "size": 256
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.3.md",
+      "sha256": "083481ebb90c3babd60e5e53b39e1fb90b39dc84d74dc94b511cf3761b97ac21",
+      "size": 376
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.4.md",
+      "sha256": "5129e8f486ffe9500d96f56eefd632294df99f63ef8666c5160725d3f3b8a35c",
+      "size": 686
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.5.md",
+      "sha256": "ca5c6e377a7ebe49e2be1c50f8a05ccab709bbe5bb7a8ab7c920becbbc05fec2",
+      "size": 471
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.6.md",
+      "sha256": "2a7c5c493ad929914dcde096b9e3591eed21c984dabc44a98128426012333fe7",
+      "size": 423
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.7.md",
+      "sha256": "42295b34e4d3eda8a9716564c405f30f036d7ed449406247d832dbd1e91e011c",
+      "size": 581
+    },
+    {
+      "path": "RELEASE_NOTES_v4.3.8.md",
+      "sha256": "03e3b68a1d2a5bb45fe10a8f39893d31c6b400fa18c78d5fef14392ccde18989",
+      "size": 492
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.0.md",
+      "sha256": "27462cd2867072be7db045f6b48bba672b92b5d04b961e67e8cebf2e3ff3cb0c",
+      "size": 761
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.1.md",
+      "sha256": "c9367b779d9f5ff79f3ea4485e9c9ef23d05866a7faadd42a5fc2ef1fa3e2180",
+      "size": 677
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.10.md",
+      "sha256": "7ca74cb20630c1a013fadd26f3bbd87743c82e257a68d4ad382888dd777a7e5a",
+      "size": 295
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.11.md",
+      "sha256": "cfad4bf146aeae9414bf963bc12c360b74317077531fe6469e5e7c0b4d846164",
+      "size": 473
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.12.md",
+      "sha256": "62d475481cff2858934f576d58bd1ba3a1a030de2674b3e07c4b2bfdb7428942",
+      "size": 578
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.13.md",
+      "sha256": "07c44a9a0446c4be584976fd70137351418b4197b61c10b174d882b826c34e39",
+      "size": 519
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.14.md",
+      "sha256": "fa39f3ca3dceac733fc869d0c887bf6c7f5e49c6b20cc9ebad956f35dc886dd3",
+      "size": 520
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.15.md",
+      "sha256": "419173195bec4e91ed782c443f8d0b2103acd97d473519e39eabadb753d496d3",
+      "size": 774
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.2.md",
+      "sha256": "ba4086f79a71e737b36542676167ab3e4969633b5e8200331426a78fab80d6cc",
+      "size": 1015
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.3.md",
+      "sha256": "8066bd5c8c95670a87536903bacefe51324169e9f3bbfa9bedf1d39457c0d8f7",
+      "size": 855
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.5.md",
+      "sha256": "6c095ec8491080acdb0dd63e4836caaceca031497e11fc13d88f9db638c8b2df",
+      "size": 780
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.6.md",
+      "sha256": "6cb0d6f36bf284685bd38d51149dad633100114754d542cb0f7ade459efb0174",
+      "size": 756
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.7.md",
+      "sha256": "8349f0098bbe57853e11b36688b7c01c8aa4c22fc45ceaa1cb1a12d076b1d017",
+      "size": 482
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.8.md",
+      "sha256": "190f22fc756d46acfcebada8bb6b394efe8cfd29b9bf6ded18bc6f4eb6af9ac1",
+      "size": 373
+    },
+    {
+      "path": "RELEASE_NOTES_v4.4.9.md",
+      "sha256": "97642d00512e0ba414984ee55d2d8870884d278cb34e9614558a32c21a1bef7c",
+      "size": 436
+    },
+    {
+      "path": "RELEASE_NOTES_v4.5.0.md",
+      "sha256": "df8cd925273063778118e82fa8f4e932eb29097f3fc776e087c22732c5e7a8cd",
+      "size": 617
+    },
+    {
+      "path": "RELEASE_NOTES_v4.5.1.md",
+      "sha256": "c6ff848dd5375ab6711259d564a6da0f119a1990b32f06fb7c11cf4044471187",
+      "size": 569
+    },
+    {
+      "path": "RELEASE_NOTES_v4.5.2.md",
+      "sha256": "46e03305eea8c10f933ad4a4d24391bcc5d8f312a7cae7fd22146e1d7511a082",
+      "size": 325
+    },
+    {
+      "path": "RELEASE_NOTES_v4.6.0.md",
+      "sha256": "11a2ec1a63658dbed8a95168b2a754cde73a9ce9db480a5b7cb1b751b6150210",
+      "size": 404
+    },
+    {
+      "path": "RELEASE_NOTES_v4.6.1.md",
+      "sha256": "4689dc0745baee50fed780d93cbaf5f8153a70ec92ce6a55126d2bbce83e822e",
+      "size": 519
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "dfef06ae785a874a67a37532b13aae132de6d350cbe8b202a9e8f18e649a6ca2",
+      "size": 11177
+    },
+    {
+      "path": "SHA256-MANIFEST.json",
+      "sha256": "dc9323fc250326861aa76b8b1ce0f0d0edf8513f356ed5620439114d337daf53",
+      "size": 81189
+    },
+    {
+      "path": "SHA256-MANIFEST_4.7.1-TEST4.json",
+      "sha256": "25c4c2cacc8c38a9a6488194f7a85d401d7fab0b873482e5fd7de4b0489ff2f2",
+      "size": 1789
+    },
+    {
+      "path": "SHA256-MANIFEST_4.7.1-TEST5.json",
+      "sha256": "359ea8282523ccf8de75f07e5e87fd438720d8ba503fe0b46e48a48bb7d09fa5",
+      "size": 1487
+    },
+    {
+      "path": "SPIELBETRIEB_WORKFLOW.md",
+      "sha256": "e86131f5175b3cc11e6e06e6287fe5c1fd72f1a4ef903085992db451b689cf56",
+      "size": 5766
+    },
+    {
+      "path": "SPIELTAG-PFLEGEN-V23.txt",
+      "sha256": "2bef4a5ff82da0c4b2e60020f4fbf501ec7784a5d02a9fbb24ccf9e3da47da87",
+      "size": 437
+    },
+    {
+      "path": "SPIELTAGSABSCHLUSS_KONZEPT.md",
+      "sha256": "fb64d4e37baee893d6422be723b32d0392b9f0f1d8eafb2a534ba5d20db6b732",
+      "size": 8434
+    },
+    {
+      "path": "TESTPROTOKOLL_4.7.1-TEST4.md",
+      "sha256": "ea3d799bbff581d05a1a3b6da9483cfc70506216857a5246ccc11c0b113de7ce",
+      "size": 1261
+    },
+    {
+      "path": "TESTPROTOKOLL_4.7.1-TEST5-HF1.md",
+      "sha256": "ae31719a10620c8366875ef0d335307886776b0ac7c6c77147f2d6c642b6a42f",
+      "size": 1085
+    },
+    {
+      "path": "TESTPROTOKOLL_4.7.1-TEST5.md",
+      "sha256": "6666f8f29abb2b41c7910000f13503eb2d9f5c14da96012bdff1a2b20fce5b89",
+      "size": 1508
+    },
+    {
+      "path": "TESTPROTOKOLL_WEBSITE_4.7.1-TEST2.md",
+      "sha256": "1ccf50333cee0f4e03a6538fff583b4a41bc57393f63749be92ad1e4f6f10def",
+      "size": 1214
+    },
+    {
+      "path": "TESTPROTOKOLL_WEBSITE_4.7.1-TEST3.md",
+      "sha256": "a395b97791093ef76d8c084bcbafbc49693d65dd51d99ff5742468408c40b6b4",
+      "size": 892
+    },
+    {
+      "path": "UPLOAD-ANLEITUNG-V30.txt",
+      "sha256": "ed54d86495488cf023c39aa69e0e72959d9fb094a755948d581ceac50f2607f4",
+      "size": 550
+    },
+    {
+      "path": "UPLOAD-ANLEITUNG-V32.txt",
+      "sha256": "95f78941d30eccfc6563ac454080fa24bc6e0103d7040c14f9e6c08a3e0d27fb",
+      "size": 251
+    },
+    {
+      "path": "UPLOAD-V40-FINAL.txt",
+      "sha256": "a42022ae522bf6d467003d7a57d4a4d074ac041be5b6ae250ef8d367bc4279f4",
+      "size": 687
+    },
+    {
+      "path": "UPLOADLISTE-ROLLBACK.txt",
+      "sha256": "0c79cde9647ade124cfac0b191733ad453355949453912452c806b92d1b8cc2d",
+      "size": 803
+    },
+    {
+      "path": "UPLOADLISTE.txt",
+      "sha256": "24715e4a74a4e736bfaf14bee3f62386d0354e9d493cc81210574600157f2535",
+      "size": 175
+    },
+    {
+      "path": "VERSION.txt",
+      "sha256": "21a7213df0b77e03208891630801f6541cb1aef56842de5ecc62eb58e4088311",
+      "size": 16
+    },
+    {
+      "path": "abgabe-erinnerungen.css",
+      "sha256": "706add8ce3feab70a8a823518c15f0d5121c8584479b9bf227a9a49ca8af1def",
+      "size": 1292
+    },
+    {
+      "path": "abgabe-erinnerungen.html",
+      "sha256": "c2055479c91228eccbeadccd7e87856dbad44f8cb4a07cc44ad8ffea2d61fbf9",
+      "size": 2681
+    },
+    {
+      "path": "abgabe-erinnerungen.js",
+      "sha256": "02cf018fb1dac4e75071202f47e56ce6ae2858676737639eb96721a7469a14cd",
+      "size": 6266
+    },
+    {
+      "path": "abgabe-erinnerungen.json",
+      "sha256": "651cb8e05862158d6ab680afebeda7312974562556f48be2b1c01f5c14a3a063",
+      "size": 247
+    },
+    {
+      "path": "abgabezuverlaessigkeit.css",
+      "sha256": "1e07699aa3ae127e878a0eb7e8fc6212a1bc81dc0a19227ac0844306d37b656b",
+      "size": 1895
+    },
+    {
+      "path": "abgabezuverlaessigkeit.html",
+      "sha256": "d7d5ce0298d42ddafa4ddc791c8af6818a892bd40a8e39555f940634926f660c",
+      "size": 3941
+    },
+    {
+      "path": "abgabezuverlaessigkeit.js",
+      "sha256": "0ab6e0706aa2832c5b3f4d4c20e50553bf689e2f85b4fcc0460755f1d0e5a697",
+      "size": 7713
+    },
+    {
+      "path": "abgabezuverlaessigkeit.json",
+      "sha256": "1edf15f5cb5156659bf2e44d8a516e3f528a548a065cf7a5787065a08fbaadc7",
+      "size": 247
+    },
+    {
+      "path": "accessibility-v33.css",
+      "sha256": "3d6e82e4fe9c932acc7b360736a8a5be266473cf85748a339661e7a4ac49ac2f",
+      "size": 1943
+    },
+    {
+      "path": "accessibility-v33.js",
+      "sha256": "2eeb38538cbd4774f432a670176ee6855b6108ed9de34d4f6e1f6848511ab07b",
+      "size": 1623
+    },
+    {
+      "path": "admin.css",
+      "sha256": "cd7670a9bde4851884d53f7422d614e3a69c94814e5ef1cb4450892a01c1ef43",
+      "size": 3013
+    },
+    {
+      "path": "admin.html",
+      "sha256": "43bfa6e6349de8e1d82b7f0ae0810c8376f8fb34df1419f2ae260a743c3186cd",
+      "size": 5407
+    },
+    {
+      "path": "admin.js",
+      "sha256": "b6eb10807cb3bf053cb2deb02ef37bd4b373027f8afc12e54b8b5f1b810110a6",
+      "size": 18217
+    },
+    {
+      "path": "app-v40.js",
+      "sha256": "c54d18a5f99ba4c6ba8625e659eea8373fcc7b1d49b91385225c4974820b93a8",
+      "size": 2768
+    },
+    {
+      "path": "assets/smugglers-design-system/README.md",
+      "sha256": "4eab5b8bb55b08e51fc119e217589e131d2bddfdfcfd9e2482d1a264958aeba4",
+      "size": 351
+    },
+    {
+      "path": "assets/smugglers-design-system/dokumentation/SMUGGLERS_DESIGN_SYSTEM.md",
+      "sha256": "da307a10d10032542db6574721118ce4a8a5542af34525bf25fc5efa8caee5cb",
+      "size": 6086
+    },
+    {
+      "path": "assets/smugglers-design-system/integrationsprobe.css",
+      "sha256": "d3ac107ecada1cfd81979d5e481040cb3d75ed379be543718516bd6ebcb9aee7",
+      "size": 3340
+    },
+    {
+      "path": "assets/smugglers-design-system/integrationsprobe.html",
+      "sha256": "50265d4a1e6bc13d53556c8b1b19feb62beb9f3d7bfe9945e7c80638513f3625",
+      "size": 1807
+    },
+    {
+      "path": "assets/smugglers-design-system/integrationsprobe.js",
+      "sha256": "cc02c7db759212d543226ac9fb645836d5d0f8e454e9c8109d4dbfe9d42f861d",
+      "size": 5037
+    },
+    {
+      "path": "assets/smugglers-design-system/master/master-schmugglersiegel-v1.svg",
+      "sha256": "fda55667e7d9962d351bed97789cbd21eddfaed7421951161fc4d280a48f0abc",
+      "size": 6761
+    },
+    {
+      "path": "assets/smugglers-design-system/master/master-vorschau.html",
+      "sha256": "a58fd246fad73bab4fd3ec1e037b748d197cbbddc65bb34598cf5b905794f409",
+      "size": 1852
+    },
+    {
+      "path": "assets/smugglers-design-system/pilot-vorschau.html",
+      "sha256": "65084ba29af88fb464de4cbeac2d21ee80c0c89ea269a919e0bf1123c77d39b6",
+      "size": 3347
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/aarhus-gf.svg",
+      "sha256": "c65444a4e6f5a60e1e78a19ab848f4c0b28b35535e34cffa2b125767f7c2a6b1",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ac-mailand.svg",
+      "sha256": "c176f582696b72ca60e2d1eb0479bee8ae499350345d23daf90e408676dcdb7f",
+      "size": 2548
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/aek-athen.svg",
+      "sha256": "926d27435c1262535958617650ae08a08b525339e37e5ac6d6e69bae94d67cfe",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/afc-bournemouth.svg",
+      "sha256": "8735bc9e7f8ab0d5c475781ccae7116d22f97fafb13c9faa1e714c8a23fd2afe",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ararat-armenia.svg",
+      "sha256": "d745208c5d94b8e4acec4ff9e03fbcfc2a5e967638fe4c6a53de23d441ab4e27",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/arminia-bielefeld.svg",
+      "sha256": "40647f501cfc836b04494aa3283153eb80ec206da2de0786f54f0f9d125ad1a8",
+      "size": 2559
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/arsenal.svg",
+      "sha256": "9d3789d09fb4944a7da1a0e4e6a5b082c3477532f52f665c541f0347ead84eef",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/as-rom.svg",
+      "sha256": "beeb1196d9ac45f2d5eff836de966be503632c6b5fc77c0c7f351970e339cc7b",
+      "size": 2352
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/aston-villa.svg",
+      "sha256": "51d29f367a709e51d47174f4f04ebc8809dfff23777fb2ee51bcd84d59bbd0da",
+      "size": 2547
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/atert-bissen.svg",
+      "sha256": "0db4c5677cc316cd8b3adf1d4d749db7b6a406d9bcbb1c834dab9a5a3d35444f",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/atletico-madrid.svg",
+      "sha256": "d367101e582e5be70e0538b3244c0cedb47e677844da9cceb9a7ce798e94575c",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/augsburg.svg",
+      "sha256": "662299a20eedf99d5d4114c68746e8916f61e0cfaade62b833da31bda0c9b355",
+      "size": 2549
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/az-alkmaar.svg",
+      "sha256": "e174dbf28cdb99d53ec8fce7a276869cb641fa8fb48d860dd1ca3916fca76bd6",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/barcelona.svg",
+      "sha256": "2d249bee2736b3138fb1b95e8314192f1cb8317bf00bb4f22e48452084602864",
+      "size": 2550
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bayern-muenchen.svg",
+      "sha256": "56838eb71f425fa640c3382e65cbb0e3492de383ecd273325569a7377f1b0a5f",
+      "size": 2556
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/benfica-lissabon.svg",
+      "sha256": "15b464b60a43bc109268ea6d39afbea7c6844b35c0e57815de1297ad3d1fc782",
+      "size": 2554
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/besiktas.svg",
+      "sha256": "56dbe1da91c29effbcc04c29b4b5e8981ae33902f30a546f36f2d26707018906",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/ac-mailand.svg",
+      "sha256": "81963d00c0da84cd7506064815d460f8d17a7f8603cf340cbdcbbedfd79631e7",
+      "size": 5970
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/arminia-bielefeld.svg",
+      "sha256": "7b9c0dad75222fda1bfe9d01ac93b7ef18b46012160744fb59264f4bdaa80aec",
+      "size": 5981
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/aston-villa.svg",
+      "sha256": "3b6e00a3829c176cbdfb3b0dad2863babe5918ea72a2ac9cafe120a01c76ea9b",
+      "size": 5971
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/augsburg.svg",
+      "sha256": "13e65d3bbca2906135d3bbd047c3398f400389fc7966d1eaa54aade739565134",
+      "size": 5971
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/barcelona.svg",
+      "sha256": "d456d81aaa89e4bbecb0be463e2adf555391fcb1eeef8a909adef2d660bb7ede",
+      "size": 5972
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/bayern-muenchen.svg",
+      "sha256": "9c9a4acd4110d426c86ccce785088028ae35ca78a2317861806bbdac8a0bf53e",
+      "size": 5978
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/benfica-lissabon.svg",
+      "sha256": "b16cdb097079b540742b2bc819a043ba2adb031d0139244afd396c41f32d5d01",
+      "size": 5976
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/bochum.svg",
+      "sha256": "e583b47e5ce21c144105624d030b8c8f11292458351db4358f1e212c29bb5349",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/braunschweig.svg",
+      "sha256": "026b3d569449b6b1695a1336dad649798cbd908ca578b888f090afba89b996fe",
+      "size": 5982
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/darmstadt-98.svg",
+      "sha256": "dc5f874525fd500c7eaff04b9d148cbe357762bd529c377d8dbd65aefe71bc1f",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/dortmund.svg",
+      "sha256": "5ec0f1eae17f9cbc7dc243de7a2a0e7c1c8ce48af6c0d47a47f2a02cf572626a",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/dynamo-dresden.svg",
+      "sha256": "37031a12965bfc155d70e101543843ecf8742ffa36deb9e763b6366d97ee3c79",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/elversberg.svg",
+      "sha256": "c31f2dd204f4a52947f142c8bf1519bc4701ed7f3d3ba271ba5875155bf0cabe",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/energie-cottbus.svg",
+      "sha256": "0b915ebdadf87156ed7647be60aed6ee40dd8ac7a4ed9473397e926cdc23c8ef",
+      "size": 5978
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/fc-bologna.svg",
+      "sha256": "a701186af9762247beb8e37476a8e98ea29ba8ec1e85afe4c0d737b4fb108779",
+      "size": 5970
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/fc-liverpool.svg",
+      "sha256": "d823b569a9a428b5f034c005e1d969368eb8a39a595176cca5505b460b74c974",
+      "size": 5972
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/frankfurt.svg",
+      "sha256": "2ec9e8358b42260e3cfa64fd325e2af8d41b297e2bce37a69b4716bfca805684",
+      "size": 5979
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/freiburg.svg",
+      "sha256": "b0409573d05e2e42d5f84a3fa7c74e56dd2d1b8fae5f43c03a68cc1335ab8291",
+      "size": 5979
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/greuther-fuerth.svg",
+      "sha256": "c09e576d6d18d645ffa217642de45a8914aa867d406dc31cdb3419694a800f74",
+      "size": 5981
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/hamburger-sv.svg",
+      "sha256": "5089e397eae36006606fa5a7d4bd19f09392e69fedd1911d404aa2f2c832666d",
+      "size": 5972
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/hannover-96.svg",
+      "sha256": "bbd437b7b8390a70a7d286092c0c81890658bc7b670d17036304d24f941c11e3",
+      "size": 5971
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/heidenheim.svg",
+      "sha256": "aba0f5f609233755cafa2ad85d8f9144ff7039c43cfbf2b02d16402cae544778",
+      "size": 5981
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/hertha-bsc.svg",
+      "sha256": "c2a000b05984732b3d4aced20e006a76aed61eccc75ea4966e7fa46530483365",
+      "size": 5970
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/hoffenheim.svg",
+      "sha256": "32e58d9d6316485cba93c6c02af786052c5641fd60358ba6adc040d79f6e8cb6",
+      "size": 5974
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/holstein-kiel.svg",
+      "sha256": "a8d4c239309fe9631a70ba8355ef2bf541990c56894593500ec16c69f644be61",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/inter-mailand.svg",
+      "sha256": "607572734a4bffa2f9472ff004c403d1b23dc0560ed0ecdd5876e9c0db5bc2bb",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/juventus-turin.svg",
+      "sha256": "223a96dff09ec6085cd054b80f0fdfa22bdc6b2bf7d48389392ce340af70530b",
+      "size": 5974
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/kaiserslautern.svg",
+      "sha256": "02eb7bcf80619db3a6a240471a2b6d394eef44fe715100f4d9733c507531c7fa",
+      "size": 5980
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/karlsruher-sc.svg",
+      "sha256": "d3cce243afe7ce77804fe4b65d3fc6266608ddd4a1e48b7ba7f2dbaf06ded172",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/koeln.svg",
+      "sha256": "e44aa2c5f58ed09986bddff63f193dda03f457303737ad2c1879725dcfa94031",
+      "size": 5971
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/leverkusen.svg",
+      "sha256": "3e8fdfd2d060e6febd9f26bd05a6dbfa6f1587accb04c311681fe2694925d2e6",
+      "size": 5979
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/magdeburg.svg",
+      "sha256": "500298b46741fd1e7d5b2c02d6c01e2cdc645723683ce96e77f261a843e5d94c",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/mainz-05.svg",
+      "sha256": "a60f1329b3fdc826f427bfd5249608748b91cde4a6fb67b575f1f4dc232d8676",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/manchester-city.svg",
+      "sha256": "f79b5adc98c798a6b5dc2cc8a3838ca89d808d00d42f1e620b72c72d713c339d",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/manchester-united.svg",
+      "sha256": "9c61c0c2a90d4cb9664388233a89c7cca18377b095c5187fb608bdf27e59adc8",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/moenchengladbach.svg",
+      "sha256": "536f7ac487ca7d2a4f0c59f5fcf06b0d8e635e497a279587fc0bd5ef90720b49",
+      "size": 5985
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/nottingham-forest.svg",
+      "sha256": "f9dec0f12d6d87724824f59be055179c170dbc7fa3dea41a65038da6a8500a14",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/nuernberg.svg",
+      "sha256": "8e39ea4eae3728f5bd549cb5248f0faeaa4f5d0e4ba211df5d3f0f59257c2496",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/olympique-marseille.svg",
+      "sha256": "239a2bd53f390dfc75b0621cb50a44ff34e7fda15ddbe0291391253a2190f1d0",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/osnabrueck.svg",
+      "sha256": "79fc5b52b35dc8e58f2935b9d29d76f96c111561df238d80116bc679960ea86b",
+      "size": 5974
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/paderborn.svg",
+      "sha256": "bd9f8f30befc87cf38fec021292baa740c5dcce3fa51e39c1a40782188da1922",
+      "size": 5975
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/paris-saint-germain.svg",
+      "sha256": "af6677b810e75cfd1e6e3b6264bdd323f3c77a7dc3891a15345fa9b81ca77f48",
+      "size": 5979
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/rb-leipzig.svg",
+      "sha256": "24cfd8f14ada2a505187a0a3715a2bb44d43255fdfbccb174f86c1a3fd959852",
+      "size": 5970
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/real-madrid.svg",
+      "sha256": "00223a063578eca0d43b0a1891beb328fd67997cb3a797add7175b5bfb030339",
+      "size": 5971
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/schalke-04.svg",
+      "sha256": "5dbaaf9870a9a472796d883bee0932781120c156b4f059c71222ce38ac2f0c52",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/sporting-lissabon.svg",
+      "sha256": "e9e9ae8ba614c8f96ec130d0bf50c2196f482d57ec3d6adf90c6e1074f108b47",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/st-pauli.svg",
+      "sha256": "87e690f93008334cf290f1aa7117f0d4b7607ce5deadd1f3abaaf150b9bc06b8",
+      "size": 5972
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/stuttgart.svg",
+      "sha256": "4e0e45a5eb51b412556a86f9fdf6bcd6443c04321d8a469e39f0594ecf7c20f1",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/tottenham-hotspur.svg",
+      "sha256": "3263081c2026021916b7a98d5c0a4373766851b86d3108c007d224f35bdea643",
+      "size": 5977
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/union-berlin.svg",
+      "sha256": "75d877b575095cba5d63d2d037ff139fa7266ab485ba11de039ce55e8352d367",
+      "size": 5978
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/werder-bremen.svg",
+      "sha256": "e52a7ee2852bcc32cd97b9482b588528e57087b8ea8f98b7d8c8be849958fd9e",
+      "size": 5976
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek/wolfsburg.svg",
+      "sha256": "db794c5a499527cf4c4be899e3175fc4292a8d0941b18653756f97806c981250",
+      "size": 5973
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bibliothek-vorschau.html",
+      "sha256": "bd44dbf17098464dda61cbb3feca971a8d3c2f4ebbfb55b8cd7d2f728b8e4356",
+      "size": 10870
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bochum.svg",
+      "sha256": "01fa1a87a5c93238f43ff3f7eb0db233adb1ad3f685469d9f1d1635caae72069",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/bod-glimt.svg",
+      "sha256": "3bec5674c1fd54fea5ba9f88d08b1ef9dccb1029b6f24774980d67c0c35d5612",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/borac-banja-luka.svg",
+      "sha256": "510809ae32eff055b6081f963d90215fa1262467b2d7e9f526ad187e66c616d9",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/braunschweig.svg",
+      "sha256": "116eb47cca93a2696cb4239845751d89a84410289239f72cba42f3387fe2ff0b",
+      "size": 2560
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/celta-vigo.svg",
+      "sha256": "6676393fb3b41a889a223b714332d96978ff917fd0738a23c339840a8458ce5a",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/celtic-glasgow.svg",
+      "sha256": "cf7ff8b08092f41aa4fa85f3e0ffd5c095b077178cd6f5441d4d7b16d166f28a",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/club-brugge.svg",
+      "sha256": "9d22793c3729f18700dbf64ea346b672ca28c4e9d951c805eb1dbd1ecdab292b",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/como-1907.svg",
+      "sha256": "2fec398b69e32c361c5fc6d6a7011359b9053efa22e10d3b2e45354653454769",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/crystal-palace.svg",
+      "sha256": "8feaad9a903e516d400478f0d02ce57bbc9eef95bead5a70e4344bf0a5b7b349",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/darmstadt-98.svg",
+      "sha256": "57e9989daafd1e982aeb500cae8aa70b01ce8a25bd3186587aabfd8e4537db5d",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/derry-city.svg",
+      "sha256": "129a0681c36a2803fb5c2664e38f29165fff94e3c58392de427869e25fc3a3a4",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/dinamo-zagreb.svg",
+      "sha256": "75efb13a2f23870bf9c699e5c38f06b5733aac2f008942a4dafb181694326397",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/dortmund.svg",
+      "sha256": "fa7c3e1453017b70df11a5ba7de64e2c85f7ccf109b6cf771561b2a791d4fcc9",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/dynamo-dresden.svg",
+      "sha256": "0ca57f8877ac1843b3b234ba258882f234a5fac3c8cf5083d87b4c1775a25c5c",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/dynamo-kiew.svg",
+      "sha256": "a030a380354eb5a94b4ce8e45e7c0166f1f0b8e148e1a651512d47ab4e357eef",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/elversberg.svg",
+      "sha256": "efdab3a15355fcdc542b6a827e9ca5312d6b25a9e30a91d7038fb97a0bbecddf",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/energie-cottbus.svg",
+      "sha256": "e2421e1eca5df7bdc46ea011c46f93d93a01b0af1f85f94cf0e2a3ffb96c7a8d",
+      "size": 2556
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-bologna.svg",
+      "sha256": "0712268280bf1cd519cfc198d78f0e16d1c50fd7c0f9461a62481fefd4b5c192",
+      "size": 2548
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-drita.svg",
+      "sha256": "1c9f5473da5e9d8f3a603da4ed862f75bcb062e0526f64476e8fa794d1c88d37",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-hradec-kralove.svg",
+      "sha256": "51afd8dcc48c28cd8739a2be567475300779b897aa7678500de395f12079dee5",
+      "size": 2363
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-liverpool.svg",
+      "sha256": "0e1910bde96d856f28ee8abc2596a0b79b2dec0036f556b8912f9734acc0d6f6",
+      "size": 2550
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-midtjylland.svg",
+      "sha256": "66b264124b1202297c9acb2a34d25b69cd2912b107a1999f322c4dd0936f2b2e",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-porto.svg",
+      "sha256": "5823bfe376011bd145394fbd1a4def3b9b7b3c809a87f7a8613d67c8ff45797a",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-st-gallen.svg",
+      "sha256": "c8dac5590b7a9a4fc553db0d5fd933849e9327a00ea8c2af7fac20ba277df1d6",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-thun.svg",
+      "sha256": "95de2ad69bc39cd92bb014587438c774488e3a4a259a07fb856e4be6771c858b",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fc-twente.svg",
+      "sha256": "59ebddf8cc8b5131b1087bc6ea82feb96983ea5bdb66e64feb2b9908953f1921",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/fenerbahce.svg",
+      "sha256": "f63a793cc4e5faeb0c410c7caec237fa188d1ceb25af77507d819172570c791f",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ferencvaros.svg",
+      "sha256": "4f3a4a22aa14468e4ece48e73ab7c497b605544cf5318bedfef3bff2dbcf4870",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/feyenoord-rotterdam.svg",
+      "sha256": "84e9fb7ff2bc5c7112d66aedecbccfeabaf2cf0b186b6aeeeadf60c570fe353f",
+      "size": 2365
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/flora-tallinn.svg",
+      "sha256": "39b586d983bddfd7eaf9303bb0c71f858471226b4af2d06954eab090c379b32f",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/floriana-fc.svg",
+      "sha256": "e1d62cee6316a1e0fbf75cbea839b810a1e91b25bd256fda1bad1584ef409913",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/frankfurt.svg",
+      "sha256": "c66be3e021ec3c12d9cf12ae9335289a9398530084b84c2cb3567cfd07a00647",
+      "size": 2557
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/freiburg.svg",
+      "sha256": "a429ef65a03927aa292213532dad5b7139c432f5fca47297477026e8dcb3d4bc",
+      "size": 2557
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/galatasaray.svg",
+      "sha256": "6e41ef9476d78adef30a6fcedf04eae09080bfed5131eec96f364fc7c5bc406e",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/glasgow-rangers.svg",
+      "sha256": "92ecccc3aff7013c12eda9547d4d1f4c75fc8615a51b603deb84eb8fbbcdac00",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/gornik-zabrze.svg",
+      "sha256": "e0fe422a1ff3c66c78b67f9fabcb60d86fb42caf43eb9da67b41db995db30c3d",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/greuther-fuerth.svg",
+      "sha256": "f382785d25a48319dd42d520db419351b3940bf85f7d5a4b4f6d95b8c4d9d6e1",
+      "size": 2559
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/gyori-eto.svg",
+      "sha256": "d7ce6b9bc8f8bd52ac9cf52c5c2bb480e7453f49f7e5c753873862c29e7c5623",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hajduk-split.svg",
+      "sha256": "8cdbdcc7048557395aecef230d8a23f783ed0f70dd84beb2343571889ce59d25",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hamburger-sv.svg",
+      "sha256": "00aa1e2f3aad7e28d35482fd1d272886fe05d195a8059b0e142e7535afc16af9",
+      "size": 2550
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hammarby-if.svg",
+      "sha256": "8a83765ab5bc981c1cf347d476986edcb1c54ee567459362f7a1f5908f4d3148",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hannover-96.svg",
+      "sha256": "4339ef8875711347b9f8b4e0d1bd31552521029d0ed8b7fe611661c1419e6229",
+      "size": 2549
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hapoel-beer-scheva.svg",
+      "sha256": "60a190ed712ac3b9a8c32a57c55a22b8ec32c7c12de2f0764ef1378fbbe25534",
+      "size": 2367
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/heart-of-midlothian.svg",
+      "sha256": "0410fe28e844df9550f59624edf3b39a5dba3c7c8940785f8e95dbda1457f082",
+      "size": 2363
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/heidenheim.svg",
+      "sha256": "59c5b2aec5936aa9c806f6e0958522d32747272c9dfe68c21971595ab56c33da",
+      "size": 2559
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hertha-bsc.svg",
+      "sha256": "dff33de7ab4ec72393070e205d706968ebc3f754012c4b4a4d5c805b84358d6e",
+      "size": 2548
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/hoffenheim.svg",
+      "sha256": "f792d77157c70bfa66f2e0ea74b98d8115794c9300c0c2aa539bf70772ad1dab",
+      "size": 2552
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/holstein-kiel.svg",
+      "sha256": "dce3280a43d8f43dd2fe5f59645909ab2d4150a5bf4e9862d8575d22319bbfc0",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/iberia-tiflis.svg",
+      "sha256": "1e7cedf13a6c38b8171c10096b4641b953a694ff5c16b70d3c8615992407a5a1",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/inter-club-descaldes.svg",
+      "sha256": "1ed4e5930bc5f3801c8ce0279d6914605b00b20fdcc32809203de28610bf4f38",
+      "size": 2367
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/inter-mailand.svg",
+      "sha256": "f34e80c2200f77bd67470a3dad31bb7c4c7cfdb4d10afa5eda9099c9fb2fc19b",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/jagiellonia-biaystok.svg",
+      "sha256": "6d1dd9cce69f4eeee76950ec78387fca40f07f7e652d60d130657d62f85d1755",
+      "size": 2366
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/juventus-turin.svg",
+      "sha256": "01afebbd7b3d0dd87d41418dd2707eacf639465681d67d50a0a1f359e281a31d",
+      "size": 2552
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/kairat-almaty.svg",
+      "sha256": "cf14159843cf104cd1ce85e42bca8dc6210f1318911562e054dc3644f2b853cf",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/kaiserslautern.svg",
+      "sha256": "99c399f5d3b7e346cb652e83c7981e359a92105eb7d8eb7a3c23a82147293c41",
+      "size": 2558
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/karlsruher-sc.svg",
+      "sha256": "030fc43a93e43c9a07597a04b13b1acfc7ea08204809525dad724fb9866112e5",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/kauno-zalgiris.svg",
+      "sha256": "625c46ec77de24197bf9242ac9bbe1d5275e0cd222dc283422e43d6835a312de",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/kf-egnatia.svg",
+      "sha256": "3de299407678ac91490eb49e798386360ea24d6944d18b8e06443f2f11146479",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ki-klaksvik.svg",
+      "sha256": "f4420ee3788287a46ef1e9099df610bb1bedb361a129ca6e6bb46f6bfb2a2b78",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/koeln.svg",
+      "sha256": "77704adff033126c2f5edc58a745b81271ae8ef750e68fc4fc80c10ed9ad1213",
+      "size": 2547
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/kups-kuopio.svg",
+      "sha256": "48774a6c92f080c454ebec0eec971fe3dfd764e6f8f86671fddd6637df2a0150",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/larne-fc.svg",
+      "sha256": "06d87a0161888b0c058d1596dcfef97f6246343aefb6eb90b047f70891637364",
+      "size": 2352
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/lask.svg",
+      "sha256": "0338596e7c9457a8711bbb3d037864ca270a91d06a17ec7088c7f5fb7e0eb9ff",
+      "size": 2350
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/lech-posen.svg",
+      "sha256": "0c801fd5826957aabf31770539cd3ae6ef3844062b3248af2301f27012a1a08c",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/leverkusen.svg",
+      "sha256": "0bf1626b243a399e4b09d4f6b15cfc9f109646a8e5e8ce1a6c0d0c1e7202ced9",
+      "size": 2557
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/levski-sofia.svg",
+      "sha256": "a2979e4071fca23e1f871719da5f736125dd51c5b6a489308d1f5b485f1e1b9b",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/lillestrm-sk.svg",
+      "sha256": "a206c17699dd30d5a2221dbcc5bc0a8bc017935c4d664944883f2d618442bf1f",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/lincoln-red-imps.svg",
+      "sha256": "bc02ac6cf1e8d8ca622ab8cbe516614456d38d2c2ecc84161ea6a579a683c59d",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/maccabi-tel-aviv.svg",
+      "sha256": "d56926b73c76582602f6522b63ddb4e680860710fb81cd5e2aa9296ac0998daf",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/magdeburg.svg",
+      "sha256": "875280addb322cbe19925b8401cf682d54963a24b9ed8cb728f818985fd7f92d",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/mainz-05.svg",
+      "sha256": "07fd10b3b73e887c85fd221cdf658d34fd0714bf65ec178c6bd85535f38c729b",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/manchester-city.svg",
+      "sha256": "a8c96b029f85f6b8f5bde94905df29e1b0dbe6d4fde0ce389c3ab4ea4fd7ba99",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/manchester-united.svg",
+      "sha256": "90b159c40d425afafb625cc01500665cbca37b39043ef56e5fd383dc484a06ab",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/mjallby-aif.svg",
+      "sha256": "e74b6acb2ee54e0698b0bc183dda6d2397ef59dde3c985e10d4753ef704eb4c6",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ml-vitebsk.svg",
+      "sha256": "44903c30311729de3f22241a54c65396ec7218d99d84cd916d231137254e8507",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/moenchengladbach.svg",
+      "sha256": "3c7226cfc79b40afd71bc819204db8705e427b928cfde115d035a4279b999986",
+      "size": 2563
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/msk-zilina.svg",
+      "sha256": "94d2840833bb4944858bcdf216aa59ba4ad102e36c155ffc7b4ae2fa1e5bd1bf",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/nec-nijmegen.svg",
+      "sha256": "5e8faa8098df46b50cb15b40f2310edd2ce02599daf242b5d98b4cb859071d56",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/nk-aluminij.svg",
+      "sha256": "8719ada1dff62375b21472fd353d261a599d6ae5288a32b3de6f9a0d62946302",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/nk-celje.svg",
+      "sha256": "318ec65f4115b5c5e072b714e0c25e8f27261150ef7a7a5db595d19c5447cff7",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/nottingham-forest.svg",
+      "sha256": "036ca89acb19d2ace552b1bfd70a7b0902675d67fc4f4116064072ce7869e957",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/nuernberg.svg",
+      "sha256": "8d331911e2c6001be5cda4d6b32d759d371eed2bb1e130ec44dc7320c140c07b",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ofi-kreta.svg",
+      "sha256": "15a67f8e2038cccec46bfc7eec3c28133eec83a99e916f557578a0b91a299d8f",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/olympiakos-piraus.svg",
+      "sha256": "47ef55a06d2e4257a312454ee21a8ba866fc78f788f09517a50eb2a07379675e",
+      "size": 2364
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/olympique-lyon.svg",
+      "sha256": "4bcf7ffe26453cb0fc71f8c16f58a733d3666f1df35843c9cfcb99c2f6edcc13",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/olympique-marseille.svg",
+      "sha256": "391d335a12b87b741efbdcb77d597964304a3c3377294cae6f1a8f059da12919",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/omonia-nikosia.svg",
+      "sha256": "4ba2d4a24ac851ade1cf6e6092a7e7185337e4ea79ae941b065c6958b8ef192d",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/osc-lille.svg",
+      "sha256": "69c0b064c27a33fca4bdbea6e325bdb585810083ec1e72dafa049baea0f7f4e2",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/osnabrueck.svg",
+      "sha256": "f4fff8d871e6204ae75a25e76c7b63ca44d86ac7e3c94b7550d4162d1d459ae0",
+      "size": 2552
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/paderborn.svg",
+      "sha256": "aaafb858f7e17220dfff9bbb80456b0ab616d423373c2afc0c898de3954d69f5",
+      "size": 2553
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/pafos-fc.svg",
+      "sha256": "efa50a4c3036b5d0258337c9a8e465c3557a1b31bc2e092e21632cdb898de8f9",
+      "size": 2352
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/paok-thessaloniki.svg",
+      "sha256": "67719454eeccc476a9fb9e59f5187e62062bd623767b7d4d907b28a7541a0188",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/paris-saint-germain.svg",
+      "sha256": "4345202d04678691cba8a461f3ea1f1a0d8a0c632cea8a4972ae65e17abe8a99",
+      "size": 2557
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/petrocub-hincesti.svg",
+      "sha256": "a794c29534beb4c0966086d442397719a17478a1f9db04880a1fa8cbe1cda372",
+      "size": 2363
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/pilot/borussia-dortmund.svg",
+      "sha256": "5e22b3381314e269b7f099bc88c9c160d9e38b128b7300fb93f46a712e108fa4",
+      "size": 6719
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/pilot/fc-bayern-muenchen.svg",
+      "sha256": "5d7f280f2de498a4d9189b1e1ba0c352f497c03f393c7cb6b8234e0defb49420",
+      "size": 6721
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/pilot/fc-schalke-04.svg",
+      "sha256": "5cffdce9d40245cad0648430fd797659c61c4630f250f666794b597698a06e2c",
+      "size": 6717
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/pilot/sg-dynamo-dresden.svg",
+      "sha256": "476d4448646958383daf59ea8e94b32ca1eb14fc009ba2031474f20999e30b2b",
+      "size": 6617
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/psv-eindhoven.svg",
+      "sha256": "a5ae80aabb672cbab7b6a2c0468e826c72194a69a67f639bfa4251b38c773e90",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/qarabag-agdam.svg",
+      "sha256": "b85e44ea99a5848df43de01d3794e58c380be95c33cfb9a7fd24a44cd499a190",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/rb-leipzig.svg",
+      "sha256": "64f0fe5cb50c78fd4d63859c11c8dd1789fc695d40359a9e04ff89d6a67dac13",
+      "size": 2548
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/rc-lens.svg",
+      "sha256": "a08b6f9f8781717c10addcb49d7ee6d20a154d54269d29be0a47f8243659c5c8",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/real-betis.svg",
+      "sha256": "ebd0f08f11194ae4b3f6c70e6e274437a1a98e5f0a67086f468acb640b030538",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/real-madrid.svg",
+      "sha256": "e3665d9c8a6209fc84fefec231d1466b22e9ef2ce9aeabcfbb11660dcb1989bb",
+      "size": 2549
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/real-sociedad.svg",
+      "sha256": "8c08a6a60cd05f6852dd08b88e6ef231c03269062a28cda7f6e395e2b85fe58f",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/red-bull-salzburg.svg",
+      "sha256": "0d516c89a851b62c6061cfecdf0615194c173cef30dcc49eda00f4fd8ead2dd7",
+      "size": 2363
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/riga-fc.svg",
+      "sha256": "dd501eb1cc3e241de9664f0dd04968a98709f039133de93d591c8362b9968a3c",
+      "size": 2351
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/roter-stern-belgrad.svg",
+      "sha256": "595c22c5dfc087f300a4cd446c4616a1a91e4e1b29be88ec5649556041085faa",
+      "size": 2365
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/rsc-anderlecht.svg",
+      "sha256": "b0f08426f47e0f295b3d796bd79c199e2b7dd6cfa2ee372bda4c3c2643e66300",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sabah-fc.svg",
+      "sha256": "cb25bf0c2326b3346c6ff8a7599e91c414089b69d21b3e58a49363acc9b2817f",
+      "size": 2352
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/schachtar-donezk.svg",
+      "sha256": "7e382ee18db43d4e48bd14733c8070a787bba8d50790c85fe30da5a9afe61195",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/schalke-04.svg",
+      "sha256": "75d2cc7ce9fa9fd99a80f986631313832c8ea0ba9f2b4f083e0de92de57d9f81",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/schmugglersiegel-register.json",
+      "sha256": "6a47451d831c17d6f0021af280b3f0fec2b047d266aa0a5c2481b736b08d9349",
+      "size": 42444
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/scu-torreense.svg",
+      "sha256": "4f4890e3092cdf303a3b0ebd8099c83ed0fba9c451995a58ba4af5a3d2df4590",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/shamrock-rovers.svg",
+      "sha256": "307212c90567ecdb734b1685fae21f716af8f43bb931e63f09fed27f583b0b52",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sheriff-tiraspol.svg",
+      "sha256": "a4c305a733e69a7d5cf38914f33eaa57426286e4e9c5cd782ca475efa0b1379b",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sint-truidense-vv.svg",
+      "sha256": "ae7d7213049a87c23917b378380c4df37d447995e67118273f19b6098d592bb4",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/slavia-prag.svg",
+      "sha256": "99c304f9606dcfef8155104a9ac8634897ad5f9ed1c0ce68146454385f44dc13",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/slovan-bratislava.svg",
+      "sha256": "e3306f3de1a4bb6d05f67ce5f95034199e5d7625e408988677d4760a16c25baf",
+      "size": 2363
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sparta-prag.svg",
+      "sha256": "3ea547da00d6210122681a094dae5a329232bf487af58a82502d4a025676834f",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sporting-lissabon.svg",
+      "sha256": "73ac73aa80d6601d914eb47d6a8a313b2be456fc526badb01cfdb660db08d632",
+      "size": 2555
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/ssc-neapel.svg",
+      "sha256": "08ca3364203c5a698fe5879e52838975f2721090dc180548c890020346f7a8c9",
+      "size": 2356
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/st-pauli.svg",
+      "sha256": "173cac4d4d5382d91ef5d66e0c11174ab551598cb914d8f6264ee6b4f95def26",
+      "size": 2550
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/stade-rennes.svg",
+      "sha256": "b3cec1aafa6e5d8dc51c73d68a4a1fad17e8ebaf299b480e97b4de6427e830e9",
+      "size": 2358
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sturm-graz.svg",
+      "sha256": "5135d8231210ef171a8eb878d6c3ec6cb196c614496d2153b16b6e51645838e9",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/stuttgart.svg",
+      "sha256": "05ef3195f9c29ae3c8ea9045c8a8a61614afda6c79e619d6c7fec711eba48468",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sunderland-afc.svg",
+      "sha256": "e5c67e396052990e7898123a4f1408ac7ac1a6c6ea5c1120d73a87270bf3be05",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/sutjeska-niksic.svg",
+      "sha256": "775e8d8c9841642398c9fb5a065fa42f10a8016d407035217cfe44e386ec0f75",
+      "size": 2361
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/the-new-saints.svg",
+      "sha256": "7b607561dcbed1c9a364f5ba1622383e0d074cae81ea94e6a147fcb829f1ce04",
+      "size": 2360
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/tottenham-hotspur.svg",
+      "sha256": "f89fa0b833f1627196c61dc8df583f6bbcd06de0bddfdcbb96706b50dbb0705c",
+      "size": 2557
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/trabzonspor.svg",
+      "sha256": "c5f47b6b330195124766079a38982ccad6e0c018ac95b13b1d0578947dc7508f",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/tre-fiori.svg",
+      "sha256": "f6394d2bad17c03d4882acc394eb15229a942305fb0dcd1ffb0510b79edbb82f",
+      "size": 2353
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/troms-il.svg",
+      "sha256": "60ba971e90cdd9309c7f719acfe4751b31abd436df477000c38e190a5573a54f",
+      "size": 2354
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/union-berlin.svg",
+      "sha256": "30e2bca5b14e0c98d576bb21f87a57293de7bb41a6486f8ad28989a7d11570eb",
+      "size": 2556
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/union-saint-gilloise.svg",
+      "sha256": "b15ed19b829ca6604d8b213dbfa83292fb9c0aeb6f8e2c7849db296e7ea34cdb",
+      "size": 2366
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/universitatea-cluj.svg",
+      "sha256": "da425660958d93688023d6f1fc5c8727f81b238a3c8e206c35b2ae0144e19845",
+      "size": 2362
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/universitatea-craiova.svg",
+      "sha256": "3c799d1b47da250bbd9771149e9ec38698cab3e6469a66d802e26d00ffc71f5d",
+      "size": 2365
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/vardar-skopje.svg",
+      "sha256": "751b0f67ca16242800609d13f16effa42da1012c80cc18d31beb27cdd0c3148f",
+      "size": 2357
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/vestri.svg",
+      "sha256": "30eee10ac72278dcdd158cf8636e9e19a11cb8deaa802323d2576b7794058d78",
+      "size": 2352
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/viking-fk.svg",
+      "sha256": "e366c39ad3813e328e226645657e0c016362f95cc379953bbbccc4b967e7b410",
+      "size": 2355
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/vikingur-reykjavik.svg",
+      "sha256": "844ebb0605c750ff8fe225e337dd0ad595748ebad366dfb70e8d4aa085dcdcb7",
+      "size": 2364
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/viktoria-pilsen.svg",
+      "sha256": "b16d8261192ea42f74443a70509a15fb9aa7c0566c13dc5950a47a63d127b6f8",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/villarreal-cf.svg",
+      "sha256": "c2c6168a7b0d2da07b2e4305891ae0204d3a2ce840923cac7b9aca461add2f8e",
+      "size": 2359
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/vojvodina-novi-sad.svg",
+      "sha256": "087726d3da6bf6d878f4c0ef2e3968723be19c7e462be4465e01af4bc2bd0664",
+      "size": 2364
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/werder-bremen.svg",
+      "sha256": "88f27b4ab98edf49dbb4a98cb5e4e2146bf38af11744cce338cfb491c33c6c93",
+      "size": 2554
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/wolfsburg.svg",
+      "sha256": "7c335506203a717bdcaa8d38fbb1f3ed1ce9a6e4a06e4818a8785e3bdb17a538",
+      "size": 2551
+    },
+    {
+      "path": "assets/smugglers-design-system/schmugglersiegel/zska-sofia.svg",
+      "sha256": "2d31074e97b2b6d31e527525ae02c374b9468109e2e45985a07b63baa875630d",
+      "size": 2356
+    },
+    {
+      "path": "background.jpeg",
+      "sha256": "1178ad90b6e98ba5b4265f8ca99d6968fbe252457fd95ee6a80bdf922a5f6a06",
+      "size": 251987
+    },
+    {
+      "path": "banner.png",
+      "sha256": "77a7d2edf755d724c48672062916da1aedb91263d37b35b1ff68ee7d501e296c",
+      "size": 2509448
+    },
+    {
+      "path": "beispiele/erstes-ereignis.json",
+      "sha256": "ab34b30c353d790bb69159216d247ccacccb2277d74dc1cb4787b6e3e47ff738",
+      "size": 665
+    },
+    {
+      "path": "beispiele/vor-saisonstart.json",
+      "sha256": "02419a809b712902ce9916e47cc599bf71ddffd438bd2ae9a96ad60b10f4745c",
+      "size": 776
+    },
+    {
+      "path": "bonusantworten.json",
+      "sha256": "559572e968cf18e14b2c92ddc6866ed6b3d361b0caf249417fb4be24c827e8cf",
+      "size": 193
+    },
+    {
+      "path": "bonusfragen.json",
+      "sha256": "945e9fc9ad47d1b4b16f7a26f62ade9e19628c344373badadda63f41be19affa",
+      "size": 600
+    },
+    {
+      "path": "bonuspflege.css",
+      "sha256": "0f34aa740ec7c97a9b2dabf193d998b68d6f2e7049f94a0d81ce8f9e1fb627ad",
+      "size": 810
+    },
+    {
+      "path": "bonuspflege.html",
+      "sha256": "e0d3c403680db6680ed28e81fea4d5765397591a8ba04fe591cd33f6d20cd9dd",
+      "size": 2473
+    },
+    {
+      "path": "bonuspflege.js",
+      "sha256": "0f45733e6e65d633c2e6d2cc0c826d033cf6bd170c6823168da4e58b74ea86c3",
+      "size": 5946
+    },
+    {
+      "path": "build_release_manifest.py",
+      "sha256": "5c4114dddf87a13c798304b77e325c6916ed62f5da35a1e5119523639f67804f",
+      "size": 2627
+    },
+    {
+      "path": "bundesliga-tabelle.json",
+      "sha256": "78317bdd3c0579fffb80b0ca3754e44cf1524e05b988cedfe85d729ffedcd076",
+      "size": 193
+    },
+    {
+      "path": "bundesliga.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "bundesliga.json",
+      "sha256": "d6925ebbd9e5f2f286267ac364e9a0baf4d1ba19040929f9862a2fb00bf204c5",
+      "size": 1238
+    },
+    {
+      "path": "champion-trophy.jpeg",
+      "sha256": "1776b4c37e316281d16a7bacc6fccbc053a90007ed41c886f954fa89d6336e21",
+      "size": 257638
+    },
+    {
+      "path": "champions-league.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "champions-league.json",
+      "sha256": "fbb006ce26f04fd6ff156e242b05bcc3ef377f8a222528592b67f41371a43e8a",
+      "size": 1490
+    },
+    {
+      "path": "club-app.js",
+      "sha256": "43263451a662ee11b5b2c6aef24ec203bdf04c0e2494a8efc168b9a259b0dd3d",
+      "size": 7100
+    },
+    {
+      "path": "club-crest.svg",
+      "sha256": "b3c9b05d26ee8c653b98ae091cfc048986460ba8f952f9f4b0686fe4856da08e",
+      "size": 920
+    },
+    {
+      "path": "club-style.css",
+      "sha256": "7e50917f4be9e2bdbb3fdecfc7a4586f2ca23e3f445953f9c65b0acaa639f323",
+      "size": 13316
+    },
+    {
+      "path": "clubdaten.json",
+      "sha256": "5e46612f170183c14b54350ef26f9a2d8a218d0a1877d0da13adcdce7a890a81",
+      "size": 1504
+    },
+    {
+      "path": "countdown-kachel-piratenchronometer-final-v2.html",
+      "sha256": "f7c38bd097fa572845ae5f55bfa5cb0c2c81edb7dcfc0749749220d4894a15d5",
+      "size": 11698
+    },
+    {
+      "path": "daten-cockpit.css",
+      "sha256": "3d43299c942124c0818fc7ee21145b977f6fc0335740917f6911111038b8f999",
+      "size": 5137
+    },
+    {
+      "path": "daten-cockpit.html",
+      "sha256": "b9f595512603af138b35a94cf230cd704c2b44d5a7d0f1e42a5e1d4ecd59f526",
+      "size": 2189
+    },
+    {
+      "path": "daten-cockpit.js",
+      "sha256": "398acb12f08e908ba4d99481e5313409f7490744ebed8e655ea64c114d576733",
+      "size": 5308
+    },
+    {
+      "path": "datenmodell.js",
+      "sha256": "49b5ae6d5da1c33065a596021804219386583fbaa58cb7b6119e454eb1b87d98",
+      "size": 8676
+    },
+    {
+      "path": "datenregister.js",
+      "sha256": "fa3742f8326f6fe4070162e4410565e7b75b1b359945a3e2566942e081b3f72e",
+      "size": 2208
+    },
+    {
+      "path": "datenregister.json",
+      "sha256": "219c7fbe496ab8bc2c4fc1dff4609397e3d6b6319d505f4018394a4f18ba6367",
+      "size": 1598
+    },
+    {
+      "path": "datenschutz.html",
+      "sha256": "0649382aabd4186c7e5da3b65a274e72ba590fe63bfae97f5b8a09ff827509d7",
+      "size": 5038
+    },
+    {
+      "path": "dfb-pokal.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "dfb-pokal.json",
+      "sha256": "44404678d0b666984fedb465b90930c5b3f7188e66890024eb6a0923dfd4f97d",
+      "size": 1432
+    },
+    {
+      "path": "docs",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 2
+    },
+    {
+      "path": "dynamo-dresden.html",
+      "sha256": "63d058753cd69663951290f825fe27935a5865ffd0d7b1164e7ee648820bd011",
+      "size": 1986
+    },
+    {
+      "path": "dynamo-dresden.json",
+      "sha256": "27338da5f971c2c16de870322eed52daf35e0f52695b221126a6d58d6e640cad",
+      "size": 1593
+    },
+    {
+      "path": "erinnerungsprotokoll.css",
+      "sha256": "fa9614279cc4ecc834ea7a91a133ca3986cfe893e429f13c7f9458ec8ae52c4d",
+      "size": 1241
+    },
+    {
+      "path": "erinnerungsprotokoll.html",
+      "sha256": "85d7f978d0854e44f4240cdd54d71944d77b3693faff7c9efdd49db2da6544d0",
+      "size": 3527
+    },
+    {
+      "path": "erinnerungsprotokoll.js",
+      "sha256": "7e52dd32b0c859645fec0b82c9d36f05129eba339c4a2cf9f14a927e875114d9",
+      "size": 9866
+    },
+    {
+      "path": "erinnerungsprotokoll.json",
+      "sha256": "ae2b7fd3c2d228dca4c27b208984d228c26ff33c1e70220f7759010e063dac6f",
+      "size": 223
+    },
+    {
+      "path": "europa-league.html",
+      "sha256": "89da0bfcd4bd0d3e943d40e6497ee179600a8771264ac9eb68c72b9975a24f52",
+      "size": 1934
+    },
+    {
+      "path": "europa-league.json",
+      "sha256": "95b8da01fe124b9552db82e88fe674655f24ceeab968c2ec2ffb235779bea034",
+      "size": 1446
+    },
+    {
+      "path": "favicon.jpeg",
+      "sha256": "6785ae3c5562bfc0e59ff80a94903930c3a6bc0e9e9aa9848c8fd0c99fdcd185",
+      "size": 378729
+    },
+    {
+      "path": "hall-of-fame-runtime.js",
+      "sha256": "3d0f3f921b1739a84df548be2fde9312afd28e8262c7cb66ebb9bf835d34883f",
+      "size": 2240
+    },
+    {
+      "path": "hall-of-fame.html",
+      "sha256": "9fa06e9d1f77fb54f7fd8ab23c3e6c812974faf602cbad8f7478a3ecb1947d68",
+      "size": 9664
+    },
+    {
+      "path": "hall-of-fame.json",
+      "sha256": "c876eb29c0ea83df0b31e726f0c8c910715338710bed22eacff4235ad6225d5e",
+      "size": 2460
+    },
+    {
+      "path": "hero-segelschiff.jpg",
+      "sha256": "c6f5b85e6eada243dfd7fe1a702e8908258799a16d9e92d0dd9eb6351df88b8f",
+      "size": 2514666
+    },
+    {
+      "path": "hero-v40.jpg",
+      "sha256": "784e2c1eb609ea14718e7ef55466c165beb3d5be7e1425cd3fc6b11a1092c463",
+      "size": 461793
+    },
+    {
+      "path": "highscore-data-adapter.js",
+      "sha256": "cabbe17afa7c1b8a290609cd2cf90e9cffb2ddaa49b897f6c3be60ffcdc5e36b",
+      "size": 4154
+    },
+    {
+      "path": "highscore-teaser.js",
+      "sha256": "b449cfc1d0e3963dae2e904dacb58180c78b273b9d0c8dd6df05074c47282241",
+      "size": 3215
+    },
+    {
+      "path": "highscore.css",
+      "sha256": "50fcfa23262e2c89953595a8c9f9f268c8da9da3f1ccfeb42ad0e7f3c728f672",
+      "size": 71151
+    },
+    {
+      "path": "highscore.html",
+      "sha256": "4812089982c2f334e0e8d108f84b4128a769a8b7dc7c8f4aabdc220f34e80185",
+      "size": 4831
+    },
+    {
+      "path": "highscore.js",
+      "sha256": "b1d6622714514c45081e0296261f6ebf41d383f03630ee59c468a8a8b811b8bd",
+      "size": 11280
+    },
+    {
+      "path": "highscore.json",
+      "sha256": "1fd3031ed199e5726fde409cd0cc415f2ab4da23d0fcf50086ecf3cf72f8652c",
+      "size": 40700
+    },
+    {
+      "path": "impressum.html",
+      "sha256": "a4c541a058bbd1fdea26cce2837c5b795ade4a53300395dd54b4f5563d23fc4b",
+      "size": 1944
+    },
+    {
+      "path": "index.html",
+      "sha256": "715f41b0dee675cb860d4d7c57fff9cd655d4fc60a9911e8b210c20c9266211e",
+      "size": 200605
+    },
+    {
+      "path": "kapitaenstisch-final.jpg",
+      "sha256": "0d767115608d632ec7ddbb57d66561f61cfa330a8a2b42caa8e83aab1d365a77",
+      "size": 540256
+    },
+    {
+      "path": "kapitaenstisch-hintergrund-v2.jpg",
+      "sha256": "9d88827a5bbe2d964adc15af9c70b72a4e52c15d9bb123604646d30d88d90b66",
+      "size": 334566
+    },
+    {
+      "path": "kapitaenstisch-hintergrund.jpg",
+      "sha256": "129f99ca29a2d98f67cfd97051d150462280a6dc310c97a3ea20ef7a3d252e54",
+      "size": 142480
+    },
+    {
+      "path": "kicktipp-import-schema.json",
+      "sha256": "19b266871e1bc37b06d0bb51d9f515349d28d73b9bf9ebcf18bce198a6f9ec88",
+      "size": 998
+    },
+    {
+      "path": "kicktipp_highscore_import.py",
+      "sha256": "b72d105896fd1ca45ebe044464484b7e8da365a34798b7fc69847ba514542d1d",
+      "size": 3132
+    },
+    {
+      "path": "legal.css",
+      "sha256": "bfa090501192f21dfa50d57787aa104cf1f49eeb42e830909b79ca48a3041836",
+      "size": 2517
+    },
+    {
+      "path": "logo.jpeg",
+      "sha256": "f242f11e7f3c81f9628c78be93b33713abcb56dcb34424b8556a7fb85c4e161d",
+      "size": 343578
+    },
+    {
+      "path": "performance-v247.js",
+      "sha256": "be5f0eb50b278f6178b707abcbb28edfba39a23273e4ca3081f9d26a8721424e",
+      "size": 730
+    },
+    {
+      "path": "piraten-chronometer-hintergrund.jpg",
+      "sha256": "5255835cec50a53a1cea15105445f4fc9dc1e0ce69c834ea4d3fd361bf7cfeab",
+      "size": 169943
+    },
+    {
+      "path": "piraten-hintergrund.jpg",
+      "sha256": "ba65d5ff5b004a821c17aab110c5529f5676eb40b79cb1121697dd8d3ae2d046",
+      "size": 141775
+    },
+    {
+      "path": "piraten-kapitaenstisch-final.jpg",
+      "sha256": "8e703bde6c00351dcf6fcdbc4a1c467591e1919df1633782ff4e2c0d1717139d",
+      "size": 307811
+    },
+    {
+      "path": "piraten-spieltag-hintergrund.jpg",
+      "sha256": "c2263b8f04d432e3e1059579d934b0576256a78f85c18be8b1452890909bbb4f",
+      "size": 319141
+    },
+    {
+      "path": "piratenkodex.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "piratenkodex.json",
+      "sha256": "e7bfbc1227ff29e7e13d527ed3e337449676ea8baf2826184d5926e619ede3ad",
+      "size": 1870
+    },
+    {
+      "path": "punkte.json",
+      "sha256": "e07e6cac18ae7edfc2b1387187b0e3df611521c090523c96d985a43bbf28d569",
+      "size": 369
+    },
+    {
+      "path": "punkteberechnung.css",
+      "sha256": "123ce89a8307c53313a7a0b0f0609d11a3bf4c85f32458c8fa480cfa9ec623f5",
+      "size": 851
+    },
+    {
+      "path": "punkteberechnung.html",
+      "sha256": "8361ffa279ce414d257d0922dd8c735f70a8a0842351e33083ff29f153ef8ad0",
+      "size": 2774
+    },
+    {
+      "path": "punkteberechnung.js",
+      "sha256": "eab00047c21952f145b5428f54a8cb22dfcc6b13ce72585d84d1452bfae2522a",
+      "size": 9068
+    },
+    {
+      "path": "ranglistenverlauf.css",
+      "sha256": "f47903bdd80b5962e744d4fc6181f7ba7f7d9ac905567728d5bd28d2cf9452e7",
+      "size": 1055
+    },
+    {
+      "path": "ranglistenverlauf.html",
+      "sha256": "9d18f803e2c929173f4612fa111746fdf0114d533d285c2aa7ddbf0f44e57e41",
+      "size": 2879
+    },
+    {
+      "path": "ranglistenverlauf.js",
+      "sha256": "0bd545354c7f10b4195d19b6af6922a6a62169c1fc70418b830c8dd7820ba0f1",
+      "size": 8086
+    },
+    {
+      "path": "ranglistenverlauf.json",
+      "sha256": "69d32c7fcdbbb79eb46f82e8af6bcc9c3bab690c77f125402ccb44738b1ad1e0",
+      "size": 219
+    },
+    {
+      "path": "relegation.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "relegation.json",
+      "sha256": "20c025b9abb2d5245c4f384ae6e98548946c31746250013898e1b7fea776aed4",
+      "size": 1496
+    },
+    {
+      "path": "saison-2026-2027.html",
+      "sha256": "017b211dca552fc8f7c3426591103f9bf8f208baf5e8fc04b3db376b1636fa9c",
+      "size": 3926
+    },
+    {
+      "path": "saison-2026-2027.json",
+      "sha256": "a70fbb6dbfd103d2b759bbabb61b628a10c2725404e25051de851411e07f08e9",
+      "size": 291
+    },
+    {
+      "path": "saisonarchiv.css",
+      "sha256": "097cb2f1b801872e86f3539eca4f874ecbe378c689fb8e77309164927612d6ea",
+      "size": 540
+    },
+    {
+      "path": "saisonarchiv.html",
+      "sha256": "1fe067c0afe16243b708c044428b0f4808d03fe5a42dacec0d5cf7e0438378d7",
+      "size": 1976
+    },
+    {
+      "path": "saisonarchiv.js",
+      "sha256": "36c67e7315ddc8a6332657857984ff88828be37ce820a7b490fa016a1af88e40",
+      "size": 2920
+    },
+    {
+      "path": "saisonarchiv.json",
+      "sha256": "6b6a7c19fc7dcc72f89252986a7e10928b62c949f0b0d15314c186d5bd21bcaa",
+      "size": 1585
+    },
+    {
+      "path": "saisonuebersicht.css",
+      "sha256": "dc9ed67468f42f1486c9484cef3e9b3c66099d0bd920dfbdaf5d690649ca1887",
+      "size": 2842
+    },
+    {
+      "path": "saisonuebersicht.js",
+      "sha256": "d7b1261819f4d9f8b6626de4c2162a2f9a6e1d22222b46bf74b70a792e462b1c",
+      "size": 7654
+    },
+    {
+      "path": "schedule-data-adapter.js",
+      "sha256": "b2f3b145ef3037cb0942f576c1dc4c9501414e90b1eaff9f1922a9c0ecc66bfe",
+      "size": 2676
+    },
+    {
+      "path": "scripts/build_release_manifest.py",
+      "sha256": "4f8a84e573853d2b7332279061f0ca02b82f71c6145a470429758a98745fbdf6",
+      "size": 983
+    },
+    {
+      "path": "scripts/release_audit.py",
+      "sha256": "d9e23d4d579440970f2af289520fbfb17630094d7c02d5f2099332d5c4774948",
+      "size": 2116
+    },
+    {
+      "path": "scripts/update_data.py",
+      "sha256": "5f08413c26fbcda0fffcaa1cb4096d4e9befa606c43e5d3ef9794eb58a7431ac",
+      "size": 1077
+    },
+    {
+      "path": "site-data.json",
+      "sha256": "39ccd23786579f7bfe3dbcdf01e5d578a30f5a62d11aa8a6705dcb6ed8ba252c",
+      "size": 2365
+    },
+    {
+      "path": "smugglerauftraege.json",
+      "sha256": "8957acfaffb89813aeae6cc2e0a8047b4791f0db7198648ced21f0af5cdaff23",
+      "size": 13703
+    },
+    {
+      "path": "smugglerauftrag-auftakt.html",
+      "sha256": "74b957e1408564112207b36bfdb82569d4fbf2637a1acb38be3ac1a789cf3be3",
+      "size": 4960
+    },
+    {
+      "path": "smugglerpflege.css",
+      "sha256": "22b436a76417a6d5d3a6b4394136ba2c5c8f3d966091addce11c98e095b3fce2",
+      "size": 930
+    },
+    {
+      "path": "smugglerpflege.html",
+      "sha256": "88b29cf99a894f807920db564b59dffba4914e39d3a9bc437793eafa38283b90",
+      "size": 2079
+    },
+    {
+      "path": "smugglerpflege.js",
+      "sha256": "3a98a048d10e6d47181e9931bc9727f1da4bd86e7a490d743bab4334c3388d04",
+      "size": 6355
+    },
+    {
+      "path": "smugglerpunkte.json",
+      "sha256": "1bb958d234ff6c5c437da6a68ca2d604973745aeef08f71e2b9a2d1f8eacdd24",
+      "size": 435
+    },
+    {
+      "path": "smugglerwertung.css",
+      "sha256": "1a759ac686b114a099e0d554214a2ec0bc3147dc6cc21861d7fc244c827d111c",
+      "size": 823
+    },
+    {
+      "path": "smugglerwertung.html",
+      "sha256": "423685f91d158585aae8583a9f620f82b4ab6478eebf2911527cac13548f866b",
+      "size": 2784
+    },
+    {
+      "path": "smugglerwertung.js",
+      "sha256": "8ee57e71adba9afa50812fbb59206ce7a2eb9c6c35101b01d8b340dc740131b0",
+      "size": 6657
+    },
+    {
+      "path": "spieldaten.json",
+      "sha256": "c605c0aad9147b5071f68e848b2af5584ae3d83ec1688bafbf3e0e2881df99d1",
+      "size": 309006
+    },
+    {
+      "path": "spielpflege.css",
+      "sha256": "d0bbf6f220bdbca00c8f9918223c700cfd25e4a88dbd5b33d48b898c6e86f271",
+      "size": 1638
+    },
+    {
+      "path": "spielpflege.html",
+      "sha256": "6ec86949e15a3996a521eca6477ddc2c040577481d1592ef6862a8d2c8d10b56",
+      "size": 5761
+    },
+    {
+      "path": "spielpflege.js",
+      "sha256": "4a97516f569fea3fa9386acaac52c23102b311e5c2221b487efe1ce155298fa3",
+      "size": 14948
+    },
+    {
+      "path": "spieltag.json",
+      "sha256": "b3460d52d683fa702fef8660572b3187627ac1e62313505457e8a0415cb9ac6a",
+      "size": 652
+    },
+    {
+      "path": "spieltagpunkte.json",
+      "sha256": "f8b56a9db5865c0daec4191041b19b62f6faa2bf451fd19ae172a053770c569d",
+      "size": 268
+    },
+    {
+      "path": "spieltagwertung.css",
+      "sha256": "9d3b03edc4661b484a6110048ef59a3a64ff90a6371167acd0578c765a58b4de",
+      "size": 1274
+    },
+    {
+      "path": "spieltagwertung.html",
+      "sha256": "cc610fa3b37d460bfcf829b07384a3b89155d013629df5036f53b81adf4c7806",
+      "size": 3013
+    },
+    {
+      "path": "spieltagwertung.js",
+      "sha256": "9e4fc017406252d0cc3e1cef6b5a797a7c56cd10c9970c53b14881a2493beaed",
+      "size": 7888
+    },
+    {
+      "path": "style-v40.css",
+      "sha256": "4ae35d2b5d9981c3cdb4ff636ed6c419c056ded1cc0242311e801e17f839bd12",
+      "size": 11049
+    },
+    {
+      "path": "systemstatus.json",
+      "sha256": "1b225b70f90c0298b93f41adba4eb8dd2399e5c6b66bd64a640b4781a12a4134",
+      "size": 4005
+    },
+    {
+      "path": "team-badge.js",
+      "sha256": "c711a9384df22101d6df1c57329cf1707664a3de9ea05bd6b9fa610aa9aa2c07",
+      "size": 5708
+    },
+    {
+      "path": "team-logo-dynamo-dresden.svg",
+      "sha256": "fdf238c1a788a61cb6675269cf2cc8abc6956f30390e31250a64bc9ab5b9de0f",
+      "size": 29611
+    },
+    {
+      "path": "team-logo-nuernberg.svg",
+      "sha256": "fc11e3fcc08a37ce44bc1ee25171c0ce4ea91c88e9058c0862e53d969578cb2e",
+      "size": 1959
+    },
+    {
+      "path": "team-teilnehmerpflege.css",
+      "sha256": "96afd115fd9afaae1c9d90dfb7f3b2becb3ded5d63dcf1f9fef79f408cc5eafc",
+      "size": 1143
+    },
+    {
+      "path": "team-teilnehmerpflege.html",
+      "sha256": "da12d6c279b4db4f1ed4f60e5f6e59c16363a6a3c21bbeb9b630b975dcbd3307",
+      "size": 4503
+    },
+    {
+      "path": "team-teilnehmerpflege.js",
+      "sha256": "71d43ef4ba6a9129b5ec134bed6359b9e052eb325a0b9f7486157ac065ad80c9",
+      "size": 8779
+    },
+    {
+      "path": "teampunkte.json",
+      "sha256": "be4c6dacbd7bb52e69bb7d7ae8f211836ca83059168cfe3909fd338afe7266aa",
+      "size": 322
+    },
+    {
+      "path": "teams.json",
+      "sha256": "a9a5a0f2b42e4ade81aeaaf07d002d960a07f8e87fd9d95dec8e72de144882ce",
+      "size": 75141
+    },
+    {
+      "path": "teamwertung.css",
+      "sha256": "3a65d4cb0e0f3e00a2bd046af7c40985731e8843ba928e21cb5301e3871842ad",
+      "size": 590
+    },
+    {
+      "path": "teamwertung.html",
+      "sha256": "d17461f025748da068405019981115c1a59fc8e7afdb2446f58ba40741b75097",
+      "size": 2876
+    },
+    {
+      "path": "teamwertung.js",
+      "sha256": "95fd2d14240384802de83b3c9024175c023213b0605a66d1a17c9002fced3c82",
+      "size": 5198
+    },
+    {
+      "path": "teilnehmer-importbericht.json",
+      "sha256": "68259bf9cccfb97f37a9319c910b0d3eab6a00a408dd155e93b564db5bfcc216",
+      "size": 877
+    },
+    {
+      "path": "teilnehmer.json",
+      "sha256": "8737f0f8bc89b715ada8dc50b126e607c4b002c062da0fb4a6d02cec7baf74d4",
+      "size": 45717
+    },
+    {
+      "path": "tippfristen.css",
+      "sha256": "34a46c8c4922ee4ea85067c9fa0420a7c1d923a3c8a6186fca52d0f2de09e096",
+      "size": 907
+    },
+    {
+      "path": "tippfristen.html",
+      "sha256": "aeddc5bf968911857277ad3d6443d9d0b8699779abf7b4db1d3dec5c885a5aaf",
+      "size": 3071
+    },
+    {
+      "path": "tippfristen.js",
+      "sha256": "6f02f1374d1d5a368fdbba219fce1c2b028f1777729cea7728a4b7e7efe7a921",
+      "size": 5330
+    },
+    {
+      "path": "tippfristen.json",
+      "sha256": "93d55eb5ebae7f4b63fd27134a6eecf1c97332581f737bde60691c984cb8a05f",
+      "size": 266
+    },
+    {
+      "path": "tipppflege.css",
+      "sha256": "c6311c79b9253a8c589c92c9bdf3707ff2ab807e5762c665404ca400056c02d0",
+      "size": 1344
+    },
+    {
+      "path": "tipppflege.html",
+      "sha256": "977b721a06b8f8b73c00ebf63a8500d13c591ac8e0191b596ff41c3be34a524a",
+      "size": 3763
+    },
+    {
+      "path": "tipppflege.js",
+      "sha256": "51cb0d1bd7808e95706a1e477c8495670a7766a1596fe61408195b74b1b5fa39",
+      "size": 7695
+    },
+    {
+      "path": "tipps.json",
+      "sha256": "4ac7d4e43ed8ff73e43f67a242250b02f8d085c8139f7931f589c014e2c498fa",
+      "size": 242
+    },
+    {
+      "path": "tippspieltage.json",
+      "sha256": "b1289b0cf62d3bc72c373e63c0fe27c34c5ee75ef08a96943fd012d7474d4c8f",
+      "size": 33300
+    },
+    {
+      "path": "topspieler.json",
+      "sha256": "2dfeb9d41bbddc916134a1cd21460ebb55cff18a8819d44c734c8784ddf2f6fe",
+      "size": 469
+    },
+    {
+      "path": "uefa-kandidaten-2026-27.json",
+      "sha256": "89ed81cff472395987913f6e5991130d72e712cab543210368b30ab6be0cf412",
+      "size": 32710
+    },
+    {
+      "path": "update_data.py",
+      "sha256": "02419a809b712902ce9916e47cc599bf71ddffd438bd2ae9a96ad60b10f4745c",
+      "size": 776
+    },
+    {
+      "path": "v40-test/index.html",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size": 2
+    },
+    {
+      "path": "vor-saisonstart.json",
+      "sha256": "ab34b30c353d790bb69159216d247ccacccb2277d74dc1cb4787b6e3e47ff738",
+      "size": 665
+    },
+    {
+      "path": "website-view.json",
+      "sha256": "105c178bb633578a71443ffb16cb7139f0256a8d78682727e518193eab9bad8c",
+      "size": 501085
+    },
+    {
+      "path": "weihnachtsregatta.html",
+      "sha256": "1665a51b7c6a63922a161c06643b8400bb5756bbc7a26851aed369e9bd8b80fc",
+      "size": 1940
+    },
+    {
+      "path": "weihnachtsregatta.json",
+      "sha256": "c4a279d400d4d635cd550bb5553233c9b2a3c225efe9571e658e60d6f4fd3ce4",
+      "size": 1309
+    },
+    {
+      "path": "wertungsregeln.json",
+      "sha256": "35aea409de37af9cf7338328b8666a03164a8c911373d1e1b6160d0fa238cd13",
+      "size": 430
+    },
+    {
+      "path": "wettbewerb.css",
+      "sha256": "22922c4894ff60cbc622601476c0bd98268db64399b34101c73b6665d5a4f2c6",
+      "size": 27338
+    },
+    {
+      "path": "wettbewerb.js",
+      "sha256": "b7c555e9318b7975969016a368711f052ee861c8f468a28d565f06fbeec0801d",
+      "size": 51061
+    },
+    {
+      "path": "wettbewerbe.json",
+      "sha256": "7b0b26b991f32bba15af848cb077559cc895b6e4988b794a2822a20758da4038",
+      "size": 3897
+    },
+    {
+      "path": "wettbewerbspflege.css",
+      "sha256": "4e8e5c0c8cbd664458ea1df2a17774cb30b59e5a741e49c217bb17673bc3d90c",
+      "size": 1421
+    },
+    {
+      "path": "wettbewerbspflege.html",
+      "sha256": "86a5aa258d56ffe6ff0ef82f96aa64156a77df406875b31a27941d70beec320f",
+      "size": 5339
+    },
+    {
+      "path": "wettbewerbspflege.js",
+      "sha256": "8441a7d76b0692a80e1b0cf75698e61d4b2b813b1b330294195ad737d619f2d2",
+      "size": 11482
+    },
+    {
+      "path": "wettbewerbspunkte.json",
+      "sha256": "098c2e2c8f8db934cba469fb2f3b0a206b2148012a55e2c06d363ed881f9312f",
+      "size": 321
+    },
+    {
+      "path": "wettbewerbswertung.css",
+      "sha256": "b922c041fb709fc11bef27f9a93a920e89dba7e60d7c96f12927eb5478e3d305",
+      "size": 1305
+    },
+    {
+      "path": "wettbewerbswertung.html",
+      "sha256": "7f7f544091f7700974d596312d862dd51aaff6882115b95de26a0e82d2a044f1",
+      "size": 3023
+    },
+    {
+      "path": "wettbewerbswertung.js",
+      "sha256": "993cdf12d12c3a7ff09a786b245300f4408c8b97af1075ed13d614803dc0e9fb",
+      "size": 6295
+    },
+    {
+      "path": "willkommen-kachel-final.jpg",
+      "sha256": "ba86e6b0489bec9d193b5fd4903dd99d75e5c36014ace54a2dc5b8168d95b3b1",
+      "size": 513572
+    }
+  ]
+}

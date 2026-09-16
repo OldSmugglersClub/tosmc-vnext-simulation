@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-14T18:07:17.296Z",
+  "root": "/mnt/data/test2_hf97_test2",
+  "kind": "website",
+  "status": "OK",
+  "checks": [
+    "Alle aktiven JSON-Dateien sind syntaktisch gültig.",
+    "Website-Version: 4.9.2-HF12-HF97-TEST2",
+    "wettbewerb.js: gemeinsame Cache-Kennung 4.9.2-HF12-HF97-TEST2.",
+    "wettbewerb.css: gemeinsame Cache-Kennung 4.9.2-HF12-HF97-TEST2.",
+    "highscore.json: Gesamtwertungs-Spiegel konsistent (100 Teilnehmer).",
+    "Originalwappen: 75/75 verwendete Teams abgesichert.",
+    "Teamstammdaten: 75/75 verwendete Teams kanonisch.",
+    "Startseitenadapter verwendet den kanonischen Teamstammdatenbestand."
+  ],
+  "errors": []
+}

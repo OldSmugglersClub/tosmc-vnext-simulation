@@ -1,0 +1,42 @@
+{
+  "version": "4.9.2-HF12-HF101-TEST4",
+  "schutzpruefung": "BESTANDEN",
+  "geschuetzte_dateien": [
+    {
+      "datei": "index.html",
+      "sha256_vorher": "6b5ff13abd0fce21858dbbf019d074a3598a5ed2912fab73bacee32072207263",
+      "sha256_nachher": "6b5ff13abd0fce21858dbbf019d074a3598a5ed2912fab73bacee32072207263",
+      "unveraendert": true
+    },
+    {
+      "datei": "hall-of-fame-runtime.js",
+      "sha256_vorher": "17e4f3956e95da03627b64447997d64a0cf98430a90f9eb0a7629529f9331a1e",
+      "sha256_nachher": "17e4f3956e95da03627b64447997d64a0cf98430a90f9eb0a7629529f9331a1e",
+      "unveraendert": true
+    },
+    {
+      "datei": "hall-of-fame.json",
+      "sha256_vorher": "910c1a88aacc14e7b58d1a117034d061843f6c742907876dc22ac71477dc5d6a",
+      "sha256_nachher": "910c1a88aacc14e7b58d1a117034d061843f6c742907876dc22ac71477dc5d6a",
+      "unveraendert": true
+    },
+    {
+      "datei": "website-view.json",
+      "sha256_vorher": "77b30aee56392afda72480a57da5955028d612a5f33a446272ef2c50890139ea",
+      "sha256_nachher": "77b30aee56392afda72480a57da5955028d612a5f33a446272ef2c50890139ea",
+      "unveraendert": true
+    },
+    {
+      "datei": "spieltag-logbuch.json",
+      "sha256_vorher": "9b787a94943ad16059ea2f2a133415aa46185d6503eadf936ecbf64061c7bd5c",
+      "sha256_nachher": "9b787a94943ad16059ea2f2a133415aa46185d6503eadf936ecbf64061c7bd5c",
+      "unveraendert": true
+    },
+    {
+      "datei": "teams.json",
+      "sha256_vorher": "aca62c36c9c424da9b2f2bd24eba72629a1d06f04c4009038d651cf6fd391fc5",
+      "sha256_nachher": "aca62c36c9c424da9b2f2bd24eba72629a1d06f04c4009038d651cf6fd391fc5",
+      "unveraendert": true
+    }
+  ]
+}

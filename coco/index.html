@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Coco – Das Orakel · The Old Smugglers Club</title>
+  <link rel="stylesheet" href="coco.css?v=4.9.2-HF12-HF41">
+  <link rel="stylesheet" href="../site-navigation.css?v=4.9.2-HF12-HF83">
+</head>
+<body>
+  <main class="coco-shell">
+    <header class="coco-header">
+      <div class="coco-header-actions">
+        <a class="coco-header-action coco-back tosmc-nav-button tosmc-nav-button--back" href="../">Zurück an Deck</a>
+        <a class="coco-header-action coco-kicktipp tosmc-nav-button tosmc-nav-button--primary" href="../kicktipp.html?path=tippuebersicht&amp;br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht">Kicktipp Live Action</a>
+      </div>
+      <div class="coco-eyebrow">The Old Smugglers Club · Testmodul</div>
+      <h1>Coco – Das Orakel</h1>
+      <p>Jedes Spiel. Ein Tipp. Ein Orakel. Coco entscheidet einmal – und bleibt dabei.</p>
+    </header>
+
+    <section class="coco-panel coco-controls" aria-label="Partie auswählen">
+      <div class="field"><label for="competition">Wettbewerb</label><select id="competition"><option>Lade Daten …</option></select></div>
+      <div class="field"><label for="round">Runde / Spieltag</label><select id="round" disabled><option>–</option></select></div>
+      <div class="field"><label for="match">Partie</label><select id="match" disabled><option>–</option></select></div>
+      
+    </section>
+
+    <section class="coco-main">
+      <article class="oracle-column">
+        <section class="coco-panel match-card" aria-label="Ausgewählte Partie">
+          <div class="teams">
+            <div class="team"><img id="homeLogo" hidden alt=""><strong id="homeName">Heimteam</strong></div>
+            <div class="versus">VS</div>
+            <div class="team away"><strong id="awayName">Auswärtsteam</strong><img id="awayLogo" hidden alt=""></div>
+          </div>
+          <div class="match-meta" id="matchMeta">Noch keine Partie ausgewählt</div>
+        </section>
+
+        <section class="coco-panel oracle-card">
+          <div class="coco-stage" id="cocoStage">
+            <img class="coco-state coco-base" src="coco-reference.png" alt="Coco, das Papageien-Orakel, in seiner Piratenkajüte">
+            <img class="coco-state coco-thinking" src="coco-thinking.png" alt="Coco denkt nach und fasst sich mit dem Flügel an die Stirn">
+            <span class="sr-only" id="hmmm" aria-live="polite">Hmmm …</span>
+          </div>
+          <div class="oracle-actions">
+            <button class="coco-button" id="query" type="button" disabled>Coco befragen</button>
+            <p class="status" id="status" aria-live="polite"></p>
+          </div>
+        </section>
+      </article>
+
+      <aside class="side">
+        <section class="coco-panel tip-panel" id="tipPanel" hidden aria-live="polite">
+          <div class="tip-title">Coco's Tipp</div>
+          <div class="tip-score" id="tipScore">– : –</div>
+          <div class="tip-label" id="tipLabel"></div>
+          <button type="button" class="coco-why-btn" id="whyCoco" hidden>Warum, Coco?</button>
+          <div class="coco-why" id="whyText" hidden></div>
+          <div class="result-state" id="resultState"></div>
+        </section>
+
+        <section class="coco-panel stats-panel">
+          <h2>Coco's Bilanz</h2>
+          <div class="stats" id="stats"><div><strong>–</strong><span>Lade Daten …</span></div></div>
+        </section>
+
+        <section class="coco-panel rules">
+          <h2>Orakel-Kodex</h2>
+          <p><b>Ein Spiel, ein Tipp:</b> Dieselbe Spiel-ID erzeugt immer dasselbe Ergebnis.</p>
+          <p><b>90 Minuten:</b> Gewertet wird inklusive Nachspielzeit, nie Verlängerung oder Elfmeterschießen.</p>
+          <p><b>Nach Anpfiff:</b> Coco würfelt nicht neu. Sein vorher feststehender Tipp bleibt sichtbar.</p>
+        </section>
+      </aside>
+    </section>
+</main>
+  <script data-goatcounter="https://oldsmugglersclub.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  <script src="../team-badge.js?v=4.9.2-HF12-HF60-TEST68"></script>
+  <script src="coco-engine.js?v=4.9.2-HF12-HF2"></script>
+  <script src="coco.js?v=4.9.2-HF12-HF60"></script>
+</body>
+</html>

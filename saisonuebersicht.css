@@ -1,0 +1,77 @@
+.season-page { max-width: 1240px; }
+.season-hero { padding-bottom: 30px; }
+.season-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0;
+}
+.season-summary-card {
+  min-height: 132px;
+  padding: 18px;
+  border: 1px solid rgba(190,145,68,.42);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(48,35,24,.94), rgba(24,18,14,.97));
+  box-shadow: inset 0 1px rgba(255,255,255,.04), 0 12px 24px rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.season-summary-card span { color: #d8c49c; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
+.season-summary-card strong { margin: 7px 0 3px; color: #f0d38a; font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1; }
+.season-summary-card small { color: #aa9b82; }
+.season-board {
+  margin-top: 18px;
+  padding: 22px;
+  border: 1px solid rgba(190,145,68,.35);
+  border-radius: 16px;
+  background: rgba(20,15,12,.82);
+}
+.season-table-wrap { overflow-x: auto; margin-top: 16px; }
+.season-table { width: 100%; border-collapse: collapse; min-width: 760px; }
+.season-table th,
+.season-table td { padding: 14px 12px; border-bottom: 1px solid rgba(190,145,68,.2); text-align: left; vertical-align: middle; }
+.season-table th { color: #d9bd78; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+.season-table td { color: #e5dccb; }
+.season-table tbody tr:last-child td { border-bottom: 0; }
+.season-competition-link { color: #f0d38a; font-weight: 700; text-decoration: none; }
+.season-competition-link:hover,
+.season-competition-link:focus-visible { text-decoration: underline; }
+.season-count { font-variant-numeric: tabular-nums; font-weight: 700; }
+.season-count small { display: block; margin-top: 3px; color: #928671; font-weight: 400; }
+.season-status-pill {
+  display: inline-flex;
+  padding: 6px 9px;
+  border: 1px solid rgba(190,145,68,.38);
+  border-radius: 999px;
+  background: rgba(110,75,32,.18);
+  color: #d9c79e;
+  font-size: .78rem;
+  white-space: nowrap;
+}
+.season-note { margin: 16px 0 0; color: #a99c85; font-size: .9rem; line-height: 1.55; }
+.season-actions { margin-top: 24px; }
+@media (max-width: 850px) {
+  .season-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .season-summary { grid-template-columns: 1fr; }
+  .season-summary-card { min-height: 108px; }
+  .season-board { padding: 16px; }
+}
+
+
+/* 4.7.1-TEST5: Besucheransicht Desktop/Mobil konsistent; keine Wortzerlegung in Tabellenbezeichnungen. */
+.season-table th,
+.season-competition-link{
+  white-space:nowrap;
+  overflow-wrap:normal;
+  word-break:keep-all;
+  hyphens:none;
+}
+@media(max-width:520px){
+  .season-table{min-width:820px}
+  .season-table th,
+  .season-table td{padding-left:10px;padding-right:10px}
+}

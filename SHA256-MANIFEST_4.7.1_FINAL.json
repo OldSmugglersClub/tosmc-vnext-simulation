@@ -1,0 +1,71 @@
+{
+  "version": "4.7.1",
+  "release": "FINAL",
+  "generated": "2026-08-07",
+  "files": [
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "5a60ce9b5f849f0f2ffc0ca64a7bfdc528edcb0e5672519e86c8d9d4cb6b456b"
+    },
+    {
+      "file": "CHANGELOG_4.7.1_FINAL.md",
+      "sha256": "d794ab9d6ba4764e75675c104db5bd9253ae418bf0f49a871cb1192b1bca15b3"
+    },
+    {
+      "file": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1_FINAL.md",
+      "sha256": "a85f4f2eb6cf16d55fcbf3ef770cf6b027eb599f8dc403f3526208ffd1d5d157"
+    },
+    {
+      "file": "GITHUB-DESKTOP_4.7.1_FINAL.md",
+      "sha256": "80a77e2de5398b89ac381b23cab43aa587d72616aace2fdbb5f2d2e03fd1e52d"
+    },
+    {
+      "file": "README_4.7.1_FINAL.md",
+      "sha256": "6a581f851b1411514ad2b9f2d3e4fb0644e0d2b3e98a6465f936dba0e70a18bf"
+    },
+    {
+      "file": "TESTPROTOKOLL_4.7.1_FINAL.md",
+      "sha256": "bf03a8d2f24e4ca78bc69b8cc87672342347b3f414746292cf0bfc3df1dae920"
+    },
+    {
+      "file": "VERSION.txt",
+      "sha256": "1b356a2ec960f9b3d3f217dbe57724fd03280bd05e1ab84b38cacdaeb3a45638"
+    },
+    {
+      "file": "bundesliga.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "champions-league.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "dfb-pokal.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "dynamo-dresden.html",
+      "sha256": "110b0b2d9bbe2d6cb1a69546ad4063ad5ecfefbbd771561195a2e6f1e9679047"
+    },
+    {
+      "file": "europa-league.html",
+      "sha256": "1a6a92e2c8e3267466abad1a9366270b6d9a36c287206e5ecff60df473af7e0e"
+    },
+    {
+      "file": "piratenkodex.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "relegation.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "weihnachtsregatta.html",
+      "sha256": "a178615c501f031593e83c8bb02e75120d06ee7879c8cbbda9623295eb79ddbb"
+    },
+    {
+      "file": "wettbewerb.css",
+      "sha256": "5f5d098ac00838576b04225276cf2910ab2c1a8a31fa911bd43ef7acd25534f9"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "bereich": "Wettbewerbszentrale",
+  "statusSchild": "Ab Achtelfinale",
+  "titel": "Europa League",
+  "beschreibung": "Die UEFA Europa League wird in unserer Tipprunde ab dem Achtelfinale als eigener Wettbewerb geführt. Alle vorgesehenen K.-o.-Runden werden zentral aus den Saison- und Spieldaten aufgebaut.",
+  "karten": [
+    {
+      "titel": "Aktueller Torjäger",
+      "text": ""
+    },
+    {
+      "titel": "Letzte 5 Europa-League-Sieger",
+      "text": ""
+    },
+    {
+      "titel": "",
+      "text": "",
+      "logo": "./assets/europa-league-logo.jpg",
+      "logoAlt": "UEFA Europa League Logo"
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Europa League 2026/2027"
+}

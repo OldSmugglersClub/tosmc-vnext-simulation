@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "aktualisiertAm": "2026-07-29",
+  "aktuellerChampion": {
+    "name": "ZweikampfGott",
+    "wettbewerb": "Weltmeisterschaft",
+    "titel": "Champion",
+    "jahr": "2026",
+    "label": "Old Smugglers Champion"
+  },
+  "meister": {
+    "saison": "2025/2026",
+    "name": "Manuel"
+  },
+  "dfbPokal": {
+    "saison": "2025/2026",
+    "name": "Manuel",
+    "offen": false
+  },
+  "championsLeague": {
+    "saison": "2025/2026",
+    "name": "ZweikampfGott",
+    "offen": false
+  },
+  "weihnachtsregatta": {
+    "jahr": "2026",
+    "name": "Noch offen",
+    "offen": true
+  },
+  "piratenkodex": {
+    "saison": "2026/2027",
+    "name": "Sieger noch offen",
+    "offen": true
+  },
+  "meisterchronik": [
+    {
+      "saison": "2025/2026",
+      "name": "Manuel",
+      "offen": false
+    },
+    {
+      "saison": "2026/2027",
+      "name": "Noch offen",
+      "offen": true
+    }
+  ],
+  "rekorde": {
+    "gesamtpunkte": {
+      "label": "Gesamtpunkte",
+      "wert": 346,
+      "name": "Manuel"
+    },
+    "bonuspunkte": {
+      "label": "Bonuspunkte",
+      "wert": 60,
+      "name": "ZweikampfGott"
+    },
+    "exakteTipps": {
+      "label": "Exakte Tipps",
+      "wert": 17,
+      "name": "Marius"
+    },
+    "weitere": {
+      "label": "Weitere Rekorde",
+      "wert": "Noch offen",
+      "offen": true
+    }
+  },
+  "ehrenmitglieder": {
+    "label": "Status",
+    "wert": "Noch keine Einträge",
+    "offen": true
+  }
+}

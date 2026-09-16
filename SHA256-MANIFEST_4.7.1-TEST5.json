@@ -1,0 +1,20 @@
+{
+  "version": "4.7.1-TEST5",
+  "basis": "vollständig kumulativ: 4.7.1-TEST2 + TEST3 + freigegebene TEST4/TEST5-Punkte",
+  "dateien": {
+    "CHANGELOG.md": "aec6bed64632260cf33a008ffdb87678140ee8e096b8d6b52dd9e01697ad59d3",
+    "CHANGELOG_4.7.1-TEST5.md": "84a06fc3c7eeb8ddfd0ac4146ce5399f1be44a417dbf028dfe9cb16795a9cc7d",
+    "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST5.md": "d2b1d94de7f032c80e395a603e5343a8b1ee7861c7cb08ac29b70bf432ac60dd",
+    "GITHUB-DESKTOP_4.7.1-TEST5.md": "bf853aab1ea58094d64ddad0a0ce06a19adc35c0bf22c8d2f429ab1816f8e319",
+    "hall-of-fame.html": "9fa06e9d1f77fb54f7fd8ab23c3e6c812974faf602cbad8f7478a3ecb1947d68",
+    "highscore.css": "50fcfa23262e2c89953595a8c9f9f268c8da9da3f1ccfeb42ad0e7f3c728f672",
+    "highscore.html": "4812089982c2f334e0e8d108f84b4128a769a8b7dc7c8f4aabdc220f34e80185",
+    "index.html": "715f41b0dee675cb860d4d7c57fff9cd655d4fc60a9911e8b210c20c9266211e",
+    "saison-2026-2027.html": "017b211dca552fc8f7c3426591103f9bf8f208baf5e8fc04b3db376b1636fa9c",
+    "saisonuebersicht.css": "dc9ed67468f42f1486c9484cef3e9b3c66099d0bd920dfbdaf5d690649ca1887",
+    "saisonuebersicht.js": "d7b1261819f4d9f8b6626de4c2162a2f9a6e1d22222b46bf74b70a792e462b1c",
+    "TESTPROTOKOLL_4.7.1-TEST5.md": "6666f8f29abb2b41c7910000f13503eb2d9f5c14da96012bdff1a2b20fce5b89",
+    "VERSION.txt": "6d5edf6cb5262dc555d590dc25fdabbdbce3e0518a34b9b4601b0e87f56d6dfe",
+    "wettbewerbe.json": "7b0b26b991f32bba15af848cb077559cc895b6e4988b794a2822a20758da4038"
+  }
+}

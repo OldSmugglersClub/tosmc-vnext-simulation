@@ -1,0 +1,69 @@
+/* TOSMC HF85 – siteweite Navigationssprache
+   Gold = primäre Aktion/Kicktipp
+   Bronze = zurück/übergeordnete Ebene
+   Petrol = Navigation innerhalb derselben Seite
+   Neutral = sekundäre Zielseite/Detailaktion */
+html{scroll-behavior:smooth}
+.tosmc-nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  gap:12px;
+  margin:18px 0 0;
+}
+.tosmc-nav-button{
+  display:inline-flex!important;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:10px 16px!important;
+  border-radius:10px!important;
+  border:1px solid transparent!important;
+  font:inherit;
+  font-weight:800!important;
+  line-height:1.15;
+  text-align:center;
+  text-decoration:none!important;
+  cursor:pointer;
+  transition:transform .16s ease,filter .16s ease,box-shadow .16s ease,border-color .16s ease;
+}
+.tosmc-nav-button:hover,
+.tosmc-nav-button:focus-visible{
+  filter:brightness(1.08);
+  transform:translateY(-1px);
+  outline:none;
+}
+.tosmc-nav-button--primary{
+  color:#211300!important;
+  border-color:#f1c453!important;
+  background:linear-gradient(180deg,#ffe27a 0%,#e5a51e 52%,#b87309 100%)!important;
+  box-shadow:0 0 0 1px rgba(255,222,104,.18),0 9px 22px rgba(211,143,15,.28),inset 0 1px rgba(255,255,255,.58)!important;
+}
+.tosmc-nav-button--back{
+  color:#ffe1a0!important;
+  border-color:#a9652e!important;
+  background:linear-gradient(180deg,#6b3b20 0%,#462514 54%,#2b170d 100%)!important;
+  box-shadow:0 9px 20px rgba(0,0,0,.28)!important;
+}
+.tosmc-nav-button--top{
+  color:#d8f0df!important;
+  border-color:#4f8871!important;
+  background:linear-gradient(180deg,#285b4d 0%,#173f36 54%,#0d2822 100%)!important;
+  box-shadow:0 9px 20px rgba(0,0,0,.28)!important;
+}
+.tosmc-nav-button--secondary{
+  color:#f3dfb2!important;
+  border-color:rgba(211,164,71,.52)!important;
+  background:linear-gradient(180deg,rgba(61,42,24,.98),rgba(29,20,12,.98))!important;
+  box-shadow:0 4px 0 rgba(20,11,5,.8),0 9px 20px rgba(0,0,0,.22)!important;
+}
+@media(max-width:520px){
+  .tosmc-nav{display:grid;grid-template-columns:1fr;gap:10px}
+  .tosmc-nav-button{width:100%!important;min-width:0!important}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .tosmc-nav-button{transition:none}
+  .tosmc-nav-button:hover,.tosmc-nav-button:focus-visible{transform:none}
+}

@@ -1,0 +1,11 @@
+ERSETZEN
+- index.html
+- VERSION.txt
+
+NEU
+- CHANGELOG_4.9.2-HF7.md
+- README_4.9.2-HF7.md
+- ERSETZEN_NEU_LOESCHEN_4.9.2-HF7.txt
+
+LÖSCHEN
+- keine

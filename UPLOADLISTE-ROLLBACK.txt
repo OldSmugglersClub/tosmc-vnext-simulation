@@ -1,0 +1,36 @@
+THE OLD SMUGGLERS CLUB – ROLLBACK AUF WEBSITE-STAND V5.3.2
+
+ERSETZEN:
+- index.html
+- highscore.js
+- highscore-teaser.js
+- teams.json
+
+NEU:
+- keine Dateien
+
+LÖSCHEN:
+- team-logo-nuernberg.svg
+- team-logo-dynamo-dresden.svg
+
+NICHT VERÄNDERN:
+- highscore.json
+- spieldaten.json
+- punkte.json
+- spieltagpunkte.json
+- wettbewerbspunkte.json
+- smugglerpunkte.json
+- teampunkte.json
+- ranglistenverlauf.json
+- topspieler.json
+- alle übrigen Dateien
+
+INSTALLATION:
+1. ZIP lokal entpacken.
+2. Die vier Dateien im GitHub-Hauptverzeichnis ersetzen.
+3. Die beiden SVG-Dateien im GitHub-Hauptverzeichnis löschen.
+4. Änderungen committen.
+5. Nach Veröffentlichung Strg + F5 ausführen.
+
+ZIEL:
+Wiederherstellung des öffentlichen Website-Renderers auf den Stand vor v5.3.3.

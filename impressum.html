@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="./favicon.jpeg">
+  <link rel="stylesheet" href="./legal.css">
+<link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+  <title>Impressum | The Old Smugglers Club</title>
+</head>
+<body class="legal-page">
+<main class="legal-shell" id="legal-top">
+  <p class="legal-kicker">The Old Smugglers Club</p>
+  <h1>Impressum</h1>
+  <h2>Privates Internetangebot</h2>
+  <p>The Old Smugglers Club ist eine privat betriebene, nicht kommerzielle Internetseite einer privaten Tippgemeinschaft.</p>
+  <p>Über diese Website werden keine Waren oder Dienstleistungen angeboten oder vertrieben. Die Website dient ausschließlich der Darstellung, Organisation und Dokumentation des privaten Tippspiels und der dazugehörigen Clubaktivitäten.</p>
+  <h2>Kontakt</h2>
+  <p><a class="legal-email" href="mailto:kontakt@the-old-smugglers-club.de">kontakt@the-old-smugglers-club.de</a></p>
+  <h2>Hinweis zum Angebot</h2>
+  <p>The Old Smugglers Club ist eine privat betriebene Begleit-Website zu einer Kicktipp-Runde. Die Website ergänzt das Angebot von Kicktipp, ist aber kein Angebot der Kicktipp GmbH und steht mit dieser nicht in einem gesellschaftsrechtlichen Verhältnis.</p>
+  <a class="legal-back tosmc-nav-button tosmc-nav-button--back" href="./index.html">Zurück zur Clubseite</a>
+</main>
+<footer class="legal-footer" aria-label="Rechtliche Hinweise"><div class="legal-footer__inner"><span>© 2026 The Old Smugglers Club</span><nav class="legal-footer__links" aria-label="Rechtliche Navigation"><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a>
+      <a href="./nutzungsrechte.html">Nutzungsrechte</a><span id="legal-version">Version wird geladen</span></nav></div></footer>
+
+<script>
+(function(){
+  const target=document.getElementById('legal-version');
+  if(!target) return;
+  fetch('./VERSION.txt',{cache:'no-store'})
+    .then(response=>response.ok?response.text():Promise.reject())
+    .then(value=>{target.textContent='Version '+value.trim();})
+    .catch(()=>{target.textContent='Version nicht verfügbar';});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "projekt": "TOSMC Test2v2",
+  "version": "4.9.2-HF12-HF101-TEST4",
+  "ziel": "Spieltags-Logbuch: Frühere Einträge über Wettbewerb und Spieltag/Runde auswählbar machen",
+  "erlaubte_aenderungen": [
+    "logbuch.html",
+    "logbuch.js",
+    "logbuch.css",
+    "VERSION.txt"
+  ],
+  "nicht_zu_aendern": [
+    "spieltag-logbuch.json",
+    "website-view.json",
+    "teams.json",
+    "index.html",
+    "hall-of-fame-runtime.js",
+    "hall-of-fame.json",
+    "Admin- und Abschlusslogik"
+  ],
+  "datenlogik": "unverändert",
+  "historische_logbucheintraege": "unverändert"
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 1,
+  "aktualisiert": "2026-07-31",
+  "saison": "2026/2027",
+  "beschreibung": "Zentrale Wertungsregeln des Old Smugglers Club.",
+  "punkte": {
+    "tendenz": 2,
+    "differenz": 3,
+    "ergebnis": 5
+  },
+  "prioritaet": [
+    "ergebnis",
+    "differenz",
+    "tendenz"
+  ],
+  "hinweis": "Pro Tipp wird ausschließlich die höchste zutreffende Wertungsstufe vergeben."
+}

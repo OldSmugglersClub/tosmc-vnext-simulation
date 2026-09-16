@@ -1,0 +1,17 @@
+ERSETZEN:
+VERSION.txt
+bundesliga.html
+champions-league.html
+dfb-pokal.html
+dynamo-dresden.html
+europa-league.html
+piratenkodex.html
+relegation.html
+weihnachtsregatta.html
+
+NEU:
+RELEASE_NOTES_4.9.2-HF12-HF97-TEST2.md
+ERSETZEN_NEU_LOESCHEN_4.9.2-HF12-HF97-TEST2.txt
+
+LÖSCHEN:
+keine

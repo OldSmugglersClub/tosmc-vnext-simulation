@@ -1,0 +1,61 @@
+{
+  "version": "4.7.1-TEST4",
+  "basis": "4.7.1-TEST3",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "a95e20b2659b986b9cff17eecc2c1f6349dd1ace13e96518030b4ca19c0668ba",
+      "bytes": 22345
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST4.md",
+      "sha256": "3d8bfd6c3fa337035f8f4b91886d1c9f931e2dc0e0a7f001a85d7384a1781323",
+      "bytes": 716
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST4.md",
+      "sha256": "d105d7b9fa4a9ebaa8f61a01ba57807110921b673146c2f49f75ae779604d162",
+      "bytes": 388
+    },
+    {
+      "path": "GITHUB-DESKTOP_4.7.1-TEST4.md",
+      "sha256": "fef95b360046a40ea62c5b53304a8bc551fcc1722f055b8f96ceae57f15792cd",
+      "bytes": 1465
+    },
+    {
+      "path": "TESTPROTOKOLL_4.7.1-TEST4.md",
+      "sha256": "ea3d799bbff581d05a1a3b6da9483cfc70506216857a5246ccc11c0b113de7ce",
+      "bytes": 1261
+    },
+    {
+      "path": "VERSION.txt",
+      "sha256": "070e9e319c62dd6c140c9db1490a31eb82bf77b4469e01c65c28579b89125a50",
+      "bytes": 12
+    },
+    {
+      "path": "hall-of-fame.html",
+      "sha256": "9fa06e9d1f77fb54f7fd8ab23c3e6c812974faf602cbad8f7478a3ecb1947d68",
+      "bytes": 9664
+    },
+    {
+      "path": "highscore.css",
+      "sha256": "bb35dea0e26f1b30dfc0bd22fbcfa8500ac8f50b7b6fd735cd8e65586ece6f78",
+      "bytes": 70571
+    },
+    {
+      "path": "highscore.html",
+      "sha256": "4812089982c2f334e0e8d108f84b4128a769a8b7dc7c8f4aabdc220f34e80185",
+      "bytes": 4831
+    },
+    {
+      "path": "saison-2026-2027.html",
+      "sha256": "017b211dca552fc8f7c3426591103f9bf8f208baf5e8fc04b3db376b1636fa9c",
+      "bytes": 3926
+    },
+    {
+      "path": "wettbewerbe.json",
+      "sha256": "7b0b26b991f32bba15af848cb077559cc895b6e4988b794a2822a20758da4038",
+      "bytes": 3897
+    }
+  ]
+}

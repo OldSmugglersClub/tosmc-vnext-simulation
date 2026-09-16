@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daten-Cockpit | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="daten-cockpit.css">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+</head>
+<body>
+  <main class="cockpit-shell" id="main-content">
+    <header class="cockpit-header">
+      <p class="cockpit-kicker">The Old Smugglers Club</p>
+      <h1>Zentrales Daten-Cockpit</h1>
+      <p>Lesende Übersicht über alle Wettbewerbe, Spielstände und die Integrität der zentralen Datenquellen.</p>
+      <nav class="cockpit-nav" aria-label="Daten-Cockpit">
+        <a class="cockpit-button" href="index.html">Zur Startseite</a>
+        <a class="cockpit-button" href="admin.html">Zum Administrationszentrum</a>
+        <button class="cockpit-button" id="refreshCockpit" type="button">Daten neu laden</button>
+      </nav>
+    </header>
+
+    <section class="cockpit-section" aria-labelledby="overviewHeading">
+      <div class="cockpit-heading-row">
+        <h2 id="overviewHeading">Gesamtstatus</h2>
+        <span id="integrityBadge" class="cockpit-badge">Prüfung läuft</span>
+      </div>
+      <div id="overviewGrid" class="cockpit-overview" aria-live="polite"></div>
+    </section>
+
+    <section class="cockpit-section" aria-labelledby="competitionHeading">
+      <div class="cockpit-heading-row">
+        <h2 id="competitionHeading">Wettbewerbe</h2>
+        <span id="competitionCount" class="cockpit-badge">–</span>
+      </div>
+      <div id="competitionGrid" class="competition-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="cockpit-section" aria-labelledby="noticeHeading">
+      <h2 id="noticeHeading">Datenhinweise</h2>
+      <div id="cockpitNotices" class="cockpit-notices"><p>Die zentralen Daten werden geladen.</p></div>
+    </section>
+  </main>
+  <script src="datenregister.js"></script>
+  <script src="datenmodell.js"></script>
+  <script src="daten-cockpit.js"></script>
+  <script src="./accessibility-v33.js" defer></script>
+</body>
+</html>

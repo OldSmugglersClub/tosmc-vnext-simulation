@@ -1,0 +1,89 @@
+GITHUB-UPLOAD – SIEBEN JSON-GESTEUERTE WETTBEWERBSSEITEN
+
+Alle Dateien dieses Pakets in das Hauptverzeichnis des GitHub-Repositories kopieren.
+Vorhandene Dateien mit gleichem Namen ersetzen.
+
+NEUE GEMEINSAME TECHNIK
+- wettbewerb.css
+- wettbewerb.js
+
+SIEBEN HTML-SEITEN
+- bundesliga.html
+- dfb-pokal.html
+- champions-league.html
+- relegation.html
+- dynamo-dresden.html
+- piratenkodex.html
+- weihnachtsregatta.html
+
+SIEBEN DATENDATEIEN
+- bundesliga.json
+- dfb-pokal.json
+- champions-league.json
+- relegation.json
+- dynamo-dresden.json
+- piratenkodex.json
+- weihnachtsregatta.json
+
+FUNKTIONSPRINZIP
+Jede HTML-Datei ist technisch identisch.
+wettbewerb.js erkennt den Dateinamen automatisch:
+bundesliga.html lädt bundesliga.json,
+dfb-pokal.html lädt dfb-pokal.json usw.
+
+Künftig werden Inhalte ausschließlich in der passenden JSON-Datei geändert.
+Die HTML-Dateien müssen nicht mehr bearbeitet werden.
+
+DYNAMISCHE JSON-BEREICHE
+- bereich: Schild links oben
+- statusSchild: Schild rechts oben
+- titel
+- beschreibung
+- karten: die drei oder beliebig viele Informationskarten
+- aktuellerStandTitel
+- aktuellerStand
+- bereiche: beliebig viele spätere Zusatzbereiche
+- buttons: Text, Link, Stil und Sichtbarkeit
+- fusszeile
+
+UNTERSTÜTZTE ZUSATZBEREICHE
+In "bereiche" können später ohne HTML-Änderung eingefügt werden:
+- typ "text"
+- typ "liste"
+- typ "tabelle"
+- typ "rangliste"
+- typ "spiele"
+
+BEISPIEL TABELLE
+{
+  "typ": "tabelle",
+  "titel": "Tabelle",
+  "anzeigen": true,
+  "spalten": ["Platz", "Team", "Punkte"],
+  "zeilen": [
+    ["1", "Verein A", "12"],
+    ["2", "Verein B", "10"]
+  ]
+}
+
+BEISPIEL SPIELE
+{
+  "typ": "spiele",
+  "titel": "Aktueller Spieltag",
+  "anzeigen": true,
+  "spiele": [
+    {
+      "datum": "28.08.2026",
+      "anstoss": "20:30 Uhr",
+      "heim": "Verein A",
+      "trenner": "–",
+      "auswaerts": "Verein B",
+      "ergebnis": "2:1"
+    }
+  ]
+}
+
+Nach dem Upload:
+1. Alle Dateien committen.
+2. GitHub Pages 30–90 Sekunden aktualisieren lassen.
+3. Eine Wettbewerbsseite öffnen und bei Bedarf Strg+F5 drücken.

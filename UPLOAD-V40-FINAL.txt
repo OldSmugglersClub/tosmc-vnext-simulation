@@ -1,0 +1,22 @@
+VERSION 40.0 FINAL HOCHLADEN
+
+Diese Version ist für den direkten Upload in das GitHub-Hauptverzeichnis bestimmt.
+
+Vorgehen:
+1. ZIP entpacken.
+2. Alle enthaltenen Dateien in das Hauptverzeichnis des Repositorys hochladen.
+3. Gleichnamige Dateien ersetzen.
+4. Die Ordnerstruktur nicht verändern.
+5. GitHub Pages kurz abwarten.
+6. Website mit Strg+F5 neu laden.
+
+Wichtige Hauptdateien:
+- index.html
+- style-v40.css
+- app-v40.js
+- site-data.json
+- hero-v40.jpg
+- club-crest.svg
+
+Die bisherigen Dateien club-style.css und club-app.js werden von der neuen Startseite nicht mehr verwendet.
+Sie können zunächst auf GitHub verbleiben, bis Version 40.0 bestätigt wurde.

@@ -1,0 +1,252 @@
+{
+  "aktuellerChampion": {
+    "name": "Manuel",
+    "wettbewerb": "Gesamtwertung",
+    "titel": "Gesamtchampion",
+    "saison": "2025/2026",
+    "jahr": "2025/2026",
+    "label": "Old Smugglers Saison-Champion",
+    "offen": false
+  },
+  "teamChampion": {
+    "saison": "",
+    "name": "Keine Vorsaisonwertung",
+    "offen": true,
+    "erstmals": "2026/2027"
+  },
+  "meister": {
+    "saison": "2025/2026",
+    "name": "Manuel",
+    "offen": false
+  },
+  "dfbPokal": {
+    "saison": "2025/2026",
+    "name": "Manuel",
+    "offen": false
+  },
+  "championsLeague": {
+    "saison": "2025/2026",
+    "name": "ZweikampfGott",
+    "offen": false
+  },
+  "europaLeague": {
+    "saison": "2025/2026",
+    "name": "Marius",
+    "offen": false
+  },
+  "smugglerauftraege": {
+    "saison": "",
+    "name": "Erstmals 2026/2027",
+    "offen": true,
+    "erstmals": "2026/2027"
+  },
+  "bonuswettbewerb": {
+    "saison": "2025/2026",
+    "name": "Marius",
+    "offen": false,
+    "fragen": 25,
+    "punkteProAntwort": 5
+  },
+  "weihnachtsregatta": {
+    "jahr": "",
+    "saison": "",
+    "name": "Erstmals 2026/2027",
+    "offen": true,
+    "erstmals": "2026/2027"
+  },
+  "piratenkodex": {
+    "saison": "",
+    "name": "Erstmals 2026/2027",
+    "offen": true,
+    "erstmals": "2026/2027"
+  },
+  "relegation": {
+    "saison": "",
+    "name": "Erstmals 2026/2027",
+    "offen": true,
+    "erstmals": "2026/2027"
+  },
+  "meisterchronik": [
+    {
+      "saison": "2025/2026",
+      "name": "Manuel",
+      "offen": false
+    }
+  ],
+  "rekorde": {
+    "gesamtpunkte": {
+      "label": "Gesamtpunkte",
+      "wert": "346",
+      "name": "Manuel",
+      "offen": false
+    },
+    "bonuspunkte": {
+      "label": "Bonuspunkte",
+      "wert": "60",
+      "name": "ZweikampfGott",
+      "offen": false
+    },
+    "exakteTipps": {
+      "label": "Exakte Tipps",
+      "wert": "17",
+      "name": "Marius",
+      "offen": false
+    },
+    "weitere": {
+      "label": "Weitere Rekorde",
+      "wert": "Noch offen",
+      "offen": true
+    }
+  },
+  "besondereLeistungen": [
+    {
+      "titel": "Champion der WM-Runde 2026",
+      "name": "ZweikampfGott",
+      "jahr": "2026",
+      "offen": false
+    }
+  ],
+  "ehrenmitglieder": {
+    "label": "Champion der WM-Runde 2026",
+    "wert": "ZweikampfGott",
+    "offen": false
+  },
+  "meta": {
+    "titel": "Ehrenlogbuch des Old Smugglers Club",
+    "stand": "2026-09-11T04:18:29.628Z",
+    "hinweis": "Nur bestätigte Titel und Rekorde werden dauerhaft eingetragen.",
+    "schemaVersion": 2,
+    "adminUebergabeErforderlich": true,
+    "generatorVersion": "6.2.0-a6-HF3-HF7"
+  },
+  "schemaVersion": 3,
+  "datenVersion": 7,
+  "aktualisiertAm": "2026-09-11T04:18:29.628Z",
+  "saison": "2026-27",
+  "quelle": "Admin 6.2.0-a6-HF3-HF7 – bestätigte Titel, Bestandsschutz und Website-Zielstruktur",
+  "aktuelleSaison": {
+    "saison": "2026-27",
+    "wettbewerbe": {
+      "bundesliga": {
+        "id": "bundesliga",
+        "label": "Bundesliga",
+        "status": "laufend",
+        "abschluss": {
+          "completed": false,
+          "target": 34,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      },
+      "champions-league": {
+        "id": "champions-league",
+        "label": "Champions League",
+        "status": "laufend",
+        "abschluss": {
+          "completed": false,
+          "target": null,
+          "processed": 0,
+          "source": "nicht-entscheidbar"
+        },
+        "sieger": null
+      },
+      "europa-league": {
+        "id": "europa-league",
+        "label": "Europa League",
+        "status": "noch-ohne-wertung",
+        "abschluss": {
+          "completed": false,
+          "target": null,
+          "processed": 0,
+          "source": "nicht-entscheidbar"
+        },
+        "sieger": null
+      },
+      "dfb-pokal": {
+        "id": "dfb-pokal",
+        "label": "DFB-Pokal",
+        "status": "noch-ohne-wertung",
+        "abschluss": {
+          "completed": false,
+          "target": 4,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      },
+      "relegation": {
+        "id": "relegation",
+        "label": "Relegation",
+        "status": "noch-ohne-wertung",
+        "abschluss": {
+          "completed": false,
+          "target": 1,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      },
+      "piratenkodex": {
+        "id": "piratenkodex",
+        "label": "Piratenkodex",
+        "status": "noch-ohne-wertung",
+        "abschluss": {
+          "completed": false,
+          "target": 7,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      },
+      "smugglerauftraege": {
+        "id": "smugglerauftraege",
+        "label": "Smuggleraufträge",
+        "status": "laufend",
+        "abschluss": {
+          "completed": false,
+          "target": 34,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      },
+      "weihnachtsregatta": {
+        "id": "weihnachtsregatta",
+        "label": "Weihnachtsregatta",
+        "status": "noch-ohne-wertung",
+        "abschluss": {
+          "completed": false,
+          "target": 1,
+          "processed": 0,
+          "source": "wertungstage-ziel"
+        },
+        "sieger": null
+      }
+    },
+    "gesamtChampion": null,
+    "gesamtTeamSieger": null,
+    "status": "laufend"
+  },
+  "pruefung": {
+    "gueltig": false,
+    "hinweise": [
+      "Rekord Exakte Tipps: 3 gleichrangige Bestwerte (6); keine automatische Ersetzung."
+    ],
+    "entscheidungen": [],
+    "bestandsschutz": true,
+    "websiteFeldzuordnung": true,
+    "fehlendeWebsiteFelder": [],
+    "bonuswettbewerb": {
+      "erforderlich": false,
+      "vorhanden": true,
+      "gueltig": true,
+      "anzahlErstplatzierte": 1
+    },
+    "ehrenchampions": {
+      "gueltig": true,
+      "hinweise": [],
+      "entscheidungen": []
+    }
+  }
+}

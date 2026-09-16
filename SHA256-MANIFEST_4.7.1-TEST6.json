@@ -1,0 +1,78 @@
+{
+  "version": "4.7.1-TEST6",
+  "basis": "4.7.1-TEST5-HF1",
+  "packageLayout": "flat repository-root paths; no DATEIEN_FUER_GITHUB directory",
+  "replace": [
+    "CHANGELOG.md",
+    "VERSION.txt",
+    "hall-of-fame.html",
+    "index.html",
+    "saison-2026-2027.html",
+    "saisonuebersicht.js"
+  ],
+  "new": [
+    "CHANGELOG_4.7.1-TEST6.md",
+    "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST6.md",
+    "GITHUB-DESKTOP_4.7.1-TEST6.md",
+    "README_4.7.1-TEST6.md",
+    "TESTPROTOKOLL_4.7.1-TEST6.md"
+  ],
+  "delete": [],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "784419a46f0574275b8082a08bfda15225787259e8ef3a8f68229b1a74c5b16f",
+      "size": 24112
+    },
+    {
+      "path": "CHANGELOG_4.7.1-TEST6.md",
+      "sha256": "da2b9c68782353473b5638aee09c7ce6b3c7f982a70240946bbb44bbbb640cc5",
+      "size": 578
+    },
+    {
+      "path": "DATEILISTE_ERSETZEN_NEU_LOESCHEN_4.7.1-TEST6.md",
+      "sha256": "6f3440a3cb42340c359df307c1d0f506ebdec80b84066b5c6db74a5e1898b6ff",
+      "size": 570
+    },
+    {
+      "path": "GITHUB-DESKTOP_4.7.1-TEST6.md",
+      "sha256": "d074b358b7d27d5c79c4844de23cfd9d07bf59154579e8fdf100ad95f76fe42f",
+      "size": 543
+    },
+    {
+      "path": "README_4.7.1-TEST6.md",
+      "sha256": "421fe5452c51ff8885595fba1cb181cd3a03b56efdbd11d4e7bb3eaab19558ea",
+      "size": 328
+    },
+    {
+      "path": "TESTPROTOKOLL_4.7.1-TEST6.md",
+      "sha256": "89c7f21794ae34a9b542dcd40d5aab219decf2429e132f29adf5d9a156f36378",
+      "size": 805
+    },
+    {
+      "path": "VERSION.txt",
+      "sha256": "8fd32bf1a4dc45c3d62ea451a46f2e73d0af2694e6a83fd233e983cc269a8a59",
+      "size": 12
+    },
+    {
+      "path": "hall-of-fame.html",
+      "sha256": "a1361c832de39dec19c93f85841a5ef715402bd2fca13ad5b5348e5e78a640e4",
+      "size": 9865
+    },
+    {
+      "path": "index.html",
+      "sha256": "fd66676363d6381373b382360629262f91853e89f598cbe294649282c5032eef",
+      "size": 200639
+    },
+    {
+      "path": "saison-2026-2027.html",
+      "sha256": "93542bf7c9e95a03caff5f284053a18120dffe14a3b402c125db36158e4ffbb9",
+      "size": 3954
+    },
+    {
+      "path": "saisonuebersicht.js",
+      "sha256": "b6fbfb738c9712f8f6fab5d763022bb8a57bda5a7dd7c0dd64b8bc3755e24a86",
+      "size": 7776
+    }
+  ]
+}

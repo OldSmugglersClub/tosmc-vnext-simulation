@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "mitteilung-aad6797d",
+  "enabled": true,
+  "timeZone": "Europe/Berlin",
+  "headline": "Wichtige Mitteilung",
+  "message": "Aktualisierung der Website am 13.09.2026 um 07:00",
+  "startsAt": "2026-09-12T21:45",
+  "endsAt": "2026-09-13T07:00",
+  "buttonLabel": "OK"
+}

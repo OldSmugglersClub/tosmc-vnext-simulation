@@ -1,0 +1,119 @@
+--- /tmp/logbuch.html.before	2026-09-15 17:17:44.055725301 +0000
++++ logbuch.html	2026-09-15 17:17:44.546285745 +0000
+@@ -2,7 +2,7 @@
+ <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="description" content="Spieltags-Logbuch des The Old Smugglers Club">
+ <title>Logbuch | The Old Smugglers Club</title>
+-<link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF73"><link rel="stylesheet" href="./accessibility-v33.css"><link rel="stylesheet" href="./legal.css">
++<link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF101-TEST4"><link rel="stylesheet" href="./accessibility-v33.css"><link rel="stylesheet" href="./legal.css">
+ <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+ </head><body>
+ <main class="lb-page" id="logbuch-top"><div class="lb-shell">
+@@ -10,12 +10,12 @@
+ <h1>Spieltags-Logbuch</h1><p>Was auf dem Tippdeck passiert ist: beste Spieltagsbeute, Volltreffer, ungewöhnliche Tippverläufe, Crewduell und weitere auffällige Ereignisse.</p>
+ <div class="lb-toolbar tosmc-nav"><a class="lb-btn tosmc-nav-button tosmc-nav-button--back" href="./index.html#logbuch">Zurück zur Clubseite</a><a class="lb-btn tosmc-nav-button tosmc-nav-button--secondary" href="./highscore.html">Highscore öffnen</a></div></section>
+ <div class="lb-status" id="lb-status">Logbuch wird geladen …</div><div id="lb-current"></div>
+-<section class="lb-archive"><h2>Frühere Einträge</h2><div class="lb-archive-list" id="lb-archive-list"></div></section>
++<section class="lb-archive"><h2>Frühere Einträge</h2><div class="lb-archive-controls" id="lb-archive-list" aria-label="Frühere Logbucheinträge"></div></section>
+ <div class="lb-toolbar tosmc-nav" aria-label="Logbuch-Navigation"><a class="lb-btn tosmc-nav-button tosmc-nav-button--back" href="./index.html#logbuch">Zurück zur Clubseite</a><a class="lb-btn tosmc-nav-button tosmc-nav-button--secondary" href="./highscore.html">Highscore öffnen</a><a class="tosmc-nav-button tosmc-nav-button--top" href="#logbuch-top">Nach oben</a></div>
+ <div class="lb-legal">Die Logbuchtexte entstehen ausschließlich aus den im OSC-System gespeicherten Tipp- und Wertungsdaten.</div>
+ </div></main>
+ <footer class="legal-footer" aria-label="Rechtliche Hinweise"><div class="legal-footer__inner"><span>© 2026 The Old Smugglers Club</span><nav class="legal-footer__links"><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a><a href="./nutzungsrechte.html">Nutzungsrechte</a><span id="legal-version">Version wird geladen</span></nav></div></footer>
+-<script src="./coco/coco-engine.js?v=4.9.2-HF12-HF6"></script><script src="./logbuch.js?v=4.9.2-HF12-HF73"></script><script>
++<script src="./coco/coco-engine.js?v=4.9.2-HF12-HF6"></script><script src="./logbuch.js?v=4.9.2-HF12-HF101-TEST4"></script><script>
+ (function(){const t=document.getElementById("legal-version");if(!t)return;fetch("./VERSION.txt",{cache:"no-store"}).then(r=>r.ok?r.text():Promise.reject()).then(v=>t.textContent="Version "+v.trim()).catch(()=>t.textContent="Version nicht verfügbar");})();
+ </script>
+ <script data-goatcounter="https://oldsmugglersclub.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+--- /tmp/logbuch.js.before	2026-09-15 17:17:44.056948449 +0000
++++ logbuch.js	2026-09-15 17:17:44.546509944 +0000
+@@ -318,18 +318,57 @@
+ function archive(){
+  const host=$("#lb-archive-list"); if(!host) return;
+  const source=[...(data?.logbuecher||[])];
+- const ordinalById=new Map(source.map((e,i)=>[e?.id,i+1]));
+- const logs=[...source].reverse();
+- host.innerHTML=logs.map((e,i)=>{
+-   const ordinal=ordinalById.get(e?.id)||source.indexOf(e)+1;
+-   const competition=labelType(e?.wettbewerb||e?.typ||"");
+-   const archiveLabel=`${ordinal}. Tippspieltag · ${competition}`;
+-   return `<button type="button" data-log-id="${esc(e.id)}" aria-current="${i===0?"true":"false"}">${esc(archiveLabel)}</button>`;
+- }).join("");
+- host.addEventListener("click",ev=>{
+-   const b=ev.target.closest("button[data-log-id]"); if(!b)return;
+-   const entry=(data.logbuecher||[]).find(x=>x.id===b.dataset.logId); renderEntry(entry,currentPending);
+-   host.querySelectorAll("button").forEach(x=>x.setAttribute("aria-current",String(x===b)));
++ if(!source.length){host.innerHTML='<div class="lb-archive-empty">Noch keine früheren Einträge vorhanden.</div>';return;}
++
++ const competitionKey=e=>String(e?.wettbewerb||e?.typ||"tippspieltag");
++ const competitionOrder=[];
++ const grouped=new Map();
++ source.forEach(entry=>{
++   const key=competitionKey(entry);
++   if(!grouped.has(key)){grouped.set(key,[]);competitionOrder.push(key);}
++   grouped.get(key).push(entry);
++ });
++
++ const latest=source.at(-1);
++ const initialCompetition=competitionKey(latest);
++ host.innerHTML=`
++   <div class="lb-archive-field">
++     <label for="lb-archive-competition">Wettbewerb</label>
++     <select id="lb-archive-competition"></select>
++   </div>
++   <div class="lb-archive-field">
++     <label for="lb-archive-entry">Spieltag / Runde</label>
++     <select id="lb-archive-entry"></select>
++   </div>`;
++
++ const competitionSelect=$("#lb-archive-competition");
++ const entrySelect=$("#lb-archive-entry");
++ competitionSelect.innerHTML=competitionOrder.map(key=>`<option value="${esc(key)}">${esc(labelType(key))}</option>`).join("");
++
++ function entryLabel(entry){
++   const round=String(entry?.runde||"").trim();
++   if(round)return keepSpieltag(round);
++   const title=String(entry?.bezeichnung||"").trim();
++   if(title){
++     const competition=labelType(entry?.wettbewerb||entry?.typ||"");
++     const stripped=title.replace(new RegExp(`^${competition.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}\\s*`,"i"),"").trim();
++     return keepSpieltag(stripped||title);
++   }
++   return "Logbucheintrag";
++ }
++ function fillEntries(key,preferredId){
++   const entries=[...(grouped.get(key)||[])].reverse();
++   entrySelect.innerHTML=entries.map(entry=>`<option value="${esc(entry.id)}">${esc(entryLabel(entry))}</option>`).join("");
++   const selected=entries.find(entry=>entry.id===preferredId)||entries[0];
++   if(selected){entrySelect.value=selected.id;renderEntry(selected,currentPending);}
++ }
++
++ competitionSelect.value=initialCompetition;
++ fillEntries(initialCompetition,latest?.id);
++ competitionSelect.addEventListener("change",()=>fillEntries(competitionSelect.value,null));
++ entrySelect.addEventListener("change",()=>{
++   const entry=source.find(x=>x.id===entrySelect.value);
++   if(entry)renderEntry(entry,currentPending);
+  });
+ }
+ 
+--- /tmp/logbuch.css.before	2026-09-15 17:17:44.057978055 +0000
++++ logbuch.css	2026-09-15 17:17:44.546627872 +0000
+@@ -944,3 +944,13 @@
+   text-transform:uppercase;
+ }
+ #lb-current .lb-entry--pending + .lb-entry{margin-top:18px}
++
++
++/* Website 4.9.2-HF12-HF101-TEST4 – Frühere Einträge nach Wettbewerb und Spieltag/Runde */
++.lb-archive-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
++.lb-archive-field{display:flex;flex-direction:column;gap:7px;min-width:0}
++.lb-archive-field label{color:#c99b4d;font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
++.lb-archive-field select{width:100%;min-height:44px;border:1px solid rgba(174,119,37,.54);border-radius:8px;background:#1b0e07;color:#ead09a;padding:9px 38px 9px 11px;font:inherit;font-weight:700;cursor:pointer}
++.lb-archive-field select:focus{outline:2px solid rgba(211,160,74,.7);outline-offset:2px}
++.lb-archive-empty{color:#bda783;line-height:1.5}
++@media(max-width:760px){.lb-archive-controls{grid-template-columns:1fr}}
+--- /tmp/VERSION.txt.before	2026-09-15 17:17:44.059151008 +0000
++++ VERSION.txt	2026-09-15 17:17:44.546708865 +0000
+@@ -1 +1 @@
+-4.9.2-HF12-HF101-TEST3
++4.9.2-HF12-HF101-TEST4

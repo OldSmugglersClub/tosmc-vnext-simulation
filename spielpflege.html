@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zentrale Spielpflege | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="spielpflege.css">
+  <link rel="stylesheet" href="accessibility-v33.css">
+</head>
+<body>
+  <main class="admin-shell game-editor-shell">
+    <header class="admin-header">
+      <p class="admin-kicker">The Old Smugglers Club</p>
+      <h1>Zentrale Spielpflege</h1>
+      <p>Spiele lokal prüfen, bearbeiten oder neu anlegen und anschließend eine vollständige <code>spieldaten.json</code> für den manuellen GitHub-Upload herunterladen. Auf der Website selbst werden keine Dateien automatisch verändert.</p>
+      <nav class="admin-nav" aria-label="Spielpflege">
+        <a class="admin-button" href="admin.html">Zum Administrationszentrum</a>
+        <a class="admin-button" href="daten-cockpit.html">Zum Daten-Cockpit</a>
+        <button class="admin-button" id="reloadButton" type="button">Daten neu laden</button>
+        <button class="admin-button" id="newButton" type="button">Neues Spiel</button>
+        <button class="admin-button" id="exportButton" type="button" disabled>spieldaten.json herunterladen</button>
+      </nav>
+    </header>
+
+    <section class="admin-section" aria-labelledby="overviewHeading">
+      <div class="admin-heading-row"><h2 id="overviewHeading">Datenstand</h2><span id="statusBadge" class="admin-badge">Wird geladen</span></div>
+      <div id="summaryGrid" class="admin-grid" aria-live="polite"></div>
+      <div id="messageBox" class="admin-notices" aria-live="polite"></div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="gamesHeading">
+      <div class="admin-heading-row"><h2 id="gamesHeading">Spiele</h2><span id="resultCount" class="admin-badge">–</span></div>
+      <div class="game-editor-filters">
+        <label>Suche<input id="searchInput" type="search" placeholder="ID, Team, Runde oder Notiz"></label>
+        <label>Wettbewerb<select id="competitionFilter"><option value="">Alle Wettbewerbe</option></select></label>
+        <label>Status<select id="statusFilter"><option value="">Alle Statuswerte</option></select></label>
+      </div>
+      <div class="admin-table-wrap game-list-wrap">
+        <table class="admin-table game-list">
+          <thead><tr><th>Datum</th><th>Begegnung</th><th>Wettbewerb</th><th>Runde</th><th>Status</th><th>Aktion</th></tr></thead>
+          <tbody id="gameRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="editorHeading">
+      <div class="admin-heading-row"><h2 id="editorHeading">Spiel bearbeiten</h2><span id="editorBadge" class="admin-badge">Kein Spiel gewählt</span></div>
+      <form id="gameForm" class="game-form" novalidate>
+        <input id="originalId" type="hidden">
+        <label>Spiel-ID<input id="gameId" name="gameId" required autocomplete="off"></label>
+        <label>Wettbewerb<select id="competition" name="competition" required></select></label>
+        <label>Wettbewerbsanzeige<input id="competitionLabel" name="competitionLabel" required></label>
+        <label>Saison<input id="season" name="season" required></label>
+        <label>Runde<input id="round" name="round" required></label>
+        <label>Spieltagnummer<input id="matchdayNumber" name="matchdayNumber" type="number" min="1" step="1"></label>
+        <label>Spielnummer<input id="gameNumber" name="gameNumber" type="number" min="1" step="1"></label>
+        <label>Heimteam<select id="homeTeam" name="homeTeam" required></select></label>
+        <label>Auswärtsteam<select id="awayTeam" name="awayTeam" required></select></label>
+        <label>Datum<input id="date" name="date" type="date"></label>
+        <label>Zeitraum von<input id="dateFrom" name="dateFrom" type="date"></label>
+        <label>Zeitraum bis<input id="dateTo" name="dateTo" type="date"></label>
+        <label>Anstoß<input id="kickoff" name="kickoff" type="time"></label>
+        <label>Status<input id="gameStatus" name="gameStatus" required list="statusSuggestions"><datalist id="statusSuggestions"><option value="terminiert"><option value="geplant"><option value="beendet"><option value="noch nicht zeitgenau terminiert"></datalist></label>
+        <label>Heimtore<input id="homeGoals" name="homeGoals" type="number" min="0" step="1"></label>
+        <label>Auswärtstore<input id="awayGoals" name="awayGoals" type="number" min="0" step="1"></label>
+        <label class="game-checkbox"><input id="confirmed" name="confirmed" type="checkbox"> Termin bestätigt</label>
+        <label>Sonderwertungen<input id="specialRatings" name="specialRatings" placeholder="z. B. smugglerauftrag, piratenkodex"></label>
+        <label class="game-form-wide">Notiz<textarea id="note" name="note" rows="3"></textarea></label>
+        <label>Quellenstand<input id="sourceDate" name="sourceDate" type="date"></label>
+        <div class="game-form-actions game-form-wide">
+          <button class="admin-button" type="submit">Änderung übernehmen</button>
+          <button class="admin-button" id="deleteButton" type="button" disabled>Spiel löschen</button>
+          <button class="admin-button" id="cancelButton" type="button">Eingabe zurücksetzen</button>
+        </div>
+      </form>
+      <div id="formErrors" class="admin-notices" aria-live="polite"></div>
+    </section>
+  </main>
+  <script src="datenregister.js"></script>
+  <script src="spielpflege.js"></script>
+  <script src="accessibility-v33.js" defer></script>
+</body>
+</html>

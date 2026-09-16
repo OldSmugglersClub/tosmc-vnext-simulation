@@ -1,0 +1,26 @@
+THE OLD SMUGGLERS CLUB – WEBSITE VERSION 21
+
+Mobile Optimierung:
+- stabileres Hamburger-Menü
+- Menü auf Smartphones einspaltig und mit größeren Touch-Flächen
+- Schließen des Menüs durch Auswahl, Klick außerhalb oder Escape-Taste
+- größere Buttons mit mindestens 52 Pixel Höhe
+- kompaktere und gleichmäßigere Abstände
+- Wettbewerbskacheln und Inhaltsbereiche einspaltig
+- Countdown, Hall of Fame, Piratenkodex und Kummerkasten mobil angepasst
+- Unterseiten mit kompakterem Header
+- bessere Darstellung auf sehr schmalen Geräten
+
+Schnelleres Laden:
+- Banner erhält hohe Ladepriorität
+- Bilder werden asynchron dekodiert
+- Pokal wird erst bei Bedarf geladen
+- feste Hintergrunddarstellung auf Smartphones deaktiviert
+- keine zusätzlichen Dateien oder Bibliotheken erforderlich
+
+Installation:
+1. ZIP entpacken.
+2. Alle acht HTML-Dateien gemeinsam in das GitHub-Hauptverzeichnis hochladen.
+3. Vorhandene Dateien ersetzen.
+4. GitHub Pages abwarten.
+5. Auf dem Handy Browser-Cache leeren oder die Seite in einem privaten Tab testen.

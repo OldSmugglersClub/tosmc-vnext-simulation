@@ -1,0 +1,21 @@
+VERSION 23 – NUR HINTERGRUND GEÄNDERT
+
+Geändert wurden ausschließlich:
+- neue Hintergrunddatei: kapitaenstisch-hintergrund.jpg
+- die body-Hintergrundregel in allen HTML-Dateien
+
+Unverändert bleiben:
+- Banner
+- Navigation
+- Kacheln
+- Größen
+- Abstände
+- Texte
+- Countdown
+- Inhalte und Funktionen
+
+Für GitHub:
+1. Alle HTML-Dateien aus diesem Paket hochladen und ersetzen.
+2. kapitaenstisch-hintergrund.jpg zusätzlich ins Hauptverzeichnis hochladen.
+3. GitHub Pages kurz abwarten.
+4. Seite mit Strg+F5 neu laden.

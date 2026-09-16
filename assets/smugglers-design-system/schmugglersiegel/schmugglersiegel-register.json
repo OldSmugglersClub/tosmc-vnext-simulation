@@ -1,0 +1,1227 @@
+{
+  "schemaVersion": 1,
+  "aktualisiert": "2026-07-31",
+  "hinweis": "Eigene Schmugglersiegel; keine offiziellen Vereinswappen. Enthält aktive Projektteams sowie vorbereitete Siegel für den UEFA-Kandidatenpool 2026/27. Zuordnung über Team-ID.",
+  "teams": {
+    "heidenheim": {
+      "name": "1. FC Heidenheim 1846",
+      "kuerzel": "FCH",
+      "primaerfarbe": "#b51f2e",
+      "sekundaerfarbe": "#143a74",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/heidenheim.svg"
+    },
+    "kaiserslautern": {
+      "name": "1. FC Kaiserslautern",
+      "kuerzel": "FCK",
+      "primaerfarbe": "#9b1526",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/kaiserslautern.svg"
+    },
+    "koeln": {
+      "name": "1. FC Köln",
+      "kuerzel": "FC",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/koeln.svg"
+    },
+    "magdeburg": {
+      "name": "1. FC Magdeburg",
+      "kuerzel": "FCM",
+      "primaerfarbe": "#1268b3",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/magdeburg.svg"
+    },
+    "nuernberg": {
+      "name": "1. FC Nürnberg",
+      "kuerzel": "FCN",
+      "primaerfarbe": "#751325",
+      "sekundaerfarbe": "#f4eadc",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/nuernberg.svg"
+    },
+    "union-berlin": {
+      "name": "1. FC Union Berlin",
+      "kuerzel": "FCU",
+      "primaerfarbe": "#c71924",
+      "sekundaerfarbe": "#f2d23c",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/union-berlin.svg"
+    },
+    "mainz-05": {
+      "name": "1. FSV Mainz 05",
+      "kuerzel": "M05",
+      "primaerfarbe": "#c91f2b",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/mainz-05.svg"
+    },
+    "ac-mailand": {
+      "name": "AC Mailand",
+      "kuerzel": "ACM",
+      "primaerfarbe": "#b31628",
+      "sekundaerfarbe": "#151515",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ac-mailand.svg"
+    },
+    "aston-villa": {
+      "name": "Aston Villa",
+      "kuerzel": "AV",
+      "primaerfarbe": "#7a1538",
+      "sekundaerfarbe": "#85c8e8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/aston-villa.svg"
+    },
+    "leverkusen": {
+      "name": "Bayer 04 Leverkusen",
+      "kuerzel": "B04",
+      "primaerfarbe": "#c5152d",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/leverkusen.svg"
+    },
+    "benfica-lissabon": {
+      "name": "Benfica Lissabon",
+      "kuerzel": "SLB",
+      "primaerfarbe": "#d91e2b",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/benfica-lissabon.svg"
+    },
+    "dortmund": {
+      "name": "Borussia Dortmund",
+      "kuerzel": "BVB",
+      "primaerfarbe": "#f4d300",
+      "sekundaerfarbe": "#121212",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/dortmund.svg"
+    },
+    "moenchengladbach": {
+      "name": "Borussia Mönchengladbach",
+      "kuerzel": "BMG",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#f2f2f2",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/moenchengladbach.svg"
+    },
+    "arminia-bielefeld": {
+      "name": "DSC Arminia Bielefeld",
+      "kuerzel": "DSC",
+      "primaerfarbe": "#1767aa",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/arminia-bielefeld.svg"
+    },
+    "braunschweig": {
+      "name": "Eintracht Braunschweig",
+      "kuerzel": "EBS",
+      "primaerfarbe": "#f0c400",
+      "sekundaerfarbe": "#1c4a95",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/braunschweig.svg"
+    },
+    "frankfurt": {
+      "name": "Eintracht Frankfurt",
+      "kuerzel": "SGE",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/frankfurt.svg"
+    },
+    "augsburg": {
+      "name": "FC Augsburg",
+      "kuerzel": "FCA",
+      "primaerfarbe": "#b7192d",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/augsburg.svg"
+    },
+    "barcelona": {
+      "name": "FC Barcelona",
+      "kuerzel": "FCB",
+      "primaerfarbe": "#a61f3d",
+      "sekundaerfarbe": "#21468b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/barcelona.svg"
+    },
+    "bayern-muenchen": {
+      "name": "FC Bayern München",
+      "kuerzel": "FCB",
+      "primaerfarbe": "#c9152e",
+      "sekundaerfarbe": "#f3f3f3",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/bayern-muenchen.svg"
+    },
+    "fc-bologna": {
+      "name": "FC Bologna",
+      "kuerzel": "BFC",
+      "primaerfarbe": "#b4162c",
+      "sekundaerfarbe": "#17396b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-bologna.svg"
+    },
+    "energie-cottbus": {
+      "name": "FC Energie Cottbus",
+      "kuerzel": "FCE",
+      "primaerfarbe": "#d51b2b",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/energie-cottbus.svg"
+    },
+    "fc-liverpool": {
+      "name": "FC Liverpool",
+      "kuerzel": "LFC",
+      "primaerfarbe": "#b5162a",
+      "sekundaerfarbe": "#f2d9a6",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-liverpool.svg"
+    },
+    "schalke-04": {
+      "name": "FC Schalke 04",
+      "kuerzel": "S04",
+      "primaerfarbe": "#1261a6",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/schalke-04.svg"
+    },
+    "st-pauli": {
+      "name": "FC St. Pauli",
+      "kuerzel": "STP",
+      "primaerfarbe": "#5f3525",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/st-pauli.svg"
+    },
+    "hamburger-sv": {
+      "name": "Hamburger SV",
+      "kuerzel": "HSV",
+      "primaerfarbe": "#1769aa",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hamburger-sv.svg"
+    },
+    "hannover-96": {
+      "name": "Hannover 96",
+      "kuerzel": "H96",
+      "primaerfarbe": "#1d6b3a",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hannover-96.svg"
+    },
+    "hertha-bsc": {
+      "name": "Hertha BSC",
+      "kuerzel": "BSC",
+      "primaerfarbe": "#1f6bb5",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hertha-bsc.svg"
+    },
+    "holstein-kiel": {
+      "name": "Holstein Kiel",
+      "kuerzel": "KSV",
+      "primaerfarbe": "#1b4e8c",
+      "sekundaerfarbe": "#d21d2b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/holstein-kiel.svg"
+    },
+    "inter-mailand": {
+      "name": "Inter Mailand",
+      "kuerzel": "INT",
+      "primaerfarbe": "#1769aa",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/inter-mailand.svg"
+    },
+    "juventus-turin": {
+      "name": "Juventus Turin",
+      "kuerzel": "JUV",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/juventus-turin.svg"
+    },
+    "karlsruher-sc": {
+      "name": "Karlsruher SC",
+      "kuerzel": "KSC",
+      "primaerfarbe": "#1d67aa",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/karlsruher-sc.svg"
+    },
+    "manchester-city": {
+      "name": "Manchester City",
+      "kuerzel": "MCI",
+      "primaerfarbe": "#75b8df",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/manchester-city.svg"
+    },
+    "manchester-united": {
+      "name": "Manchester United",
+      "kuerzel": "MUN",
+      "primaerfarbe": "#c81e2b",
+      "sekundaerfarbe": "#f2c53d",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/manchester-united.svg"
+    },
+    "nottingham-forest": {
+      "name": "Nottingham Forest",
+      "kuerzel": "NFO",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/nottingham-forest.svg"
+    },
+    "olympique-marseille": {
+      "name": "Olympique Marseille",
+      "kuerzel": "OM",
+      "primaerfarbe": "#38a8dc",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/olympique-marseille.svg"
+    },
+    "paris-saint-germain": {
+      "name": "Paris Saint-Germain",
+      "kuerzel": "PSG",
+      "primaerfarbe": "#173b73",
+      "sekundaerfarbe": "#c91f2b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/paris-saint-germain.svg"
+    },
+    "rb-leipzig": {
+      "name": "RB Leipzig",
+      "kuerzel": "RBL",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#d7193f",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/rb-leipzig.svg"
+    },
+    "real-madrid": {
+      "name": "Real Madrid",
+      "kuerzel": "RMA",
+      "primaerfarbe": "#f4f1e8",
+      "sekundaerfarbe": "#c9a33b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/real-madrid.svg"
+    },
+    "paderborn": {
+      "name": "SC Paderborn 07",
+      "kuerzel": "SCP",
+      "primaerfarbe": "#1b63a8",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/paderborn.svg"
+    },
+    "dynamo-dresden": {
+      "name": "SG Dynamo Dresden",
+      "kuerzel": "SGD",
+      "primaerfarbe": "#e5b900",
+      "sekundaerfarbe": "#17120a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/dynamo-dresden.svg"
+    },
+    "freiburg": {
+      "name": "Sport-Club Freiburg",
+      "kuerzel": "SCF",
+      "primaerfarbe": "#d51b2b",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/freiburg.svg"
+    },
+    "sporting-lissabon": {
+      "name": "Sporting Lissabon",
+      "kuerzel": "SCP",
+      "primaerfarbe": "#14864b",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sporting-lissabon.svg"
+    },
+    "greuther-fuerth": {
+      "name": "SpVgg Greuther Fürth",
+      "kuerzel": "SGF",
+      "primaerfarbe": "#2e8b57",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/greuther-fuerth.svg"
+    },
+    "darmstadt-98": {
+      "name": "SV Darmstadt 98",
+      "kuerzel": "SVD",
+      "primaerfarbe": "#1768aa",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/darmstadt-98.svg"
+    },
+    "elversberg": {
+      "name": "SV Elversberg",
+      "kuerzel": "SVE",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/elversberg.svg"
+    },
+    "werder-bremen": {
+      "name": "SV Werder Bremen",
+      "kuerzel": "SVW",
+      "primaerfarbe": "#13834a",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/werder-bremen.svg"
+    },
+    "tottenham-hotspur": {
+      "name": "Tottenham Hotspur",
+      "kuerzel": "THFC",
+      "primaerfarbe": "#f2f2f2",
+      "sekundaerfarbe": "#172a55",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/tottenham-hotspur.svg"
+    },
+    "hoffenheim": {
+      "name": "TSG Hoffenheim",
+      "kuerzel": "TSG",
+      "primaerfarbe": "#1769aa",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hoffenheim.svg"
+    },
+    "stuttgart": {
+      "name": "VfB Stuttgart",
+      "kuerzel": "VFB",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#d71920",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/stuttgart.svg"
+    },
+    "bochum": {
+      "name": "VfL Bochum 1848",
+      "kuerzel": "VFL",
+      "primaerfarbe": "#1769aa",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/bochum.svg"
+    },
+    "osnabrueck": {
+      "name": "VfL Osnabrück",
+      "kuerzel": "VFL",
+      "primaerfarbe": "#5e2b83",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/osnabrueck.svg"
+    },
+    "wolfsburg": {
+      "name": "VfL Wolfsburg",
+      "kuerzel": "WOB",
+      "primaerfarbe": "#69b52a",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/wolfsburg.svg"
+    },
+    "arsenal": {
+      "name": "Arsenal",
+      "kuerzel": "ARS",
+      "primaerfarbe": "#c8102e",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/arsenal.svg",
+      "status": "vorbereitet"
+    },
+    "atletico-madrid": {
+      "name": "Atlético Madrid",
+      "kuerzel": "ATM",
+      "primaerfarbe": "#cb3524",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/atletico-madrid.svg",
+      "status": "vorbereitet"
+    },
+    "club-brugge": {
+      "name": "Club Brügge",
+      "kuerzel": "BRU",
+      "primaerfarbe": "#0055a4",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/club-brugge.svg",
+      "status": "vorbereitet"
+    },
+    "como-1907": {
+      "name": "Como 1907",
+      "kuerzel": "COM",
+      "primaerfarbe": "#1d5a98",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/como-1907.svg",
+      "status": "vorbereitet"
+    },
+    "feyenoord-rotterdam": {
+      "name": "Feyenoord Rotterdam",
+      "kuerzel": "FEY",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/feyenoord-rotterdam.svg",
+      "status": "vorbereitet"
+    },
+    "galatasaray": {
+      "name": "Galatasaray",
+      "kuerzel": "GAL",
+      "primaerfarbe": "#a90432",
+      "sekundaerfarbe": "#f6b800",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/galatasaray.svg",
+      "status": "vorbereitet"
+    },
+    "rc-lens": {
+      "name": "RC Lens",
+      "kuerzel": "RCL",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#f6d20a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/rc-lens.svg",
+      "status": "vorbereitet"
+    },
+    "osc-lille": {
+      "name": "OSC Lille",
+      "kuerzel": "LIL",
+      "primaerfarbe": "#d7193f",
+      "sekundaerfarbe": "#1b2b57",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/osc-lille.svg",
+      "status": "vorbereitet"
+    },
+    "ssc-neapel": {
+      "name": "SSC Neapel",
+      "kuerzel": "NAP",
+      "primaerfarbe": "#2d8bc8",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ssc-neapel.svg",
+      "status": "vorbereitet"
+    },
+    "fc-porto": {
+      "name": "FC Porto",
+      "kuerzel": "FCP",
+      "primaerfarbe": "#004b9b",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-porto.svg",
+      "status": "vorbereitet"
+    },
+    "psv-eindhoven": {
+      "name": "PSV Eindhoven",
+      "kuerzel": "PSV",
+      "primaerfarbe": "#e31837",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/psv-eindhoven.svg",
+      "status": "vorbereitet"
+    },
+    "real-betis": {
+      "name": "Real Betis",
+      "kuerzel": "BET",
+      "primaerfarbe": "#168f4d",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/real-betis.svg",
+      "status": "vorbereitet"
+    },
+    "as-rom": {
+      "name": "AS Rom",
+      "kuerzel": "ROM",
+      "primaerfarbe": "#7b1b32",
+      "sekundaerfarbe": "#f4a900",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/as-rom.svg",
+      "status": "vorbereitet"
+    },
+    "schachtar-donezk": {
+      "name": "Schachtar Donezk",
+      "kuerzel": "SHA",
+      "primaerfarbe": "#f47920",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/schachtar-donezk.svg",
+      "status": "vorbereitet"
+    },
+    "slavia-prag": {
+      "name": "Slavia Prag",
+      "kuerzel": "SLA",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/slavia-prag.svg",
+      "status": "vorbereitet"
+    },
+    "villarreal-cf": {
+      "name": "Villarreal CF",
+      "kuerzel": "VIL",
+      "primaerfarbe": "#f7df00",
+      "sekundaerfarbe": "#173b70",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/villarreal-cf.svg",
+      "status": "vorbereitet"
+    },
+    "aek-athen": {
+      "name": "AEK Athen",
+      "kuerzel": "AEK",
+      "primaerfarbe": "#f4d000",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/aek-athen.svg",
+      "status": "vorbereitet"
+    },
+    "celtic-glasgow": {
+      "name": "Celtic Glasgow",
+      "kuerzel": "CEL",
+      "primaerfarbe": "#168b46",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/celtic-glasgow.svg",
+      "status": "vorbereitet"
+    },
+    "lask": {
+      "name": "LASK",
+      "kuerzel": "LAS",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/lask.svg",
+      "status": "vorbereitet"
+    },
+    "viking-fk": {
+      "name": "Viking FK",
+      "kuerzel": "VIK",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/viking-fk.svg",
+      "status": "vorbereitet"
+    },
+    "aarhus-gf": {
+      "name": "Aarhus GF",
+      "kuerzel": "AG",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#1d3557",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/aarhus-gf.svg",
+      "status": "vorbereitet"
+    },
+    "ararat-armenia": {
+      "name": "Ararat-Armenia",
+      "kuerzel": "ARA",
+      "primaerfarbe": "#b61f2b",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ararat-armenia.svg",
+      "status": "vorbereitet"
+    },
+    "bod-glimt": {
+      "name": "Bodø/Glimt",
+      "kuerzel": "BOD",
+      "primaerfarbe": "#f6d500",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/bod-glimt.svg",
+      "status": "vorbereitet"
+    },
+    "nk-celje": {
+      "name": "NK Celje",
+      "kuerzel": "NKC",
+      "primaerfarbe": "#f6d500",
+      "sekundaerfarbe": "#1d3f8f",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/nk-celje.svg",
+      "status": "vorbereitet"
+    },
+    "roter-stern-belgrad": {
+      "name": "Roter Stern Belgrad",
+      "kuerzel": "RSB",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/roter-stern-belgrad.svg",
+      "status": "vorbereitet"
+    },
+    "fenerbahce": {
+      "name": "Fenerbahçe",
+      "kuerzel": "FEN",
+      "primaerfarbe": "#f6d400",
+      "sekundaerfarbe": "#173b70",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fenerbahce.svg",
+      "status": "vorbereitet"
+    },
+    "dinamo-zagreb": {
+      "name": "Dinamo Zagreb",
+      "kuerzel": "DZG",
+      "primaerfarbe": "#1557a5",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/dinamo-zagreb.svg",
+      "status": "vorbereitet"
+    },
+    "hapoel-beer-scheva": {
+      "name": "Hapoel Be’er Scheva",
+      "kuerzel": "HBS",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hapoel-beer-scheva.svg",
+      "status": "vorbereitet"
+    },
+    "kairat-almaty": {
+      "name": "Kairat Almaty",
+      "kuerzel": "KA",
+      "primaerfarbe": "#f5d000",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/kairat-almaty.svg",
+      "status": "vorbereitet"
+    },
+    "kauno-zalgiris": {
+      "name": "Kauno Žalgiris",
+      "kuerzel": "KA",
+      "primaerfarbe": "#168b46",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/kauno-zalgiris.svg",
+      "status": "vorbereitet"
+    },
+    "levski-sofia": {
+      "name": "Levski Sofia",
+      "kuerzel": "LS",
+      "primaerfarbe": "#1268b3",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/levski-sofia.svg",
+      "status": "vorbereitet"
+    },
+    "olympique-lyon": {
+      "name": "Olympique Lyon",
+      "kuerzel": "OL",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#1c3f94",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/olympique-lyon.svg",
+      "status": "vorbereitet"
+    },
+    "mjallby-aif": {
+      "name": "Mjällby AIF",
+      "kuerzel": "MA",
+      "primaerfarbe": "#f6d400",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/mjallby-aif.svg",
+      "status": "vorbereitet"
+    },
+    "nec-nijmegen": {
+      "name": "NEC Nijmegen",
+      "kuerzel": "NN",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#168b46",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/nec-nijmegen.svg",
+      "status": "vorbereitet"
+    },
+    "olympiakos-piraus": {
+      "name": "Olympiakos Piräus",
+      "kuerzel": "OLY",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/olympiakos-piraus.svg",
+      "status": "vorbereitet"
+    },
+    "slovan-bratislava": {
+      "name": "Slovan Bratislava",
+      "kuerzel": "SLO",
+      "primaerfarbe": "#69bde5",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/slovan-bratislava.svg",
+      "status": "vorbereitet"
+    },
+    "sabah-fc": {
+      "name": "Sabah FC",
+      "kuerzel": "SF",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sabah-fc.svg",
+      "status": "vorbereitet"
+    },
+    "sparta-prag": {
+      "name": "Sparta Prag",
+      "kuerzel": "SP",
+      "primaerfarbe": "#8f1d2c",
+      "sekundaerfarbe": "#f6d200",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sparta-prag.svg",
+      "status": "vorbereitet"
+    },
+    "sturm-graz": {
+      "name": "Sturm Graz",
+      "kuerzel": "SG",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sturm-graz.svg",
+      "status": "vorbereitet"
+    },
+    "union-saint-gilloise": {
+      "name": "Union Saint-Gilloise",
+      "kuerzel": "USG",
+      "primaerfarbe": "#f6d000",
+      "sekundaerfarbe": "#173b70",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/union-saint-gilloise.svg",
+      "status": "vorbereitet"
+    },
+    "kf-egnatia": {
+      "name": "KF Egnatia",
+      "kuerzel": "KE",
+      "primaerfarbe": "#1f6b48",
+      "sekundaerfarbe": "#f1d27a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/kf-egnatia.svg",
+      "status": "vorbereitet"
+    },
+    "gornik-zabrze": {
+      "name": "Górnik Zabrze",
+      "kuerzel": "GZ",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/gornik-zabrze.svg",
+      "status": "vorbereitet"
+    },
+    "heart-of-midlothian": {
+      "name": "Heart of Midlothian",
+      "kuerzel": "HM",
+      "primaerfarbe": "#7a1f2b",
+      "sekundaerfarbe": "#f3e6d0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/heart-of-midlothian.svg",
+      "status": "vorbereitet"
+    },
+    "iberia-tiflis": {
+      "name": "Iberia Tiflis",
+      "kuerzel": "IT",
+      "primaerfarbe": "#1a5a6e",
+      "sekundaerfarbe": "#f4e4b8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/iberia-tiflis.svg",
+      "status": "vorbereitet"
+    },
+    "ki-klaksvik": {
+      "name": "KÍ Klaksvík",
+      "kuerzel": "KK",
+      "primaerfarbe": "#1f6b48",
+      "sekundaerfarbe": "#f1d27a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ki-klaksvik.svg",
+      "status": "vorbereitet"
+    },
+    "kups-kuopio": {
+      "name": "KuPS Kuopio",
+      "kuerzel": "KK",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/kups-kuopio.svg",
+      "status": "vorbereitet"
+    },
+    "lincoln-red-imps": {
+      "name": "Lincoln Red Imps",
+      "kuerzel": "LRI",
+      "primaerfarbe": "#1a5a6e",
+      "sekundaerfarbe": "#f4e4b8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/lincoln-red-imps.svg",
+      "status": "vorbereitet"
+    },
+    "larne-fc": {
+      "name": "Larne FC",
+      "kuerzel": "LF",
+      "primaerfarbe": "#a84b16",
+      "sekundaerfarbe": "#1b1b1b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/larne-fc.svg",
+      "status": "vorbereitet"
+    },
+    "lech-posen": {
+      "name": "Lech Posen",
+      "kuerzel": "LP",
+      "primaerfarbe": "#a84b16",
+      "sekundaerfarbe": "#1b1b1b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/lech-posen.svg",
+      "status": "vorbereitet"
+    },
+    "omonia-nikosia": {
+      "name": "Omonia Nikosia",
+      "kuerzel": "ON",
+      "primaerfarbe": "#7a1f2b",
+      "sekundaerfarbe": "#f3e6d0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/omonia-nikosia.svg",
+      "status": "vorbereitet"
+    },
+    "shamrock-rovers": {
+      "name": "Shamrock Rovers",
+      "kuerzel": "SR",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/shamrock-rovers.svg",
+      "status": "vorbereitet"
+    },
+    "fc-thun": {
+      "name": "FC Thun",
+      "kuerzel": "FCT",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-thun.svg",
+      "status": "vorbereitet"
+    },
+    "universitatea-craiova": {
+      "name": "Universitatea Craiova",
+      "kuerzel": "UC",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/universitatea-craiova.svg",
+      "status": "vorbereitet"
+    },
+    "vikingur-reykjavik": {
+      "name": "Víkingur Reykjavík",
+      "kuerzel": "VR",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/vikingur-reykjavik.svg",
+      "status": "vorbereitet"
+    },
+    "atert-bissen": {
+      "name": "Atert Bissen",
+      "kuerzel": "AB",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/atert-bissen.svg",
+      "status": "vorbereitet"
+    },
+    "borac-banja-luka": {
+      "name": "Borac Banja Luka",
+      "kuerzel": "BBL",
+      "primaerfarbe": "#1a5a6e",
+      "sekundaerfarbe": "#f4e4b8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/borac-banja-luka.svg",
+      "status": "vorbereitet"
+    },
+    "fc-drita": {
+      "name": "FC Drita",
+      "kuerzel": "FCD",
+      "primaerfarbe": "#1f6b48",
+      "sekundaerfarbe": "#f1d27a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-drita.svg",
+      "status": "vorbereitet"
+    },
+    "flora-tallinn": {
+      "name": "Flora Tallinn",
+      "kuerzel": "FT",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/flora-tallinn.svg",
+      "status": "vorbereitet"
+    },
+    "floriana-fc": {
+      "name": "Floriana FC",
+      "kuerzel": "FF",
+      "primaerfarbe": "#1f6b48",
+      "sekundaerfarbe": "#f1d27a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/floriana-fc.svg",
+      "status": "vorbereitet"
+    },
+    "gyori-eto": {
+      "name": "Győri ETO",
+      "kuerzel": "GE",
+      "primaerfarbe": "#7a1f2b",
+      "sekundaerfarbe": "#f3e6d0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/gyori-eto.svg",
+      "status": "vorbereitet"
+    },
+    "inter-club-descaldes": {
+      "name": "Inter Club d’Escaldes",
+      "kuerzel": "ID",
+      "primaerfarbe": "#7a1f2b",
+      "sekundaerfarbe": "#f3e6d0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/inter-club-descaldes.svg",
+      "status": "vorbereitet"
+    },
+    "ml-vitebsk": {
+      "name": "ML Vitebsk",
+      "kuerzel": "MV",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ml-vitebsk.svg",
+      "status": "vorbereitet"
+    },
+    "petrocub-hincesti": {
+      "name": "Petrocub Hîncești",
+      "kuerzel": "PH",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/petrocub-hincesti.svg",
+      "status": "vorbereitet"
+    },
+    "riga-fc": {
+      "name": "Riga FC",
+      "kuerzel": "RF",
+      "primaerfarbe": "#1a5a6e",
+      "sekundaerfarbe": "#f4e4b8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/riga-fc.svg",
+      "status": "vorbereitet"
+    },
+    "sutjeska-niksic": {
+      "name": "Sutjeska Nikšić",
+      "kuerzel": "SN",
+      "primaerfarbe": "#1a5a6e",
+      "sekundaerfarbe": "#f4e4b8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sutjeska-niksic.svg",
+      "status": "vorbereitet"
+    },
+    "the-new-saints": {
+      "name": "The New Saints",
+      "kuerzel": "TNS",
+      "primaerfarbe": "#1f6b48",
+      "sekundaerfarbe": "#f1d27a",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/the-new-saints.svg",
+      "status": "vorbereitet"
+    },
+    "tre-fiori": {
+      "name": "Tre Fiori",
+      "kuerzel": "TF",
+      "primaerfarbe": "#7a1f2b",
+      "sekundaerfarbe": "#f3e6d0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/tre-fiori.svg",
+      "status": "vorbereitet"
+    },
+    "vardar-skopje": {
+      "name": "Vardar Skopje",
+      "kuerzel": "VS",
+      "primaerfarbe": "#a84b16",
+      "sekundaerfarbe": "#1b1b1b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/vardar-skopje.svg",
+      "status": "vorbereitet"
+    },
+    "az-alkmaar": {
+      "name": "AZ Alkmaar",
+      "kuerzel": "AZ",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/az-alkmaar.svg",
+      "status": "vorbereitet"
+    },
+    "afc-bournemouth": {
+      "name": "AFC Bournemouth",
+      "kuerzel": "BOU",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/afc-bournemouth.svg",
+      "status": "vorbereitet"
+    },
+    "celta-vigo": {
+      "name": "Celta Vigo",
+      "kuerzel": "CV",
+      "primaerfarbe": "#74b9e6",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/celta-vigo.svg",
+      "status": "vorbereitet"
+    },
+    "crystal-palace": {
+      "name": "Crystal Palace",
+      "kuerzel": "CRY",
+      "primaerfarbe": "#1b4ea1",
+      "sekundaerfarbe": "#d71920",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/crystal-palace.svg",
+      "status": "vorbereitet"
+    },
+    "real-sociedad": {
+      "name": "Real Sociedad",
+      "kuerzel": "RSO",
+      "primaerfarbe": "#1471b9",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/real-sociedad.svg",
+      "status": "vorbereitet"
+    },
+    "stade-rennes": {
+      "name": "Stade Rennes",
+      "kuerzel": "REN",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/stade-rennes.svg",
+      "status": "vorbereitet"
+    },
+    "sunderland-afc": {
+      "name": "Sunderland AFC",
+      "kuerzel": "SUN",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sunderland-afc.svg",
+      "status": "vorbereitet"
+    },
+    "scu-torreense": {
+      "name": "SCU Torreense",
+      "kuerzel": "ST",
+      "primaerfarbe": "#8f1d2c",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/scu-torreense.svg",
+      "status": "vorbereitet"
+    },
+    "lillestrm-sk": {
+      "name": "Lillestrøm SK",
+      "kuerzel": "LS",
+      "primaerfarbe": "#f6d500",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/lillestrm-sk.svg",
+      "status": "vorbereitet"
+    },
+    "ofi-kreta": {
+      "name": "OFI Kreta",
+      "kuerzel": "OK",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ofi-kreta.svg",
+      "status": "vorbereitet"
+    },
+    "sint-truidense-vv": {
+      "name": "Sint-Truidense VV",
+      "kuerzel": "SV",
+      "primaerfarbe": "#f6d500",
+      "sekundaerfarbe": "#173b70",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sint-truidense-vv.svg",
+      "status": "vorbereitet"
+    },
+    "trabzonspor": {
+      "name": "Trabzonspor",
+      "kuerzel": "TRA",
+      "primaerfarbe": "#7a263a",
+      "sekundaerfarbe": "#62a8d8",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/trabzonspor.svg",
+      "status": "vorbereitet"
+    },
+    "viktoria-pilsen": {
+      "name": "Viktoria Pilsen",
+      "kuerzel": "VP",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#1f4b99",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/viktoria-pilsen.svg",
+      "status": "vorbereitet"
+    },
+    "rsc-anderlecht": {
+      "name": "RSC Anderlecht",
+      "kuerzel": "AND",
+      "primaerfarbe": "#5c2d91",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/rsc-anderlecht.svg",
+      "status": "vorbereitet"
+    },
+    "besiktas": {
+      "name": "Beşiktaş",
+      "kuerzel": "BJK",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/besiktas.svg",
+      "status": "vorbereitet"
+    },
+    "zska-sofia": {
+      "name": "ZSKA Sofia",
+      "kuerzel": "CSK",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/zska-sofia.svg",
+      "status": "vorbereitet"
+    },
+    "ferencvaros": {
+      "name": "Ferencváros",
+      "kuerzel": "FTC",
+      "primaerfarbe": "#168b46",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/ferencvaros.svg",
+      "status": "vorbereitet"
+    },
+    "fc-hradec-kralove": {
+      "name": "FC Hradec Králové",
+      "kuerzel": "HK",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-hradec-kralove.svg",
+      "status": "vorbereitet"
+    },
+    "jagiellonia-biaystok": {
+      "name": "Jagiellonia Białystok",
+      "kuerzel": "JB",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#f6d000",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/jagiellonia-biaystok.svg",
+      "status": "vorbereitet"
+    },
+    "maccabi-tel-aviv": {
+      "name": "Maccabi Tel Aviv",
+      "kuerzel": "MTA",
+      "primaerfarbe": "#f6d000",
+      "sekundaerfarbe": "#173b70",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/maccabi-tel-aviv.svg",
+      "status": "vorbereitet"
+    },
+    "pafos-fc": {
+      "name": "Pafos FC",
+      "kuerzel": "PF",
+      "primaerfarbe": "#2b6cb0",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/pafos-fc.svg",
+      "status": "vorbereitet"
+    },
+    "paok-thessaloniki": {
+      "name": "PAOK Thessaloniki",
+      "kuerzel": "PT",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/paok-thessaloniki.svg",
+      "status": "vorbereitet"
+    },
+    "glasgow-rangers": {
+      "name": "Glasgow Rangers",
+      "kuerzel": "RAN",
+      "primaerfarbe": "#1d4e9e",
+      "sekundaerfarbe": "#d71920",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/glasgow-rangers.svg",
+      "status": "vorbereitet"
+    },
+    "red-bull-salzburg": {
+      "name": "Red Bull Salzburg",
+      "kuerzel": "RBS",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#d71920",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/red-bull-salzburg.svg",
+      "status": "vorbereitet"
+    },
+    "dynamo-kiew": {
+      "name": "Dynamo Kiew",
+      "kuerzel": "DKY",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#2b6cb0",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/dynamo-kiew.svg",
+      "status": "vorbereitet"
+    },
+    "hajduk-split": {
+      "name": "Hajduk Split",
+      "kuerzel": "HAJ",
+      "primaerfarbe": "#ffffff",
+      "sekundaerfarbe": "#1d4e9e",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hajduk-split.svg",
+      "status": "vorbereitet"
+    },
+    "hammarby-if": {
+      "name": "Hammarby IF",
+      "kuerzel": "HI",
+      "primaerfarbe": "#168b46",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/hammarby-if.svg",
+      "status": "vorbereitet"
+    },
+    "fc-midtjylland": {
+      "name": "FC Midtjylland",
+      "kuerzel": "FCM",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-midtjylland.svg",
+      "status": "vorbereitet"
+    },
+    "qarabag-agdam": {
+      "name": "Qarabağ Ağdam",
+      "kuerzel": "QAR",
+      "primaerfarbe": "#111111",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/qarabag-agdam.svg",
+      "status": "vorbereitet"
+    },
+    "sheriff-tiraspol": {
+      "name": "Sheriff Tiraspol",
+      "kuerzel": "SHF",
+      "primaerfarbe": "#f6d000",
+      "sekundaerfarbe": "#111111",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/sheriff-tiraspol.svg",
+      "status": "vorbereitet"
+    },
+    "fc-st-gallen": {
+      "name": "FC St. Gallen",
+      "kuerzel": "SG",
+      "primaerfarbe": "#168b46",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-st-gallen.svg",
+      "status": "vorbereitet"
+    },
+    "troms-il": {
+      "name": "Tromsø IL",
+      "kuerzel": "TI",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/troms-il.svg",
+      "status": "vorbereitet"
+    },
+    "fc-twente": {
+      "name": "FC Twente",
+      "kuerzel": "TWE",
+      "primaerfarbe": "#d71920",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/fc-twente.svg",
+      "status": "vorbereitet"
+    },
+    "nk-aluminij": {
+      "name": "NK Aluminij",
+      "kuerzel": "NKA",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/nk-aluminij.svg",
+      "status": "vorbereitet"
+    },
+    "derry-city": {
+      "name": "Derry City",
+      "kuerzel": "DC",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/derry-city.svg",
+      "status": "vorbereitet"
+    },
+    "universitatea-cluj": {
+      "name": "Universitatea Cluj",
+      "kuerzel": "UC",
+      "primaerfarbe": "#173b70",
+      "sekundaerfarbe": "#ffffff",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/universitatea-cluj.svg",
+      "status": "vorbereitet"
+    },
+    "vestri": {
+      "name": "Vestri",
+      "kuerzel": "VES",
+      "primaerfarbe": "#a84b16",
+      "sekundaerfarbe": "#1b1b1b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/vestri.svg",
+      "status": "vorbereitet"
+    },
+    "vojvodina-novi-sad": {
+      "name": "Vojvodina Novi Sad",
+      "kuerzel": "VNS",
+      "primaerfarbe": "#5a2d82",
+      "sekundaerfarbe": "#f0d9a5",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/vojvodina-novi-sad.svg",
+      "status": "vorbereitet"
+    },
+    "msk-zilina": {
+      "name": "MŠK Žilina",
+      "kuerzel": "MI",
+      "primaerfarbe": "#a84b16",
+      "sekundaerfarbe": "#1b1b1b",
+      "datei": "./assets/smugglers-design-system/schmugglersiegel/msk-zilina.svg",
+      "status": "vorbereitet"
+    }
+  }
+}

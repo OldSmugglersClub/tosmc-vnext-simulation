@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generator": "Admin 6.5.0-HF4-HF5",
+  "erstelltAm": "2026-08-30T19:24:07.622Z",
+  "modus": "test",
+  "fachlicheAuftragsId": "2026-27__bundesliga__1-spieltag__bl-2026-27-01-001-bl-2026-27-01-002-bl-2026-27-01-003-bl-2026-27-01-004-bl-2026-27-01-005-bl-2026-27-01-006-bl-2026-27-01-007-bl-2026-27-01-008-bl-2026-27-01-009",
+  "uploadDateien": [
+    "spielbetrieb.json",
+    "teilnehmer.json",
+    "import-history.json",
+    "spieldaten.json",
+    "tipps.json",
+    "punkte.json",
+    "spieltagpunkte.json",
+    "wettbewerbspunkte.json",
+    "smugglerpunkte.json",
+    "teampunkte.json",
+    "ranglistenverlauf.json",
+    "highscore.json",
+    "hall-of-fame.json",
+    "website-view.json",
+    "spieltag-logbuch.json",
+    "topspieler.json",
+    "teams.json"
+  ],
+  "dokumentationsDateien": [
+    "UPLOADLISTE.txt",
+    "SHA256-WEBSITE-DATEN.txt",
+    "PRUEFPROTOKOLL.json",
+    "MANIFEST.json"
+  ],
+  "backupPfad": null,
+  "sha256": {
+    "spielbetrieb.json": "ac3766259545ccaa17b6f6045cb3983393781b1e54b1ecc22de7aa12690ed773",
+    "teilnehmer.json": "ee5a8d7424b46484cbf84f50f069bb7178284a19655cc4bc2c5520ebcee8d687",
+    "import-history.json": "c2fe90002b453da2162301d5627259deafd3506ec98ce7663463821b7bec333c",
+    "spieldaten.json": "6564b6b9e7a0e835c81e534ddead068c4c3b969d79395c01c95f0ccf7ad2ac53",
+    "tipps.json": "8016f49a80465dab059ac8b696eb6443957ce5177f5aab133308b2e95fbdba15",
+    "punkte.json": "1c9330f65c43441557a86d4298dfca2fe184e6cc50efd73512ea631856ae36d3",
+    "spieltagpunkte.json": "b88a00019f2d7d0fc1ec2ca48d1248b31ed0657b3d57fa32e7999a894547a2f9",
+    "wettbewerbspunkte.json": "bc6e9614735d2a318cdd01d6e233e41118886289bfe8a21b80de3394093b372f",
+    "smugglerpunkte.json": "2363b49ab6b26abebf7980d440a522f6d19a652d6307a3d6333bc2bf06fb4f66",
+    "teampunkte.json": "0e6d2e01cf636da6e5cb8bbf3af6c3f192bb7e83d049054baa8baba014c6c3a2",
+    "ranglistenverlauf.json": "b7e7d7db2f1da6bbd11a5f43f7372f6ac47e9b48596e6d519940281743e697ed",
+    "highscore.json": "aece9d4c738414ec0558c80280b058fddfbe94ff344465ecbff2db71f2744203",
+    "hall-of-fame.json": "ff51018c710f08cfea93359dc5ae1f3c4bcf764dd4617feea4f65021b6568df3",
+    "website-view.json": "20739a78451f59c4909c7e7dab0b5f054bc0cc7efe7f025778799d74328b13a0",
+    "spieltag-logbuch.json": "9253458b031f9905ff6a24cb1bbc04928d09fc3bef0ac5e7b3f85e1da971e570",
+    "topspieler.json": "0dd901fc1726ad593d8c2bfb8d5063559acbad90762a9edb153566b813b381c4",
+    "teams.json": "291d52950bcac58f53d92679f295651d09a1d5dbcbfb31ac32fccd27d6559c40"
+  }
+}

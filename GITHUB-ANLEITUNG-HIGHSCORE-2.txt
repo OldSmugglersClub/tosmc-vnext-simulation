@@ -1,0 +1,24 @@
+HIGHSCORE 2.0 – GITHUB-UPLOAD
+
+Diese Dateien im Hauptverzeichnis ersetzen:
+- highscore.html
+- highscore.css
+- highscore.js
+
+Diese Dateien können unverändert mit hochgeladen werden:
+- club-crest.svg
+- highscore.json
+- kicktipp_highscore_import.py
+
+Wichtig:
+- Die originalen Kicktipp-CSV-Dateien niemals auf GitHub hochladen. Sie enthalten E-Mail-Adressen.
+- Browser nach dem Upload mit Strg + F5 neu laden.
+
+Neu:
+- Piratenemblem statt violettem Clipart
+- Top-3-Podium
+- Suche nach Spielern
+- 25/50/100 Einträge pro Seite
+- Vor/Zurück-Navigation
+- eigene Bereiche für beide Gruppierungen
+- Rekorde, Piratenorden und vorbereitete Saisonhistorie

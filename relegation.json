@@ -1,0 +1,40 @@
+{
+  "bereich": "Wettbewerbszentrale",
+  "statusSchild": "1 Spieltag · 4 Spiele",
+  "titel": "Relegation",
+  "beschreibung": "Vier Entscheidungsspiele, ein gemeinsamer Tippspieltag: Bundesliga- und Zweitliga-Relegation werden zusammen in der Einzel-Gesamtwertung gewertet.",
+  "karten": [
+    {
+      "titel": "Modus",
+      "text": "Der Relegations-Tippspieltag besteht aus vier Partien: Hin- und Rückspiel der Bundesliga-Relegation sowie Hin- und Rückspiel der Zweitliga-Relegation. Alle vier Tipps zählen gemeinsam als ein Wertungsspieltag."
+    },
+    {
+      "titel": "Termine",
+      "text": "27.05.2027 und 31.05.2027: Bundesliga-Relegation. 28.05.2027 und 01.06.2027: Relegation zur 2. Bundesliga. Anstoß jeweils 20:30 Uhr."
+    },
+    {
+      "titel": "Auswertung",
+      "text": "Sobald Teilnehmer und Ergebnisse feststehen, erscheinen hier die vier Paarungen, Einzelergebnisse, Gesamtergebnisse aus Hin- und Rückspiel sowie die jeweiligen Sieger."
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Relegation 2026/2027"
+}

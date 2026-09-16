@@ -1,0 +1,25 @@
+{
+  "wettbewerb": "Bundesliga",
+  "titel": "1. Spieltag",
+  "saison": "2026/2027",
+  "status": "Termin fix",
+  "hinweisAnzeigen": false,
+  "hinweis": "",
+  "ereignisFestgelegt": true,
+  "ereignisLink": "./bundesliga.html#spieltag-1",
+  "buttonText": "Zum Ereignis",
+  "kicktippLink": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+  "kicktippButtonText": "Kicktipp Live Action",
+  "emblemKurz": "OSC",
+  "emblemText": "CREW",
+  "spiele": [
+    {
+      "datum": "28. August 2026",
+      "anstoss": "20:30 Uhr",
+      "heim": "Heimverein",
+      "trenner": "gegen",
+      "auswaerts": "Auswärtsverein",
+      "status": ""
+    }
+  ]
+}

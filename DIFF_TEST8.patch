@@ -1,0 +1,27 @@
+--- logbuch.css TEST4/TEST7-Basis
++++ logbuch.css TEST8
+@@ -954,3 +954,12 @@
+ .lb-archive-field select:focus{outline:2px solid rgba(211,160,74,.7);outline-offset:2px}
+ .lb-archive-empty{color:#bda783;line-height:1.5}
+ @media(max-width:760px){.lb-archive-controls{grid-template-columns:1fr}}
++
++/* Website 4.9.2-HF12-HF101-TEST8 – Mobile Logbuch-Navigation ohne Seitenüberlauf */
++@media(max-width:520px){
++  .lb-toolbar .tosmc-nav-button{
++    box-sizing:border-box;
++    max-width:100%;
++  }
++}
++
+
+--- logbuch.html TEST4/TEST7-Basis
++++ logbuch.html TEST8
+@@ -2,7 +2,7 @@
+ <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="description" content="Spieltags-Logbuch des The Old Smugglers Club">
+ <title>Logbuch | The Old Smugglers Club</title>
+-<link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF101-TEST4"><link rel="stylesheet" href="./accessibility-v33.css"><link rel="stylesheet" href="./legal.css">
++<link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF101-TEST8"><link rel="stylesheet" href="./accessibility-v33.css"><link rel="stylesheet" href="./legal.css">
+ <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+ </head><body>
+ <main class="lb-page" id="logbuch-top"><div class="lb-shell">

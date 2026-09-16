@@ -1,0 +1,15 @@
+{
+  "auditVersion": "4.0.4",
+  "generatedAtUtc": "2026-07-31T12:31:38.753241+00:00",
+  "status": "OK",
+  "version": "4.0.4",
+  "counts": {
+    "html": 11,
+    "javascript": 8,
+    "json": 35,
+    "referencesChecked": 99
+  },
+  "missingLocalReferences": [],
+  "jsonErrors": [],
+  "forbiddenPublicAdminFiles": []
+}

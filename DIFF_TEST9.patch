@@ -1,0 +1,99 @@
+--- index.html vorher
++++ index.html TEST9
+@@ -5624,6 +5624,13 @@
+     #hall-of-fame .record-card strong:not(.status-open) {
+       font-variant-numeric: tabular-nums;
+     }
++    #hall-of-fame .record-card .record-season {
++      color: #aa946d;
++      font-size: .72rem;
++      font-weight: 700;
++      letter-spacing: .035em;
++      line-height: 1.2;
++    }
+     @media (max-width: 900px) {
+       #hall-of-fame .records-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+     }
+@@ -5777,7 +5784,7 @@
+ 
+ </style>
+   <link rel="stylesheet" href="./legal.css">
+-  <script src="./hall-of-fame-runtime.js?v=4.9.2-HF12-HF99-TEST3"></script>
++  <script src="./hall-of-fame-runtime.js?v=4.9.2-HF12-HF101-TEST9"></script>
+   <script src="./highscore-data-adapter.js"></script>
+   <link rel="stylesheet" href="./website-mitteilung.css?v=4.9.2-HF12-HF40">
+   <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+@@ -6300,14 +6307,17 @@
+             <div class="record-card">
+               <span id="record-total-label">Gesamtpunkte</span>
+               <strong id="record-total-value">346 · Manuel</strong>
++              <small class="record-season" id="record-total-season">Saison 2025/2026</small>
+             </div>
+             <div class="record-card">
+               <span id="record-bonus-label">Bonuspunkte</span>
+               <strong id="record-bonus-value">60 · ZweikampfGott</strong>
++              <small class="record-season" id="record-bonus-season">Saison 2025/2026</small>
+             </div>
+             <div class="record-card">
+               <span id="record-exact-label">Exakte Tipps</span>
+               <strong id="record-exact-value">17 · Marius</strong>
++              <small class="record-season" id="record-exact-season">Saison 2025/2026</small>
+             </div>
+             <div class="record-card">
+               <span id="record-other-label">Weitere Rekorde</span>
+@@ -7171,23 +7181,34 @@
+           chronikRow2.hidden = true;
+         }
+ 
++        const recordSeason = record => record?.saison || record?.jahr || data.aktuellerChampion?.saison || data.aktuellerChampion?.jahr || "";
++        const setRecordSeason = (id, record) => {
++          const season = recordSeason(record);
++          setText(id, season ? `Saison ${season}` : "");
++          const node = document.getElementById(id);
++          if (node) node.hidden = !season;
++        };
++
+         setText("record-total-label", data.rekorde?.gesamtpunkte?.label);
+         setText(
+           "record-total-value",
+           `${data.rekorde?.gesamtpunkte?.wert ?? ""} · ${data.rekorde?.gesamtpunkte?.name ?? ""}`.trim()
+         );
++        setRecordSeason("record-total-season", data.rekorde?.gesamtpunkte);
+ 
+         setText("record-bonus-label", data.rekorde?.bonuspunkte?.label);
+         setText(
+           "record-bonus-value",
+           `${data.rekorde?.bonuspunkte?.wert ?? ""} · ${data.rekorde?.bonuspunkte?.name ?? ""}`.trim()
+         );
++        setRecordSeason("record-bonus-season", data.rekorde?.bonuspunkte);
+ 
+         setText("record-exact-label", data.rekorde?.exakteTipps?.label);
+         setText(
+           "record-exact-value",
+           `${data.rekorde?.exakteTipps?.wert ?? ""} · ${data.rekorde?.exakteTipps?.name ?? ""}`.trim()
+         );
++        setRecordSeason("record-exact-season", data.rekorde?.exakteTipps);
+ 
+         setText("record-other-label", data.rekorde?.weitere?.label);
+         setText("record-other-value", data.rekorde?.weitere?.wert);
+
+--- hall-of-fame-runtime.js vorher
++++ hall-of-fame-runtime.js TEST9
+@@ -29,7 +29,16 @@
+       result.besondereLeistungen=[...existing,...additions.filter(a=>!existing.some(e=>e.titel===a.titel&&e.name===a.name))];
+     }
+     if(Array.isArray(update.meisterchronik)) result.meisterchronik=update.meisterchronik.filter(x=>x&&x.freigegeben===true&&x.name&&x.saison);
+-    if(update.rekorde&&update.rekordeFreigegeben===true) result.rekorde={...(result.rekorde||{}),...update.rekorde};
++    if(update.rekorde&&update.rekordeFreigegeben===true){
++      const recordSeason=seasonState?.saison||update.saison||"";
++      const releasedRecords={};
++      for(const [key,entry] of Object.entries(update.rekorde)){
++        releasedRecords[key]=entry&&typeof entry==="object"&&entry.offen!==true
++          ? {...entry,...(!entry.saison&&recordSeason?{saison:recordSeason}:{})}
++          : entry;
++      }
++      result.rekorde={...(result.rekorde||{}),...releasedRecords};
++    }
+     const special=Array.isArray(result.besondereLeistungen)?result.besondereLeistungen.filter(x=>x&&x.name&&x.titel&&(x.bestaetigt===true||x.freigegeben===true||x.offen===false)).at(-1):null;
+     if(special) result.ehrenmitglieder={label:special.titel,wert:special.name,offen:false};
+     result.meta={...(result.meta||{}),runtime:"Das Ehrenlogbuch wurde aktualisiert."};

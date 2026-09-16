@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "season": "2026/2027",
+  "purpose": "Release-Fallback fuer saisonweite OpenLigaDB-Torjaeger von CL, EL und DFB-Pokal. Live-Daten haben Vorrang. Leere Eintraege sind bewusst kein konkurrierender Datenbestand.",
+  "competitions": {
+    "champions-league": { "capturedAt": null, "source": "OpenLigaDB", "data": [] },
+    "europa-league": { "capturedAt": null, "source": "OpenLigaDB", "data": [] },
+    "dfb-pokal": { "capturedAt": null, "source": "OpenLigaDB", "data": [] }
+  }
+}

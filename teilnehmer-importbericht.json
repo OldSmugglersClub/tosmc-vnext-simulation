@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "erstelltAm": "2026-07-31",
+  "quelle": "Kicktipp-Mitgliederexport 2026-07-31 10:40:56 UTC",
+  "ergebnis": {
+    "importierteTeilnehmer": 100,
+    "vorherigeTeilnehmer": 98,
+    "neuHinzugefuegt": [
+      "Eckes2359",
+      "Stevie26"
+    ],
+    "nichtMehrEnthalten": [],
+    "aktiveTeilnehmer": 100
+  },
+  "teamzuordnung": {
+    "Old Smugglers Team": 24,
+    "New Smugglers Team": 76
+  },
+  "datenschutz": {
+    "emailAdressenImQuellExport": true,
+    "emailAdressenUebernommen": false,
+    "oeffentlichePersonendaten": [
+      "Kicktipp-Anzeigename",
+      "Mitgliedsdatum",
+      "Smuggler-Team",
+      "Sprache"
+    ],
+    "nichtUebernommen": [
+      "E-Mail-Adresse"
+    ]
+  },
+  "idStrategie": "Bestehende stabile Teilnehmer-IDs wurden beibehalten; nur neue Teilnehmer erhielten slug-basierte eindeutige IDs."
+}

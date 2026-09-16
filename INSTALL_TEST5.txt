@@ -1,0 +1,10 @@
+TOSMC Test2v2 TEST5 – Highscore Statusmeldung
+
+Nur im Test2v2-System einspielen.
+Dateien ersetzen:
+- VERSION.txt
+- highscore.html
+- highscore-data-adapter.js
+
+Ziel:
+Der technisch zulässige Fallback von website-view.json auf highscore.json wird nicht mehr pauschal als "Daten nicht vollständig" gewertet. Echte fehlende Daten (z. B. fehlende Teamdaten für eine Auswahl) werden weiterhin durch highscore.js gemeldet.

@@ -1,0 +1,1542 @@
+{
+  "schemaVersion": 2,
+  "datenVersion": "4.9.2-HF12-HF62",
+  "aktualisiert": "2026-09-09",
+  "hinweis": "Verbindlicher Teamstammdatenbestand. Jede in den Spieldaten verwendete Team-ID muss einen offiziellen Anzeigenamen und den lokalen Originalwappen-Pfad besitzen.",
+  "quelle": "Admin 6.5.0-HF18",
+  "teams": [
+    {
+      "id": "ac-mailand",
+      "name": "AC Mailand",
+      "kurzname": "AC Mailand",
+      "land": "Italien",
+      "logo": "./assets/team-logos/original/ac-mailand.png",
+      "aktiv": true,
+      "national": "serie-a",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "AC Mailand",
+        "ac-mailand"
+      ]
+    },
+    {
+      "id": "aek-athen",
+      "name": "AEK Athen",
+      "kurzname": "AEK Athen",
+      "land": "Griechenland",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "AEK Athen",
+        "AEK Athens"
+      ],
+      "apiAliase": [
+        "AEK Athen",
+        "AEK Athens",
+        "AEK Athens FC"
+      ],
+      "logo": "./assets/team-logos/original/aek-athen.png"
+    },
+    {
+      "id": "arminia-bielefeld",
+      "name": "DSC Arminia Bielefeld",
+      "kurzname": "Arminia Bielefeld",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/arminia-bielefeld.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "DSC Arminia Bielefeld",
+        "Arminia Bielefeld",
+        "arminia-bielefeld"
+      ]
+    },
+    {
+      "id": "arsenal",
+      "name": "FC Arsenal",
+      "kurzname": "Arsenal",
+      "land": "England",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "FC Arsenal",
+        "Arsenal"
+      ],
+      "apiAliase": [
+        "FC Arsenal",
+        "Arsenal",
+        "Arsenal FC"
+      ],
+      "logo": "./assets/team-logos/original/arsenal.png"
+    },
+    {
+      "id": "as-rom",
+      "name": "AS Rom",
+      "kurzname": "AS Rom",
+      "land": "Italien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "AS Rom",
+        "AS Roma"
+      ],
+      "apiAliase": [
+        "AS Rom",
+        "AS Roma",
+        "Roma"
+      ],
+      "logo": "./assets/team-logos/original/as-rom.png"
+    },
+    {
+      "id": "aston-villa",
+      "name": "Aston Villa",
+      "kurzname": "Aston Villa",
+      "land": "England",
+      "logo": "./assets/team-logos/original/aston-villa.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Aston Villa",
+        "aston-villa"
+      ]
+    },
+    {
+      "id": "atletico-madrid",
+      "name": "Atlético Madrid",
+      "kurzname": "Atlético",
+      "land": "Spanien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Atletico Madrid",
+        "Atlético Madrid"
+      ],
+      "apiAliase": [
+        "Atletico Madrid",
+        "Atlético Madrid",
+        "Atlético de Madrid"
+      ],
+      "logo": "./assets/team-logos/original/atletico-madrid.png"
+    },
+    {
+      "id": "augsburg",
+      "name": "FC Augsburg",
+      "kurzname": "FC Augsburg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/augsburg.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCA"
+      ],
+      "apiAliase": [
+        "FC Augsburg",
+        "augsburg"
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name": "FC Barcelona",
+      "kurzname": "FC Barcelona",
+      "land": "Spanien",
+      "logo": "./assets/team-logos/original/barcelona.png",
+      "aktiv": true,
+      "national": "la-liga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "FC Barcelona",
+        "barcelona"
+      ]
+    },
+    {
+      "id": "bayern-muenchen",
+      "name": "FC Bayern München",
+      "kurzname": "FC Bayern",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/bayern-muenchen.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCB"
+      ],
+      "apiAliase": [
+        "FC Bayern München",
+        "FC Bayern",
+        "bayern-muenchen",
+        "Bayern Munich",
+        "FC Bayern Munich",
+        "Bayern Munchen"
+      ]
+    },
+    {
+      "id": "benfica-lissabon",
+      "name": "Benfica Lissabon",
+      "kurzname": "Benfica Lissabon",
+      "land": "Portugal",
+      "logo": "./assets/team-logos/original/benfica-lissabon.png",
+      "aktiv": true,
+      "national": "primeira-liga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Benfica Lissabon",
+        "benfica-lissabon"
+      ]
+    },
+    {
+      "id": "bochum",
+      "name": "VfL Bochum 1848",
+      "kurzname": "VfL Bochum",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/bochum.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "BOC"
+      ],
+      "apiAliase": [
+        "VfL Bochum 1848",
+        "VfL Bochum",
+        "bochum"
+      ]
+    },
+    {
+      "id": "bod-glimt",
+      "name": "FK Bodø/Glimt",
+      "kurzname": "Bodø/Glimt",
+      "land": "Norwegen",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Bodø/Glimt",
+        "Bodo/Glimt"
+      ],
+      "apiAliase": [
+        "FK Bodö/Glimt",
+        "FK Bodø/Glimt",
+        "Bodø/Glimt",
+        "Bodo Glimt"
+      ],
+      "logo": "./assets/team-logos/original/bod-glimt.png"
+    },
+    {
+      "id": "braunschweig",
+      "name": "Eintracht Braunschweig",
+      "kurzname": "Braunschweig",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/braunschweig.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Eintracht Braunschweig",
+        "Braunschweig"
+      ]
+    },
+    {
+      "id": "club-brugge",
+      "name": "Club Brügge",
+      "kurzname": "Club Brügge",
+      "land": "Belgien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Club Brügge",
+        "Club Brugge"
+      ],
+      "apiAliase": [
+        "FC Brügge",
+        "Club Brügge",
+        "Club Brugge",
+        "Club Brugge KV"
+      ],
+      "logo": "./assets/team-logos/original/club-brugge.png"
+    },
+    {
+      "id": "como-1907",
+      "name": "Como 1907",
+      "kurzname": "Como",
+      "land": "Italien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Como 1907",
+        "Como"
+      ],
+      "apiAliase": [
+        "Como 1907",
+        "Como"
+      ],
+      "logo": "./assets/team-logos/original/como-1907.png"
+    },
+    {
+      "id": "darmstadt-98",
+      "name": "SV Darmstadt 98",
+      "kurzname": "Darmstadt 98",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/darmstadt-98.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SVD",
+        "D98"
+      ],
+      "apiAliase": [
+        "SV Darmstadt 98",
+        "Darmstadt 98",
+        "darmstadt-98",
+        "Darmstadt"
+      ]
+    },
+    {
+      "id": "dortmund",
+      "name": "Borussia Dortmund",
+      "kurzname": "Borussia Dortmund",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/dortmund.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "BVB"
+      ],
+      "apiAliase": [
+        "Borussia Dortmund",
+        "dortmund"
+      ]
+    },
+    {
+      "id": "dynamo-dresden",
+      "name": "SG Dynamo Dresden",
+      "kurzname": "Dynamo Dresden",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/dynamo-dresden.svg",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SGD"
+      ],
+      "apiAliase": [
+        "SG Dynamo Dresden",
+        "Dynamo Dresden",
+        "dynamo-dresden"
+      ]
+    },
+    {
+      "id": "elversberg",
+      "name": "SV Elversberg",
+      "kurzname": "SV Elversberg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/elversberg.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "ELV"
+      ],
+      "apiAliase": [
+        "SV Elversberg",
+        "elversberg"
+      ]
+    },
+    {
+      "id": "energie-cottbus",
+      "name": "FC Energie Cottbus",
+      "kurzname": "Energie Cottbus",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/energie-cottbus.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "FC Energie Cottbus",
+        "Energie Cottbus",
+        "energie-cottbus"
+      ]
+    },
+    {
+      "id": "fc-bologna",
+      "name": "FC Bologna",
+      "kurzname": "FC Bologna",
+      "land": "Italien",
+      "logo": "./assets/team-logos/original/fc-bologna.png",
+      "aktiv": true,
+      "national": "serie-a",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "FC Bologna",
+        "fc-bologna"
+      ]
+    },
+    {
+      "id": "fc-liverpool",
+      "name": "FC Liverpool",
+      "kurzname": "FC Liverpool",
+      "land": "England",
+      "logo": "./assets/team-logos/original/fc-liverpool.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "FC Liverpool",
+        "fc-liverpool"
+      ]
+    },
+    {
+      "id": "fc-porto",
+      "name": "FC Porto",
+      "kurzname": "Porto",
+      "land": "Portugal",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "FC Porto",
+        "Porto"
+      ],
+      "apiAliase": [
+        "FC Porto",
+        "Porto"
+      ],
+      "logo": "./assets/team-logos/original/fc-porto.png"
+    },
+    {
+      "id": "fenerbahce",
+      "name": "Fenerbahçe SK",
+      "kurzname": "Fenerbahçe",
+      "land": "Türkei",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Fenerbahçe",
+        "Fenerbahce"
+      ],
+      "apiAliase": [
+        "Fenerbahçe SK",
+        "Fenerbahce SK",
+        "Fenerbahçe Istanbul",
+        "Fenerbahce Istanbul"
+      ],
+      "logo": "./assets/team-logos/original/fenerbahce.png"
+    },
+    {
+      "id": "feyenoord-rotterdam",
+      "name": "Feyenoord Rotterdam",
+      "kurzname": "Feyenoord",
+      "land": "Niederlande",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Feyenoord Rotterdam",
+        "Feyenoord"
+      ],
+      "apiAliase": [
+        "Feyenoord Rotterdam",
+        "Feyenoord"
+      ],
+      "logo": "./assets/team-logos/original/feyenoord-rotterdam.png"
+    },
+    {
+      "id": "frankfurt",
+      "name": "Eintracht Frankfurt",
+      "kurzname": "Eintracht Frankfurt",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/frankfurt.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SGE"
+      ],
+      "apiAliase": [
+        "Eintracht Frankfurt",
+        "frankfurt"
+      ]
+    },
+    {
+      "id": "freiburg",
+      "name": "Sport-Club Freiburg",
+      "kurzname": "SC Freiburg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/freiburg.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SCF"
+      ],
+      "apiAliase": [
+        "Sport-Club Freiburg",
+        "SC Freiburg",
+        "freiburg"
+      ]
+    },
+    {
+      "id": "galatasaray",
+      "name": "Galatasaray Istanbul",
+      "kurzname": "Galatasaray",
+      "land": "Türkei",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Galatasaray Istanbul",
+        "Galatasaray"
+      ],
+      "apiAliase": [
+        "Galatasaray Istanbul",
+        "Galatasaray"
+      ],
+      "logo": "./assets/team-logos/original/galatasaray.png"
+    },
+    {
+      "id": "greuther-fuerth",
+      "name": "SpVgg Greuther Fürth",
+      "kurzname": "Greuther Fürth",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/greuther-fuerth.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "SpVgg Greuther Fürth",
+        "Greuther Fürth",
+        "greuther-fuerth"
+      ]
+    },
+    {
+      "id": "hamburger-sv",
+      "name": "Hamburger SV",
+      "kurzname": "Hamburger SV",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/hamburger-sv.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "HSV"
+      ],
+      "apiAliase": [
+        "Hamburger SV",
+        "hamburger-sv",
+        "Hamburg"
+      ]
+    },
+    {
+      "id": "hannover-96",
+      "name": "Hannover 96",
+      "kurzname": "Hannover 96",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/hannover-96.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Hannover 96",
+        "hannover-96"
+      ]
+    },
+    {
+      "id": "heidenheim",
+      "name": "1. FC Heidenheim 1846",
+      "kurzname": "1. FC Heidenheim",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/heidenheim.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCH",
+        "HDH"
+      ],
+      "apiAliase": [
+        "1. FC Heidenheim 1846",
+        "1. FC Heidenheim",
+        "heidenheim",
+        "FC Heidenheim",
+        "1 FC Heidenheim"
+      ]
+    },
+    {
+      "id": "hertha-bsc",
+      "name": "Hertha BSC",
+      "kurzname": "Hertha BSC",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/hertha-bsc.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "BSC"
+      ],
+      "apiAliase": [
+        "Hertha BSC",
+        "hertha-bsc",
+        "Hertha Berlin"
+      ]
+    },
+    {
+      "id": "hoffenheim",
+      "name": "TSG Hoffenheim",
+      "kurzname": "TSG Hoffenheim",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/hoffenheim.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "TSG"
+      ],
+      "apiAliase": [
+        "TSG Hoffenheim",
+        "hoffenheim",
+        "1899 Hoffenheim"
+      ]
+    },
+    {
+      "id": "holstein-kiel",
+      "name": "Holstein Kiel",
+      "kurzname": "Holstein Kiel",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/holstein-kiel.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Holstein Kiel",
+        "holstein-kiel"
+      ]
+    },
+    {
+      "id": "inter-mailand",
+      "name": "Inter Mailand",
+      "kurzname": "Inter Mailand",
+      "land": "Italien",
+      "logo": "./assets/team-logos/original/inter-mailand.png",
+      "aktiv": true,
+      "national": "serie-a",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Inter Mailand",
+        "inter-mailand"
+      ]
+    },
+    {
+      "id": "juventus-turin",
+      "name": "Juventus Turin",
+      "kurzname": "Juventus Turin",
+      "land": "Italien",
+      "logo": "./assets/team-logos/original/juventus-turin.png",
+      "aktiv": true,
+      "national": "serie-a",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Juventus Turin",
+        "juventus-turin"
+      ]
+    },
+    {
+      "id": "kaiserslautern",
+      "name": "1. FC Kaiserslautern",
+      "kurzname": "1. FC Kaiserslautern",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/kaiserslautern.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCK"
+      ],
+      "apiAliase": [
+        "1. FC Kaiserslautern",
+        "kaiserslautern",
+        "FC Kaiserslautern",
+        "1 FC Kaiserslautern"
+      ]
+    },
+    {
+      "id": "karlsruher-sc",
+      "name": "Karlsruher SC",
+      "kurzname": "Karlsruher SC",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/karlsruher-sc.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Karlsruher SC",
+        "karlsruher-sc"
+      ]
+    },
+    {
+      "id": "koeln",
+      "name": "1. FC Köln",
+      "kurzname": "1. FC Köln",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/koeln.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "KOE"
+      ],
+      "apiAliase": [
+        "1. FC Köln",
+        "koeln",
+        "1 FC Koln",
+        "FC Koln",
+        "Cologne"
+      ]
+    },
+    {
+      "id": "lask",
+      "name": "LASK",
+      "kurzname": "LASK",
+      "land": "Österreich",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "LASK",
+        "Linzer ASK"
+      ],
+      "apiAliase": [
+        "LASK",
+        "LASK Linz",
+        "Linzer ASK"
+      ],
+      "logo": "./assets/team-logos/original/lask.png"
+    },
+    {
+      "id": "leverkusen",
+      "name": "Bayer 04 Leverkusen",
+      "kurzname": "Bayer 04 Leverkusen",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/leverkusen.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "B04"
+      ],
+      "apiAliase": [
+        "Bayer 04 Leverkusen",
+        "leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    {
+      "id": "magdeburg",
+      "name": "1. FC Magdeburg",
+      "kurzname": "1. FC Magdeburg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/magdeburg.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "1. FC Magdeburg",
+        "magdeburg"
+      ]
+    },
+    {
+      "id": "mainz-05",
+      "name": "1. FSV Mainz 05",
+      "kurzname": "Mainz 05",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/mainz-05.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "M05"
+      ],
+      "apiAliase": [
+        "1. FSV Mainz 05",
+        "Mainz 05",
+        "mainz-05",
+        "FSV Mainz 05",
+        "Mainz"
+      ]
+    },
+    {
+      "id": "manchester-city",
+      "name": "Manchester City",
+      "kurzname": "Manchester City",
+      "land": "England",
+      "logo": "./assets/team-logos/original/manchester-city.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Manchester City",
+        "manchester-city"
+      ]
+    },
+    {
+      "id": "manchester-united",
+      "name": "Manchester United",
+      "kurzname": "Manchester United",
+      "land": "England",
+      "logo": "./assets/team-logos/original/manchester-united.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Manchester United",
+        "manchester-united"
+      ]
+    },
+    {
+      "id": "moenchengladbach",
+      "name": "Borussia Mönchengladbach",
+      "kurzname": "Gladbach",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/moenchengladbach.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "BMG"
+      ],
+      "apiAliase": [
+        "Borussia Mönchengladbach",
+        "Gladbach",
+        "moenchengladbach",
+        "Borussia Monchengladbach",
+        "Borussia M Gladbach",
+        "Monchengladbach"
+      ]
+    },
+    {
+      "id": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "kurzname": "Nottingham Forest",
+      "land": "England",
+      "logo": "./assets/team-logos/original/nottingham-forest.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Nottingham Forest",
+        "nottingham-forest"
+      ]
+    },
+    {
+      "id": "nuernberg",
+      "name": "1. FC Nürnberg",
+      "kurzname": "1. FC Nürnberg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/nuernberg.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCN"
+      ],
+      "apiAliase": [
+        "1. FC Nürnberg",
+        "nuernberg",
+        "1 FC Nurnberg",
+        "FC Nurnberg",
+        "Nurnberg"
+      ]
+    },
+    {
+      "id": "olympique-marseille",
+      "name": "Olympique Marseille",
+      "kurzname": "Olympique Marseille",
+      "land": "Frankreich",
+      "logo": "./assets/team-logos/original/olympique-marseille.png",
+      "aktiv": true,
+      "national": "ligue-1",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Olympique Marseille",
+        "olympique-marseille"
+      ]
+    },
+    {
+      "id": "osc-lille",
+      "name": "Lille OSC",
+      "kurzname": "Lille",
+      "land": "Frankreich",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Lille OSC",
+        "LOSC Lille"
+      ],
+      "apiAliase": [
+        "Lille OSC",
+        "LOSC Lille",
+        "OSC Lille"
+      ],
+      "logo": "./assets/team-logos/original/osc-lille.png"
+    },
+    {
+      "id": "osnabrueck",
+      "name": "VfL Osnabrück",
+      "kurzname": "VfL Osnabrück",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/osnabrueck.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "VfL Osnabrück",
+        "osnabrueck"
+      ]
+    },
+    {
+      "id": "paderborn",
+      "name": "SC Paderborn 07",
+      "kurzname": "SC Paderborn 07",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/paderborn.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SCP"
+      ],
+      "apiAliase": [
+        "SC Paderborn 07",
+        "paderborn"
+      ]
+    },
+    {
+      "id": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "kurzname": "Paris Saint-Germain",
+      "land": "Frankreich",
+      "logo": "./assets/team-logos/original/paris-saint-germain.png",
+      "aktiv": true,
+      "national": "ligue-1",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Paris Saint-Germain",
+        "paris-saint-germain"
+      ]
+    },
+    {
+      "id": "psv-eindhoven",
+      "name": "PSV Eindhoven",
+      "kurzname": "PSV",
+      "land": "Niederlande",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "PSV Eindhoven",
+        "PSV"
+      ],
+      "apiAliase": [
+        "PSV Eindhoven",
+        "PSV"
+      ],
+      "logo": "./assets/team-logos/original/psv-eindhoven.png"
+    },
+    {
+      "id": "rb-leipzig",
+      "name": "RB Leipzig",
+      "kurzname": "RB Leipzig",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/rb-leipzig.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "RBL"
+      ],
+      "apiAliase": [
+        "RB Leipzig",
+        "rb-leipzig",
+        "RasenBallsport Leipzig",
+        "Leipzig"
+      ]
+    },
+    {
+      "id": "rc-lens",
+      "name": "RC Lens",
+      "kurzname": "Lens",
+      "land": "Frankreich",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "RC Lens",
+        "Lens"
+      ],
+      "apiAliase": [
+        "RC Lens",
+        "Racing Club de Lens",
+        "Lens"
+      ],
+      "logo": "./assets/team-logos/original/rc-lens.png"
+    },
+    {
+      "id": "real-betis",
+      "name": "Real Betis",
+      "kurzname": "Betis",
+      "land": "Spanien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Real Betis",
+        "Betis Sevilla"
+      ],
+      "apiAliase": [
+        "Real Betis",
+        "Real Betis Sevilla",
+        "Real Betis Seville"
+      ],
+      "logo": "./assets/team-logos/original/real-betis.png"
+    },
+    {
+      "id": "real-madrid",
+      "name": "Real Madrid",
+      "kurzname": "Real Madrid",
+      "land": "Spanien",
+      "logo": "./assets/team-logos/original/real-madrid.png",
+      "aktiv": true,
+      "national": "la-liga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Real Madrid",
+        "real-madrid"
+      ]
+    },
+    {
+      "id": "sabah-fc",
+      "name": "Sabah FC",
+      "kurzname": "Sabah",
+      "land": "Aserbaidschan",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Sabah FC",
+        "Sabah"
+      ],
+      "apiAliase": [
+        "Sabah FC",
+        "Sabah",
+        "Sabah Masazir"
+      ],
+      "logo": "./assets/team-logos/original/sabah-fc.png"
+    },
+    {
+      "id": "schachtar-donezk",
+      "name": "Schachtar Donezk",
+      "kurzname": "Schachtar",
+      "land": "Ukraine",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Schachtar Donezk",
+        "Shakhtar Donetsk"
+      ],
+      "apiAliase": [
+        "Schachtar Donezk",
+        "Shakhtar Donetsk",
+        "FC Shakhtar Donetsk"
+      ],
+      "logo": "./assets/team-logos/original/schachtar-donezk.png"
+    },
+    {
+      "id": "schalke-04",
+      "name": "FC Schalke 04",
+      "kurzname": "FC Schalke 04",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/schalke-04.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "S04"
+      ],
+      "apiAliase": [
+        "FC Schalke 04",
+        "schalke-04",
+        "Schalke 04",
+        "Schalke"
+      ]
+    },
+    {
+      "id": "slavia-prag",
+      "name": "Slavia Prag",
+      "kurzname": "Slavia Prag",
+      "land": "Tschechien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Slavia Prag",
+        "Slavia Praha"
+      ],
+      "apiAliase": [
+        "Slavia Prag",
+        "Slavia Praha",
+        "Slavia Prague"
+      ],
+      "logo": "./assets/team-logos/original/slavia-prag.png"
+    },
+    {
+      "id": "slovan-bratislava",
+      "name": "Slovan Bratislava",
+      "kurzname": "Slovan",
+      "land": "Slowakei",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Slovan Bratislava"
+      ],
+      "apiAliase": [
+        "Slovan Bratislava",
+        "SK Slovan Bratislava"
+      ],
+      "logo": "./assets/team-logos/original/slovan-bratislava.png"
+    },
+    {
+      "id": "sporting-lissabon",
+      "name": "Sporting Lissabon",
+      "kurzname": "Sporting Lissabon",
+      "land": "Portugal",
+      "logo": "./assets/team-logos/original/sporting-lissabon.png",
+      "aktiv": true,
+      "national": "primeira-liga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Sporting Lissabon",
+        "sporting-lissabon"
+      ]
+    },
+    {
+      "id": "ssc-neapel",
+      "name": "SSC Neapel",
+      "kurzname": "Neapel",
+      "land": "Italien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "SSC Neapel",
+        "SSC Napoli"
+      ],
+      "apiAliase": [
+        "SSC Neapel",
+        "SSC Napoli",
+        "Napoli"
+      ],
+      "logo": "./assets/team-logos/original/ssc-neapel.png"
+    },
+    {
+      "id": "st-pauli",
+      "name": "FC St. Pauli",
+      "kurzname": "FC St. Pauli",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/st-pauli.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "STP"
+      ],
+      "apiAliase": [
+        "FC St. Pauli",
+        "st-pauli"
+      ]
+    },
+    {
+      "id": "stuttgart",
+      "name": "VfB Stuttgart",
+      "kurzname": "VfB Stuttgart",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/stuttgart.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "VFB"
+      ],
+      "apiAliase": [
+        "VfB Stuttgart",
+        "stuttgart"
+      ]
+    },
+    {
+      "id": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "kurzname": "Tottenham Hotspur",
+      "land": "England",
+      "logo": "./assets/team-logos/original/tottenham-hotspur.png",
+      "aktiv": true,
+      "national": "premier-league",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [],
+      "apiAliase": [
+        "Tottenham Hotspur",
+        "tottenham-hotspur"
+      ]
+    },
+    {
+      "id": "union-berlin",
+      "name": "1. FC Union Berlin",
+      "kurzname": "1. FC Union Berlin",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/union-berlin.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "FCU"
+      ],
+      "apiAliase": [
+        "1. FC Union Berlin",
+        "union-berlin",
+        "1 FC Union Berlin",
+        "Union Berlin"
+      ]
+    },
+    {
+      "id": "viking-fk",
+      "name": "Viking FK",
+      "kurzname": "Viking",
+      "land": "Norwegen",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Viking FK",
+        "Viking"
+      ],
+      "apiAliase": [
+        "Viking FK",
+        "Viking"
+      ],
+      "logo": "./assets/team-logos/original/viking-fk.png"
+    },
+    {
+      "id": "villarreal-cf",
+      "name": "Villarreal CF",
+      "kurzname": "Villarreal",
+      "land": "Spanien",
+      "aktiv": true,
+      "national": null,
+      "international": {
+        "uefa": true,
+        "wettbewerb": "champions-league"
+      },
+      "kicktippAliase": [
+        "Villarreal CF",
+        "Villarreal"
+      ],
+      "apiAliase": [
+        "Villarreal CF",
+        "Villarreal"
+      ],
+      "logo": "./assets/team-logos/original/villarreal-cf.png"
+    },
+    {
+      "id": "werder-bremen",
+      "name": "SV Werder Bremen",
+      "kurzname": "Werder Bremen",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/werder-bremen.png",
+      "aktiv": true,
+      "national": "bundesliga",
+      "international": {
+        "uefa": null,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "SVW"
+      ],
+      "apiAliase": [
+        "SV Werder Bremen",
+        "Werder Bremen",
+        "werder-bremen"
+      ]
+    },
+    {
+      "id": "wolfsburg",
+      "name": "VfL Wolfsburg",
+      "kurzname": "VfL Wolfsburg",
+      "land": "Deutschland",
+      "logo": "./assets/team-logos/original/wolfsburg.png",
+      "aktiv": true,
+      "national": "2-bundesliga",
+      "international": {
+        "uefa": false,
+        "wettbewerb": null
+      },
+      "kicktippAliase": [
+        "WOB"
+      ],
+      "apiAliase": [
+        "VfL Wolfsburg",
+        "wolfsburg"
+      ]
+    }
+  ]
+}

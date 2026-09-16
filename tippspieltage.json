@@ -1,0 +1,1474 @@
+{
+  "schemaVersion": 2,
+  "datenVersion": 6,
+  "aktualisiert": "2026-09-04",
+  "aktiveSaison": "2026-27",
+  "hinweis": "Zentrale 1:1-Abbildung der in Kicktipp angelegten Wertungsspieltage. Ein Tippspieltag kann ein oder mehrere reale Spiele enthalten.",
+  "regeln": {
+    "tendenzPunkte": 2,
+    "differenzPunkte": 3,
+    "ergebnisPunkte": 5
+  },
+  "planung": {
+    "smugglerauftraegeGesamtProSaison": 34,
+    "smugglerauftraegeAktuellAngelegt": 34,
+    "weitereSmugglerauftraege": "Alle 34 Smugglerauftrag-Tippspieltage für die Saison 2026/2027 sind angelegt.",
+    "dynamoSpieleVollstaendigVorhanden": true,
+    "dynamoSpieleHinweis": "Alle 34 Dynamo-Spiele und alle 34 zugehörigen Smugglerauftrag-Tippspieltage sind vollständig vorhanden."
+  },
+  "saisons": [
+    {
+      "id": "2026-27",
+      "anzeige": "2026/2027",
+      "aktiv": true,
+      "tippspieltage": [
+        {
+          "nummer": 1,
+          "name": "Smugglerauftrag Auftakt",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 1,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 1,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-auftakt-001"
+          ]
+        },
+        {
+          "nummer": 2,
+          "name": "Smugglerauftrag Goldrausch",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 2,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 2,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-02-013"
+          ]
+        },
+        {
+          "nummer": 3,
+          "name": "Smugglerauftrag Anker",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 3,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 3,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-03-020"
+          ]
+        },
+        {
+          "nummer": 4,
+          "name": "1. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 1
+          }
+        },
+        {
+          "nummer": 5,
+          "name": "Smugglerauftrag Flagge",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 4,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 4,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-04-032"
+          ]
+        },
+        {
+          "nummer": 6,
+          "name": "2. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 2
+          }
+        },
+        {
+          "nummer": 7,
+          "name": "1. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "1. Spieltag"
+          }
+        },
+        {
+          "nummer": 8,
+          "name": "Smugglerauftrag Schatzinsel",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 5,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 5,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-05-044"
+          ]
+        },
+        {
+          "nummer": 9,
+          "name": "3. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 3
+          }
+        },
+        {
+          "nummer": 10,
+          "name": "Smugglerauftrag Breitseite",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 6,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 6,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-06-050"
+          ]
+        },
+        {
+          "nummer": 11,
+          "name": "4. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 4
+          }
+        },
+        {
+          "nummer": 12,
+          "name": "Smugglerauftrag Nebel",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 7,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 7,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-07-063"
+          ]
+        },
+        {
+          "nummer": 13,
+          "name": "5. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 5
+          }
+        },
+        {
+          "nummer": 14,
+          "name": "2. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "2. Spieltag"
+          }
+        },
+        {
+          "nummer": 15,
+          "name": "Smugglerauftrag Ghostship",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 8,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 8,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-08-068"
+          ]
+        },
+        {
+          "nummer": 16,
+          "name": "6. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 6
+          }
+        },
+        {
+          "nummer": 17,
+          "name": "3. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "3. Spieltag"
+          }
+        },
+        {
+          "nummer": 18,
+          "name": "Piratenkodex I - El Clasico",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-01-el-clasico"
+          ]
+        },
+        {
+          "nummer": 19,
+          "name": "Smugglerauftrag Kurs",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 9,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 9,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-09-078"
+          ]
+        },
+        {
+          "nummer": 20,
+          "name": "7. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 7
+          }
+        },
+        {
+          "nummer": 21,
+          "name": "Piratenkodex II - Madonnina",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-02-madonnina"
+          ]
+        },
+        {
+          "nummer": 22,
+          "name": "Smugglerauftrag Kompass",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 10,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 10,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-10-084"
+          ]
+        },
+        {
+          "nummer": 23,
+          "name": "8. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 8
+          }
+        },
+        {
+          "nummer": 24,
+          "name": "4. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "4. Spieltag"
+          }
+        },
+        {
+          "nummer": 25,
+          "name": "Smugglerauftrag Meuterei",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 11,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 11,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-11-095"
+          ]
+        },
+        {
+          "nummer": 26,
+          "name": "9. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 9
+          }
+        },
+        {
+          "nummer": 27,
+          "name": "Piratenkodex III - NW Derby",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-03-nw-derby"
+          ]
+        },
+        {
+          "nummer": 28,
+          "name": "Smugglerauftrag Sturm",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 12,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 12,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-12-104"
+          ]
+        },
+        {
+          "nummer": 29,
+          "name": "10. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 10
+          }
+        },
+        {
+          "nummer": 30,
+          "name": "5. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "5. Spieltag"
+          }
+        },
+        {
+          "nummer": 31,
+          "name": "Smugglerauftrag Bucht",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 13,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 13,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-13-112"
+          ]
+        },
+        {
+          "nummer": 32,
+          "name": "11. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 11
+          }
+        },
+        {
+          "nummer": 33,
+          "name": "Achtelfinale",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "dfb-pokal",
+          "spielAuswahl": {
+            "wettbewerb": "dfb-pokal",
+            "runde": "Achtelfinale"
+          }
+        },
+        {
+          "nummer": 34,
+          "name": "Smugglerauftrag Karte",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 14,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 14,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-14-125"
+          ]
+        },
+        {
+          "nummer": 35,
+          "name": "12. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 12
+          }
+        },
+        {
+          "nummer": 36,
+          "name": "6. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "6. Spieltag"
+          }
+        },
+        {
+          "nummer": 37,
+          "name": "Smugglerauftrag Angriff",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 15,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 15,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-15-129"
+          ]
+        },
+        {
+          "nummer": 38,
+          "name": "13. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 13
+          }
+        },
+        {
+          "nummer": 39,
+          "name": "Smugglerauftrag Schatzkammer",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 16,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 16,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-16-143"
+          ]
+        },
+        {
+          "nummer": 40,
+          "name": "14. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 14
+          }
+        },
+        {
+          "nummer": 41,
+          "name": "Smugglers Weihnachtsregatta",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "weihnachtsregatta",
+          "spielIds": [
+            "wr-2026-27-01",
+            "wr-2026-27-02",
+            "wr-2026-27-03",
+            "wr-2026-27-04",
+            "wr-2026-27-05"
+          ]
+        },
+        {
+          "nummer": 42,
+          "name": "Piratenkodex IV - d'Italia",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-04-ditalia"
+          ]
+        },
+        {
+          "nummer": 43,
+          "name": "15. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 15
+          }
+        },
+        {
+          "nummer": 44,
+          "name": "16. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 16
+          }
+        },
+        {
+          "nummer": 45,
+          "name": "Smugglerauftrag Kanonier",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 17,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 17,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-17-147"
+          ]
+        },
+        {
+          "nummer": 46,
+          "name": "17. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 17
+          }
+        },
+        {
+          "nummer": 47,
+          "name": "7. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "7. Spieltag"
+          }
+        },
+        {
+          "nummer": 48,
+          "name": "Smugglerauftrag Krähennest",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 18,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 18,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-18-157"
+          ]
+        },
+        {
+          "nummer": 49,
+          "name": "18. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 18
+          }
+        },
+        {
+          "nummer": 50,
+          "name": "8. Spieltag - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "8. Spieltag"
+          }
+        },
+        {
+          "nummer": 51,
+          "name": "Smugglerauftrag Holzbein",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 19,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 19,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-19-166"
+          ]
+        },
+        {
+          "nummer": 52,
+          "name": "19. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 19
+          }
+        },
+        {
+          "nummer": 53,
+          "name": "Smugglerauftrag Segeltuch",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 20,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 20,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-20-176"
+          ]
+        },
+        {
+          "nummer": 54,
+          "name": "20. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 20
+          }
+        },
+        {
+          "nummer": 55,
+          "name": "Piratenkodex V - Le Classique",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-05-le-classique"
+          ]
+        },
+        {
+          "nummer": 56,
+          "name": "Viertelfinale",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "dfb-pokal",
+          "spielAuswahl": {
+            "wettbewerb": "dfb-pokal",
+            "runde": "Viertelfinale"
+          }
+        },
+        {
+          "nummer": 57,
+          "name": "Smugglerauftrag Todesinsel",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 21,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 21,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-21-185"
+          ]
+        },
+        {
+          "nummer": 58,
+          "name": "21. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 21
+          }
+        },
+        {
+          "nummer": 59,
+          "name": "Zwischenrunde Hin",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Zwischenrunde Hin"
+          }
+        },
+        {
+          "nummer": 60,
+          "name": "Smugglerauftrag Buddel",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 22,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 22,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-22-194"
+          ]
+        },
+        {
+          "nummer": 61,
+          "name": "22. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 22
+          }
+        },
+        {
+          "nummer": 62,
+          "name": "Zwischenrunde Rück",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Zwischenrunde Rück"
+          }
+        },
+        {
+          "nummer": 63,
+          "name": "Smugglerauftrag Smutje",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 23,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 23,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-23-202"
+          ]
+        },
+        {
+          "nummer": 64,
+          "name": "23. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 23
+          }
+        },
+        {
+          "nummer": 65,
+          "name": "Smugglerauftrag Korsaren",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 24,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 24,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-24-212"
+          ]
+        },
+        {
+          "nummer": 66,
+          "name": "24. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 24
+          }
+        },
+        {
+          "nummer": 67,
+          "name": "Smugglerauftrag Achtern",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 25,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 25,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-25-223"
+          ]
+        },
+        {
+          "nummer": 68,
+          "name": "25. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 25
+          }
+        },
+        {
+          "nummer": 69,
+          "name": "Achtelfinale Hin",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Achtelfinale Hin"
+          }
+        },
+        {
+          "nummer": 70,
+          "name": "Achtelfinale Hin - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Achtelfinale Hin"
+          }
+        },
+        {
+          "nummer": 71,
+          "name": "Smugglerauftrag Ahoi",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 26,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 26,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-26-231"
+          ]
+        },
+        {
+          "nummer": 72,
+          "name": "26. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 26
+          }
+        },
+        {
+          "nummer": 73,
+          "name": "Piratenkodex VI - ManCU Derby",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-06-mancu-derby"
+          ]
+        },
+        {
+          "nummer": 74,
+          "name": "Achtelfinale Rück",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Achtelfinale Rück"
+          }
+        },
+        {
+          "nummer": 75,
+          "name": "Achtelfinale Rück - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Achtelfinale Rück"
+          }
+        },
+        {
+          "nummer": 76,
+          "name": "Smugglerauftrag Taverne",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 27,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 27,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-27-239"
+          ]
+        },
+        {
+          "nummer": 77,
+          "name": "27. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 27
+          }
+        },
+        {
+          "nummer": 78,
+          "name": "Smugglerauftrag Papagei",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 28,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 28,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-28-251"
+          ]
+        },
+        {
+          "nummer": 79,
+          "name": "28. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 28
+          }
+        },
+        {
+          "nummer": 80,
+          "name": "Viertelfinale Hin",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Viertelfinale Hin"
+          }
+        },
+        {
+          "nummer": 81,
+          "name": "Viertelfinale Hin - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Viertelfinale Hin"
+          }
+        },
+        {
+          "nummer": 82,
+          "name": "Smugglerauftrag Donnerbräu",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 29,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 29,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-29-256"
+          ]
+        },
+        {
+          "nummer": 83,
+          "name": "29. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 29
+          }
+        },
+        {
+          "nummer": 84,
+          "name": "Viertelfinale Rück",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Viertelfinale Rück"
+          }
+        },
+        {
+          "nummer": 85,
+          "name": "Viertelfinale Rück - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Viertelfinale Rück"
+          }
+        },
+        {
+          "nummer": 86,
+          "name": "Smugglerauftrag Bilge",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 30,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 30,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-30-263"
+          ]
+        },
+        {
+          "nummer": 87,
+          "name": "30. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 30
+          }
+        },
+        {
+          "nummer": 88,
+          "name": "Halbfinale",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "dfb-pokal",
+          "spielAuswahl": {
+            "wettbewerb": "dfb-pokal",
+            "runde": "Halbfinale"
+          }
+        },
+        {
+          "nummer": 89,
+          "name": "Smugglerauftrag Tagelage",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 31,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 31,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-31-274"
+          ]
+        },
+        {
+          "nummer": 90,
+          "name": "31. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 31
+          }
+        },
+        {
+          "nummer": 91,
+          "name": "Halbfinale Hin",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Halbfinale Hin"
+          }
+        },
+        {
+          "nummer": 92,
+          "name": "Halbfinale Hin - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Halbfinale Hin"
+          }
+        },
+        {
+          "nummer": 93,
+          "name": "Halbfinale Rück",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Halbfinale Rück"
+          }
+        },
+        {
+          "nummer": 94,
+          "name": "Halbfinale Rück - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Halbfinale Rück"
+          }
+        },
+        {
+          "nummer": 95,
+          "name": "Piratenkodex VII Title Decider",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "piratenkodex",
+          "spielIds": [
+            "pk-2026-27-07-title-decider"
+          ]
+        },
+        {
+          "nummer": 96,
+          "name": "Smugglerauftrag Puppdeck",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 32,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 32,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-32-288"
+          ]
+        },
+        {
+          "nummer": 97,
+          "name": "32. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 32
+          }
+        },
+        {
+          "nummer": 98,
+          "name": "Smugglerauftrag Klüsen",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 33,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 33,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-33-291"
+          ]
+        },
+        {
+          "nummer": 99,
+          "name": "33. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 33
+          }
+        },
+        {
+          "nummer": 100,
+          "name": "Smugglerauftrag Vogelfrei",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "smugglerauftrag",
+          "bezugsSpieltag": 34,
+          "spielAuswahl": {
+            "wettbewerb": "2-bundesliga",
+            "spieltagNummer": 34,
+            "teamId": "dynamo-dresden"
+          },
+          "spielIds": [
+            "sma-2026-27-34-298"
+          ]
+        },
+        {
+          "nummer": 101,
+          "name": "34. Spieltag",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "bundesliga",
+          "spielAuswahl": {
+            "wettbewerb": "bundesliga",
+            "spieltagNummer": 34
+          }
+        },
+        {
+          "nummer": 102,
+          "name": "Finale - EL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "europa-league",
+          "spielAuswahl": {
+            "wettbewerb": "europa-league",
+            "runde": "Finale"
+          }
+        },
+        {
+          "nummer": 103,
+          "name": "1. Spieltag - Relegation",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "terminiert",
+          "typ": "relegation",
+          "spielAuswahl": {
+            "wettbewerb": "relegation",
+            "runde": "Relegation",
+            "erwarteteSpielanzahl": 4
+          },
+          "spielIds": [
+            "rel-2026-27-bl-hin",
+            "rel-2026-27-2bl-hin",
+            "rel-2026-27-bl-rueck",
+            "rel-2026-27-2bl-rueck"
+          ],
+          "hinweis": "Alle vier Relegationsspiele werden gemeinsam als ein Kicktipp-Spieltag gewertet."
+        },
+        {
+          "nummer": 104,
+          "name": "Finale - DFB-Pokal",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "dfb-pokal",
+          "spielAuswahl": {
+            "wettbewerb": "dfb-pokal",
+            "runde": "Finale"
+          }
+        },
+        {
+          "nummer": 105,
+          "name": "Finale - CL",
+          "saison": "2026/2027",
+          "aktiv": true,
+          "status": "geplant",
+          "typ": "champions-league",
+          "spielAuswahl": {
+            "wettbewerb": "champions-league",
+            "runde": "Finale"
+          }
+        }
+      ]
+    }
+  ],
+  "fuehrendeDatei": true,
+  "rolle": "Verbindliche Gruppierung und Reihenfolge aller Kicktipp-Wertungsspieltage. spieldaten.json enthält die einzelnen Spiele.",
+  "wettbewerbsumfang": {
+    "bundesliga": "34 Spieltage mit allen Partien",
+    "smugglerauftraege": "34 Wertungsspieltage; je das Dynamo-Dresden-Spiel des entsprechenden Spieltags der 2. Bundesliga",
+    "champions-league": "Gemäß angelegter Kicktipp-Runden und -Spieltage",
+    "dfb-pokal": "Ausschließlich ab Achtelfinale",
+    "europa-league": "Ausschließlich ab Achtelfinale",
+    "piratenkodex": "Je ein ausgewähltes reales Spiel pro Wertungsspieltag",
+    "weihnachtsregatta": "Ein Wertungsspieltag mit fünf Spielen",
+    "relegation": "Ein Wertungsspieltag mit vier Spielen"
+  }
+}

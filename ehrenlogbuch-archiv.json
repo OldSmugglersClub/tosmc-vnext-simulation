@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 1,
+  "aktualisiertAm": "2026-09-15T00:00:00Z",
+  "status": "migrierter-ausgangsbestand",
+  "saisons": [
+    {
+      "id": "2025-2026", "label": "2025/2026", "status": "abgeschlossen",
+      "gesamtChampion": {"teilnehmerId": "legacy-manuel", "name": "Manuel", "punkte": 346},
+      "gesamtTeamSieger": null,
+      "platzierungen": [
+        {"platz": 1, "teilnehmerId": "legacy-manuel", "name": "Manuel", "punkte": 346}
+      ],
+      "platzierungenStatus": "Nur der historisch bestätigte erste Platz ist verfügbar; die vollständige Rangliste 2025/2026 liegt im bereitgestellten Bestand nicht vor.",
+      "wettbewerbssieger": [
+        {"wettbewerbId": "bundesliga", "wettbewerb": "Bundesliga", "teilnehmerId": "legacy-manuel", "name": "Manuel"},
+        {"wettbewerbId": "dfb-pokal", "wettbewerb": "DFB-Pokal", "teilnehmerId": "legacy-manuel", "name": "Manuel"},
+        {"wettbewerbId": "champions-league", "wettbewerb": "Champions League", "teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott"},
+        {"wettbewerbId": "europa-league", "wettbewerb": "Europa League", "teilnehmerId": "legacy-marius", "name": "Marius"},
+        {"wettbewerbId": "bonuswettbewerb", "wettbewerb": "Bonuswettbewerb", "teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott", "punkte": 60}
+      ],
+      "saisonbestwerte": [
+        {"id": "gesamtpunkte", "label": "Meiste Gesamtpunkte", "wert": 346, "einheit": "Punkte", "teilnehmerId": "legacy-manuel", "name": "Manuel"},
+        {"id": "bonuspunkte", "label": "Meiste Bonuspunkte", "wert": 60, "einheit": "Punkte", "teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott"},
+        {"id": "exakte-tipps", "label": "Meiste exakte Tipps", "wert": 17, "einheit": "Tipps", "teilnehmerId": "legacy-marius", "name": "Marius"}
+      ],
+      "quelle": "Migriert aus hall-of-fame.json und saisonarchiv.json"
+    }
+  ],
+  "ewigeRekorde": [
+    {"id": "gesamtpunkte", "label": "Höchste Saisonpunktzahl", "wert": 346, "einheit": "Punkte", "halter": [{"teilnehmerId": "legacy-manuel", "name": "Manuel", "saison": "2025/2026"}], "entwicklung": [{"wert": 346, "teilnehmerId": "legacy-manuel", "name": "Manuel", "saison": "2025/2026"}]},
+    {"id": "bonuspunkte", "label": "Höchste Saison-Bonuspunktzahl", "wert": 60, "einheit": "Punkte", "halter": [{"teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott", "saison": "2025/2026"}], "entwicklung": [{"wert": 60, "teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott", "saison": "2025/2026"}]},
+    {"id": "exakte-tipps", "label": "Meiste exakte Tipps einer Saison", "wert": 17, "einheit": "Tipps", "halter": [{"teilnehmerId": "legacy-marius", "name": "Marius", "saison": "2025/2026"}], "entwicklung": [{"wert": 17, "teilnehmerId": "legacy-marius", "name": "Marius", "saison": "2025/2026"}]}
+  ],
+  "ehrenchampions": [
+    {"id": "champion-der-wm-runde-2026--2026", "wettbewerbId": "champion-der-wm-runde-2026", "titel": "Champion der WM-Runde 2026", "jahr": "2026", "saison": "2026", "teilnehmerId": "legacy-zweikampfgott", "name": "ZweikampfGott", "bestaetigt": true, "archiviert": true, "quelle": "Migriert aus hall-of-fame.json"}
+  ],
+  "meta": {"titel": "Ehrenlogbuch des The Old Smugglers Club", "hinweis": "Ausschließlich bestätigte, historische Ehrungen. Die HOF-Startseite wird aus diesem Archiv nicht gesteuert."}
+}

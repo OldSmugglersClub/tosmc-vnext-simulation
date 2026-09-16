@@ -1,0 +1,42 @@
+{
+  "bereich": "Wettbewerbszentrale",
+  "statusSchild": "Ab Ligaphase",
+  "titel": "Champions League",
+  "beschreibung": "Die Champions League wird ab der Ligaphase als eigener Wettbewerb der Tipprunde geführt. Alle vorgesehenen Wertungsspieltage werden zentral aus den Saison- und Spieldaten aufgebaut.",
+  "karten": [
+    {
+      "titel": "Aktueller Torjäger",
+      "text": ""
+    },
+    {
+      "titel": "Die letzten 5\nChampions-League-Sieger",
+      "text": ""
+    },
+    {
+      "titel": "",
+      "text": "",
+      "logo": "./assets/champions-league-logo.png",
+      "logoAlt": "UEFA Champions League Logo"
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · Champions League 2026/2027"
+}

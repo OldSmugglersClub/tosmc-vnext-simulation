@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "source": "Kicktipp exports analyzed 2026-08-01",
+  "encoding": "utf-8-sig",
+  "delimiter": ";",
+  "archive": "zip",
+  "exports": {
+    "tipper": {
+      "requiredHeaders": [
+        "Name",
+        "E-Mail",
+        "Mitglied seit"
+      ],
+      "publicFields": [
+        "Name"
+      ],
+      "localOnlyFields": [
+        "E-Mail",
+        "Mitglied seit"
+      ]
+    },
+    "tipps": {
+      "requiredHeaders": [
+        "Name",
+        "TipperID"
+      ],
+      "dynamicGameColumns": true,
+      "emptyCell": "nicht-abgegeben",
+      "unknownValues": [
+        "-:-"
+      ]
+    },
+    "rangliste": {
+      "requiredHeaders": [
+        "Rang",
+        "Name",
+        "Punkte",
+        "Gesamtpunkte"
+      ],
+      "localOnlyFields": [
+        "E-Mail"
+      ]
+    },
+    "gesamtuebersicht": {
+      "requiredHeaders": [
+        "Rang",
+        "Name"
+      ],
+      "dynamicCompetitionColumns": true
+    }
+  }
+}

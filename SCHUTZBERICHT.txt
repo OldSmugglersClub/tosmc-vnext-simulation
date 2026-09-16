@@ -1,0 +1,5 @@
+TEST9: Ausschließlich Rekordtafel der Hall-of-Fame-Startseite erweitert.
+Rekordwerte, Halter und Vergleichslogik bleiben unverändert.
+Neue Anzeige: Saisonbezeichnung unter belegten Rekorden.
+Künftige freigegebene Rekorde werden, falls nötig, mit der Saison des Saisonabschlusses ergänzt.
+Keine JSON-Datei wurde verändert.

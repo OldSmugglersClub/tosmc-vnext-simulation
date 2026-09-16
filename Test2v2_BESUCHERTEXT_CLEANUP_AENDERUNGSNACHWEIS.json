@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-10T19:33:39.528Z",
+  "changeType": "Test2v2 Besuchertext-Cleanup",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "4d20600f70618545d44330c550ccbabcbe125f8c7053935356645920c38009d3",
+      "after": "6a40a55f4c91b2554bd4bb9fafd245ec21462209bdd2070a877972cc8e1a303f"
+    },
+    {
+      "path": "bundesliga.html",
+      "type": "changed",
+      "before": "6937ecb181f0a6dee6a61d1e20c1214cf0b53681edd08bcdf1887a6c725c82df",
+      "after": "a08dbfabd725083db5f50b95141dba94ba031520db86ba44f96a2137165f62eb"
+    },
+    {
+      "path": "bundesliga.json",
+      "type": "changed",
+      "before": "66e04673f80e89d33496be02d9fc2a494de926dbb238ca052f42fd08a1e5ab33",
+      "after": "dd7346cda70e9977f2d7462a4bdac3bb90a89a7853bb242b094d82cad76aebcb"
+    },
+    {
+      "path": "champions-league.html",
+      "type": "changed",
+      "before": "6937ecb181f0a6dee6a61d1e20c1214cf0b53681edd08bcdf1887a6c725c82df",
+      "after": "a08dbfabd725083db5f50b95141dba94ba031520db86ba44f96a2137165f62eb"
+    },
+    {
+      "path": "champions-league.json",
+      "type": "changed",
+      "before": "5653e436e83189ca08e868ce78a3f2100efa2560e9171459cebe86078ac3aa66",
+      "after": "884493609168037731656c171c2e76aa68f700509ea54bb2dc93e64133c57067"
+    },
+    {
+      "path": "dfb-pokal.html",
+      "type": "changed",
+      "before": "6937ecb181f0a6dee6a61d1e20c1214cf0b53681edd08bcdf1887a6c725c82df",
+      "after": "a08dbfabd725083db5f50b95141dba94ba031520db86ba44f96a2137165f62eb"
+    },
+    {
+      "path": "dfb-pokal.json",
+      "type": "changed",
+      "before": "4fda5716d64c1f8f4c188073e60e69e6355b94a49cd21c0a8267421a16708021",
+      "after": "7cc57db6ffe5c00b3593734379e618f013edf19868ab155071b54a2604e429fd"
+    },
+    {
+      "path": "dynamo-dresden.html",
+      "type": "changed",
+      "before": "47c9188f1e489b3a367085142489210e56f9224223bbce3996b313b657c548e4",
+      "after": "107e12e9a2b098b15f28e9cc5e2c8a37a3fea8abecca88da152e43c6a72fc387"
+    },
+    {
+      "path": "europa-league.html",
+      "type": "changed",
+      "before": "91fb6c03c3474eb8de90333c97a81b02f1459d420f42c2fd60d31a4e3561c2ec",
+      "after": "f8b0eba859ad908c024c3304538614570820db5d205553288aa0e9ec047cb608"
+    },
+    {
+      "path": "europa-league.json",
+      "type": "changed",
+      "before": "1b50d25faf8192197120264978840e034974e60e0172755fc8663db32b28b636",
+      "after": "f7d9d91b956d881d0080684600708d9e83489ce89af7def240f2a8c7ecfc77d6"
+    },
+    {
+      "path": "piratenkodex.html",
+      "type": "changed",
+      "before": "6937ecb181f0a6dee6a61d1e20c1214cf0b53681edd08bcdf1887a6c725c82df",
+      "after": "a08dbfabd725083db5f50b95141dba94ba031520db86ba44f96a2137165f62eb"
+    },
+    {
+      "path": "relegation.html",
+      "type": "changed",
+      "before": "54747527c6592fa9d7714ad3a854c83fc8db4f0d8bb966920cf0ee78a801ccd2",
+      "after": "e573d79f8fc59dd5f9cb0ed350971d274487acacdba107f2a25c2b848a2b6bc0"
+    },
+    {
+      "path": "saison-2026-2027.html",
+      "type": "changed",
+      "before": "751f5fd5864eeb3dc57a0d83d13ab296a626f1b9df53f89a9dfa245254b2622b",
+      "after": "287ba7f085c6fb40db997b1d41156cf1558af854649ac9f3c45a763cb855d0d3"
+    },
+    {
+      "path": "weihnachtsregatta.html",
+      "type": "changed",
+      "before": "9ef015fc3d2e38c87a6c6d4ab5dc99675cf682de0e787ef35cb42fe5db77ef31",
+      "after": "cf09127c75ece26a88fd6ec57f1aca05e86ec4474ad40945fa62bbb99a922992"
+    },
+    {
+      "path": "wettbewerb.js",
+      "type": "changed",
+      "before": "4d837bb05af31176741df149b0c30fa430065b24495a808673ef461d9444dd4b",
+      "after": "0f12f127fa4cf9bf345d0a1b8b0e772aedf35aeda22333604d4fe294435e8c18"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "changeType": "Test2v2 Besuchertext-Cleanup",
+    "allowedPaths": [
+      "VERSION.txt",
+      "wettbewerb.js",
+      "saison-2026-2027.html",
+      "bundesliga.html",
+      "champions-league.html",
+      "dfb-pokal.html",
+      "dynamo-dresden.html",
+      "europa-league.html",
+      "piratenkodex.html",
+      "relegation.html",
+      "weihnachtsregatta.html",
+      "bundesliga.json",
+      "champions-league.json",
+      "europa-league.json",
+      "dfb-pokal.json"
+    ],
+    "protectedPaths": [
+      "highscore.json",
+      "website-view.json",
+      "spieldaten.json",
+      "teams.json",
+      "assets/team-logos/**",
+      "datenregister.js",
+      "datenmodell.js",
+      "team-badge.js",
+      "wettbewerb.css",
+      "schedule-data-adapter.js"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

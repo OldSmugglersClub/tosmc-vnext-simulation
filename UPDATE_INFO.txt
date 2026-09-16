@@ -1,0 +1,21 @@
+TOSMC Test2v2 – Wartung veralteter Automations-Regressionstests
+
+Geändert ausschließlich:
+- scripts/tests/automation-hf14-p1-yaml-test.py
+- scripts/tests/automation-hf15-dynamo-terminautomatik-test.mjs
+
+Keine Produktionsdateien geändert.
+
+HF14:
+- Fachziel bleibt relevant: Termin-Workflows müssen spieldaten.json und schedule-terminstand.json berücksichtigen.
+- Veraltete wortgleiche Prüfung auf historische git-diff/git-add-Zeilen ersetzt durch Prüfung der aktuellen, defensiven Workflow-Variante.
+
+HF15:
+- Fachziel bleibt relevant: Dynamo-Terminimport schützt lokale Fenster, abgeschlossene Spiele, 34/34-Zuordnung und Termin-Sicherheitslogik.
+- Veraltete Quelltextprüfung auf "const now=new Date();" ersetzt.
+- Zusätzlich echte Funktionsprüfungen von validateAndPlan ergänzt.
+
+Teststand:
+- alle vorhandenen scripts/tests/*.mjs: OK
+- alle vorhandenen scripts/tests/*.py: OK
+- TOSMC Release Guard: OK

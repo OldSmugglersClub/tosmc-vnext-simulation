@@ -1,0 +1,14 @@
+ERSETZEN:
+- index.html
+- hall-of-fame.html
+- VERSION.txt
+
+NEU:
+- RELEASE_NOTES_4.9.2-HF12-HF98-TEST2.md
+- ERSETZEN_NEU_LOESCHEN_4.9.2-HF12-HF98-TEST2.txt
+
+LÖSCHEN:
+- nichts
+
+WICHTIG:
+- champion-trophy.jpeg NICHT ersetzen. Das originale Bild bleibt unverändert.

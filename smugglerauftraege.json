@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 3,
+  "datenVersion": 16,
+  "aktualisiert": "2026-07-31",
+  "saison": "2026/2027",
+  "bereich": "Sondermission",
+  "titel": "Smuggleraufträge",
+  "status": "34 AUFTRÄGE · SAISON 2026/2027",
+  "einleitung": "34 Spiele von Dynamo Dresden, jeweils als eigener Kicktipp-Spieltag und vollständig Teil der Einzel-Gesamtwertung.",
+  "team": "Dynamo Dresden",
+  "untertitel": "Ein Dynamo-Spiel, ein eigener Tippspieltag, ein Smugglerauftrag – insgesamt 34 Missionen über die gesamte Saison.",
+  "aktuellerAuftrag": "Auftakt",
+  "naechsterAuftrag": "Smugglerauftrag 2",
+  "abgeschlossen": 0,
+  "gesamt": 34,
+  "beschreibung": "Operation „Auftakt“ eröffnet die Saison der Smuggleraufträge. Die erste Reise führt am 09. August 2026 zum 1. FC Nürnberg.",
+  "buttonText": "Zu allen Dynamo-Aufträgen",
+  "link": "./dynamo-dresden.html",
+  "logbuchTitel": "Piratenlogbuch",
+  "logbuchText": "Alle 34 Smuggleraufträge werden mit Gegner, Termin, Tipp, Ergebnis, Punkten und Status dokumentiert. Abgeschlossene Missionen bleiben dauerhaft als Saisonchronik sichtbar.",
+  "auftraege": [
+    {
+      "id": "smugglerauftrag-01",
+      "nummer": 1,
+      "name": "Auftakt",
+      "spielId": "sma-2026-27-auftakt-001",
+      "status": "terminiert",
+      "kicktippSpieltag": "Smugglerauftrag 1",
+      "notiz": "Smugglerauftrag „Auftakt“"
+    },
+    {
+      "id": "smugglerauftrag-02",
+      "nummer": 2,
+      "name": "Smugglerauftrag 2",
+      "spielId": "sma-2026-27-02-013",
+      "status": "terminiert",
+      "kicktippSpieltag": "Smugglerauftrag 2",
+      "notiz": "Smugglerauftrag zum 2. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-03",
+      "nummer": 3,
+      "name": "Smugglerauftrag 3",
+      "spielId": "sma-2026-27-03-020",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 3",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 3. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-04",
+      "nummer": 4,
+      "name": "Smugglerauftrag 4",
+      "spielId": "sma-2026-27-04-032",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 4",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 4. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-05",
+      "nummer": 5,
+      "name": "Smugglerauftrag 5",
+      "spielId": "sma-2026-27-05-044",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 5",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 5. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-06",
+      "nummer": 6,
+      "name": "Smugglerauftrag 6",
+      "spielId": "sma-2026-27-06-050",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 6",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 6. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-07",
+      "nummer": 7,
+      "name": "Smugglerauftrag 7",
+      "spielId": "sma-2026-27-07-063",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 7",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 7. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-08",
+      "nummer": 8,
+      "name": "Smugglerauftrag 8",
+      "spielId": "sma-2026-27-08-068",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 8",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 8. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-09",
+      "nummer": 9,
+      "name": "Smugglerauftrag 9",
+      "spielId": "sma-2026-27-09-078",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 9",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 9. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-10",
+      "nummer": 10,
+      "name": "Smugglerauftrag 10",
+      "spielId": "sma-2026-27-10-084",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 10",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 10. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-11",
+      "nummer": 11,
+      "name": "Smugglerauftrag 11",
+      "spielId": "sma-2026-27-11-095",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 11",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 11. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-12",
+      "nummer": 12,
+      "name": "Smugglerauftrag 12",
+      "spielId": "sma-2026-27-12-104",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 12",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 12. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-13",
+      "nummer": 13,
+      "name": "Smugglerauftrag 13",
+      "spielId": "sma-2026-27-13-112",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 13",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 13. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-14",
+      "nummer": 14,
+      "name": "Smugglerauftrag 14",
+      "spielId": "sma-2026-27-14-125",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 14",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 14. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-15",
+      "nummer": 15,
+      "name": "Smugglerauftrag 15",
+      "spielId": "sma-2026-27-15-129",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 15",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 15. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-16",
+      "nummer": 16,
+      "name": "Smugglerauftrag 16",
+      "spielId": "sma-2026-27-16-143",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 16",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 16. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-17",
+      "nummer": 17,
+      "name": "Smugglerauftrag 17",
+      "spielId": "sma-2026-27-17-147",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 17",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 17. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-18",
+      "nummer": 18,
+      "name": "Smugglerauftrag 18",
+      "spielId": "sma-2026-27-18-157",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 18",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 18. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-19",
+      "nummer": 19,
+      "name": "Smugglerauftrag 19",
+      "spielId": "sma-2026-27-19-166",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 19",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 19. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-20",
+      "nummer": 20,
+      "name": "Smugglerauftrag 20",
+      "spielId": "sma-2026-27-20-176",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 20",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 20. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-21",
+      "nummer": 21,
+      "name": "Smugglerauftrag 21",
+      "spielId": "sma-2026-27-21-185",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 21",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 21. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-22",
+      "nummer": 22,
+      "name": "Smugglerauftrag 22",
+      "spielId": "sma-2026-27-22-194",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 22",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 22. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-23",
+      "nummer": 23,
+      "name": "Smugglerauftrag 23",
+      "spielId": "sma-2026-27-23-202",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 23",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 23. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-24",
+      "nummer": 24,
+      "name": "Smugglerauftrag 24",
+      "spielId": "sma-2026-27-24-212",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 24",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 24. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-25",
+      "nummer": 25,
+      "name": "Smugglerauftrag 25",
+      "spielId": "sma-2026-27-25-223",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 25",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 25. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-26",
+      "nummer": 26,
+      "name": "Smugglerauftrag 26",
+      "spielId": "sma-2026-27-26-231",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 26",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 26. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-27",
+      "nummer": 27,
+      "name": "Smugglerauftrag 27",
+      "spielId": "sma-2026-27-27-239",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 27",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 27. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-28",
+      "nummer": 28,
+      "name": "Smugglerauftrag 28",
+      "spielId": "sma-2026-27-28-251",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 28",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 28. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-29",
+      "nummer": 29,
+      "name": "Smugglerauftrag 29",
+      "spielId": "sma-2026-27-29-256",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 29",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 29. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-30",
+      "nummer": 30,
+      "name": "Smugglerauftrag 30",
+      "spielId": "sma-2026-27-30-263",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 30",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 30. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-31",
+      "nummer": 31,
+      "name": "Smugglerauftrag 31",
+      "spielId": "sma-2026-27-31-274",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 31",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 31. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-32",
+      "nummer": 32,
+      "name": "Smugglerauftrag 32",
+      "spielId": "sma-2026-27-32-288",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 32",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 32. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-33",
+      "nummer": 33,
+      "name": "Smugglerauftrag 33",
+      "spielId": "sma-2026-27-33-291",
+      "status": "geplant",
+      "kicktippSpieltag": "Smugglerauftrag 33",
+      "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 33. Spieltag der 2. Bundesliga."
+    },
+    {
+      "id": "smugglerauftrag-34",
+      "nummer": 34,
+      "name": "Smugglerauftrag 34",
+      "spielId": "sma-2026-27-34-298",
+      "status": "terminiert",
+      "kicktippSpieltag": "Smugglerauftrag 34",
+      "notiz": "Smugglerauftrag zum 34. Spieltag der 2. Bundesliga."
+    }
+  ],
+  "mission": {
+    "titel": "Operation „Auftakt“",
+    "untertitel": "Smugglerauftrag 1 · 2. Bundesliga",
+    "heim": "1. FC Nürnberg",
+    "auswaerts": "Dynamo Dresden",
+    "termin": "09.08.2026 · 13:30 Uhr",
+    "statusText": "Auftrag offen",
+    "wertung": "2 / 3 / 5 Punkte",
+    "link": "./smugglerauftrag-auftakt.html",
+    "buttonText": "Missionsakte öffnen"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "changeType": "local",
+  "description": "Konkrete Änderung beschreiben",
+  "allowedPaths": [
+    "VERSION.txt",
+    "beispiel.html",
+    "scripts/tests/neuer-test.mjs",
+    "CHANGELOG_NEU.md"
+  ],
+  "protectedPaths": [
+    "spielbetrieb.json",
+    "spieldaten.json",
+    "highscore.json",
+    "website-view.json",
+    "teams.json"
+  ],
+  "explicitlyApprovedProtectedPaths": []
+}

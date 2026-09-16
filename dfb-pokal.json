@@ -1,0 +1,42 @@
+{
+  "bereich": "Wettbewerbszentrale",
+  "statusSchild": "Ab Achtelfinale",
+  "titel": "DFB-Pokal",
+  "beschreibung": "Der DFB-Pokal wird in unserer Tipprunde ab dem Achtelfinale als eigener Wettbewerb geführt. Alle vorgesehenen K.-o.-Runden werden nach Auslosung und Terminierung zentral ergänzt.",
+  "karten": [
+    {
+      "titel": "Aktueller Torjäger",
+      "text": ""
+    },
+    {
+      "titel": "Die letzten 5 Pokalsieger",
+      "text": ""
+    },
+    {
+      "titel": "",
+      "text": "",
+      "logo": "./assets/dfb-pokal-logo.jpg",
+      "logoAlt": "DFB-Pokal Logo"
+    }
+  ],
+  "aktuellerStandTitel": "",
+  "aktuellerStand": "",
+  "bereiche": [],
+  "buttons": [
+    {
+      "text": "Kicktipp Live Action",
+      "link": "./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht",
+      "neuesFenster": false,
+      "stil": "primaer",
+      "anzeigen": true
+    },
+    {
+      "text": "Zurück zu allen Wettbewerben",
+      "link": "./index.html#wettbewerbe",
+      "neuesFenster": false,
+      "stil": "sekundaer",
+      "anzeigen": true
+    }
+  ],
+  "fusszeile": "The Old Smugglers Club · DFB-Pokal 2026/2027"
+}

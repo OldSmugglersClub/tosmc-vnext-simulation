@@ -1,0 +1,14 @@
+VERSION 23 – FINALER KAPITÄNSTISCH-HINTERGRUND
+
+Geändert wurden ausschließlich:
+- neue Hintergrundgrafik: kapitaenstisch-final.jpg
+- die body-Hintergrundreferenz in allen HTML-Dateien
+
+Unverändert bleiben Layout, Kacheln, Banner, Navigation, Texte,
+Abstände, Größen und Funktionen.
+
+GitHub:
+1. Alle HTML-Dateien hochladen und ersetzen.
+2. kapitaenstisch-final.jpg ins Hauptverzeichnis hochladen.
+3. Commit durchführen.
+4. Nach kurzer Wartezeit Strg+F5 drücken.

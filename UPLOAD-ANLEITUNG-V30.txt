@@ -1,0 +1,15 @@
+VERSION 30 HOCHLADEN
+
+1. ZIP entpacken.
+2. Sämtliche Dateien aus dem Paket in das GitHub-Hauptverzeichnis hochladen.
+3. Die Ordner .github und scripts ebenfalls mit ihrer Struktur übernehmen.
+4. Vorhandene HTML-Dateien ersetzen.
+5. Bereits vorhandene Bilder müssen nicht gelöscht werden.
+6. GitHub Pages abwarten und anschließend Strg+F5 drücken.
+
+Auf der Website sind danach sofort sichtbare Änderungen vorhanden:
+- Versions- und Datenstatus
+- Spieltagsbereich
+- Bundesliga-Tabelle
+- Topspieler-Bereich
+- Automatisierungsbasis

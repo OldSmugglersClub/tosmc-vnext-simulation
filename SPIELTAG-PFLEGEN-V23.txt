@@ -1,0 +1,14 @@
+SPIELTAG.JSON PFLEGEN
+
+Wichtige Felder:
+- spieltag: Nummer des Spieltags
+- status: geplant, live oder beendet
+- hinweis: Text unter der Überschrift
+- spiele: Liste der Begegnungen
+- heim / auswaerts: Vereinsnamen
+- datum: YYYY-MM-DD
+- uhrzeit: HH:MM
+- heimtore / auswaertstore: Zahl oder null
+- status pro Spiel: geplant, live oder beendet
+
+Bei noch nicht bekannten Ergebnissen heimtore und auswaertstore auf null lassen.

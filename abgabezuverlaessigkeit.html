@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abgabezuverlässigkeit | The Old Smugglers Club</title>
+  <link rel="icon" href="favicon.jpeg">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="abgabezuverlaessigkeit.css">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+</head>
+<body>
+  <main class="admin-shell">
+    <header class="admin-header">
+      <p class="admin-kicker">The Old Smugglers Club</p>
+      <h1>Abgabezuverlässigkeit und Teilnehmerstatus</h1>
+      <p>Lesende Auswertung der Tippabgaben. Abgelaufene bestätigte Fristen, vorhandene Tipps und dokumentierte Erinnerungen werden je aktivem Teilnehmer zusammengeführt.</p>
+      <nav class="admin-nav" aria-label="Navigation">
+        <a class="admin-button" href="admin.html">Zum Administrationszentrum</a>
+        <a class="admin-button" href="tippfristen.html">Tippfristen</a>
+        <a class="admin-button" href="erinnerungsprotokoll.html">Erinnerungsprotokoll</a>
+        <button class="admin-button" id="jsonButton" type="button" disabled>JSON exportieren</button>
+        <button class="admin-button" id="csvButton" type="button" disabled>CSV exportieren</button>
+      </nav>
+    </header>
+
+    <section class="admin-section" aria-labelledby="summaryHeading">
+      <div class="admin-heading-row"><h2 id="summaryHeading">Gesamtstatus</h2><span id="statusBadge" class="admin-badge">Daten werden geladen</span></div>
+      <div id="summaryGrid" class="admin-grid"></div>
+      <p class="reliability-note">Die Einstufung ist eine organisatorische Hilfe, keine Sanktion. Spiele ohne bestätigte genaue Anstoßzeit werden nicht als versäumte Abgabe gewertet.</p>
+    </section>
+
+    <section class="admin-section" aria-labelledby="filterHeading">
+      <h2 id="filterHeading">Filter</h2>
+      <div class="reliability-filters">
+        <label>Teilnehmer<input id="searchInput" type="search" placeholder="Name suchen"></label>
+        <label>Status<select id="statusFilter"><option value="all">Alle Statusstufen</option><option value="sehr-zuverlaessig">Sehr zuverlässig</option><option value="zuverlaessig">Zuverlässig</option><option value="beobachten">Beobachten</option><option value="kritisch">Kritisch</option><option value="ohne-basis">Noch keine Basis</option></select></label>
+        <label>Sortierung<select id="sortSelect"><option value="quote-desc">Abgabequote absteigend</option><option value="quote-asc">Abgabequote aufsteigend</option><option value="name">Name</option><option value="missing-desc">Fehlende Tipps</option><option value="reminders-desc">Erinnerungen</option></select></label>
+      </div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="rankingHeading">
+      <div class="admin-heading-row"><h2 id="rankingHeading">Teilnehmerübersicht</h2><span id="resultCount" class="admin-badge">–</span></div>
+      <div class="admin-table-wrap" tabindex="0">
+        <table class="admin-table reliability-table">
+          <thead><tr><th>Teilnehmer</th><th>Status</th><th>Abgabequote</th><th>Gewertete Fristen</th><th>Abgegeben</th><th>Fehlend</th><th>Erinnerungen</th><th>Aktuelle Serie</th></tr></thead>
+          <tbody id="participantRows"><tr><td colspan="8">Daten werden geladen.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="admin-section" aria-labelledby="detailHeading">
+      <div class="admin-heading-row"><h2 id="detailHeading">Detailansicht</h2><span id="detailBadge" class="admin-badge">Teilnehmer auswählen</span></div>
+      <div id="detailPanel" class="reliability-detail"><p>Klicke in der Tabelle auf einen Teilnehmer.</p></div>
+    </section>
+  </main>
+  <script src="abgabezuverlaessigkeit.js"></script>
+  <script src="./accessibility-v33.js" defer></script>
+</body>
+</html>

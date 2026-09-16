@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-10T19:33:39.317Z",
+  "root": "/mnt/data/tosmc_test2v2_work/the-old-smugglers-club-test2-v2-main",
+  "kind": "website",
+  "status": "OK",
+  "checks": [
+    "Alle aktiven JSON-Dateien sind syntaktisch gültig.",
+    "Website-Version: 4.9.2-HF12-HF65",
+    "wettbewerb.js: gemeinsame Cache-Kennung 4.9.2-HF12-HF65.",
+    "wettbewerb.css: gemeinsame Cache-Kennung 4.9.2-HF12-HF61.",
+    "highscore.json: Gesamtwertungs-Spiegel konsistent (100 Teilnehmer).",
+    "Originalwappen: 75/75 verwendete Teams abgesichert.",
+    "Teamstammdaten: 75/75 verwendete Teams kanonisch.",
+    "Startseitenadapter verwendet den kanonischen Teamstammdatenbestand."
+  ],
+  "errors": []
+}

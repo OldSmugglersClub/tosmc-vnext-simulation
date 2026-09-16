@@ -1,0 +1,2115 @@
+{
+  "schemaVersion": 2,
+  "datenVersion": 12,
+  "aktualisiert": "2026-09-13",
+  "hinweis": "Zentrale Teilnehmerliste mit stabilen IDs. E-Mail-Adressen aus dem Kicktipp-Export werden aus Datenschutzgründen nicht gespeichert oder veröffentlicht.",
+  "import": {
+    "quelle": "Kicktipp-Mitgliederexport",
+    "stand": "2026-09-13T19:00:32.291Z",
+    "anzahl": 100,
+    "emailAdressenUebernommen": false
+  },
+  "teilnehmer": [
+    {
+      "id": "11le",
+      "name": "11LE",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-06-10T09:01:05+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "11LE",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 77,
+        "position": 29,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "18amfg99",
+      "name": "18AMFG99",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-29T02:23:14+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "18AMFG99",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 96,
+        "position": 2,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "adamj",
+      "name": "AdamJ",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T06:27:27+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "AdamJ",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 64,
+        "position": 66,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "alex2507",
+      "name": "Alex2507",
+      "team": "Old Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-05-22T03:31:28+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Alex2507",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-08-09",
+        "punkte": 0,
+        "position": 68,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "andy1304",
+      "name": "Andy1304",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T18:19:00+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Andy1304",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 78,
+        "position": 23,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "audauzvares",
+      "name": "Audauzvares",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T07:04:01+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Audauzvares",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 61,
+        "position": 71,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "aufdieblaue",
+      "name": "AufdieBlaue",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T08:54:51+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "AufdieBlaue",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 66,
+        "position": 60,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "baslermario",
+      "name": "baslermario",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T17:38:37+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "baslermario",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 96,
+        "position": 1,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "ben1909",
+      "name": "Ben1909",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T13:00:10+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Ben1909",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 19,
+        "position": 88,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "bene",
+      "name": "Bene",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T13:01:49+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Bene",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 2,
+        "position": 98,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "berndibroti",
+      "name": "Berndibroti",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T14:00:11+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Berndibroti",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 22,
+        "position": 86,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "best10",
+      "name": "Best10",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T14:55:09+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Best10",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 76,
+        "position": 32,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "bigdog",
+      "name": "Bigdog",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T05:16:51+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Bigdog",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 75,
+        "position": 34,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "birgit-blaubart",
+      "name": "Birgit_Blaubart",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T19:34:56+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Birgit_Blaubart",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 0,
+        "position": 100,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "borussiamg1900",
+      "name": "BORUSSIAMG1900",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-26T07:19:11+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "BORUSSIAMG1900",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "bvb09-opam",
+      "name": "BvB09-OpaM",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T19:47:41+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "BvB09-OpaM",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 79,
+        "position": 20,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "cali79",
+      "name": "Cali79",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T14:14:58+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Cali79",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 10,
+        "position": 92,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "co",
+      "name": "Co",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T17:05:32+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Co",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 6,
+        "position": 95,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "cobra",
+      "name": "cobra",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T14:25:16+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "cobra",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 79,
+        "position": 20,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "cobra75",
+      "name": "Cobra75",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T00:15:52+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Cobra75",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 69,
+        "position": 48,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "dani1893",
+      "name": "Dani1893",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T09:20:10+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Dani1893",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 90,
+        "position": 6,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "ddd",
+      "name": "Ddd",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-30T10:15:45+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Ddd",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-08-09",
+        "punkte": 0,
+        "position": 68,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "dominik1966",
+      "name": "dominik1966",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T13:41:00+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "dominik1966",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 72,
+        "position": 43,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "eckes2359",
+      "name": "Eckes2359",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-31T08:10:00+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Eckes2359",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 66,
+        "position": 58,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "erik",
+      "name": "Erik",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T07:45:45+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Erik",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 33,
+        "position": 84,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "fcahnungslos",
+      "name": "FCAhnungslos",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T06:24:30+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "FCAhnungslos",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 14,
+        "position": 90,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "finch",
+      "name": "Finch",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-29T21:14:02+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Finch",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 82,
+        "position": 12,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "flokicker94",
+      "name": "FloKicker94",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T17:02:40+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "FloKicker94",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 72,
+        "position": 43,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "flying-dutchman",
+      "name": "Flying-Dutchman",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-24T18:12:55+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Flying-Dutchman",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 58,
+        "position": 75,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "frankfurterjung",
+      "name": "FrankfurterJung",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T13:59:44+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "FrankfurterJung",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 58,
+        "position": 74,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "franzi12345",
+      "name": "Franzi12345",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-30T08:45:19+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Franzi12345",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "g-1000",
+      "name": "G.1000",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T13:41:28+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "G.1000",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 77,
+        "position": 28,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "gerrit1887",
+      "name": "Gerrit1887",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-29T20:44:14+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Gerrit1887",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 79,
+        "position": 19,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "glatze583",
+      "name": "Glatze583",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T14:12:00+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Glatze583",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 71,
+        "position": 46,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "glueckspfennig",
+      "name": "Glückspfennig",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T07:03:31+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Glückspfennig",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 19,
+        "position": 89,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "gruber",
+      "name": "gRuBer",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T09:17:01+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "gRuBer",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 72,
+        "position": 40,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "handgottes",
+      "name": "HandGottes",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T06:24:35+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "HandGottes",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 78,
+        "position": 26,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "hardy17",
+      "name": "Hardy17",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T12:07:55+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Hardy17",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 78,
+        "position": 24,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "ibra-goat",
+      "name": "ibra.goat",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-28T17:22:49+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "ibra.goat",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "jakob",
+      "name": "Jakob",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T11:51:29+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Jakob",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 71,
+        "position": 45,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "juergen70",
+      "name": "Juergen70",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T16:54:23+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Juergen70",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 22,
+        "position": 87,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "jungunddurstig",
+      "name": "JungundDurstig",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-06-10T16:33:19+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "JungundDurstig",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 68,
+        "position": 52,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "juri",
+      "name": "JuRi",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T05:39:29+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "JuRi",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 79,
+        "position": 20,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "jwfussball",
+      "name": "JWFUSSBALL",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-29T16:10:16+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "JWFUSSBALL",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 95,
+        "position": 3,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "kev1999",
+      "name": "Kev1999",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T05:55:12+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Kev1999",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 74,
+        "position": 39,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "kevin",
+      "name": "Kevin",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T06:14:28+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Kevin",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 83,
+        "position": 11,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "kleinersachse",
+      "name": "kleinersachse",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T03:58:20+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "kleinersachse",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 87,
+        "position": 7,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "kunstblume",
+      "name": "Kunstblume",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T19:30:29+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Kunstblume",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 51,
+        "position": 78,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "laaura0804",
+      "name": "Laaura0804",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-29T19:42:59+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Laaura0804",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "lattenkracher",
+      "name": "Lattenkracher",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T21:44:51+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Lattenkracher",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 74,
+        "position": 38,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "luca",
+      "name": "Luca",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T12:05:50+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Luca",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 78,
+        "position": 26,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "lucas",
+      "name": "Lucas",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T05:39:38+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Lucas",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 4,
+        "position": 96,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "lucaspodolski",
+      "name": "LucasPodolski",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-23T14:02:32+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "LucasPodolski",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 2,
+        "position": 99,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "lucipher",
+      "name": "LuCipher",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T12:29:27+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "LuCipher",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 76,
+        "position": 31,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "luki1887",
+      "name": "Luki1887",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T06:02:34+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Luki1887",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 74,
+        "position": 36,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "maikiliii",
+      "name": "Maikiliii",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T21:11:04+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Maikiliii",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 81,
+        "position": 13,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "manuel",
+      "name": "Manuel",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T03:28:35+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Manuel",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 64,
+        "position": 67,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "marc86",
+      "name": "Marc86",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T05:36:59+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Marc86",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 68,
+        "position": 51,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "marcor",
+      "name": "MarcoR",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T08:32:52+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "MarcoR",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 44,
+        "position": 82,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "marius",
+      "name": "Marius",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T11:09:12+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Marius",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 75,
+        "position": 33,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "mariusv",
+      "name": "mariusv",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T07:10:24+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "mariusv",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 81,
+        "position": 15,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "mary-grace",
+      "name": "Mary-Grace",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T04:02:09+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Mary-Grace",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 45,
+        "position": 81,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "maxpam",
+      "name": "MaxPam",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T12:39:56+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "MaxPam",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 67,
+        "position": 56,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "medic",
+      "name": "Medic",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T12:27:22+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Medic",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 54,
+        "position": 76,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "mikoog",
+      "name": "MiKoog",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T18:03:58+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "MiKoog",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 64,
+        "position": 65,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "milad",
+      "name": "Milad",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T20:36:25+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Milad",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 10,
+        "position": 93,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "modric2000",
+      "name": "Modric2000",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-26T13:31:32+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Modric2000",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "mythos",
+      "name": "Mythos",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T08:31:03+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Mythos",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 65,
+        "position": 64,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "nick-zg-1501",
+      "name": "Nick_ZG_1501",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-24T17:45:44+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Nick_ZG_1501",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 65,
+        "position": 63,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "normiks",
+      "name": "Normiks",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T06:08:59+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Normiks",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 43,
+        "position": 83,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "nurderscf",
+      "name": "NurDerSCF",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T05:34:15+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "NurDerSCF",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 51,
+        "position": 77,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "oifinger",
+      "name": "Oifinger",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T11:54:58+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Oifinger",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 61,
+        "position": 70,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "oliver",
+      "name": "Oliver",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-25T15:52:44+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Oliver",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "opipeter",
+      "name": "Opipeter",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T16:51:27+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Opipeter",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 84,
+        "position": 10,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "pauli",
+      "name": "Pauli",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T18:59:14+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Pauli",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 67,
+        "position": 55,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "playboymarc88",
+      "name": "PlayBoyMarc88",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T07:20:54+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "PlayBoyMarc88",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 75,
+        "position": 35,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "pochzerjung",
+      "name": "PochzerJung",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T09:36:37+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "PochzerJung",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 92,
+        "position": 4,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "potterhead",
+      "name": "Potterhead",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T16:26:51+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Potterhead",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 4,
+        "position": 96,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "quick",
+      "name": "Quick",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-23T19:26:30+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Quick",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 60,
+        "position": 72,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "realzaragoza",
+      "name": "Realzaragoza",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T20:22:04+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Realzaragoza",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 78,
+        "position": 25,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "redwing",
+      "name": "Redwing",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T08:02:02+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Redwing",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 69,
+        "position": 49,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "rk69",
+      "name": "RK69",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T06:04:04+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "RK69",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 80,
+        "position": 17,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "ronny75",
+      "name": "Ronny75",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-27T10:43:24+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Ronny75",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "salas1904",
+      "name": "Salas1904",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T05:16:32+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Salas1904",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 50,
+        "position": 79,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "sam2004",
+      "name": "Sam2004",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T10:57:45+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Sam2004",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 76,
+        "position": 30,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "sam-entspender",
+      "name": "SAM_ENTSPENDER",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-29T14:18:36+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "SAM_ENTSPENDER",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 68,
+        "position": 50,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "servus",
+      "name": "Servus",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-27T13:44:09+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Servus",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-07-31",
+        "punkte": 0,
+        "position": 0,
+        "quelle": "Kicktipp-Mitgliederexport"
+      }
+    },
+    {
+      "id": "souvard",
+      "name": "Souvard",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T09:02:20+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Souvard",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 72,
+        "position": 42,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "steff77",
+      "name": "Steff77",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T21:18:40+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Steff77",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 59,
+        "position": 73,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "stevie26",
+      "name": "Stevie26",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-31T08:58:17+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Stevie26",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 66,
+        "position": 58,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "sven-huhn",
+      "name": "Sven_Huhn",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T10:44:13+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Sven_Huhn",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 81,
+        "position": 13,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "tortugasge",
+      "name": "TortugaSGE",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T18:53:44+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "TortugaSGE",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 80,
+        "position": 16,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "tribuna33",
+      "name": "TRIBUNA33",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-27T18:21:33+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "TRIBUNA33",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 74,
+        "position": 37,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "waltersen",
+      "name": "Waltersen",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-28T17:56:59+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Waltersen",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 80,
+        "position": 18,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "wildemoni",
+      "name": "WildeMoni",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-25T15:16:12+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "WildeMoni",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 92,
+        "position": 5,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "xib0o",
+      "name": "Xib0o",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-30T00:50:41+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Xib0o",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 68,
+        "position": 53,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "ximmox",
+      "name": "xIMMOx",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T05:50:59+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "xIMMOx",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 62,
+        "position": 69,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "yauguru",
+      "name": "Yauguru",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-07-26T13:30:10+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Yauguru",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 7,
+        "position": 94,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "yorik",
+      "name": "Yorik",
+      "team": "New Smugglers Team",
+      "aktiv": false,
+      "mitgliedSeit": "2026-07-27T12:02:40+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Yorik",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-08-09",
+        "punkte": 2,
+        "position": 1,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "zweikampfgott",
+      "name": "ZweikampfGott",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T03:16:39+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "ZweikampfGott",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 67,
+        "position": 57,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "munmarkus",
+      "name": "Munmarkus",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-07T18:40:46+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Munmarkus",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 66,
+        "position": 60,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "sgbw",
+      "name": "sgbw",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-07T11:24:18+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "sgbw",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 72,
+        "position": 41,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "urkel",
+      "name": "Urkel",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-08T11:41:50+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Urkel",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 50,
+        "position": 80,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "vebfriwiwerk",
+      "name": "VebFriwiwerk",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-05-22T03:31:28+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "VebFriwiwerk",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 65,
+        "position": 62,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "g-threepwood",
+      "name": "G.Threepwood",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-12T17:30:04+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "G.Threepwood",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 69,
+        "position": 47,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "gordinho",
+      "name": "Gordinho",
+      "team": "Old Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-12T18:54:43+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Gordinho",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 11,
+        "position": 91,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "old-smugglers"
+      }
+    },
+    {
+      "id": "olympiakos",
+      "name": "Olympiakos",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-13T10:48:33+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Olympiakos",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 87,
+        "position": 8,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "seboso",
+      "name": "Seboso",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-11T19:50:07+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Seboso",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 64,
+        "position": 68,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "kevinhick",
+      "name": "Kevinhick",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-17T18:50:03+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Kevinhick",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 68,
+        "position": 53,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "moosmuzel",
+      "name": "Moosmuzel",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-17T17:56:35+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "Moosmuzel",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 26,
+        "position": 85,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    },
+    {
+      "id": "mrjensationell",
+      "name": "MrJensationell",
+      "team": "New Smugglers Team",
+      "aktiv": true,
+      "mitgliedSeit": "2026-08-18T01:08:05+00:00",
+      "sprache": "de",
+      "profil": {
+        "anzeigename": "MrJensationell",
+        "notiz": null
+      },
+      "kicktipp": {
+        "importiertAm": "2026-09-13",
+        "punkte": 85,
+        "position": 9,
+        "quelle": "Kicktipp-Mitgliederexport",
+        "teamId": "new-smugglers"
+      }
+    }
+  ]
+}
