@@ -4,8 +4,8 @@
   "aktualisiert": "2026-09-13",
   "saison": "2026-27",
   "hinweis": "Kumulativ aus der zentralen Spielbetriebsdatenbank erzeugt. Bei bislang genau einem abgeschlossenen Wettbewerb wird nur die Reihenfolge vollständig gleichrangiger Teilnehmer anhand der offiziellen Kicktipp-Gesamtreihenfolge stabilisiert.",
-  "berechnetAm": "2026-09-13T19:00:32.291Z",
-  "quelle": "Admin 6.5.0-HF13-TEST4-HF20",
+  "berechnetAm": "2026-09-13T19:16:01.543Z",
+  "quelle": "Admin 6.5.0-HF30",
   "rangReferenz": {
     "applied": false,
     "reason": "mixed-or-missing-reference"

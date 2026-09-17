@@ -3,11 +3,11 @@
     "season": "2026-27",
     "matchday": "Bundesliga 3. Spieltag",
     "exportDate": "2026-09-13",
-    "source": "Kicktipp-Ranglisten + interne Tippstatistiken / Admin 6.5.0-HF13-TEST4-HF20",
+    "source": "Kicktipp-Ranglisten + interne Tippstatistiken / Admin 6.5.0-HF30",
     "privacy": "E-Mail-Adressen werden nicht übernommen.",
     "participantCount": 100,
     "status": "Kicktipp-Ranglisten übernommen",
-    "exportMode": "test"
+    "exportMode": "produktiv"
   },
   "individual": {
     "overall": [

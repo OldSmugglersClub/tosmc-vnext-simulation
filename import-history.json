@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T19:00:32.291Z",
+  "updatedAt": "2026-09-13T19:16:01.543Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -476,15 +476,15 @@
       }
     },
     {
-      "id": "2026-27__bundesliga__3-spieltag__bl-2026-27-03-019-bl-2026-27-03-020-bl-2026-27-03-021-bl-2026-27-03-022-bl-2026-27-03-023-bl-2026-27-03-024-bl-2026-27-03-025-bl-2026-27-03-026-bl-2026-27-03-027-1789326032514",
-      "createdAt": "2026-09-13T19:00:32.291Z",
-      "mode": "test",
+      "id": "2026-27__bundesliga__3-spieltag__bl-2026-27-03-019-bl-2026-27-03-020-bl-2026-27-03-021-bl-2026-27-03-022-bl-2026-27-03-023-bl-2026-27-03-024-bl-2026-27-03-025-bl-2026-27-03-026-bl-2026-27-03-027-1789326961732",
+      "createdAt": "2026-09-13T19:16:01.543Z",
+      "mode": "produktiv",
       "valuation": "bundesliga",
       "round": "3. Spieltag",
       "participantCount": 100,
       "oldSmugglers": 25,
       "newSmugglers": 75,
-      "status": "test",
+      "status": "ok",
       "files": {
         "history": {
           "fileName": "the-old-smugglers-club-main.zip",

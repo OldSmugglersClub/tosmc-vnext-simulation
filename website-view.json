@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
   "datenVersion": 1,
-  "aktualisiertAm": "2026-09-13T19:00:32.291Z",
+  "aktualisiertAm": "2026-09-13T19:16:01.543Z",
   "saison": "2026-27",
-  "modus": "test",
-  "quelle": "Admin 6.5.0-HF13-TEST4-HF20 Website-Adapter",
+  "modus": "produktiv",
+  "quelle": "Admin 6.5.0-HF30 Website-Adapter",
   "highscore": {
     "wettbewerbe": {
       "bundesliga": {
