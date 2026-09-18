@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#120b07">
   <title>Ehrenlogbuch | The Old Smugglers Club</title><link rel="icon" href="./favicon.jpeg">
-  <link rel="stylesheet" href="./ehrenlogbuch.css?v=4.9.2-HF12-HF101-TEST3-FULLIMAGE"><link rel="stylesheet" href="./legal.css"><link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+  <link rel="stylesheet" href="./ehrenlogbuch.css?v=4.9.2-HF12-HF106"><link rel="stylesheet" href="./legal.css"><link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
 </head>
 <body>
 <main class="wrap" id="hall-top">
@@ -11,7 +11,7 @@
   <header class="hero"><div class="hero-visual" aria-hidden="true"><img src="./ehrenlogbuch-motiv.jpg?v=final4" alt=""></div><div class="hero-copy"><div class="eyebrow">Das Gedächtnis der Crew</div><h1>Ehrenlogbuch</h1><p>Alle bestätigten Champions, Titel, Saisonbestwerte, absoluten Rekorde und besonderen Ehrungen des TOSMC – dauerhaft bewahrt und nach Saison, Wettbewerb oder Mitglied abrufbar.</p></div></header>
   <div class="archive-grid">
     <section class="panel panel--wide" aria-labelledby="honorTitle"><div class="section-head"><div><h2 id="honorTitle">Ehrenchampions der Sonderwettbewerbe</h2><p>Diese Ehrungen bleiben unabhängig von Saisonfiltern dauerhaft sichtbar.</p></div></div><div class="honor-grid" id="honorGrid"></div></section>
-    <section class="panel panel--wide" aria-labelledby="recordTitle"><div class="section-head"><div><h2 id="recordTitle">Ewige Rekordtafel mit Historie</h2><p>Dies sind dieselben absoluten TOSMC-Rekorde wie auf der HOF-Startseite. Hier werden zusätzlich Saison, gemeinsame Rekordhalter und die spätere Rekordentwicklung dokumentiert.</p></div></div><div class="record-grid" id="recordGrid"></div></section>
+    <section class="panel panel--wide" aria-labelledby="recordTitle"><div class="section-head"><div><h2 id="recordTitle">Ewige Rekordtafel mit Historie</h2><p>Dies sind dieselben absoluten TOSMC-Rekorde wie im Hall-of-Fame-Bereich der Clubseite. Hier werden zusätzlich Saison, gemeinsame Rekordhalter und die spätere Rekordentwicklung dokumentiert.</p></div></div><div class="record-grid" id="recordGrid"></div></section>
     <section class="panel panel--wide" aria-labelledby="seasonTitle"><div class="section-head"><div><h2 id="seasonTitle">Saisonarchiv und Saisonbestwerte</h2><p>Eine abgeschlossene Saison vollständig aufrufen.</p></div><div class="filter"><label for="seasonSelect">Saison auswählen</label><select id="seasonSelect"></select></div></div><div id="seasonContent"></div></section>
     <section class="panel panel--wide" aria-labelledby="titlesTitle"><div class="section-head"><div><h2 id="titlesTitle">Titelchronik</h2><p>Alle bestätigten Sieger eines Wettbewerbs über die Jahre.</p></div><div class="filter"><label for="competitionSelect">Wettbewerb auswählen</label><select id="competitionSelect"></select></div></div><div class="table-wrap"><table class="archive-table"><thead><tr><th>Saison</th><th>Wettbewerb</th><th>Sieger</th><th>Wert</th></tr></thead><tbody id="titleRows"></tbody></table></div></section>
     <section class="panel panel--wide" aria-labelledby="personTitle"><div class="section-head"><div><h2 id="personTitle">Persönliche Ruhmeshalle</h2><p>Jeder Tipper kann seine beste archivierte Saison-Gesamtplatzierung sowie Titel, Bestwerte und Ehrungen aufrufen. Die saisonübergreifende Zuordnung erfolgt bei identischem Spielernamen.</p></div><div class="filter"><label for="personSelect">Tipper auswählen</label><select id="personSelect"></select></div></div><div id="personContent"></div></section>
@@ -19,7 +19,7 @@
   <div class="tosmc-nav" aria-label="Ehrenlogbuch-Navigation"><a class="tosmc-nav-button tosmc-nav-button--primary" href="./kicktipp.html?path=tippuebersicht&amp;br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht">Kicktipp Live Action</a><a class="tosmc-nav-button tosmc-nav-button--back" href="./index.html#hall-of-fame">Zurück zur Clubseite</a><a class="tosmc-nav-button tosmc-nav-button--top" href="#hall-top">Nach oben</a></div>
   <div class="status" id="dataStatus">Ehrenlogbuch wird geladen …</div>
 </main>
-<script src="./ehrenlogbuch-runtime.js?v=4.9.2-HF12-HF101-TEST3"></script>
+<script src="./ehrenlogbuch-runtime.js?v=4.9.2-HF12-HF101"></script>
 <script>window.TOSMCEhrenlogbuch.load().catch(error=>{document.getElementById('dataStatus').textContent='Das Ehrenlogbuch konnte nicht geladen werden: '+error.message});fetch('./VERSION.txt',{cache:'no-store'}).then(response=>response.ok?response.text():Promise.reject()).then(version=>{document.getElementById('legal-version').textContent='Version '+version.trim()}).catch(()=>{document.getElementById('legal-version').textContent='Version nicht verfügbar'});</script>
 <footer class="legal-footer" aria-label="Rechtliche Hinweise"><div class="legal-footer__inner"><span>© 2026 The Old Smugglers Club</span><nav class="legal-footer__links" aria-label="Rechtliche Navigation"><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a><a href="./nutzungsrechte.html">Nutzungsrechte</a><span id="legal-version">Version wird geladen</span></nav></div></footer>
 <script data-goatcounter="https://oldsmugglersclub.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
