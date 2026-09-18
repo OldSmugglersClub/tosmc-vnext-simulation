@@ -1,0 +1,25 @@
+TOSMC Simulation – Darstellungsabgleich Bundesliga-Gesamtwertung
+
+Zielrepository:
+tosmc-vnext-simulation
+
+Enthaltene Ersatzdatei:
+highscore.js
+
+Wirkung:
+- In Wettbewerbs-Gesamtwertungen wird die überflüssige Bonuspunkte-Spalte entfernt.
+- Angezeigt werden Rang, Spieler, Exakt, Differenz, Tendenz, Spieltagssiege und Gesamtpunkte.
+- Die eigenständige Gesamt-Bonuswertung bleibt unverändert erhalten.
+
+Einspielen:
+1. highscore.js im lokalen Ordner des Simulations-Repositories ersetzen.
+2. In GitHub Desktop prüfen, dass ausschließlich highscore.js als Änderung erscheint.
+3. Committen und Push origin ausführen.
+4. Simulations-Website mit Strg+F5 neu laden und die Bundesliga-Gesamtwertung prüfen.
+
+Nicht enthalten und nicht zu verändern:
+- highscore.json
+- spielbetrieb.json
+- spieldaten.json
+- website-view.json
+- Historien- und Hall-of-Fame-Dateien

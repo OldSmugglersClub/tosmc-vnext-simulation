@@ -134,8 +134,63 @@ function bindPagination(){
  });
 }
 
-function renderTable(){const list=rows();const team=view==='team';const bonus=view==='bonus';const tableWrap=$('ranking-body').closest('.hs-table-wrap');if(tableWrap){tableWrap.classList.toggle('is-team-table',team);tableWrap.classList.toggle('is-individual-table',view==='individual');tableWrap.classList.toggle('is-matchday-table',view==='matchday');tableWrap.classList.toggle('is-bonus-table',bonus);}$('search-box').hidden=false;const searchLabel=$('search-box').querySelector('span');if(searchLabel)searchLabel.textContent=team?'Team suchen':'Spieler suchen';let base=sortedRows(list);let filtered=base.filter(r=>rowName(r).toLocaleLowerCase('de').includes(query.toLocaleLowerCase('de')));const pages=Math.max(1,Math.ceil(filtered.length/pageSize));page=Math.min(page,pages);const shown=team?filtered:filtered.slice((page-1)*pageSize,page*pageSize);$('toolbar-count').textContent=`${filtered.length} ${team?'Teams':'Spieler'}`;$('ranking-head').innerHTML=team?'<tr><th>Rang</th><th>Team</th><th>Mitglieder</th><th>Punktesumme</th><th>Durchschnitt</th></tr>':bonus?'<tr><th>Rang</th><th>Spieler</th><th>Bonuspunkte</th></tr>':view==='matchday'?'<tr><th>Rang</th><th>Spieler</th><th>Punkte</th><th>Exakt</th><th>Differenz</th><th>Tendenz</th></tr>':'<tr><th>Rang</th><th>Spieler</th><th>Bonuspunkte</th><th>Spieltagsiege</th><th>Gesamtpunkte</th></tr>';
- $('ranking-body').innerHTML=shown.map((r,i)=>{const absoluteIndex=team?i:(page-1)*pageSize+i;return team?`<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${num(r.memberCount??r.mitglieder)}</td><td>${fmt(r.pointsSum??r.punktesumme??0,1)}</td><td>${fmt(rowPoints(r),2)}</td></tr>`:bonus?`<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(rowPoints(r))}</td></tr>`:view==='matchday'?`<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(rowPoints(r))}</td><td>${fmt(r.exactHits??r.exakt)}</td><td>${fmt(r.differenceHits??r.differenz)}</td><td>${fmt(r.tendencyHits??r.tendenz)}</td></tr>`:`<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(r.bonusPoints)}</td><td>${fmtMatchdayWins(r.matchdayWins)}</td><td>${fmt(rowPoints(r))}</td></tr>`}).join('')||'<tr><td colspan="6">Keine passenden Einträge.</td></tr>';const nav=team?'':paginationHtml(filtered.length);$('pagination-top').innerHTML=nav;$('pagination-bottom').innerHTML=nav;const labels=team?['Rang','Team','Mitglieder','Punktesumme','Durchschnitt']:bonus?['Rang','Spieler','Bonuspunkte']:view==='matchday'?['Rang','Spieler','Punkte','Exakt','Differenz','Tendenz']:['Rang','Spieler','Bonus','S','Punkte'];$('ranking-body').querySelectorAll('tr').forEach(tr=>tr.querySelectorAll('td').forEach((td,index)=>{if(labels[index])td.dataset.label=labels[index];}));bindPagination();}
+function renderTable(){
+ const list=rows();
+ const team=view==='team';
+ const bonus=view==='bonus';
+ const matchday=view==='matchday';
+ const competitionOverall=scope!=='overall'&&view==='individual';
+ const tableWrap=$('ranking-body').closest('.hs-table-wrap');
+ if(tableWrap){
+   tableWrap.classList.toggle('is-team-table',team);
+   tableWrap.classList.toggle('is-individual-table',view==='individual');
+   tableWrap.classList.toggle('is-matchday-table',matchday);
+   tableWrap.classList.toggle('is-bonus-table',bonus);
+ }
+ $('search-box').hidden=false;
+ const searchLabel=$('search-box').querySelector('span');
+ if(searchLabel)searchLabel.textContent=team?'Team suchen':'Spieler suchen';
+ let base=sortedRows(list);
+ let filtered=base.filter(r=>rowName(r).toLocaleLowerCase('de').includes(query.toLocaleLowerCase('de')));
+ const pages=Math.max(1,Math.ceil(filtered.length/pageSize));
+ page=Math.min(page,pages);
+ const shown=team?filtered:filtered.slice((page-1)*pageSize,page*pageSize);
+ $('toolbar-count').textContent=`${filtered.length} ${team?'Teams':'Spieler'}`;
+
+ $('ranking-head').innerHTML=
+   team?'<tr><th>Rang</th><th>Team</th><th>Mitglieder</th><th>Punktesumme</th><th>Durchschnitt</th></tr>':
+   bonus?'<tr><th>Rang</th><th>Spieler</th><th>Bonuspunkte</th></tr>':
+   matchday?'<tr><th>Rang</th><th>Spieler</th><th>Punkte</th><th>Exakt</th><th>Differenz</th><th>Tendenz</th></tr>':
+   competitionOverall?'<tr><th>Rang</th><th>Spieler</th><th>Exakt</th><th>Differenz</th><th>Tendenz</th><th>Spieltagsiege</th><th>Gesamtpunkte</th></tr>':
+   '<tr><th>Rang</th><th>Spieler</th><th>Bonuspunkte</th><th>Spieltagsiege</th><th>Gesamtpunkte</th></tr>';
+
+ $('ranking-body').innerHTML=shown.map((r,i)=>{
+   const absoluteIndex=team?i:(page-1)*pageSize+i;
+   return team?
+     `<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${num(r.memberCount??r.mitglieder)}</td><td>${fmt(r.pointsSum??r.punktesumme??0,1)}</td><td>${fmt(rowPoints(r),2)}</td></tr>`:
+   bonus?
+     `<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(rowPoints(r))}</td></tr>`:
+   matchday?
+     `<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(rowPoints(r))}</td><td>${fmt(r.exactHits??r.exakt)}</td><td>${fmt(r.differenceHits??r.differenz)}</td><td>${fmt(r.tendencyHits??r.tendenz)}</td></tr>`:
+   competitionOverall?
+     `<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(r.exactHits??r.exakt)}</td><td>${fmt(r.differenceHits??r.differenz)}</td><td>${fmt(r.tendencyHits??r.tendenz)}</td><td>${fmtMatchdayWins(r.matchdayWins)}</td><td>${fmt(rowPoints(r))}</td></tr>`:
+     `<tr><td>${esc(rowRank(r,absoluteIndex))}</td><td>${esc(rowName(r))}</td><td>${fmt(r.bonusPoints)}</td><td>${fmtMatchdayWins(r.matchdayWins)}</td><td>${fmt(rowPoints(r))}</td></tr>`;
+ }).join('')||'<tr><td colspan="7">Keine passenden Einträge.</td></tr>';
+
+ const nav=team?'':paginationHtml(filtered.length);
+ $('pagination-top').innerHTML=nav;
+ $('pagination-bottom').innerHTML=nav;
+
+ const labels=
+   team?['Rang','Team','Mitglieder','Punktesumme','Durchschnitt']:
+   bonus?['Rang','Spieler','Bonuspunkte']:
+   matchday?['Rang','Spieler','Punkte','Exakt','Differenz','Tendenz']:
+   competitionOverall?['Rang','Spieler','Exakt','Differenz','Tendenz','S','Punkte']:
+   ['Rang','Spieler','Bonus','S','Punkte'];
+
+ $('ranking-body').querySelectorAll('tr').forEach(tr=>tr.querySelectorAll('td').forEach((td,index)=>{if(labels[index])td.dataset.label=labels[index];}));
+ bindPagination();
+}
 function render(){renderTabs();const list=sortedRows(rows());const c=current(),scopeLabel=scope==='overall'?'Saison gesamt':c.label||catalog.find(x=>x[0]===scope)?.[1]||scope,viewLabel=views().find(x=>x[0]===view)?.[1]||view;const displayTitle=scope==='overall'?viewLabel:`${scopeLabel} · ${viewLabel}`;$('ranking-title').textContent=displayTitle;$('table-title').textContent=displayTitle;$('ranking-caption').textContent=scope!=='overall'&&(view==='matchday'||view==='team')?(c.matchdayLabel||'Aktueller Spieltag'):'Aktueller bestätigter Datenstand';$('toolbar-scope').textContent=scopeLabel;$('toolbar-view').textContent=viewLabel;renderSummary(list);renderPodium(list);renderTable();const diag=source.adapterDiagnostics||{};const missingTeams=scope==='overall'&&view==='team'&&list.length===0;const warning=diag.warning||(missingTeams?'Für diese Auswahl sind derzeit keine vollständigen Teamdaten verfügbar.':'');$('hs-system-status').className=warning?'hs-system-status is-error':'hs-system-status is-ready';$('hs-system-status').innerHTML=`<strong>${warning?'Daten nicht vollständig':'Daten geladen'}</strong><span>${warning?esc(warning):'Aktuelle Ranglisten verfügbar.'}</span>`;}
 $('player-search').addEventListener('input',e=>{query=e.target.value;page=1;renderTable();});
 window.OSCHighscoreDataAdapter.loadHighscore().then(d=>{source=normalizeLegacy(d);render();}).catch(e=>{$('hs-system-status').className='hs-system-status is-error';$('hs-system-status').innerHTML=`<strong>Highscore nicht verfügbar</strong><span>${esc(e.message)}</span>`;});
