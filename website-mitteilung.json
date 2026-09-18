@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "mitteilung-aad6797d",
+  "id": "mitteilung-a4e905f3",
   "enabled": true,
   "timeZone": "Europe/Berlin",
   "headline": "Wichtige Mitteilung",
-  "message": "Aktualisierung der Website am 13.09.2026 um 07:00",
-  "startsAt": "2026-09-12T21:45",
-  "endsAt": "2026-09-13T07:00",
+  "message": "Der Chef ist im Urlaub – die Aktualisierung der Website erfolgt am 28.09.2026 gegen 09:00 Uhr.",
+  "startsAt": "2026-09-25T00:00",
+  "endsAt": "2026-09-28T06:00",
   "buttonLabel": "OK"
 }
