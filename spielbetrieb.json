@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "datenVersion": 22,
-  "aktualisiertAm": "2026-09-13T19:16:01.543Z",
+  "datenVersion": 23,
+  "aktualisiertAm": "2026-09-18T22:38:14.955Z",
   "aktiveSaison": "2026-27",
-  "quelle": "The Old Smugglers Club Admin 6.5.0-HF30",
+  "quelle": "The Old Smugglers Club Admin 6.5.0-HF13-TEST4-HF31 Zwischenstand",
   "regeln": {
     "tendenz": 2,
     "differenz": 3,
@@ -4370,14 +4370,38 @@
             "datumAnzeige": "18.09.2026",
             "anstoss": "20:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 7,
+            "auswaertstore": 0,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
-            "quelleStand": "2026-07-30",
+            "quelleStand": "2026-09-18",
             "heimTeamId": "bayern-muenchen",
-            "auswaertsTeamId": "union-berlin"
+            "auswaertsTeamId": "union-berlin",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-18T22:38:14.955Z",
+              "abgegeben": 78,
+              "nichtAbgegeben": 22,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 76,
+                  "prozent": 97.4
+                },
+                "2": {
+                  "anzahl": 1,
+                  "prozent": 1.3
+                },
+                "X": {
+                  "anzahl": 1,
+                  "prozent": 1.3
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-18T22:38:14.955Z"
           },
           {
             "id": "bl-2026-27-04-031",
@@ -236889,7 +236913,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.693Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.057Z"
       },
       {
         "id": "2026-27__smugglerauftrag__2-spieltag__sma-2026-27-02-013",
@@ -237847,7 +237871,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.693Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.057Z"
       },
       {
         "id": "2026-27__bundesliga__1-spieltag__bl-2026-27-01-001-bl-2026-27-01-002-bl-2026-27-01-003-bl-2026-27-01-004-bl-2026-27-01-005-bl-2026-27-01-006-bl-2026-27-01-007-bl-2026-27-01-008-bl-2026-27-01-009",
@@ -246381,7 +246405,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.694Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.059Z"
       },
       {
         "id": "2026-27__smugglerauftrag__3-spieltag__sma-2026-27-03-020",
@@ -247319,7 +247343,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.695Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.059Z"
       },
       {
         "id": "2026-27__bundesliga__2-spieltag__bl-2026-27-02-010-bl-2026-27-02-011-bl-2026-27-02-012-bl-2026-27-02-013-bl-2026-27-02-014-bl-2026-27-02-015-bl-2026-27-02-016-bl-2026-27-02-017-bl-2026-27-02-018",
@@ -255193,7 +255217,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.695Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.060Z"
       },
       {
         "id": "2026-27__smugglerauftrag__4-spieltag__sma-2026-27-04-032",
@@ -256101,7 +256125,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.696Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.060Z"
       },
       {
         "id": "2026-27__champions-league__1-spieltag__ucl-2026-27-1-spieltag-87388-ucl-2026-27-1-spieltag-87389-ucl-2026-27-1-spieltag-87390-ucl-2026-27-1-spieltag-87391-ucl-2026-27-1-spieltag-87392-ucl-2026-27-1-spieltag-87393-ucl-2026-27-1-spieltag-87394-ucl-2026-27-1-spieltag-87395-ucl-2026-27-1-spieltag-87396-ucl-2026-27-1-spieltag-87397-ucl-2026-27-1-spieltag-87398-ucl-2026-27-1-spieltag-87399-ucl-2026-27-1-spieltag-87400-ucl-2026-27-1-spieltag-87401-ucl-2026-27-1-spieltag-87402-ucl-2026-27-1-spieltag-87403-ucl-2026-27-1-spieltag-87404-ucl-2026-27-1-spieltag-87405",
@@ -270793,7 +270817,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.697Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.062Z"
       },
       {
         "id": "2026-27__bundesliga__3-spieltag__bl-2026-27-03-019-bl-2026-27-03-020-bl-2026-27-03-021-bl-2026-27-03-022-bl-2026-27-03-023-bl-2026-27-03-024-bl-2026-27-03-025-bl-2026-27-03-026-bl-2026-27-03-027",
@@ -278246,7 +278270,8 @@
             ],
             "tippImporte": []
           }
-        ]
+        ],
+        "statusErmitteltAm": "2026-09-18T22:38:15.063Z"
       },
       {
         "id": "2026-27__smugglerauftrag__5-spieltag__sma-2026-27-05-044",
@@ -279044,7 +279069,265 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-13T19:16:01.697Z"
+        "statusErmitteltAm": "2026-09-18T22:38:15.063Z"
+      },
+      {
+        "id": "2026-27__bundesliga__4-spieltag__bl-2026-27-04-028-bl-2026-27-04-029-bl-2026-27-04-030-bl-2026-27-04-031-bl-2026-27-04-032-bl-2026-27-04-033-bl-2026-27-04-034-bl-2026-27-04-035-bl-2026-27-04-036",
+        "fachlicheId": "2026-27__bundesliga__4-spieltag__bl-2026-27-04-028-bl-2026-27-04-029-bl-2026-27-04-030-bl-2026-27-04-031-bl-2026-27-04-032-bl-2026-27-04-033-bl-2026-27-04-034-bl-2026-27-04-035-bl-2026-27-04-036",
+        "saison": "2026-27",
+        "wertung": "bundesliga",
+        "label": "Bundesliga",
+        "runde": "4. Spieltag",
+        "erstelltAm": "2026-09-18T22:37:17.214Z",
+        "aktualisiertAm": "2026-09-18T22:38:15.065Z",
+        "spiele": [
+          {
+            "id": "bl-2026-27-04-028",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 28,
+            "datum": "2026-09-18",
+            "datumVon": "2026-09-18",
+            "datumBis": "2026-09-18",
+            "datumAnzeige": "18.09.2026",
+            "anstoss": "20:30",
+            "terminBestaetigt": true,
+            "heimtore": 7,
+            "auswaertstore": 0,
+            "status": "beendet",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "bayern-muenchen",
+            "auswaertsTeamId": "union-berlin",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-031",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 31,
+            "datum": "2026-09-19",
+            "datumVon": "2026-09-19",
+            "datumBis": "2026-09-19",
+            "datumAnzeige": "19.09.2026",
+            "anstoss": "15:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "frankfurt",
+            "auswaertsTeamId": "freiburg",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-032",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 32,
+            "datum": "2026-09-19",
+            "datumVon": "2026-09-19",
+            "datumBis": "2026-09-19",
+            "datumAnzeige": "19.09.2026",
+            "anstoss": "15:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "moenchengladbach",
+            "auswaertsTeamId": "mainz-05",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-033",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 33,
+            "datum": "2026-09-19",
+            "datumVon": "2026-09-19",
+            "datumBis": "2026-09-19",
+            "datumAnzeige": "19.09.2026",
+            "anstoss": "15:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "hamburger-sv",
+            "auswaertsTeamId": "koeln",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-034",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 34,
+            "datum": "2026-09-19",
+            "datumVon": "2026-09-19",
+            "datumBis": "2026-09-19",
+            "datumAnzeige": "19.09.2026",
+            "anstoss": "15:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "werder-bremen",
+            "auswaertsTeamId": "augsburg",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-029",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 29,
+            "datum": "2026-09-19",
+            "datumVon": "2026-09-19",
+            "datumBis": "2026-09-19",
+            "datumAnzeige": "19.09.2026",
+            "anstoss": "18:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "stuttgart",
+            "auswaertsTeamId": "dortmund",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-030",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 30,
+            "datum": "2026-09-20",
+            "datumVon": "2026-09-20",
+            "datumBis": "2026-09-20",
+            "datumAnzeige": "20.09.2026",
+            "anstoss": "15:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "leverkusen",
+            "auswaertsTeamId": "rb-leipzig",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-035",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 35,
+            "datum": "2026-09-20",
+            "datumVon": "2026-09-20",
+            "datumBis": "2026-09-20",
+            "datumAnzeige": "20.09.2026",
+            "anstoss": "17:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "schalke-04",
+            "auswaertsTeamId": "elversberg",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          },
+          {
+            "id": "bl-2026-27-04-036",
+            "wettbewerb": "bundesliga",
+            "wettbewerbAnzeige": "Bundesliga",
+            "saison": "2026/2027",
+            "runde": "4. Spieltag",
+            "spieltagNummer": 4,
+            "spielNummer": 36,
+            "datum": "2026-09-20",
+            "datumVon": "2026-09-20",
+            "datumBis": "2026-09-20",
+            "datumAnzeige": "20.09.2026",
+            "anstoss": "19:30",
+            "terminBestaetigt": true,
+            "heimtore": null,
+            "auswaertstore": null,
+            "status": "terminiert",
+            "sonderwertungen": [],
+            "notiz": "",
+            "quelleStand": "2026-07-30",
+            "heimTeamId": "paderborn",
+            "auswaertsTeamId": "hoffenheim",
+            "ergebnisNach90MinutenBestaetigt": false,
+            "tippStatus": "vorlaeufig",
+            "tippImporte": [],
+            "tippsSnapshot": []
+          }
+        ],
+        "tippImportHistorie": [],
+        "status": "teilweise",
+        "statusErmitteltAm": "2026-09-18T22:38:15.065Z"
       }
     ]
   },
