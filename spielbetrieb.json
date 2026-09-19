@@ -1,7 +1,7 @@
 {
   "schemaVersion": 3,
-  "datenVersion": 23,
-  "aktualisiertAm": "2026-09-18T22:38:14.955Z",
+  "datenVersion": 24,
+  "aktualisiertAm": "2026-09-19T20:18:17.860Z",
   "aktiveSaison": "2026-27",
   "quelle": "The Old Smugglers Club Admin 6.5.0-HF13-TEST4-HF31 Zwischenstand",
   "regeln": {
@@ -4382,7 +4382,7 @@
             "tippverteilung": {
               "schemaVersion": 1,
               "quelle": "Kicktipp – Tipps aller Tipper",
-              "stand": "2026-09-18T22:38:14.955Z",
+              "stand": "2026-09-19T20:18:17.860Z",
               "abgegeben": 78,
               "nichtAbgegeben": 22,
               "verborgen": 0,
@@ -4401,7 +4401,7 @@
                 }
               }
             },
-            "aktualisiertAm": "2026-09-18T22:38:14.955Z"
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-031",
@@ -4417,14 +4417,38 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 2,
+            "auswaertstore": 2,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
-            "quelleStand": "2026-07-30",
+            "quelleStand": "2026-09-19",
             "heimTeamId": "frankfurt",
-            "auswaertsTeamId": "freiburg"
+            "auswaertsTeamId": "freiburg",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-19T20:18:17.860Z",
+              "abgegeben": 80,
+              "nichtAbgegeben": 20,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 30,
+                  "prozent": 37.5
+                },
+                "2": {
+                  "anzahl": 27,
+                  "prozent": 33.8
+                },
+                "X": {
+                  "anzahl": 23,
+                  "prozent": 28.8
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-032",
@@ -4440,14 +4464,38 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 3,
+            "auswaertstore": 4,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
-            "quelleStand": "2026-07-30",
+            "quelleStand": "2026-09-19",
             "heimTeamId": "moenchengladbach",
-            "auswaertsTeamId": "mainz-05"
+            "auswaertsTeamId": "mainz-05",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-19T20:18:17.860Z",
+              "abgegeben": 80,
+              "nichtAbgegeben": 20,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 20,
+                  "prozent": 25
+                },
+                "2": {
+                  "anzahl": 44,
+                  "prozent": 55
+                },
+                "X": {
+                  "anzahl": 16,
+                  "prozent": 20
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-033",
@@ -4463,14 +4511,38 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 2,
+            "auswaertstore": 1,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
-            "quelleStand": "2026-07-30",
+            "quelleStand": "2026-09-19",
             "heimTeamId": "hamburger-sv",
-            "auswaertsTeamId": "koeln"
+            "auswaertsTeamId": "koeln",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-19T20:18:17.860Z",
+              "abgegeben": 80,
+              "nichtAbgegeben": 20,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 26,
+                  "prozent": 32.5
+                },
+                "2": {
+                  "anzahl": 34,
+                  "prozent": 42.5
+                },
+                "X": {
+                  "anzahl": 20,
+                  "prozent": 25
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-034",
@@ -4486,14 +4558,38 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 3,
+            "auswaertstore": 2,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
-            "quelleStand": "2026-07-30",
+            "quelleStand": "2026-09-19",
             "heimTeamId": "werder-bremen",
-            "auswaertsTeamId": "augsburg"
+            "auswaertsTeamId": "augsburg",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-19T20:18:17.860Z",
+              "abgegeben": 80,
+              "nichtAbgegeben": 20,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 27,
+                  "prozent": 33.8
+                },
+                "2": {
+                  "anzahl": 34,
+                  "prozent": 42.5
+                },
+                "X": {
+                  "anzahl": 19,
+                  "prozent": 23.8
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-029",
@@ -4509,14 +4605,38 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "18:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 0,
+            "auswaertstore": 1,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "stuttgart",
-            "auswaertsTeamId": "dortmund"
+            "auswaertsTeamId": "dortmund",
+            "ergebnisNach90MinutenBestaetigt": true,
+            "tippverteilung": {
+              "schemaVersion": 1,
+              "quelle": "Kicktipp – Tipps aller Tipper",
+              "stand": "2026-09-19T20:18:17.860Z",
+              "abgegeben": 80,
+              "nichtAbgegeben": 20,
+              "verborgen": 0,
+              "tendenzen": {
+                "1": {
+                  "anzahl": 11,
+                  "prozent": 13.8
+                },
+                "2": {
+                  "anzahl": 42,
+                  "prozent": 52.5
+                },
+                "X": {
+                  "anzahl": 27,
+                  "prozent": 33.8
+                }
+              }
+            },
+            "aktualisiertAm": "2026-09-19T20:18:17.860Z"
           },
           {
             "id": "bl-2026-27-04-030",
@@ -236913,7 +237033,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.057Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.955Z"
       },
       {
         "id": "2026-27__smugglerauftrag__2-spieltag__sma-2026-27-02-013",
@@ -237871,7 +237991,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.057Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.955Z"
       },
       {
         "id": "2026-27__bundesliga__1-spieltag__bl-2026-27-01-001-bl-2026-27-01-002-bl-2026-27-01-003-bl-2026-27-01-004-bl-2026-27-01-005-bl-2026-27-01-006-bl-2026-27-01-007-bl-2026-27-01-008-bl-2026-27-01-009",
@@ -246405,7 +246525,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.059Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.963Z"
       },
       {
         "id": "2026-27__smugglerauftrag__3-spieltag__sma-2026-27-03-020",
@@ -247343,7 +247463,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.059Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.963Z"
       },
       {
         "id": "2026-27__bundesliga__2-spieltag__bl-2026-27-02-010-bl-2026-27-02-011-bl-2026-27-02-012-bl-2026-27-02-013-bl-2026-27-02-014-bl-2026-27-02-015-bl-2026-27-02-016-bl-2026-27-02-017-bl-2026-27-02-018",
@@ -255217,7 +255337,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.060Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.965Z"
       },
       {
         "id": "2026-27__smugglerauftrag__4-spieltag__sma-2026-27-04-032",
@@ -256125,7 +256245,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.060Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.965Z"
       },
       {
         "id": "2026-27__champions-league__1-spieltag__ucl-2026-27-1-spieltag-87388-ucl-2026-27-1-spieltag-87389-ucl-2026-27-1-spieltag-87390-ucl-2026-27-1-spieltag-87391-ucl-2026-27-1-spieltag-87392-ucl-2026-27-1-spieltag-87393-ucl-2026-27-1-spieltag-87394-ucl-2026-27-1-spieltag-87395-ucl-2026-27-1-spieltag-87396-ucl-2026-27-1-spieltag-87397-ucl-2026-27-1-spieltag-87398-ucl-2026-27-1-spieltag-87399-ucl-2026-27-1-spieltag-87400-ucl-2026-27-1-spieltag-87401-ucl-2026-27-1-spieltag-87402-ucl-2026-27-1-spieltag-87403-ucl-2026-27-1-spieltag-87404-ucl-2026-27-1-spieltag-87405",
@@ -270817,7 +270937,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.062Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.977Z"
       },
       {
         "id": "2026-27__bundesliga__3-spieltag__bl-2026-27-03-019-bl-2026-27-03-020-bl-2026-27-03-021-bl-2026-27-03-022-bl-2026-27-03-023-bl-2026-27-03-024-bl-2026-27-03-025-bl-2026-27-03-026-bl-2026-27-03-027",
@@ -278271,7 +278391,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.063Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.979Z"
       },
       {
         "id": "2026-27__smugglerauftrag__5-spieltag__sma-2026-27-05-044",
@@ -279069,7 +279189,7 @@
             "tippImporte": []
           }
         ],
-        "statusErmitteltAm": "2026-09-18T22:38:15.063Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.979Z"
       },
       {
         "id": "2026-27__bundesliga__4-spieltag__bl-2026-27-04-028-bl-2026-27-04-029-bl-2026-27-04-030-bl-2026-27-04-031-bl-2026-27-04-032-bl-2026-27-04-033-bl-2026-27-04-034-bl-2026-27-04-035-bl-2026-27-04-036",
@@ -279079,7 +279199,7 @@
         "label": "Bundesliga",
         "runde": "4. Spieltag",
         "erstelltAm": "2026-09-18T22:37:17.214Z",
-        "aktualisiertAm": "2026-09-18T22:38:15.065Z",
+        "aktualisiertAm": "2026-09-19T20:18:17.982Z",
         "spiele": [
           {
             "id": "bl-2026-27-04-028",
@@ -279122,15 +279242,15 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 2,
+            "auswaertstore": 2,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "frankfurt",
             "auswaertsTeamId": "freiburg",
-            "ergebnisNach90MinutenBestaetigt": false,
+            "ergebnisNach90MinutenBestaetigt": true,
             "tippStatus": "vorlaeufig",
             "tippImporte": [],
             "tippsSnapshot": []
@@ -279149,15 +279269,15 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 3,
+            "auswaertstore": 4,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "moenchengladbach",
             "auswaertsTeamId": "mainz-05",
-            "ergebnisNach90MinutenBestaetigt": false,
+            "ergebnisNach90MinutenBestaetigt": true,
             "tippStatus": "vorlaeufig",
             "tippImporte": [],
             "tippsSnapshot": []
@@ -279176,15 +279296,15 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 2,
+            "auswaertstore": 1,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "hamburger-sv",
             "auswaertsTeamId": "koeln",
-            "ergebnisNach90MinutenBestaetigt": false,
+            "ergebnisNach90MinutenBestaetigt": true,
             "tippStatus": "vorlaeufig",
             "tippImporte": [],
             "tippsSnapshot": []
@@ -279203,15 +279323,15 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "15:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 3,
+            "auswaertstore": 2,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "werder-bremen",
             "auswaertsTeamId": "augsburg",
-            "ergebnisNach90MinutenBestaetigt": false,
+            "ergebnisNach90MinutenBestaetigt": true,
             "tippStatus": "vorlaeufig",
             "tippImporte": [],
             "tippsSnapshot": []
@@ -279230,15 +279350,15 @@
             "datumAnzeige": "19.09.2026",
             "anstoss": "18:30",
             "terminBestaetigt": true,
-            "heimtore": null,
-            "auswaertstore": null,
-            "status": "terminiert",
+            "heimtore": 0,
+            "auswaertstore": 1,
+            "status": "beendet",
             "sonderwertungen": [],
             "notiz": "",
             "quelleStand": "2026-07-30",
             "heimTeamId": "stuttgart",
             "auswaertsTeamId": "dortmund",
-            "ergebnisNach90MinutenBestaetigt": false,
+            "ergebnisNach90MinutenBestaetigt": true,
             "tippStatus": "vorlaeufig",
             "tippImporte": [],
             "tippsSnapshot": []
@@ -279327,7 +279447,7 @@
         ],
         "tippImportHistorie": [],
         "status": "teilweise",
-        "statusErmitteltAm": "2026-09-18T22:38:15.065Z"
+        "statusErmitteltAm": "2026-09-19T20:18:17.982Z"
       }
     ]
   },
