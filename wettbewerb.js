@@ -2032,6 +2032,88 @@
     root.appendChild(section);
   }
 
+
+  function openLigaDbDfbEarlyRoundKey(match) {
+    const label = normalizeRoundLabel(
+      match?.group?.groupName ??
+      match?.group?.GroupName ??
+      ""
+    );
+    if (
+      label.includes("1 hauptrunde") ||
+      label.includes("1 runde") ||
+      label.includes("erste hauptrunde") ||
+      label.includes("erste runde")
+    ) return "runde1";
+    if (
+      label.includes("2 hauptrunde") ||
+      label.includes("2 runde") ||
+      label.includes("zweite hauptrunde") ||
+      label.includes("zweite runde")
+    ) return "runde2";
+    return "";
+  }
+
+  function renderDfbCompletedEarlyRounds(openLigaDbMatches, root) {
+    if (slug !== "dfb-pokal") return false;
+
+    const groups = new Map([
+      ["runde1", []],
+      ["runde2", []]
+    ]);
+
+    safeArray(openLigaDbMatches).forEach(match => {
+      const key = openLigaDbDfbEarlyRoundKey(match);
+      if (!key || !groups.has(key)) return;
+      if (!openLigaDbFinalResult(match)) return;
+      groups.get(key).push(match);
+    });
+
+    const total = [...groups.values()].reduce((sum, matches) => sum + matches.length, 0);
+    if (!total) return false;
+
+    const section = document.createElement("section");
+    section.className = "dynamic-section dfb-informational-matches";
+
+    const heading = document.createElement("h2");
+    heading.textContent = "Bereits absolvierte DFB-Pokal-Spiele";
+    section.appendChild(heading);
+
+    const note = document.createElement("p");
+    note.className = "data-note";
+    note.textContent = "Reine Ergebnisübersicht aus OpenLigaDB – diese Runden gehören nicht zur TOSMC-Wertung. Getippt wird ab dem Achtelfinale.";
+    section.appendChild(note);
+
+    [
+      ["runde1", "1. Hauptrunde"],
+      ["runde2", "2. Hauptrunde"]
+    ].forEach(([key, label]) => {
+      const matches = groups.get(key) || [];
+      if (!matches.length) return;
+
+      const round = document.createElement("section");
+      round.className = "ko-round dfb-info-round";
+
+      const title = document.createElement("h3");
+      title.className = "ko-round__title";
+      title.textContent = label;
+      round.appendChild(title);
+
+      const list = document.createElement("div");
+      list.className = "ko-round__matches";
+      matches
+        .slice()
+        .sort((a, b) => String(a?.matchDateTime ?? "").localeCompare(String(b?.matchDateTime ?? "")))
+        .forEach(match => list.appendChild(createBracketMatch(match)));
+
+      round.appendChild(list);
+      section.appendChild(round);
+    });
+
+    root.appendChild(section);
+    return true;
+  }
+
   function renderDfbKnockoutPrototype(openLigaDbMatches, root) {
     if (slug !== "dfb-pokal") return;
 
@@ -3526,10 +3608,13 @@ function normalizeGoalGetterEntries(goalGetterData) {
       }
     } else if (slug === "dfb-pokal") {
       renderStandardGamesSlot(coreSections, buttons, root, { title: "Spiele des DFB-Pokals", emptyText: "Noch keine von euch getippte Runde veröffentlicht. Die TOSMC-Wertung startet ab dem Achtelfinale." });
+      const earlyRoundsVisible = renderDfbCompletedEarlyRounds(openLigaDbDfbMatches, root);
+      if (earlyRoundsVisible) renderMidNavigation(buttons, root);
       const knockoutPreview = document.createElement("div");
       renderDfbKnockoutPrototype(openLigaDbDfbMatches, knockoutPreview);
-      // DFB-Pokal ist ein K.-o.-Wettbewerb: bewusst keine Liga-/Formtabelle und
-      // keine zusätzliche Zwischen-Navigation vor dem Turnierbaum.
+      // DFB-Pokal bleibt ein K.-o.-Wettbewerb: keine Liga-/Formtabelle.
+      // Die 1. und 2. Hauptrunde werden ausschließlich informativ aus OpenLigaDB
+      // angezeigt; die TOSMC-Wertung beginnt weiterhin erst ab dem Achtelfinale.
       while (knockoutPreview.firstChild) root.appendChild(knockoutPreview.firstChild);
     } else if (slug === "dynamo-dresden") {
       renderStandardGamesSlot(coreSections, buttons, root, { title: "Spiele von Dynamo Dresden" });
