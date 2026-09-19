@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T19:16:01.543Z",
+  "updatedAt": "2026-09-19T22:26:40.049Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -524,6 +524,59 @@
         },
         "teamMatchdayNew": {
           "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_3. Spieltag-2026-09-13-18-22-14-+0000-3878603430408712463.csv.zip",
+          "complete": true
+        }
+      }
+    },
+    {
+      "id": "2026-27__smugglerauftrag__6-spieltag__sma-2026-27-06-050-1789856800268",
+      "createdAt": "2026-09-19T22:26:40.049Z",
+      "mode": "test",
+      "valuation": "smugglerauftrag",
+      "round": "6. Spieltag",
+      "participantCount": 100,
+      "oldSmugglers": 25,
+      "newSmugglers": 75,
+      "status": "test",
+      "files": {
+        "history": {
+          "fileName": "the-old-smugglers-club-main.zip",
+          "complete": true
+        },
+        "tips": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipps-Smugglerauftrag Breitseite-2026-09-19-21-21-27-+0000-9391507449012465940.csv.zip",
+          "complete": true
+        },
+        "overall": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Einzelwertung-2026-09-19-21-21-17-+0000-4999367130219812359.csv.zip",
+          "complete": true
+        },
+        "matchday": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Smugglerauftrag Breitseite-2026-09-19-21-21-05-+0000-994014917714778244.csv.zip",
+          "complete": true
+        },
+        "bonus": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Bonus-2026-09-19-21-21-34-+0000-3261463268124835126.csv.zip",
+          "complete": true
+        },
+        "tipper": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipper-2026-09-19-21-20-51-+0000-4446841735697770769.csv.zip",
+          "complete": true
+        },
+        "teamOverallOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Old Smugglers Team-2026-09-19-21-21-22-+0000-13483040254138521156.csv.zip",
+          "complete": true
+        },
+        "teamOverallNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Neue Piraten-2026-09-19-21-21-20-+0000-7730801254483755535.csv.zip",
+          "complete": true
+        },
+        "teamMatchdayOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Old Smugglers Team_Smugglerauftrag Breitseite-2026-09-19-21-21-12-+0000-5100864933391331554.csv.zip",
+          "complete": true
+        },
+        "teamMatchdayNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_Smugglerauftrag Breitseite-2026-09-19-21-21-09-+0000-10848103668431739237.csv.zip",
           "complete": true
         }
       }
