@@ -793,8 +793,8 @@
     "rc lens": "rc-lens",
     "lens": "rc-lens"
   });
-  const OPENLIGADB_EL_MATCHES_PROTOTYPE_URL = "https://api.openligadb.de/getmatchdata/uel/2026";
-  const OPENLIGADB_EL_GOALGETTERS_URL = "https://api.openligadb.de/getgoalgetters/uel/2026";
+  const OPENLIGADB_EL_MATCHES_PROTOTYPE_URL = "https://api.openligadb.de/getmatchdata/uel2026/2026";
+  const OPENLIGADB_EL_GOALGETTERS_URL = "https://api.openligadb.de/getgoalgetters/uel2026/2026";
   const OPENLIGADB_DYNAMO_MATCHES_URL = "https://api.openligadb.de/getmatchdata/bl2/2026";
   const OPENLIGADB_DYNAMO_TEAM_ID = 177;
   const EUROPA_LEAGUE_FALLBACK_PROTOTYPE_URL = "./europa-league-ko-2026.json";
