@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 12,
-  "aktualisiert": "2026-09-19",
+  "datenVersion": 13,
+  "aktualisiert": "2026-09-20",
   "saison": "2026-27",
   "hinweis": "Interne Detailquelle. Historische und aktuelle sichtbare Tipps werden ID-stabil kumuliert; verborgene Tipps werden nicht gewertet; echte Nichtabgaben werden nicht als Tippdatensatz gespeichert.",
   "tipps": [
@@ -43161,6 +43161,7186 @@
       "spielId": "sma-2026-27-06-050",
       "heimtore": 3,
       "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-028",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-031",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-032",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-033",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-034",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-029",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-030",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-035",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-bl-2026-27-04-036",
+      "teilnehmerId": "jwfussball",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-028",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-031",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-032",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-033",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-034",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-029",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-030",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-035",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-bl-2026-27-04-036",
+      "teilnehmerId": "olympiakos",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-028",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-031",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-032",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-033",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-034",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-029",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-030",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-035",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-bl-2026-27-04-036",
+      "teilnehmerId": "baslermario",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-028",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-031",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-032",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-033",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-034",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-029",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-030",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-035",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-bl-2026-27-04-036",
+      "teilnehmerId": "wildemoni",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-028",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-031",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-032",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-033",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-034",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-029",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-030",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-035",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-bl-2026-27-04-036",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-028",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-031",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-032",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-033",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-034",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-029",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-030",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-035",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-bl-2026-27-04-036",
+      "teilnehmerId": "g-1000",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-028",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-031",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-032",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-033",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-034",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-029",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-030",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-035",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-bl-2026-27-04-036",
+      "teilnehmerId": "dani1893",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-028",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-031",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-032",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-033",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-034",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-029",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-030",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-035",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-bl-2026-27-04-036",
+      "teilnehmerId": "18amfg99",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-028",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-031",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-032",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-033",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-034",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-029",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-030",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-035",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-bl-2026-27-04-036",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-028",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-031",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-032",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-033",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-034",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-029",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-030",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-035",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-bl-2026-27-04-036",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-028",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-031",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-032",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-033",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-034",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-029",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-030",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-035",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-bl-2026-27-04-036",
+      "teilnehmerId": "finch",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-028",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-031",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-032",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-033",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-034",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-029",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-030",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-035",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-bl-2026-27-04-036",
+      "teilnehmerId": "waltersen",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-028",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-031",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-032",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-033",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-034",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-029",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-030",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-035",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevin-bl-2026-27-04-036",
+      "teilnehmerId": "kevin",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-028",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 6,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-031",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-032",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-033",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-034",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-029",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-030",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-035",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-bl-2026-27-04-036",
+      "teilnehmerId": "mariusv",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-028",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-031",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-032",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-033",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-034",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-029",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-030",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-035",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-bl-2026-27-04-036",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-028",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-031",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-032",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-033",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-034",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-029",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-030",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-035",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-bl-2026-27-04-036",
+      "teilnehmerId": "marius",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-028",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-031",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-032",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-033",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-034",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-029",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-030",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-035",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-bl-2026-27-04-036",
+      "teilnehmerId": "bigdog",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-028",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-031",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-032",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-033",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-034",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-029",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-030",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-035",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-bl-2026-27-04-036",
+      "teilnehmerId": "rk69",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-028",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-031",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-032",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-033",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-034",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-029",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-030",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-035",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-bl-2026-27-04-036",
+      "teilnehmerId": "tribuna33",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-028",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-031",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-032",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-033",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-034",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-029",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-030",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-035",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-bl-2026-27-04-036",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 5,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-028",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-031",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-032",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-033",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-034",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-029",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-030",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-035",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-bl-2026-27-04-036",
+      "teilnehmerId": "best10",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-028",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-031",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-032",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-033",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-034",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-029",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-030",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-035",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-bl-2026-27-04-036",
+      "teilnehmerId": "hardy17",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-028",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-031",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-032",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-033",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-034",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-029",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-030",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-035",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-bl-2026-27-04-036",
+      "teilnehmerId": "juri",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-028",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-031",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-032",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-033",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-034",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-029",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-030",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-035",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-bl-2026-27-04-036",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-028",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-031",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-032",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-033",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-034",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-029",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-030",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-035",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-bl-2026-27-04-036",
+      "teilnehmerId": "opipeter",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-028",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-031",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-032",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-033",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-034",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-029",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-030",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-035",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-bl-2026-27-04-036",
+      "teilnehmerId": "handgottes",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-028",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-031",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-032",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-033",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-034",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-029",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-030",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-035",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-bl-2026-27-04-036",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-028",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-031",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-032",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-033",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-034",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-029",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-030",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-035",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-bl-2026-27-04-036",
+      "teilnehmerId": "cobra",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-028",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-031",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-032",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-033",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-034",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-029",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-030",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-035",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-bl-2026-27-04-036",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-028",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-031",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-032",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-033",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-034",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-029",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-030",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-035",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-bl-2026-27-04-036",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-028",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-031",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-032",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-033",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-034",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-029",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-030",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-035",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-bl-2026-27-04-036",
+      "teilnehmerId": "maikiliii",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-028",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-031",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-032",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-033",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-034",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-029",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-030",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-035",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-bl-2026-27-04-036",
+      "teilnehmerId": "cobra75",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-028",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-031",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-032",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-033",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-034",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-029",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-030",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-035",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-bl-2026-27-04-036",
+      "teilnehmerId": "dominik1966",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-028",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-031",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-032",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-033",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-034",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-029",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-030",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-035",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-bl-2026-27-04-036",
+      "teilnehmerId": "11le",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-028",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-031",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-032",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-033",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-034",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-029",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-030",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-035",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-bl-2026-27-04-036",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-028",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-031",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-032",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-033",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-034",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-029",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-030",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-035",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lucipher-bl-2026-27-04-036",
+      "teilnehmerId": "lucipher",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-028",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-031",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-032",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-033",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-034",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-029",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-030",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-035",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-bl-2026-27-04-036",
+      "teilnehmerId": "andy1304",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-028",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-031",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-032",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-033",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-034",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-029",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-030",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-035",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-bl-2026-27-04-036",
+      "teilnehmerId": "jakob",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-028",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-031",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-032",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-033",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-034",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-029",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-030",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-035",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-bl-2026-27-04-036",
+      "teilnehmerId": "souvard",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-028",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-031",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-032",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-033",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-034",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-029",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-030",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-035",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-bl-2026-27-04-036",
+      "teilnehmerId": "steff77",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-028",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-031",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-032",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-033",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-034",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-029",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-030",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-035",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam2004-bl-2026-27-04-036",
+      "teilnehmerId": "sam2004",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-028",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-031",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-032",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-033",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-034",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-029",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-030",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-035",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-bl-2026-27-04-036",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-028",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-031",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-032",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-033",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-034",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-029",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-030",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-035",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-bl-2026-27-04-036",
+      "teilnehmerId": "sgbw",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-028",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-031",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-032",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-033",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-034",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-029",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-030",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-035",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-bl-2026-27-04-036",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-028",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-031",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-032",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-033",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-034",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-029",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-030",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-035",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luca-bl-2026-27-04-036",
+      "teilnehmerId": "luca",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-028",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-031",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-032",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-033",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-034",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-029",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-030",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-035",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-bl-2026-27-04-036",
+      "teilnehmerId": "luki1887",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-028",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-031",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-032",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-033",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-034",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-029",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-030",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-035",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-bl-2026-27-04-036",
+      "teilnehmerId": "tortugasge",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-028",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-031",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-032",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-033",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-034",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-029",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-030",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-035",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-bl-2026-27-04-036",
+      "teilnehmerId": "glatze583",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-028",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-031",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-032",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-033",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-034",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-029",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-030",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-035",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-bl-2026-27-04-036",
+      "teilnehmerId": "marc86",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-028",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-031",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-032",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-033",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-034",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-029",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-030",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-035",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-bl-2026-27-04-036",
+      "teilnehmerId": "gruber",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-028",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-031",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-032",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-033",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-034",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-029",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-030",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-035",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-bl-2026-27-04-036",
+      "teilnehmerId": "kev1999",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-028",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-031",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-032",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 5,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-033",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-034",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-029",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-030",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-035",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 5,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "munmarkus-bl-2026-27-04-036",
+      "teilnehmerId": "munmarkus",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-028",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-031",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-032",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-033",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-034",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-029",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-030",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-035",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-bl-2026-27-04-036",
+      "teilnehmerId": "eckes2359",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-028",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-031",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-032",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-033",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-034",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-029",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-030",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-035",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-bl-2026-27-04-036",
+      "teilnehmerId": "stevie26",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-028",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 1,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-031",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-032",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-033",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-034",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-029",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 3,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-030",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-035",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-bl-2026-27-04-036",
+      "teilnehmerId": "kevinhick",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-028",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-031",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-032",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-033",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-034",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-029",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-030",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-035",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "seboso-bl-2026-27-04-036",
+      "teilnehmerId": "seboso",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-028",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-031",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-032",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-033",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-034",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-029",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-030",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-035",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-bl-2026-27-04-036",
+      "teilnehmerId": "redwing",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-028",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-031",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-032",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-033",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-034",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-029",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-030",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-035",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-bl-2026-27-04-036",
+      "teilnehmerId": "pauli",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-028",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 6,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-031",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-032",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-033",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-034",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-029",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-030",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-035",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-bl-2026-27-04-036",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-028",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-031",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-032",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-033",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-034",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-029",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 5,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-030",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-035",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-bl-2026-27-04-036",
+      "teilnehmerId": "mythos",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-028",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-031",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-032",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-033",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-034",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-029",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-030",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-035",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-bl-2026-27-04-036",
+      "teilnehmerId": "xib0o",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-028",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-031",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-032",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-033",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-034",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-029",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-030",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-035",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-bl-2026-27-04-036",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-028",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-031",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-032",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-033",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-034",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-029",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-030",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-035",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-bl-2026-27-04-036",
+      "teilnehmerId": "oifinger",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-028",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-031",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-032",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-033",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-034",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-029",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-030",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-035",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-bl-2026-27-04-036",
+      "teilnehmerId": "manuel",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-028",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-031",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-032",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-033",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-034",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-029",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-030",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-035",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "quick-bl-2026-27-04-036",
+      "teilnehmerId": "quick",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-028",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-031",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-032",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-033",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-034",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-029",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-030",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-035",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "frankfurterjung-bl-2026-27-04-036",
+      "teilnehmerId": "frankfurterjung",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-028",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-031",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-032",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-033",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-034",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-029",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-030",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-035",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-bl-2026-27-04-036",
+      "teilnehmerId": "adamj",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flokicker94-bl-2026-27-04-028",
+      "teilnehmerId": "flokicker94",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-031",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-032",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-033",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-034",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-029",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-030",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-035",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maxpam-bl-2026-27-04-036",
+      "teilnehmerId": "maxpam",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-031",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-032",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-033",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-034",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-029",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-030",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-035",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jungunddurstig-bl-2026-27-04-036",
+      "teilnehmerId": "jungunddurstig",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-028",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 6,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-031",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-032",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-033",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-034",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-029",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-030",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-035",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "aufdieblaue-bl-2026-27-04-036",
+      "teilnehmerId": "aufdieblaue",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-028",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-031",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-032",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-033",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-034",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-029",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-030",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-035",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-bl-2026-27-04-036",
+      "teilnehmerId": "ximmox",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-028",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-031",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-032",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-033",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-034",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-029",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-030",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-035",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "audauzvares-bl-2026-27-04-036",
+      "teilnehmerId": "audauzvares",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-028",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 5,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-031",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-032",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-033",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-034",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-029",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-030",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-035",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nick-zg-1501-bl-2026-27-04-036",
+      "teilnehmerId": "nick-zg-1501",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-028",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-031",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-032",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-033",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-034",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 0,
+      "auswaertstore": 4,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-029",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-030",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-035",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 0,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-bl-2026-27-04-036",
+      "teilnehmerId": "mikoog",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-031",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-032",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-033",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-034",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-029",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-030",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-035",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-bl-2026-27-04-036",
+      "teilnehmerId": "medic",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-028",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-031",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-032",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-033",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-034",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-029",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-030",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-035",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-bl-2026-27-04-036",
+      "teilnehmerId": "salas1904",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-028",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-031",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-032",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-033",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-034",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-029",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-030",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-035",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "nurderscf-bl-2026-27-04-036",
+      "teilnehmerId": "nurderscf",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-028",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-031",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-032",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-033",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-034",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-029",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-030",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-035",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-bl-2026-27-04-036",
+      "teilnehmerId": "mary-grace",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-028",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 4,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-031",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-032",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-033",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-034",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-029",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-030",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-035",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "urkel-bl-2026-27-04-036",
+      "teilnehmerId": "urkel",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 0,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-028",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-028",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-031",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-031",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-032",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-032",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-033",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-033",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-034",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-034",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-029",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-029",
+      "heimtore": 1,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-030",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-030",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-035",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-035",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-bl-2026-27-04-036",
+      "teilnehmerId": "potterhead",
+      "spielId": "bl-2026-27-04-036",
+      "heimtore": 1,
+      "auswaertstore": 2,
       "status": "abgegeben",
       "abgegebenAm": null,
       "quelle": "Kicktipp-Export"

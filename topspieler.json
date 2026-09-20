@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 11,
-  "aktualisiertAm": "2026-09-19T22:26:40.049Z",
+  "datenVersion": 12,
+  "aktualisiertAm": "2026-09-20T21:28:48.102Z",
   "saison": "2026-27",
   "status": "Berechnet",
   "kategorien": [
     {
       "titel": "Spieltagsführer",
-      "name": "18AMFG99",
-      "wert": "96 Punkte"
+      "name": "JWFUSSBALL",
+      "wert": "108 Punkte"
     },
     {
       "titel": "Meiste exakte Tipps",
-      "name": "18AMFG99",
+      "name": "Olympiakos",
       "wert": "8"
     },
     {

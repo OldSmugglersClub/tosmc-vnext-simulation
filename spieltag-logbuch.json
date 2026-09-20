@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 12,
-  "aktualisiert": "2026-09-19T22:26:40.049Z",
+  "datenVersion": 13,
+  "aktualisiert": "2026-09-20T21:28:48.102Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -5802,6 +5802,334 @@
             "exakt": 22,
             "differenz": 4,
             "tendenz": 29
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__4-spieltag__bl-2026-27-04-028-bl-2026-27-04-029-bl-2026-27-04-030-bl-2026-27-04-031-bl-2026-27-04-032-bl-2026-27-04-033-bl-2026-27-04-034-bl-2026-27-04-035-bl-2026-27-04-036",
+      "bezeichnung": "Bundesliga 4. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "4. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-04-028",
+        "bl-2026-27-04-031",
+        "bl-2026-27-04-032",
+        "bl-2026-27-04-033",
+        "bl-2026-27-04-034",
+        "bl-2026-27-04-029",
+        "bl-2026-27-04-030",
+        "bl-2026-27-04-035",
+        "bl-2026-27-04-036"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "steff77",
+          "teilnehmer": "Steff77",
+          "punkte": 22,
+          "exakt": 2,
+          "differenz": 2,
+          "tendenz": 3
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 22,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "punkte": 22,
+                "exakt": 2,
+                "differenz": 2,
+                "tendenz": 3
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-04-036",
+            "heimTeam": "paderborn",
+            "auswaertsTeam": "hoffenheim",
+            "ergebnis": "3:1",
+            "abgegeben": 80,
+            "nichtAbgegeben": 20,
+            "tippverteilung": {
+              "1": 8,
+              "2": 64,
+              "X": 8
+            },
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 7,
+            "richtigerAusgang": "1",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 64
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 8,
+              "anteil": 10,
+              "tipper": [
+                {
+                  "teilnehmerId": "marius",
+                  "teilnehmer": "Marius",
+                  "tipp": "1:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "steff77",
+                  "teilnehmer": "Steff77",
+                  "tipp": "1:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "sam2004",
+                  "teilnehmer": "Sam2004",
+                  "tipp": "2:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "glatze583",
+                  "teilnehmer": "Glatze583",
+                  "tipp": "1:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "munmarkus",
+                  "teilnehmer": "Munmarkus",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "eckes2359",
+                  "teilnehmer": "Eckes2359",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "stevie26",
+                  "teilnehmer": "Stevie26",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "flying-dutchman",
+                  "teilnehmer": "Flying-Dutchman",
+                  "tipp": "1:0",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-04-036",
+                "heimTeam": "paderborn",
+                "auswaertsTeam": "hoffenheim",
+                "ergebnis": "3:1",
+                "abgegeben": 80,
+                "nichtAbgegeben": 20,
+                "tippverteilung": {
+                  "1": 8,
+                  "2": 64,
+                  "X": 8
+                },
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 7,
+                "richtigerAusgang": "1",
+                "meistGetippt": {
+                  "ausgang": "2",
+                  "anzahl": 64
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 8,
+                  "anteil": 10,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "marius",
+                      "teilnehmer": "Marius",
+                      "tipp": "1:0",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "steff77",
+                      "teilnehmer": "Steff77",
+                      "tipp": "1:0",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "sam2004",
+                      "teilnehmer": "Sam2004",
+                      "tipp": "2:0",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "glatze583",
+                      "teilnehmer": "Glatze583",
+                      "tipp": "1:0",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "munmarkus",
+                      "teilnehmer": "Munmarkus",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "eckes2359",
+                      "teilnehmer": "Eckes2359",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "stevie26",
+                      "teilnehmer": "Stevie26",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "flying-dutchman",
+                      "teilnehmer": "Flying-Dutchman",
+                      "tipp": "1:0",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 2,
+            "anzahl": 7,
+            "tipper": [
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "g-1000",
+                "teilnehmer": "G.1000",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "g-threepwood",
+                "teilnehmer": "G.Threepwood",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "marius",
+                "teilnehmer": "Marius",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "oifinger",
+                "teilnehmer": "Oifinger",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "olympiakos",
+                "teilnehmer": "Olympiakos",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "dominik1966",
+                "teilnehmer": "dominik1966",
+                "exakt": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 8.87,
+                "punktesumme": 665,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 7.8,
+                "punktesumme": 195,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 1.07
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "vorher": 68,
+                "jetzt": 41,
+                "veraenderung": 27
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "tortugasge",
+                "teilnehmer": "TortugaSGE",
+                "vorher": 18,
+                "jetzt": 45,
+                "veraenderung": -27
+              }
+            ],
+            "maxGewinn": 27,
+            "maxVerlust": -27
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 80,
+            "nichtAbgegeben": 22,
+            "exakt": 40,
+            "differenz": 122,
+            "tendenz": 147
           }
         }
       ]

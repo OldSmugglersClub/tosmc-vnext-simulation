@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T22:26:40.049Z",
+  "updatedAt": "2026-09-20T21:28:48.102Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -529,15 +529,15 @@
       }
     },
     {
-      "id": "2026-27__smugglerauftrag__6-spieltag__sma-2026-27-06-050-1789856800268",
-      "createdAt": "2026-09-19T22:26:40.049Z",
-      "mode": "test",
+      "id": "2026-27__smugglerauftrag__6-spieltag__sma-2026-27-06-050-1789854367133",
+      "createdAt": "2026-09-19T21:46:06.921Z",
+      "mode": "produktiv",
       "valuation": "smugglerauftrag",
       "round": "6. Spieltag",
       "participantCount": 100,
       "oldSmugglers": 25,
       "newSmugglers": 75,
-      "status": "test",
+      "status": "ok",
       "files": {
         "history": {
           "fileName": "the-old-smugglers-club-main.zip",
@@ -577,6 +577,59 @@
         },
         "teamMatchdayNew": {
           "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_Smugglerauftrag Breitseite-2026-09-19-21-21-09-+0000-10848103668431739237.csv.zip",
+          "complete": true
+        }
+      }
+    },
+    {
+      "id": "2026-27__bundesliga__4-spieltag__bl-2026-27-04-028-bl-2026-27-04-029-bl-2026-27-04-030-bl-2026-27-04-031-bl-2026-27-04-032-bl-2026-27-04-033-bl-2026-27-04-034-bl-2026-27-04-035-bl-2026-27-04-036-1789939728372",
+      "createdAt": "2026-09-20T21:28:48.102Z",
+      "mode": "test",
+      "valuation": "bundesliga",
+      "round": "4. Spieltag",
+      "participantCount": 100,
+      "oldSmugglers": 25,
+      "newSmugglers": 75,
+      "status": "test",
+      "files": {
+        "history": {
+          "fileName": "the-old-smugglers-club-main.zip",
+          "complete": true
+        },
+        "tips": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipps-4. Spieltag-2026-09-20-20-18-34-+0000-1388956879737243373.csv.zip",
+          "complete": true
+        },
+        "overall": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Einzelwertung-2026-09-20-20-18-13-+0000-5729965606203360484.csv.zip",
+          "complete": true
+        },
+        "matchday": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_4. Spieltag-2026-09-20-20-17-55-+0000-3591977674450799054.csv.zip",
+          "complete": true
+        },
+        "bonus": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Bonus-2026-09-20-20-21-20-+0000-1633027254013225885.csv.zip",
+          "complete": true
+        },
+        "tipper": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipper-2026-09-20-20-17-26-+0000-8078141593248430372.csv.zip",
+          "complete": true
+        },
+        "teamOverallOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Old Smugglers Team-2026-09-20-20-18-18-+0000-3708893744897183938.csv.zip",
+          "complete": true
+        },
+        "teamOverallNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Neue Piraten-2026-09-20-20-18-16-+0000-13766176032427925465.csv.zip",
+          "complete": true
+        },
+        "teamMatchdayOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Old Smugglers Team_4. Spieltag-2026-09-20-20-18-03-+0000-17832859152390077563.csv.zip",
+          "complete": true
+        },
+        "teamMatchdayNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_4. Spieltag-2026-09-20-20-18-00-+0000-87405917133461488.csv.zip",
           "complete": true
         }
       }
