@@ -2376,7 +2376,7 @@
     .countdown-panel .chronometer-seal span::before { transform: translate(-50%, -50%) rotate(45deg); height: 17px; opacity: .72; }
     .countdown-panel .chronometer-seal span::after { transform: translate(-50%, -50%) rotate(-45deg); height: 17px; opacity: .72; }
 
-    /* HF91-TEST1: Ereignisinfo im Counter klar lesbar; nur Typografie/Abstände. */
+    /* HF91: Ereignisinfo im Counter klar lesbar; nur Typografie/Abstände. */
     .countdown-message {
       position: relative;
       z-index: 1;
@@ -2447,7 +2447,7 @@
         font-size: .62rem;
       }
 
-      /* HF23/HF91-TEST1: Mobile – ausbalanciert und lesbar, ohne die Counterlogik zu verändern. */
+      /* HF23/HF91: Mobile – ausbalanciert und lesbar, ohne die Counterlogik zu verändern. */
       .countdown-panel .countdown-message {
         margin-top: .35rem;
         padding: .78rem .80rem;
@@ -5536,7 +5536,7 @@
 
     .hall-columns--records-only { grid-template-columns: minmax(0, 1fr); }
 
-    /* HF99-TEST1 – Rekordtafel visuell als eigenständige Ehrenwand, ohne Datenlogik anzutasten. */
+    /* HF99 – Rekordtafel visuell als eigenständige Ehrenwand, ohne Datenlogik anzutasten. */
     #hall-of-fame .hall-columns--records-only {
       margin-top: 1.35rem;
     }
@@ -5638,6 +5638,19 @@
       #hall-of-fame .hall-columns--records-only > div { padding: .9rem; }
       #hall-of-fame .records-grid { grid-template-columns: 1fr; }
       #hall-of-fame .record-card { min-height: 104px; }
+
+      /* HF111 – nur mobil: Rekordtafel-Titel sicher einzeilig halten. */
+      #hall-of-fame .hall-columns--records-only .hall-section-title {
+        gap: .35rem;
+        font-size: clamp(1.25rem, 6.6vw, 1.6rem);
+        letter-spacing: .045em;
+        white-space: nowrap;
+      }
+      #hall-of-fame .hall-columns--records-only .hall-section-title::before,
+      #hall-of-fame .hall-columns--records-only .hall-section-title::after {
+        width: min(42px, 8vw);
+        flex: 0 1 42px;
+      }
     }
   
     /* Website 4.7.2-TEST1 – Hauptnavigation um Stalk-O-Meter erweitert.
@@ -5784,7 +5797,7 @@
 
 </style>
   <link rel="stylesheet" href="./legal.css">
-  <script src="./hall-of-fame-runtime.js?v=4.9.2-HF12-HF101-TEST9"></script>
+  <script src="./hall-of-fame-runtime.js?v=4.9.2-HF12-HF105"></script>
   <script src="./highscore-data-adapter.js"></script>
   <link rel="stylesheet" href="./website-mitteilung.css?v=4.9.2-HF12-HF40">
   <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
@@ -6197,7 +6210,7 @@
 
           <div class="trophy-stage">
             <img class="trophy"
-                 src="./hall-of-fame-trophy-neutral.jpg?v=4.9.2-HF12-HF99-TEST3"
+                 src="./hall-of-fame-trophy-neutral.jpg?v=4.9.2-HF12-HF100"
                  alt="Champion-Pokal des Old Smugglers Club"
                  onerror="this.style.display='none';this.nextElementSibling.hidden=true;this.nextElementSibling.nextElementSibling.hidden=false;"
                  loading="lazy" decoding="async">
