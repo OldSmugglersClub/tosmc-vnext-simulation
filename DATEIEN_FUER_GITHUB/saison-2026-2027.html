@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Zentrale Saisonübersicht 2026/2027 des The Old Smugglers Club">
+  <title>Saisonübersicht 2026/2027 | The Old Smugglers Club</title>
+  <link rel="stylesheet" href="./wettbewerb.css">
+  <link rel="stylesheet" href="./saisonuebersicht.css">
+  <link rel="stylesheet" href="./accessibility-v33.css">
+  <link rel="stylesheet" href="./legal.css">
+</head>
+<body>
+  <main class="page season-page">
+    <section class="hero season-hero">
+      <div class="topline">
+        <div class="eyebrow">Zentrale Saisonakte</div>
+        <div class="status-plaque" id="season-status">Saison 2026/2027</div>
+      </div>
+
+      <h1 id="season-title">Saisonübersicht 2026/2027</h1>
+      <p class="lead" id="season-subtitle">Alle Wettbewerbe, Spieltage und Saisontermine der Crew auf einen Blick.</p>
+
+      <div class="season-summary" aria-label="Saisonkennzahlen">
+        <article class="season-summary-card">
+          <span>Wettbewerbe</span>
+          <strong id="competition-count">8</strong>
+          <small>in der Clubwertung</small>
+        </article>
+        <article class="season-summary-card">
+          <span>Tippspieltage</span>
+          <strong id="matchday-total">–</strong>
+          <small id="matchday-note">bekannte Saisonplanung</small>
+        </article>
+        <article class="season-summary-card">
+          <span>Reale Spiele</span>
+          <strong id="game-total">–</strong>
+          <small id="game-note">bekannte Saisonplanung</small>
+        </article>
+        <article class="season-summary-card">
+          <span>Bereits terminiert</span>
+          <strong id="stored-games">0</strong>
+          <small>mit bestätigtem Datum und Anstoß</small>
+        </article>
+      </div>
+
+      <section class="season-board" aria-labelledby="board-title">
+        <div class="section-heading-row">
+          <h2 id="board-title">Wettbewerbsfahrplan</h2>
+          <span class="data-status-badge" id="data-state">Saisonstand wird geladen</span>
+        </div>
+        <div class="season-table-wrap">
+          <table class="season-table">
+            <thead>
+              <tr>
+                <th>Wettbewerb</th>
+                <th>Tippspieltage</th>
+                <th>Spiele</th>
+                <th>Zeitraum</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="season-table-body"></tbody>
+          </table>
+        </div>
+        <p class="season-note">Die Übersicht zeigt den derzeit bekannten Saisonstand. Noch nicht ausgeloste oder noch nicht terminierte Begegnungen werden ergänzt, sobald sie offiziell feststehen.</p>
+      </section>
+
+      <div class="actions season-actions">
+        <a class="btn btn-secondary" href="./index.html#wettbewerbe">Zurück zu den Wettbewerben</a>
+        <a class="btn btn-primary" href="https://www.kicktipp.de/the-old-smugglers-club/" target="_blank" rel="noopener noreferrer">Zum Kicktipp</a>
+      </div>
+
+      <div class="error is-hidden" id="season-error"></div>
+    </section>
+    <footer>THE OLD SMUGGLERS CLUB · SAISON 2026/2027</footer>
+  </main>
+  <script src="./datenregister.js" defer></script>
+  <script src="./datenmodell.js" defer></script>
+  <script src="./saisonuebersicht.js" defer></script>
+  <script src="performance-v247.js" defer></script>
+  <script src="./accessibility-v33.js" defer></script>
+
+<footer class="legal-footer" aria-label="Rechtliche Hinweise">
+  <div class="legal-footer__inner">
+    <span>© 2026 The Old Smugglers Club</span>
+    <nav class="legal-footer__links" aria-label="Rechtliche Navigation">
+      <a href="./impressum.html">Impressum</a>
+      <a href="./datenschutz.html">Datenschutz</a>
+      <span id="footer-version">Version wird geladen</span>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

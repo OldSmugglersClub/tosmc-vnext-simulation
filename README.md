@@ -1,11 +1,7 @@
-# TOSMC vNext Website Simulation
+# README
+Update in das LIVE-Repository übernehmen.
 
-Dieses Repository ist ausschließlich die beschreibbare Website-Simulation für TOSMC Admin vNext.
-
-## Sicherheitsgrenze
-
-Die operativen Referenzstände **LiveAdmin**, **TestAdmin**, **Live-Repo** und **Test2v2-Repo** bleiben unverändert und sind für vNext ausschließlich READ ONLY.
-
-vNext darf Testeinspielungen nur in diese Simulation schreiben. Das Repository basiert initial auf dem bestätigten Test2v2-Website-Stand `4.9.2-HF12-HF101-TEST9`.
-
-GitHub-Actions-Workflows des Test2v2-Repositories werden absichtlich **nicht** übernommen, damit die Simulation keine operativen Automatismen ausführt.
+Danach prüfen:
+1. Keine manuellen Änderungen an Cron-Zeiten.
+2. Nächsten automatischen `schedule`-Run abwarten.
+3. Erst danach Test2-v2 analog behandeln, falls nötig.

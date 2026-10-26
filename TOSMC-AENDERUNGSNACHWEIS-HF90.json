@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:51:54.943Z",
+  "changeType": "local",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "CHANGELOG.md",
+      "type": "changed",
+      "before": "992dce98ea96dc32ef74cf798095fc54191e763a1416e8a44432e967134b5150",
+      "after": "d91b6e2e527a2a5adce83cc6767ff2ce2770d6f80b3bb89c2a9e1d65ec53cc28"
+    },
+    {
+      "path": "ERSETZEN_NEU_LOESCHEN_HF90.txt",
+      "type": "new",
+      "before": null,
+      "after": "dc7509feb53004ad73c50d0b265b84026c3d844ca8f8ba89e948cdc127857512"
+    },
+    {
+      "path": "README_HF90.md",
+      "type": "new",
+      "before": null,
+      "after": "02b7ad3c027c2beec69f6914c79894f3e80a5676a4b401721e36cc91d6cb1eec"
+    },
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "e2674b8e48e032cc280a44717fc4ebbcd01f06930bafbd18d93d742d35ba7c8c",
+      "after": "b1685669fe01a76e5abcae834940bea28ecc01f97633d8ee2efd4568bd769caa"
+    },
+    {
+      "path": "index.html",
+      "type": "changed",
+      "before": "b5a9a1c5778542e0fcb12254fc6e9c69697acfc248b0917408fc5740844da926",
+      "after": "1cb8c46ed66bc57e6b4a48abad886972522c97c1adf49e6b14ca618b42675ac6"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "schemaVersion": 1,
+    "changeType": "local",
+    "description": "Live-Übernahme der bestätigten Layoutkorrekturen aus HF90-TEST1",
+    "allowedPaths": [
+      "index.html",
+      "VERSION.txt",
+      "CHANGELOG.md",
+      "README_HF90.md",
+      "ERSETZEN_NEU_LOESCHEN_HF90.txt",
+      "TOSMC-AENDERUNGSNACHWEIS-HF90.json",
+      "TOSMC-SCHUTZPRUEFUNG-HF90.json"
+    ],
+    "protectedPaths": [
+      "spielbetrieb.json",
+      "spieldaten.json",
+      "highscore.json",
+      "website-view.json",
+      "teams.json",
+      "teilnehmer.json",
+      "wettbewerbe.json",
+      "schedule-data-adapter.js",
+      "wettbewerb.js",
+      "wettbewerb.css"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

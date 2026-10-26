@@ -1688,7 +1688,7 @@
    Rangfolge/Datenlogik bleiben unverändert.
    ======================================================================= */
 
-body[data-view="team"] .hs-podium--simple .hs-rank-grid{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-grid{
   display:flex!important;
   flex-direction:column;
   align-items:stretch;
@@ -1697,7 +1697,7 @@ body[data-view="team"] .hs-podium--simple .hs-rank-grid{
   margin:0 auto!important;
 }
 
-body[data-view="team"] .hs-podium--simple .hs-rank-card{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-card{
   width:100%;
   min-height:148px;
   padding:18px 28px;
@@ -1711,14 +1711,14 @@ body[data-view="team"] .hs-podium--simple .hs-rank-card{
   text-align:center!important;
 }
 
-body[data-view="team"] .hs-podium--simple .hs-rank-medal{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-medal{
   width:70px;
   height:70px;
   flex-basis:auto;
   margin:0;
 }
 
-body[data-view="team"] .hs-podium--simple .hs-rank-name{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-name{
   width:100%;
   min-height:0;
   padding:0 12px;
@@ -1727,12 +1727,12 @@ body[data-view="team"] .hs-podium--simple .hs-rank-name{
   justify-content:center;
 }
 
-body[data-view="team"] .hs-podium--simple .hs-rank-score{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-score{
   margin:0;
   text-align:center!important;
 }
 
-body[data-view="team"] .hs-podium--simple .hs-rank-card small{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-card small{
   margin:0;
   width:100%;
   max-width:none;
@@ -1740,18 +1740,18 @@ body[data-view="team"] .hs-podium--simple .hs-rank-card small{
 }
 
 /* Platz 1 bleibt optisch führend, ohne die Geometrie zu verschieben. */
-body[data-view="team"] .hs-podium--simple .hs-rank-card--place-1{
+:is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-card--place-1{
   border-color:#c18b2b;
   background:linear-gradient(180deg,rgba(78,41,15,.82),rgba(18,9,5,.97));
 }
 
 @media (max-width:760px){
-  body[data-view="team"] .hs-podium--simple .hs-rank-grid{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-grid{
     width:100%!important;
     gap:9px!important;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-card{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-card{
     min-height:126px;
     padding:12px 10px;
     grid-template-columns:58px minmax(0,1fr) 82px;
@@ -1760,30 +1760,30 @@ body[data-view="team"] .hs-podium--simple .hs-rank-card--place-1{
     row-gap:5px;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-medal{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-medal{
     grid-column:1;
     grid-row:1 / 3;
     width:50px;
     height:50px;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-name{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-name{
     grid-column:2;
     grid-row:1;
     padding:0 3px;
     font-size:.9rem;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-score{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-score{
     grid-column:3;
     grid-row:1 / 3;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-score b{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-score b{
     font-size:1.45rem;
   }
 
-  body[data-view="team"] .hs-podium--simple .hs-rank-card small{
+  :is(body[data-view="team"],body[data-view="teamOverall"]) .hs-podium--simple .hs-rank-card small{
     grid-column:2;
     grid-row:2;
     font-size:.62rem;
@@ -1814,3 +1814,81 @@ body[data-view="team"] .hs-podium--simple .hs-rank-card--place-1{
   pointer-events:auto;
 }
 .hs-page-btn{touch-action:manipulation;cursor:pointer}
+
+/* =========================================================
+   Live HF112 – Mobile Wettbewerbs-Gesamtwertung
+   7-spaltige Wettbewerbs-Gesamtwertungen erhalten ein eigenes
+   mobiles Kartenraster. Desktop und andere Highscore-Ansichten
+   bleiben unverändert.
+   ========================================================= */
+@media (max-width:700px){
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table tbody tr{
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    grid-template-areas:
+      "player player player player rank rank"
+      "exact exact diff diff tendency tendency"
+      "wins wins wins points points points";
+  }
+
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(3){grid-area:exact}
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(4){grid-area:diff}
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(5){grid-area:tendency}
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(6){grid-area:wins}
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(7){grid-area:points}
+
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(3),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(4),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(5),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(6),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(7){
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    padding:9px 5px 2px;
+    border-top:1px solid rgba(184,138,61,.22);
+    text-align:center;
+    color:#ead097;
+    font-weight:700;
+    white-space:nowrap;
+  }
+}
+
+@media (max-width:390px){
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(3),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(4),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(5),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(6),
+  .hs-table-wrap.is-individual-table.is-competition-overall-table .hs-table td:nth-child(7){
+    gap:3px;
+    padding-left:3px;
+    padding-right:3px;
+    font-size:.86rem;
+  }
+}
+
+/* HS-TEAM-OVERALL-TEST1: exakt drei gleichbreite Navigationsfelder in jedem Event. */
+.hs-view-tabs.hs-view-tabs--event{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
+.hs-view-tabs--event>.hs-chip{width:100%;min-width:0;flex:none;overflow-wrap:anywhere}
+@media(max-width:720px){.hs-view-tabs.hs-view-tabs--event{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.hs-view-tabs--event>.hs-chip{flex:none;font-size:clamp(.64rem,2.35vw,.85rem);padding:7px 3px}}
+
+/* TEAMTEST2: drittes Navigationsfeld ist ein einziges echtes Auswahlmenü. */
+.hs-view-tabs--event>.hs-team-select-wrap{box-sizing:border-box;min-width:0;min-height:44px;height:100%;display:flex;align-items:stretch;position:relative;border:1px solid #9d742e;border-radius:6px;background:linear-gradient(180deg,#341b0b,#1c1008);overflow:hidden}
+.hs-view-tabs--event>.hs-team-select-wrap.is-active{border-color:#d7a94e;background:linear-gradient(180deg,#55300f,#271507)}
+.hs-team-select{display:block;appearance:none;-webkit-appearance:none;width:100%;min-width:0;min-height:44px;padding:6px 30px 6px 12px;background:transparent;color:#f5e2b7;border:0;border-radius:6px;font:inherit;font-weight:600;font-size:clamp(.7rem,1.25vw,.93rem);text-align:center;text-align-last:center;cursor:pointer}
+.hs-team-select option{color:#f4dfac;background:#241509}
+.hs-team-select:focus-visible{outline:2px solid #edbd60;outline-offset:-3px}
+.hs-team-select-wrap::after{content:'▾';position:absolute;right:10px;top:50%;transform:translateY(-50%);font-size:1rem;color:#edbf64;pointer-events:none}
+@media(max-width:720px){.hs-view-tabs--event>.hs-team-select-wrap{min-height:44px}.hs-team-select{font-size:clamp(.56rem,2.2vw,.77rem);padding:5px 15px 5px 2px}.hs-team-select-wrap::after{right:4px;font-size:.76rem}}
+
+/* Mobile Highscore navigation: full labels stay in native select popup, not clipped on card.
+   Desktop rules intentionally untouched. */
+.hs-team-select-mobile-label{display:none}
+@media(max-width:720px){
+  .hs-view-tabs--event>.hs-team-select-wrap{position:relative;isolation:isolate;overflow:hidden}
+  .hs-view-tabs--event .hs-team-select-mobile-label{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;position:absolute;inset:0 17px 0 2px;pointer-events:none;color:#f5e2b7;text-align:center;line-height:1.12;font-weight:600;font-size:clamp(.65rem,2.45vw,.9rem);white-space:nowrap}
+  .hs-view-tabs--event .hs-team-select-mobile-label small{display:block;font-size:clamp(.59rem,2.15vw,.79rem);font-weight:400;color:#e9c888;line-height:1.1}
+  .hs-view-tabs--event .hs-team-select{position:absolute;inset:0;width:100%;height:100%;min-height:44px;opacity:0;z-index:2;cursor:pointer}
+  .hs-view-tabs--event .hs-team-select-wrap::after{right:6px;font-size:.8rem;z-index:1}
+  .hs-view-tabs--event .hs-team-select-wrap:focus-within{outline:2px solid #edbd60;outline-offset:2px}
+}

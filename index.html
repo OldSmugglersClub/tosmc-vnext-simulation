@@ -2493,6 +2493,20 @@
         var(--shadow);
     }
 
+    /* Desktop-Fix TEST3 25.10.2026: Die Hintergrundgrafik mit eingebetteter
+       Schrift wird auf Desktop fuer diese Kachel vollstaendig entfernt.
+       Statt unvollstaendiger Randmasken: ueberall deckendes dunkles Motiv.
+       Inhalte, Abstaende, Interaktion und Mobilansicht bleiben unberuehrt. */
+    @media (min-width: 821px) {
+      #aktueller-spieltag.matchday-panel.sm-schedule {
+        background-color: #0c0805;
+        background-image: linear-gradient(180deg, #130c07 0%, #0c0805 100%);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
     .matchday-panel::before {
       content: "";
       position: absolute;
@@ -3136,8 +3150,9 @@
     .rolling-events {
       position: relative;
       z-index: 1;
-      flex: 1 1 auto;
+      flex: 0 0 auto;
       min-height: 0;
+      max-height: 420px;
       overflow-x: hidden;
       overflow-y: auto;
       overscroll-behavior: contain;
@@ -3217,9 +3232,9 @@
        ================================================================ */
 
     .sm-schedule {
-      height: 590px;
-      min-height: 590px;
-      max-height: 590px;
+      height: auto;
+      min-height: 0;
+      max-height: none;
       display: flex;
       flex-direction: column;
       box-sizing: border-box;
@@ -3539,9 +3554,9 @@
 
     @media (max-width: 820px) {
       .sm-schedule {
-        height: 590px;
-        min-height: 590px;
-        max-height: 590px;
+        height: auto;
+        min-height: 0;
+        max-height: none;
       }
     }
 
@@ -3660,9 +3675,9 @@
 
     @media (max-width: 520px) {
       .sm-schedule {
-        height: 620px;
-        min-height: 620px;
-        max-height: 620px;
+        height: auto;
+        min-height: 0;
+        max-height: none;
       }
 
       .sm-event-list {
@@ -5663,9 +5678,46 @@
       }
     }
 
+    /* TEST3: Spieltagskachel – nur ein Containerrahmen, Spielkarten bleiben erhalten. */
+    #aktueller-spieltag.sm-schedule::before {
+      content: none;
+    }
+
+    #aktueller-spieltag.sm-schedule .sm-event-list {
+      border: 0;
+      box-shadow: none;
+      background: transparent;
+    }
+
+    /* TEST4 – gemeinsame rechte Außenkante ohne reservierte Scrollleisten-Rinne.
+       Nur die Terminliste der Startseite; Eventseiten bleiben unberührt. */
+    #aktueller-spieltag.sm-schedule .sm-event-list {
+      scrollbar-gutter: auto;
+      padding-right: 0;
+    }
+    #aktueller-spieltag.sm-schedule .sm-event-list:not(.is-multiple) {
+      overflow-y: visible;
+    }
+
+
+    /* HF115 18.10.2026: nur Smartphone – Hintergrundschrift aus der
+       aktuellen Spieltagskachel ausblenden. Bilddatei und Desktop unverändert.
+       Ein deckender Farbverlauf verhindert auch bei langer Kartenliste,
+       dass das im Motiv enthaltene Gold-Banner durchscheint. */
+    @media (max-width: 760px) {
+      #aktueller-spieltag.matchday-panel.sm-schedule {
+        background-color: #100a06;
+        background-image:
+          radial-gradient(ellipse at 75% 0%, rgba(94, 59, 25, .35), transparent 65%),
+          linear-gradient(180deg, #1b1008 0%, #0c0805 100%);
+        background-position: center;
+        background-size: auto;
+      }
+    }
+
   </style>
   <link rel="stylesheet" href="./highscore.css?v=4.0.1">
-  <link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF73">
+  <link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF120">
   <link rel="stylesheet" href="./accessibility-v33.css">
   <style id="welcome-cleanup-v434">
     /* Version 4.4.14: Startzentrale vollständig deckend halten und alle alten Dekore abschalten.
@@ -7026,42 +7078,6 @@
             elements.list.appendChild(day);
           });
 
-          // Unbestätigte Zeitfenster bleiben sichtbar, beeinflussen aber weder Reihenfolge noch Counter.
-          const announced=timeline.announced.filter(game=>{
-            const from=game._dateFrom;
-            return from && from >= new Intl.DateTimeFormat("en-CA",{year:"numeric",month:"2-digit",day:"2-digit"}).format(now);
-          }).slice(0,6);
-          if(announced.length){
-            const day=document.createElement("section"); day.className="sm-day sm-day--announced";
-            const title=document.createElement("h3"); title.className="sm-day__title"; title.textContent="Noch nicht zeitgenau terminiert";
-            day.appendChild(title);
-            announced.forEach(game=>{
-              const row=document.createElement("div"); row.className="sm-event-row"; row.dataset.competition=game.matchdayType||game.wettbewerb||"";
-              const time=document.createElement("span"); time.className="sm-event-row__time"; time.textContent="--:--";
-              const competition=document.createElement("span"); competition.className="sm-event-row__competition"; competition.textContent=formatEventMatchdayLabel(game, "Ereignis");
-              const match=document.createElement("span"); match.className="sm-event-row__match";
-
-              const homeWrap=document.createElement("span"); homeWrap.className="sm-event-row__team sm-event-row__team--home";
-              const homeSeal=document.createElement("span"); homeSeal.className="sm-event-row__seal";
-              const homeName=document.createElement("span"); homeName.className="sm-event-row__team-name"; homeName.textContent=game.heim;
-              homeWrap.append(homeSeal,homeName);
-
-              const separator=document.createElement("span"); separator.className="sm-event-row__separator"; separator.textContent=game.trenner||"–";
-
-              const awayWrap=document.createElement("span"); awayWrap.className="sm-event-row__team sm-event-row__team--away";
-              const awayName=document.createElement("span"); awayName.className="sm-event-row__team-name"; awayName.textContent=game.auswaerts;
-              const awaySeal=document.createElement("span"); awaySeal.className="sm-event-row__seal";
-              awayWrap.append(awayName,awaySeal);
-
-              match.append(homeWrap,separator,awayWrap);
-              renderTeamSeal(homeSeal,game.heimTeamId,game.heim);
-              renderTeamSeal(awaySeal,game.auswaertsTeamId,game.auswaerts);
-
-              const status=document.createElement("span"); status.className="sm-event-row__status"; status.textContent=game._openReason==="verlegt"?"VERLEGT · TERMIN OFFEN":game._openReason==="abgesagt"?"ABGESAGT · TERMIN OFFEN":game._openReason==="ausgefallen"?"AUSGEFALLEN · TERMIN OFFEN":"ZEIT OFFEN";
-              row.append(time,competition,match,status); day.appendChild(row);
-            });
-            elements.list.appendChild(day);
-          }
           elements.list.classList.toggle("is-empty",!elements.list.children.length);
         }
 
@@ -7281,7 +7297,7 @@
   </script>
 
   <script src="./highscore-teaser.js?v=4.9.2-HF9" defer></script>
-  <script src="./logbuch.js?v=4.9.2-HF12-HF73" defer></script>
+  <script src="./logbuch.js?v=4.9.2-HF12-HF120" defer></script>
   <script src="performance-v247.js" defer></script>
   <script src="./accessibility-v33.js" defer></script>
   <script>

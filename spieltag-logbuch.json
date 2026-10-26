@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 13,
-  "aktualisiert": "2026-09-20T21:28:48.102Z",
+  "datenVersion": 20,
+  "aktualisiert": "2026-10-25T20:18:04.090Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -6052,13 +6052,13 @@
                 "exakt": 2
               },
               {
-                "teilnehmerId": "oifinger",
-                "teilnehmer": "Oifinger",
+                "teilnehmerId": "olympiakos",
+                "teilnehmer": "Olympiakos",
                 "exakt": 2
               },
               {
-                "teilnehmerId": "olympiakos",
-                "teilnehmer": "Olympiakos",
+                "teilnehmerId": "oifinger",
+                "teilnehmer": "Oifinger",
                 "exakt": 2
               },
               {
@@ -6130,6 +6130,2294 @@
             "exakt": 40,
             "differenz": 122,
             "tendenz": 147
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__smugglerauftrag__7-spieltag__sma-2026-27-07-063",
+      "bezeichnung": "Smuggleraufträge 7. Spieltag",
+      "wettbewerb": "smugglerauftrag",
+      "runde": "7. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "sma-2026-27-07-063"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "dani1893",
+          "teilnehmer": "Dani1893",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "finch",
+          "teilnehmer": "Finch",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "g-threepwood",
+          "teilnehmer": "G.Threepwood",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "marius",
+          "teilnehmer": "Marius",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "opipeter",
+          "teilnehmer": "Opipeter",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "handgottes",
+          "teilnehmer": "HandGottes",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "cobra75",
+          "teilnehmer": "Cobra75",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "sam-entspender",
+          "teilnehmer": "SAM_ENTSPENDER",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "kev1999",
+          "teilnehmer": "Kev1999",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "stevie26",
+          "teilnehmer": "Stevie26",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "mikoog",
+          "teilnehmer": "MiKoog",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "glueckspfennig",
+          "teilnehmer": "Glückspfennig",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 5,
+            "anzahl": 12,
+            "tipper": [
+              {
+                "teilnehmerId": "dani1893",
+                "teilnehmer": "Dani1893",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "finch",
+                "teilnehmer": "Finch",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "g-threepwood",
+                "teilnehmer": "G.Threepwood",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "marius",
+                "teilnehmer": "Marius",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "opipeter",
+                "teilnehmer": "Opipeter",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "handgottes",
+                "teilnehmer": "HandGottes",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "cobra75",
+                "teilnehmer": "Cobra75",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "kev1999",
+                "teilnehmer": "Kev1999",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "stevie26",
+                "teilnehmer": "Stevie26",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "mikoog",
+                "teilnehmer": "MiKoog",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "glueckspfennig",
+                "teilnehmer": "Glückspfennig",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "sma-2026-27-07-063",
+            "heimTeam": "osnabrueck",
+            "auswaertsTeam": "dynamo-dresden",
+            "ergebnis": "1:1",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "tippverteilung": {
+              "1": 23,
+              "2": 30,
+              "X": 18
+            },
+            "exakt": 12,
+            "differenz": 6,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 30
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 18,
+              "anteil": 25.4,
+              "tipper": [
+                {
+                  "teilnehmerId": "pochzerjung",
+                  "teilnehmer": "PochzerJung",
+                  "tipp": "0:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "dani1893",
+                  "teilnehmer": "Dani1893",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "finch",
+                  "teilnehmer": "Finch",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "g-threepwood",
+                  "teilnehmer": "G.Threepwood",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "marius",
+                  "teilnehmer": "Marius",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "opipeter",
+                  "teilnehmer": "Opipeter",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "best10",
+                  "teilnehmer": "Best10",
+                  "tipp": "2:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "handgottes",
+                  "teilnehmer": "HandGottes",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "cobra75",
+                  "teilnehmer": "Cobra75",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "sam-entspender",
+                  "teilnehmer": "SAM_ENTSPENDER",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "andy1304",
+                  "teilnehmer": "Andy1304",
+                  "tipp": "2:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "glatze583",
+                  "teilnehmer": "Glatze583",
+                  "tipp": "2:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "kev1999",
+                  "teilnehmer": "Kev1999",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "stevie26",
+                  "teilnehmer": "Stevie26",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "mikoog",
+                  "teilnehmer": "MiKoog",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "glueckspfennig",
+                  "teilnehmer": "Glückspfennig",
+                  "tipp": "1:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "co",
+                  "teilnehmer": "Co",
+                  "tipp": "0:0",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 12
+            }
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 1,
+            "anzahl": 12,
+            "tipper": [
+              {
+                "teilnehmerId": "dani1893",
+                "teilnehmer": "Dani1893",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "finch",
+                "teilnehmer": "Finch",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "g-threepwood",
+                "teilnehmer": "G.Threepwood",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "marius",
+                "teilnehmer": "Marius",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "opipeter",
+                "teilnehmer": "Opipeter",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "handgottes",
+                "teilnehmer": "HandGottes",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "cobra75",
+                "teilnehmer": "Cobra75",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "kev1999",
+                "teilnehmer": "Kev1999",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "stevie26",
+                "teilnehmer": "Stevie26",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "mikoog",
+                "teilnehmer": "MiKoog",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "glueckspfennig",
+                "teilnehmer": "Glückspfennig",
+                "exakt": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 0.84,
+                "punktesumme": 63,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 0.6,
+                "punktesumme": 15,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 0.24
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "andy1304",
+                "teilnehmer": "Andy1304",
+                "vorher": 38,
+                "jetzt": 28,
+                "veraenderung": 10
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "bigdog",
+                "teilnehmer": "Bigdog",
+                "vorher": 15,
+                "jetzt": 21,
+                "veraenderung": -6
+              },
+              {
+                "teilnehmerId": "tribuna33",
+                "teilnehmer": "TRIBUNA33",
+                "vorher": 15,
+                "jetzt": 21,
+                "veraenderung": -6
+              },
+              {
+                "teilnehmerId": "gerrit1887",
+                "teilnehmer": "Gerrit1887",
+                "vorher": 17,
+                "jetzt": 23,
+                "veraenderung": -6
+              }
+            ],
+            "maxGewinn": 10,
+            "maxVerlust": -6
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "exakt": 12,
+            "differenz": 6,
+            "tendenz": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__5-spieltag__bl-2026-27-05-037-bl-2026-27-05-038-bl-2026-27-05-039-bl-2026-27-05-040-bl-2026-27-05-041-bl-2026-27-05-042-bl-2026-27-05-043-bl-2026-27-05-044-bl-2026-27-05-045",
+      "bezeichnung": "Bundesliga 5. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "5. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-05-037",
+        "bl-2026-27-05-038",
+        "bl-2026-27-05-039",
+        "bl-2026-27-05-040",
+        "bl-2026-27-05-041",
+        "bl-2026-27-05-042",
+        "bl-2026-27-05-043",
+        "bl-2026-27-05-044",
+        "bl-2026-27-05-045"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "mythos",
+          "teilnehmer": "Mythos",
+          "punkte": 21,
+          "exakt": 2,
+          "differenz": 3,
+          "tendenz": 1
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 21,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "punkte": 21,
+                "exakt": 2,
+                "differenz": 3,
+                "tendenz": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-05-037",
+            "heimTeam": "dortmund",
+            "auswaertsTeam": "werder-bremen",
+            "ergebnis": "2:2",
+            "abgegeben": 75,
+            "nichtAbgegeben": 25,
+            "tippverteilung": {
+              "1": 70,
+              "2": 2,
+              "X": 3
+            },
+            "exakt": 2,
+            "differenz": 1,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 70
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 3,
+              "anteil": 4,
+              "tipper": [
+                {
+                  "teilnehmerId": "redwing",
+                  "teilnehmer": "Redwing",
+                  "tipp": "2:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "stevie26",
+                  "teilnehmer": "Stevie26",
+                  "tipp": "3:3",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 2
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-05-037",
+                "heimTeam": "dortmund",
+                "auswaertsTeam": "werder-bremen",
+                "ergebnis": "2:2",
+                "abgegeben": 75,
+                "nichtAbgegeben": 25,
+                "tippverteilung": {
+                  "1": 70,
+                  "2": 2,
+                  "X": 3
+                },
+                "exakt": 2,
+                "differenz": 1,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 70
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 3,
+                  "anteil": 4,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "redwing",
+                      "teilnehmer": "Redwing",
+                      "tipp": "2:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "2:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "stevie26",
+                      "teilnehmer": "Stevie26",
+                      "tipp": "3:3",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 2
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 2,
+            "anzahl": 14,
+            "tipper": [
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "olympiakos",
+                "teilnehmer": "Olympiakos",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "kevin",
+                "teilnehmer": "Kevin",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "g-threepwood",
+                "teilnehmer": "G.Threepwood",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "seboso",
+                "teilnehmer": "Seboso",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "manuel",
+                "teilnehmer": "Manuel",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "opipeter",
+                "teilnehmer": "Opipeter",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "11le",
+                "teilnehmer": "11LE",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "adamj",
+                "teilnehmer": "AdamJ",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "nurderscf",
+                "teilnehmer": "NurDerSCF",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "eckes2359",
+                "teilnehmer": "Eckes2359",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "jungunddurstig",
+                "teilnehmer": "JungundDurstig",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "gruber",
+                "teilnehmer": "gRuBer",
+                "exakt": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 9.24,
+                "punktesumme": 693,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 8.2,
+                "punktesumme": 205,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 1.04
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "vorher": 60,
+                "jetzt": 38,
+                "veraenderung": 22
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "lucipher",
+                "teilnehmer": "LuCipher",
+                "vorher": 35,
+                "jetzt": 56,
+                "veraenderung": -21
+              }
+            ],
+            "maxGewinn": 22,
+            "maxVerlust": -21
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 75,
+            "nichtAbgegeben": 27,
+            "exakt": 65,
+            "differenz": 87,
+            "tendenz": 156
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__champions-league__2-spieltag__ucl-2026-27-2-spieltag-87406-ucl-2026-27-2-spieltag-87407-ucl-2026-27-2-spieltag-87408-ucl-2026-27-2-spieltag-87409-ucl-2026-27-2-spieltag-87410-ucl-2026-27-2-spieltag-87411-ucl-2026-27-2-spieltag-87412-ucl-2026-27-2-spieltag-87413-ucl-2026-27-2-spieltag-87414-ucl-2026-27-2-spieltag-87415-ucl-2026-27-2-spieltag-87416-ucl-2026-27-2-spieltag-87417-ucl-2026-27-2-spieltag-87418-ucl-2026-27-2-spieltag-87419-ucl-2026-27-2-spieltag-87420-ucl-2026-27-2-spieltag-87421-ucl-2026-27-2-spieltag-87422-ucl-2026-27-2-spieltag-87423",
+      "bezeichnung": "Champions League 2. Spieltag",
+      "wettbewerb": "champions-league",
+      "runde": "2. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "ucl-2026-27-2-spieltag-87406",
+        "ucl-2026-27-2-spieltag-87407",
+        "ucl-2026-27-2-spieltag-87408",
+        "ucl-2026-27-2-spieltag-87409",
+        "ucl-2026-27-2-spieltag-87410",
+        "ucl-2026-27-2-spieltag-87411",
+        "ucl-2026-27-2-spieltag-87412",
+        "ucl-2026-27-2-spieltag-87413",
+        "ucl-2026-27-2-spieltag-87414",
+        "ucl-2026-27-2-spieltag-87415",
+        "ucl-2026-27-2-spieltag-87416",
+        "ucl-2026-27-2-spieltag-87417",
+        "ucl-2026-27-2-spieltag-87418",
+        "ucl-2026-27-2-spieltag-87419",
+        "ucl-2026-27-2-spieltag-87420",
+        "ucl-2026-27-2-spieltag-87421",
+        "ucl-2026-27-2-spieltag-87422",
+        "ucl-2026-27-2-spieltag-87423"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "xib0o",
+          "teilnehmer": "Xib0o",
+          "punkte": 35,
+          "exakt": 1,
+          "differenz": 4,
+          "tendenz": 9
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 35,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "xib0o",
+                "teilnehmer": "Xib0o",
+                "punkte": 35,
+                "exakt": 1,
+                "differenz": 4,
+                "tendenz": 9
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "ucl-2026-27-2-spieltag-87412",
+            "heimTeam": "viking-fk",
+            "auswaertsTeam": "bayern-muenchen",
+            "ergebnis": "3:3",
+            "abgegeben": 68,
+            "nichtAbgegeben": 32,
+            "tippverteilung": {
+              "1": 1,
+              "2": 67,
+              "X": 0
+            },
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 67
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 0,
+              "anteil": 0,
+              "tipper": [],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "ucl-2026-27-2-spieltag-87412",
+                "heimTeam": "viking-fk",
+                "auswaertsTeam": "bayern-muenchen",
+                "ergebnis": "3:3",
+                "abgegeben": 68,
+                "nichtAbgegeben": 32,
+                "tippverteilung": {
+                  "1": 1,
+                  "2": 67,
+                  "X": 0
+                },
+                "exakt": 0,
+                "differenz": 0,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "2",
+                  "anzahl": 67
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 0,
+                  "anteil": 0,
+                  "tipper": [],
+                  "exakteTipps": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 3,
+            "anzahl": 2,
+            "tipper": [
+              {
+                "teilnehmerId": "salas1904",
+                "teilnehmer": "Salas1904",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "exakt": 3
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 16.4,
+                "punktesumme": 1230,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 14.52,
+                "punktesumme": 363,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 1.88
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "xib0o",
+                "teilnehmer": "Xib0o",
+                "vorher": 48,
+                "jetzt": 24,
+                "veraenderung": 24
+              },
+              {
+                "teilnehmerId": "pauli",
+                "teilnehmer": "Pauli",
+                "vorher": 62,
+                "jetzt": 38,
+                "veraenderung": 24
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "vorher": 23,
+                "jetzt": 55,
+                "veraenderung": -32
+              }
+            ],
+            "maxGewinn": 24,
+            "maxVerlust": -32
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 73,
+            "nichtAbgegeben": 35,
+            "exakt": 42,
+            "differenz": 149,
+            "tendenz": 468
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__smugglerauftrag__8-spieltag__sma-2026-27-08-068",
+      "bezeichnung": "Smuggleraufträge 8. Spieltag",
+      "wettbewerb": "smugglerauftrag",
+      "runde": "8. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "sma-2026-27-08-068"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "dominik1966",
+          "teilnehmer": "dominik1966",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "lattenkracher",
+          "teilnehmer": "Lattenkracher",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "flokicker94",
+          "teilnehmer": "FloKicker94",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "kev1999",
+          "teilnehmer": "Kev1999",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "salas1904",
+          "teilnehmer": "Salas1904",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "sam2004",
+          "teilnehmer": "Sam2004",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "luca",
+          "teilnehmer": "Luca",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "nurderscf",
+          "teilnehmer": "NurDerSCF",
+          "punkte": 3,
+          "exakt": 0,
+          "differenz": 1,
+          "tendenz": 0
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 3,
+            "anzahl": 8,
+            "tipper": [
+              {
+                "teilnehmerId": "dominik1966",
+                "teilnehmer": "dominik1966",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "lattenkracher",
+                "teilnehmer": "Lattenkracher",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "flokicker94",
+                "teilnehmer": "FloKicker94",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "kev1999",
+                "teilnehmer": "Kev1999",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "salas1904",
+                "teilnehmer": "Salas1904",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "sam2004",
+                "teilnehmer": "Sam2004",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "luca",
+                "teilnehmer": "Luca",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "nurderscf",
+                "teilnehmer": "NurDerSCF",
+                "punkte": 3,
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "sma-2026-27-08-068",
+            "heimTeam": "dynamo-dresden",
+            "auswaertsTeam": "magdeburg",
+            "ergebnis": "2:0",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "tippverteilung": {
+              "1": 25,
+              "2": 28,
+              "X": 18
+            },
+            "exakt": 0,
+            "differenz": 8,
+            "tendenz": 17,
+            "richtigerAusgang": "1",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 28
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 25,
+              "anteil": 35.2,
+              "tipper": [
+                {
+                  "teilnehmerId": "rk69",
+                  "teilnehmer": "RK69",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "marius",
+                  "teilnehmer": "Marius",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "tribuna33",
+                  "teilnehmer": "TRIBUNA33",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "dominik1966",
+                  "teilnehmer": "dominik1966",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "xib0o",
+                  "teilnehmer": "Xib0o",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "hardy17",
+                  "teilnehmer": "Hardy17",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "handgottes",
+                  "teilnehmer": "HandGottes",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "playboymarc88",
+                  "teilnehmer": "PlayBoyMarc88",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "cobra",
+                  "teilnehmer": "cobra",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "lattenkracher",
+                  "teilnehmer": "Lattenkracher",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "marc86",
+                  "teilnehmer": "Marc86",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "redwing",
+                  "teilnehmer": "Redwing",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "flokicker94",
+                  "teilnehmer": "FloKicker94",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "seboso",
+                  "teilnehmer": "Seboso",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "flying-dutchman",
+                  "teilnehmer": "Flying-Dutchman",
+                  "tipp": "1:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "quick",
+                  "teilnehmer": "Quick",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "kev1999",
+                  "teilnehmer": "Kev1999",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "salas1904",
+                  "teilnehmer": "Salas1904",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "kevinhick",
+                  "teilnehmer": "Kevinhick",
+                  "tipp": "4:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "vebfriwiwerk",
+                  "teilnehmer": "VebFriwiwerk",
+                  "tipp": "3:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "sam2004",
+                  "teilnehmer": "Sam2004",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "luca",
+                  "teilnehmer": "Luca",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "nurderscf",
+                  "teilnehmer": "NurDerSCF",
+                  "tipp": "3:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "potterhead",
+                  "teilnehmer": "Potterhead",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "co",
+                  "teilnehmer": "Co",
+                  "tipp": "2:1",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 0.76,
+                "punktesumme": 19,
+                "mitglieder": 25
+              },
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 0.52,
+                "punktesumme": 39,
+                "mitglieder": 75
+              }
+            ],
+            "sieger": "Old Smugglers Team",
+            "differenz": 0.24
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "redwing",
+                "teilnehmer": "Redwing",
+                "vorher": 46,
+                "jetzt": 41,
+                "veraenderung": 5
+              },
+              {
+                "teilnehmerId": "flokicker94",
+                "teilnehmer": "FloKicker94",
+                "vorher": 48,
+                "jetzt": 43,
+                "veraenderung": 5
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "glatze583",
+                "teilnehmer": "Glatze583",
+                "vorher": 41,
+                "jetzt": 44,
+                "veraenderung": -3
+              },
+              {
+                "teilnehmerId": "zweikampfgott",
+                "teilnehmer": "ZweikampfGott",
+                "vorher": 42,
+                "jetzt": 45,
+                "veraenderung": -3
+              },
+              {
+                "teilnehmerId": "adamj",
+                "teilnehmer": "AdamJ",
+                "vorher": 57,
+                "jetzt": 60,
+                "veraenderung": -3
+              }
+            ],
+            "maxGewinn": 5,
+            "maxVerlust": -3
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "exakt": 0,
+            "differenz": 8,
+            "tendenz": 17
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__6-spieltag__bl-2026-27-06-046-bl-2026-27-06-047-bl-2026-27-06-048-bl-2026-27-06-049-bl-2026-27-06-050-bl-2026-27-06-051-bl-2026-27-06-052-bl-2026-27-06-053-bl-2026-27-06-054",
+      "bezeichnung": "Bundesliga 6. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "6. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-06-048",
+        "bl-2026-27-06-049",
+        "bl-2026-27-06-051",
+        "bl-2026-27-06-052",
+        "bl-2026-27-06-053",
+        "bl-2026-27-06-054",
+        "bl-2026-27-06-046",
+        "bl-2026-27-06-047",
+        "bl-2026-27-06-050"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "xib0o",
+          "teilnehmer": "Xib0o",
+          "punkte": 19,
+          "exakt": 2,
+          "differenz": 3,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "oifinger",
+          "teilnehmer": "Oifinger",
+          "punkte": 19,
+          "exakt": 1,
+          "differenz": 4,
+          "tendenz": 1
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 19,
+            "anzahl": 2,
+            "tipper": [
+              {
+                "teilnehmerId": "xib0o",
+                "teilnehmer": "Xib0o",
+                "punkte": 19,
+                "exakt": 2,
+                "differenz": 3,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "oifinger",
+                "teilnehmer": "Oifinger",
+                "punkte": 19,
+                "exakt": 1,
+                "differenz": 4,
+                "tendenz": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-06-052",
+            "heimTeam": "werder-bremen",
+            "auswaertsTeam": "paderborn",
+            "ergebnis": "2:2",
+            "abgegeben": 72,
+            "nichtAbgegeben": 28,
+            "tippverteilung": {
+              "1": 64,
+              "2": 2,
+              "X": 6
+            },
+            "exakt": 1,
+            "differenz": 5,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 64
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 6,
+              "anteil": 8.3,
+              "tipper": [
+                {
+                  "teilnehmerId": "18amfg99",
+                  "teilnehmer": "18AMFG99",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "flying-dutchman",
+                  "teilnehmer": "Flying-Dutchman",
+                  "tipp": "3:3",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "jakob",
+                  "teilnehmer": "Jakob",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "mary-grace",
+                  "teilnehmer": "Mary-Grace",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "nick-zg-1501",
+                  "teilnehmer": "Nick_ZG_1501",
+                  "tipp": "1:1",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 1
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-06-052",
+                "heimTeam": "werder-bremen",
+                "auswaertsTeam": "paderborn",
+                "ergebnis": "2:2",
+                "abgegeben": 72,
+                "nichtAbgegeben": 28,
+                "tippverteilung": {
+                  "1": 64,
+                  "2": 2,
+                  "X": 6
+                },
+                "exakt": 1,
+                "differenz": 5,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 64
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 6,
+                  "anteil": 8.3,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "18amfg99",
+                      "teilnehmer": "18AMFG99",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "flying-dutchman",
+                      "teilnehmer": "Flying-Dutchman",
+                      "tipp": "3:3",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "2:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "jakob",
+                      "teilnehmer": "Jakob",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "mary-grace",
+                      "teilnehmer": "Mary-Grace",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "nick-zg-1501",
+                      "teilnehmer": "Nick_ZG_1501",
+                      "tipp": "1:1",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 2,
+            "anzahl": 7,
+            "tipper": [
+              {
+                "teilnehmerId": "xib0o",
+                "teilnehmer": "Xib0o",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "finch",
+                "teilnehmer": "Finch",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "rk69",
+                "teilnehmer": "RK69",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "kevin",
+                "teilnehmer": "Kevin",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "hardy17",
+                "teilnehmer": "Hardy17",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "pochzerjung",
+                "teilnehmer": "PochzerJung",
+                "exakt": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 7.85,
+                "punktesumme": 589,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 6.88,
+                "punktesumme": 172,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 0.97
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "flying-dutchman",
+                "teilnehmer": "Flying-Dutchman",
+                "vorher": 51,
+                "jetzt": 32,
+                "veraenderung": 19
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "sven-huhn",
+                "teilnehmer": "Sven_Huhn",
+                "vorher": 8,
+                "jetzt": 21,
+                "veraenderung": -13
+              }
+            ],
+            "maxGewinn": 19,
+            "maxVerlust": -13
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 74,
+            "nichtAbgegeben": 28,
+            "exakt": 46,
+            "differenz": 93,
+            "tendenz": 126
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__champions-league__3-spieltag__ucl-2026-27-3-spieltag-87424-ucl-2026-27-3-spieltag-87425-ucl-2026-27-3-spieltag-87426-ucl-2026-27-3-spieltag-87427-ucl-2026-27-3-spieltag-87428-ucl-2026-27-3-spieltag-87429-ucl-2026-27-3-spieltag-87430-ucl-2026-27-3-spieltag-87431-ucl-2026-27-3-spieltag-87432-ucl-2026-27-3-spieltag-87433-ucl-2026-27-3-spieltag-87434-ucl-2026-27-3-spieltag-87435-ucl-2026-27-3-spieltag-87436-ucl-2026-27-3-spieltag-87437-ucl-2026-27-3-spieltag-87438-ucl-2026-27-3-spieltag-87439-ucl-2026-27-3-spieltag-87440-ucl-2026-27-3-spieltag-87441",
+      "bezeichnung": "Champions League 3. Spieltag",
+      "wettbewerb": "champions-league",
+      "runde": "3. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "ucl-2026-27-3-spieltag-87424",
+        "ucl-2026-27-3-spieltag-87425",
+        "ucl-2026-27-3-spieltag-87426",
+        "ucl-2026-27-3-spieltag-87427",
+        "ucl-2026-27-3-spieltag-87428",
+        "ucl-2026-27-3-spieltag-87429",
+        "ucl-2026-27-3-spieltag-87430",
+        "ucl-2026-27-3-spieltag-87431",
+        "ucl-2026-27-3-spieltag-87432",
+        "ucl-2026-27-3-spieltag-87433",
+        "ucl-2026-27-3-spieltag-87434",
+        "ucl-2026-27-3-spieltag-87435",
+        "ucl-2026-27-3-spieltag-87436",
+        "ucl-2026-27-3-spieltag-87437",
+        "ucl-2026-27-3-spieltag-87438",
+        "ucl-2026-27-3-spieltag-87439",
+        "ucl-2026-27-3-spieltag-87440",
+        "ucl-2026-27-3-spieltag-87441"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "stevie26",
+          "teilnehmer": "Stevie26",
+          "punkte": 38,
+          "exakt": 2,
+          "differenz": 4,
+          "tendenz": 8
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 38,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "stevie26",
+                "teilnehmer": "Stevie26",
+                "punkte": 38,
+                "exakt": 2,
+                "differenz": 4,
+                "tendenz": 8
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "ucl-2026-27-3-spieltag-87440",
+            "heimTeam": "sporting-lissabon",
+            "auswaertsTeam": "lask",
+            "ergebnis": "2:3",
+            "abgegeben": 66,
+            "nichtAbgegeben": 34,
+            "tippverteilung": {
+              "1": 60,
+              "2": 2,
+              "X": 4
+            },
+            "exakt": 1,
+            "differenz": 1,
+            "tendenz": 0,
+            "richtigerAusgang": "2",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 60
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 2,
+              "anteil": 3,
+              "tipper": [
+                {
+                  "teilnehmerId": "kevinhick",
+                  "teilnehmer": "Kevinhick",
+                  "tipp": "2:3",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "andy1304",
+                  "teilnehmer": "Andy1304",
+                  "tipp": "0:1",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 1
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "ucl-2026-27-3-spieltag-87440",
+                "heimTeam": "sporting-lissabon",
+                "auswaertsTeam": "lask",
+                "ergebnis": "2:3",
+                "abgegeben": 66,
+                "nichtAbgegeben": 34,
+                "tippverteilung": {
+                  "1": 60,
+                  "2": 2,
+                  "X": 4
+                },
+                "exakt": 1,
+                "differenz": 1,
+                "tendenz": 0,
+                "richtigerAusgang": "2",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 60
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 2,
+                  "anteil": 3,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "kevinhick",
+                      "teilnehmer": "Kevinhick",
+                      "tipp": "2:3",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "andy1304",
+                      "teilnehmer": "Andy1304",
+                      "tipp": "0:1",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 3,
+            "anzahl": 6,
+            "tipper": [
+              {
+                "teilnehmerId": "bigdog",
+                "teilnehmer": "Bigdog",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "best10",
+                "teilnehmer": "Best10",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "kevinhick",
+                "teilnehmer": "Kevinhick",
+                "exakt": 3
+              },
+              {
+                "teilnehmerId": "manuel",
+                "teilnehmer": "Manuel",
+                "exakt": 3
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 17.84,
+                "punktesumme": 1338,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 14.92,
+                "punktesumme": 373,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 2.92
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "flokicker94",
+                "teilnehmer": "FloKicker94",
+                "vorher": 55,
+                "jetzt": 35,
+                "veraenderung": 20
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "sven-huhn",
+                "teilnehmer": "Sven_Huhn",
+                "vorher": 21,
+                "jetzt": 58,
+                "veraenderung": -37
+              }
+            ],
+            "maxGewinn": 20,
+            "maxVerlust": -37
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 66,
+            "nichtAbgegeben": 37,
+            "exakt": 63,
+            "differenz": 160,
+            "tendenz": 458
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__7-spieltag__bl-2026-27-07-055-bl-2026-27-07-056-bl-2026-27-07-057-bl-2026-27-07-058-bl-2026-27-07-059-bl-2026-27-07-060-bl-2026-27-07-061-bl-2026-27-07-062-bl-2026-27-07-063",
+      "bezeichnung": "Bundesliga 7. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "7. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-07-057",
+        "bl-2026-27-07-056",
+        "bl-2026-27-07-060",
+        "bl-2026-27-07-061",
+        "bl-2026-27-07-062",
+        "bl-2026-27-07-063",
+        "bl-2026-27-07-055",
+        "bl-2026-27-07-058",
+        "bl-2026-27-07-059"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "redwing",
+          "teilnehmer": "Redwing",
+          "punkte": 20,
+          "exakt": 2,
+          "differenz": 2,
+          "tendenz": 2
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 20,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "redwing",
+                "teilnehmer": "Redwing",
+                "punkte": 20,
+                "exakt": 2,
+                "differenz": 2,
+                "tendenz": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-07-057",
+            "heimTeam": "stuttgart",
+            "auswaertsTeam": "moenchengladbach",
+            "ergebnis": "2:3",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "tippverteilung": {
+              "1": 63,
+              "2": 2,
+              "X": 5
+            },
+            "exakt": 1,
+            "differenz": 1,
+            "tendenz": 0,
+            "richtigerAusgang": "2",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 63
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 2,
+              "anteil": 2.9,
+              "tipper": [
+                {
+                  "teilnehmerId": "tribuna33",
+                  "teilnehmer": "TRIBUNA33",
+                  "tipp": "1:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "kevinhick",
+                  "teilnehmer": "Kevinhick",
+                  "tipp": "2:3",
+                  "exakt": true
+                }
+              ],
+              "exakteTipps": 1
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-07-057",
+                "heimTeam": "stuttgart",
+                "auswaertsTeam": "moenchengladbach",
+                "ergebnis": "2:3",
+                "abgegeben": 70,
+                "nichtAbgegeben": 30,
+                "tippverteilung": {
+                  "1": 63,
+                  "2": 2,
+                  "X": 5
+                },
+                "exakt": 1,
+                "differenz": 1,
+                "tendenz": 0,
+                "richtigerAusgang": "2",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 63
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 2,
+                  "anteil": 2.9,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "tribuna33",
+                      "teilnehmer": "TRIBUNA33",
+                      "tipp": "1:2",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "kevinhick",
+                      "teilnehmer": "Kevinhick",
+                      "tipp": "2:3",
+                      "exakt": true
+                    }
+                  ],
+                  "exakteTipps": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 2,
+            "anzahl": 7,
+            "tipper": [
+              {
+                "teilnehmerId": "redwing",
+                "teilnehmer": "Redwing",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "rk69",
+                "teilnehmer": "RK69",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "sgbw",
+                "teilnehmer": "sgbw",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "quick",
+                "teilnehmer": "Quick",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "marius",
+                "teilnehmer": "Marius",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "lattenkracher",
+                "teilnehmer": "Lattenkracher",
+                "exakt": 2
+              },
+              {
+                "teilnehmerId": "luki1887",
+                "teilnehmer": "Luki1887",
+                "exakt": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 7.33,
+                "punktesumme": 550,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 5.28,
+                "punktesumme": 132,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 2.05
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "juri",
+                "teilnehmer": "JuRi",
+                "vorher": 37,
+                "jetzt": 27,
+                "veraenderung": 10
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "flying-dutchman",
+                "teilnehmer": "Flying-Dutchman",
+                "vorher": 30,
+                "jetzt": 46,
+                "veraenderung": -16
+              }
+            ],
+            "maxGewinn": 10,
+            "maxVerlust": -16
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 73,
+            "nichtAbgegeben": 30,
+            "exakt": 47,
+            "differenz": 73,
+            "tendenz": 114
           }
         }
       ]

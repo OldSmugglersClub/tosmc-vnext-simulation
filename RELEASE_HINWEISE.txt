@@ -1,0 +1,19 @@
+TOSMC HIGHSCORE – REGULÄRES LIVE-RELEASE
+Website-Version: 4.9.2-HF12-HF113
+Basis: Live main.zip 2026-10-17 12:43:40 (4.9.2-HF12-HF112)
+Funktion: Eventbezogene Gesamt-Teamwertung über Dropdown in dritter Highscore-Navigationsposition.
+Test2v2: TEST3 vom Nutzer am 17.10.2026 praktisch bestätigt.
+
+Zu ersetzen im Website-Hauptverzeichnis (vorher sichern):
+- highscore.html
+- highscore.js
+- highscore.css
+- VERSION.txt
+
+Keine JSON-Daten ersetzen! Kein Admin-Update!
+Die JS- und CSS-Dateien sind byteidentisch zur bestätigten TEST3.
+Die HTML unterscheidet sich zu TEST3 ausschließlich in den beiden Cache-/Versionsparametern.
+Versionsfortschreibung: 4.9.2-HF12-HF112 -> 4.9.2-HF12-HF113.
+
+Nach Live-Einspielung prüfen: Dropdown-Spieltag/Gesamt, korrekte getrennte Werte, Desktop- und Mobilansicht.
+Dieses Paket ist nur für unveränderte Live-Basis seit 2026-10-17 12:43:40 vorgesehen.

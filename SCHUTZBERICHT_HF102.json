@@ -1,0 +1,59 @@
+{
+  "ergebnis": "BESTANDEN",
+  "geaenderte_dateien": [
+    "VERSION.txt",
+    "logbuch.html",
+    "logbuch.js",
+    "logbuch.css"
+  ],
+  "schutzobjekte": {
+    "spieltag-logbuch.json": {
+      "vorher": "0746f72c37c476b60ab5a3dc93e9583a6c8a89e1883afffe90c9f42364b83d53",
+      "nachher": "0746f72c37c476b60ab5a3dc93e9583a6c8a89e1883afffe90c9f42364b83d53",
+      "unveraendert": true
+    },
+    "website-view.json": {
+      "vorher": "a87614b0ded47b0c8db356667fa8af281387b9119d3d8b7b123facbe06e0025d",
+      "nachher": "a87614b0ded47b0c8db356667fa8af281387b9119d3d8b7b123facbe06e0025d",
+      "unveraendert": true
+    },
+    "teams.json": {
+      "vorher": "aca62c36c9c424da9b2f2bd24eba72629a1d06f04c4009038d651cf6fd391fc5",
+      "nachher": "aca62c36c9c424da9b2f2bd24eba72629a1d06f04c4009038d651cf6fd391fc5",
+      "unveraendert": true
+    },
+    "index.html": {
+      "vorher": "63a4261343a91299a00eca213bfc9c0edc55542c7a8ae75643d49f039f623bee",
+      "nachher": "63a4261343a91299a00eca213bfc9c0edc55542c7a8ae75643d49f039f623bee",
+      "unveraendert": true
+    },
+    "hall-of-fame-runtime.js": {
+      "vorher": "17e4f3956e95da03627b64447997d64a0cf98430a90f9eb0a7629529f9331a1e",
+      "nachher": "17e4f3956e95da03627b64447997d64a0cf98430a90f9eb0a7629529f9331a1e",
+      "unveraendert": true
+    },
+    "hall-of-fame.json": {
+      "vorher": "910c1a88aacc14e7b58d1a117034d061843f6c742907876dc22ac71477dc5d6a",
+      "nachher": "910c1a88aacc14e7b58d1a117034d061843f6c742907876dc22ac71477dc5d6a",
+      "unveraendert": true
+    },
+    "ehrenlogbuch-archiv.json": {
+      "vorher": "68c3d18ad8c7fb278a2dc15c5c1944d55d661c394d2a353178a428845600ca64",
+      "nachher": "68c3d18ad8c7fb278a2dc15c5c1944d55d661c394d2a353178a428845600ca64",
+      "unveraendert": true
+    },
+    "ehrenlogbuch-runtime.js": {
+      "vorher": "4510992d2150458a73e6a0f9442a0b3017640ce2b40a1f53fc50c6be504ae377",
+      "nachher": "4510992d2150458a73e6a0f9442a0b3017640ce2b40a1f53fc50c6be504ae377",
+      "unveraendert": true
+    },
+    "ehrenlogbuch.css": {
+      "vorher": "f3dd0fa06b6e6658a2431b7568a58f7f6a870647a3def6a409309313c333c431",
+      "nachher": "f3dd0fa06b6e6658a2431b7568a58f7f6a870647a3def6a409309313c333c431",
+      "unveraendert": true
+    }
+  },
+  "javascript_syntax": "BESTANDEN (node --check logbuch.js)",
+  "json_parse": "BESTANDEN",
+  "hinweis": "Live-Port gezielt auf HF101-Basis; keine Testdatei blind über Live kopiert."
+}

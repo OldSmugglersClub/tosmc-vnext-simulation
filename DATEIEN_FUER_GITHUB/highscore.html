@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Highscore und Ranglisten des The Old Smugglers Club">
+  <title>Highscore | The Old Smugglers Club</title>
+  <link rel="stylesheet" href="./wettbewerb.css"><link rel="stylesheet" href="./highscore.css"><link rel="stylesheet" href="./accessibility-v33.css"><link rel="stylesheet" href="./legal.css">
+</head>
+<body>
+<a class="hs-skip-link" href="#highscore-content">Direkt zum Highscore-Inhalt</a>
+<main class="hs-page" id="highscore-content">
+  <section class="hs-hero">
+    <div class="hs-hero-top"><div class="hs-emblem" aria-hidden="true"><img src="./club-crest.svg" alt=""></div><div><div class="hs-kicker">Ranglistenlogbuch · Saison 2026/2027</div><h1>Highscore</h1><p>Aktuelle Spieltags-, Gesamt- und Teamwertungen. Ein endgültiger Sieger wird erst nach Abschluss des Wettbewerbs in die Hall of Fame übernommen.</p></div></div>
+    <div class="hs-summary">
+      <article class="hs-stat-card"><span>Auswahl</span><strong id="summary-scope">Saison gesamt</strong><small id="summary-view">Gesamt-Einzelwertung</small></article>
+      <article class="hs-stat-card"><span id="summary-leader-label">Führender</span><strong id="summary-leader">Noch offen</strong><small id="summary-leader-points">0 Punkte</small></article>
+      <article class="hs-stat-card"><span id="summary-team-label">Teamduell</span><strong id="summary-team">Gleichstand</strong><small id="summary-team-points">0,0 : 0,0 Punkte</small></article>
+      <article class="hs-stat-card"><span id="summary-count-label">Teilnehmer</span><strong id="summary-participants">0</strong><small id="summary-count-subtitle">aktive Smuggler</small></article>
+    </div>
+  </section>
+
+  <section class="hs-panel hs-structure-panel">
+    <div class="hs-panel-head"><div><div class="hs-eyebrow">Bereich auswählen</div><h2>Wettbewerb</h2><p class="hs-status">Die offizielle Rangfolge aus den Kicktipp-Dateien bleibt maßgeblich.</p></div></div>
+    <nav class="hs-competition-tabs" id="competition-tabs" aria-label="Wettbewerbe"></nav>
+    <nav class="hs-view-tabs" id="view-tabs" aria-label="Auswertung"></nav>
+  </section>
+
+  <div class="hs-system-status is-loading" id="hs-system-status" role="status" aria-live="polite"><strong>Highscore wird geladen</strong><span>Die aktuellen Ranglisten werden vorbereitet.</span></div>
+
+  <section class="hs-panel hs-podium-panel" id="ranking-panel">
+    <div class="hs-panel-head"><div><div class="hs-eyebrow">Top 3</div><h2 id="ranking-title">Gesamtwertung</h2><p class="hs-status" id="ranking-caption"></p></div></div>
+    <div class="hs-ranking-notice" id="ranking-notice" role="status" aria-live="polite"></div>
+    <div class="hs-podium" id="podium"></div>
+  </section>
+
+  <section class="hs-panel" id="table-panel">
+    <div class="hs-panel-head hs-panel-head-tools"><div><div class="hs-eyebrow">Komplette Rangliste</div><h2 id="table-title">Gesamtwertung</h2></div><label class="hs-search" id="search-box"><span>Spieler suchen</span><input id="player-search" type="search" placeholder="Name eingeben …" autocomplete="off"></label></div>
+    <div class="hs-ranking-toolbar"><div><span>Bereich</span><strong id="toolbar-scope">Gesamtwertung</strong></div><div><span>Auswertung</span><strong id="toolbar-view">Gesamtwertung</strong></div><div><span>Treffer</span><strong id="toolbar-count">0 Einträge</strong></div></div>
+    <div id="pagination-top"></div><div class="hs-table-wrap"><table class="hs-table"><caption class="sr-only">Highscore-Rangliste</caption><thead id="ranking-head"></thead><tbody id="ranking-body"></tbody></table></div><div id="pagination-bottom"></div>
+  </section>
+
+  <div class="hs-actions"><a class="hs-btn hs-btn--back" href="./index.html#highscore">Zurück zur Clubseite</a><a class="hs-btn hs-btn--kicktipp" href="https://www.kicktipp.de/the-old-smugglers-club/" target="_blank" rel="noopener noreferrer">Zum Kicktipp</a></div>
+</main>
+<footer class="legal-footer" aria-label="Rechtliche Hinweise"><div class="legal-footer__inner"><span>© 2026 The Old Smugglers Club</span><nav class="legal-footer__links"><a href="./impressum.html">Impressum</a><a href="./datenschutz.html">Datenschutz</a><span id="legal-version">Version wird geladen</span></nav></div></footer>
+<script src="./highscore-data-adapter.js"></script>
+<script src="./highscore.js"></script>
+
+<script>
+(function(){
+  const target=document.getElementById('legal-version');
+  if(!target) return;
+  fetch('./VERSION.txt',{cache:'no-store'})
+    .then(response=>response.ok?response.text():Promise.reject())
+    .then(value=>{target.textContent='Version '+value.trim();})
+    .catch(()=>{target.textContent='Version nicht verfügbar';});
+})();
+</script>
+</body></html>

@@ -1,0 +1,23 @@
+name: TOSMC Schutzprüfung
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Schutzarchitektur prüfen
+        run: node scripts/protection/tosmc-release-guard.mjs check --root . --kind website --output TOSMC-SCHUTZPRUEFUNG.json
+      - name: Bestehende Regressionstests
+        run: |
+          node scripts/tests/originalwappen-vollstaendigkeit-test.mjs
+          node scripts/tests/teamstammdaten-vollstaendigkeit-test.mjs
+          node scripts/tests/spieltagskachel-paarungsachse-test.mjs
+          node scripts/tests/champions-league-doppelliste-test.mjs

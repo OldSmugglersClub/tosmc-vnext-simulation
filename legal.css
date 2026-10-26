@@ -78,7 +78,7 @@
    „Datenschutzerklärung“ vollständig im bestehenden Kasten bleiben.
    Keine Worttrennung, kein Desktop-Eingriff. */
 
-/* 4.9.2-HF12-HF22 / TEST25:
+/* 4.9.2-HF12-HF22 / HF32:
    Footer-Kacheln unten geschlossen, solange die bestehende mobile
    nav-Rahmenregel bis 720 px aktiv ist. */
 @media (max-width: 720px) {

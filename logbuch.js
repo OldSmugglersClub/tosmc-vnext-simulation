@@ -10,6 +10,8 @@ let data=null;
 let gameById=new Map();
 let teamById=new Map();
 let spieltagpunkteDoc=null;
+let tippsDoc=null;
+let ranglistenverlaufDoc=null;
 let currentPending={active:false};
 
 function shown(entry){return (entry?.highlights||[]).filter(h=>h?.anzeigen===true)}
@@ -122,6 +124,22 @@ function shortNames(rows,max=8){
  return names.slice(0,max).map(n=>`<span class="lb-name">${esc(n)}</span>`).join("")+
    (names.length>max?`<span class="lb-name">+${names.length-max} weitere</span>`:"");
 }
+// Kapitaene: aus den unveraenderten Punkten der abgeschlossenen Spieltagsrangliste.
+// Mindestens vier Tipper; bei Punktgleichstand am vierten Rang alle Gleichplatzierten.
+// Die Reihenfolge innerhalb gleicher Punktzahl bleibt wie in der Quellrangliste.
+function captainTopFour(entry){
+ const block=arr(spieltagpunkteDoc?.spieltage).find(x=>x?.id===entry?.id&&x?.abgeschlossen===true);
+ if(!block)return null;
+ const seen=new Set();
+ const rows=arr(block.rangliste).filter(r=>{
+   if(!r?.teilnehmerId||!r?.teilnehmer||typeof r.punkte!=="number"||!Number.isFinite(r.punkte))return false;
+   const id=String(r.teilnehmerId);if(seen.has(id))return false;seen.add(id);return true;
+ }).map((r,i)=>({...r,_originalIndex:i}));
+ if(!rows.length)return null;
+ rows.sort((a,b)=>b.punkte-a.punkte||a._originalIndex-b._originalIndex);
+ const cutoff=rows[Math.min(3,rows.length-1)].punkte;
+ return rows.filter((r,i)=>i<4||r.punkte===cutoff);
+}
 function outcomeLabel(v){return v==="1"?"Heimsieg":v==="2"?"Auswärtssieg":"Remis"}
 
 function renderHighlight(h,entry){
@@ -131,7 +149,9 @@ function renderHighlight(h,entry){
    const text=count===1
     ?`${esc(name||"1 Tipper")} holt mit ${Number(d.punkte||0)} Punkten die beste Spieltagsleistung.`
     :`<strong>${count} Tipper</strong> teilen sich mit ${Number(d.punkte||0)} Punkten die beste Spieltagsleistung.`;
-   return `<article class="lb-highlight lb-highlight--wide lb-highlight--captains"><h3>Kapitäne des Spieltags</h3><p>${text}</p><div class="lb-names">${shortNames(d.tipper)}</div></article>`;
+   const leaders=captainTopFour(entry);
+   const leaderNames=leaders?leaders.map(r=>`<span class="lb-name"><span class="lb-captain-name">${esc(r.teilnehmer)}</span><span class="lb-captain-points">${Number(r.punkte).toLocaleString("de-DE")} P.</span></span>`).join(""):shortNames(d.tipper);
+   return `<article class="lb-highlight lb-highlight--wide lb-highlight--captains"><h3>Kapitäne des Spieltags</h3><p>${text}</p><div class="lb-names">${leaderNames}</div></article>`;
  }
  if(h.typ==="gegen-den-strom"){
    const home=teamDisplayName(d.heimTeam),away=teamDisplayName(d.auswaertsTeam);
@@ -197,19 +217,9 @@ function renderHighlight(h,entry){
    </article>`;
  }
  if(h.typ==="kursbewegung"){
-   const movementSide=(title,rows,direction)=>{
-     const people=arr(rows).slice(0,5);
-     const symbol=direction==="up"?"▲":"▼";
-     const sign=direction==="up"?"+":"−";
-     const names=people.map(row=>{
-       const value=Math.abs(Number(row?.veraenderung||0));
-       return `<span class="lb-name lb-name--movement is-${direction}"><span>${esc(row?.teilnehmer||"")}</span><strong>${symbol} ${sign}${value} Plätze</strong></span>`;
-     }).join("");
-     return `<div class="lb-movement-side is-${direction}"><h4>${title}</h4><div class="lb-names lb-movement-names">${names}</div></div>`;
-   };
-   return `<article class="lb-highlight lb-highlight--movement"><h3>Kursbewegung</h3><div class="lb-movement-grid">${movementSide("Größter Sprung",d.gewinner,"up")}${movementSide("Größter Verlust",d.verlierer,"down")}</div></article>`;
+   return courseMovementCard(entry);
  }
- if(h.typ==="zahlen-aus-der-kombuese") return `<article class="lb-highlight lb-highlight--wide lb-highlight--galley"><h3>Zahlen aus der Kombüse</h3><div class="lb-galley-grid"><div><strong>${Number(d.abgegeben||0)}</strong><span>Abgaben</span></div><div><strong>${Number(d.nichtAbgegeben||0)}</strong><span>Nichtabgaben</span></div><div><strong>${Number(d.exakt||0)}</strong><span>Exakt</span></div><div><strong>${Number(d.differenz||0)}</strong><span>Differenz</span></div><div><strong>${Number(d.tendenz||0)}</strong><span>Tendenz</span></div></div></article>`;
+ if(h.typ==="zahlen-aus-der-kombuese") return `<article class="lb-highlight lb-highlight--wide lb-highlight--galley"><h3>Zahlen aus der Kombüse</h3><div class="lb-galley-grid"><div><strong>${Number(d.abgegeben||0)}</strong><span>Abgaben</span></div><div><strong>${Number(d.nichtAbgegeben||0)}</strong><span>Nichtabgaben</span></div><div><strong>${Number(d.exakt||0)}</strong><span>Volltreffer</span></div><div><strong>${Number(d.differenz||0)}</strong><span>Tordifferenz</span></div><div><strong>${Number(d.tendenz||0)}</strong><span>Tendenz</span></div></div></article>`;
  return "";
 }
 
@@ -231,19 +241,32 @@ function cocoLogbookCard(entry){
 function renderHighlightsWithCoco(entry){
  const rows=[];
  let inserted=false;
- for(const h of shown(entry)){
+ const highlights=shown(entry);
+ const crewHighlight=highlights.find(h=>h?.typ==="crewduell");
+ const movementHighlight=highlights.find(h=>h?.typ==="kursbewegung");
+ const form=formCrewCard(entry);
+ const bilanz=spieltagBilanzCard(entry);
+ const stackMovement=Boolean(crewHighlight&&form);
+ for(const h of highlights){
+   if(stackMovement&&h?.typ==="kursbewegung")continue;
    const rendered=renderHighlight(h,entry);
-   if(rendered)rows.push(rendered);
-
-   if(h?.typ==="crewduell"){
-     const form=formCrewCard(entry);
-     if(form)rows.push(form);
+   if(!rendered)continue;
+   if(h?.typ==="crewduell"&&stackMovement){
+     const movement=movementHighlight?renderHighlight(movementHighlight,entry):"";
+     rows.push(`<div class="lb-highlight-stack">${rendered}${movement}${bilanz}</div>`);
+     rows.push(form);
+   }else{
+     rows.push(rendered);
    }
-
    if(h?.typ==="volltreffer"){
      const coco=cocoLogbookCard(entry);
      if(coco){rows.push(coco);inserted=true;}
    }
+ }
+ // Auch bei künftigen Eventtypen ohne Crewduell/ohne Kursbewegung: Form und Bilanz anzeigen.
+ if(!stackMovement){
+   if(form)rows.push(form);
+   if(bilanz)rows.push(bilanz);
  }
  if(!inserted){
    const coco=cocoLogbookCard(entry);
@@ -252,55 +275,129 @@ function renderHighlightsWithCoco(entry){
  return rows.join("");
 }
 
+// TEST7: Bilanz ausschließlich aus dem eindeutig zugeordneten, abgeschlossenen Spieltag.
+// Keine aus unterschiedlichen Galley-Teilwerten abgeleiteten Teilnahmequoten.
+function spieltagBilanzCard(entry){
+ const block=arr(spieltagpunkteDoc?.spieltage).find(x=>x?.id===entry?.id&&x?.abgeschlossen===true);
+ if(!block)return "";
+ const rows=arr(block.rangliste).filter(r=>r?.teilnehmerId&&typeof r.punkte==="number"&&Number.isFinite(r.punkte));
+ const uniqueIds=new Set(rows.map(r=>String(r.teilnehmerId)));
+ if(!rows.length||uniqueIds.size!==rows.length)return "";
+ const total=rows.reduce((sum,r)=>sum+r.punkte,0);
+ const games=new Set(arr(entry?.spielIds).filter(Boolean));
+ if(!games.size)return "";
+ // Nur echte, gültige Einzel-Tippabgaben zählen. Ein Teilnehmer ohne abgegebenen Tipp
+ // bleibt im Gesamtpunktewert enthalten, darf aber nicht den Tipper-Durchschnitt senken.
+ const validTips=arr(tippsDoc?.tipps).filter(t=>games.has(t?.spielId)
+   &&t?.status==="abgegeben"
+   &&Number.isInteger(t?.heimtore)&&Number.isInteger(t?.auswaertstore)
+   &&t?.teilnehmerId);
+ const activeIds=new Set(validTips.map(t=>String(t.teilnehmerId)));
+ if(!activeIds.size)return "";
+ const average=total/activeIds.size;
+ const de=n=>Number(n).toLocaleString("de-DE");
+ const metric=(name,value,note)=>`<div class="lb-bilanz-metric"><span>${name}</span><strong>${value}</strong><small>${note}</small></div>`;
+ return `<article class="lb-highlight lb-highlight--bilanz">
+  <h3>Spieltagsbilanz</h3>
+  <p class="lb-bilanz-intro">Das Ergebnis dieses abgeschlossenen Spieltags auf einen Blick.</p>
+  <div class="lb-bilanz-grid">
+    ${metric("Spiele",de(games.size),"abgeschlossen")}
+    ${metric("Tipper",de(activeIds.size),"mit Tippabgabe")}
+    ${metric("Gesamtpunktzahl",de(total),"Punkte aller Teilnehmer zusammen")}
+    ${metric("Punktedurchschnitt",average.toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:2}),"Punkte je aktivem Tipper")}
+  </div>
+ </article>`;
+}
 
+function completedForEntry(entry){
+ const completed=arr(spieltagpunkteDoc?.spieltage).filter(x=>x?.abgeschlossen===true);
+ const index=completed.findIndex(x=>x?.id===entry?.id);
+ return index<0?[]:completed.slice(Math.max(0,index-2),index+1);
+}
 function formCrewCard(entry){
- const matchdays=arr(spieltagpunkteDoc?.spieltage).filter(md=>md?.abgeschlossen!==false);
- const index=matchdays.findIndex(md=>md?.id===entry?.id);
- if(index<=0)return "";
-
- const current=matchdays[index];
- const previous=matchdays[index-1];
- const prevById=new Map(arr(previous?.rangliste).map(row=>[row?.teilnehmerId,row]));
-
- const rows=[];
- arr(current?.rangliste).forEach((row,currentOrder)=>{
-   const prev=prevById.get(row?.teilnehmerId);
-   if(!prev)return;
-   const before=Number(prev?.gesamtspieltagssiege);
-   const now=Number(row?.gesamtspieltagssiege);
-   if(!Number.isFinite(before)||!Number.isFinite(now))return;
-   rows.push({
-     order:currentOrder,
-     name:row?.teilnehmer||row?.teilnehmerId||"",
-     before,
-     now,
-     delta:Number((now-before).toFixed(4))
+ const blocks=completedForEntry(entry);
+ if(!blocks.length||!tippsDoc||!Array.isArray(tippsDoc.tipps))return "";
+ // Form nach tatsächlich erzielten Punkten der letzten bis zu drei Wertungsblöcke.
+ // Rangplätze sind nur Zusatzinformation, kein Sortierkriterium.
+ const grouped=new Map();
+ blocks.forEach(block=>{
+   const relatedLog=arr(data?.logbuecher).find(x=>x?.id===block.id&&x?.abgeschlossen===true);
+   const gameIds=new Set(arr(relatedLog?.spielIds).filter(Boolean));
+   const tippedIds=new Set(arr(tippsDoc?.tipps).filter(t=>gameIds.has(t?.spielId)
+     &&t?.status==="abgegeben"&&Number.isInteger(t?.heimtore)&&Number.isInteger(t?.auswaertstore)
+     &&t?.teilnehmerId).map(t=>String(t.teilnehmerId)));
+   const people=arr(block?.rangliste).filter(r=>r?.teilnehmerId&&Number.isFinite(Number(r?.punkte)));
+   people.forEach(r=>{
+     const id=r.teilnehmerId;
+     const rank=Number(r?.spieltagsplatzierung??r?.platz);
+     const tipped=tippedIds.has(String(id));
+     const row=grouped.get(id)||{id,name:r?.teilnehmer||id,total:0,ranks:[],appearances:0,tippedCount:0};
+     row.name=r?.teilnehmer||row.name;
+     row.total+=Number(r.punkte);
+     row.ranks.push(Number.isFinite(rank)&&rank>=1?rank:null);
+     row.appearances++;
+     if(tipped)row.tippedCount++;
+     grouped.set(id,row);
    });
  });
-
- // Bei gleichem Delta bleibt die vorhandene Kicktipp-Reihenfolge maßgeblich.
- rows.sort((a,b)=>b.delta-a.delta||a.order-b.order);
- const top=rows.slice(0,5);
- if(!top.length)return "";
-
- const fmt=value=>Math.abs(value).toLocaleString("de-DE",{minimumFractionDigits:2,maximumFractionDigits:4});
- const body=top.map((row,i)=>{
-   const cls=row.delta>0?"is-up":row.delta<0?"is-down":"is-flat";
-   const symbol=row.delta>0?"▲":row.delta<0?"▼":"±";
-   const value=row.delta===0?" 0,00":` ${row.delta>0?"+":"−"}${fmt(row.delta)}`;
-   return `<div class="lb-form-row">
-     <span class="lb-form-rank">${i+1}.</span>
-     <strong>${esc(row.name)}</strong>
-     <span class="lb-form-course ${cls}">${symbol}${value}</span>
-   </div>`;
- }).join("");
-
- return `<article class="lb-highlight lb-highlight--form">
-   <h3>Form der Crew</h3>
-   <p>Wer bekam beim letzten Wertungsblock den meisten Wind in die Segel?</p>
-   <div class="lb-form-list">${body}</div>
-   
+ // Vergleichsbasis: Daten in allen betrachteten Wertungsblöcken vorhanden.
+ const eligible=[...grouped.values()].filter(r=>r.appearances===blocks.length).map(r=>({
+   ...r,
+   avgRank:r.ranks.every(x=>x!==null)?r.ranks.reduce((a,b)=>a+b,0)/r.ranks.length:null,
+   change:r.ranks[0]!==null&&r.ranks[r.ranks.length-1]!==null?r.ranks[0]-r.ranks[r.ranks.length-1]:null
+ }));
+ const strongest=[...eligible].sort((a,b)=>b.total-a.total||a.name.localeCompare(b.name,"de")).slice(0,5);
+ const bestIds=new Set(strongest.map(r=>r.id));
+ // Flop 5 nur unter Tippern, die in den letzten 3 Spieltagen mindestens einmal tatsächlich abgegeben haben.
+ const weakestPool=[...eligible].filter(r=>r.tippedCount>0&&!bestIds.has(r.id));
+ const weakest=weakestPool.sort((a,b)=>a.total-b.total||a.name.localeCompare(b.name,"de")).slice(0,5);
+ const group=(title,rows,kind)=>`<div class="lb-form-section lb-form-section--${kind}"><h4>${title}</h4><div class="lb-form-list">${rows.map((r,index)=>{
+   const move=r.change===null?"kein Rangvergleich":r.change>0?`▲ ${r.change} Plätze`:r.change<0?`▼ ${Math.abs(r.change)} Plätze`:"= 0 Plätze";
+   const place=r.avgRank===null?"Ø Platz unbekannt":`Ø Platz ${(Math.round(r.avgRank*10)/10).toLocaleString("de-DE")}`;
+   return `<div class="lb-form-row"><span class="lb-form-rank">${index+1}.</span><strong title="${esc(r.name)}">${esc(r.name)}</strong><span class="lb-form-stats"><b>${r.total.toLocaleString("de-DE")} Punkte</b><small>${place} · ${move}</small></span></div>`;
+ }).join("")}</div></div>`;
+ const labels=blocks.map(b=>esc(b.bezeichnung||b.runde||b.wettbewerb)).join(" · ");
+ return `<article class="lb-highlight lb-highlight--form"><h3>Form der Crew</h3>
+ <p class="lb-form-lead">${blocks.length} letzte abgeschlossene Spieltage – alle Wettbewerbe.</p>
+ ${group("Beste Form – Top 5",strongest,"best")}
+ ${group("Schwächste Form – Flop 5",weakest,"worst")}
+ <p class="lb-form-explain">Form = Summe der Punkte aus ${blocks.length} Spieltagen. Flop 5 nur mit mindestens 1 abgegebenem Tipp. Ø Platz und ▲/▼ zeigen nur die Platzentwicklung.</p>
+ <details class="lb-form-context"><summary>Gewertete Spieltage</summary><p>${labels}</p></details>
  </article>`;
+}
+function courseMovementCard(entry){
+ const logs=arr(data?.logbuecher).filter(x=>x?.abgeschlossen===true);
+ const index=logs.findIndex(x=>x?.id===entry?.id);
+ if(index<0)return "";
+ const current=logs[index],previous=index>0?logs[index-1]:null;
+ if(!previous)return `<article class="lb-highlight lb-highlight--movement"><h3>Kursbewegung</h3><p>Kein vorheriger Gesamtstand zum Vergleichen.</p></article>`;
+ const comparisons=[];
+ arr(ranglistenverlaufDoc?.verlaeufe).forEach(person=>{
+   const currentPoint=arr(person?.punkte).find(p=>p?.auftragId===current.id);
+   const previousPoint=arr(person?.punkte).find(p=>p?.auftragId===previous.id);
+   const now=Number(currentPoint?.platz),before=Number(previousPoint?.platz);
+   if(!currentPoint||!previousPoint||!Number.isFinite(now)||!Number.isFinite(before))return;
+   comparisons.push({name:person.teilnehmer||person.teilnehmerId,delta:before-now,before,now,
+     earned:Number(currentPoint.punkte)-Number(previousPoint.punkte)});
+ });
+ const maxGain=Math.max(0,...comparisons.map(x=>x.delta));
+ const maxLoss=Math.min(0,...comparisons.map(x=>x.delta));
+ // Alle tatsaechlich Gleichplatzierten ermitteln; rein visuell 3 Namen anzeigen.
+ // Die Vergleichs-/Punkteberechnung bleibt gegenueber TEST12 unveraendert.
+ const gain=maxGain>0?comparisons.filter(x=>x.delta===maxGain):[];
+ const loss=maxLoss<0?comparisons.filter(x=>x.delta===maxLoss):[];
+ const side=(label,rows,type)=>{
+   const ordered=[...rows].sort((a,b)=>a.name.localeCompare(b.name,"de"));
+   const shown=ordered.slice(0,3);
+   const remaining=ordered.length-shown.length;
+   const delta=shown.length?Math.abs(shown[0].delta):0;
+   const headline=shown.length?`<div class="lb-movement-total is-${type}">${type==="up"?"▲ +":"▼ −"}${delta} Plätze</div>`:"";
+   const items=shown.map(row=>`<div class="lb-movement-person"><strong title="${esc(row.name)}">${esc(row.name)}</strong><small>${row.earned>=0?"+":""}${row.earned} Punkte · Gesamtplatz ${row.before} → ${row.now}</small></div>`).join("");
+   return `<div class="lb-movement-side is-${type}"><h4>${label}</h4>${shown.length?`${headline}<div class="lb-movement-people">${items}</div>${remaining>0?`<p class="lb-movement-more">+ ${remaining} weitere gleichauf</p>`:""}`:'<span>Keine Platzänderung</span>'}</div>`;
+ };
+ return `<article class="lb-highlight lb-highlight--movement"><h3>Kursbewegung</h3><p class="lb-form-lead">Wie veränderte der letzte Spieltag die Gesamtwertung?</p>
+ <div class="lb-movement-grid">${side("Größter Sprung",gain,"up")}${side("Größter Verlust",loss,"down")}</div>
+ <p class="lb-form-explain">Vergleich der Gesamtplatzierung vor und nach diesem Spieltagsabschluss.</p></article>`;
 }
 
 function renderEntry(entry,pending){
@@ -351,7 +448,7 @@ function archive(){
    const title=String(entry?.bezeichnung||"").trim();
    if(title){
      const competition=labelType(entry?.wettbewerb||entry?.typ||"");
-     const stripped=title.replace(new RegExp(`^${competition.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}\\s*`,"i"),"").trim();
+     const stripped=title.replace(new RegExp(`^${competition.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}\s*`,"i"),"").trim();
      return keepSpieltag(stripped||title);
    }
    return "Logbucheintrag";
@@ -446,11 +543,11 @@ function buildPending(view,matchdayDoc,gameDoc,logs){
 
 async function init(){
  try{
-   const [logDoc,view,matchdays,games,spieltagpunkte,teams]=await Promise.all([
-     fetchJson("./spieltag-logbuch.json"),fetchJson("./website-view.json"),fetchJson("./tippspieltage.json"),fetchJson("./spieldaten.json"),fetchJson("./spieltagpunkte.json"),fetchJson("./teams.json")
+   const [logDoc,view,matchdays,games,spieltagpunkte,teams,ranglistenverlauf,tipps]=await Promise.all([
+     fetchJson("./spieltag-logbuch.json"),fetchJson("./website-view.json"),fetchJson("./tippspieltage.json"),fetchJson("./spieldaten.json"),fetchJson("./spieltagpunkte.json"),fetchJson("./teams.json"),fetchJson("./ranglistenverlauf.json"),fetchJson("./tipps.json")
    ]);
    if(!logDoc)throw Error("spieltag-logbuch.json nicht erreichbar");
-   data=logDoc; spieltagpunkteDoc=spieltagpunkte; gameById=new Map(flattenGames(games).map(g=>[g.id,g])); teamById=new Map(arr(teams?.teams).map(t=>[String(t?.id||""),t])); const latest=(data.logbuecher||[]).at(-1)||null;
+   data=logDoc; spieltagpunkteDoc=spieltagpunkte; ranglistenverlaufDoc=ranglistenverlauf; tippsDoc=tipps; gameById=new Map(flattenGames(games).map(g=>[g.id,g])); teamById=new Map(arr(teams?.teams).map(t=>[String(t?.id||""),t])); const latest=(data.logbuecher||[]).at(-1)||null;
    const pending=buildPending(view,matchdays,games,arr(data.logbuecher)); currentPending=pending;
    renderThirtySeconds(latest,pending); renderEntry(latest,pending); archive();
    const st=$("#lb-status"); if(st) st.remove();

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 12,
-  "aktualisiertAm": "2026-09-20T21:28:48.102Z",
+  "datenVersion": 19,
+  "aktualisiertAm": "2026-10-25T20:18:04.090Z",
   "saison": "2026-27",
   "status": "Berechnet",
   "kategorien": [
     {
       "titel": "Spieltagsführer",
-      "name": "JWFUSSBALL",
-      "wert": "108 Punkte"
+      "name": "Olympiakos",
+      "wert": "197 Punkte"
     },
     {
       "titel": "Meiste exakte Tipps",
-      "name": "Olympiakos",
-      "wert": "8"
+      "name": "PochzerJung",
+      "wert": "14"
     },
     {
       "titel": "Beste Serie",

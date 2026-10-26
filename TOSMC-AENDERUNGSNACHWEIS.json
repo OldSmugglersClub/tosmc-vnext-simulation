@@ -1,77 +1,68 @@
 {
   "schemaVersion": 1,
   "tool": "TOSMC Release Guard",
-  "createdAt": "2026-09-11T23:16:16.216Z",
-  "changeType": "local",
+  "createdAt": "2026-09-10T15:02:19.715Z",
+  "changeType": "system",
   "status": "OK",
   "changes": [
     {
-      "path": "CHANGELOG.md",
-      "type": "changed",
-      "before": "52f245efb48e24179cc33548736fc318c25a030028bfb72b716a23fb0ce47fe5",
-      "after": "66932106ac660bd54c1daa745faa355668fe87ef3542fe86e1917b4b5fcbfc0f"
-    },
-    {
-      "path": "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      "path": ".github/workflows/tosmc-schutzpruefung.yml",
       "type": "new",
       "before": null,
-      "after": "a74dca093cce56b393c41b3593a0072b6e5acc38deb27a57585747c138bc0116"
+      "after": "8b18166b601e9c05759bc827e2319bdd92196f0b64526505b0bfa8385cd573da"
     },
     {
-      "path": "README_HF89.md",
+      "path": "SCHUTZARCHITEKTUR.md",
       "type": "new",
       "before": null,
-      "after": "50d3dc0b24c7cce221d89537550b5bd62871859b5d258d4bc6c30444662890b3"
+      "after": "0477d40da4af81ac8af5d85ea9b24fa1912f82ab61ec70ab46829aadf7b9d30f"
     },
     {
-      "path": "TOSMC-AENDERUNGSNACHWEIS.json",
-      "type": "changed",
-      "before": "ddf8bc5e0c311e3a908147f78e67181771b5a30ab1c903dad64bc9f7c3f772db",
-      "after": "adf4df2a470619859a82b710a3af180842e9322ffee39c92799ce782d602dca3"
-    },
-    {
-      "path": "TOSMC-SCHUTZPRUEFUNG-HF89.json",
+      "path": "TOSMC-SCHUTZPRUEFUNG.json",
       "type": "new",
       "before": null,
-      "after": "b92879f7e549cd26c375734e44a1bc9b57610db7aa8071adba53c6e84b95c876"
+      "after": "c2b159c7c5b481ff15f134566e15cf80b79bcfd20330e0ef81101af471edcf98"
     },
     {
-      "path": "VERSION.txt",
-      "type": "changed",
-      "before": "70bb8e28103948bcdb9bbf017afda8a0ea05910174a681d3758bee06642e4251",
-      "after": "e2674b8e48e032cc280a44717fc4ebbcd01f06930bafbd18d93d742d35ba7c8c"
+      "path": "scripts/protection/AENDERUNGSPLAN-BEISPIEL.json",
+      "type": "new",
+      "before": null,
+      "after": "1c4cb1dd71aa68c98840acd2d6bda443c92bf3787e7117a172d86699425bf711"
     },
     {
-      "path": "index.html",
-      "type": "changed",
-      "before": "7d35ec51094e181551aec982b5537d83e919a4a50d47d7b3c4e3d431dfc46f7d",
-      "after": "1ce7c21e1697cec6c7b109a87a7bf6958381e79cb24c8be2e27ebe00584a96b7"
+      "path": "scripts/protection/tosmc-protection-policy.json",
+      "type": "new",
+      "before": null,
+      "after": "bf1f5923c071dfaa98b3e99ec0e1477ca9ed634585e8ab2e3f3a794bb972a0e8"
+    },
+    {
+      "path": "scripts/protection/tosmc-release-guard.mjs",
+      "type": "new",
+      "before": null,
+      "after": "f485a273cbd1c58ab81c8a7198e05d70ef4affb93132d09dad09c9576bf6ae90"
     }
   ],
   "unauthorizedChanges": [],
   "unapprovedProtectedChanges": [],
   "plan": {
-    "schemaVersion": 1,
-    "changeType": "local",
-    "description": "Desktop-Höhenkorrektur der Startseitenkachel Der Hohe Schmugglerrat auf Website HF88",
+    "changeType": "system",
+    "purpose": "In Test2v2 bestätigten Release Guard auf Live-Website HF64 übertragen",
     "allowedPaths": [
-      "index.html",
-      "VERSION.txt",
-      "CHANGELOG.md",
-      "README_HF89.md",
-      "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      ".github/workflows/tosmc-schutzpruefung.yml",
+      "SCHUTZARCHITEKTUR.md",
+      "TOSMC-SCHUTZPRUEFUNG.json",
       "TOSMC-AENDERUNGSNACHWEIS.json",
-      "TOSMC-SCHUTZPRUEFUNG-HF89.json"
+      "scripts/protection/**"
     ],
     "protectedPaths": [
+      "teams.json",
+      "schedule-data-adapter.js",
       "spielbetrieb.json",
       "spieldaten.json",
       "highscore.json",
       "website-view.json",
-      "teams.json",
-      "teilnehmer.json",
-      "wettbewerbe.json",
-      "schedule-data-adapter.js",
+      "tipps.json",
+      "punkte.json",
       "wettbewerb.js",
       "wettbewerb.css"
     ],

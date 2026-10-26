@@ -1,5 +1,6 @@
-# 4.9.2-HF12-HF90-TEST1
+# 4.9.2-HF12-HF90
 
+- Live-Übernahme des in Test2v2 abgenommenen Stands `4.9.2-HF12-HF90-TEST1`.
 - Desktop: Inhalte der Counter-Kachel werden über die verfügbare Höhe gleichmäßig verteilt.
 - Mobil: Schnellzugriffe der Startzentrale als 2×2-Raster mit 52 px Mindesthöhe und größerem Innenabstand.
 - Desktop-Schnellzugriffe, mobile Counter-Kachel und funktionale Datenpfade unverändert.

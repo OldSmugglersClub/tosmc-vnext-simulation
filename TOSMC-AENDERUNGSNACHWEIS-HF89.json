@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:35:42.355Z",
+  "changeType": "local",
+  "status": "OK",
+  "changes": [
+    {
+      "path": "CHANGELOG.md",
+      "type": "changed",
+      "before": "52f245efb48e24179cc33548736fc318c25a030028bfb72b716a23fb0ce47fe5",
+      "after": "992dce98ea96dc32ef74cf798095fc54191e763a1416e8a44432e967134b5150"
+    },
+    {
+      "path": "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      "type": "new",
+      "before": null,
+      "after": "a74dca093cce56b393c41b3593a0072b6e5acc38deb27a57585747c138bc0116"
+    },
+    {
+      "path": "README_HF89.md",
+      "type": "new",
+      "before": null,
+      "after": "4722bc48611a8b03f0b223088bed029531dc0156b00d7d95878fb028f9621839"
+    },
+    {
+      "path": "VERSION.txt",
+      "type": "changed",
+      "before": "70bb8e28103948bcdb9bbf017afda8a0ea05910174a681d3758bee06642e4251",
+      "after": "e2674b8e48e032cc280a44717fc4ebbcd01f06930bafbd18d93d742d35ba7c8c"
+    },
+    {
+      "path": "index.html",
+      "type": "changed",
+      "before": "7d35ec51094e181551aec982b5537d83e919a4a50d47d7b3c4e3d431dfc46f7d",
+      "after": "b5a9a1c5778542e0fcb12254fc6e9c69697acfc248b0917408fc5740844da926"
+    }
+  ],
+  "unauthorizedChanges": [],
+  "unapprovedProtectedChanges": [],
+  "plan": {
+    "schemaVersion": 1,
+    "changeType": "local",
+    "description": "Live-Übernahme der bestätigten Schmugglerrat-Kachel aus HF89-TEST2",
+    "allowedPaths": [
+      "index.html",
+      "VERSION.txt",
+      "CHANGELOG.md",
+      "README_HF89.md",
+      "ERSETZEN_NEU_LOESCHEN_HF89.txt",
+      "TOSMC-AENDERUNGSNACHWEIS-HF89.json",
+      "TOSMC-SCHUTZPRUEFUNG-HF89.json"
+    ],
+    "protectedPaths": [
+      "spielbetrieb.json",
+      "spieldaten.json",
+      "highscore.json",
+      "website-view.json",
+      "teams.json",
+      "teilnehmer.json",
+      "wettbewerbe.json",
+      "schedule-data-adapter.js",
+      "wettbewerb.js",
+      "wettbewerb.css"
+    ],
+    "explicitlyApprovedProtectedPaths": []
+  }
+}

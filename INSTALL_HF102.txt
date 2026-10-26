@@ -1,0 +1,18 @@
+TOSMC Live Website HF102
+
+Basis: bestätigte Live Website HF101.
+Testbasis: TEST4 vom Nutzer funktionierend bestätigt.
+
+Ersetzen:
+- VERSION.txt
+- logbuch.html
+- logbuch.js
+- logbuch.css
+
+Keine JSON-Dateien ersetzen oder verändern.
+Nach dem Einspielen Browser-Cache hart neu laden und prüfen:
+1. Versionsanzeige HF102.
+2. Spieltags-Logbuch -> Frühere Einträge.
+3. Wettbewerbsauswahl funktioniert.
+4. Spieltag/Runde des gewählten Wettbewerbs funktioniert.
+5. Aktueller Logbucheintrag und übrige Website unverändert.

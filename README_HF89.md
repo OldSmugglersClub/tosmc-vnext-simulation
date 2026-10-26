@@ -1,7 +1,12 @@
 # Website 4.9.2-HF12-HF89
 
-Desktop-Hotfix für die Kachel „Der Hohe Schmugglerrat“.
+Live-Übernahme der in Test2v2 bestätigten Startseitenkorrektur.
 
-Die Kachel behält ihr bestehendes Seitenverhältnis und `overflow: hidden`, erhält aber eine Desktop-Mindesthöhe von 500 px. Dadurch bleiben der Kicktipp-Link und die Schnellzugriffe innerhalb des Rahmens. Die vorhandenen Regeln unter 900 px bleiben unverändert.
+- Die Kachel „Der Hohe Schmugglerrat“ erhält auf Desktop eine Mindesthöhe von 455 px.
+- Die bereits in der Hauptnavigation vorhandenen Schnelllinks werden innerhalb dieser Kachel auf Desktop ausgeblendet.
+- „Kicktipp Live Action“ wird auf Desktop um 4 px nach unten versetzt.
+- Die Regeln bis einschließlich 900 px bleiben unverändert.
+- Geschützte Website- und Wettbewerbsdaten bleiben unverändert.
 
-Ausgangsbasis: bestätigte Website `4.9.2-HF12-HF88` einschließlich des bestätigten Bundesliga-Zwischenstands vom Freitagsspiel des 3. Spieltags.
+Ausgangsbasis: bestätigte Live-Website `4.9.2-HF12-HF88`.
+Abnahmebasis: Test2v2 `4.9.2-HF12-HF89-TEST2`.

@@ -1,0 +1,14 @@
+The Old Smugglers Club – Website 4.9.2-HF12-HF90
+
+ERSETZEN:
+- index.html
+- VERSION.txt
+- CHANGELOG.md
+
+NEU:
+- README_HF90.md
+- ERSETZEN_NEU_LOESCHEN_HF90.txt
+- SHA256_HF90.txt
+
+LOESCHEN:
+- nichts

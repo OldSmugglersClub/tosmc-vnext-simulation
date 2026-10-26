@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "tool": "TOSMC Release Guard",
-  "createdAt": "2026-09-10T14:53:21.647Z",
-  "root": "/workspace/scratch/d31deaca8d72/website-protection.CBMKfk/test/the-old-smugglers-club-test2-v2-main",
+  "createdAt": "2026-09-10T15:02:19.036Z",
+  "root": "/workspace/scratch/d31deaca8d72/website-protection.CBMKfk/live/the-old-smugglers-club-main",
   "kind": "website",
   "status": "OK",
   "checks": [

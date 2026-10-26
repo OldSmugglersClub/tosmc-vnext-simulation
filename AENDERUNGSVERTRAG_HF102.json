@@ -1,0 +1,14 @@
+{
+  "version_vorher": "4.9.2-HF12-HF101",
+  "version_nachher": "4.9.2-HF12-HF102",
+  "zielbereich": "Spieltags-Logbuch / Frühere Einträge: Navigation Wettbewerb -> Spieltag/Runde",
+  "erlaubte_dateien": [
+    "VERSION.txt",
+    "logbuch.html",
+    "logbuch.js",
+    "logbuch.css"
+  ],
+  "verboten": "Logbuchdaten, Datenerzeugung, Admin-/Abschlusslogik, Hall of Fame, Ehrenlogbuch und fremde Wettbewerbsdaten verändern",
+  "basis": "vom Nutzer hochgeladener aktueller Live-Website-ZIP-Stand HF101",
+  "testfreigabe": "Test2v2 4.9.2-HF12-HF101-TEST4 vom Nutzer im Browser funktionierend bestätigt"
+}

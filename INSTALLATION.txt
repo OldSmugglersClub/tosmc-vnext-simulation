@@ -1,0 +1,17 @@
+TOSMC – LIVE Update: Automatische CL-Spieltagsauswahl (13.10.2026)
+
+Basis: the-old-smugglers-club-main (1)(20261013-165106).zip
+Getestete Logik: vom Nutzer bestätigte Test2v2 wettbewerb.js.
+
+DATEIEN:
+- wettbewerb.js: nur CL-Accordion-Autoauswahl (Quellvergleich zur Live-Basis).
+- bundesliga.html, champions-league.html, dfb-pokal.html, dynamo-dresden.html, europa-league.html, piratenkodex.html, relegation.html, weihnachtsregatta.html: jeweils NUR gemeinsamer Cacheparameter fuer wettbewerb.js
+  4.9.2-HF12-HF110 -> 4.9.2-HF12-HF110-CL-AUTO1
+
+WICHTIG:
+Alle neun Dateien gemeinsam 1:1 in das Live-Repository kopieren.
+Eine Aenderung nur der CL-HTML wuerde am Live Release Guard scheitern.
+Andere HTML-Inhalte, CSS, JSON, Wertungen und historische Daten bleiben unberuehrt.
+Nach Commit/Push den GitHub Release Guard abwarten.
+Erst dann im Browser CL (2. Spieltag), manuellen 1. Spieltag, Bundesliga und andere Wettbewerbe pruefen.
+KEIN Live-Erfolg vor Benutzerbestaetigung behaupten.

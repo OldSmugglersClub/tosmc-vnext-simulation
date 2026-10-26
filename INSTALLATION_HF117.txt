@@ -1,0 +1,20 @@
+TOSMC WEBSITE LIVE HF117 - Installation
+
+Freigegebener Stand: Test2v2 TOP3-Gleichstaende TEST1 (vom Anwender bestaetigt).
+Ausgangsbasis: offizielles LIVE HF116, GitHub-Code-Pruefsummen abgeglichen.
+
+Nur diese drei Dateien im LIVE-Hauptverzeichnis ersetzen:
+ highscore.js
+ highscore.html
+ VERSION.txt
+
+KEINE JSON-Dateien aus frueheren Sicherungen uebernehmen.
+KEINE highscore.css ersetzen: unveraendert.
+
+Nach Commit und Push kontrollieren:
+ - Bundesligaspieltag 6: 2 x Platz 1, 4 x Platz 3.
+ - Highscore auf Mobil und Desktop.
+ - Team-Spieltags- und Gesamtwertung Smugglerauftraege.
+ - footer-Version HF117.
+
+Daten und Admin unveraendert; der aktuelle LIVE-Datenstand bleibt erhalten.

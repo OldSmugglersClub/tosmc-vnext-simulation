@@ -1,0 +1,18 @@
+TOSMC STARTSEITE – OFFIZIELLES LIVE-RELEASE 4.9.2-HF12-HF115
+
+Ausgangsbasis: produktiv bestaetigte Website 4.9.2-HF12-HF114.
+Funktionsbasis: mobiler Hintergrund TEST1, auf Test2v2 fuer Mobil UND Desktop bestaetigt.
+Live-GitHub main: VERSION.txt und index.html geprueft (HF114).
+
+Einzuspielen im HAUPTVERZEICHNIS des Live-Repositories:
+- index.html
+- VERSION.txt
+
+NICHT andere Dateien, Bilder oder JSON-Daten ersetzen.
+Backup vor Einspielung erstellen.
+Bei abweichenden/neueren Live-Aenderungen bitte NICHT blind ueberschreiben.
+
+Aenderung: Ausschliesslich auf Smartphones (< =760px) wird der Hintergrund
+der Spieltagskachel durch dunklen Farbverlauf statt des Schriftzug-Motivs angezeigt.
+Desktop, Spielkarten, Countdown, Events und Daten bleiben unveraendert.
+Nach Einspielung Funktion auf Mobil und Desktop bestaetigen.

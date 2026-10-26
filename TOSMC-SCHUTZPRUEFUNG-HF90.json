@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "tool": "TOSMC Release Guard",
+  "createdAt": "2026-09-11T23:51:54.943Z",
+  "root": "/workspace/scratch/42cfa3a91f62/work/website-hf90-final",
+  "kind": "website",
+  "status": "OK",
+  "checks": [
+    "Alle aktiven JSON-Dateien sind syntaktisch gültig.",
+    "Website-Version: 4.9.2-HF12-HF90",
+    "Abgenommene index.html aus HF90-TEST1 byte-identisch übernommen.",
+    "Desktop-Counterregel ausschließlich ab 901 px aktiv.",
+    "Mobile Schnellzugriffsregel ausschließlich bis 560 px aktiv.",
+    "wettbewerb.js und wettbewerb.css unverändert.",
+    "highscore.json: Gesamtwertungs-Spiegel konsistent (100 Teilnehmer).",
+    "Geschützte Dateien gegenüber Live-HF89 byte-identisch."
+  ],
+  "errors": []
+}

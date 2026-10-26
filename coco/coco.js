@@ -117,8 +117,17 @@
     return raw || 'Ohne Runde';
   }
 
+  // Eindeutige externe Kurzformen. Keine unscharfen Teilstring-Vergleiche:
+  // ein fremdes Team darf nicht versehentlich einem TOSMC-Team zugeordnet werden.
+  const EXTERNAL_TEAM_ALIASES = Object.freeze({
+    'paris': 'paris-saint-germain',
+    'manu': 'manchester-united'
+  });
+
   function localTeamIdByName(name) {
     const key = normalize(name);
+    const knownAlias = EXTERNAL_TEAM_ALIASES[key];
+    if (knownAlias && teams.has(knownAlias)) return knownAlias;
     for (const [id, team] of teams) {
       const names = [team.id, team.name, team.kurzname, ...(team.apiAliase || []), ...(team.kicktippAliase || [])];
       if (names.some(candidate => normalize(candidate) === key)) return id;
@@ -169,19 +178,31 @@
   }
 
   function gameSignature(game) {
-    return [game.wettbewerb, game.datum, game.anstoss, game.heimTeamId, game.auswaertsTeamId].join('|');
+    // Eine Partie bleibt dieselbe, auch wenn eine API die Anstoßzeit anders meldet.
+    // Wettbewerb, Spieltag, Datum und identische Teams müssen übereinstimmen.
+    return [game.wettbewerb, normalize(game.runde), game.datum, game.heimTeamId, game.auswaertsTeamId].join('|');
   }
 
   function appendRemoteSchedules(remoteSchedules) {
+    // TOSMC ist die führende Quelle. Seine importierte OpenLigaDB-Spiel-ID
+    // hat Vorrang vor Vereins-Aliasen oder einer geänderten Anstoßzeit.
     const signatures = new Set(games.map(gameSignature));
+    const remoteIds = new Set(games
+      .filter(game => game.wettbewerb && game.apiMatchId != null)
+      .map(game => `${game.wettbewerb}|${String(game.apiMatchId)}`));
     OPENLIGADB_SOURCES.forEach((source, index) => {
       const rows = Array.isArray(remoteSchedules[index]) ? remoteSchedules[index] : [];
-      rows.map(match => convertOpenLigaDbMatch(match, source)).filter(Boolean).forEach(game => {
+      rows.forEach(match => {
+        const matchId = match?.matchID ?? match?.matchId ?? match?.MatchID;
+        const sourceKey = matchId == null ? '' : `${source.id}|${String(matchId)}`;
+        if (sourceKey && remoteIds.has(sourceKey)) return;
+        const game = convertOpenLigaDbMatch(match, source);
+        if (!game) return;
         const signature = gameSignature(game);
-        if (!signatures.has(signature)) {
-          games.push(game);
-          signatures.add(signature);
-        }
+        if (signatures.has(signature)) return;
+        games.push(game);
+        signatures.add(signature);
+        if (sourceKey) remoteIds.add(sourceKey);
       });
     });
   }

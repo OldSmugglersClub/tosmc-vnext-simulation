@@ -1,0 +1,1171 @@
+:root{
+  --bg:#080502;
+  --panel:#160d07;
+  --panel2:#24150b;
+  --gold:#e4bd63;
+  --gold2:#a66b20;
+  --ink:#f0dfb1;
+  --muted:#c7a96d;
+  --line:rgba(188,128,39,.72);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  font-family:Georgia,"Times New Roman",serif;
+  background:
+    linear-gradient(rgba(8,5,2,.76),rgba(8,5,2,.88)),
+    url("./piraten-spieltag-hintergrund.jpg") center/cover fixed;
+}
+a{color:inherit}
+.page{
+  width:min(1200px,calc(100% - 24px));
+  margin:12px auto 40px;
+}
+.hero{
+  position:relative;
+  overflow:hidden;
+  padding:30px 32px 32px;
+  border:1px solid var(--line);
+  border-radius:18px;
+  background:
+    radial-gradient(circle at 85% 10%,rgba(172,105,31,.16),transparent 30%),
+    linear-gradient(135deg,rgba(31,19,10,.96),rgba(9,6,3,.97));
+  box-shadow:inset 0 0 0 1px rgba(245,195,91,.05),0 20px 50px rgba(0,0,0,.45);
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  opacity:.35;
+  background:
+    repeating-linear-gradient(115deg,transparent 0 32px,rgba(216,158,55,.04) 33px 35px),
+    radial-gradient(circle at 12% 85%,rgba(180,111,33,.13),transparent 31%);
+}
+.hero>*{position:relative;z-index:1}
+.topline{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:center;
+  margin-bottom:12px;
+}
+.eyebrow,.status-plaque{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  padding:.45rem 2rem;
+  border:1px solid #c99745;
+  border-radius:7px;
+  color:#241506;
+  background:linear-gradient(#d8ad5c,#8d591b);
+  box-shadow:inset 0 1px rgba(255,255,255,.35),inset 0 -2px rgba(40,20,4,.4),0 5px 12px rgba(0,0,0,.35);
+  font-weight:900;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  font-size:.8rem;
+}
+.eyebrow::before,.eyebrow::after,.status-plaque::before,.status-plaque::after,
+.btn::before,.btn::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  width:8px;height:8px;border-radius:50%;
+  transform:translateY(-50%);
+  background:radial-gradient(circle at 35% 30%,#f3cf78 0 15%,#a66a1e 42%,#60370d 72%,#241304 100%);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.45),0 1px 2px rgba(0,0,0,.8);
+}
+.eyebrow::before,.status-plaque::before,.btn::before{left:11px}
+.eyebrow::after,.status-plaque::after,.btn::after{right:11px}
+h1{
+  margin:.1rem 0 .7rem;
+  color:#edc96f;
+  font-size:clamp(2.25rem,5vw,4rem);
+  line-height:1;
+  text-shadow:0 2px 0 #351d08,0 7px 18px rgba(0,0,0,.75);
+}
+.lead{
+  max-width:1000px;
+  margin:0;
+  font-size:clamp(1rem,1.8vw,1.2rem);
+  line-height:1.55;
+}
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin-top:22px;
+}
+.info-card,.dynamic-section{
+  position:relative;
+  padding:20px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:
+    radial-gradient(circle at 75% 10%,rgba(170,105,31,.09),transparent 34%),
+    linear-gradient(145deg,rgba(35,22,13,.98),rgba(14,9,5,.99));
+  box-shadow:inset 0 0 0 2px rgba(25,14,6,.72),0 10px 22px rgba(0,0,0,.28);
+}
+.info-card h2,.dynamic-section h2{
+  margin:0 0 .75rem;
+  color:#e7c56f;
+  font-size:1.5rem;
+}
+.info-card p{margin:0;line-height:1.55}
+.status-box{
+  margin-top:16px;
+  padding:18px 20px;
+  border-left:5px solid #d7a93f;
+  border-radius:9px;
+  background:linear-gradient(90deg,rgba(64,39,17,.94),rgba(25,15,8,.94));
+  box-shadow:inset 0 1px rgba(255,255,255,.04);
+}
+.status-box strong{display:block;margin-bottom:.35rem;color:#edcf87}
+.sections{
+  display:grid;
+  gap:16px;
+  margin-top:16px;
+}
+.dynamic-section[hidden],.is-hidden{display:none!important}
+.dynamic-section p{line-height:1.55}
+.dynamic-section ul{margin:.4rem 0 0;padding-left:1.2rem}
+.dynamic-section li{margin:.4rem 0}
+.data-table{
+  width:100%;
+  border-collapse:collapse;
+  overflow:hidden;
+  border-radius:8px;
+}
+.data-table th,.data-table td{
+  padding:10px 12px;
+  border-bottom:1px solid rgba(189,128,39,.28);
+  text-align:left;
+}
+.data-table th{color:#e9c875;background:rgba(77,45,17,.45)}
+.match-list{display:grid;gap:9px}
+.match-row{
+  display:grid;
+  grid-template-columns:minmax(120px,.7fr) minmax(0,1.8fr) auto;
+  gap:12px;
+  align-items:center;
+  padding:12px 14px;
+  border:1px solid rgba(183,122,35,.45);
+  border-radius:8px;
+  background:rgba(17,10,5,.62);
+}
+.match-row strong{text-align:center}
+.match-row .result{color:#e5c06b;font-weight:800}
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:16px;
+}
+.btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:50px;
+  padding:.7rem 2.2rem;
+  border:1px solid #d19b39;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:900;
+  text-align:center;
+  box-shadow:inset 0 1px rgba(255,255,255,.25),0 7px 15px rgba(0,0,0,.35);
+  transition:transform .18s ease,filter .18s ease;
+}
+.btn-primary{color:#211305;background:linear-gradient(#e5bf68,#a96b1f)}
+.btn-secondary{color:#edcf87;background:linear-gradient(#3d2410,#1b1008)}
+.btn:hover,.btn:focus-visible{transform:translateY(-2px);filter:brightness(1.08);outline:none}
+.error{
+  margin-top:18px;
+  padding:16px;
+  border:1px solid #9e4e35;
+  border-radius:8px;
+  background:#2a100b;
+}
+footer{
+  padding:20px 0;
+  color:#a98b57;
+  text-align:center;
+  font-size:.9rem;
+}
+@media(max-width:800px){
+  .hero{padding:22px 18px}
+  .topline{align-items:flex-start;flex-direction:column}
+  .card-grid{grid-template-columns:1fr}
+  .match-row{grid-template-columns:1fr;text-align:center}
+  .actions{flex-direction:column}
+  .btn{width:100%}
+}
+
+/* Korrektur: kompakte Bundesliga-Spieltagsübersicht */
+.quick-actions{
+  margin:0 0 16px;
+}
+.matchday-accordion{
+  display:grid;
+  gap:10px;
+}
+.matchday-group{
+  overflow:hidden;
+  border:1px solid rgba(183,122,35,.5);
+  border-radius:9px;
+  background:rgba(17,10,5,.52);
+}
+.matchday-summary{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:14px 16px;
+  color:#e7c56f;
+  font-weight:900;
+  cursor:pointer;
+  list-style:none;
+  background:linear-gradient(90deg,rgba(64,39,17,.9),rgba(25,15,8,.9));
+}
+.matchday-summary::-webkit-details-marker{display:none}
+.matchday-summary::before{
+  content:"▶";
+  flex:0 0 auto;
+  color:#d8ad5c;
+  transition:transform .18s ease;
+}
+.matchday-group[open]>.matchday-summary::before{transform:rotate(90deg)}
+.matchday-summary>span:first-child{flex:1}
+.matchday-count{
+  color:var(--muted);
+  font-size:.88rem;
+  font-weight:700;
+}
+.matchday-group>.match-list{
+  padding:10px;
+}
+@media(max-width:800px){
+  .matchday-summary{padding:13px 12px}
+  .matchday-count{font-size:.78rem}
+}
+
+/* Bundesliga: automatische Tabelle und Ergebnisverwaltung */
+.section-heading-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:12px;
+}
+.section-heading-row h2{margin:0}
+.data-status-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:32px;
+  padding:.35rem .75rem;
+  border:1px solid rgba(201,151,69,.62);
+  border-radius:999px;
+  color:#e8c878;
+  background:rgba(60,35,14,.72);
+  font-size:.82rem;
+  font-weight:800;
+  white-space:nowrap;
+}
+.table-scroll{
+  overflow-x:auto;
+  border:1px solid rgba(183,122,35,.38);
+  border-radius:9px;
+}
+.standings-table{min-width:760px}
+.standings-table th:not(:nth-child(2)),
+.standings-table td:not(:nth-child(2)){
+  text-align:center;
+  white-space:nowrap;
+}
+.standings-table th:nth-child(2),
+.standings-table td:nth-child(2){
+  min-width:190px;
+}
+.standings-table tbody tr:nth-child(even){background:rgba(86,50,18,.16)}
+.standings-table tbody tr:hover{background:rgba(154,96,28,.14)}
+.standings-table tbody td:last-child{color:#e8c878;font-weight:900}
+.data-note{
+  margin:12px 0 0;
+  color:var(--muted);
+  font-size:.92rem;
+}
+@media(max-width:800px){
+  .section-heading-row{align-items:flex-start;flex-direction:column}
+  .data-status-badge{white-space:normal}
+}
+
+/* Mobile-Korrektur: Smuggleraufträge / Dynamo-Seite */
+.page,
+.hero,
+.card-grid,
+.sections,
+.info-card,
+.dynamic-section,
+.match-list,
+.match-row{
+  min-width:0;
+  max-width:100%;
+}
+
+.hero,
+.info-card,
+.dynamic-section{
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+
+.generic-table-scroll{
+  width:100%;
+  max-width:100%;
+  -webkit-overflow-scrolling:touch;
+}
+
+.generic-table-scroll .data-table{
+  width:max-content;
+  min-width:100%;
+}
+
+.match-row > *{
+  min-width:0;
+  max-width:100%;
+  overflow-wrap:anywhere;
+}
+
+@media(max-width:800px){
+  body{overflow-x:hidden}
+
+  .page{
+    width:calc(100% - 16px);
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .hero{padding:20px 14px 24px}
+  .info-card,.dynamic-section{padding:16px 14px}
+
+  h1{
+    font-size:clamp(2rem,11vw,3rem);
+    overflow-wrap:anywhere;
+  }
+
+  .info-card h2,.dynamic-section h2{
+    font-size:clamp(1.35rem,7vw,1.8rem);
+    line-height:1.15;
+    overflow-wrap:anywhere;
+  }
+
+  .match-row{
+    width:100%;
+    padding:12px 10px;
+  }
+
+  .match-row strong{
+    font-size:1.05rem;
+    line-height:1.3;
+  }
+
+  .dynamic-section ul{
+    padding-left:1.35rem;
+  }
+
+  .dynamic-section li{
+    padding-left:.1rem;
+    overflow-wrap:anywhere;
+  }
+
+  .generic-table-scroll{
+    margin:0;
+    border-radius:8px;
+  }
+
+  .generic-table-scroll .data-table th,
+  .generic-table-scroll .data-table td{
+    min-width:120px;
+    white-space:normal;
+    vertical-align:top;
+  }
+}
+
+
+
+/* Mobile-Korrektur 2: Dynamo-Seite – harte Breitenbegrenzung und vollständig sichtbares Statusschild */
+html{
+  max-width:100%;
+  -webkit-text-size-adjust:100%;
+}
+body.page-dynamo-dresden{
+  max-width:100%;
+  overflow-x:clip;
+}
+.page-dynamo-dresden .page,
+.page-dynamo-dresden .hero,
+.page-dynamo-dresden .topline,
+.page-dynamo-dresden .card-grid,
+.page-dynamo-dresden .sections,
+.page-dynamo-dresden .dynamic-section,
+.page-dynamo-dresden .match-list,
+.page-dynamo-dresden .match-row,
+.page-dynamo-dresden .table-scroll{
+  min-width:0;
+  max-width:100%;
+}
+.page-dynamo-dresden .topline > *{
+  min-width:0;
+  max-width:100%;
+}
+.page-dynamo-dresden .status-plaque{
+  max-width:100%;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  text-align:center;
+}
+.page-dynamo-dresden .table-scroll{
+  width:100%;
+  overflow-x:auto;
+  overflow-y:hidden;
+  -webkit-overflow-scrolling:touch;
+}
+.page-dynamo-dresden .match-row span,
+.page-dynamo-dresden .match-row strong{
+  min-width:0;
+  max-width:100%;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  word-break:normal;
+}
+
+@media(max-width:800px){
+  body.page-dynamo-dresden{overflow-x:hidden}
+
+  .page-dynamo-dresden .page{
+    width:calc(100% - 16px);
+    margin:8px auto 28px;
+  }
+
+  .page-dynamo-dresden .hero{
+    width:100%;
+    padding:18px 12px 22px;
+    overflow:hidden;
+  }
+
+  .page-dynamo-dresden .topline{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    justify-items:start;
+    gap:10px;
+    width:100%;
+  }
+
+  .page-dynamo-dresden .eyebrow,
+  .page-dynamo-dresden .status-plaque{
+    width:auto;
+    max-width:100%;
+    min-height:36px;
+    padding:.42rem 1.65rem;
+    font-size:.72rem;
+    line-height:1.2;
+  }
+
+  .page-dynamo-dresden h1{
+    width:100%;
+    max-width:100%;
+    font-size:clamp(1.9rem,10vw,2.75rem);
+    line-height:1.02;
+    overflow-wrap:anywhere;
+  }
+
+  .page-dynamo-dresden .lead{
+    width:100%;
+    max-width:100%;
+    font-size:1rem;
+  }
+
+  .page-dynamo-dresden .info-card,
+  .page-dynamo-dresden .dynamic-section{
+    width:100%;
+    max-width:100%;
+    padding:15px 12px;
+    overflow:hidden;
+  }
+
+  .page-dynamo-dresden .info-card h2,
+  .page-dynamo-dresden .dynamic-section h2{
+    width:100%;
+    max-width:100%;
+    font-size:clamp(1.28rem,6.6vw,1.72rem);
+    line-height:1.15;
+    overflow-wrap:anywhere;
+  }
+
+  .page-dynamo-dresden .match-row{
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    width:100%;
+    gap:7px;
+    padding:11px 9px;
+    text-align:center;
+  }
+
+  .page-dynamo-dresden .match-row strong{
+    width:100%;
+    font-size:1.02rem;
+    line-height:1.3;
+  }
+
+  .page-dynamo-dresden .match-row span{
+    width:100%;
+    font-size:.92rem;
+    line-height:1.3;
+  }
+
+  .page-dynamo-dresden .generic-table-scroll{
+    display:block;
+    width:100%;
+    max-width:100%;
+    overflow-x:auto;
+  }
+
+  .page-dynamo-dresden .generic-table-scroll .data-table{
+    width:max-content;
+    min-width:560px;
+    max-width:none;
+  }
+
+  .page-dynamo-dresden .dynamic-section ul{
+    margin-right:0;
+    padding-left:1.25rem;
+  }
+
+  .page-dynamo-dresden .dynamic-section li{
+    max-width:100%;
+    overflow-wrap:anywhere;
+  }
+}
+
+/* Bundesliga: kompakte Saisonstatistiken unterhalb der bestehenden Tabelle */
+.bundesliga-statistics h3{
+  margin:22px 0 10px;
+  color:#e7c56f;
+  font-size:1.2rem;
+}
+.statistics-empty{
+  display:grid;
+  gap:6px;
+  padding:18px;
+  border:1px solid rgba(183,122,35,.45);
+  border-radius:9px;
+  background:rgba(17,10,5,.62);
+}
+.statistics-empty strong{color:#e8c878;font-size:1.1rem}
+.statistics-empty span{color:var(--muted);line-height:1.5}
+.season-stat-grid,
+.record-grid,
+.match-records{
+  display:grid;
+  gap:12px;
+  margin-top:12px;
+}
+.season-stat-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+.record-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.match-records{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:12px}
+.season-stat-card{
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  gap:5px;
+  padding:14px;
+  border:1px solid rgba(183,122,35,.45);
+  border-radius:9px;
+  background:linear-gradient(145deg,rgba(42,25,13,.86),rgba(17,10,5,.9));
+}
+.season-stat-label{
+  color:var(--muted);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+.season-stat-card strong{
+  overflow-wrap:anywhere;
+  color:#edcf87;
+  font-size:1.15rem;
+  line-height:1.25;
+}
+.season-stat-card small{color:#c9ae75;line-height:1.35}
+.form-table{min-width:620px}
+.form-table th:not(:first-child),.form-table td:not(:first-child){text-align:center}
+.form-badges{display:flex;justify-content:center;gap:5px}
+.form-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  border-radius:50%;
+  border:1px solid rgba(232,200,120,.45);
+  font-size:.76rem;
+  font-weight:900;
+}
+.form-s{background:rgba(71,118,58,.55);color:#e5f3d7}
+.form-u{background:rgba(137,105,44,.55);color:#fff0bd}
+.form-n{background:rgba(126,53,41,.55);color:#ffd9cf}
+@media(max-width:1000px){
+  .season-stat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .record-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:650px){
+  .season-stat-grid,.record-grid,.match-records{grid-template-columns:1fr}
+  .season-stat-card{padding:12px}
+}
+
+
+/* Version 2.37: gemeinsamer Wettbewerbs-Navigator und Datenkompass */
+.competition-navigator{padding-bottom:18px}
+.competition-links{display:flex;flex-wrap:wrap;gap:9px}
+.competition-link{display:inline-flex;align-items:center;min-height:38px;padding:.48rem .78rem;border:1px solid rgba(183,122,35,.48);border-radius:7px;color:#d9bd7b;background:rgba(18,11,6,.72);text-decoration:none;font-weight:800;transition:transform .16s ease,background .16s ease,border-color .16s ease}
+.competition-link:hover,.competition-link:focus-visible{transform:translateY(-1px);border-color:#d19b39;background:rgba(67,39,15,.88);outline:none}
+.competition-link.is-current{color:#241506;border-color:#d8ad5c;background:linear-gradient(#e2bc67,#9c621c);box-shadow:inset 0 1px rgba(255,255,255,.3)}
+.competition-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}
+.competition-stat-card{display:flex;min-width:0;flex-direction:column;gap:5px;padding:14px;border:1px solid rgba(183,122,35,.45);border-radius:9px;background:linear-gradient(145deg,rgba(42,25,13,.86),rgba(17,10,5,.9))}
+.competition-stat-card>span{color:var(--muted);font-size:.76rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.competition-stat-card strong{color:#edcf87;font-size:1.2rem;line-height:1.2;overflow-wrap:anywhere}
+.competition-stat-card small{color:#c9ae75;line-height:1.35;overflow-wrap:anywhere}
+@media(max-width:950px){.competition-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.competition-links{display:grid;grid-template-columns:1fr 1fr}.competition-link{justify-content:center;text-align:center}.competition-stat-grid{grid-template-columns:1fr}}
+
+/* Version 2.38: einheitlicher Terminstatus, Datenqualitaet und Spielplanfilter */
+.quality-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}
+.quality-card{display:flex;min-width:0;flex-direction:column;gap:5px;padding:14px;border:1px solid rgba(183,122,35,.45);border-radius:9px;background:linear-gradient(145deg,rgba(42,25,13,.86),rgba(17,10,5,.9))}
+.quality-card>span{color:var(--muted);font-size:.76rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.quality-card strong{color:#edcf87;font-size:1.15rem;line-height:1.2;overflow-wrap:anywhere}
+.quality-card small{color:#c9ae75;line-height:1.35}
+.data-status-warning{border-color:rgba(191,137,47,.9);color:#f0ce82}
+.schedule-toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 14px}
+.schedule-filter{min-height:38px;padding:.45rem .72rem;border:1px solid rgba(183,122,35,.48);border-radius:7px;color:#d9bd7b;background:rgba(18,11,6,.74);font:700 .9rem Georgia,"Times New Roman",serif;cursor:pointer}
+.schedule-filter:hover,.schedule-filter:focus-visible{border-color:#d19b39;background:rgba(67,39,15,.88);outline:none}
+.schedule-filter.is-active{color:#241506;border-color:#d8ad5c;background:linear-gradient(#e2bc67,#9c621c)}
+.match-result-wrap{display:flex;align-items:center;justify-content:flex-end;gap:8px;min-width:0}
+.match-state-badge{display:inline-flex;align-items:center;justify-content:center;min-width:78px;padding:.22rem .42rem;border:1px solid rgba(205,164,81,.45);border-radius:999px;font-size:.7rem;font-weight:900;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+.match-state-badge-completed{background:rgba(67,108,55,.48);color:#e3f0d8}
+.match-state-badge-scheduled{background:rgba(128,91,31,.5);color:#ffe9b1}
+.match-state-badge-open{background:rgba(96,72,50,.55);color:#d7c4a3}
+.schedule-empty{padding:14px;border:1px dashed rgba(183,122,35,.5);border-radius:8px;color:var(--muted);text-align:center}
+.match-row[hidden]{display:none!important}
+@media(max-width:950px){.quality-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.quality-grid{grid-template-columns:1fr}.schedule-toolbar{display:grid;grid-template-columns:1fr 1fr}.schedule-filter{width:100%}.match-result-wrap{justify-content:center;flex-wrap:wrap}.match-state-badge{min-width:0}}
+
+/* Version 2.39: einheitliches Wettbewerbslagebild */
+.situation-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.situation-card{
+  min-width:0;
+  padding:16px;
+  border:1px solid rgba(190,132,49,.48);
+  border-radius:9px;
+  background:linear-gradient(145deg,rgba(54,32,14,.72),rgba(17,10,5,.88));
+  box-shadow:inset 0 1px rgba(255,255,255,.035);
+}
+.situation-card>span{
+  display:block;
+  margin-bottom:.45rem;
+  color:var(--muted);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.situation-card>strong{
+  display:block;
+  color:#edcf87;
+  font-size:1.05rem;
+  line-height:1.35;
+  overflow-wrap:anywhere;
+}
+.situation-card>small{
+  display:block;
+  margin-top:.45rem;
+  color:#c9ad78;
+  line-height:1.45;
+}
+@media(max-width:700px){
+  .situation-grid{grid-template-columns:1fr}
+}
+
+/* Version 2.40: zentrale Gesamtlage aller Wettbewerbe */
+.competition-fleet{padding:0;overflow:hidden}
+.fleet-summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;cursor:pointer;list-style:none;background:linear-gradient(180deg,rgba(72,43,20,.9),rgba(29,17,8,.94));border-bottom:1px solid transparent}
+.fleet-summary::-webkit-details-marker{display:none}
+.fleet-summary::after{content:"+";display:grid;place-items:center;width:30px;height:30px;flex:0 0 auto;border:1px solid rgba(215,171,83,.58);border-radius:50%;color:#edcf87;font-size:1.25rem;font-weight:800}
+.competition-fleet[open] .fleet-summary{border-bottom-color:rgba(183,122,35,.38)}
+.competition-fleet[open] .fleet-summary::after{content:"–"}
+.fleet-summary-title{color:#edcf87;font-family:Georgia,"Times New Roman",serif;font-size:1.24rem;font-weight:800}
+.fleet-summary-hint{margin-left:auto;color:#c9ae75;font-size:.78rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.fleet-body{padding:18px 20px 20px}
+.fleet-table-wrap{margin:0}
+.fleet-table th,.fleet-table td{vertical-align:middle}
+.fleet-table th a{color:#edcf87;text-decoration:none}
+.fleet-table th a:hover,.fleet-table th a:focus-visible{text-decoration:underline;outline:none}
+.fleet-table tr.is-current-competition{background:rgba(155,99,29,.18)}
+.fleet-table tr.is-current-competition th a::after{content:" · aktuell";color:#c9ae75;font-size:.72rem;font-weight:700;text-transform:uppercase}
+.fleet-status{display:inline-flex;align-items:center;min-height:28px;padding:.25rem .55rem;border:1px solid;border-radius:999px;font-size:.72rem;font-weight:900;white-space:nowrap}
+.fleet-status-ready{color:#e7d39e;border-color:rgba(169,139,75,.65);background:rgba(91,72,30,.34)}
+.fleet-status-complete{color:#d8e2bf;border-color:rgba(116,142,79,.68);background:rgba(50,73,33,.34)}
+.fleet-status-partial{color:#ead099;border-color:rgba(190,137,54,.68);background:rgba(93,60,20,.34)}
+.fleet-status-structure{color:#d2c3a0;border-color:rgba(146,121,78,.58);background:rgba(65,51,31,.34)}
+.fleet-status-empty{color:#bba98a;border-color:rgba(116,96,66,.55);background:rgba(42,34,25,.4)}
+@media(max-width:700px){.fleet-summary{align-items:flex-start;padding:16px}.fleet-summary-hint{display:none}.fleet-body{padding:14px}.fleet-table{min-width:760px}}
+
+
+/* Version 2.41: zentrale Wettbewerbs- und Datenregistrierung */
+.registry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}
+.registry-card{display:flex;min-width:0;flex-direction:column;gap:5px;padding:14px;border:1px solid rgba(183,122,35,.45);border-radius:9px;background:linear-gradient(145deg,rgba(45,27,13,.88),rgba(17,10,5,.92))}
+.registry-card>span{color:var(--muted);font-size:.76rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.registry-card strong{color:#edcf87;font-size:1.08rem;line-height:1.25;overflow-wrap:anywhere}
+.registry-card small{color:#c9ae75;line-height:1.38}
+@media(max-width:950px){.registry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.registry-grid{grid-template-columns:1fr}}
+
+/* Version 2.45: zentrale Konsistenzprüfung */
+.model-validation{border-color:rgba(187,136,52,.66)}
+.model-validation.validation-error{border-color:rgba(174,74,52,.82)}
+.model-validation.validation-warning{border-color:rgba(201,151,57,.82)}
+.data-status-error{border-color:#b95d48!important;color:#ffd0c5!important;background:rgba(91,27,18,.72)!important}
+.validation-summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0 6px}
+.validation-summary-card{padding:12px 14px;border:1px solid rgba(183,122,35,.42);border-radius:8px;background:rgba(17,10,5,.62)}
+.validation-summary-card span{display:block;color:var(--muted);font-size:.78rem;letter-spacing:.07em;text-transform:uppercase}
+.validation-summary-card strong{display:block;margin-top:4px;color:#edc96f;font-size:1.35rem}
+.validation-details{margin-top:14px;border-top:1px solid rgba(183,122,35,.34);padding-top:12px}
+.validation-details>summary{cursor:pointer;color:#e7c56f;font-weight:800}
+.validation-findings{display:grid;gap:8px;margin-top:12px}
+.validation-finding{padding:11px 13px;border-left:4px solid #b57a29;border-radius:6px;background:rgba(18,10,5,.64)}
+.validation-finding.finding-error{border-left-color:#b95d48}
+.validation-finding p{margin:.35rem 0 0;color:var(--muted);font-size:.9rem;overflow-wrap:anywhere}
+@media(max-width:800px){.validation-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Version 2.46: Datenpflege und exportierbares Prüfprotokoll */
+.maintenance-panel{border-color:rgba(181,122,41,.68)}
+.maintenance-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
+.maintenance-card{display:flex;min-width:0;flex-direction:column;gap:7px;padding:13px 14px;border:1px solid rgba(183,122,35,.42);border-radius:8px;background:linear-gradient(145deg,rgba(44,27,13,.82),rgba(16,9,5,.9))}
+.maintenance-card strong{color:#edc96f;font-size:1rem}
+.maintenance-card code{display:block;color:#d9bd7e;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.8rem;overflow-wrap:anywhere}
+.maintenance-card span{color:var(--muted);font-size:.84rem}
+.maintenance-controls{display:flex;align-items:center;gap:14px;margin-top:14px;padding-top:12px;border-top:1px solid rgba(183,122,35,.3)}
+.maintenance-controls .data-note{margin:0}
+.maintenance-download{font:inherit;cursor:pointer}
+@media(max-width:950px){.maintenance-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.maintenance-grid{grid-template-columns:1fr}.maintenance-controls{align-items:stretch;flex-direction:column}.maintenance-download{width:100%}}
+
+/* Version 2.47: technischer und barrierearmer Feinschliff */
+:where(a, button, input, select, summary):focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 3px;
+}
+
+:where(button, .competition-nav a, .wettbewerbs-nav a) {
+  touch-action: manipulation;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Schmugglersiegel in Wettbewerbsseiten – Version 4.4.10 */
+.team-identity{display:inline-flex;align-items:center;gap:9px;min-width:0;vertical-align:middle}
+.team-identity__badge{display:inline-flex;align-items:center;justify-content:center;flex:0 0 34px;width:34px;height:34px;border-radius:50%;overflow:hidden;color:#f1d28a;font-size:.62rem;font-weight:900;line-height:1;text-align:center}
+.team-identity__badge img,.team-identity__badge svg{display:block;width:100%;height:100%;object-fit:contain}
+.team-identity__name{min-width:0}
+.team-identity--table{justify-content:flex-start}
+.match-pairing{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;width:100%;text-align:initial}
+.match-pairing .team-identity--home{justify-content:flex-end;text-align:right}
+.match-pairing .team-identity--away{justify-content:flex-start;text-align:left}
+.match-pairing__separator{color:#d4b46e;text-align:center}
+@media(max-width:800px){
+  .team-identity{gap:11px}
+  .team-identity__badge{flex-basis:32px;width:32px;height:32px}
+  .match-pairing{grid-template-columns:1fr;justify-items:center;gap:8px}
+  .match-pairing .team-identity--home,.match-pairing .team-identity--away{justify-content:center;text-align:center}
+  .match-pairing__separator{line-height:1}
+}
+
+/* Website 4.7.1-TEST2 – lange Wettbewerbsnamen mobil sauber umbrechen */
+@media(max-width:800px){
+  h1{
+    font-size:clamp(1.95rem,9.2vw,2.75rem);
+    line-height:1.04;
+    overflow-wrap:normal;
+    word-break:normal;
+    hyphens:none;
+  }
+}
+
+/* Website 4.7.1 FINAL – gezielter Mobilfix im tatsaechlichen dynamischen Wettbewerbs-Navigator. */
+@media(max-width:600px){
+  .competition-link--weihnachtsregatta{
+    white-space:nowrap !important;
+    overflow-wrap:normal !important;
+    word-break:normal !important;
+    hyphens:none !important;
+    font-size:clamp(.68rem,3.1vw,.82rem);
+    line-height:1.08;
+    letter-spacing:-.02em;
+    padding-left:.35rem;
+    padding-right:.35rem;
+  }
+}
+
+
+/* OpenLigaDB DFB-KO-Baum-Prototyp V2 – Testrepository */
+.ko-bracket-section{overflow:hidden}
+.ko-bracket-scroll{
+  width:100%;
+  max-width:100%;
+  overflow-x:auto;
+  box-sizing:border-box;
+  padding:4px 8px 12px 2px;
+  scrollbar-color:rgba(204,150,55,.8) rgba(20,12,6,.7);
+}
+.ko-bracket{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(248px,1fr));
+  gap:38px;
+  width:100%;
+  min-width:1118px;
+  box-sizing:border-box;
+  align-items:stretch;
+  isolation:isolate;
+}
+.ko-bracket__connections{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  overflow:visible;
+  pointer-events:none;
+}
+.ko-bracket__connection{
+  fill:none;
+  stroke:rgba(201,145,53,.72);
+  stroke-width:1.5;
+  vector-effect:non-scaling-stroke;
+  shape-rendering:geometricPrecision;
+}
+.ko-round{
+  position:relative;
+  z-index:1;
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+}
+.ko-round__title{
+  margin:0 0 12px;
+  padding:.55rem .7rem;
+  border:1px solid rgba(190,132,49,.55);
+  border-radius:8px;
+  color:#edcf87;
+  background:linear-gradient(180deg,rgba(72,43,20,.97),rgba(29,17,8,.98));
+  text-align:center;
+  font-size:1rem;
+}
+.ko-round__matches{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  gap:12px;
+}
+.ko-match{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:12px;
+  min-height:78px;
+  padding:10px 11px;
+  border:1px solid rgba(183,122,35,.5);
+  border-radius:8px;
+  background:linear-gradient(145deg,rgba(49,29,13,.97),rgba(15,9,5,.985));
+  box-shadow:inset 0 1px rgba(255,255,255,.035),0 5px 12px rgba(0,0,0,.2);
+}
+.ko-match__teams{
+  min-width:0;
+  display:grid;
+  gap:7px;
+  align-content:center;
+}
+.ko-match .team-identity{
+  min-width:0;
+  gap:7px;
+  align-items:center;
+}
+.ko-match .team-identity__badge{
+  width:24px;
+  height:24px;
+  flex:0 0 24px;
+}
+.ko-match .team-identity__name{
+  min-width:0;
+  overflow:visible;
+  text-overflow:clip;
+  white-space:normal;
+  overflow-wrap:normal;
+  word-break:normal;
+  hyphens:none;
+  font-size:.86rem;
+  line-height:1.18;
+}
+.ko-match__meta{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+  gap:5px;
+  min-width:54px;
+  white-space:nowrap;
+}
+.ko-match__result{
+  color:#edcf87;
+  font-size:1rem;
+}
+.ko-match__date{
+  color:#c9ad78;
+  font-size:.72rem;
+}
+.ko-match--open{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--muted);
+  font-style:italic;
+  text-align:center;
+}
+.ko-source-note{margin-bottom:0}
+
+@media(max-width:900px){
+  .ko-bracket{
+    grid-template-columns:repeat(4,248px);
+    gap:34px;
+    min-width:1094px;
+  }
+}
+@media(max-width:700px){
+  .ko-bracket{
+    grid-template-columns:repeat(4,244px);
+    gap:30px;
+    min-width:1066px;
+  }
+  .ko-match .team-identity__name{font-size:.82rem}
+}
+
+/* V2-FIX: Finale vollständig innerhalb der Turnierbaum-Gesamtkachel */
+.ko-round,
+.ko-round__title,
+.ko-match{
+  max-width:100%;
+  box-sizing:border-box;
+}
+
+/* Tippverteilung pro Spiel – TV-TEST6: stabile 3-Zonen-Struktur */
+.tip-distribution{
+  grid-column:1 / -1;
+  display:grid;
+  grid-template-columns:minmax(150px,1fr) minmax(420px,auto) minmax(150px,1fr);
+  align-items:center;
+  column-gap:18px;
+  min-width:0;
+  padding-top:8px;
+  border-top:1px solid rgba(205,164,81,.22);
+  color:#d8c49a;
+  font-size:.76rem;
+}
+.tip-distribution__title{
+  grid-column:1;
+  justify-self:start;
+  color:#e5c06b;
+  font-size:.78rem;
+  letter-spacing:.01em;
+  white-space:nowrap;
+}
+.tip-distribution__center{
+  grid-column:2;
+  justify-self:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:18px;
+  min-width:0;
+}
+.tip-distribution__item{
+  display:grid;
+  grid-template-columns:auto 110px auto;
+  align-items:center;
+  gap:6px;
+  min-width:0;
+}
+.tip-distribution__key{
+  font-size:.78rem;
+  font-weight:900;
+}
+.tip-distribution__item--home .tip-distribution__key,
+.tip-distribution__item--home .tip-distribution__amount{color:#70b978}
+.tip-distribution__item--draw .tip-distribution__key,
+.tip-distribution__item--draw .tip-distribution__amount{color:#e1b54f}
+.tip-distribution__item--away .tip-distribution__key,
+.tip-distribution__item--away .tip-distribution__amount{color:#d96a62}
+.tip-distribution__track{
+  display:block;
+  width:110px;
+  height:10px;
+  overflow:hidden;
+  border:1px solid rgba(224,190,116,.24);
+  border-radius:4px;
+  background:rgba(5,4,3,.55);
+}
+.tip-distribution__fill{
+  display:block;
+  width:0;
+  height:100%;
+  border-radius:3px;
+}
+.tip-distribution__item--home .tip-distribution__fill{background:#5b9b62}
+.tip-distribution__item--draw .tip-distribution__fill{background:#d3a748}
+.tip-distribution__item--away .tip-distribution__fill{background:#b9564f}
+.tip-distribution__amount{
+  font-size:.76rem;
+  font-weight:900;
+  white-space:nowrap;
+}
+.tip-distribution__meta{
+  grid-column:3;
+  justify-self:end;
+  color:#dfd1b3;
+  font-size:.74rem;
+  white-space:nowrap;
+}
+
+@media(max-width:980px){
+  .tip-distribution{
+    grid-template-columns:1fr auto;
+    row-gap:8px;
+  }
+  .tip-distribution__title{
+    grid-column:1;
+  }
+  .tip-distribution__meta{
+    grid-column:2;
+  }
+  .tip-distribution__center{
+    grid-column:1 / -1;
+    grid-row:2;
+    justify-self:center;
+    flex-wrap:wrap;
+  }
+}
+
+@media(max-width:620px){
+  .tip-distribution{
+    grid-template-columns:1fr;
+    row-gap:7px;
+  }
+  .tip-distribution__title,
+  .tip-distribution__center,
+  .tip-distribution__meta{
+    grid-column:1;
+  }
+  .tip-distribution__title{
+    justify-self:start;
+  }
+  .tip-distribution__center{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:6px;
+  }
+  .tip-distribution__item{
+    grid-template-columns:auto minmax(60px,1fr) auto;
+  }
+  .tip-distribution__track{
+    width:100%;
+  }
+  .tip-distribution__meta{
+    justify-self:end;
+  }
+}
+
+/* GLOBAL-MATCH-LAYOUT-TEST1
+   Desktop-Korrektur fuer alle normalen Spielplanlisten aus createMatchList().
+   Vereinheitlicht Datum, Paarung, Status und Wappenachsen.
+   KO-Baeume, Tabellen und Mobile <= 800px bleiben unberuehrt. */
+@media(min-width:801px){
+  .match-list .match-row{
+    grid-template-columns:220px minmax(0,1fr) 260px;
+    column-gap:18px;
+  }
+
+  .match-list .match-meta{
+    justify-self:start;
+    width:100%;
+    text-align:left;
+  }
+
+  .match-list .match-pairing{
+    grid-template-columns:minmax(0,1fr) 22px minmax(0,1fr);
+    column-gap:14px;
+    width:100%;
+  }
+
+  .match-list .match-pairing .team-identity--home,
+  .match-list .match-pairing .team-identity--away{
+    display:grid;
+    grid-template-columns:34px minmax(0,1fr);
+    align-items:center;
+    justify-content:stretch;
+    gap:9px;
+    width:100%;
+    text-align:left;
+  }
+
+  .match-list .match-pairing .team-identity__badge{
+    grid-column:1;
+    justify-self:start;
+  }
+
+  .match-list .match-pairing .team-identity__name{
+    grid-column:2;
+    justify-self:start;
+    text-align:left;
+    white-space:normal;
+    overflow-wrap:normal;
+    word-break:normal;
+    hyphens:none;
+  }
+
+  .match-list .match-pairing__separator{
+    justify-self:center;
+  }
+
+  .match-list .match-result-wrap{
+    justify-self:end;
+    width:100%;
+    justify-content:flex-end;
+  }
+}
+

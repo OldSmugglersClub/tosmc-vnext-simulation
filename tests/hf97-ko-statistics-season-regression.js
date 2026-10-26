@@ -20,5 +20,5 @@ check('Saisonuebersicht externe Wettbewerbe exakt DFB-CL-EL', /"dfb-pokal"[\s\S]
 check('Saisonuebersicht CL zaehlt gesamten externen Wettbewerb', /competitionId === "champions-league"\s*\? matches\s*:\s*matches\.filter/.test(s));
 check('Saisonuebersicht EL-DFB auf KO-Runden begrenzt', /matches\.filter\(match => Boolean\(knockoutRoundKey\(match\)\)\)/.test(s));
 check('Fremdwettbewerbe bleiben lokale Primaerdaten', /localPrimaryGames = games\.filter\(game => !EXTERNAL_COMPETITIONS\.has/.test(s));
-check('Version HF97 Test2', version==='4.9.2-HF12-HF97-TEST2');
+check('Version HF97 Live', version==='4.9.2-HF12-HF97');
 console.log(`HF97 KO/Statistik/Saisonuebersicht: ${checks.length}/${checks.length} BESTANDEN`);

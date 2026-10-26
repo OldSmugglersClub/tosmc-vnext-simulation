@@ -1,0 +1,16 @@
+TOSMC HIGHSCORE – OFFIZIELLES LIVE-RELEASE 4.9.2-HF12-HF116
+Basis: GitHub-Live HF115 geprüft (alle fünf betroffenen Dateien bytegenau zum zuletzt hochgeladenen main.zip-Stand).
+Enthält: auf Test2v2 bestätigte mobile Dropdown-Anordnung; historische Smuggleraufträge-Team-Gesamtwertung einschließlich inaktiver Teilnehmer; getrennte Smuggleraufträge-Spieltags-Teamwertung Spieltag 7 (New 0,84 / Old 0,60).
+
+NUR die sechs Dateien im Website-Hauptverzeichnis ersetzen:
+- highscore.html
+- highscore.js
+- highscore.css
+- highscore.json
+- website-view.json
+- VERSION.txt
+
+Alle übrigen Dateien unverändert lassen. Keine Admin-Dateien ersetzen.
+Vor Übernahme aktuelle Live-Dateien sichern. Falls das Repository zwischenzeitlich veränderte highscore.json, website-view.json oder andere dieser sechs Dateien besitzt: STOPP, erneuter Abgleich erforderlich.
+Nach Übernahme auf Live prüfen: Smuggleraufträge Spieltag New 0,84 Old 0,60; Smuggleraufträge Gesamt New 8,18 Old 6,62; BL/CL-Wertungen unverändert; mobile Dropdown-Auswahl; Desktopdarstellung; Versionsangabe HF116.
+Admin-Schutzprüfung gehört NICHT zu diesem Release und ist weiter separat zu testen.

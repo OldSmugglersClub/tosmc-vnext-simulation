@@ -1,0 +1,39 @@
+{
+  "basis": "4.9.2-HF12-HF119",
+  "ziel": "4.9.2-HF12-HF120",
+  "freigabebedingung": "Nur nach bestaetigtem TEST15 und Abgleich der Live-Dateien vor Einspielung",
+  "dateien": {
+    "logbuch.js": {
+      "sha256_before": "9c5b40c0f28d5f72ad6d509dbc5b325806f57f0cefee8d14185f480daaffc6df",
+      "sha256_after": "c779b4c39eca809e2b967e72d52a14f25262afeaa7b579ddb09621424b169504",
+      "git_blob_sha_before": "614ee154d57c6f290649ccb816950c2ebc5e32bd"
+    },
+    "logbuch.html": {
+      "sha256_before": "2cc8972f5628fd80d7bb36d6b2fb69b8c143f317786e0321ec5385db4ec50c84",
+      "sha256_after": "3c9fd892e88924816ea391263ab7c4a5febacfee90370aa5c8b5bbaf7ed2c750",
+      "git_blob_sha_before": "72d6adebd3bbebbe96d375c4539cee6184173a54"
+    },
+    "index.html": {
+      "sha256_before": "c58416ee80e87e18c9774d162478535cf77f3a4cb5bf2b16f61cadb39e6eb6d9",
+      "sha256_after": "a982945c421f268a23a0c8008157e48b8bcc32718a1e532e5e88f4e35b1f3011",
+      "git_blob_sha_before": "17bf876f6451ca8c94b228295f0099a1c5a8de72"
+    },
+    "VERSION.txt": {
+      "sha256_before": "f614c25c9c578be41ae929eecc61f80cfaab0345d1266f930fea771c362d8320",
+      "sha256_after": "34b95f097edc33859aa1170356337795d115e3b1afb09bf52cdc3ad030d0de7e",
+      "git_blob_sha_before": "66a681a397f2c56bebe07d25386a4a3fff3b5dd3"
+    },
+    "logbuch.css": {
+      "sha256_before": "1c667f1dcfee1995666ec5929c4cc3fda85de89f1f1ef05ded8a8682e52516e6",
+      "sha256_after": "1c667f1dcfee1995666ec5929c4cc3fda85de89f1f1ef05ded8a8682e52516e6",
+      "git_blob_sha_before": "edd13bbc7e1fe27918cc7453e1b4e75d7e79990b"
+    }
+  },
+  "hinweise": [
+    "logbuch.js identisch zur im Test15 geprueften Datei",
+    "Nur zwei Label-Aufrufe in JavaScript veraendert",
+    "logbuch.css byteidentisch, nicht einspielen",
+    "Wertungsdaten nicht enthalten",
+    "Keine GitHub-Schreiboperation ausgefuehrt"
+  ]
+}

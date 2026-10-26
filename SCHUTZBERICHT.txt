@@ -1,5 +1,3 @@
-TEST9: Ausschließlich Rekordtafel der Hall-of-Fame-Startseite erweitert.
-Rekordwerte, Halter und Vergleichslogik bleiben unverändert.
-Neue Anzeige: Saisonbezeichnung unter belegten Rekorden.
-Künftige freigegebene Rekorde werden, falls nötig, mit der Saison des Saisonabschlusses ergänzt.
-Keine JSON-Datei wurde verändert.
+HF105: Gezielter Live-Port des in TEST9 bestätigten Rekordtafel-Fixes.
+Nur index.html, hall-of-fame-runtime.js und VERSION.txt werden geändert.
+Keine JSON-Datei, kein Champion-Pokal, keine Siegerfelder und keine anderen Websitebereiche wurden verändert.

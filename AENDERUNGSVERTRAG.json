@@ -1,11 +1,11 @@
 {
-  "basis": "4.9.2-HF12-HF101-TEST8",
-  "ziel": "4.9.2-HF12-HF101-TEST9",
+  "basis": "4.9.2-HF12-HF104",
+  "ziel": "4.9.2-HF12-HF105",
   "zielbereich": "Hall of Fame Startseite – Rekordtafel Saisonbezeichnung",
   "aenderungen": [
-    "Unter den drei belegten Rekorden wird die zugehörige Saison angezeigt.",
-    "Bestehende Rekorde 2025/2026 werden über die vorhandene Champion-Saison eindeutig als Saison 2025/2026 dargestellt.",
-    "Künftige freigegebene Rekorde erhalten beim Runtime-Merge automatisch die Saison des echten Saisonabschlusses, sofern die Quelle noch kein eigenes Saisonfeld liefert.",
+    "Unter Gesamtpunkte, Bonuspunkte und Exakte Tipps wird die Rekordsaison angezeigt.",
+    "Aktuelle Rekorde werden als Saison 2025/2026 dargestellt.",
+    "Künftige freigegebene Rekorde erhalten beim Runtime-Merge die Saison des Saisonabschlusses, sofern kein Saisonfeld vorhanden ist.",
     "Weitere Rekorde / Noch offen bleibt unverändert."
   ],
   "nicht_angefasst": [
@@ -16,6 +16,6 @@
     "Ehrenlogbuch",
     "Highscore",
     "Spieltags-Logbuch",
-    "produktive JSON-Daten"
+    "produktive JSON-Dateien"
   ]
 }

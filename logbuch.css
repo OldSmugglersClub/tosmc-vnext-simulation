@@ -48,7 +48,7 @@
 .lb-entry-head{text-align:center;padding-bottom:16px;border-bottom:1px solid rgba(190,137,48,.24)}
 .lb-entry-head span{display:block;color:#b97f2d;text-transform:uppercase;font-size:.7rem;letter-spacing:.11em}
 .lb-entry-head h2{margin:.35rem 0 0;font-family:Georgia,"Times New Roman",serif;color:#f0d29a}
-.lb-highlight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px}
+.lb-highlight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:18px;align-items:start}
 .lb-highlight{padding:15px;border:1px solid rgba(190,137,48,.28);border-radius:11px;background:rgba(26,14,7,.7)}
 .lb-highlight--hero{grid-column:1/-1;background:linear-gradient(135deg,rgba(77,42,14,.66),rgba(24,13,7,.78))}
 .lb-highlight h3{margin:0 0 8px;color:#d8a84e;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
@@ -945,8 +945,7 @@ body{overflow-x:hidden}
 }
 #lb-current .lb-entry--pending + .lb-entry{margin-top:18px}
 
-
-/* Website 4.9.2-HF12-HF101-TEST4 – Frühere Einträge nach Wettbewerb und Spieltag/Runde */
+/* Website 4.9.2-HF12-HF102 – Frühere Einträge nach Wettbewerb und Spieltag/Runde */
 .lb-archive-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .lb-archive-field{display:flex;flex-direction:column;gap:7px;min-width:0}
 .lb-archive-field label{color:#c99b4d;font-size:.74rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
@@ -955,7 +954,7 @@ body{overflow-x:hidden}
 .lb-archive-empty{color:#bda783;line-height:1.5}
 @media(max-width:760px){.lb-archive-controls{grid-template-columns:1fr}}
 
-/* Website 4.9.2-HF12-HF101-TEST8 – Mobile Logbuch-Navigation ohne Seitenüberlauf */
+/* Website 4.9.2-HF12-HF104 – Mobile Logbuch-Navigation ohne Seitenüberlauf */
 @media(max-width:520px){
   .lb-toolbar .tosmc-nav-button{
     box-sizing:border-box;
@@ -963,3 +962,123 @@ body{overflow-x:hidden}
   }
 }
 
+
+/* Form der Crew TEST1: Punktwert mit separatem Rangtrend */
+.lb-highlight--form .lb-form-row{grid-template-columns:30px minmax(0,1fr) auto;row-gap:2px}
+.lb-highlight--form .lb-form-trend{grid-column:2 / 4;color:#bca689;font-size:.69rem;text-align:right}
+.lb-highlight--form .lb-form-course{white-space:nowrap;min-width:0;color:#edcf91}
+@media(max-width:760px){.lb-highlight--form .lb-form-row{grid-template-columns:26px minmax(0,1fr) auto}.lb-highlight--form .lb-form-trend{font-size:.64rem}}
+
+/* TEST3: lesbare wettbewerbsuebergreifende Form- und Gesamt-Kursansicht */
+.lb-highlight--form .lb-form-lead,.lb-highlight--movement .lb-form-lead{font-size:.89rem;color:#e3c99c;margin:4px 0 12px;line-height:1.4}
+.lb-form-section{margin:12px 0}
+.lb-form-section h4{color:#e1b966;font-size:.93rem;margin:0 0 7px;letter-spacing:.025em}
+.lb-form-section--worst h4{color:#cda18a}
+.lb-form-row{grid-template-columns:24px minmax(0,1fr) minmax(145px,auto);min-height:48px}
+.lb-form-row strong{white-space:normal;overflow-wrap:anywhere;text-overflow:clip;font-size:.92rem}
+.lb-form-stats{text-align:right;display:flex;flex-direction:column;gap:3px;white-space:nowrap}
+.lb-form-stats b{color:#edcf91;font-size:.89rem}
+.lb-form-stats small{color:#d5bc91;font-size:.79rem}
+.lb-form-explain{font-size:.83rem;line-height:1.45;color:#dbc399;margin:12px 0 0}
+.lb-form-context{margin-top:10px;color:#bd9b64;font-size:.78rem}
+.lb-form-context summary{cursor:pointer}
+.lb-form-context p{line-height:1.4;margin-top:6px}
+.lb-highlight--movement .lb-movement-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lb-movement-record{display:flex;flex-direction:column;gap:6px;overflow-wrap:anywhere}
+.lb-movement-record strong{font-size:.92rem;color:#ebca87}
+.lb-movement-record b{font-size:1.03rem;color:#e1bd73}
+.lb-movement-record small{font-size:.83rem;color:#c3ab8a}
+@media(max-width:760px){.lb-form-row{grid-template-columns:22px minmax(0,1fr) minmax(105px,auto);gap:6px;padding:7px}.lb-form-stats b{font-size:.82rem}.lb-form-stats small{font-size:.73rem}.lb-highlight--movement .lb-movement-grid{grid-template-columns:1fr}.lb-form-explain{font-size:.81rem}}
+
+/* TEST6: Crewduell und Kursbewegung in einer echten linken Spalte statt getrennten Grid-Zeilen. */
+.lb-highlight-stack{min-width:0;display:flex;flex-direction:column;gap:12px;align-self:start}
+.lb-highlight-stack>.lb-highlight{min-width:0}
+@media(max-width:760px){.lb-highlight-stack{gap:12px}}
+
+/* TEST7 – Spieltagsbilanz in der linken Spalte; 2×2, lesbare Werte. */
+.lb-highlight--bilanz{min-width:0;background:linear-gradient(145deg,rgba(42,24,10,.90),rgba(18,10,6,.94))}
+.lb-bilanz-intro{font-size:.88rem;line-height:1.45;margin:0 0 12px!important;color:#e3c99c!important}
+.lb-bilanz-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.lb-bilanz-metric{min-width:0;min-height:89px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:10px 6px;border:1px solid rgba(190,137,48,.30);border-radius:9px;background:rgba(10,6,4,.36);text-align:center}
+.lb-bilanz-metric span{color:#d6ad65;font-size:.79rem;font-weight:800}
+.lb-bilanz-metric strong{color:#f1cd7b;font-size:1.35rem;line-height:1.15;overflow-wrap:anywhere}
+.lb-bilanz-metric small{color:#c5ab83;font-size:.77rem;line-height:1.25}
+@media(max-width:420px){.lb-bilanz-metric{min-height:76px}.lb-bilanz-metric strong{font-size:1.19rem}}
+
+/* TEST10 – ausschliesslich Desktop-Hoehenabgleich der Logbuch-Doppelsaeule.
+   Bestehende Eintraege/Allein-Kacheln bleiben unberuehrt. */
+@media(min-width:761px){
+  .lb-highlight-grid:has(> .lb-highlight-stack){align-items:stretch;}
+  .lb-highlight-grid:has(> .lb-highlight-stack) > .lb-highlight--form{
+    box-sizing:border-box;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+  }
+  .lb-highlight-grid:has(> .lb-highlight-stack) > .lb-highlight--form > .lb-form-explain{
+    margin-top:auto;
+    padding-top:18px;
+  }
+}
+
+/* TEST11 – dynamischer Hoehenabgleich auch bei geoeffneten "Gewertete Spieltage".
+   Linker Spaltenstapel fuellt dieselbe Grid-Zeile wie Form der Crew.
+   Nur die Spieltagsbilanz waechst; ihr 2x2-Inhalt verteilt den freien Raum.
+   Kein Einfluss auf einspaltige Mobilansicht oder andere Highlight-Raster. */
+@media (min-width:761px) {
+  .lb-highlight-grid:has(> .lb-highlight-stack) > .lb-highlight-stack {
+    align-self:stretch;
+    height:100%;
+    box-sizing:border-box;
+  }
+  .lb-highlight-grid:has(> .lb-highlight-stack) > .lb-highlight-stack > .lb-highlight--bilanz {
+    flex:1 1 auto;
+    display:flex;
+    flex-direction:column;
+  }
+  .lb-highlight-grid:has(> .lb-highlight-stack) > .lb-highlight-stack > .lb-highlight--bilanz > .lb-bilanz-grid {
+    flex:1 1 auto;
+    grid-template-rows:repeat(2,minmax(89px,1fr));
+  }
+}
+
+/* TEST13 – Kursbewegung: kompakte, stabile Anzeige bei Ranggleichstaenden. */
+.lb-highlight--movement .lb-movement-total{
+  color:#e1bd73;font-size:1.03rem;font-weight:900;margin-bottom:9px;white-space:normal;
+}
+.lb-highlight--movement .lb-movement-people{display:flex;flex-direction:column;gap:0;min-width:0}
+.lb-highlight--movement .lb-movement-person{min-width:0;display:flex;flex-direction:column;gap:3px;padding:7px 0;border-top:1px solid rgba(190,137,48,.18)}
+.lb-highlight--movement .lb-movement-person:first-child{border-top:0;padding-top:0}
+.lb-highlight--movement .lb-movement-person strong{font-size:.90rem;color:#ebca87;overflow-wrap:anywhere;line-height:1.25}
+.lb-highlight--movement .lb-movement-person small{font-size:.79rem;color:#c3ab8a;line-height:1.35;overflow-wrap:anywhere}
+.lb-highlight--movement .lb-movement-more{font-size:.78rem;color:#dbc399;margin:7px 0 0;line-height:1.35}
+@media(max-width:760px){.lb-highlight--movement .lb-movement-person{padding:8px 0}}
+
+/* Kapitaene TEST1: mindestens vier Punktbeste, inklusive Gleichstand an der Grenze.
+   Auf grossen Bildschirmen bevorzugt eine Zeile, bei vielen Namen/auf Mobil umbrechen. */
+.lb-highlight--captains .lb-names{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:stretch;
+  gap:8px;
+}
+.lb-highlight--captains .lb-name{
+  display:inline-flex;
+  flex:1 1 175px;
+  max-width:100%;
+  min-width:0;
+  gap:9px;
+  white-space:nowrap;
+  align-items:center;
+  justify-content:center;
+}
+.lb-captain-points{
+  font-size:.8em;
+  color:#ddb36c;
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+@media(max-width:760px){
+  .lb-highlight--captains .lb-name{flex:1 1 140px;}
+}

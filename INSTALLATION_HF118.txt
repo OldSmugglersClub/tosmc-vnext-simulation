@@ -1,0 +1,13 @@
+TOSMC Website HF118 – Startseite Desktop: GEPLANT-Schriftzug maskiert
+
+BASIS: verifizierte GitHub-Live-Datei index.html aus HF117 (identisch mit HF115).
+TEST: Maskierung TEST2 auf Test2v2 durch Anwender optisch und funktional bestätigt.
+
+LIVE-INSTALLATION:
+1. Ausschließlich index.html und VERSION.txt in das Live-Repository-Hauptverzeichnis übernehmen.
+2. Commit und Push origin in GitHub Desktop.
+3. Desktop-Startseite kontrollieren: Hintergrundtext GEPLANT unsichtbar; Badge, nächster Spieltag und Termine unverändert.
+4. Mobile Startseite kurz kontrollieren.
+
+NICHT ersetzen: JSON-Daten, Highscore, Team-Badges, Bilder oder weitere Dateien.
+Live-Repositories mit Änderungen an index.html nach dem Vergleich vor der Einspielung neu abgleichen.

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "datenVersion": 2,
+  "aktualisiert": "2026-07-31",
+  "beschreibung": "Zentrales Register für Wettbewerbsnavigation, Saisonmetadaten und Zuordnung der Spiele aus spieldaten.json.",
+  "wettbewerbe": [
+    {
+      "id": "bundesliga",
+      "label": "Bundesliga",
+      "page": "bundesliga.html",
+      "filter": {
+        "type": "wettbewerb",
+        "value": "bundesliga"
+      },
+      "scheduleTitle": "Spiele der Bundesliga",
+      "saison": {
+        "seasonLabel": "Bundesliga",
+        "tippspieltageZiel": 34,
+        "spieleZiel": 306,
+        "zeitraum": "28.08.2026 – 22.05.2027",
+        "status": "geplant"
+      }
+    },
+    {
+      "id": "dfb-pokal",
+      "label": "DFB-Pokal",
+      "page": "dfb-pokal.html",
+      "filter": {
+        "type": "wettbewerb",
+        "value": "dfb-pokal"
+      },
+      "scheduleTitle": "Spiele des DFB-Pokals",
+      "saison": {
+        "seasonLabel": "DFB-Pokal",
+        "tippspieltageZiel": 4,
+        "spieleZiel": 15,
+        "zeitraum": "Ab Achtelfinale",
+        "status": "wartet auf Achtelfinale"
+      }
+    },
+    {
+      "id": "champions-league",
+      "label": "Champions League",
+      "page": "champions-league.html",
+      "filter": {
+        "type": "wettbewerb",
+        "value": "champions-league"
+      },
+      "scheduleTitle": "Spiele der Champions League",
+      "saison": {
+        "seasonLabel": "Champions League",
+        "tippspieltageZiel": null,
+        "spieleZiel": null,
+        "zeitraum": "Ligaphase bis Finale",
+        "status": "wartet auf Spielplan"
+      }
+    },
+    {
+      "id": "europa-league",
+      "label": "Europa League",
+      "page": "europa-league.html",
+      "filter": {
+        "type": "wettbewerb",
+        "value": "europa-league"
+      },
+      "scheduleTitle": "Spiele der Europa League",
+      "saison": {
+        "seasonLabel": "Europa League",
+        "tippspieltageZiel": null,
+        "spieleZiel": null,
+        "zeitraum": "Ab Achtelfinale",
+        "status": "wartet auf Achtelfinale"
+      }
+    },
+    {
+      "id": "relegation",
+      "label": "Relegation",
+      "page": "relegation.html",
+      "filter": {
+        "type": "wettbewerb",
+        "value": "relegation"
+      },
+      "scheduleTitle": "Spiele der Relegation",
+      "saison": {
+        "seasonLabel": "Relegation",
+        "tippspieltageZiel": 1,
+        "spieleZiel": 4,
+        "zeitraum": "Mai 2027",
+        "status": "Teilnehmer noch offen"
+      }
+    },
+    {
+      "id": "dynamo-dresden",
+      "label": "Dynamo Dresden",
+      "page": "dynamo-dresden.html",
+      "filter": {
+        "type": "sonderwertung",
+        "value": "smugglerauftrag"
+      },
+      "scheduleTitle": "Ausgewählte Smuggleraufträge",
+      "saison": {
+        "seasonLabel": "Smuggleraufträge",
+        "tippspieltageZiel": 34,
+        "spieleZiel": 34,
+        "zeitraum": "09.08.2026 – Mai 2027",
+        "status": "vorbereitet"
+      }
+    },
+    {
+      "id": "piratenkodex",
+      "label": "Piratenkodex",
+      "page": "piratenkodex.html",
+      "filter": {
+        "type": "sonderwertung",
+        "value": "piratenkodex"
+      },
+      "scheduleTitle": "Ausgewählte Spiele des Piratenkodex",
+      "saison": {
+        "seasonLabel": "Piratenkodex",
+        "tippspieltageZiel": 8,
+        "spieleZiel": 8,
+        "zeitraum": "Saison 2026/2027",
+        "status": "6 von 8 vorbereitet"
+      }
+    },
+    {
+      "id": "weihnachtsregatta",
+      "label": "Weihnachtsregatta",
+      "page": "weihnachtsregatta.html",
+      "filter": {
+        "type": "sonderwertung",
+        "value": "weihnachtsregatta"
+      },
+      "scheduleTitle": "Spiele der Weihnachtsregatta",
+      "saison": {
+        "seasonLabel": "Weihnachtsregatta",
+        "tippspieltageZiel": 1,
+        "spieleZiel": 5,
+        "zeitraum": "26.12.2026 – 03.01.2027",
+        "status": "vorbereitet"
+      }
+    }
+  ]
+}

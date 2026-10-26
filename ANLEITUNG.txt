@@ -1,14 +1,12 @@
-VERSION 23 – FINALER KAPITÄNSTISCH-HINTERGRUND
+TOSMC – DFB-Pokal Hauptrunden-Akkordeon: LIVE-Update 13.10.2026
 
-Geändert wurden ausschließlich:
-- neue Hintergrundgrafik: kapitaenstisch-final.jpg
-- die body-Hintergrundreferenz in allen HTML-Dateien
+BASIS: the-old-smugglers-club-main (2)(5).zip (vom Nutzer bereitgestellte aktuelle Live-Basis).
+TESTBASIS: TOSMC_DFB_Hauptrunden_Akkordeon_TEST2v2_2026-10-13.zip, durch Nutzer im Test2v2 bestätigt.
 
-Unverändert bleiben Layout, Kacheln, Banner, Navigation, Texte,
-Abstände, Größen und Funktionen.
+Installieren: Die 9 Dateien im Root des LIVE-Repositories ersetzen (wettbewerb.js und 8 Wettbewerbs-HTML-Seiten). Keine anderen Dateien ersetzen. Vorher sichern.
+Die 8 HTML-Seiten haben AUSSCHLIESSLICH einen neuen Cache-Parameter für wettbewerb.js; keine sonstigen HTML-Änderungen.
+Die geteilte wettbewerb.js stammt byteidentisch aus dem bestätigten Test2v2-Paket. Gegenüber der aktuellen Live-Version werden nur die DFB-Hauptrunden einschließlich Akkordeon umgestellt.
 
-GitHub:
-1. Alle HTML-Dateien hochladen und ersetzen.
-2. kapitaenstisch-final.jpg ins Hauptverzeichnis hochladen.
-3. Commit durchführen.
-4. Nach kurzer Wartezeit Strg+F5 drücken.
+GitHub Desktop: Diff kontrollieren, Commit und Push, GitHub Release Guard erfolgreich abwarten. Danach im Browser Live prüfen: DFB Hauptrunden 1 und 2 einklappbar, 2. Runde zeigt angesetzte Spiele, 1. Runde zeigt Ergebnisse, Wertung ab Achtelfinale, Bundesliga und Champions League unverändert.
+
+WICHTIG: Gilt ausschließlich für die genannte Live-Basis. Falls das Live-Repository seitdem weitere Commits erhalten hat, vorher erneut abgleichen.

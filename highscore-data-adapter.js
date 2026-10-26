@@ -52,7 +52,9 @@
       overallTeams:normalized.overall.team.length,
       sourceHasGesamtTeam:Array.isArray(gesamt.team),
       sourceHasTeamsOverall:Array.isArray(teamSources.overall),
-      warning:''
+      warning:sourcePath!=='./website-view.json'
+        ? 'Aktuelle Ranglistendaten sind nicht vollständig verfügbar.'
+        : ''
     };
     return normalized;
   }
