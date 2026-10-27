@@ -5,7 +5,7 @@ import {compare} from './offizielle-quellen.mjs';
 const config=JSON.parse(fs.readFileSync(new URL('../terminwaechter/offizielle-quellen.json',import.meta.url),'utf8'));
 const aliases=config.teamAliase;
 const fixtures=[
-  {heim:'AC Milan',gast:'Inter',datum:'2026-10-31',anstoss:'20:45',startDate:'2026-10-31T19:45:00Z'},
+  {heim:'Milan',gast:'Inter',datum:'2026-10-31',anstoss:'20:45',startDate:'2026-10-31T19:45:00Z'},
   {heim:'Inter',gast:'Juventus',datum:'2027-01-10',anstoss:'18:30',startDate:'2027-01-10T17:30:00Z'},
   {heim:'Bologna',gast:'Juventus',datum:'2027-01-03',anstoss:'18:30',startDate:'2027-01-03T17:30:00Z'}
 ];

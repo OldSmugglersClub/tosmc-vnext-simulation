@@ -1,0 +1,25 @@
+TOSMC vNext Simulation – Terminwaechter TEST12
+==============================================
+
+Ausgangsbefund TEST11
+---------------------
+Die offizielle Serie-A-Quelle lieferte erneut 190 Spiele. Derby d'Italia und
+Bologna gegen Juventus wurden nun eindeutig erkannt. Madonnina blieb ohne
+Zuordnung, weil die reale Quelle den Vereinsnamen "Milan" verwendet.
+
+Korrektur TEST12
+----------------
+Für ac-mailand wird zusätzlich exakt der offizielle Alias "Milan" zugelassen.
+Der Regressionstest verwendet nun ebenfalls die im echten GitHub-Lauf
+beobachtete Bezeichnung.
+
+Erwartung
+---------
+Madonnina muss eindeutig als Abweichung auf 31.10.2026, 20:45 Uhr erkannt und
+als einzige Änderung innerhalb des Acht-Wochen-Fensters in spieldaten.json
+übernommen werden. Test2v2 und Live bleiben unberührt.
+
+Einbau
+------
+Paket im Hauptordner von tosmc-vnext-simulation entpacken, drei Dateien prüfen,
+committen und selbst pushen. Danach denselben Workflow erneut manuell starten.
