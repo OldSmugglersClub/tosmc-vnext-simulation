@@ -9651,11 +9651,11 @@
           "runde": "Piratenkodex II – Madonnina",
           "spieltagNummer": 2,
           "spielNummer": null,
-          "datum": "2026-11-01",
-          "datumVon": "2026-11-01",
-          "datumBis": "2026-11-01",
-          "datumAnzeige": "01.11.2026",
-          "anstoss": "18:30",
+          "datum": "2026-10-31",
+          "datumVon": "2026-10-31",
+          "datumBis": "2026-10-31",
+          "datumAnzeige": "31.10.2026",
+          "anstoss": "20:45",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9664,7 +9664,7 @@
             "piratenkodex"
           ],
           "notiz": "Piratenkodex II – Madonnina",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-27",
           "heimTeamId": "ac-mailand",
           "auswaertsTeamId": "inter-mailand"
         },
@@ -14719,6 +14719,6 @@
       ]
     }
   ],
-  "datenVersion": 81,
-  "aktualisiert": "2026-10-27"
+  "datenVersion": 82,
+  "aktualisiert": "2026-10-27T19:18:51.130Z"
 }
