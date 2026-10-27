@@ -1,0 +1,365 @@
+{
+  "hinweis": "vNext-Simulation: Nur offene Sonderwettbewerbsspiele. Bundesliga, Champions League und Dynamo bleiben bei ihren getrennten Fachlogiken. Test2v2 und Live sind keine Schreibziele.",
+  "quellen": [
+    {
+      "name": "UEFA Europa League",
+      "verband": "uefa",
+      "url": "https://www.uefa.com/uefaeuropaleague/fixtures-results/",
+      "spielIds": []
+    },
+    {
+      "name": "DFB-Pokal",
+      "verband": "dfb",
+      "url": "https://www.dfb.de/dfb-pokal/",
+      "spielIds": []
+    },
+    {
+      "name": "Italien offiziell",
+      "verband": "italien",
+      "url": "https://en.legaseriea.it/serie-a/fixtures-results",
+      "spielIds": [
+        "pk-2026-27-02-madonnina",
+        "pk-2026-27-04-ditalia",
+        "wr-2026-27-05"
+      ]
+    },
+    {
+      "name": "England offiziell",
+      "verband": "england",
+      "url": "https://www.premierleague.com/en/fixtures",
+      "spielIds": [
+        "pk-2026-27-03-nw-derby",
+        "pk-2026-27-06-mancu-derby",
+        "pk-2026-27-07-title-decider",
+        "wr-2026-27-01",
+        "wr-2026-27-03",
+        "wr-2026-27-04"
+      ]
+    },
+    {
+      "name": "Frankreich offiziell",
+      "verband": "frankreich",
+      "url": "https://ligue1.com/",
+      "spielIds": [
+        "pk-2026-27-05-le-classique"
+      ]
+    },
+    {
+      "name": "Portugal offiziell",
+      "verband": "portugal",
+      "url": "https://www.ligaportugal.pt/",
+      "spielIds": [
+        "wr-2026-27-02"
+      ]
+    },
+    {
+      "name": "Spanien offiziell",
+      "verband": "spanien",
+      "url": "https://www.laliga.com/en-GB/laliga-easports/results",
+      "spielIds": []
+    }
+  ],
+  "teamAliase": {
+    "ac-mailand": [
+      "AC Mailand",
+      "AC Mailand"
+    ],
+    "aek-athen": [
+      "AEK Athen",
+      "AEK Athen"
+    ],
+    "arminia-bielefeld": [
+      "DSC Arminia Bielefeld",
+      "Arminia Bielefeld"
+    ],
+    "arsenal": [
+      "FC Arsenal",
+      "Arsenal"
+    ],
+    "as-rom": [
+      "AS Rom",
+      "AS Rom"
+    ],
+    "aston-villa": [
+      "Aston Villa",
+      "Aston Villa"
+    ],
+    "atletico-madrid": [
+      "Atlético Madrid",
+      "Atlético"
+    ],
+    "augsburg": [
+      "FC Augsburg",
+      "FC Augsburg"
+    ],
+    "barcelona": [
+      "FC Barcelona",
+      "FC Barcelona"
+    ],
+    "bayern-muenchen": [
+      "FC Bayern München",
+      "FC Bayern"
+    ],
+    "benfica-lissabon": [
+      "Benfica Lissabon",
+      "Benfica Lissabon"
+    ],
+    "bochum": [
+      "VfL Bochum 1848",
+      "VfL Bochum"
+    ],
+    "bod-glimt": [
+      "FK Bodø/Glimt",
+      "Bodø/Glimt"
+    ],
+    "braunschweig": [
+      "Eintracht Braunschweig",
+      "Braunschweig"
+    ],
+    "club-brugge": [
+      "Club Brügge",
+      "Club Brügge"
+    ],
+    "como-1907": [
+      "Como 1907",
+      "Como"
+    ],
+    "darmstadt-98": [
+      "SV Darmstadt 98",
+      "Darmstadt 98"
+    ],
+    "dortmund": [
+      "Borussia Dortmund",
+      "Borussia Dortmund"
+    ],
+    "dynamo-dresden": [
+      "SG Dynamo Dresden",
+      "Dynamo Dresden"
+    ],
+    "elversberg": [
+      "SV Elversberg",
+      "SV Elversberg"
+    ],
+    "energie-cottbus": [
+      "FC Energie Cottbus",
+      "Energie Cottbus"
+    ],
+    "fc-bologna": [
+      "FC Bologna",
+      "FC Bologna"
+    ],
+    "fc-liverpool": [
+      "FC Liverpool",
+      "FC Liverpool"
+    ],
+    "fc-porto": [
+      "FC Porto",
+      "Porto"
+    ],
+    "fenerbahce": [
+      "Fenerbahçe SK",
+      "Fenerbahçe"
+    ],
+    "feyenoord-rotterdam": [
+      "Feyenoord Rotterdam",
+      "Feyenoord"
+    ],
+    "frankfurt": [
+      "Eintracht Frankfurt",
+      "Eintracht Frankfurt"
+    ],
+    "freiburg": [
+      "Sport-Club Freiburg",
+      "SC Freiburg"
+    ],
+    "galatasaray": [
+      "Galatasaray Istanbul",
+      "Galatasaray"
+    ],
+    "greuther-fuerth": [
+      "SpVgg Greuther Fürth",
+      "Greuther Fürth"
+    ],
+    "hamburger-sv": [
+      "Hamburger SV",
+      "Hamburger SV"
+    ],
+    "hannover-96": [
+      "Hannover 96",
+      "Hannover 96"
+    ],
+    "heidenheim": [
+      "1. FC Heidenheim 1846",
+      "1. FC Heidenheim"
+    ],
+    "hertha-bsc": [
+      "Hertha BSC",
+      "Hertha BSC"
+    ],
+    "hoffenheim": [
+      "TSG Hoffenheim",
+      "TSG Hoffenheim"
+    ],
+    "holstein-kiel": [
+      "Holstein Kiel",
+      "Holstein Kiel"
+    ],
+    "inter-mailand": [
+      "Inter Mailand",
+      "Inter Mailand"
+    ],
+    "juventus-turin": [
+      "Juventus Turin",
+      "Juventus Turin"
+    ],
+    "kaiserslautern": [
+      "1. FC Kaiserslautern",
+      "1. FC Kaiserslautern"
+    ],
+    "karlsruher-sc": [
+      "Karlsruher SC",
+      "Karlsruher SC"
+    ],
+    "koeln": [
+      "1. FC Köln",
+      "1. FC Köln"
+    ],
+    "lask": [
+      "LASK",
+      "LASK"
+    ],
+    "leverkusen": [
+      "Bayer 04 Leverkusen",
+      "Bayer 04 Leverkusen"
+    ],
+    "magdeburg": [
+      "1. FC Magdeburg",
+      "1. FC Magdeburg"
+    ],
+    "mainz-05": [
+      "1. FSV Mainz 05",
+      "Mainz 05"
+    ],
+    "manchester-city": [
+      "Manchester City",
+      "Manchester City"
+    ],
+    "manchester-united": [
+      "Manchester United",
+      "Manchester United"
+    ],
+    "moenchengladbach": [
+      "Borussia Mönchengladbach",
+      "Gladbach"
+    ],
+    "nottingham-forest": [
+      "Nottingham Forest",
+      "Nottingham Forest"
+    ],
+    "nuernberg": [
+      "1. FC Nürnberg",
+      "1. FC Nürnberg"
+    ],
+    "olympique-marseille": [
+      "Olympique Marseille",
+      "Olympique Marseille"
+    ],
+    "osc-lille": [
+      "Lille OSC",
+      "Lille"
+    ],
+    "osnabrueck": [
+      "VfL Osnabrück",
+      "VfL Osnabrück"
+    ],
+    "paderborn": [
+      "SC Paderborn 07",
+      "SC Paderborn 07"
+    ],
+    "paris-saint-germain": [
+      "Paris Saint-Germain",
+      "Paris Saint-Germain"
+    ],
+    "psv-eindhoven": [
+      "PSV Eindhoven",
+      "PSV"
+    ],
+    "rb-leipzig": [
+      "RB Leipzig",
+      "RB Leipzig"
+    ],
+    "rc-lens": [
+      "RC Lens",
+      "Lens"
+    ],
+    "real-betis": [
+      "Real Betis",
+      "Betis"
+    ],
+    "real-madrid": [
+      "Real Madrid",
+      "Real Madrid"
+    ],
+    "sabah-fc": [
+      "Sabah FC",
+      "Sabah"
+    ],
+    "schachtar-donezk": [
+      "Schachtar Donezk",
+      "Schachtar"
+    ],
+    "schalke-04": [
+      "FC Schalke 04",
+      "FC Schalke 04"
+    ],
+    "slavia-prag": [
+      "Slavia Prag",
+      "Slavia Prag"
+    ],
+    "slovan-bratislava": [
+      "Slovan Bratislava",
+      "Slovan"
+    ],
+    "sporting-lissabon": [
+      "Sporting Lissabon",
+      "Sporting Lissabon"
+    ],
+    "ssc-neapel": [
+      "SSC Neapel",
+      "Neapel"
+    ],
+    "st-pauli": [
+      "FC St. Pauli",
+      "FC St. Pauli"
+    ],
+    "stuttgart": [
+      "VfB Stuttgart",
+      "VfB Stuttgart"
+    ],
+    "tottenham-hotspur": [
+      "Tottenham Hotspur",
+      "Tottenham Hotspur"
+    ],
+    "union-berlin": [
+      "1. FC Union Berlin",
+      "1. FC Union Berlin"
+    ],
+    "viking-fk": [
+      "Viking FK",
+      "Viking"
+    ],
+    "villarreal-cf": [
+      "Villarreal CF",
+      "Villarreal"
+    ],
+    "werder-bremen": [
+      "SV Werder Bremen",
+      "Werder Bremen"
+    ],
+    "wolfsburg": [
+      "VfL Wolfsburg",
+      "VfL Wolfsburg"
+    ]
+  },
+  "zielRepository": "tosmc-vnext-simulation"
+}

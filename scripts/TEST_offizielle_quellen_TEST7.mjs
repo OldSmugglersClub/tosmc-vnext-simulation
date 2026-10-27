@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {fixturesFromJson,trustResponse,dedupe} from './offizielle-quellen-browser.mjs';
+const fixture={homeTeam:{name:'AC Milan'},awayTeam:{name:'Inter'},kickoffTime:'2026-10-31T19:45:00Z'};
+let f=fixturesFromJson({matches:[fixture]});assert.equal(f.length,1);assert.equal(f[0].datum,'2026-10-31');assert.equal(f[0].anstoss,'20:45');
+assert.equal(fixturesFromJson({matches:[{...fixture,kickoffTime:'2026-10-31T20:45:00'}]}).length,0);
+assert.equal(fixturesFromJson({news:[fixture]}).length,0);
+assert.equal(fixturesFromJson({matches:[{...fixture,awayTeam:null}]}).length,0);
+assert.equal(dedupe([...f,...f]).length,1);
+assert.equal(trustResponse('https://www.premierleague.com/en/fixtures','https://footballapi.pulselive.com/football/fixtures',['premierleague.com']),false);
+assert.equal(trustResponse('https://www.legaseriea.it/serie-a/calendario-risultati','https://dapi.legaseriea.it/api/matches',['legaseriea.it']),true);
+assert.equal(trustResponse('https://www.ligue1.com/fixtures','http://www.ligue1.com/api/matches',['ligue1.com']),false);
+console.log('TEST7: 8/8 bestanden');

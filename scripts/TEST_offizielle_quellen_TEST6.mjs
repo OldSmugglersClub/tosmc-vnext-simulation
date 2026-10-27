@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {parseEmbeddedFixtures,fetchOfficial,parseStructuredFixtures} from './offizielle-quellen.mjs';
+const fixture={homeTeam:{name:'AC Milan'},awayTeam:{name:'Inter'},kickoffTime:'2026-10-31T19:45:00Z'};
+const body='<html><script type="application/json">'+JSON.stringify({props:{fixtures:[fixture]}})+'</script></html>';
+assert.deepEqual(parseEmbeddedFixtures(body).map(x=>[x.heim,x.gast,x.datum,x.anstoss]),[['AC Milan','Inter','2026-10-31','20:45']]);
+assert.equal(parseEmbeddedFixtures('<script type="application/json">'+JSON.stringify({fixtures:[{...fixture,kickoffTime:'2026-10-31T20:45:00'}]})+'</script>').length,0);
+assert.equal(parseEmbeddedFixtures('<script type="application/json">{"news":[{"homeTeam":"A","awayTeam":"B","kickoff":"2026-11-01T10:00Z"}]}</script>').length,0);
+let calls=0;const response={ok:true,status:200,headers:{get:()=>null},text:async()=>body};
+const success=await fetchOfficial('https://en.legaseriea.it/serie-a/fixtures-results',async()=>{calls++;if(calls===1)throw Error('fetch failed');return response;},{allowed:['legaseriea.it']});
+assert.equal(calls,2);assert.equal(success.resp.status,200);assert.equal(success.attempts.length,1);
+const redirected=await fetchOfficial('https://en.legaseriea.it/foo',async(url)=>url.endsWith('/foo')?{status:302,headers:{get:()=>'/fixtures'}}:response,{allowed:['legaseriea.it']});
+assert.equal(redirected.finalUrl,'https://en.legaseriea.it/fixtures');
+await assert.rejects(()=>fetchOfficial('https://en.legaseriea.it/foo',async()=>({status:302,headers:{get:()=> 'https://example.com/evil'}}),{allowed:['legaseriea.it']}),/UMLEITUNG_NICHT_FREIGEGEBEN/);
+assert.equal(parseStructuredFixtures(body).length,0);
+console.log('PASS TEST6: 6 neue Tests (JSON hydration, Zeitzone, Ausschluss, Retry, Redirect, Domain-Schutz)');

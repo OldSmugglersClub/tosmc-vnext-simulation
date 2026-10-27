@@ -1,0 +1,43 @@
+TOSMC vNext Simulation – Terminwaechter TEST10
+==============================================
+
+Verbindliches Schreibziel
+-------------------------
+Dieses Paket ist ausschliesslich fuer das Repository tosmc-vnext-simulation.
+Der Workflow und das Laufprogramm brechen bei jedem anderen GitHub-Repository
+vor einer Aenderung ab. Test2v2 und Live werden weder adressiert noch beschrieben.
+
+Einbau
+------
+Den Inhalt des Pakets in den lokalen Hauptordner des aktuellen
+tosmc-vnext-simulation-Repositories kopieren und die Ordner zusammenfuehren.
+Anschliessend die neuen Dateien in GitHub Desktop kontrollieren, committen und
+selbst in das Simulations-Repository pushen.
+
+Erster kontrollierter Test
+--------------------------
+GitHub > Actions > "TOSMC vNext Simulation – Terminwächter automatisch" >
+Run workflow.
+
+Die Automatik prüft offizielle Ligaseiten. Nur ein eindeutig erkanntes offenes
+Spiel im Acht-Wochen-Fenster darf geändert werden. Sind Quelle, Mannschaften,
+Zeitstempel oder Zuordnung unklar, findet keine Änderung statt.
+
+Erlaubte Änderungen je erkanntem Spiel
+---------------------------------------
+datum, datumVon, datumBis, datumAnzeige, anstoss, terminBestaetigt, status,
+quelleStand; ausserdem nur die Root-Felder datenVersion und aktualisiert.
+
+Unverhandelbar geschützt
+------------------------
+Kicktipp-Daten, Ergebnisse, Tipps, Wertungen, Ranglisten, abgeschlossene Spiele,
+Historie, Hall of Fame, Ehrenlogbuch und sämtliche sonstigen Nicht-Terminfelder.
+Maximal zwölf sichere Terminänderungen pro Lauf. Der Lauf ist fail-closed.
+
+Hinweis
+-------
+Das ist zunächst ein Simulationstest. Erst ein grüner GitHub-Lauf und die
+anschliessende Sichtprüfung der Simulations-Website erlauben die fachliche
+Bewertung. Deshalb ist TEST10 zunächst ausschließlich manuell startbar. Die
+Zeitsteuerung wird erst nach diesem Nachweis aktiviert. Es gibt keine Freigabe
+für Test2v2 oder Live.

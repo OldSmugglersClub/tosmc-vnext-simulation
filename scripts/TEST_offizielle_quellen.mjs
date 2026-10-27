@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {parseStructuredFixtures,compare,run} from './offizielle-quellen.mjs';
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
+const page='<script type="application/ld+json">'+JSON.stringify({'@type':'SportsEvent',homeTeam:{name:'Liverpool'},awayTeam:{name:'Manchester United'},startDate:'2026-11-22T16:30:00Z'})+'</script>';
+const games=parseStructuredFixtures(page);assert.equal(games.length,1);assert.equal(games[0].datum,'2026-11-22');assert.equal(games[0].anstoss,'17:30');
+const g={id:'x',heimTeamId:'liverpool',auswaertsTeamId:'man-utd',datum:'2026-11-21',anstoss:'16:00'};
+assert.equal(compare(g,games,{'man-utd':['Manchester United']}).status,'ABWEICHUNG');
+assert.equal(compare({...g,datum:'2026-11-22',anstoss:'17:30'},games,{'man-utd':['Manchester United']}).status,'IDENTISCH');
+assert.equal(compare(g,[],{}).status,'KEIN_EINDEUTIGES_SPIEL');assert.equal(compare(g,[...games,...games],{'man-utd':['Manchester United']}).status,'MEHRDEUTIG');
+const root=fs.mkdtempSync(path.join(os.tmpdir(),'tosmc-official-'));fs.mkdirSync(path.join(root,'terminwaechter'));
+fs.writeFileSync(path.join(root,'spieldaten.json'),JSON.stringify({datenVersion:'test',saisons:[{spiele:[g]}]}));
+fs.writeFileSync(path.join(root,'terminwaechter/offizielle-quellen.json'),JSON.stringify({quellen:[{name:'Premier League',verband:'england',url:'https://www.premierleague.com/en/fixtures',spielIds:['x']}],teamAliase:{'man-utd':['Manchester United']}}));
+let called=0;const fetchFn=async()=>{called++;return {ok:true,text:async()=>page}};
+const r=await run({root,out:path.join(root,'out'),fetchFn});assert.equal(called,1);assert.equal(r.befunde[0].status,'ABWEICHUNG');
+assert.equal(fs.existsSync(path.join(root,'out','OFFIZIELLE_QUELLEN_BERICHT.json')),true);
+const reject={quellen:[{name:'Fake',verband:'england',url:'https://premierleague.com.evil.test/fixtures',spielIds:['x']} ]};fs.writeFileSync(path.join(root,'terminwaechter/offizielle-quellen.json'),JSON.stringify(reject));
+const r2=await run({root,out:path.join(root,'out'),fetchFn});assert.equal(r2.quellen[0].status,'QUELLE_ABGELEHNT');assert.equal(called,1);
+console.log('PASS: structured fixtures, German time, matching, ambiguity, read-only flow, malicious domain blocking');

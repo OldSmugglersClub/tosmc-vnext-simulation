@@ -1,0 +1,69 @@
+name: TOSMC vNext Simulation – Terminwächter automatisch
+
+on:
+  workflow_dispatch:
+  # Die Zeitsteuerung wird erst nach bestandenem manuellen Simulationslauf aktiviert.
+
+permissions:
+  contents: write
+
+concurrency:
+  # Gemeinsame Sperre mit Bundesliga-Ergebnis-, Bundesliga-Termin- und Dynamo-Terminlauf.
+  # Dadurch kann nie ein zweiter Workflow zeitgleich spieldaten.json committen.
+  group: osc-bundesliga-ergebnisimport
+  cancel-in-progress: false
+
+jobs:
+  terminpflege:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Simulations-Repository auschecken
+        uses: actions/checkout@v4
+      - name: Schreibziel hart prüfen
+        shell: bash
+        run: |
+          test "${GITHUB_REPOSITORY##*/}" = "tosmc-vnext-simulation" || {
+            echo "ABBRUCH: Dieses Programm darf nur in tosmc-vnext-simulation laufen."
+            exit 1
+          }
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Schutztests
+        run: |
+          node scripts/TEST_offizielle_quellen.mjs
+          node scripts/TEST_offizielle_quellen_TEST4.mjs
+          node scripts/TEST_offizielle_quellen_TEST5.mjs
+          node scripts/TEST_offizielle_quellen_TEST6.mjs
+          node scripts/TEST_offizielle_quellen_TEST7.mjs
+          node scripts/TEST_offizielle_quellen_TEST8.mjs
+          node scripts/TEST_offizielle_quellen_TEST9.mjs
+          node scripts/TEST_terminwaechter_auto.mjs
+      - name: Browser installieren
+        run: |
+          npm install --no-save --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Offizielle Termine prüfen und sicher übernehmen
+        run: node scripts/terminwaechter-auto.mjs
+      - name: Ausschließlich Termindaten committen
+        shell: bash
+        run: |
+          if git diff --quiet -- spieldaten.json schedule-terminstand.json; then
+            echo "Keine sichere Terminaenderung."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add spieldaten.json schedule-terminstand.json
+          git diff --cached --quiet || git commit -m "TEST2v2: offizielle Spieltermine automatisch aktualisiert"
+          git push
+      - name: Prüfbericht bereitstellen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tosmc-vnext-simulation-terminwaechter
+          path: terminwaechter-bericht/
+          if-no-files-found: warn
+          retention-days: 14
