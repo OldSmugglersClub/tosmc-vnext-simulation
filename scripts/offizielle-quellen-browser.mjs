@@ -36,6 +36,18 @@ async function fetchFpl(){
  const [bootstrap,fixtures]=await Promise.all(responses.map(r=>r.json()));
  return {decoded:decodeFpl(bootstrap,fixtures),endpoints:urls.map((url,i)=>({host:new URL(url).hostname,pfad:new URL(url).pathname,http:responses[i].status}))};
 }
+export function portugalSeasonKey(season){const m=String(season||'').match(/^(\d{4})\/(\d{4})$/);return m?m[1]+m[2]:null;}
+async function fetchPortugalLeague(season){
+ const seasonKey=portugalSeasonKey(season);if(!seasonKey)throw Error('PORTUGAL_SAISON_UNGUELTIG');
+ const url=new URL('https://www.ligaportugal.pt/api/v1/competition/matches');
+ url.searchParams.set('competition','ligaportugalbetclic');url.searchParams.set('season',seasonKey);
+ const response=await fetch(url,{headers:{Accept:'application/json','User-Agent':'TOSMC-Fixture-Check/1.0'},signal:AbortSignal.timeout(25000)});
+ if(!response.ok)throw Error('PORTUGAL_HTTP_'+response.status);
+ if(!/json/i.test(response.headers.get('content-type')||''))throw Error('PORTUGAL_CONTENT_TYPE');
+ const body=Buffer.from(await response.arrayBuffer());const limit=responseBodyLimit(url.href);if(body.length>limit)throw Error('PORTUGAL_ANTWORT_ZU_GROSS_'+body.length);
+ const decoded=decodeOfficial('portugal',JSON.parse(body.toString('utf8')));
+ return {decoded,endpoint:{host:url.hostname,pfad:url.pathname,parameter:safeQuery(url.href),http:response.status,bytes:body.length}};
+}
 export async function run({browserFactory,config,siteGames,timeout=25000}={}){
  const cfg=config||JSON.parse(fs.readFileSync(path.join(root,'terminwaechter/offizielle-quellen.json'),'utf8'));
  const data=siteGames||JSON.parse(fs.readFileSync(path.join(root,'spieldaten.json'),'utf8'));
@@ -51,6 +63,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
    pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();const limit=responseBodyLimit(u);if(body.length>limit){schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),status:'ANTWORT_ZU_GROSS',bytes:body.length,limit});return;}const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),bytes:body.length,...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));}}catch{}})());});
   try{await page.goto(src.url,{waitUntil:'domcontentloaded',timeout});await page.waitForTimeout(4500);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
+   if(src.verband==='portugal')try{const season=byId.get(src.spielIds[0])?.saison;const liga=await fetchPortugalLeague(season);fixtures.push(...liga.decoded.fixtures);endpoints.push(liga.endpoint);schemaBefunde.push({pfad:liga.endpoint.pfad,parameter:liga.endpoint.parameter,bytes:liga.endpoint.bytes,direktAbruf:true,...liga.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-direkt',fehler:String(e.message)});}
    const clean=dedupe(fixtures);
    report.quellen.push({name:src.name,status:clean.length?'SPIELE_EXTRAHIERT':'KEINE_SPIELE_EXTRAHIERT',anzahl:clean.length,antworten:endpoints,schemaBefunde,seite:page.url()});
    for(const id of src.spielIds){const g=byId.get(id);if(!g){report.befunde.push({spielId:id,status:'SPIEL_FEHLT'});continue;}if(g.status==='beendet')continue;

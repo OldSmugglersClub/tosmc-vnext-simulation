@@ -1,0 +1,13 @@
+TOSMC vNext Simulation – TEST19 direkter Portugal-Ligaabruf
+
+- ausschließlich tosmc-vnext-simulation
+- offizieller Endpunkt www.ligaportugal.pt
+- Wettbewerb ausschließlich ligaportugalbetclic
+- Saison wird aus dem TOSMC-Spielbestand abgeleitet
+- kein API-Schlüssel und keine fremde Datenquelle
+- maximal 10 MB Antwortgröße
+- Änderungen weiterhin nur innerhalb des bestehenden 56-Tage-Fensters
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht bereitstellen.
