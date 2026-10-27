@@ -1,0 +1,25 @@
+TOSMC vNext Simulation – Terminwaechter TEST15 FPL-Aliase
+=========================================================
+
+Ausgangsbefund TEST14
+---------------------
+Die offiziellen FPL-Endpunkte lieferten vollständig 20 Teams und 380 Spiele.
+Kein Datensatz wurde verworfen. Die TOSMC-Spiele konnten wegen abweichender
+offizieller FPL-Kurznamen noch nicht zugeordnet werden.
+
+Korrektur TEST15
+----------------
+Ergänzt werden ausschließlich die offiziellen FPL-Teamnamen:
+- Man City
+- Man Utd
+- Nott'm Forest
+- Spurs
+
+Der Regressionstest prüft nun alle sechs konfigurierten englischen
+TOSMC-Paarungen. Unbekannte oder mehrdeutige Zuordnungen bleiben gesperrt.
+
+Einbau
+------
+Paket im Hauptordner von tosmc-vnext-simulation entpacken, drei Dateien prüfen,
+committen und selbst pushen. Danach den Workflow manuell starten und das
+Prüfbericht-Artefakt bereitstellen. Test2v2 und Live bleiben unberührt.
