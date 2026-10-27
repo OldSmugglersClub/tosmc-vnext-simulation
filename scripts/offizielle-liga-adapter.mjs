@@ -40,3 +40,17 @@ export function decodeOfficial(provider,data){if(!paths[provider])return {fixtur
  const shape=objects.slice(0,80).map(o=>Object.keys(o).slice(0,30).sort().join('|'));const frequent=Object.entries(shape.reduce((m,s)=>(m[s]=(m[s]||0)+1,m),{})).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([keys,count])=>({keys:keys.slice(0,300),count}));
  return {fixtures,diagnosis:{provider,knoten:objects.length,kandidatenMitTeams:candidates,fixtures:fixtures.length,zeitprobleme:encountered,topFeldmuster:frequent}};
 }
+
+export function decodeFpl(bootstrap,fixturesData){
+ const teams=Array.isArray(bootstrap?.teams)?bootstrap.teams:[];
+ const matches=Array.isArray(fixturesData)?fixturesData:[];
+ const names=new Map();
+ for(const team of teams){if(Number.isInteger(team?.id)&&typeof team?.name==='string'&&team.name.trim())names.set(team.id,team.name.trim());}
+ const fixtures=[];let rejected=0;
+ for(const match of matches){
+  const home=names.get(match?.team_h),away=names.get(match?.team_a),iso=timestamp(match?.kickoff_time);
+  if(!home||!away||!iso){rejected++;continue;}
+  fixtures.push({heim:home,gast:away,...berlin(iso),startDate:iso,provider:'fpl',fixtureId:match.id??null});
+ }
+ return {fixtures,diagnosis:{provider:'fpl',teams:names.size,matches:matches.length,fixtures:fixtures.length,rejected}};
+}

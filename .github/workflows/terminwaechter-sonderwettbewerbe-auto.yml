@@ -41,6 +41,7 @@ jobs:
           node scripts/TEST_offizielle_quellen_TEST8.mjs
           node scripts/TEST_offizielle_quellen_TEST9.mjs
           node scripts/TEST_offizielle_quellen_TEST10.mjs
+          node scripts/TEST_offizielle_quellen_TEST11_FPL.mjs
           node scripts/TEST_terminwaechter_auto.mjs
       - name: Browser installieren
         run: |

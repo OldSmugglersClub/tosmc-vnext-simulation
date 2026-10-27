@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {parseStructuredFixtures,parseEmbeddedFixtures,DOMAINS,compare} from './offizielle-quellen.mjs';
-import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
+import {providerForUrl,decodeOfficial,decodeFpl} from './offizielle-liga-adapter.mjs';
 const root=path.resolve(process.env.TOSMC_ROOT||'.');
 const out=path.resolve(process.env.TOSMC_OFFICIAL_OUT||'terminwaechter-bericht');
 const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -24,6 +24,14 @@ export function fixturesFromJson(json){const out=[],seen=new Set();let count=0;
 }
 export function trustResponse(pageUrl,responseUrl,allowed){try{const u=new URL(responseUrl),p=new URL(pageUrl);return u.protocol==='https:' && allowed.some(d=>u.hostname===d||u.hostname.endsWith('.'+d)) && (u.hostname===p.hostname||allowed.some(d=>p.hostname===d||p.hostname.endsWith('.'+d)));}catch{return false;}}
 export function dedupe(fixtures){const map=new Map();for(const f of fixtures)map.set(norm(f.heim)+'|'+norm(f.gast)+'|'+f.startDate,f);return [...map.values()];}
+async function fetchFpl(){
+ const urls=['https://fantasy.premierleague.com/api/bootstrap-static/','https://fantasy.premierleague.com/api/fixtures/'];
+ const responses=await Promise.all(urls.map(url=>fetch(url,{headers:{Accept:'application/json','User-Agent':'TOSMC-Fixture-Check/1.0'},signal:AbortSignal.timeout(18000)})));
+ if(responses.some(r=>!r.ok))throw Error('FPL_HTTP_'+responses.map(r=>r.status).join('_'));
+ if(responses.some(r=>!/application\/json/i.test(r.headers.get('content-type')||'')))throw Error('FPL_CONTENT_TYPE');
+ const [bootstrap,fixtures]=await Promise.all(responses.map(r=>r.json()));
+ return {decoded:decodeFpl(bootstrap,fixtures),endpoints:urls.map((url,i)=>({host:new URL(url).hostname,pfad:new URL(url).pathname,http:responses[i].status}))};
+}
 export async function run({browserFactory,config,siteGames,timeout=25000}={}){
  const cfg=config||JSON.parse(fs.readFileSync(path.join(root,'terminwaechter/offizielle-quellen.json'),'utf8'));
  const data=siteGames||JSON.parse(fs.readFileSync(path.join(root,'spieldaten.json'),'utf8'));
@@ -37,7 +45,9 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
   page.on('response',r=>{const u=r.url();if(!trustResponse(src.url,u,allowed))return;const ct=r.headers()['content-type']||'';if(!/json/i.test(ct)||endpoints.length>=70)return;
    endpoints.push({host:new URL(u).hostname,pfad:new URL(u).pathname.slice(0,180),http:r.status()});
    pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();if(body.length>2_000_000)return;const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));}}catch{}})());});
-  try{await page.goto(src.url,{waitUntil:'domcontentloaded',timeout});await page.waitForTimeout(4500);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);const clean=dedupe(fixtures);
+  try{await page.goto(src.url,{waitUntil:'domcontentloaded',timeout});await page.waitForTimeout(4500);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
+   if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
+   const clean=dedupe(fixtures);
    report.quellen.push({name:src.name,status:clean.length?'SPIELE_EXTRAHIERT':'KEINE_SPIELE_EXTRAHIERT',anzahl:clean.length,antworten:endpoints,schemaBefunde,seite:page.url()});
    for(const id of src.spielIds){const g=byId.get(id);if(!g){report.befunde.push({spielId:id,status:'SPIEL_FEHLT'});continue;}if(g.status==='beendet')continue;
     report.befunde.push({spielId:id,quelle:src.url,...compare(g,clean,cfg.teamAliase||{})});}

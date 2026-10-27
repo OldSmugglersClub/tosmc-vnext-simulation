@@ -1,0 +1,22 @@
+TOSMC vNext Simulation – Terminwaechter TEST14 FPL
+==================================================
+
+Ziel
+----
+Offizielle Premier-League-Termine ohne externen API-Schlüssel aus den
+öffentlichen Schnittstellen der offiziellen Fantasy-Premier-League-Plattform:
+- /api/bootstrap-static/ für Team-IDs und Teamnamen
+- /api/fixtures/ für Paarungen und offsetbewusste Anstoßzeiten
+
+Schutz
+------
+Nur vollständige Datensätze mit zwei auflösbaren Team-IDs und einem
+offsetbewussten kickoff_time-Zeitstempel werden übernommen. Unbekannte Teams,
+fehlende Zeiten, HTTP-Fehler oder falscher Content-Type führen zum NO-OP.
+Der Acht-Wochen-Filter und alle bisherigen Schreibschutzregeln bleiben aktiv.
+
+Einbau
+------
+Paket im Hauptordner von tosmc-vnext-simulation entpacken, fünf Dateien prüfen,
+committen und selbst pushen. Danach den Workflow manuell starten und das
+Prüfbericht-Artefakt bereitstellen. Test2v2 und Live bleiben unberührt.
