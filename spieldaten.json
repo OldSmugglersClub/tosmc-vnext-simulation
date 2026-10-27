@@ -9676,11 +9676,11 @@
           "runde": "Piratenkodex III – NW Derby",
           "spieltagNummer": 3,
           "spielNummer": null,
-          "datum": "2026-11-21",
-          "datumVon": "2026-11-21",
-          "datumBis": "2026-11-21",
-          "datumAnzeige": "21.11.2026",
-          "anstoss": "16:00",
+          "datum": "2026-11-22",
+          "datumVon": "2026-11-22",
+          "datumBis": "2026-11-22",
+          "datumAnzeige": "22.11.2026",
+          "anstoss": "17:30",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9689,7 +9689,7 @@
             "piratenkodex"
           ],
           "notiz": "Piratenkodex III – NW Derby",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-27",
           "heimTeamId": "fc-liverpool",
           "auswaertsTeamId": "manchester-united"
         },
@@ -14719,6 +14719,6 @@
       ]
     }
   ],
-  "datenVersion": 82,
-  "aktualisiert": "2026-10-27T19:18:51.130Z"
+  "datenVersion": 83,
+  "aktualisiert": "2026-10-27T20:17:42.996Z"
 }

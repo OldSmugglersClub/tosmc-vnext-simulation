@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T19:18:51.145Z",
+  "updatedAt": "2026-10-27T20:17:43.009Z",
   "entries": {
     "sma-2026-27-auftakt-001": {
       "datum": "2026-08-09",
@@ -399,13 +399,13 @@
       "quelleStand": "2026-10-27"
     },
     "pk-2026-27-03-nw-derby": {
-      "datum": "2026-11-21",
-      "datumVon": "2026-11-21",
-      "datumBis": "2026-11-21",
-      "anstoss": "16:00",
+      "datum": "2026-11-22",
+      "datumVon": "2026-11-22",
+      "datumBis": "2026-11-22",
+      "anstoss": "17:30",
       "status": "terminiert",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-27"
     },
     "pk-2026-27-04-ditalia": {
       "datum": "2027-01-10",
