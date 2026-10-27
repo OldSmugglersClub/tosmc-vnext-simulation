@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {planOfficialChanges,applyOfficialChanges} from './terminwaechter-auto-core.mjs';
+import {planOfficialChanges,applyOfficialChanges,updateScheduleSnapshot} from './terminwaechter-auto-core.mjs';
 
 const game={id:'pk-2026-27-02-madonnina',wettbewerb:'piratenkodex',datum:'2026-11-01',datumVon:'2026-11-01',datumBis:'2026-11-01',datumAnzeige:'01.11.2026',anstoss:'18:30',terminBestaetigt:true,status:'terminiert',quelleStand:'2026-07-30',heimtore:null,auswaertstore:null,heimTeamId:'ac-mailand',auswaertsTeamId:'inter-mailand',sonderwertungen:['piratenkodex'],historie:{bleibt:true}};
 const base={datenVersion:82,aktualisiert:'alt',hallOfFame:{unveraendert:true},saisons:[{spiele:[game]}]};
@@ -14,4 +14,8 @@ assert.throws(()=>planOfficialChanges(base,{quellen:[{name:'Italien offiziell',s
 const ended=structuredClone(base);ended.saisons[0].spiele[0].status='beendet';ended.saisons[0].spiele[0].heimtore=1;
 assert.throws(()=>planOfficialChanges(ended,report,{now:new Date('2026-10-27T12:00:00Z')}),/ABGESCHLOSSENES_SPIEL/);
 const ambiguous={...report,befunde:[...report.befunde,...report.befunde]};assert.throws(()=>planOfficialChanges(base,ambiguous,{now:new Date('2026-10-27T12:00:00Z')}),/DOPPELTER_BEFUND/);
-console.log('Terminwaechter-Automatik: 12/12 Schutzpruefungen bestanden');
+const oldSnapshot={schemaVersion:1,updatedAt:'alt',entries:{fremdesSpiel:{status:'terminiert',datum:'2026-10-25'},[game.id]:{status:'terminiert',datum:'2026-11-01'}}};
+const newSnapshot=updateScheduleSnapshot(oldSnapshot,next,[game.id],{updatedAt:'neu'});
+assert.deepEqual(newSnapshot.entries.fremdesSpiel,oldSnapshot.entries.fremdesSpiel);
+assert.deepEqual(newSnapshot.entries[game.id],{datum:'2026-10-31',datumVon:'2026-10-31',datumBis:'2026-10-31',anstoss:'20:45',status:'terminiert',terminBestaetigt:true,quelleStand:'2026-10-27'});
+console.log('Terminwaechter-Automatik: 14/14 Schutzpruefungen bestanden');

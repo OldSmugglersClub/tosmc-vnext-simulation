@@ -4,8 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {run as inspectOfficialSources} from './offizielle-quellen-browser.mjs';
-import {planOfficialChanges,applyOfficialChanges,writeIfChanged} from './terminwaechter-auto-core.mjs';
-import {writeScheduleSnapshot} from './schedule-terminstand.mjs';
+import {planOfficialChanges,applyOfficialChanges,updateScheduleSnapshot,writeIfChanged} from './terminwaechter-auto-core.mjs';
 
 const root=path.resolve(process.env.TOSMC_ROOT||'.');
 if(process.env.GITHUB_ACTIONS==='true' && !String(process.env.GITHUB_REPOSITORY||'').endsWith('/tosmc-vnext-simulation')){
@@ -27,7 +26,9 @@ const plan=planOfficialChanges(data,report);
 if(!plan.planned.length){console.log('Terminwaechter: keine sichere Terminaenderung.');process.exit(0);}
 const next=applyOfficialChanges(data,plan);
 writeIfChanged(dataPath,next);
-writeScheduleSnapshot(next,path.join(root,'schedule-terminstand.json'));
+const snapshotPath=path.join(root,'schedule-terminstand.json');
+const snapshot=fs.existsSync(snapshotPath)?JSON.parse(fs.readFileSync(snapshotPath,'utf8')):{schemaVersion:1,updatedAt:null,entries:{}};
+writeIfChanged(snapshotPath,updateScheduleSnapshot(snapshot,next,plan.planned.map(x=>x.id)));
 fs.mkdirSync(path.join(root,'terminwaechter-bericht'),{recursive:true});
 fs.writeFileSync(path.join(root,'terminwaechter-bericht','TERMINAENDERUNGEN.json'),JSON.stringify({stand:new Date().toISOString(),aenderungen:plan.planned},null,2)+'\n');
 console.log(`Terminwaechter: ${plan.planned.length} sichere Aenderung(en): ${plan.planned.map(x=>x.id).join(', ')}`);

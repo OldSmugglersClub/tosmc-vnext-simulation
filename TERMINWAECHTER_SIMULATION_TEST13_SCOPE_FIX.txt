@@ -1,0 +1,31 @@
+TOSMC vNext Simulation – Terminwaechter TEST13
+==============================================
+
+Bestätigter Erfolg
+------------------
+Der Terminwaechter hat Madonnina automatisch und korrekt auf den 31.10.2026,
+20:45 Uhr geändert. Der Bot-Commit änderte spieldaten.json und
+schedule-terminstand.json.
+
+Festgestellter Nebeneffekt
+--------------------------
+Beim Aktualisieren des Terminstands wurde zusätzlich der bereits in
+spieldaten.json vorhandene Status von El Clásico nachgezogen. Das war fachlich
+korrekt, lag aber außerhalb der konkret geplanten Madonnina-Änderung.
+
+Korrektur TEST13
+----------------
+- schedule-terminstand.json wird nur noch für die im aktuellen Lauf tatsächlich
+  geplanten Spiel-IDs aktualisiert.
+- Alle anderen Snapshot-Einträge bleiben unverändert.
+- Die Bot-Commitmeldung heißt jetzt korrekt:
+  "vNext Simulation: offizielle Spieltermine automatisch aktualisiert".
+- Ein Regressionstest schützt einen fremden Snapshot-Eintrag byte-logisch vor
+  Mitänderung.
+
+Einbau
+------
+Paket im Hauptordner von tosmc-vnext-simulation entpacken, fünf Dateien prüfen,
+committen und selbst pushen. Danach den Workflow erneut manuell starten.
+Da Madonnina bereits korrekt ist, darf dieser Kontrolllauf keinen neuen
+Termindaten-Commit erzeugen.

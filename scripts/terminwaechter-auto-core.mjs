@@ -55,4 +55,17 @@ export function applyOfficialChanges(data,plan,{updatedAt=new Date().toISOString
   return next;
 }
 
+export function updateScheduleSnapshot(snapshot,data,plannedIds,{updatedAt=new Date().toISOString()}={}){
+  const next=clone(snapshot||{schemaVersion:1,updatedAt:null,entries:{}});
+  next.schemaVersion=next.schemaVersion||1;
+  next.entries=next.entries||{};
+  const games=new Map(allGames(data).map(g=>[g.id,g]));
+  for(const id of plannedIds){
+    const game=games.get(id);if(!game)throw Error(`SPIEL_FEHLT:${id}`);
+    next.entries[id]=Object.fromEntries(['datum','datumVon','datumBis','anstoss','status','terminBestaetigt','quelleStand'].filter(k=>game[k]!==undefined).map(k=>[k,game[k]]));
+  }
+  if(plannedIds.length)next.updatedAt=updatedAt;
+  return next;
+}
+
 export function writeIfChanged(file,data){fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n','utf8');}

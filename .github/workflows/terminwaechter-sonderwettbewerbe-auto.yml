@@ -58,7 +58,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add spieldaten.json schedule-terminstand.json
-          git diff --cached --quiet || git commit -m "TEST2v2: offizielle Spieltermine automatisch aktualisiert"
+          git diff --cached --quiet || git commit -m "vNext Simulation: offizielle Spieltermine automatisch aktualisiert"
           git push
       - name: Prüfbericht bereitstellen
         if: always()
