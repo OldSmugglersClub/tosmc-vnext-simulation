@@ -9608,16 +9608,40 @@
           "datumAnzeige": "25.10.2026",
           "anstoss": "15:00",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [
             "piratenkodex"
           ],
           "notiz": "Piratenkodex I – El Clasico",
           "quelleStand": "2026-07-30",
           "heimTeamId": "barcelona",
-          "auswaertsTeamId": "real-madrid"
+          "auswaertsTeamId": "real-madrid",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-27T15:56:10.760Z",
+            "abgegeben": 67,
+            "nichtAbgegeben": 33,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 57,
+                "prozent": 85.1
+              },
+              "2": {
+                "anzahl": 6,
+                "prozent": 9
+              },
+              "X": {
+                "anzahl": 4,
+                "prozent": 6
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-27T15:56:10.760Z"
         },
         {
           "id": "pk-2026-27-02-madonnina",
@@ -14695,6 +14719,6 @@
       ]
     }
   ],
-  "datenVersion": 80,
-  "aktualisiert": "2026-10-25"
+  "datenVersion": 81,
+  "aktualisiert": "2026-10-27"
 }

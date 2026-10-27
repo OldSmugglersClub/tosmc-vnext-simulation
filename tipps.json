@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 20,
-  "aktualisiert": "2026-10-25",
+  "datenVersion": 21,
+  "aktualisiert": "2026-10-27",
   "saison": "2026-27",
   "hinweis": "Interne Detailquelle. Historische und aktuelle sichtbare Tipps werden ID-stabil kumuliert; verborgene Tipps werden nicht gewertet; echte Nichtabgaben werden nicht als Tippdatensatz gespeichert.",
   "tipps": [
@@ -95800,6 +95800,676 @@
       "teilnehmerId": "potterhead",
       "spielId": "bl-2026-27-07-063",
       "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jwfussball-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "jwfussball",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "olympiakos-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "olympiakos",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pochzerjung-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "pochzerjung",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "baslermario-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "baslermario",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 1,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dani1893-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "dani1893",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-threepwood-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "g-threepwood",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "opipeter-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "opipeter",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "xib0o-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "xib0o",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "rk69-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "rk69",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "g-1000-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "g-1000",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "hardy17-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "hardy17",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "11le-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "11le",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mariusv-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "mariusv",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "best10-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "best10",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "18amfg99-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "18amfg99",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "steff77-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "steff77",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "finch-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "finch",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "waltersen-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "waltersen",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marius-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "marius",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "dominik1966-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "dominik1966",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gerrit1887-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "gerrit1887",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "handgottes-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "handgottes",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "maikiliii-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "maikiliii",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "wildemoni-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "wildemoni",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bvb09-opam-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "bvb09-opam",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sam-entspender-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "sam-entspender",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "bigdog-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "bigdog",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra75-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "cobra75",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "pauli-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "pauli",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flying-dutchman-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "flying-dutchman",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "playboymarc88-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "playboymarc88",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tribuna33-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "tribuna33",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "cobra-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "cobra",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "redwing-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "redwing",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "lattenkracher-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "lattenkracher",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "flokicker94-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "flokicker94",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "glatze583-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "glatze583",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mythos-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "mythos",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "realzaragoza-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "realzaragoza",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "juri-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "juri",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "tortugasge-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "tortugasge",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "stevie26-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "stevie26",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kleinersachse-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "kleinersachse",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "eckes2359-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "eckes2359",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "manuel-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "manuel",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "oifinger-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "oifinger",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "luki1887-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "luki1887",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "souvard-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "souvard",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 0,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "andy1304-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "andy1304",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sgbw-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "sgbw",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kevinhick-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "kevinhick",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 1,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "zweikampfgott-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "zweikampfgott",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "marc86-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "marc86",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "adamj-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "adamj",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "salas1904-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "salas1904",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "gruber-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "gruber",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "sven-huhn-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "sven-huhn",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "kev1999-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "kev1999",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mrjensationell-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "mrjensationell",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mikoog-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "mikoog",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "vebfriwiwerk-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "vebfriwiwerk",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "jakob-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "jakob",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
+      "auswaertstore": 3,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "mary-grace-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "mary-grace",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 1,
+      "auswaertstore": 2,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "ximmox-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "ximmox",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 3,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "medic-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "medic",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "potterhead-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "potterhead",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 2,
+      "auswaertstore": 1,
+      "status": "abgegeben",
+      "abgegebenAm": null,
+      "quelle": "Kicktipp-Export"
+    },
+    {
+      "id": "co-pk-2026-27-01-el-clasico",
+      "teilnehmerId": "co",
+      "spielId": "pk-2026-27-01-el-clasico",
+      "heimtore": 4,
       "auswaertstore": 2,
       "status": "abgegeben",
       "abgegebenAm": null,

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 20,
-  "aktualisiert": "2026-10-25T20:18:04.090Z",
+  "datenVersion": 21,
+  "aktualisiert": "2026-10-27T15:56:10.760Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -8418,6 +8418,328 @@
             "exakt": 47,
             "differenz": 73,
             "tendenz": 114
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__piratenkodex__piratenkodex-i-el-clasico__pk-2026-27-01-el-clasico",
+      "bezeichnung": "Piratenkodex Piratenkodex I – El Clasico",
+      "wettbewerb": "piratenkodex",
+      "runde": "Piratenkodex I – El Clasico",
+      "abgeschlossen": true,
+      "spielIds": [
+        "pk-2026-27-01-el-clasico"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "andy1304",
+          "teilnehmer": "Andy1304",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "hardy17",
+          "teilnehmer": "Hardy17",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "mary-grace",
+          "teilnehmer": "Mary-Grace",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 5,
+            "anzahl": 3,
+            "tipper": [
+              {
+                "teilnehmerId": "andy1304",
+                "teilnehmer": "Andy1304",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "hardy17",
+                "teilnehmer": "Hardy17",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "mary-grace",
+                "teilnehmer": "Mary-Grace",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "pk-2026-27-01-el-clasico",
+            "heimTeam": "barcelona",
+            "auswaertsTeam": "real-madrid",
+            "ergebnis": "1:2",
+            "abgegeben": 67,
+            "nichtAbgegeben": 33,
+            "tippverteilung": {
+              "1": 57,
+              "2": 6,
+              "X": 4
+            },
+            "exakt": 3,
+            "differenz": 2,
+            "tendenz": 1,
+            "richtigerAusgang": "2",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 57
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 6,
+              "anteil": 9,
+              "tipper": [
+                {
+                  "teilnehmerId": "hardy17",
+                  "teilnehmer": "Hardy17",
+                  "tipp": "1:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "maikiliii",
+                  "teilnehmer": "Maikiliii",
+                  "tipp": "2:3",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "oifinger",
+                  "teilnehmer": "Oifinger",
+                  "tipp": "2:3",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "andy1304",
+                  "teilnehmer": "Andy1304",
+                  "tipp": "1:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "kevinhick",
+                  "teilnehmer": "Kevinhick",
+                  "tipp": "1:3",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "mary-grace",
+                  "teilnehmer": "Mary-Grace",
+                  "tipp": "1:2",
+                  "exakt": true
+                }
+              ],
+              "exakteTipps": 3
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "pk-2026-27-01-el-clasico",
+                "heimTeam": "barcelona",
+                "auswaertsTeam": "real-madrid",
+                "ergebnis": "1:2",
+                "abgegeben": 67,
+                "nichtAbgegeben": 33,
+                "tippverteilung": {
+                  "1": 57,
+                  "2": 6,
+                  "X": 4
+                },
+                "exakt": 3,
+                "differenz": 2,
+                "tendenz": 1,
+                "richtigerAusgang": "2",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 57
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 6,
+                  "anteil": 9,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "hardy17",
+                      "teilnehmer": "Hardy17",
+                      "tipp": "1:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "maikiliii",
+                      "teilnehmer": "Maikiliii",
+                      "tipp": "2:3",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "oifinger",
+                      "teilnehmer": "Oifinger",
+                      "tipp": "2:3",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "andy1304",
+                      "teilnehmer": "Andy1304",
+                      "tipp": "1:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "kevinhick",
+                      "teilnehmer": "Kevinhick",
+                      "tipp": "1:3",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "mary-grace",
+                      "teilnehmer": "Mary-Grace",
+                      "tipp": "1:2",
+                      "exakt": true
+                    }
+                  ],
+                  "exakteTipps": 3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 1,
+            "anzahl": 3,
+            "tipper": [
+              {
+                "teilnehmerId": "andy1304",
+                "teilnehmer": "Andy1304",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "hardy17",
+                "teilnehmer": "Hardy17",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "mary-grace",
+                "teilnehmer": "Mary-Grace",
+                "exakt": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 0.24,
+                "punktesumme": 18,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 0.2,
+                "punktesumme": 5,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 0.04
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "hardy17",
+                "teilnehmer": "Hardy17",
+                "vorher": 21,
+                "jetzt": 15,
+                "veraenderung": 6
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "adamj",
+                "teilnehmer": "AdamJ",
+                "vorher": 52,
+                "jetzt": 54,
+                "veraenderung": -2
+              },
+              {
+                "teilnehmerId": "gruber",
+                "teilnehmer": "gRuBer",
+                "vorher": 53,
+                "jetzt": 55,
+                "veraenderung": -2
+              },
+              {
+                "teilnehmerId": "sven-huhn",
+                "teilnehmer": "Sven_Huhn",
+                "vorher": 54,
+                "jetzt": 56,
+                "veraenderung": -2
+              }
+            ],
+            "maxGewinn": 6,
+            "maxVerlust": -2
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 67,
+            "nichtAbgegeben": 33,
+            "exakt": 3,
+            "differenz": 2,
+            "tendenz": 1
           }
         }
       ]

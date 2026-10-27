@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 20,
-  "aktualisiert": "2026-10-25",
+  "datenVersion": 21,
+  "aktualisiert": "2026-10-27",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-10-25T20:18:04.090Z",
-  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / TOSMC-Admin 6.5.0-TOSMC-ADMIN5-HF3-FIX2-HF3",
+  "berechnetAm": "2026-10-27T15:56:10.760Z",
+  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
   "gesamt": [
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 10058,
-      "durchschnitt": 134.11,
-      "berechneterDurchschnitt": 134.11,
+      "punktesumme": 10076,
+      "durchschnitt": 134.35,
+      "berechneterDurchschnitt": 134.35,
       "mitglieder": 75,
-      "kicktippKontrollwert": 134.11,
+      "kicktippKontrollwert": 134.35,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-Gesamtübersicht"
@@ -22,11 +22,11 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 2981,
-      "durchschnitt": 119.24,
-      "berechneterDurchschnitt": 119.24,
+      "punktesumme": 2986,
+      "durchschnitt": 119.44,
+      "berechneterDurchschnitt": 119.44,
       "mitglieder": 25,
-      "kicktippKontrollwert": 119.24,
+      "kicktippKontrollwert": 119.44,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-Gesamtübersicht"
@@ -36,10 +36,10 @@
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 550,
-      "durchschnitt": 7.33,
+      "punktesumme": 18,
+      "durchschnitt": 0.24,
       "mitglieder": 75,
-      "kicktippKontrollwert": 7.33,
+      "kicktippKontrollwert": 0.24,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -47,10 +47,10 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 132,
-      "durchschnitt": 5.28,
+      "punktesumme": 5,
+      "durchschnitt": 0.2,
       "mitglieder": 25,
-      "kicktippKontrollwert": 5.28,
+      "kicktippKontrollwert": 0.2,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -116,6 +116,12 @@
       "punkte": 189
     },
     {
+      "teilnehmerId": "hardy17",
+      "teilnehmer": "Hardy17",
+      "team": "New Smugglers Team",
+      "punkte": 188
+    },
+    {
       "teilnehmerId": "best10",
       "teilnehmer": "Best10",
       "team": "New Smugglers Team",
@@ -144,12 +150,6 @@
       "teilnehmer": "Marius",
       "team": "Old Smugglers Team",
       "punkte": 185
-    },
-    {
-      "teilnehmerId": "hardy17",
-      "teilnehmer": "Hardy17",
-      "team": "New Smugglers Team",
-      "punkte": 183
     },
     {
       "teilnehmerId": "11le",
@@ -212,16 +212,16 @@
       "punkte": 177
     },
     {
+      "teilnehmerId": "maikiliii",
+      "teilnehmer": "Maikiliii",
+      "team": "New Smugglers Team",
+      "punkte": 177
+    },
+    {
       "teilnehmerId": "dominik1966",
       "teilnehmer": "dominik1966",
       "team": "New Smugglers Team",
       "punkte": 175
-    },
-    {
-      "teilnehmerId": "maikiliii",
-      "teilnehmer": "Maikiliii",
-      "team": "New Smugglers Team",
-      "punkte": 174
     },
     {
       "teilnehmerId": "juri",
@@ -302,6 +302,12 @@
       "punkte": 167
     },
     {
+      "teilnehmerId": "oifinger",
+      "teilnehmer": "Oifinger",
+      "team": "New Smugglers Team",
+      "punkte": 166
+    },
+    {
       "teilnehmerId": "eckes2359",
       "teilnehmer": "Eckes2359",
       "team": "New Smugglers Team",
@@ -320,20 +326,20 @@
       "punkte": 165
     },
     {
-      "teilnehmerId": "tortugasge",
-      "teilnehmer": "TortugaSGE",
-      "team": "Old Smugglers Team",
-      "punkte": 165
-    },
-    {
       "teilnehmerId": "flokicker94",
       "teilnehmer": "FloKicker94",
       "team": "New Smugglers Team",
       "punkte": 165
     },
     {
-      "teilnehmerId": "oifinger",
-      "teilnehmer": "Oifinger",
+      "teilnehmerId": "tortugasge",
+      "teilnehmer": "TortugaSGE",
+      "team": "Old Smugglers Team",
+      "punkte": 165
+    },
+    {
+      "teilnehmerId": "kevinhick",
+      "teilnehmer": "Kevinhick",
       "team": "New Smugglers Team",
       "punkte": 163
     },
@@ -350,10 +356,10 @@
       "punkte": 161
     },
     {
-      "teilnehmerId": "kevinhick",
-      "teilnehmer": "Kevinhick",
+      "teilnehmerId": "andy1304",
+      "teilnehmer": "Andy1304",
       "team": "New Smugglers Team",
-      "punkte": 161
+      "punkte": 160
     },
     {
       "teilnehmerId": "marc86",
@@ -396,12 +402,6 @@
       "teilnehmer": "gRuBer",
       "team": "New Smugglers Team",
       "punkte": 157
-    },
-    {
-      "teilnehmerId": "andy1304",
-      "teilnehmer": "Andy1304",
-      "team": "New Smugglers Team",
-      "punkte": 155
     },
     {
       "teilnehmerId": "quick",
@@ -473,7 +473,7 @@
       "teilnehmerId": "mary-grace",
       "teilnehmer": "Mary-Grace",
       "team": "Old Smugglers Team",
-      "punkte": 109
+      "punkte": 114
     },
     {
       "teilnehmerId": "urkel",
