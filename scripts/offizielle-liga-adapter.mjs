@@ -29,16 +29,18 @@ export function providerForUrl(url){try{const h=new URL(url).hostname;const p=ne
  if(h.endsWith('.ligaportugal.pt')&&/\/api\/v1\/competition\/matches(?:\/|$)/.test(p))return 'portugal';
  }catch{}return null;}
 export function decodeOfficial(provider,data){if(!paths[provider])return {fixtures:[],diagnosis:{reason:'NICHT_UNTERSTUETZT'}};
- const objects=nodes(data), fixtures=[], seen=new Set(), encountered={};let candidates=0;
+ const objects=nodes(data), fixtures=[], seen=new Set(), encountered={},candidateShapes={};let candidates=0;
  for(const o of objects){const h=name(val(o,paths[provider].home)),a=name(val(o,paths[provider].away)),raw=val(o,paths[provider].date),iso=timestamp(raw);
-  if(h&&a){candidates++;if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
+  if(h&&a){candidates++;const shape=Object.keys(o).sort().join('|').slice(0,600);candidateShapes[shape]=(candidateShapes[shape]||0)+1;if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
    const key=[h.toLowerCase(),a.toLowerCase(),new Date(iso).getTime()].join('|');if(seen.has(key))continue;seen.add(key);
    fixtures.push({heim:h,gast:a,...berlin(iso),startDate:iso,provider});
   }
  }
  // report shape only, no API tokens, player data, or potentially sensitive response bodies
  const shape=objects.slice(0,80).map(o=>Object.keys(o).slice(0,30).sort().join('|'));const frequent=Object.entries(shape.reduce((m,s)=>(m[s]=(m[s]||0)+1,m),{})).sort((a,b)=>b[1]-a[1]).slice(0,6).map(([keys,count])=>({keys:keys.slice(0,300),count}));
- return {fixtures,diagnosis:{provider,knoten:objects.length,kandidatenMitTeams:candidates,fixtures:fixtures.length,zeitprobleme:encountered,topFeldmuster:frequent}};
+ const kandidatFeldmuster=Object.entries(candidateShapes).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([keys,count])=>({keys,count}));
+ const beispiele=fixtures.slice(0,10).map(({heim,gast,datum,anstoss})=>({heim,gast,datum,anstoss}));
+ return {fixtures,diagnosis:{provider,knoten:objects.length,kandidatenMitTeams:candidates,fixtures:fixtures.length,zeitprobleme:encountered,kandidatFeldmuster,beispiele,topFeldmuster:frequent}};
 }
 
 export function decodeFpl(bootstrap,fixturesData){

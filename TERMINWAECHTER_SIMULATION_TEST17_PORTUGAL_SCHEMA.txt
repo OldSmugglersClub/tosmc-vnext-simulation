@@ -1,0 +1,11 @@
+TOSMC vNext Simulation – TEST17 Portugal-Schemadiagnose
+
+- ausschließlich tosmc-vnext-simulation
+- ergänzt nur sichere Diagnosedaten zu bereits erkannten offiziellen Spielen
+- protokolliert maximal zehn Paarungen mit Datum und Uhrzeit
+- protokolliert Feldnamen matchähnlicher Datensätze, keine vollständigen Antworten
+- keine Terminänderung durch diese Diagnoseerweiterung
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht bereitstellen.

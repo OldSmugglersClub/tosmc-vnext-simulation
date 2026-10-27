@@ -16,6 +16,8 @@ check(decodeOfficial('seriea',{data:{matches:[milan]}}).fixtures[0].datum,'2026-
 check(decodeOfficial('seriea',{matches:[{...milan,kickOff:'2026-10-31T20:45:00'}]}).fixtures.length,0);
 check(decodeOfficial('premierleague',{events:[{home:{name:'Liverpool'},away:{name:'Manchester United'},kickoff:'2026-11-22T16:30:00Z'}]}).fixtures[0].anstoss,'17:30');
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).fixtures.length,1);
+check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.beispiele,[{heim:'Porto',gast:'Benfica',datum:'2026-12-12',anstoss:'21:00'}]);
+check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.kandidatFeldmuster,[{keys:'away_team|home_team|match_date',count:1}]);
 check(decodeOfficial('seriea',{news:[milan]}).fixtures.length,0);
 check(decodeOfficial('seriea',{matches:[milan,milan]}).fixtures.length,1);
 check(decodeOfficial('seriea',{matches:[{...milan,awayTeam:null}]}).fixtures.length,0);
