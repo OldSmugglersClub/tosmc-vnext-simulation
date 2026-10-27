@@ -23,6 +23,7 @@ export function fixturesFromJson(json){const out=[],seen=new Set();let count=0;
  }visit(json);return out;
 }
 export function trustResponse(pageUrl,responseUrl,allowed){try{const u=new URL(responseUrl),p=new URL(pageUrl);return u.protocol==='https:' && allowed.some(d=>u.hostname===d||u.hostname.endsWith('.'+d)) && (u.hostname===p.hostname||allowed.some(d=>p.hostname===d||p.hostname.endsWith('.'+d)));}catch{return false;}}
+export function safeQuery(url){try{const out={};for(const [k,v] of new URL(url).searchParams){if(/token|key|auth|session|secret|password|signature/i.test(k))continue;out[k.slice(0,80)]=v.slice(0,160);}return out;}catch{return {};}}
 export function dedupe(fixtures){const map=new Map();for(const f of fixtures)map.set(norm(f.heim)+'|'+norm(f.gast)+'|'+f.startDate,f);return [...map.values()];}
 // The official Liga Portugal season response is larger than the generic cap.
 // Raise the limit only for the exact allow-listed competition/matches provider.
@@ -46,8 +47,8 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
   const allowed=DOMAINS[src.verband]||[];if(!trustResponse(src.url,src.url,allowed)){report.quellen.push({name:src.name,status:'DOMAIN_NICHT_FREIGEGEBEN'});continue;}
   const context=await browser.newContext({serviceWorkers:'block',acceptDownloads:false});const page=await context.newPage();const fixtures=[];const endpoints=[];const schemaBefunde=[];let pending=[];
   page.on('response',r=>{const u=r.url();if(!trustResponse(src.url,u,allowed))return;const ct=r.headers()['content-type']||'';if(!/json/i.test(ct)||endpoints.length>=70)return;
-   endpoints.push({host:new URL(u).hostname,pfad:new URL(u).pathname.slice(0,180),http:r.status()});
-   pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();const limit=responseBodyLimit(u);if(body.length>limit){schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),status:'ANTWORT_ZU_GROSS',bytes:body.length,limit});return;}const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),bytes:body.length,...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));}}catch{}})());});
+   endpoints.push({host:new URL(u).hostname,pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),http:r.status()});
+   pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();const limit=responseBodyLimit(u);if(body.length>limit){schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),status:'ANTWORT_ZU_GROSS',bytes:body.length,limit});return;}const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),bytes:body.length,...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));}}catch{}})());});
   try{await page.goto(src.url,{waitUntil:'domcontentloaded',timeout});await page.waitForTimeout(4500);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
    const clean=dedupe(fixtures);

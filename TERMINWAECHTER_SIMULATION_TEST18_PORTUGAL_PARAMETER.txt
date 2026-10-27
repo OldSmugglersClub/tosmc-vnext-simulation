@@ -1,0 +1,11 @@
+TOSMC vNext Simulation – TEST18 Portugal-Parameterdiagnose
+
+- ausschließlich tosmc-vnext-simulation
+- protokolliert bereinigte URL-Parameter offizieller JSON-Antworten
+- Token-, Schlüssel-, Authentifizierungs-, Sitzungs- und Kennwortparameter werden verworfen
+- keine vollständigen API-Antworten im Bericht
+- keine Terminänderung durch diese Diagnoseerweiterung
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht bereitstellen.
