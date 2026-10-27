@@ -1,0 +1,10 @@
+TOSMC vNext Simulation – TEST16 Portugal-Antwortlimit
+
+- ausschließlich tosmc-vnext-simulation
+- der offizielle Liga-Portugal-Spielplan darf bis 10 MB gelesen werden
+- alle anderen JSON-Antworten bleiben auf 2 MB begrenzt
+- überschreitet eine Antwort ihr zulässiges Limit, wird sie nur diagnostiziert
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht auswerten.

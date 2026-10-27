@@ -1,11 +1,15 @@
 import assert from 'node:assert/strict';
 import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
+import {responseBodyLimit} from './offizielle-quellen-browser.mjs';
 let n=0;const check=(x,y)=>{assert.deepEqual(x,y);n++};
 check(providerForUrl('https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/xx/matches'),'seriea');
 check(providerForUrl('https://api.premierleague.com/broadcasting/match-events'),'premierleague');
 check(providerForUrl('https://www.ligaportugal.pt/api/v1/competition/matches'),'portugal');
 check(providerForUrl('https://api.premierleague.com/content/premierleague/en'),null);
 check(providerForUrl('https://malicious.com/api/v1/competition/matches'),null);
+check(responseBodyLimit('https://www.ligaportugal.pt/api/v1/competition/matches'),10_000_000);
+check(responseBodyLimit('https://www.ligaportugal.pt/api/v1/competition/teams'),2_000_000);
+check(responseBodyLimit('https://malicious.com/api/v1/competition/matches'),2_000_000);
 const milan={homeTeam:{name:'AC Milan'},awayTeam:{name:'Inter'},kickOff:'2026-10-31T19:45:00Z'};
 check(decodeOfficial('seriea',{data:{matches:[milan]}}).fixtures[0].anstoss,'20:45');
 check(decodeOfficial('seriea',{data:{matches:[milan]}}).fixtures[0].datum,'2026-10-31');
