@@ -1,0 +1,31 @@
+TOSMC vNext Simulation – Terminwaechter TEST11
+==============================================
+
+Ausgangsbefund TEST10
+---------------------
+Der GitHub-Lauf war technisch erfolgreich, verifizierte fachlich aber 0/11
+Spiele. Die offizielle Serie-A-Quelle lieferte 190 Spiele korrekt. Die drei
+italienischen TOSMC-Paarungen wurden wegen fehlender offizieller Teamnamen nicht
+zugeordnet. Es erfolgte richtigerweise keine Änderung.
+
+Korrektur TEST11
+----------------
+Ergänzt werden ausschließlich die nachgewiesenen offiziellen Team-Aliase:
+AC Milan, Inter, Internazionale, Juventus, Bologna und Bologna FC 1909.
+Ein zusätzlicher Regressionstest verlangt:
+- Madonnina: eindeutige Abweichung auf 31.10.2026, 20:45 Uhr
+- Derby d'Italia: eindeutige identische Zuordnung
+- Bologna gegen Juventus: eindeutige identische Zuordnung
+- unbekannter Gegner: weiterhin keine Zuordnung
+
+England, Frankreich und Portugal bleiben unverändert gesperrt, solange deren
+offizielle Quellen keine eindeutig auswertbaren Spiele liefern.
+
+Einbau und Test
+---------------
+Paket in den lokalen Hauptordner von tosmc-vnext-simulation entpacken,
+Ordner zusammenführen, vier Dateien in GitHub Desktop kontrollieren, committen
+und selbst pushen. Danach den Workflow
+"TOSMC vNext Simulation – Terminwächter automatisch" erneut manuell starten.
+
+Test2v2 und Live bleiben unberührt.
