@@ -37,6 +37,17 @@ async function fetchFpl(){
  return {decoded:decodeFpl(bootstrap,fixtures),endpoints:urls.map((url,i)=>({host:new URL(url).hostname,pfad:new URL(url).pathname,http:responses[i].status}))};
 }
 export function portugalSeasonKey(season){const m=String(season||'').match(/^(\d{4})\/(\d{4})$/);return m?m[1]+m[2]:null;}
+export function portugalRoundMetadata(data){const out=[],seen=new WeakSet();let visited=0;
+ function walk(x,depth=0){if(!x||typeof x!=='object'||seen.has(x)||depth>16||++visited>30000)return;seen.add(x);if(Array.isArray(x)){for(const v of x.slice(0,5000))walk(v,depth+1);return;}
+  const keys=Object.keys(x);if(keys.some(k=>/round|jornada|matchday/i.test(k))){const sample={};for(const [k,v] of Object.entries(x))if((typeof v==='string'||typeof v==='number'||typeof v==='boolean')&&/round|jornada|matchday|date|start|end|number|id|name|title|current/i.test(k))sample[k.slice(0,80)]=String(v).slice(0,160);if(Object.keys(sample).length)out.push(sample);}
+  for(const [k,v] of Object.entries(x))if(v&&typeof v==='object'&&!/news|article|media|video|player|statistic/i.test(k))walk(v,depth+1);
+ }walk(data);return {knoten:visited,beispiele:out.slice(0,30)};}
+async function fetchPortugalRounds(season){
+ const seasonKey=portugalSeasonKey(season);if(!seasonKey)throw Error('PORTUGAL_SAISON_UNGUELTIG');
+ const url=new URL('https://www.ligaportugal.pt/api/v1/competition/season/rounds');url.searchParams.set('competition','ligaportugalbetclic');url.searchParams.set('season',seasonKey);
+ const response=await fetch(url,{headers:{Accept:'application/json','User-Agent':'TOSMC-Fixture-Check/1.0'},signal:AbortSignal.timeout(18000)});if(!response.ok)throw Error('PORTUGAL_RUNDEN_HTTP_'+response.status);if(!/json/i.test(response.headers.get('content-type')||''))throw Error('PORTUGAL_RUNDEN_CONTENT_TYPE');
+ const body=Buffer.from(await response.arrayBuffer());if(body.length>2_000_000)throw Error('PORTUGAL_RUNDEN_ZU_GROSS_'+body.length);const diagnosis=portugalRoundMetadata(JSON.parse(body.toString('utf8')));return {diagnosis,endpoint:{host:url.hostname,pfad:url.pathname,parameter:safeQuery(url.href),http:response.status,bytes:body.length}};
+}
 async function fetchPortugalLeague(season){
  const seasonKey=portugalSeasonKey(season);if(!seasonKey)throw Error('PORTUGAL_SAISON_UNGUELTIG');
  const url=new URL('https://www.ligaportugal.pt/api/v1/competition/matches');
@@ -63,7 +74,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
    pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();const limit=responseBodyLimit(u);if(body.length>limit){schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),status:'ANTWORT_ZU_GROSS',bytes:body.length,limit});return;}const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),bytes:body.length,...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));}}catch{}})());});
   try{await page.goto(src.url,{waitUntil:'domcontentloaded',timeout});await page.waitForTimeout(4500);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
-   if(src.verband==='portugal')try{const season=byId.get(src.spielIds[0])?.saison;const liga=await fetchPortugalLeague(season);fixtures.push(...liga.decoded.fixtures);endpoints.push(liga.endpoint);schemaBefunde.push({pfad:liga.endpoint.pfad,parameter:liga.endpoint.parameter,bytes:liga.endpoint.bytes,direktAbruf:true,...liga.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-direkt',fehler:String(e.message)});}
+   if(src.verband==='portugal'){const season=byId.get(src.spielIds[0])?.saison;try{const liga=await fetchPortugalLeague(season);fixtures.push(...liga.decoded.fixtures);endpoints.push(liga.endpoint);schemaBefunde.push({pfad:liga.endpoint.pfad,parameter:liga.endpoint.parameter,bytes:liga.endpoint.bytes,direktAbruf:true,...liga.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-direkt',fehler:String(e.message)});}try{const rounds=await fetchPortugalRounds(season);endpoints.push(rounds.endpoint);schemaBefunde.push({provider:'portugal-runden',pfad:rounds.endpoint.pfad,parameter:rounds.endpoint.parameter,bytes:rounds.endpoint.bytes,...rounds.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-runden',fehler:String(e.message)});}}
    const clean=dedupe(fixtures);
    report.quellen.push({name:src.name,status:clean.length?'SPIELE_EXTRAHIERT':'KEINE_SPIELE_EXTRAHIERT',anzahl:clean.length,antworten:endpoints,schemaBefunde,seite:page.url()});
    for(const id of src.spielIds){const g=byId.get(id);if(!g){report.befunde.push({spielId:id,status:'SPIEL_FEHLT'});continue;}if(g.status==='beendet')continue;

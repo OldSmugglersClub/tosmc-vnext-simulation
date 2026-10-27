@@ -1,0 +1,11 @@
+TOSMC vNext Simulation – TEST20 Portugal-Rundenmetadaten
+
+- ausschließlich tosmc-vnext-simulation
+- liest den offiziellen Runden-Endpunkt der Liga Portugal Betclic
+- protokolliert nur Runden-, Nummern- und Datumsfelder, maximal 30 Beispiele
+- lädt noch keine zusätzlichen Spieltage und ändert keine Termine
+- maximal 2 MB Antwortgröße für Rundenmetadaten
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht bereitstellen.
