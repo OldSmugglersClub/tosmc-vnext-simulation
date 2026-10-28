@@ -1,0 +1,7 @@
+TEST30 – Frankreich: dynamisch zusammengesetzte Spielplanpfade ermitteln
+
+- Protokolliert begrenzte Codekontexte um gameweek, championship_match, matchday und ma-api.
+- Maximal zehn Kontexte je relevantem offiziellen Ligue-1-Modul.
+- Speichert weder vollständige Programmmodule noch fremde Antworten.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
