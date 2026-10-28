@@ -408,16 +408,40 @@
           "datumAnzeige": "25.10.2026",
           "anstoss": "13:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [
             "smugglerauftrag"
           ],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 9. Spieltag der 2. Bundesliga.",
           "quelleStand": "2026-07-03",
           "heimTeamId": "holstein-kiel",
-          "auswaertsTeamId": "dynamo-dresden"
+          "auswaertsTeamId": "dynamo-dresden",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-26T06:18:27.853Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 37,
+                "prozent": 52.9
+              },
+              "2": {
+                "anzahl": 21,
+                "prozent": 30
+              },
+              "X": {
+                "anzahl": 12,
+                "prozent": 17.1
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-26T06:18:27.853Z"
         },
         {
           "id": "sma-2026-27-10-084",
@@ -9622,7 +9646,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-27T15:56:10.760Z",
+            "stand": "2026-10-26T05:18:06.615Z",
             "abgegeben": 67,
             "nichtAbgegeben": 33,
             "verborgen": 0,
@@ -9641,7 +9665,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-27T15:56:10.760Z"
+          "aktualisiertAm": "2026-10-26T05:18:06.615Z"
         },
         {
           "id": "pk-2026-27-02-madonnina",
@@ -9664,7 +9688,7 @@
             "piratenkodex"
           ],
           "notiz": "Piratenkodex II – Madonnina",
-          "quelleStand": "2026-10-27",
+          "quelleStand": "2026-07-30",
           "heimTeamId": "ac-mailand",
           "auswaertsTeamId": "inter-mailand"
         },
@@ -9689,7 +9713,7 @@
             "piratenkodex"
           ],
           "notiz": "Piratenkodex III – NW Derby",
-          "quelleStand": "2026-10-27",
+          "quelleStand": "2026-07-30",
           "heimTeamId": "fc-liverpool",
           "auswaertsTeamId": "manchester-united"
         },
@@ -9705,7 +9729,7 @@
           "datumVon": "2027-01-10",
           "datumBis": "2027-01-10",
           "datumAnzeige": "10.01.2027",
-          "anstoss": "18:30",
+          "anstoss": "20:45",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9776,11 +9800,11 @@
           "runde": "Smugglers Weihnachtsregatta",
           "spieltagNummer": 1,
           "spielNummer": null,
-          "datum": "2026-12-26",
-          "datumVon": "2026-12-26",
-          "datumBis": "2026-12-26",
-          "datumAnzeige": "26.12.2026",
-          "anstoss": "16:00",
+          "datum": "2026-12-27",
+          "datumVon": "2026-12-27",
+          "datumBis": "2026-12-27",
+          "datumAnzeige": "27.12.2026",
+          "anstoss": "17:30",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9830,7 +9854,7 @@
           "datumVon": "2026-12-30",
           "datumBis": "2026-12-30",
           "datumAnzeige": "30.12.2026",
-          "anstoss": "21:00",
+          "anstoss": "21:15",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9851,11 +9875,11 @@
           "runde": "Smugglers Weihnachtsregatta",
           "spieltagNummer": 1,
           "spielNummer": null,
-          "datum": "2027-01-02",
-          "datumVon": "2027-01-02",
-          "datumBis": "2027-01-02",
-          "datumAnzeige": "02.01.2027",
-          "anstoss": "16:00",
+          "datum": "2027-01-03",
+          "datumVon": "2027-01-03",
+          "datumBis": "2027-01-03",
+          "datumAnzeige": "03.01.2027",
+          "anstoss": "17:30",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -9880,7 +9904,7 @@
           "datumVon": "2027-01-03",
           "datumBis": "2027-01-03",
           "datumAnzeige": "03.01.2027",
-          "anstoss": "18:30",
+          "anstoss": "20:45",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -14719,6 +14743,6 @@
       ]
     }
   ],
-  "datenVersion": 83,
-  "aktualisiert": "2026-10-27T20:17:42.996Z"
+  "datenVersion": 82,
+  "aktualisiert": "2026-10-26"
 }

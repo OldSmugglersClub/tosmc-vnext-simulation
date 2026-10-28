@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "type": "tosmc-vnext-website-simulation",
   "writeTarget": true,
-  "sourceBaseline": "Live 4.9.2-HF12-HF120 vor Piratenkodex I – El Clasico",
-  "sourceCommit": "abb902f916bf63801f304a531196a970701487eb",
-  "sourceZipSha256": "53ac19acd497720fe5812c3f7e970f3f6f4fb1308f203c6ccc4cbc77ef59e92f",
-  "synchronizedAt": "2026-10-26",
+  "sourceBaseline": "Bereitgestellter Live-ZIP-Stand vom 28.10.2026; kontrollierter Abgleich, kein GitHub-HEAD-Nachweis",
+  "sourceCommit": null,
+  "sourceZipSha256": "0e2ab0a475bf5874dc84ed619fe88f2de748e6ff730621f05269f50cc6294416",
+  "synchronizedAt": "2026-10-28",
   "sourcePolicy": "Kontrollierte Live-Vorherbasis nur fuer vNext-Simulation. Test2v2, Live und produktiver TOSMC-Admin bleiben READ ONLY.",
   "createdFor": "TOSMC Admin vNext"
 }

@@ -109,8 +109,74 @@ function thirtySecondsCompletedHtml(entry,withPreviousLabel=false){
  const previous=withPreviousLabel?'<div class="logbook-30s-previous-label"><span class="logbook-kicker">Zuletzt abgeschlossen</span></div>':'';
  return `${previous}<div class="logbook-30s-head"><span class="logbook-kicker">${formatThirtySecondsKicker(entry.bezeichnung||entry.runde||"Letzter Spieltag")}</span></div>${stats.length?`<div class="logbook-30s-stats">${stats.map(stat=>`<article class="logbook-30s-stat"><span>${esc(stat.label)}</span><strong>${Number(stat.value).toLocaleString("de-DE")}</strong><small>${esc(stat.copy)}</small></article>`).join("")}</div>`:""}${story?`<article class="logbook-30s-story"><span>${esc(story.kicker||"Die Geschichte des Spieltags")}</span><strong>${esc(story.title)}</strong><p>${esc(story.text)}</p></article>`:""}`;
 }
+// Startseite: alle abgeschlossenen Wettbewerbsrueckblicke des juengsten Spielwochenendes.
+// Datum kommt ausschliesslich von den zugeordneten Spielen, niemals vom Upload-Zeitpunkt.
+function weekendFriday(dateStr){
+ if(!/^\d{4}-\d{2}-\d{2}$/.test(String(dateStr||"")))return null;
+ const date=new Date(`${dateStr}T12:00:00Z`);
+ if(!Number.isFinite(date.getTime()))return null;
+ const day=date.getUTCDay();
+ if(day!==5&&day!==6&&day!==0)return null;
+ date.setUTCDate(date.getUTCDate()-(day===0?2:day-5));
+ return date.toISOString().slice(0,10);
+}
+function eventWeekend(entry){
+ const days=arr(entry?.spielIds).map(id=>gameById.get(id)).filter(Boolean)
+  .map(g=>String(g.datum||g.datumVon||"").slice(0,10));
+ const weekends=days.map(weekendFriday).filter(Boolean).sort();
+ return weekends.at(-1)||null;
+}
+function weekendCardsHtml(entries){
+ const completed=arr(entries).filter(e=>e?.abgeschlossen===true).map(e=>({entry:e,weekend:eventWeekend(e)})).filter(x=>x.weekend);
+ if(!completed.length)return null;
+ const lastWeekend=completed.reduce((max,x)=>x.weekend>max?x.weekend:max,"");
+ const chosen=completed.filter(x=>x.weekend===lastWeekend);
+ const uniq=[...new Map(chosen.map(x=>[x.entry.id,x.entry])).values()];
+ uniq.sort((a,b)=>String(a.wettbewerb).localeCompare(String(b.wettbewerb),'de')||String(a.runde).localeCompare(String(b.runde),'de'));
+ const toDay=iso=>`${iso.slice(8,10)}.${iso.slice(5,7)}.${iso.slice(0,4)}`;
+ const start=new Date(`${lastWeekend}T12:00:00Z`),finish=new Date(start);finish.setUTCDate(finish.getUTCDate()+2);
+ const title=`Wochenend-Rückblick · ${toDay(lastWeekend)}–${toDay(finish.toISOString().slice(0,10))}`;
+ const cards=uniq.map(entry=>{
+  const story=storyFromEntry(entry);
+  const stats=[startStat(entry,"kapitaene"),startStat(entry,"gegen-den-strom"),startStat(entry,"volltreffer")].filter(Boolean);
+  const against=highlight(entry,"gegen-den-strom");
+  const captains=highlight(entry,"kapitaene");
+  const link=`./logbuch.html?logbuchId=${encodeURIComponent(entry.id)}`;
+  let hero="",headline="",detail="",theme="captains";
+  if(against){
+   const d=against.daten||{},game=gameById.get(d.spielId)||{};
+   const goals=String(d.ergebnis||((Number.isFinite(game.heimtore)&&Number.isFinite(game.auswaertstore))?`${game.heimtore}:${game.auswaertstore}`:""));
+   const count=Number(d.meistGetippt?.anzahl||0),submitted=Number(d.abgegeben||0),correct=Number(d.richtigeTendenz?.anzahl||0),exact=Number(d.exakt||0);
+   hero=goals?esc(goals.replace(':',' : ')):`${correct}`;
+   headline="Überraschung!";
+   const home=teamDisplayName(d.heimTeam||game.heimTeamId),away=teamDisplayName(d.auswaertsTeam||game.auswaertsTeamId);
+   detail=`<div class="logbook-poster-match">${esc(home)} <span>gegen</span> ${esc(away)}</div><div class="logbook-poster-proof"><strong>${count}${submitted?` von ${submitted}`:""}</strong> tippten anders <span aria-hidden="true">·</span> <strong>${correct}</strong> richtig <span aria-hidden="true">·</span> <strong>${exact}</strong> exakt</div>`;
+   theme="sensation";
+  }else if(captains){
+   const d=captains.daten||{},count=Number(d.anzahl||arr(d.tipper).length||0);
+   hero=String(count);headline=count===1?"Kapitän des Spieltags":"Kapitäne teilen die Beute";
+   detail=`<div class="logbook-poster-proof"><strong>${Number(d.punkte||0)}</strong> Punkte · beste Spieltagsleistung</div>`;
+  }else if(story){
+   hero="★";headline=esc(story.title||"Spieltag im Fokus");
+   detail=story.text?`<div class="logbook-poster-proof">${esc(story.text)}</div>`:"";
+   theme="story";
+  }else{
+   const stat=stats[0];hero=stat?String(stat.value):"✓";headline=stat?esc(stat.label):"Spieltagsrückblick";
+   detail=stat?`<div class="logbook-poster-proof">${esc(stat.copy)}</div>`:"";
+  }
+  // Lange Wettbewerbsnamen als ganze Woerter erhalten: nie willkuerlich mitten in "El Clasico" trennen.
+  const competition=esc(keepSpieltag(entry.bezeichnung||entry.runde||entry.wettbewerb||"Spieltag"));
+  return `<article class="logbook-weekend-card logbook-weekend-card--${theme}"><div class="logbook-poster-top"><span class="logbook-poster-competition">${competition}</span><span class="logbook-poster-symbol" aria-hidden="true">✦</span></div><div class="logbook-poster-center"><span class="logbook-poster-headline">${headline}</span><strong class="logbook-poster-hero">${hero}</strong>${detail}</div><a class="logbook-weekend-link" href="${link}" aria-label="Rückblick öffnen: ${competition}">Geschichte entdecken <span aria-hidden="true">›</span></a></article>`;
+ }).join("");
+ return `<div class="logbook-weekend-title">${esc(title)}</div><div class="logbook-weekend-grid">${cards}</div>`;
+}
 function renderThirtySeconds(entry,pending){
  const host=$("#logbook-30s"); if(!host) return;
+ // Die ausfuehrliche Logbuch-Seite behaelt ihren bisherigen Einzelrueckblick.
+ if($(".logbook-teaser")){
+  const weekend=weekendCardsHtml(data?.logbuecher);
+  if(weekend){host.innerHTML=weekend;return;}
+ }
  const completed=thirtySecondsCompletedHtml(entry,Boolean(pending?.active&&entry));
  if(pending?.active){
   host.innerHTML=`<div class="logbook-30s-pending"><span class="logbook-kicker">${esc(pending.kicker)}</span><strong>${esc(keepSpieltag(pending.title))}</strong><p>${esc(pending.text)}</p>${pending.detail?`<small>${esc(pending.detail)}</small>`:""}</div>${completed}`;
@@ -242,6 +308,7 @@ function renderHighlightsWithCoco(entry){
  const rows=[];
  let inserted=false;
  const highlights=shown(entry);
+ highlights.sort((a,b)=>Number(b?.typ==="zahlen-aus-der-kombuese")-Number(a?.typ==="zahlen-aus-der-kombuese"));
  const crewHighlight=highlights.find(h=>h?.typ==="crewduell");
  const movementHighlight=highlights.find(h=>h?.typ==="kursbewegung");
  const form=formCrewCard(entry);
@@ -427,7 +494,9 @@ function archive(){
  });
 
  const latest=source.at(-1);
- const initialCompetition=competitionKey(latest);
+ const requestedId=new URLSearchParams(location.search).get("logbuchId");
+ const selectedFromLink=source.find(e=>e.id===requestedId)||latest;
+ const initialCompetition=competitionKey(selectedFromLink);
  host.innerHTML=`
    <div class="lb-archive-field">
      <label for="lb-archive-competition">Wettbewerb</label>
@@ -461,7 +530,7 @@ function archive(){
  }
 
  competitionSelect.value=initialCompetition;
- fillEntries(initialCompetition,latest?.id);
+ fillEntries(initialCompetition,selectedFromLink?.id);
  competitionSelect.addEventListener("change",()=>fillEntries(competitionSelect.value,null));
  entrySelect.addEventListener("change",()=>{
    const entry=source.find(x=>x.id===entrySelect.value);

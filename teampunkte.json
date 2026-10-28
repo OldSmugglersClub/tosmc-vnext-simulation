@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 21,
-  "aktualisiert": "2026-10-27",
+  "datenVersion": 22,
+  "aktualisiert": "2026-10-26",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-10-27T15:56:10.760Z",
-  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
+  "berechnetAm": "2026-10-26T06:18:27.853Z",
+  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / TOSMC-Admin 6.5.0-TOSMC-ADMIN5-HF3-FIX2-HF3",
   "gesamt": [
     {
       "platz": 1,
@@ -36,10 +36,10 @@
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 18,
-      "durchschnitt": 0.24,
+      "punktesumme": 60,
+      "durchschnitt": 0.8,
       "mitglieder": 75,
-      "kicktippKontrollwert": 0.24,
+      "kicktippKontrollwert": 0.8,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -47,10 +47,10 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 5,
-      "durchschnitt": 0.2,
+      "punktesumme": 14,
+      "durchschnitt": 0.56,
       "mitglieder": 25,
-      "kicktippKontrollwert": 0.2,
+      "kicktippKontrollwert": 0.56,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -326,15 +326,15 @@
       "punkte": 165
     },
     {
-      "teilnehmerId": "flokicker94",
-      "teilnehmer": "FloKicker94",
-      "team": "New Smugglers Team",
-      "punkte": 165
-    },
-    {
       "teilnehmerId": "tortugasge",
       "teilnehmer": "TortugaSGE",
       "team": "Old Smugglers Team",
+      "punkte": 165
+    },
+    {
+      "teilnehmerId": "flokicker94",
+      "teilnehmer": "FloKicker94",
+      "team": "New Smugglers Team",
       "punkte": 165
     },
     {

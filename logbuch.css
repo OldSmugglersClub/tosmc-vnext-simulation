@@ -1082,3 +1082,59 @@ body{overflow-x:hidden}
 @media(max-width:760px){
   .lb-highlight--captains .lb-name{flex:1 1 140px;}
 }
+
+
+/* HF122 TEST: Wochenende statt letztem Upload, jeder Wettbewerb mit eigener Geschichte. */
+.logbook-weekend-title{color:#d7a64d;font-size:.84rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:7px 0 11px}
+.logbook-weekend-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,285px),1fr));gap:12px;align-items:stretch}
+.logbook-weekend-card{min-width:0;padding:15px;border:1px solid rgba(198,142,47,.42);border-radius:10px;background:linear-gradient(160deg,rgba(35,18,9,.93),rgba(13,8,5,.83));display:flex;flex-direction:column;gap:12px}
+.logbook-weekend-card>.logbook-kicker{display:block;min-height:2.3em;color:#e1b45d;font-size:.78rem;line-height:1.3;font-weight:800;letter-spacing:.035em;text-transform:uppercase}
+.logbook-weekend-story{flex:1;min-width:0}
+.logbook-weekend-story>span{display:block;color:#cfa052;font-size:.70rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+.logbook-weekend-story h4{margin:.4rem 0;color:#f1d39a;font:700 1.12rem/1.3 Georgia,'Times New Roman',serif}
+.logbook-weekend-story p,.logbook-weekend-neutral{color:#d5bd99;font-size:.88rem;line-height:1.5;margin:.4rem 0}
+.logbook-weekend-names{border-top:1px solid rgba(198,142,47,.22);padding-top:8px;overflow-wrap:anywhere}
+.logbook-weekend-stats{display:flex;flex-wrap:wrap;gap:6px}
+.logbook-weekend-stats>span{color:#e4c895;border:1px solid rgba(198,142,47,.28);background:rgba(11,6,4,.65);border-radius:7px;padding:6px 8px;font-size:.74rem}
+.logbook-weekend-stats strong{color:#ffd992;margin-left:4px}
+.logbook-weekend-link{display:block;align-self:flex-start;margin-top:auto;color:#f5d28b!important;text-decoration:underline;text-underline-offset:4px;font-weight:700;font-size:.85rem}
+@media(max-width:720px){.logbook-weekend-grid{grid-template-columns:1fr}.logbook-weekend-card{padding:13px}.logbook-weekend-card>.logbook-kicker{min-height:0}}
+
+/* HF122-TEST2: Startseiten-Karten reduzieren Text; die Geschichte bleibt verlinkt. */
+.logbook-weekend-card{gap:8px;padding:13px 14px}
+.logbook-weekend-card>.logbook-kicker{min-height:0;font-size:.74rem;line-height:1.3}
+.logbook-weekend-story>span{font-size:.72rem;color:#f4c366;font-weight:900}
+.logbook-weekend-story h4{margin:.32rem 0 .45rem;font-size:clamp(1.13rem,1.5vw,1.35rem);line-height:1.25;color:#ffe2a1}
+.logbook-weekend-facts{font-size:.81rem;line-height:1.4;color:#d6b98a}
+.logbook-weekend-facts strong{color:#ffdc8d;font-size:1.03em}
+.logbook-weekend-names{font-size:.76rem;line-height:1.3;color:#d1b586;margin-top:5px;overflow-wrap:anywhere}
+.logbook-weekend-names strong{color:#f5d28b}
+.logbook-weekend-stats{margin-top:auto;gap:5px}
+.logbook-weekend-stats>span{font-size:.72rem;padding:4px 6px}
+.logbook-weekend-stats strong{font-size:1.08em;margin:0 2px 0 0}
+.logbook-weekend-link{font-size:.78rem;margin-top:3px}
+/* Auswahl steht nun am Seitenanfang unter dem Logbuch-Kopf. */
+.lb-archive{margin-bottom:18px}
+
+
+/* HF122-FINAL: Plakative Wochenend-Poster statt Textkacheln; Titel ohne Binnenworttrennung. */
+.logbook-weekend-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.logbook-weekend-card{position:relative;isolation:isolate;overflow:hidden;min-width:0;min-height:270px;padding:0;gap:0;border:1px solid rgba(226,161,57,.52);border-radius:13px;background:radial-gradient(ellipse at 85% 8%,rgba(174,98,23,.22),transparent 53%),linear-gradient(160deg,#311906 0%,#120a06 78%);box-shadow:inset 0 0 0 1px rgba(255,203,105,.05),0 10px 22px rgba(0,0,0,.14)}
+.logbook-weekend-card::before{content:"";position:absolute;top:-40px;right:-38px;width:130px;height:130px;border-radius:50%;border:1px solid rgba(251,190,77,.13);box-shadow:0 0 0 18px rgba(251,190,77,.025),0 0 0 40px rgba(251,190,77,.018);z-index:-1}
+.logbook-weekend-card--sensation{border-color:rgba(253,186,75,.8);background:radial-gradient(ellipse at 55% 18%,rgba(169,66,21,.37),transparent 65%),linear-gradient(160deg,#4a210a,#130905 80%)}
+.logbook-poster-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:13px 14px 8px;border-bottom:1px solid rgba(221,155,54,.16)}
+.logbook-poster-competition{min-width:0;color:#dbba7b;font-size:.70rem;line-height:1.38;font-weight:850;letter-spacing:.04em;text-transform:uppercase;hyphens:none;word-break:normal;overflow-wrap:normal}
+.logbook-poster-symbol{flex:0 0 auto;color:#d2a14e;font-size:1.25rem;line-height:1}
+.logbook-poster-center{display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:7px;padding:13px 12px 12px;text-align:center;min-width:0}
+.logbook-poster-headline{color:#ffcc71;font-size:clamp(.93rem,1.4vw,1.1rem);font-family:Georgia,'Times New Roman',serif;font-weight:800;line-height:1.25;hyphens:none;word-break:normal;overflow-wrap:normal;text-wrap:balance}
+.logbook-poster-hero{color:#ffe0a2;font:800 clamp(2.45rem,4vw,3.55rem)/1.03 Georgia,'Times New Roman',serif;letter-spacing:-.05em;font-variant-numeric:tabular-nums;text-shadow:0 2px 20px rgba(255,173,46,.26)}
+.logbook-weekend-card--sensation .logbook-poster-hero{color:#fff0bb;font-size:clamp(2.7rem,4.25vw,3.8rem)}
+.logbook-poster-match{color:#e8c897;font-size:.84rem;line-height:1.3;hyphens:none;word-break:normal;overflow-wrap:normal;text-wrap:balance}
+.logbook-poster-match span{color:#997b55;font-size:.69rem}
+.logbook-poster-proof{color:#d6b58a;font-size:.75rem;line-height:1.38;text-wrap:balance;hyphens:none;word-break:normal}
+.logbook-poster-proof strong{color:#ffd784;font-size:1.04em}
+.logbook-weekend-link{margin:0!important;display:flex;justify-content:space-between;align-items:center;align-self:stretch;padding:11px 14px;background:rgba(222,151,43,.10);border-top:1px solid rgba(230,165,65,.23);color:#ffd98d!important;text-decoration:none;font-size:.79rem;letter-spacing:.025em;font-weight:800}
+.logbook-weekend-link span{font-size:1.4rem;line-height:.7}
+.logbook-weekend-link:hover,.logbook-weekend-link:focus-visible{background:rgba(222,151,43,.23)}
+@media(max-width:900px){.logbook-weekend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.logbook-weekend-grid{grid-template-columns:1fr}.logbook-weekend-card{min-height:230px}.logbook-poster-hero{font-size:3.2rem}}

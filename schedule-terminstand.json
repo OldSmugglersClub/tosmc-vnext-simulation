@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T20:17:43.009Z",
+  "updatedAt": "2026-10-28T20:52:44.523112Z",
   "entries": {
     "sma-2026-27-auftakt-001": {
       "datum": "2026-08-09",
@@ -396,7 +396,7 @@
       "anstoss": "20:45",
       "status": "terminiert",
       "terminBestaetigt": true,
-      "quelleStand": "2026-10-27"
+      "quelleStand": "2026-07-30"
     },
     "pk-2026-27-03-nw-derby": {
       "datum": "2026-11-22",
@@ -405,13 +405,13 @@
       "anstoss": "17:30",
       "status": "terminiert",
       "terminBestaetigt": true,
-      "quelleStand": "2026-10-27"
+      "quelleStand": "2026-07-30"
     },
     "pk-2026-27-04-ditalia": {
       "datum": "2027-01-10",
       "datumVon": "2027-01-10",
       "datumBis": "2027-01-10",
-      "anstoss": "18:30",
+      "anstoss": "20:45",
       "status": "terminiert",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-30"
@@ -435,10 +435,10 @@
       "quelleStand": "2026-07-30"
     },
     "wr-2026-27-01": {
-      "datum": "2026-12-26",
-      "datumVon": "2026-12-26",
-      "datumBis": "2026-12-26",
-      "anstoss": "16:00",
+      "datum": "2026-12-27",
+      "datumVon": "2026-12-27",
+      "datumBis": "2026-12-27",
+      "anstoss": "17:30",
       "status": "terminiert",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-30"
@@ -456,16 +456,16 @@
       "datum": "2026-12-30",
       "datumVon": "2026-12-30",
       "datumBis": "2026-12-30",
-      "anstoss": "21:00",
+      "anstoss": "21:15",
       "status": "terminiert",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-30"
     },
     "wr-2026-27-04": {
-      "datum": "2027-01-02",
-      "datumVon": "2027-01-02",
-      "datumBis": "2027-01-02",
-      "anstoss": "16:00",
+      "datum": "2027-01-03",
+      "datumVon": "2027-01-03",
+      "datumBis": "2027-01-03",
+      "anstoss": "17:30",
       "status": "terminiert",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-30"
@@ -474,7 +474,7 @@
       "datum": "2027-01-03",
       "datumVon": "2027-01-03",
       "datumBis": "2027-01-03",
-      "anstoss": "18:30",
+      "anstoss": "20:45",
       "status": "terminiert",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-30"
@@ -1924,7 +1924,7 @@
       "datumVon": "2026-10-25",
       "datumBis": "2026-10-25",
       "anstoss": "13:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-03"
     },
