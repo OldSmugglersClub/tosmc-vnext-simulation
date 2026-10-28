@@ -1,0 +1,8 @@
+TEST23 – Frankreich: offizielle Ligue-1-Spielplanquelle diagnostizieren
+
+- Ziel: offizieller Ergebnisbereich der Ligue 1, Saison 2026/2027, Spieltag 19.
+- Zielspiel: Paris Saint-Germain – Olympique de Marseille.
+- Der Lauf bleibt vollständig lesend.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
+- Der erzeugte Bericht dient ausschließlich dazu, die offizielle maschinenlesbare Quelle sicher zu identifizieren.

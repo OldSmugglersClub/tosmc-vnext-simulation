@@ -39,7 +39,7 @@
     {
       "name": "Frankreich offiziell",
       "verband": "frankreich",
-      "url": "https://ligue1.com/",
+      "url": "https://ligue1.com/en/competitions/ligue1mcdonalds/results?gameweek=19",
       "spielIds": [
         "pk-2026-27-05-le-classique"
       ]
@@ -369,3 +369,4 @@
   },
   "zielRepository": "tosmc-vnext-simulation"
 }
+
