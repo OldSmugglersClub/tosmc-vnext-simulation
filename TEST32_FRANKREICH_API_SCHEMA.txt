@@ -1,0 +1,3 @@
+TEST32: Offizielle Ligue-1-API-Antworten werden ausschließlich lesend und strukturell diagnostiziert.
+Ziel: Feldnamen für Mannschaften, bestätigten Anstoßzeitpunkt und Terminstatus zweifelsfrei bestimmen.
+Noch keine automatische Terminübernahme.

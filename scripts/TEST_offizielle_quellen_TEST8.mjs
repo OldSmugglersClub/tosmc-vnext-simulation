@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
-import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic,franceNextFlightDiagnostic} from './offizielle-quellen-browser.mjs';
+import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic,franceNextFlightDiagnostic,franceApiDiagnostic} from './offizielle-quellen-browser.mjs';
 let n=0;const check=(x,y)=>{assert.deepEqual(x,y);n++};
 check(providerForUrl('https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/xx/matches'),'seriea');
 check(providerForUrl('https://api.premierleague.com/broadcasting/match-events'),'premierleague');
@@ -13,6 +13,10 @@ check(responseBodyLimit('https://malicious.com/api/v1/competition/matches'),2_00
 check(safeQuery('https://www.ligaportugal.pt/api/v1/competition/matches?competitionId=1&season=2026&token=geheim'),{competitionId:'1',season:'2026'});
 check(safeQuery('nicht-gueltig'),{});
 check((await import('./offizielle-quellen.mjs')).DOMAINS.frankreich.includes('ma-api.ligue1.fr'),true);
+const franceProbe=franceApiDiagnostic({matches:[{id:'73988',date:null,home:{clubIdentity:{displayName:'Paris Saint-Germain'}},away:{clubIdentity:{displayName:'Olympique de Marseille'}}}]});
+check(franceProbe.wurzel,['matches']);
+check(franceProbe.arrays[0].pfad,'$.matches');
+check(franceProbe.beispiele[0].wert.home.clubIdentity.displayName,'Paris Saint-Germain');
 check(portugalSeasonKey('2026/2027'),'20262027');
 check(portugalSeasonKey('2026-2027'),null);
 check(portugalRoundMetadata({rounds:[{roundNumber:9,name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]}).beispiele,[{roundNumber:'9',name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]);
