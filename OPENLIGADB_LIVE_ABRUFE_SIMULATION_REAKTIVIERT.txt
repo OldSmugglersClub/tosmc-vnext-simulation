@@ -1,0 +1,21 @@
+TOSMC vNext Simulation – OpenLigaDB-Terminabrufe
+================================================
+
+Aus dem produktiven Live-Repository kontrolliert übernommen:
+- Bundesliga-Terminworkflow, viermal täglich
+- Dynamo-Dresden-Terminworkflow, viermal täglich
+
+Bereits vorhanden und bytegleich mit Live:
+- OpenLigaDB-Anzeigeabrufe für Champions League
+- OpenLigaDB-Anzeigeabrufe für Europa League
+- OpenLigaDB-Anzeigeabrufe für DFB-Pokal
+- zugehörige Wettbewerbs- und Saisonübersichtslogik
+
+Nicht übernommen:
+- Bundesliga-Ergebnisimport; Kicktipp bleibt das verbindliche Abrechnungssystem.
+
+Beide neuen Workflows:
+- brechen außerhalb von tosmc-vnext-simulation ab
+- teilen die bestehende Schreibsperre für spieldaten.json
+- committen ausschließlich spieldaten.json und schedule-terminstand.json
+- verändern weder Test2v2 noch Live

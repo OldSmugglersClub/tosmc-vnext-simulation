@@ -1,0 +1,45 @@
+name: TOSMC vNext Simulation – Dynamo Termine automatisch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: osc-bundesliga-ergebnisimport
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Simulations-Repository auschecken
+        uses: actions/checkout@v4
+      - name: Schreibziel hart prüfen
+        shell: bash
+        run: |
+          test "${GITHUB_REPOSITORY##*/}" = "tosmc-vnext-simulation" || {
+            echo "ABBRUCH: Dieses Programm darf nur in tosmc-vnext-simulation laufen."
+            exit 1
+          }
+      - name: Dynamo-Termine aus OpenLigaDB prüfen
+        run: |
+          node scripts/dynamo-terminimport-auto.mjs
+          node scripts/schedule-terminstand.mjs
+      - name: Ausschließlich Termindaten committen
+        shell: bash
+        run: |
+          if git diff --quiet -- spieldaten.json && { [ ! -f schedule-terminstand.json ] || git diff --quiet -- schedule-terminstand.json; }; then
+            echo "Keine sichere Terminaenderung."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add spieldaten.json
+          git add schedule-terminstand.json
+          git diff --cached --quiet || git commit -m "vNext Simulation: Dynamo-Termine automatisch aktualisiert"
+          git push
