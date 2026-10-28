@@ -1,0 +1,8 @@
+TEST28 – Frankreich: Consent über sichtbare Button-Rolle behandeln
+
+- Erkennt den Ablehnungsbutton über seine sichtbare barrierefreie Bezeichnung.
+- Unterstützt französische und englische Ablehnungsbezeichnungen.
+- Protokolliert eindeutig: abgelehnt oder Dialog nicht gefunden.
+- Keine Zustimmung zu optionalen Cookies.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
