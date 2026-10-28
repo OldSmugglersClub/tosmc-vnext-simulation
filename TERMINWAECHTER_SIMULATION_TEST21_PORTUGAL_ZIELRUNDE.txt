@@ -1,0 +1,12 @@
+TOSMC vNext Simulation – TEST21 Portugal-Zielrunde
+
+- ausschließlich tosmc-vnext-simulation
+- Benfica gegen Sporting ist anhand der offiziellen Liga-Seite Spieltag 16
+- lädt zusätzlich ausschließlich den konfigurierten Spieltag 16
+- fehlende oder nicht eindeutige offizielle Uhrzeiten führen zu keiner Änderung
+- bestehendes 56-Tage-Fenster bleibt unverändert
+- Rundenzuordnungen ohne bekannte TOSMC-Spiel-ID werden abgewiesen
+- keine Änderung an Wertungen, Ergebnissen, Historie oder Hall of Fame
+- keine Schreibverbindung zu Test2v2 oder Live
+
+Nach Installation den Workflow manuell starten und den Prüfbericht bereitstellen.

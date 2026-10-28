@@ -50,7 +50,10 @@
       "url": "https://www.ligaportugal.pt/",
       "spielIds": [
         "wr-2026-27-02"
-      ]
+      ],
+      "rundenBySpielId": {
+        "wr-2026-27-02": 16
+      }
     },
     {
       "name": "Spanien offiziell",
