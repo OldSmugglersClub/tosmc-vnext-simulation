@@ -26,9 +26,13 @@ check(decodeOfficial('premierleague',{events:[{home:{name:'Liverpool'},away:{nam
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).fixtures.length,1);
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.beispiele,[{heim:'Porto',gast:'Benfica',datum:'2026-12-12',anstoss:'21:00'}]);
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.kandidatFeldmuster,[{keys:'away_team|home_team|match_date',count:1}]);
+check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).fixtures.length,0);
+check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).diagnosis.zeitprobleme,{'termin nicht amtlich definiert':1});
+check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T20:15:00Z',fixtureDateIsDefined:true}]}).fixtures[0].anstoss,'21:15');
 check(decodeOfficial('seriea',{news:[milan]}).fixtures.length,0);
 check(decodeOfficial('seriea',{matches:[milan,milan]}).fixtures.length,1);
 check(decodeOfficial('seriea',{matches:[{...milan,awayTeam:null}]}).fixtures.length,0);
 check(decodeOfficial('seriea',{matches:[{...milan,kickOff:'2026-10-31T19:45:00+00:00'}]}).fixtures.length,1);
 check(decodeOfficial('nonexisting',{matches:[milan]}).fixtures.length,0);
 console.log(`TEST8: ${n}/${n} bestanden`);
+

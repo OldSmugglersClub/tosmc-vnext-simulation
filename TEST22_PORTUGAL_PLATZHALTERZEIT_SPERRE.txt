@@ -1,0 +1,9 @@
+TEST22 – Portugal: unbestätigte Platzhalterzeiten sperren
+
+- fixtureDateIsDefined=false wird niemals als amtliche Anstoßzeit verwertet.
+- Technische 00:00Z-/01:00-Berlin-Platzhalter bleiben ohne Wirkung.
+- Erst fixtureDateIsDefined=true erlaubt die Terminübernahme.
+- Schutz betrifft ausschließlich die offizielle Portugal-Quelle.
+- Test2v2 und Live bleiben unberührt.
+- Intern geprüft: 31/31 Tests bestanden.
+

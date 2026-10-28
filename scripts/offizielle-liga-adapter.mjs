@@ -31,7 +31,13 @@ export function providerForUrl(url){try{const h=new URL(url).hostname;const p=ne
 export function decodeOfficial(provider,data){if(!paths[provider])return {fixtures:[],diagnosis:{reason:'NICHT_UNTERSTUETZT'}};
  const objects=nodes(data), fixtures=[], seen=new Set(), encountered={},candidateShapes={};let candidates=0;
  for(const o of objects){const h=name(val(o,paths[provider].home)),a=name(val(o,paths[provider].away)),raw=val(o,paths[provider].date),iso=timestamp(raw);
-  if(h&&a){candidates++;const shape=Object.keys(o).sort().join('|').slice(0,600);candidateShapes[shape]=(candidateShapes[shape]||0)+1;if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
+  if(h&&a){candidates++;const shape=Object.keys(o).sort().join('|').slice(0,600);candidateShapes[shape]=(candidateShapes[shape]||0)+1;
+   // Liga Portugal supplies a placeholder instant (00:00Z / 01:00 Berlin) even
+   // when only the match date is known. The provider explicitly marks those
+   // records with fixtureDateIsDefined=false. Such a placeholder must never be
+   // interpreted as an officially confirmed kick-off time.
+   if(provider==='portugal'&&Object.prototype.hasOwnProperty.call(o,'fixtureDateIsDefined')&&o.fixtureDateIsDefined!==true){encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;continue;}
+   if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
    const key=[h.toLowerCase(),a.toLowerCase(),new Date(iso).getTime()].join('|');if(seen.has(key))continue;seen.add(key);
    fixtures.push({heim:h,gast:a,...berlin(iso),startDate:iso,provider});
   }
@@ -56,3 +62,4 @@ export function decodeFpl(bootstrap,fixturesData){
  }
  return {fixtures,diagnosis:{provider:'fpl',teams:names.size,matches:matches.length,fixtures:fixtures.length,rejected}};
 }
+
