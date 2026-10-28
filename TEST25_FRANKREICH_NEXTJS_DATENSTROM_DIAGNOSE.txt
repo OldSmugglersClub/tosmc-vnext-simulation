@@ -1,0 +1,7 @@
+TEST25 – Frankreich: öffentlichen Next.js-Datenstrom diagnostizieren
+
+- Dekodiert ausschließlich eingebettete öffentliche Next.js-Flight-Payloads.
+- Protokolliert begrenzte Kontexte und öffentliche API-/GraphQL-Pfade.
+- Keine JavaScript-Ausführung durch eval.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
