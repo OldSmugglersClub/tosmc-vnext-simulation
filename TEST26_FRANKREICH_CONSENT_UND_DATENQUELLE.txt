@@ -1,0 +1,7 @@
+TEST26 – Frankreich: Spielplan nach Ablehnung optionaler Cookies laden
+
+- Lehnt ausschließlich optionale Cookies des offiziellen Ligue-1-Auftritts ab.
+- Lädt danach Spieltag 19 und protokolliert die offiziellen Datenantworten.
+- Keine Zustimmung zu Tracking oder Werbung.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
