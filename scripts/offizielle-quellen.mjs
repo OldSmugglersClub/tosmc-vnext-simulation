@@ -4,7 +4,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const ROOT=path.resolve(process.env.TOSMC_ROOT||'.');
 const OUT=path.resolve(process.env.TOSMC_OFFICIAL_OUT||'terminwaechter-bericht');
-export const DOMAINS={uefa:['uefa.com'],dfb:['dfb.de'],england:['premierleague.com'],italien:['legaseriea.it','inter.it','acmilan.com'],spanien:['laliga.com','rfef.es'],frankreich:['ligue1.com','lfp.fr'],portugal:['ligaportugal.pt'],deutschland:['bundesliga.com','dfb.de']};
+export const DOMAINS={uefa:['uefa.com'],dfb:['dfb.de'],england:['premierleague.com'],italien:['legaseriea.it','inter.it','acmilan.com'],spanien:['laliga.com','rfef.es'],frankreich:['ligue1.com','lfp.fr','ma-api.ligue1.fr'],portugal:['ligaportugal.pt'],deutschland:['bundesliga.com','dfb.de']};
 const canon=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/ß/g,'ss').replace(/[^a-z0-9]/g,'');
 const local=iso=>{const dt=new Date(iso);if(!Number.isFinite(dt.getTime()))return null;const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Berlin',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(dt).map(p=>[p.type,p.value]));return {datum:`${parts.year}-${parts.month}-${parts.day}`,anstoss:`${parts.hour}:${parts.minute}`};};
 const arr=x=>Array.isArray(x)?x:x?[x]:[];
@@ -134,3 +134,4 @@ export async function run({root=ROOT,out=OUT,fetchFn=fetch,configPath=process.en
  fs.writeFileSync(path.join(out,'OFFIZIELLE_QUELLEN_BERICHT.md'),lines.join('\n')+'\n');return report;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))run().then(r=>{console.log(JSON.stringify({status:r.status,quellen:r.quellen,befunde:r.befunde.length,abdeckung:r.abdeckung},null,2));if(r.status!=='GEPRUEFT')process.exitCode=2;}).catch(e=>{console.error(e);process.exitCode=1});
+

@@ -12,6 +12,7 @@ check(responseBodyLimit('https://www.ligaportugal.pt/api/v1/competition/teams'),
 check(responseBodyLimit('https://malicious.com/api/v1/competition/matches'),2_000_000);
 check(safeQuery('https://www.ligaportugal.pt/api/v1/competition/matches?competitionId=1&season=2026&token=geheim'),{competitionId:'1',season:'2026'});
 check(safeQuery('nicht-gueltig'),{});
+check((await import('./offizielle-quellen.mjs')).DOMAINS.frankreich.includes('ma-api.ligue1.fr'),true);
 check(portugalSeasonKey('2026/2027'),'20262027');
 check(portugalSeasonKey('2026-2027'),null);
 check(portugalRoundMetadata({rounds:[{roundNumber:9,name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]}).beispiele,[{roundNumber:'9',name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]);

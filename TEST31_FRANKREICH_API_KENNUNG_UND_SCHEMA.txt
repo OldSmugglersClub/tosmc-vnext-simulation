@@ -1,0 +1,7 @@
+TEST31 – Frankreich: offizielle API-Kennung und Antwortschema ermitteln
+
+- Erlaubt zusätzlich ausschließlich ma-api.ligue1.fr für die Frankreich-Quelle.
+- Protokolliert tatsächlich aufgerufene öffentliche JSON-Pfade und deren Struktur.
+- Sucht in eigenen Ligue-1-Modulen nach FR_L1 und championshipsIds.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
