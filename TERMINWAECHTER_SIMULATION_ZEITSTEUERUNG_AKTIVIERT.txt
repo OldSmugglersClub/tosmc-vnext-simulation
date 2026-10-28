@@ -1,0 +1,15 @@
+TOSMC vNext Simulation – Terminwaechter Zeitsteuerung
+=====================================================
+
+Der kontrollierte manuelle Simulationslauf wurde am 28.10.2026 erfolgreich
+abgeschlossen. Die taegliche Pruefung ist deshalb fuer das Repository
+tosmc-vnext-simulation aktiviert.
+
+Zeitplan: taeglich 04:17 UTC (05:17 MEZ / 06:17 MESZ).
+
+Die bestehenden Schutzgrenzen bleiben unveraendert:
+- nur eindeutig bestaetigte offizielle Termine
+- nur offene konfigurierte Spiele im 56-Tage-Fenster
+- maximal 12 Aenderungen pro Lauf
+- nur Terminfelder in spieldaten.json und schedule-terminstand.json
+- Test2v2 und Live sind keine Schreibziele

@@ -2,7 +2,10 @@ name: TOSMC vNext Simulation – Terminwächter automatisch
 
 on:
   workflow_dispatch:
-  # Die Zeitsteuerung wird erst nach bestandenem manuellen Simulationslauf aktiviert.
+  schedule:
+    # Taegliche Simulationspruefung um 04:17 UTC.
+    # GitHub verwendet fuer cron immer UTC: 05:17 MEZ / 06:17 MESZ.
+    - cron: '17 4 * * *'
 
 permissions:
   contents: write
