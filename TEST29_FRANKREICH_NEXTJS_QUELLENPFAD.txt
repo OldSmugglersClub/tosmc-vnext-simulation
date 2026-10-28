@@ -1,0 +1,7 @@
+TEST29 – Frankreich: offiziellen Quellenpfad aus Ligue-1-Next.js ermitteln
+
+- Untersucht nur eigene Scriptdateien unter ligue1.com/_next/static/chunks/.
+- Fremde Werbe-, Analyse- und Tracking-Scripts werden nicht ausgewertet.
+- Erfasst nur öffentliche API-/GraphQL-Pfade und relevante technische Begriffe.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
