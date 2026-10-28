@@ -58,8 +58,10 @@
     {
       "name": "Spanien offiziell",
       "verband": "spanien",
-      "url": "https://www.laliga.com/en-GB/laliga-easports/results",
-      "spielIds": []
+      "url": "https://www.laliga.com/en-GB/laliga-easports/results/2026-27/gameweek-10",
+      "spielIds": [
+        "pk-2026-27-01-el-clasico"
+      ]
     }
   ],
   "teamAliase": {

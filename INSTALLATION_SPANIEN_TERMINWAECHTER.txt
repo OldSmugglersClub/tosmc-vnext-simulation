@@ -15,7 +15,7 @@ einmal manuell ausführen. Erwartet wird beim Spanien-Quellstatus:
 SPIELE_EXTRAHIERT und ein Schema-Befund "laliga-dom" mit Zeitzone Europe/Berlin.
 
 Hinweis:
-Im aktuellen Saisonbestand existiert kein offenes Spanien-Spiel. Deshalb ist noch
-keine reale Terminänderung vorzunehmen. Sobald ein offenes Spanien-Spiel in der
-Quellenkonfiguration steht, wird es nach den gleichen Schutzregeln geprüft und
-bei eindeutiger Abweichung vom bestehenden Terminwächter verarbeitet.
+Das beendete El-Clásico ist ausschließlich als Quellenprobe eingetragen. Der
+Terminwächter überspringt beendete Spiele vor dem Vergleich; sein Termin und
+sein Ergebnis werden nicht verändert. Sobald ein offenes Spanien-Spiel in der
+Quellenkonfiguration steht, wird es nach denselben Schutzregeln geprüft.
