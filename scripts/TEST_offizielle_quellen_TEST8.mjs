@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
-import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource} from './offizielle-quellen-browser.mjs';
+import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic} from './offizielle-quellen-browser.mjs';
 let n=0;const check=(x,y)=>{assert.deepEqual(x,y);n++};
 check(providerForUrl('https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/xx/matches'),'seriea');
 check(providerForUrl('https://api.premierleague.com/broadcasting/match-events'),'premierleague');
@@ -16,6 +16,8 @@ check(portugalSeasonKey('2026/2027'),'20262027');
 check(portugalSeasonKey('2026-2027'),null);
 check(portugalRoundMetadata({rounds:[{roundNumber:9,name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]}).beispiele,[{roundNumber:'9',name:'Jornada 9',startDate:'2026-10-23',endDate:'2026-10-26'}]);
 check(portugalRoundsFromSource({spielIds:['a','b'],rundenBySpielId:{a:16,b:16}}),[16]);
+check(franceHtmlDiagnostic('<html><script src="/_nuxt/app.js"></script><main>Paris Saint-Germain – Olympique de Marseille 2027-02-07</main></html>').framework,{next:false,nuxt:true});
+check(franceHtmlDiagnostic('<html><script src="/_nuxt/app.js"></script><main>Paris Saint-Germain – Olympique de Marseille 2027-02-07</main></html>').kennzeichen,{psg:true,marseille:true,zieldatum:true});
 assert.throws(()=>portugalRoundsFromSource({spielIds:['a'],rundenBySpielId:{b:16}}),/PORTUGAL_RUNDE_OHNE_SPIEL/);n++;
 assert.throws(()=>portugalRoundsFromSource({spielIds:['a'],rundenBySpielId:{a:0}}),/PORTUGAL_RUNDE_UNGUELTIG/);n++;
 const milan={homeTeam:{name:'AC Milan'},awayTeam:{name:'Inter'},kickOff:'2026-10-31T19:45:00Z'};

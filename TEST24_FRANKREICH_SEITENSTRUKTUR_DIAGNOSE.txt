@@ -1,0 +1,7 @@
+TEST24 – Frankreich: offizielle Seitenstruktur diagnostizieren
+
+- Protokolliert nur öffentliche Framework-, Script- und DOM-Strukturmerkmale.
+- Ziel bleibt der offizielle Ligue-1-Spieltag 19 mit PSG – Marseille.
+- Keine Rohseite wird gespeichert.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.
