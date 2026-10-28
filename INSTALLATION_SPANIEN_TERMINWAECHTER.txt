@@ -19,3 +19,11 @@ Das beendete El-Clásico ist ausschließlich als Quellenprobe eingetragen. Der
 Terminwächter überspringt beendete Spiele vor dem Vergleich; sein Termin und
 sein Ergebnis werden nicht verändert. Sobald ein offenes Spanien-Spiel in der
 Quellenkonfiguration steht, wird es nach denselben Schutzregeln geprüft.
+
+Zusätzlich stabilisiert dieses Paket den offiziellen Serie-A-Abruf: Wenn die
+Webseite ihre API-Anfrage nicht selbst auslöst, liest der Terminwächter die
+offizielle Vollsaisonquelle über die fest konfigurierte Saisonkennung direkt.
+Der Abruf wird höchstens zweimal versucht.
+
+Portugal bleibt unverändert geschützt: fixtureDateIsDefined=false wird nicht
+als exakter Anstoßtermin übernommen.

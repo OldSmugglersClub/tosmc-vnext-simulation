@@ -17,6 +17,7 @@
       "name": "Italien offiziell",
       "verband": "italien",
       "url": "https://en.legaseriea.it/serie-a/fixtures-results",
+      "seasonProviderId": "serie-a::Football_Season::ed7fdc2a3e7b408b942ec177b7b956b5",
       "spielIds": [
         "pk-2026-27-02-madonnina",
         "pk-2026-27-04-ditalia",
