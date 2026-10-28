@@ -25,6 +25,26 @@ export function fixturesFromJson(json){const out=[],seen=new Set();let count=0;
 export function trustResponse(pageUrl,responseUrl,allowed){try{const u=new URL(responseUrl),p=new URL(pageUrl);return u.protocol==='https:' && allowed.some(d=>u.hostname===d||u.hostname.endsWith('.'+d)) && (u.hostname===p.hostname||allowed.some(d=>p.hostname===d||p.hostname.endsWith('.'+d)));}catch{return false;}}
 export function safeQuery(url){try{const out={};for(const [k,v] of new URL(url).searchParams){if(/token|key|auth|session|secret|password|signature/i.test(k))continue;out[k.slice(0,80)]=v.slice(0,160);}return out;}catch{return {};}}
 export function dedupe(fixtures){const map=new Map();for(const f of fixtures)map.set(norm(f.heim)+'|'+norm(f.gast)+'|'+f.startDate,f);return [...map.values()];}
+// LaLiga renders its official result/fixture list as a table and converts the
+// kick-off to the browser time zone. The browser context is therefore pinned
+// to Europe/Berlin below. Accept only rows carrying a full date, exact time and
+// exactly two official club links; scores/referees are deliberately ignored.
+export function parseLaLigaRows(rows){const out=[];
+ for(const row of arr(rows)){
+  const date=String(row?.date||'').trim().match(/(?:MON|TUE|WED|THU|FRI|SAT|SUN)\s+(\d{2})\.(\d{2})\.(\d{4})$/i);
+  const time=String(row?.time||'').trim().match(/^(\d{2}):(\d{2})$/);
+  const clubs=arr(row?.clubs).map(x=>String(x||'').trim()).filter(Boolean);
+  if(!date||!time||clubs.length!==2||Number(time[1])>23||Number(time[2])>59)continue;
+  const datum=`${date[3]}-${date[2]}-${date[1]}`,anstoss=`${time[1]}:${time[2]}`;
+  out.push({heim:clubs[0],gast:clubs[1],datum,anstoss,startDate:`${datum}T${anstoss}:00[Europe/Berlin]`,provider:'laliga-dom'});
+ }
+ return out;
+}
+async function fetchLaLigaDom(page){const rows=await page.locator('table tr').evaluateAll(elements=>elements.map(row=>{
+ const cells=[...row.querySelectorAll(':scope > td')];if(cells.length<5)return null;
+ const clubs=[...cells[4].querySelectorAll('a[href*="/clubs/"][href$="/results"]')].map(a=>(a.textContent||'').replace(/\s+/g,' ').trim());
+ return {date:(cells[1]?.textContent||'').replace(/\s+/g,' ').trim(),time:(cells[2]?.textContent||'').replace(/\s+/g,' ').trim(),clubs};
+ }).filter(Boolean));return parseLaLigaRows(rows);}
 export function franceHtmlDiagnostic(html){
  const scripts=[...String(html||'').matchAll(/<script\b([^>]*)>/gi)].slice(0,120).map(m=>{const a=m[1]||'';return {src:(a.match(/\bsrc=["']([^"']+)["']/i)?.[1]||'').slice(0,240),type:(a.match(/\btype=["']([^"']+)["']/i)?.[1]||'').slice(0,80)};});
  return {zeichen:String(html||'').length,framework:{next:/__NEXT_DATA__|self\.__next_f\.push/i.test(html),nuxt:/__NUXT__|_nuxt\//i.test(html)},scripts:scripts.filter(x=>x.src||x.type).slice(0,40),kennzeichen:{psg:/Paris Saint-Germain/i.test(html),marseille:/Olympique de Marseille/i.test(html),zieldatum:/2027-02-07|07\/02\/2027|7 February 2027/i.test(html)}};
@@ -98,7 +118,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
  const browser=await factory();const report={zeit:new Date().toISOString(),datenVersion:data.datenVersion,modus:'BROWSER_READ_ONLY',quellen:[],befunde:[],automatischeAenderung:false};
  try{for(const src of cfg.quellen){if(!arr(src.spielIds).length){report.quellen.push({name:src.name,status:'NOCH_KEINE_TOSMC_EINZELSPIELE'});continue;}
   const allowed=DOMAINS[src.verband]||[];if(!trustResponse(src.url,src.url,allowed)){report.quellen.push({name:src.name,status:'DOMAIN_NICHT_FREIGEGEBEN'});continue;}
-  const context=await browser.newContext({serviceWorkers:'block',acceptDownloads:false});const page=await context.newPage();const fixtures=[];const endpoints=[];const schemaBefunde=[];let pending=[];
+  const context=await browser.newContext({serviceWorkers:'block',acceptDownloads:false,timezoneId:'Europe/Berlin'});const page=await context.newPage();const fixtures=[];const endpoints=[];const schemaBefunde=[];let pending=[];
   page.on('response',r=>{const u=r.url();if(!trustResponse(src.url,u,allowed))return;const ct=r.headers()['content-type']||'';const nextJs=src.verband==='frankreich'&&/javascript/i.test(ct)&&/\/_next\/static\/chunks\//.test(new URL(u).pathname);if(!/json/i.test(ct)&&!nextJs)return;if(endpoints.length>=70)return;
    endpoints.push({host:new URL(u).hostname,pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),http:r.status()});
    pending.push((async()=>{try{if(r.status()!==200)return;const body=await r.body();if(nextJs){if(body.length>1_500_000){schemaBefunde.push({provider:'frankreich-nextjs',pfad:new URL(u).pathname,status:'SCRIPT_ZU_GROSS',bytes:body.length});return;}const code=body.toString('utf8');const treffer=[...new Set([...code.matchAll(/(?:https:\/\/[^"'`\\\s]{1,260}|\/(?:api|graphql)\/[^"'`\\\s]{1,220})/gi)].map(m=>m[0].replace(/\\u0026/g,'&').slice(0,280)))].slice(0,60);const begriffe=['gameweek','championship_match','fixture','matchday','ma-api','fr_l1','championshipsids'].filter(x=>code.toLowerCase().includes(x));const kontexte=[];for(const term of begriffe){let from=0;for(let n=0;n<3&&kontexte.length<14;n++){const i=code.toLowerCase().indexOf(term,from);if(i<0)break;kontexte.push({begriff:term,text:code.slice(Math.max(0,i-380),i+term.length+520).replace(/[\r\n\t]+/g,' ').slice(0,950)});from=i+term.length;}}if(treffer.length||begriffe.length)schemaBefunde.push({provider:'frankreich-nextjs',pfad:new URL(u).pathname,bytes:body.length,begriffe,treffer,kontexte});return;}const limit=responseBodyLimit(u);if(body.length>limit){schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),status:'ANTWORT_ZU_GROSS',bytes:body.length,limit});return;}const obj=JSON.parse(body.toString('utf8'));const provider=providerForUrl(u);if(provider){const decoded=decodeOfficial(provider,obj);fixtures.push(...decoded.fixtures);schemaBefunde.push({pfad:new URL(u).pathname.slice(0,180),parameter:safeQuery(u),bytes:body.length,...decoded.diagnosis});}else{fixtures.push(...fixturesFromJson(obj));if(new URL(u).hostname==='ma-api.ligue1.fr')schemaBefunde.push({provider:'frankreich-api-roh',pfad:new URL(u).pathname,parameter:safeQuery(u),bytes:body.length,diagnose:franceApiDiagnostic(obj)});}}catch{}})());});
@@ -113,6 +133,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
     else schemaBefunde.push({provider:'frankreich-consent',status:'DIALOG_NICHT_GEFUNDEN'});
    }
    await page.waitForTimeout(5000);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
+   if(src.verband==='spanien'){const laliga=await fetchLaLigaDom(page);fixtures.push(...laliga);schemaBefunde.push({provider:'laliga-dom',zeitzone:'Europe/Berlin',fixtures:laliga.length});}
    if(src.verband==='frankreich')schemaBefunde.push({provider:'frankreich-seite',...franceHtmlDiagnostic(html),nextFlight:franceNextFlightDiagnostic(html),dom:await franceDomDiagnostic(page)});
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
    if(src.verband==='portugal'){const season=byId.get(src.spielIds[0])?.saison;try{const liga=await fetchPortugalLeague(season);fixtures.push(...liga.decoded.fixtures);endpoints.push(liga.endpoint);schemaBefunde.push({pfad:liga.endpoint.pfad,parameter:liga.endpoint.parameter,bytes:liga.endpoint.bytes,direktAbruf:true,...liga.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-direkt',fehler:String(e.message)});}try{const rounds=await fetchPortugalRounds(season);endpoints.push(rounds.endpoint);schemaBefunde.push({provider:'portugal-runden',pfad:rounds.endpoint.pfad,parameter:rounds.endpoint.parameter,bytes:rounds.endpoint.bytes,...rounds.diagnosis});}catch(e){schemaBefunde.push({provider:'portugal-runden',fehler:String(e.message)});}try{for(const round of portugalRoundsFromSource(src)){const selected=await fetchPortugalRound(season,round);fixtures.push(...selected.decoded.fixtures);endpoints.push(selected.endpoint);schemaBefunde.push({provider:'portugal-zielrunde',pfad:selected.endpoint.pfad,parameter:selected.endpoint.parameter,bytes:selected.endpoint.bytes,...selected.decoded.diagnosis});}}catch(e){schemaBefunde.push({provider:'portugal-zielrunde',fehler:String(e.message)});}}

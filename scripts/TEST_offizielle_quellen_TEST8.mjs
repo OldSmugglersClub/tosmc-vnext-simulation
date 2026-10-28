@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
-import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic,franceNextFlightDiagnostic,franceApiDiagnostic} from './offizielle-quellen-browser.mjs';
+import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic,franceNextFlightDiagnostic,franceApiDiagnostic,parseLaLigaRows} from './offizielle-quellen-browser.mjs';
 import {compare} from './offizielle-quellen.mjs';
 let n=0;const check=(x,y)=>{assert.deepEqual(x,y);n++};
 check(providerForUrl('https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/xx/matches'),'seriea');
@@ -15,6 +15,8 @@ check(responseBodyLimit('https://malicious.com/api/v1/competition/matches'),2_00
 check(safeQuery('https://www.ligaportugal.pt/api/v1/competition/matches?competitionId=1&season=2026&token=geheim'),{competitionId:'1',season:'2026'});
 check(safeQuery('nicht-gueltig'),{});
 check((await import('./offizielle-quellen.mjs')).DOMAINS.frankreich.includes('ma-api.ligue1.fr'),true);
+check(parseLaLigaRows([{date:'SUN 25.10.2026',time:'14:00',clubs:['FC BARCELONA','REAL MADRID']}]),[{heim:'FC BARCELONA',gast:'REAL MADRID',datum:'2026-10-25',anstoss:'14:00',startDate:'2026-10-25T14:00:00[Europe/Berlin]',provider:'laliga-dom'}]);
+check(parseLaLigaRows([{date:'SUN 25.10.2026',time:'TBD',clubs:['FC BARCELONA','REAL MADRID']},{date:'SUN 25.10.2026',time:'14:00',clubs:['FC BARCELONA']}]),[]);
 const franceProbe=franceApiDiagnostic({matches:[{id:'73988',date:null,home:{clubIdentity:{displayName:'Paris Saint-Germain'}},away:{clubIdentity:{displayName:'Olympique de Marseille'}}}]});
 check(franceProbe.wurzel,['matches']);
 check(franceProbe.arrays[0].pfad,'$.matches');

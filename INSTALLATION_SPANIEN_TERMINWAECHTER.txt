@@ -1,0 +1,21 @@
+TOSMC vNext Simulation – Spanien-Terminwächter
+
+Ziel:
+- offizielle LaLiga-Ergebnistabelle als Terminquelle lesen
+- Browser-Zeitzone verbindlich auf Europe/Berlin setzen
+- nur vollständige Tabellenzeilen mit Datum, Uhrzeit und genau zwei Vereinslinks akzeptieren
+- keine Ergebnisse, Tipps oder beendeten Spiele ändern
+
+Einspielen:
+Den Inhalt dieses ZIP-Archivs in das Stammverzeichnis des Repositories
+OldSmugglersClub/tosmc-vnext-simulation kopieren und vorhandene Dateien ersetzen.
+
+Danach den bestehenden Workflow "TOSMC vNext Simulation – Terminwächter automatisch"
+einmal manuell ausführen. Erwartet wird beim Spanien-Quellstatus:
+SPIELE_EXTRAHIERT und ein Schema-Befund "laliga-dom" mit Zeitzone Europe/Berlin.
+
+Hinweis:
+Im aktuellen Saisonbestand existiert kein offenes Spanien-Spiel. Deshalb ist noch
+keine reale Terminänderung vorzunehmen. Sobald ein offenes Spanien-Spiel in der
+Quellenkonfiguration steht, wird es nach den gleichen Schutzregeln geprüft und
+bei eindeutiger Abweichung vom bestehenden Terminwächter verarbeitet.
