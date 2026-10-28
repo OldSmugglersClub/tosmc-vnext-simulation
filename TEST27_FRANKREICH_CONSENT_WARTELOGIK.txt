@@ -1,0 +1,8 @@
+TEST27 – Frankreich: verzögerten Consent-Dialog sicher behandeln
+
+- Wartet höchstens zehn Sekunden auf den Didomi-Ablehnungsbutton.
+- Lehnt ausschließlich optionale Cookies ab.
+- Wartet danach auf die Initialisierung des offiziellen Spielplans.
+- Fehlt der Dialog, wird der Lauf nicht blockiert.
+- Keine Website-Datei und kein Termin wird verändert.
+- Test2v2 und Live bleiben unberührt.

@@ -100,7 +100,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
    // Ligue 1 does not initialize its fixture view while the consent notice is
    // open. Reject optional cookies; this is deterministic, privacy-preserving
    // and does not create an account or change website data.
-   if(src.verband==='frankreich'){const reject=page.locator('#didomi-notice-disagree-button');if(await reject.isVisible().catch(()=>false)){await reject.click();schemaBefunde.push({provider:'frankreich-consent',status:'OPTIONALE_COOKIES_ABGELEHNT'});}}
+   if(src.verband==='frankreich'){const reject=page.locator('#didomi-notice-disagree-button');const appeared=await reject.waitFor({state:'visible',timeout:10000}).then(()=>true).catch(()=>false);if(appeared){await reject.click();schemaBefunde.push({provider:'frankreich-consent',status:'OPTIONALE_COOKIES_ABGELEHNT'});}}
    await page.waitForTimeout(5000);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
    if(src.verband==='frankreich')schemaBefunde.push({provider:'frankreich-seite',...franceHtmlDiagnostic(html),nextFlight:franceNextFlightDiagnostic(html),dom:await franceDomDiagnostic(page)});
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
