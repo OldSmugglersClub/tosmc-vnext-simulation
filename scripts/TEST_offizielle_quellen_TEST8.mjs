@@ -1,10 +1,12 @@
 import assert from 'node:assert/strict';
 import {providerForUrl,decodeOfficial} from './offizielle-liga-adapter.mjs';
 import {responseBodyLimit,safeQuery,portugalSeasonKey,portugalRoundMetadata,portugalRoundsFromSource,franceHtmlDiagnostic,franceNextFlightDiagnostic,franceApiDiagnostic} from './offizielle-quellen-browser.mjs';
+import {compare} from './offizielle-quellen.mjs';
 let n=0;const check=(x,y)=>{assert.deepEqual(x,y);n++};
 check(providerForUrl('https://api-sdp.legaseriea.it/v1/serie-a/football/seasons/xx/matches'),'seriea');
 check(providerForUrl('https://api.premierleague.com/broadcasting/match-events'),'premierleague');
 check(providerForUrl('https://www.ligaportugal.pt/api/v1/competition/matches'),'portugal');
+check(providerForUrl('https://ma-api.ligue1.fr/championship-matches/championship/1/game-week/19?season=2026'),'france');
 check(providerForUrl('https://api.premierleague.com/content/premierleague/en'),null);
 check(providerForUrl('https://malicious.com/api/v1/competition/matches'),null);
 check(responseBodyLimit('https://www.ligaportugal.pt/api/v1/competition/matches'),10_000_000);
@@ -38,6 +40,13 @@ check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{nam
 check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).fixtures.length,0);
 check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).diagnosis.zeitprobleme,{'termin nicht amtlich definiert':1});
 check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T20:15:00Z',fixtureDateIsDefined:true}]}).fixtures[0].anstoss,'21:15');
+const franceUnknown={matchId:'l1_championship_match_73988',date:'2027-02-05T23:00:00.000Z',dateTimeUnknown:true,home:{clubIdentity:{displayName:'Paris Saint-Germain'}},away:{clubIdentity:{displayName:'Olympique De Marseille'}}};
+check(decodeOfficial('france',{matches:[franceUnknown]}).fixtures.length,0);
+check(decodeOfficial('france',{matches:[franceUnknown]}).diagnosis.zeitprobleme,{'termin nicht amtlich definiert':1});
+const franceConfirmed={...franceUnknown,date:'2027-02-07T19:45:00.000Z',dateTimeUnknown:false};
+const franceFixture=decodeOfficial('france',{matches:[franceConfirmed]}).fixtures[0];
+check({heim:franceFixture.heim,gast:franceFixture.gast,datum:franceFixture.datum,anstoss:franceFixture.anstoss},{heim:'Paris Saint-Germain',gast:'Olympique De Marseille',datum:'2027-02-07',anstoss:'20:45'});
+check(compare({heimTeamId:'psg',auswaertsTeamId:'om',datum:'2027-02-07',anstoss:'21:00'},[franceFixture],{psg:['Paris Saint-Germain'],om:['Olympique de Marseille']}).status,'ABWEICHUNG');
 check(decodeOfficial('seriea',{news:[milan]}).fixtures.length,0);
 check(decodeOfficial('seriea',{matches:[milan,milan]}).fixtures.length,1);
 check(decodeOfficial('seriea',{matches:[{...milan,awayTeam:null}]}).fixtures.length,0);

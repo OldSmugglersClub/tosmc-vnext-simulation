@@ -13,7 +13,8 @@ const timestamp=x=>{
 const paths={
  seriea:{home:['homeTeam','home_team','home','homeSquad','homeClub','teamHome','teams.home','participants.home','home_team_name'],away:['awayTeam','away_team','away','awaySquad','awayClub','teamAway','teams.away','participants.away','away_team_name'],date:['matchDateUtc','matchDateTimeUTC','kickoffTime','kickOffTime','kickoff','kickOff','startDate','startTime','scheduledStart','dateTime','dateUTC','matchDate','date']},
  premierleague:{home:['homeTeam','home','homeTeamName','homeTeamDisplayName','teamHome','teams.home','participants.home','participants.0.team'],away:['awayTeam','away','awayTeamName','awayTeamDisplayName','teamAway','teams.away','participants.away','participants.1.team'],date:['kickoffTime','kickoff','kickOffTime','kickOff','startDate','startTime','dateTime','eventDate','matchDateTimeUTC','date','utcDate']},
- portugal:{home:['homeTeam','home','home_team','homeClub','homeTeamName','home_team_name','teamHome','homeTeamInfo','teams.home'],away:['awayTeam','away','away_team','awayClub','awayTeamName','away_team_name','teamAway','awayTeamInfo','teams.away'],date:['dateUTC','matchDateTimeUTC','matchDate','matchDatetime','match_date','kickoffTime','kickOff','startDate','dateTime','startTime','date']}
+ portugal:{home:['homeTeam','home','home_team','homeClub','homeTeamName','home_team_name','teamHome','homeTeamInfo','teams.home'],away:['awayTeam','away','away_team','awayClub','awayTeamName','away_team_name','teamAway','awayTeamInfo','teams.away'],date:['dateUTC','matchDateTimeUTC','matchDate','matchDatetime','match_date','kickoffTime','kickOff','startDate','dateTime','startTime','date']},
+ france:{home:['home.clubIdentity'],away:['away.clubIdentity'],date:['date']}
 };
 const idkey=x=>JSON.stringify(x,Object.keys(x||{}).sort()).slice(0,250);
 function nodes(data){const results=[], seen=new WeakSet();let count=0;
@@ -27,6 +28,7 @@ export function providerForUrl(url){try{const h=new URL(url).hostname;const p=ne
  if(h==='api-sdp.legaseriea.it'&&/\/matches(?:\/|$)/.test(p))return 'seriea';
  if(h==='api.premierleague.com'&&/\/(?:broadcasting\/match-events|football\/fixtures|fixtures|matches)(?:\/|$)/.test(p))return 'premierleague';
  if(h.endsWith('.ligaportugal.pt')&&/\/api\/v1\/competition\/matches(?:\/|$)/.test(p))return 'portugal';
+ if(h==='ma-api.ligue1.fr'&&/\/championship-matches\/championship\/1\/game-week\/\d+(?:\/|$)/.test(p))return 'france';
  }catch{}return null;}
 export function decodeOfficial(provider,data){if(!paths[provider])return {fixtures:[],diagnosis:{reason:'NICHT_UNTERSTUETZT'}};
  const objects=nodes(data), fixtures=[], seen=new Set(), encountered={},candidateShapes={};let candidates=0;
@@ -37,6 +39,9 @@ export function decodeOfficial(provider,data){if(!paths[provider])return {fixtur
    // records with fixtureDateIsDefined=false. Such a placeholder must never be
    // interpreted as an officially confirmed kick-off time.
    if(provider==='portugal'&&Object.prototype.hasOwnProperty.call(o,'fixtureDateIsDefined')&&o.fixtureDateIsDefined!==true){encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;continue;}
+   // Ligue 1 publishes a common placeholder date while the exact fixture time
+   // is still unknown. Only dateTimeUnknown=false is an official kick-off.
+   if(provider==='france'&&o.dateTimeUnknown!==false){encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;continue;}
    if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
    const key=[h.toLowerCase(),a.toLowerCase(),new Date(iso).getTime()].join('|');if(seen.has(key))continue;seen.add(key);
    fixtures.push({heim:h,gast:a,...berlin(iso),startDate:iso,provider});

@@ -1,0 +1,4 @@
+Frankreich-Adapter fertiggestellt.
+Quelle: offizielle Ligue-1-API ma-api.ligue1.fr.
+Sicherheitsregel: Nur dateTimeUnknown=false wird als bestätigter Termin übernommen.
+dateTimeUnknown=true und technische Platzhalterdaten bleiben unverändert.
