@@ -23,6 +23,12 @@ for(const finding of report.befunde){
   finding.quellenName=source?.name||null;
 }
 const plan=planOfficialChanges(data,report);
+const gaps=report.befunde.filter(x=>!['IDENTISCH','ABWEICHUNG','PAARUNG_GEFUNDEN_TERMIN_OFFEN'].includes(x.status));
+console.log(`Paarungen geprueft: ${report.verifiziert}/${report.befunde.length}; Termin offen: ${report.termineOffen||0}`);
+if(report.status==='UNVOLLSTAENDIG'||gaps.length){
+ console.error('::error::PRUEFLUECKE: '+gaps.map(x=>x.spielId+': '+x.status).join('; '));
+ process.exit(2);
+}
 if(!plan.planned.length){console.log('Terminwaechter: keine sichere Terminaenderung.');process.exit(0);}
 const next=applyOfficialChanges(data,plan);
 writeIfChanged(dataPath,next);

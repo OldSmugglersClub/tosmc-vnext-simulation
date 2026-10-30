@@ -1,0 +1,40 @@
+TOSMC Simulation – Terminwaechter: Paarung gefunden, Termin offen
+Stand 30.10.2026
+
+EINSPIELUNG: Vollstaendiger Repository-Inhalt direkt im ZIP-Stamm. Ins lokale Repository tosmc-vnext-simulation kopieren, Diff kontrollieren, anschliessend Commit/Push ueber GitHub Desktop. Nicht in Test2v2 oder Live einspielen. Keine Dateien loeschen. Grundlage ist die zuletzt bereitgestellte Simulation-ZIP; zwischenzeitliche eigene Aenderungen nicht blind ueberschreiben.
+
+KORREKTUR:
+- Frankreich: direkter offizieller Abruf der konfigurierten Runde 19, einschliesslich Kontrolle der offiziellen aktuellen Saison (2026).
+- Frankreich und Portugal: amtlich bekannte Paarungen bleiben erhalten, wenn dateTimeUnknown=true beziehungsweise fixtureDateIsDefined=false. Provisorische Zeitwerte werden dabei verworfen, nicht als bestaetigte Anstosszeiten behandelt.
+- Portugal: bestehender gezielter Abruf der Runde 16 bleibt erhalten; fixtureDate wird erkannt; SL Benfica und Sporting CP werden den vorhandenen TOSMC-Team-IDs zugeordnet.
+- Bericht unterscheidet PAARUNG_GEFUNDEN_TERMIN_OFFEN von IDENTISCH/ABWEICHUNG und Suchluecken. Offene Paarungen zaehlen als erfolgreich gepruefte Paarungen, nicht als bestaetigte Termine.
+- Echte Such-/Quellenluecken beenden den Automatiklauf vor jedem Schreibvorgang mit Exit 2 und sichtbarer Fehlermeldung. Bei fehlender Gesamtabdeckung werden somit auch sonstige Aenderungen dieses Laufs zurueckgehalten.
+- Explizit unbestaetigte Termine sind auch im Schreibplan gesperrt. Das 56-Tage-Fenster fuer die Uebernahme bleibt erhalten.
+
+NACHWEISE:
+Offizielle HTTP-200-Antworten vom 30.10.2026 fuer Frankreich Runde 19 und Portugal Runde 16 direkt abgerufen. Beide enthalten jeweils neun Paarungen; die zwei TOSMC-Zielspiele werden nach Korrektur eindeutig als Paarung gefunden, Termin offen erkannt.
+Frankreich: Paris Saint-Germain – Olympique de Marseille, dateTimeUnknown=true.
+Portugal: SL Benfica – Sporting CP, fixtureDateIsDefined=false.
+Reduzierte Aufzeichnungen dienen ausschliesslich Regressionstests, niemals als Online-Fallback.
+Der neue Frankreich-Direktabruf wurde auch ueber die tatsaechliche Node-Funktion erfolgreich online ausgefuehrt: Saison 2026, neun Paarungen, neun Termine offen.
+Alle zehn bisherigen Workflow-Testskripte sowie der neue Regressionstest bestanden. Release Guard OK.
+Spiel-, Punkte-, Historien-, Mitglieder- und Terminbestandsdateien gegen die bereitgestellte Ausgangs-ZIP bytegleich. Admin 3.11.5 unberuehrt.
+
+NOCH OFFEN:
+Der gesamte korrigierte Browser-/GitHub-Workflow wurde hier nicht online ausgefuehrt. Nach Einspielung einmal denselben Terminwaechter starten und Artefakt liefern. Erwartet fuer beide Zielspiele: PAARUNG_GEFUNDEN_TERMIN_OFFEN. Solange keine sichere bestaetigte Terminabweichung vorliegt, kein Termincommit erforderlich. Ein echter automatischer Commit-/Push-Nachweis wird durch diese Korrektur nicht ersetzt.
+
+GEAENDERTE BESTANDSDATEIEN:
+.github/workflows/terminwaechter-sonderwettbewerbe-auto.yml
+scripts/TEST_offizielle_quellen_TEST8.mjs
+scripts/offizielle-liga-adapter.mjs
+scripts/offizielle-quellen-browser.mjs
+scripts/offizielle-quellen.mjs
+scripts/terminwaechter-auto-core.mjs
+scripts/terminwaechter-auto.mjs
+terminwaechter/offizielle-quellen.json
+
+NEUE DATEIEN:
+scripts/TEST_terminwaechter_paarung_offen.mjs
+scripts/fixtures/terminwaechter/QUELLEN.md
+scripts/fixtures/terminwaechter/france-round19.json
+scripts/fixtures/terminwaechter/portugal-round16.json

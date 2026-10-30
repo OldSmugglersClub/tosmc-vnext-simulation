@@ -78,7 +78,7 @@ export function compare(game,fixtures,aliases={}){
  const h=names(game.heimTeamId),a=names(game.auswaertsTeamId);
  const found=fixtures.filter(f=>h.includes(canon(f.heim))&&a.includes(canon(f.gast)));
  if(found.length!==1)return {status:found.length?'MEHRDEUTIG':'KEIN_EINDEUTIGES_SPIEL',count:found.length};
- const x=found[0];return game.datum===x.datum&&game.anstoss===x.anstoss?{status:'IDENTISCH',amtlich:x}:{status:'ABWEICHUNG',bisher:{datum:game.datum,anstoss:game.anstoss},amtlich:x};
+ const x=found[0];if(x.terminBestaetigt===false)return {status:'PAARUNG_GEFUNDEN_TERMIN_OFFEN',paarung:{heim:x.heim,gast:x.gast,provider:x.provider},terminBestaetigt:false};return game.datum===x.datum&&game.anstoss===x.anstoss?{status:'IDENTISCH',amtlich:x}:{status:'ABWEICHUNG',bisher:{datum:game.datum,anstoss:game.anstoss},amtlich:x};
 }
 export async function run({root=ROOT,out=OUT,fetchFn=fetch,configPath=process.env.TOSMC_OFFICIAL_CONFIG||'terminwaechter/offizielle-quellen.json'}={}){
  const conf=JSON.parse(fs.readFileSync(path.resolve(root,configPath),'utf8'));

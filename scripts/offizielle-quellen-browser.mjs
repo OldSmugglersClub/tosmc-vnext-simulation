@@ -114,6 +114,23 @@ async function fetchPortugalRound(season,round){
  const response=await fetch(url,{headers:{Accept:'application/json','User-Agent':'TOSMC-Fixture-Check/1.0'},signal:AbortSignal.timeout(25000)});if(!response.ok)throw Error('PORTUGAL_RUNDE_HTTP_'+response.status);if(!/json/i.test(response.headers.get('content-type')||''))throw Error('PORTUGAL_RUNDE_CONTENT_TYPE');
  const body=Buffer.from(await response.arrayBuffer());const limit=responseBodyLimit(url.href);if(body.length>limit)throw Error('PORTUGAL_RUNDE_ZU_GROSS_'+body.length);const decoded=decodeOfficial('portugal',JSON.parse(body.toString('utf8')));return {decoded,endpoint:{host:url.hostname,pfad:url.pathname,parameter:safeQuery(url.href),http:response.status,bytes:body.length}};
 }
+export async function fetchFranceRound(src,season,fetchFn=fetch){
+ const round=new URL(src.url).searchParams.get('gameweek');
+ if(!/^([1-9]|[12][0-9]|3[0-8])$/.test(round||''))throw Error('FRANKREICH_RUNDE_UNGUELTIG');
+ const year=String(season||'').match(/^(\d{4})\/\d{4}$/)?.[1];
+ if(!year)throw Error('FRANKREICH_SAISON_UNGUELTIG');
+ const read=async(url)=>{
+  const r=await fetchFn(url,{headers:{Accept:'application/json'},signal:AbortSignal.timeout(25000),redirect:'error'});
+  if(!r.ok)throw Error('FRANKREICH_HTTP_'+r.status);
+  const body=await r.text();if(Buffer.byteLength(body)>2_000_000)throw Error('FRANKREICH_ANTWORT_ZU_GROSS');
+  return JSON.parse(body);
+ };
+ const settings=await read('https://ma-api.ligue1.fr/championships-settings');
+ if(String(settings?.championships?.['1']?.season)!==year)throw Error('FRANKREICH_SAISON_ABWEICHEND');
+ const url='https://ma-api.ligue1.fr/championship-matches/championship/1/game-week/'+round;
+ const decoded=decodeOfficial('france',await read(url));
+ return {decoded,endpoint:{host:'ma-api.ligue1.fr',pfad:new URL(url).pathname,parameter:{},http:200,saison:year}};
+}
 export async function run({browserFactory,config,siteGames,timeout=25000}={}){
  const cfg=config||JSON.parse(fs.readFileSync(path.join(root,'terminwaechter/offizielle-quellen.json'),'utf8'));
  const data=siteGames||JSON.parse(fs.readFileSync(path.join(root,'spieldaten.json'),'utf8'));
@@ -139,6 +156,7 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
    }
    await page.waitForTimeout(5000);const html=await page.content();fixtures.push(...parseStructuredFixtures(html),...parseEmbeddedFixtures(html));await Promise.allSettled(pending);
    if(src.verband==='spanien'){const laliga=await fetchLaLigaDom(page);fixtures.push(...laliga);schemaBefunde.push({provider:'laliga-dom',zeitzone:'Europe/Berlin',fixtures:laliga.length});}
+   if(src.verband==='frankreich')try{const france=await fetchFranceRound(src,byId.get(src.spielIds[0])?.saison);fixtures.push(...france.decoded.fixtures);endpoints.push(france.endpoint);schemaBefunde.push({provider:'frankreich-zielrunde',...france.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'frankreich-zielrunde',fehler:String(e.message)});}
    if(src.verband==='frankreich')schemaBefunde.push({provider:'frankreich-seite',...franceHtmlDiagnostic(html),nextFlight:franceNextFlightDiagnostic(html),dom:await franceDomDiagnostic(page)});
    if(src.verband==='england')try{const fpl=await fetchFpl();fixtures.push(...fpl.decoded.fixtures);endpoints.push(...fpl.endpoints);schemaBefunde.push(fpl.decoded.diagnosis);}catch(e){schemaBefunde.push({provider:'fpl',fehler:String(e.message)});}
    if(src.verband==='italien'&&!fixtures.some(x=>x.provider==='seriea'))try{const serieA=await fetchSerieASeason(src);fixtures.push(...serieA.decoded.fixtures);endpoints.push(serieA.endpoint);schemaBefunde.push({provider:'seriea-direkt',direktAbruf:true,bytes:serieA.endpoint.bytes,versuch:serieA.endpoint.versuch,...serieA.decoded.diagnosis});}catch(e){schemaBefunde.push({provider:'seriea-direkt',fehler:String(e.message)});}
@@ -150,10 +168,11 @@ export async function run({browserFactory,config,siteGames,timeout=25000}={}){
   }catch(e){report.quellen.push({name:src.name,status:'BROWSER_FEHLER',fehler:String(e.message).slice(0,220),antworten:endpoints,schemaBefunde});for(const id of src.spielIds)report.befunde.push({spielId:id,status:'BROWSER_FEHLER'});}
   finally{await context.close();}
  }}finally{await browser.close();}
- report.verifiziert=report.befunde.filter(x=>['IDENTISCH','ABWEICHUNG'].includes(x.status)).length;
+ report.verifiziert=report.befunde.filter(x=>['IDENTISCH','ABWEICHUNG','PAARUNG_GEFUNDEN_TERMIN_OFFEN'].includes(x.status)).length;
+ report.termineOffen=report.befunde.filter(x=>x.status==='PAARUNG_GEFUNDEN_TERMIN_OFFEN').length;
  report.status=report.verifiziert===report.befunde.length&&report.befunde.length>0?'GEPRUEFT':'UNVOLLSTAENDIG';
  fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'BROWSER_QUELLEN_BERICHT.json'),JSON.stringify(report,null,2)+'\n');
- fs.writeFileSync(path.join(out,'BROWSER_QUELLEN_BERICHT.md'),['# TOSMC offizieller Browser-Quellencheck',`Stand: ${report.zeit}`,`Verifiziert: ${report.verifiziert}/${report.befunde.length}`,`Status: ${report.status}`,'',...report.quellen.map(x=>`- ${x.name}: ${x.status}; erkannte Spiele: ${x.anzahl||0}; JSON-Antworten: ${x.antworten?.length||0}`),'',...report.befunde.map(x=>`- ${x.spielId}: ${x.status}${x.amtlich?' – '+x.amtlich.datum+' '+x.amtlich.anstoss:''}`),'','Keine Website-Dateien geändert.'].join('\n')+'\n');return report;
+ fs.writeFileSync(path.join(out,'BROWSER_QUELLEN_BERICHT.md'),['# TOSMC offizieller Browser-Quellencheck',`Stand: ${report.zeit}`,`Paarungen geprüft: ${report.verifiziert}/${report.befunde.length}`,`Davon Termin offen: ${report.termineOffen}`,`Status: ${report.status}`,'',...report.quellen.map(x=>`- ${x.name}: ${x.status}; erkannte Spiele: ${x.anzahl||0}; JSON-Antworten: ${x.antworten?.length||0}`),'',...report.befunde.map(x=>`- ${x.spielId}: ${x.status}${x.amtlich?' – '+x.amtlich.datum+' '+x.amtlich.anstoss:''}`),'','Keine Website-Dateien geändert.'].join('\n')+'\n');return report;
 }
 if(process.argv[1]&&pathToFileURL(path.resolve(process.argv[1])).href===import.meta.url)run().then(x=>{console.log(JSON.stringify({status:x.status,verifiziert:x.verifiziert,quellen:x.quellen},null,2));if(x.status!=='GEPRUEFT')process.exitCode=2;}).catch(e=>{console.error(e);process.exitCode=1;});
 

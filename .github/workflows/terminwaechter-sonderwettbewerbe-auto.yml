@@ -46,6 +46,7 @@ jobs:
           node scripts/TEST_offizielle_quellen_TEST10.mjs
           node scripts/TEST_offizielle_quellen_TEST11_FPL.mjs
           node scripts/TEST_terminwaechter_auto.mjs
+          node scripts/TEST_terminwaechter_paarung_offen.mjs
       - name: Browser installieren
         run: |
           npm install --no-save --ignore-scripts playwright@1.56.1

@@ -31,6 +31,7 @@ export function planOfficialChanges(data,report,{now=new Date(),windowDays=56,ma
     if(!game)throw Error(`SPIEL_FEHLT:${finding.spielId}`);
     if(game.status==='beendet'||Number.isInteger(game.heimtore)||Number.isInteger(game.auswaertstore))throw Error(`ABGESCHLOSSENES_SPIEL:${game.id}`);
     const official=finding.amtlich;
+    if(official?.terminBestaetigt===false)throw Error(`TERMIN_NICHT_BESTAETIGT:${game.id}`);
     if(!isoDate(official?.datum)||!clock(official?.anstoss))throw Error(`AMTLICHER_TERMIN_UNGUELTIG:${game.id}`);
     const officialDay=day(official.datum);
     if(officialDay<start||officialDay>end)continue;

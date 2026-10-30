@@ -41,11 +41,11 @@ check(decodeOfficial('premierleague',{events:[{home:{name:'Liverpool'},away:{nam
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).fixtures.length,1);
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.beispiele,[{heim:'Porto',gast:'Benfica',datum:'2026-12-12',anstoss:'21:00'}]);
 check(decodeOfficial('portugal',{games:[{home_team:{name:'Porto'},away_team:{name:'Benfica'},match_date:'2026-12-12T20:00:00Z'}]}).diagnosis.kandidatFeldmuster,[{keys:'away_team|home_team|match_date',count:1}]);
-check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).fixtures.length,0);
+check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).fixtures.length,1);
 check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T00:00:00Z',fixtureDateIsDefined:false}]}).diagnosis.zeitprobleme,{'termin nicht amtlich definiert':1});
 check(decodeOfficial('portugal',{games:[{homeTeam:{name:'SL Benfica'},awayTeam:{name:'Sporting CP'},matchDate:'2026-12-27T20:15:00Z',fixtureDateIsDefined:true}]}).fixtures[0].anstoss,'21:15');
 const franceUnknown={matchId:'l1_championship_match_73988',date:'2027-02-05T23:00:00.000Z',dateTimeUnknown:true,home:{clubIdentity:{displayName:'Paris Saint-Germain'}},away:{clubIdentity:{displayName:'Olympique De Marseille'}}};
-check(decodeOfficial('france',{matches:[franceUnknown]}).fixtures.length,0);
+check(decodeOfficial('france',{matches:[franceUnknown]}).fixtures.length,1);
 check(decodeOfficial('france',{matches:[franceUnknown]}).diagnosis.zeitprobleme,{'termin nicht amtlich definiert':1});
 const franceConfirmed={...franceUnknown,date:'2027-02-07T19:45:00.000Z',dateTimeUnknown:false};
 const franceFixture=decodeOfficial('france',{matches:[franceConfirmed]}).fixtures[0];

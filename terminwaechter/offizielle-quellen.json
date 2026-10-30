@@ -109,7 +109,8 @@
     ],
     "benfica-lissabon": [
       "Benfica Lissabon",
-      "Benfica Lissabon"
+      "Benfica Lissabon",
+      "SL Benfica"
     ],
     "bochum": [
       "VfL Bochum 1848",
@@ -271,7 +272,8 @@
     ],
     "olympique-marseille": [
       "Olympique Marseille",
-      "Olympique Marseille"
+      "Olympique Marseille",
+      "Olympique de Marseille"
     ],
     "osc-lille": [
       "Lille OSC",
@@ -331,7 +333,8 @@
     ],
     "sporting-lissabon": [
       "Sporting Lissabon",
-      "Sporting Lissabon"
+      "Sporting Lissabon",
+      "Sporting CP"
     ],
     "ssc-neapel": [
       "SSC Neapel",
@@ -372,4 +375,3 @@
   },
   "zielRepository": "tosmc-vnext-simulation"
 }
-

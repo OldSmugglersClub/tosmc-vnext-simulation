@@ -13,7 +13,7 @@ const timestamp=x=>{
 const paths={
  seriea:{home:['homeTeam','home_team','home','homeSquad','homeClub','teamHome','teams.home','participants.home','home_team_name'],away:['awayTeam','away_team','away','awaySquad','awayClub','teamAway','teams.away','participants.away','away_team_name'],date:['matchDateUtc','matchDateTimeUTC','kickoffTime','kickOffTime','kickoff','kickOff','startDate','startTime','scheduledStart','dateTime','dateUTC','matchDate','date']},
  premierleague:{home:['homeTeam','home','homeTeamName','homeTeamDisplayName','teamHome','teams.home','participants.home','participants.0.team'],away:['awayTeam','away','awayTeamName','awayTeamDisplayName','teamAway','teams.away','participants.away','participants.1.team'],date:['kickoffTime','kickoff','kickOffTime','kickOff','startDate','startTime','dateTime','eventDate','matchDateTimeUTC','date','utcDate']},
- portugal:{home:['homeTeam','home','home_team','homeClub','homeTeamName','home_team_name','teamHome','homeTeamInfo','teams.home'],away:['awayTeam','away','away_team','awayClub','awayTeamName','away_team_name','teamAway','awayTeamInfo','teams.away'],date:['dateUTC','matchDateTimeUTC','matchDate','matchDatetime','match_date','kickoffTime','kickOff','startDate','dateTime','startTime','date']},
+ portugal:{home:['homeTeam','home','home_team','homeClub','homeTeamName','home_team_name','teamHome','homeTeamInfo','teams.home'],away:['awayTeam','away','away_team','awayClub','awayTeamName','away_team_name','teamAway','awayTeamInfo','teams.away'],date:['fixtureDate','dateUTC','matchDateTimeUTC','matchDate','matchDatetime','match_date','kickoffTime','kickOff','startDate','dateTime','startTime','date']},
  france:{home:['home.clubIdentity'],away:['away.clubIdentity'],date:['date']}
 };
 const idkey=x=>JSON.stringify(x,Object.keys(x||{}).sort()).slice(0,250);
@@ -34,14 +34,15 @@ export function decodeOfficial(provider,data){if(!paths[provider])return {fixtur
  const objects=nodes(data), fixtures=[], seen=new Set(), encountered={},candidateShapes={};let candidates=0;
  for(const o of objects){const h=name(val(o,paths[provider].home)),a=name(val(o,paths[provider].away)),raw=val(o,paths[provider].date),iso=timestamp(raw);
   if(h&&a){candidates++;const shape=Object.keys(o).sort().join('|').slice(0,600);candidateShapes[shape]=(candidateShapes[shape]||0)+1;
-   // Liga Portugal supplies a placeholder instant (00:00Z / 01:00 Berlin) even
-   // when only the match date is known. The provider explicitly marks those
-   // records with fixtureDateIsDefined=false. Such a placeholder must never be
-   // interpreted as an officially confirmed kick-off time.
-   if(provider==='portugal'&&Object.prototype.hasOwnProperty.call(o,'fixtureDateIsDefined')&&o.fixtureDateIsDefined!==true){encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;continue;}
-   // Ligue 1 publishes a common placeholder date while the exact fixture time
-   // is still unknown. Only dateTimeUnknown=false is an official kick-off.
-   if(provider==='france'&&o.dateTimeUnknown!==false){encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;continue;}
+   // Preserve the official pairing while withholding every provisional date/time.
+   const open=(provider==='portugal'&&Object.prototype.hasOwnProperty.call(o,'fixtureDateIsDefined')&&o.fixtureDateIsDefined!==true)
+     ||(provider==='france'&&o.dateTimeUnknown!==false);
+   if(open){
+    encountered['termin nicht amtlich definiert']=(encountered['termin nicht amtlich definiert']||0)+1;
+    const key=[h.toLowerCase(),a.toLowerCase(),'OPEN'].join('|');
+    if(!seen.has(key)){seen.add(key);fixtures.push({heim:h,gast:a,datum:null,anstoss:null,startDate:null,terminBestaetigt:false,provider});}
+    continue;
+   }
    if(!iso){const k=String(raw===undefined?'ohne Zeitfeld':typeof raw);encountered[k]=(encountered[k]||0)+1;continue;}
    const key=[h.toLowerCase(),a.toLowerCase(),new Date(iso).getTime()].join('|');if(seen.has(key))continue;seen.add(key);
    fixtures.push({heim:h,gast:a,...berlin(iso),startDate:iso,provider});

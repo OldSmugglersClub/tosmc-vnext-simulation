@@ -1,0 +1,94 @@
+{
+  "matches": [
+    {
+      "homeTeam": {
+        "name": "Casa Pia AC"
+      },
+      "awayTeam": {
+        "name": "FC Famalicão"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Santa Clara"
+      },
+      "awayTeam": {
+        "name": "Estrela Amadora"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Marítimo M."
+      },
+      "awayTeam": {
+        "name": "SC Braga"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Moreirense FC"
+      },
+      "awayTeam": {
+        "name": "Académico"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Estoril Praia"
+      },
+      "awayTeam": {
+        "name": "FC Alverca"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "SL Benfica"
+      },
+      "awayTeam": {
+        "name": "Sporting CP"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Gil Vicente FC"
+      },
+      "awayTeam": {
+        "name": "FC Arouca"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "Vitória SC"
+      },
+      "awayTeam": {
+        "name": "Rio Ave FC"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    },
+    {
+      "homeTeam": {
+        "name": "FC Porto"
+      },
+      "awayTeam": {
+        "name": "CD Nacional"
+      },
+      "fixtureDate": "2026-12-27T00:00:00Z",
+      "fixtureDateIsDefined": false
+    }
+  ]
+}

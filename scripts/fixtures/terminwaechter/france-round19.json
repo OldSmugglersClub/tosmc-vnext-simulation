@@ -1,0 +1,157 @@
+{
+  "matches": [
+    {
+      "matchId": "l1_championship_match_73983",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "AJ Auxerre"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "AS Monaco"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73984",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "Havre Athletic Club"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Toulouse FC"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73985",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "RC Lens"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Angers SCO"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73986",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "FC Lorient"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Le Mans FC"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73987",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "OGC Nice"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Stade Brestois 29"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73988",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "Paris Saint-Germain"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Olympique de Marseille"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73989",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "Stade Rennais FC"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Olympique Lyonnais"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73990",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "RC Strasbourg Alsace"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "Paris FC"
+        }
+      }
+    },
+    {
+      "matchId": "l1_championship_match_73991",
+      "championshipId": 1,
+      "gameWeekNumber": 19,
+      "date": "2027-02-05T23:00:00.000Z",
+      "dateTimeUnknown": true,
+      "home": {
+        "clubIdentity": {
+          "name": "Estac Troyes"
+        }
+      },
+      "away": {
+        "clubIdentity": {
+          "name": "LOSC Lille"
+        }
+      }
+    }
+  ]
+}
