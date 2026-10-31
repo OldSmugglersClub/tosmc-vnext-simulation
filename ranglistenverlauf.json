@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 22,
-  "aktualisiert": "2026-10-26",
+  "datenVersion": 23,
+  "aktualisiert": "2026-10-31",
   "saison": "2026-27",
-  "hinweis": "Kumulativer Ranglistenverlauf nach jedem abgeschlossenen Auftrag.",
+  "hinweis": "Bestehende Historie erhalten; neue Gesamtstände aus Kicktipp. Expliziter Vorherstand berücksichtigt parallele Teilabschlüsse.",
   "verlaeufe": [
     {
       "teilnehmerId": "olympiakos",
@@ -160,6 +160,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 1,
           "punkte": 199
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 1,
+          "punkte": 211,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 1,
+            "punkte": 211,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -326,6 +340,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 2,
           "punkte": 198
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 5,
+          "punkte": 204,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 5,
+            "punkte": 204,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -492,6 +520,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 3,
           "punkte": 197
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 9,
+          "punkte": 199,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 8,
+            "punkte": 199,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -658,6 +700,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 4,
           "punkte": 196
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 2,
+          "punkte": 206,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 2,
+            "punkte": 206,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -824,6 +880,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 5,
           "punkte": 194
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 6,
+          "punkte": 202,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 6,
+            "punkte": 202,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -990,6 +1060,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 6,
           "punkte": 194
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 12,
+          "punkte": 196,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 11,
+            "punkte": 196,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1156,6 +1240,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 7,
           "punkte": 193
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 4,
+          "punkte": 205,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 4,
+            "punkte": 205,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1322,6 +1420,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 8,
           "punkte": 189
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 16,
+          "punkte": 191,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 15,
+            "punkte": 191,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1480,6 +1592,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 9,
           "punkte": 188
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 10,
+          "punkte": 197,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 10,
+            "punkte": 197,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1646,6 +1772,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 10,
           "punkte": 188
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 11,
+          "punkte": 197,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 12,
+            "punkte": 195,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1812,6 +1952,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 11,
           "punkte": 187
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 7,
+          "punkte": 201,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 7,
+            "punkte": 199,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1978,6 +2132,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 12,
           "punkte": 186
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 8,
+          "punkte": 200,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 9,
+            "punkte": 198,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2144,6 +2312,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 13,
           "punkte": 186
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 17,
+          "punkte": 190,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 16,
+            "punkte": 190,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2310,6 +2492,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 14,
           "punkte": 185
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 19,
+          "punkte": 188,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 19,
+            "punkte": 188,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2476,6 +2672,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 15,
           "punkte": 183
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 3,
+          "punkte": 205,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 3,
+            "punkte": 205,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2642,6 +2852,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 16,
           "punkte": 182
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 14,
+          "punkte": 192,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 14,
+            "punkte": 192,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2808,6 +3032,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 17,
           "punkte": 181
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 20,
+          "punkte": 188,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 20,
+            "punkte": 188,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2974,6 +3212,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 18,
           "punkte": 181
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 23,
+          "punkte": 186,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 23,
+            "punkte": 186,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3140,6 +3392,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 19,
           "punkte": 180
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 21,
+          "punkte": 187,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 21,
+            "punkte": 187,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3306,6 +3572,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 20,
           "punkte": 180
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 13,
+          "punkte": 192,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 13,
+            "punkte": 192,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3472,6 +3752,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 21,
           "punkte": 179
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 18,
+          "punkte": 189,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 17,
+            "punkte": 189,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3638,6 +3932,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 22,
           "punkte": 178
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 15,
+          "punkte": 191,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 18,
+            "punkte": 189,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3804,6 +4112,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 23,
           "punkte": 177
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 26,
+          "punkte": 185,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 25,
+            "punkte": 185,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3970,6 +4292,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 24,
           "punkte": 177
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 27,
+          "punkte": 184,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 26,
+            "punkte": 184,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4136,6 +4472,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 25,
           "punkte": 177
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 25,
+          "punkte": 185,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 24,
+            "punkte": 185,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4302,6 +4652,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 26,
           "punkte": 177
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 36,
+          "punkte": 177,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 36,
+            "punkte": 177,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4468,6 +4832,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 27,
           "punkte": 175
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 22,
+          "punkte": 187,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 22,
+            "punkte": 187,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4634,6 +5012,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 28,
           "punkte": 173
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 24,
+          "punkte": 185,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 30,
+            "punkte": 180,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4800,6 +5192,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 29,
           "punkte": 172
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 30,
+          "punkte": 181,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 29,
+            "punkte": 181,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4966,6 +5372,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 30,
           "punkte": 172
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 34,
+          "punkte": 179,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 34,
+            "punkte": 179,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5132,6 +5552,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 31,
           "punkte": 170
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 28,
+          "punkte": 184,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 27,
+            "punkte": 184,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5298,6 +5732,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 32,
           "punkte": 170
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 32,
+          "punkte": 179,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 32,
+            "punkte": 179,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5464,6 +5912,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 33,
           "punkte": 168
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 41,
+          "punkte": 173,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 40,
+            "punkte": 173,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5630,6 +6092,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 34,
           "punkte": 168
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 43,
+          "punkte": 172,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 48,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5796,6 +6272,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 35,
           "punkte": 168
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 31,
+          "punkte": 180,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 31,
+            "punkte": 180,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5962,6 +6452,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 36,
           "punkte": 167
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 48,
+          "punkte": 170,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 47,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6128,6 +6632,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 37,
           "punkte": 166
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 33,
+          "punkte": 179,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 33,
+            "punkte": 179,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6294,6 +6812,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 38,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 35,
+          "punkte": 177,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 35,
+            "punkte": 177,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6460,6 +6992,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 39,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 46,
+          "punkte": 171,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 44,
+            "punkte": 171,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6626,6 +7172,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 40,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 49,
+          "punkte": 170,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 52,
+            "punkte": 167,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6792,6 +7352,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 41,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 38,
+          "punkte": 176,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 38,
+            "punkte": 176,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6958,6 +7532,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 42,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 29,
+          "punkte": 182,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 28,
+            "punkte": 182,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7124,6 +7712,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 43,
           "punkte": 165
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 42,
+          "punkte": 172,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 45,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7290,6 +7892,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 44,
           "punkte": 164
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 37,
+          "punkte": 176,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 37,
+            "punkte": 176,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7440,6 +8056,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 45,
           "punkte": 163
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 54,
+          "punkte": 167,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 53,
+            "punkte": 167,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7606,6 +8236,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 46,
           "punkte": 163
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 39,
+          "punkte": 175,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 41,
+            "punkte": 173,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7772,6 +8416,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 47,
           "punkte": 161
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 55,
+          "punkte": 165,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 55,
+            "punkte": 165,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7938,6 +8596,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 48,
           "punkte": 161
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 52,
+          "punkte": 168,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 54,
+            "punkte": 166,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8104,6 +8776,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 49,
           "punkte": 161
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 45,
+          "punkte": 171,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 43,
+            "punkte": 171,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8270,6 +8956,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 50,
           "punkte": 160
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 56,
+          "punkte": 164,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 56,
+            "punkte": 164,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8436,6 +9136,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 51,
           "punkte": 160
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 40,
+          "punkte": 173,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 39,
+            "punkte": 173,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8602,6 +9316,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 52,
           "punkte": 160
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 50,
+          "punkte": 170,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 49,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8768,6 +9496,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 53,
           "punkte": 160
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 51,
+          "punkte": 169,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 50,
+            "punkte": 169,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8934,6 +9676,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 54,
           "punkte": 159
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 59,
+          "punkte": 162,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 59,
+            "punkte": 162,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9100,6 +9856,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 55,
           "punkte": 158
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 44,
+          "punkte": 172,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 42,
+            "punkte": 172,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9266,6 +10036,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 56,
           "punkte": 158
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 58,
+          "punkte": 162,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 58,
+            "punkte": 162,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9432,6 +10216,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 57,
           "punkte": 157
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 47,
+          "punkte": 170,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 46,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9598,6 +10396,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 58,
           "punkte": 155
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 53,
+          "punkte": 168,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 51,
+            "punkte": 168,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9764,6 +10576,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 59,
           "punkte": 152
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 57,
+          "punkte": 162,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 57,
+            "punkte": 162,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9930,6 +10756,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 60,
           "punkte": 151
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 61,
+          "punkte": 157,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 61,
+            "punkte": 157,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10096,6 +10936,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 61,
           "punkte": 148
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 60,
+          "punkte": 157,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 60,
+            "punkte": 157,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10246,6 +11100,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 62,
           "punkte": 146
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 62,
+          "punkte": 157,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 62,
+            "punkte": 157,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10412,6 +11280,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 63,
           "punkte": 136
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 66,
+          "punkte": 136,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 66,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10570,6 +11452,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 64,
           "punkte": 136
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 63,
+          "punkte": 146,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 63,
+            "punkte": 146,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10728,6 +11624,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 65,
           "punkte": 129
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 64,
+          "punkte": 140,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 64,
+            "punkte": 140,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10894,6 +11804,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 66,
           "punkte": 128
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 67,
+          "punkte": 135,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 67,
+            "punkte": 135,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11060,6 +11984,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 67,
           "punkte": 128
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 68,
+          "punkte": 128,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 68,
+            "punkte": 128,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11226,6 +12164,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 68,
           "punkte": 124
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 65,
+          "punkte": 136,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 65,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11392,6 +12344,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 69,
           "punkte": 114
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 69,
+          "punkte": 121,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 69,
+            "punkte": 121,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11558,6 +12524,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 70,
           "punkte": 105
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 71,
+          "punkte": 105,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 71,
+            "punkte": 105,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11724,6 +12704,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 71,
           "punkte": 99
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 70,
+          "punkte": 106,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 70,
+            "punkte": 106,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11890,6 +12884,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 72,
           "punkte": 98
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 72,
+          "punkte": 98,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 72,
+            "punkte": 98,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12056,6 +13064,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 73,
           "punkte": 94
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 75,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 75,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12222,6 +13244,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 74,
           "punkte": 94
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 74,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 74,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12388,6 +13424,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 75,
           "punkte": 87
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 76,
+          "punkte": 92,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 76,
+            "punkte": 92,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12554,6 +13604,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 76,
           "punkte": 85
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 73,
+          "punkte": 98,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 73,
+            "punkte": 96,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12720,6 +13784,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 77,
           "punkte": 81
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 77,
+          "punkte": 81,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 77,
+            "punkte": 81,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12886,6 +13964,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 78,
           "punkte": 77
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 78,
+          "punkte": 77,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 78,
+            "punkte": 77,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13052,6 +14144,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 79,
           "punkte": 76
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 79,
+          "punkte": 76,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 79,
+            "punkte": 76,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13218,6 +14324,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 80,
           "punkte": 75
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 80,
+          "punkte": 75,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 80,
+            "punkte": 75,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13384,6 +14504,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 81,
           "punkte": 63
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 81,
+          "punkte": 63,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 81,
+            "punkte": 63,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13550,6 +14684,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 82,
           "punkte": 62
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 82,
+          "punkte": 62,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 82,
+            "punkte": 62,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13716,6 +14864,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 83,
           "punkte": 51
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 83,
+          "punkte": 51,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 83,
+            "punkte": 51,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13882,6 +15044,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 84,
           "punkte": 44
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 84,
+          "punkte": 44,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 84,
+            "punkte": 44,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14048,6 +15224,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 85,
           "punkte": 43
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 85,
+          "punkte": 43,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 85,
+            "punkte": 43,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14214,6 +15404,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 86,
           "punkte": 28
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 86,
+          "punkte": 33,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 86,
+            "punkte": 33,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14364,6 +15568,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 87,
           "punkte": 26
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 87,
+          "punkte": 26,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 87,
+            "punkte": 26,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14530,6 +15748,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 88,
           "punkte": 22
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 88,
+          "punkte": 22,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 88,
+            "punkte": 22,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14696,6 +15928,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 89,
           "punkte": 22
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 89,
+          "punkte": 22,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 89,
+            "punkte": 22,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14862,6 +16108,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 90,
           "punkte": 19
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 90,
+          "punkte": 19,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 90,
+            "punkte": 19,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15028,6 +16288,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 91,
           "punkte": 14
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 92,
+          "punkte": 14,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 91,
+            "punkte": 14,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15194,6 +16468,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 92,
           "punkte": 13
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 91,
+          "punkte": 15,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 92,
+            "punkte": 13,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15352,6 +16640,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 93,
           "punkte": 11
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 93,
+          "punkte": 11,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 93,
+            "punkte": 11,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15518,6 +16820,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 94,
           "punkte": 10
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 95,
+          "punkte": 10,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 95,
+            "punkte": 10,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15684,6 +17000,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 95,
           "punkte": 7
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 96,
+          "punkte": 7,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 96,
+            "punkte": 7,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15850,6 +17180,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 96,
           "punkte": 5
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 94,
+          "punkte": 10,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 94,
+            "punkte": 10,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16016,6 +17360,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 97,
           "punkte": 4
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 97,
+          "punkte": 4,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 97,
+            "punkte": 4,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16182,6 +17540,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 98,
           "punkte": 2
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 98,
+          "punkte": 2,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 98,
+            "punkte": 2,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16348,6 +17720,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 98,
           "punkte": 2
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 99,
+          "punkte": 2,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 99,
+            "punkte": 2,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16846,6 +18232,20 @@
           "auftragId": "2026-27__smugglerauftrag__9-spieltag__sma-2026-27-09-078",
           "platz": 101,
           "punkte": 0
+        },
+        {
+          "zeitpunkt": "2026-10-31T23:12:11.513Z",
+          "wettbewerb": "piratenkodex",
+          "runde": "Piratenkodex II – Madonnina",
+          "auftragId": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+          "platz": 100,
+          "punkte": 0,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 100,
+            "punkte": 0,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },

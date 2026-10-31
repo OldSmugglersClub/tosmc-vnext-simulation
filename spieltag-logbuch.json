@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 22,
-  "aktualisiert": "2026-10-26T06:18:27.853Z",
+  "datenVersion": 23,
+  "aktualisiert": "2026-10-31T23:12:11.513Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -9434,6 +9434,365 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 37
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina",
+      "bezeichnung": "Piratenkodex Piratenkodex II – Madonnina",
+      "wettbewerb": "piratenkodex",
+      "runde": "Piratenkodex II – Madonnina",
+      "abgeschlossen": true,
+      "spielIds": [
+        "pk-2026-27-02-madonnina"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "juri",
+          "teilnehmer": "JuRi",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 5,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "juri",
+                "teilnehmer": "JuRi",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "pk-2026-27-02-madonnina",
+            "heimTeam": "ac-mailand",
+            "auswaertsTeam": "inter-mailand",
+            "ergebnis": "3:1",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "tippverteilung": {
+              "1": 12,
+              "2": 40,
+              "X": 19
+            },
+            "exakt": 1,
+            "differenz": 1,
+            "tendenz": 10,
+            "richtigerAusgang": "1",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 40
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 12,
+              "anteil": 16.9,
+              "tipper": [
+                {
+                  "teilnehmerId": "best10",
+                  "teilnehmer": "Best10",
+                  "tipp": "3:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "xib0o",
+                  "teilnehmer": "Xib0o",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "g-1000",
+                  "teilnehmer": "G.1000",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "handgottes",
+                  "teilnehmer": "HandGottes",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "juri",
+                  "teilnehmer": "JuRi",
+                  "tipp": "3:1",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "realzaragoza",
+                  "teilnehmer": "Realzaragoza",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "glatze583",
+                  "teilnehmer": "Glatze583",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "oifinger",
+                  "teilnehmer": "Oifinger",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "tortugasge",
+                  "teilnehmer": "TortugaSGE",
+                  "tipp": "4:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "mythos",
+                  "teilnehmer": "Mythos",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "aufdieblaue",
+                  "teilnehmer": "AufdieBlaue",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "co",
+                  "teilnehmer": "Co",
+                  "tipp": "2:1",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 1
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "pk-2026-27-02-madonnina",
+                "heimTeam": "ac-mailand",
+                "auswaertsTeam": "inter-mailand",
+                "ergebnis": "3:1",
+                "abgegeben": 71,
+                "nichtAbgegeben": 29,
+                "tippverteilung": {
+                  "1": 12,
+                  "2": 40,
+                  "X": 19
+                },
+                "exakt": 1,
+                "differenz": 1,
+                "tendenz": 10,
+                "richtigerAusgang": "1",
+                "meistGetippt": {
+                  "ausgang": "2",
+                  "anzahl": 40
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 12,
+                  "anteil": 16.9,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "best10",
+                      "teilnehmer": "Best10",
+                      "tipp": "3:2",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "xib0o",
+                      "teilnehmer": "Xib0o",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "g-1000",
+                      "teilnehmer": "G.1000",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "handgottes",
+                      "teilnehmer": "HandGottes",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "juri",
+                      "teilnehmer": "JuRi",
+                      "tipp": "3:1",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "realzaragoza",
+                      "teilnehmer": "Realzaragoza",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "glatze583",
+                      "teilnehmer": "Glatze583",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "oifinger",
+                      "teilnehmer": "Oifinger",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "tortugasge",
+                      "teilnehmer": "TortugaSGE",
+                      "tipp": "4:2",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "mythos",
+                      "teilnehmer": "Mythos",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "aufdieblaue",
+                      "teilnehmer": "AufdieBlaue",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "co",
+                      "teilnehmer": "Co",
+                      "tipp": "2:1",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 1,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "juri",
+                "teilnehmer": "JuRi",
+                "exakt": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 0.31,
+                "punktesumme": 23,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 0.2,
+                "punktesumme": 5,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 0.11
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "juri",
+                "teilnehmer": "JuRi",
+                "vorher": 30,
+                "jetzt": 24,
+                "veraenderung": 6
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "luki1887",
+                "teilnehmer": "Luki1887",
+                "vorher": 44,
+                "jetzt": 46,
+                "veraenderung": -2
+              },
+              {
+                "teilnehmerId": "stevie26",
+                "teilnehmer": "Stevie26",
+                "vorher": 43,
+                "jetzt": 45,
+                "veraenderung": -2
+              },
+              {
+                "teilnehmerId": "sven-huhn",
+                "teilnehmer": "Sven_Huhn",
+                "vorher": 42,
+                "jetzt": 44,
+                "veraenderung": -2
+              },
+              {
+                "teilnehmerId": "quick",
+                "teilnehmer": "Quick",
+                "vorher": 51,
+                "jetzt": 53,
+                "veraenderung": -2
+              }
+            ],
+            "maxGewinn": 6,
+            "maxVerlust": -2
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "exakt": 1,
+            "differenz": 1,
+            "tendenz": 10
           }
         }
       ]

@@ -9849,16 +9849,40 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "20:45",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [
             "piratenkodex"
           ],
           "notiz": "Piratenkodex II – Madonnina",
           "quelleStand": "2026-07-30",
           "heimTeamId": "ac-mailand",
-          "auswaertsTeamId": "inter-mailand"
+          "auswaertsTeamId": "inter-mailand",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T23:12:11.513Z",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 12,
+                "prozent": 16.9
+              },
+              "2": {
+                "anzahl": 40,
+                "prozent": 56.3
+              },
+              "X": {
+                "anzahl": 19,
+                "prozent": 26.8
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T23:12:11.513Z"
         },
         {
           "id": "pk-2026-27-03-nw-derby",
@@ -14911,6 +14935,6 @@
       ]
     }
   ],
-  "datenVersion": 85,
+  "datenVersion": 86,
   "aktualisiert": "2026-10-31"
 }
