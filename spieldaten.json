@@ -4043,14 +4043,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "18:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-09-10",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "bayern-muenchen",
-          "auswaertsTeamId": "dortmund"
+          "auswaertsTeamId": "dortmund",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 61,
+                "prozent": 87.1
+              },
+              "2": {
+                "anzahl": 2,
+                "prozent": 2.9
+              },
+              "X": {
+                "anzahl": 7,
+                "prozent": 10
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-065",
@@ -4066,14 +4090,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 4,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "leverkusen",
-          "auswaertsTeamId": "stuttgart"
+          "auswaertsTeamId": "stuttgart",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 55,
+                "prozent": 78.6
+              },
+              "2": {
+                "anzahl": 4,
+                "prozent": 5.7
+              },
+              "X": {
+                "anzahl": 11,
+                "prozent": 15.7
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-066",
@@ -4112,14 +4160,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "augsburg",
-          "auswaertsTeamId": "freiburg"
+          "auswaertsTeamId": "freiburg",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 8,
+                "prozent": 11.4
+              },
+              "2": {
+                "anzahl": 40,
+                "prozent": 57.1
+              },
+              "X": {
+                "anzahl": 22,
+                "prozent": 31.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-068",
@@ -4158,14 +4230,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 0,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "moenchengladbach",
-          "auswaertsTeamId": "paderborn"
+          "auswaertsTeamId": "paderborn",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 57,
+                "prozent": 81.4
+              },
+              "2": {
+                "anzahl": 6,
+                "prozent": 8.6
+              },
+              "X": {
+                "anzahl": 7,
+                "prozent": 10
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-070",
@@ -4181,14 +4277,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "werder-bremen",
-          "auswaertsTeamId": "hoffenheim"
+          "auswaertsTeamId": "hoffenheim",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 32,
+                "prozent": 45.7
+              },
+              "2": {
+                "anzahl": 20,
+                "prozent": 28.6
+              },
+              "X": {
+                "anzahl": 18,
+                "prozent": 25.7
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-071",
@@ -4204,14 +4324,38 @@
           "datumAnzeige": "31.10.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 0,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "schalke-04",
-          "auswaertsTeamId": "rb-leipzig"
+          "auswaertsTeamId": "rb-leipzig",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 3,
+                "prozent": 4.3
+              },
+              "2": {
+                "anzahl": 60,
+                "prozent": 85.7
+              },
+              "X": {
+                "anzahl": 7,
+                "prozent": 10
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-08-072",
@@ -4227,14 +4371,38 @@
           "datumAnzeige": "30.10.2026",
           "anstoss": "20:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 4,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-09-10",
+          "quelleStand": "2026-10-31",
           "heimTeamId": "elversberg",
-          "auswaertsTeamId": "mainz-05"
+          "auswaertsTeamId": "mainz-05",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-10-31T20:59:07.125Z",
+            "abgegeben": 68,
+            "nichtAbgegeben": 32,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 25,
+                "prozent": 36.8
+              },
+              "2": {
+                "anzahl": 28,
+                "prozent": 41.2
+              },
+              "X": {
+                "anzahl": 15,
+                "prozent": 22.1
+              }
+            }
+          },
+          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
         },
         {
           "id": "bl-2026-27-09-073",
@@ -14743,6 +14911,6 @@
       ]
     }
   ],
-  "datenVersion": 82,
-  "aktualisiert": "2026-10-26"
+  "datenVersion": 85,
+  "aktualisiert": "2026-10-31"
 }

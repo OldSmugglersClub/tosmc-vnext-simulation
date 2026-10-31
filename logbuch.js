@@ -88,7 +88,7 @@ function storyFromEntry(entry){
   const f=sensationCases(smelled)[0],r=f?.richtigeTendenz||{};
   if(f)return {
    title:`Nur ${Number(r.anzahl||0)} Smuggler rochen die Überraschung.`,
-   text:`Bei ${f.heimTeam} – ${f.auswaertsTeam} lag die Außenseiterseite mit ${outcomeLabel(f.richtigerAusgang)} richtig.`
+   text:`Bei ${teamDisplayName(f.heimTeam)} – ${teamDisplayName(f.auswaertsTeam)} lag die Außenseiterseite mit ${outcomeLabel(f.richtigerAusgang)} richtig.`
   };
  }
  const captains=highlight(entry,"kapitaene");
@@ -165,7 +165,9 @@ function weekendCardsHtml(entries){
    detail=stat?`<div class="logbook-poster-proof">${esc(stat.copy)}</div>`:"";
   }
   // Lange Wettbewerbsnamen als ganze Woerter erhalten: nie willkuerlich mitten in "El Clasico" trennen.
-  const competition=esc(keepSpieltag(entry.bezeichnung||entry.runde||entry.wettbewerb||"Spieltag"));
+  const rawCompetition=keepSpieltag(entry.bezeichnung||entry.runde||entry.wettbewerb||"Spieltag");
+  // Nur unmittelbar doppelt vorhandene Wettbewerbsbezeichnungen entfernen.
+  const competition=esc(rawCompetition.replace(/^(Piratenkodex)\s+\1(?=\s|$)/i,"$1"));
   return `<article class="logbook-weekend-card logbook-weekend-card--${theme}"><div class="logbook-poster-top"><span class="logbook-poster-competition">${competition}</span><span class="logbook-poster-symbol" aria-hidden="true">✦</span></div><div class="logbook-poster-center"><span class="logbook-poster-headline">${headline}</span><strong class="logbook-poster-hero">${hero}</strong>${detail}</div><a class="logbook-weekend-link" href="${link}" aria-label="Rückblick öffnen: ${competition}">Geschichte entdecken <span aria-hidden="true">›</span></a></article>`;
  }).join("");
  return `<div class="logbook-weekend-title">${esc(title)}</div><div class="logbook-weekend-grid">${cards}</div>`;
@@ -242,7 +244,7 @@ function renderHighlight(h,entry){
      const more=rest?`<div class="lb-smelled-more">+${rest} ${rest===1?"weiterer Tipper":"weitere Tipper"}</div>`:"";
      return `<section class="lb-sensation-case">
        ${cases.length>1?`<div class="lb-sensation-number">Überraschung ${caseIndex+1}</div>`:""}
-       <p><strong>${esc(f.heimTeam)} – ${esc(f.auswaertsTeam)} · ${esc(f.ergebnis||"")}</strong><br>Nur <strong>${Number(r.anzahl||0)} von ${Number(f.abgegeben||0)} Tippern</strong> (${Number(r.anteil||0).toLocaleString("de-DE",{maximumFractionDigits:1})} %) hatten den ${esc(outcomeLabel(f.richtigerAusgang))} auf dem Zettel. Die Mehrheit tippte auf ${esc(outcomeLabel(f.meistGetippt?.ausgang))}.</p>
+       <p><strong>${esc(teamDisplayName(f.heimTeam))} – ${esc(teamDisplayName(f.auswaertsTeam))} · ${esc(f.ergebnis||"")}</strong><br>Nur <strong>${Number(r.anzahl||0)} von ${Number(f.abgegeben||0)} Tippern</strong> (${Number(r.anteil||0).toLocaleString("de-DE",{maximumFractionDigits:1})} %) hatten den ${esc(outcomeLabel(f.richtigerAusgang))} auf dem Zettel. Die Mehrheit tippte auf ${esc(outcomeLabel(f.meistGetippt?.ausgang))}.</p>
        <div class="lb-smelled-table-wrap">
          <table class="lb-smelled-table">
            <thead><tr><th>Tipper</th><th>Tipp</th><th>Wertung</th></tr></thead>
@@ -475,7 +477,7 @@ function renderEntry(entry,pending){
   if(pending?.active)document.title="Auswertung läuft | The Old Smugglers Club";
   return;
  }
- const completedHtml=`<section class="lb-entry"><header class="lb-entry-head"><span>${pending?.active?"Zuletzt abgeschlossen · ":""}${esc(entry.wettbewerb||"Spieltag")}</span><h2>${esc(keepSpieltag(entry.bezeichnung||entry.runde||"Logbuch"))}</h2></header><div class="lb-highlight-grid">${renderHighlightsWithCoco(entry)}</div></section>`;
+ const completedHtml=`<section class="lb-entry"><header class="lb-entry-head"><span>${pending?.active?"Zuletzt abgeschlossen · ":""}${esc(entry.wettbewerb||"Spieltag")}</span><h2>${esc(keepSpieltag(String(entry.bezeichnung||entry.runde||"Logbuch").replace(/^(Piratenkodex)\s+\1(?=\s|$)/i,"$1")))}</h2></header><div class="lb-highlight-grid">${renderHighlightsWithCoco(entry)}</div></section>`;
  host.innerHTML=`${pendingHtml}${completedHtml}`;
  document.title=pending?.active?"Auswertung läuft | The Old Smugglers Club":`${entry.bezeichnung||"Logbuch"} | The Old Smugglers Club`;
 }

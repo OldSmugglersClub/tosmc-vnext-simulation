@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T20:52:44.523112Z",
+  "updatedAt": "2026-10-31T21:31:06.115Z",
   "entries": {
     "sma-2026-27-auftakt-001": {
       "datum": "2026-08-09",
@@ -2212,18 +2212,18 @@
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "18:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-09-10"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-065": {
       "datum": "2026-10-31",
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "15:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-066": {
       "datum": "2026-11-01",
@@ -2239,9 +2239,9 @@
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "15:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-068": {
       "datum": "2026-11-01",
@@ -2257,36 +2257,36 @@
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "15:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-070": {
       "datum": "2026-10-31",
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "15:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-071": {
       "datum": "2026-10-31",
       "datumVon": "2026-10-31",
       "datumBis": "2026-10-31",
       "anstoss": "15:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-07-30"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-08-072": {
       "datum": "2026-10-30",
       "datumVon": "2026-10-30",
       "datumBis": "2026-10-30",
       "anstoss": "20:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
-      "quelleStand": "2026-09-10"
+      "quelleStand": "2026-10-31"
     },
     "bl-2026-27-09-073": {
       "datum": "2026-11-07",

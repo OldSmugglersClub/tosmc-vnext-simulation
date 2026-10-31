@@ -1,0 +1,74 @@
+TOSMC vNext Simulation – kontrollierter Abgleich 31.10.2026
+
+Ziel ausschliesslich: lokales Repository tosmc-vnext-simulation.
+Vollstaendiger Repository-Inhalt direkt im ZIP-Stamm; keine Patch-Ausfuehrung.
+
+Live-Quelle: the-old-smugglers-club-main(20261031-215451).zip
+SHA256: 094d3be36e61083d1f581d3a77e468a95f0f082d9683f932515ea0af2f758882
+Simulationsquelle: tosmc-vnext-simulation-main(5).zip
+SHA256: cd772a5f97b5c83c2a73c32c0bde96bddae3490fd5f6cf1070c6d970dd8adac5
+Kein aktueller GitHub-HEAD geprueft. Bei inzwischen neueren lokalen/remote Aenderungen nicht ungeprueft ueberschreiben.
+
+Madonnina ist in der bereitgestellten Live-Basis noch offen, ohne Ergebnis und ohne Abschlussblock. Keine Abrechnung erzeugt.
+Bundesliga ST8 als offener Teilstand mit 7/9 Spielen aus Live uebernommen. Alle 20 abgeschlossenen Auftraege und bisherigen gemeinsamen Wertungsbloecke stimmen zwischen beiden Ausgangsstaenden exakt ueberein. Ein neuer offener Bundesliga-ST8-Block wird uebernommen, nicht finalisiert.
+
+Live-Website-Dateien einschliesslich aktueller Logbuch-/Ehrenlogbuchdarstellung, Torjaeger und offizieller Zwischenstands-Highscore uebernommen. Termin-Snapshot auf bestaetigte Werte der Live-Spieldaten abgeglichen. Simulationsmarker auf die neue ZIP-Basis aktualisiert; Commit unbekannt, deshalb null.
+Alle bestehenden Simulationsworkflows, saemtliche scripts-Dateien und Terminwaechter-Konfiguration bytegleich erhalten. Abweichender Live-Termincode ist eine eigenstaendige Implementierung und wird nicht eingemischt. Keine Live-Ergebnis-/Termin-/Bereinigungsworkflows importiert. Kein Adminupdate.
+
+Geschuetzt und gegen Simulationsvorbestand unveraendert: Hall-of-Fame-Daten, Ehrenlogbucharchiv, Saisonarchiv, Teams, Teilnehmer, Logbuch-Daten, Tipps und finale Punkte. Migration und testbereich identisch erhalten.
+
+Pruefungen: vier Website-Regressionstests, elf Terminwaechter-Testskripte und Release Guard bestanden. Dateimanifest, Schutzinvarianten und ZIP-Inhalt geprueft. Keine Browser-/GitHub-Ausfuehrung oder Einspielung durch KI.
+
+Ablauf:
+1. ZIP-Inhalt ins lokale tosmc-vnext-simulation uebernehmen. Keine Dateien loeschen.
+2. GitHub Desktop: 11 geaenderte Bestandsdateien plus diese neue Nachweisdatei erwarten; keine Workflow-/Terminwaechter-Codeaenderungen. Commit/Push durch Nutzer.
+3. Simulationswebsite pruefen und Einspielung/Funktion bestaetigen.
+4. Nutzer erstellt danach mit vNext-Admin den Madonnina-Abschluss. KI prueft erst die vom Admin erzeugten Pruef-/Backup- und Uploadpakete. Bewusste Freigabe vor Abschluss-Einspielung bleibt Pflicht.
+
+SHA256 der geaenderten Bestandsdateien (vorher=bereitgestellte Simulation, nachher=Abgleich):
+{
+  ".tosmc-simulation.json": {
+    "before": "eef7fb920f5e74fdc0e9e29a69d96b86d755db92ff0da24c741d4e26f3c2424d",
+    "after": "04f8d4a5eb66ee38c466a2660477fcde7d085c4d4627e2b79f6552f61ef56c5c"
+  },
+  "bundesliga-torjaeger.json": {
+    "before": "0933c9c03d3ef70aff895a3c2f58936183eeddf9f6ca17e9ef3002ab1bea67d5",
+    "after": "6e32d43064830e2cfcfea19084142ba63efd6e817abe238f13dd0d05fedd1c79"
+  },
+  "ehrenlogbuch-runtime.js": {
+    "before": "4510992d2150458a73e6a0f9442a0b3017640ce2b40a1f53fc50c6be504ae377",
+    "after": "494ed32895089b53d759f5830d30602872ccc90812f18e19811fecc6f02a1a5f"
+  },
+  "hall-of-fame-runtime.js": {
+    "before": "9465557403f8d24222e7d5e6cb5e78b38143e5e5c54b031a9b45861232671fab",
+    "after": "1d7118592b4d9fe93123c428f465191889e4dc24c0a5faaf68bd5fc1252ea9b4"
+  },
+  "hall-of-fame.html": {
+    "before": "23449fa95c7264c8f8f23d4c9a45eab59c579be001d2f5a17496a506aad00e57",
+    "after": "281a181f8a355f1f40ed3e2fd9d946dedf511f7a57794782e34999a09314ea11"
+  },
+  "highscore.json": {
+    "before": "e31f27167486d8d548b94747a3499fd6f6e1520c2feca49befd255f2b126dd07",
+    "after": "f9daa07076f4f0fdf4c1842c9e7806d3000ee0be062d8624dd77adf25ee7b0bd"
+  },
+  "logbuch.js": {
+    "before": "9c4600771cfc3904bd7e7d1ef598f45c019c9b64091e240c09e33b8b3094b5ae",
+    "after": "42c848b7f79f6d14288b966c3c80c13cbec755607a9f8d0da7ea329dc1b05585"
+  },
+  "schedule-terminstand.json": {
+    "before": "9c3873f6d1e20f4cd6bdfe9d326105bd3e28a164e1b5e7b9a944a6637b32de5c",
+    "after": "a8cbd196091b6f1d2de9e727c0c9412364db7cd43baca8d0eae410fc7658d6e0"
+  },
+  "spielbetrieb.json": {
+    "before": "c849b3aebeb8934be2fa919b88906e54ce332cf29f0c4eb13f5968ca987f1cef",
+    "after": "95ef87e57a151cfd2ebad783ab4bb007f2f825f88bd3a3f9f3aa0a96c76f55de"
+  },
+  "spieldaten.json": {
+    "before": "9526af6c9790b2f4397fe15bf3cbb917a340882e2f346bcb9ed57af18967d047",
+    "after": "6901eef620002a4ac4864e60d97a39550835df164a8769a3431e1bce4c316d25"
+  },
+  "website-view.json": {
+    "before": "c59fdd95ed9596f046ce4aede22b78c25075260b5000a5046fd853a62a8ae9f8",
+    "after": "baeeecc1c3f084f6db4306e5b52d1b02b24411f3809e68f3f9cf4499703e140d"
+  }
+}

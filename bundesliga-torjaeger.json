@@ -1,25 +1,33 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 37,
-  "aktualisiert": "2026-10-25",
+  "datenVersion": 41,
+  "aktualisiert": "2026-10-31",
   "saison": "2026/2027",
   "quelle": "OpenLigaDB getgoalgetters/bl1/2026",
   "status": "bereit",
   "torjaeger": [
     {
       "name": "N. Füllkrug",
-      "tore": 8
+      "tore": 9
+    },
+    {
+      "name": "P. Schick",
+      "tore": 7
     },
     {
       "name": "M. Olise",
       "tore": 6
     },
     {
-      "name": "P. Schick",
-      "tore": 6
+      "name": "Younes Ebnoutalib",
+      "tore": 5
     },
     {
-      "name": "Younes Ebnoutalib",
+      "name": "M. Gregoritsch",
+      "tore": 5
+    },
+    {
+      "name": "E. Demirovic",
       "tore": 5
     },
     {
@@ -31,11 +39,19 @@
       "tore": 4
     },
     {
+      "name": "A. Nusa",
+      "tore": 4
+    },
+    {
       "name": "Y. Suzuki",
       "tore": 4
     },
     {
-      "name": "M. Gregoritsch",
+      "name": "I. Matanovic",
+      "tore": 4
+    },
+    {
+      "name": "M. Krattenmacher",
       "tore": 4
     },
     {
@@ -43,23 +59,23 @@
       "tore": 4
     },
     {
+      "name": "Romulo",
+      "tore": 4
+    },
+    {
       "name": "H. Kane",
       "tore": 4
     },
     {
-      "name": "A. Nusa",
+      "name": "D. Upamecano",
       "tore": 3
     },
     {
-      "name": "I. Matanovic",
+      "name": "S. Guirassy",
       "tore": 3
     },
     {
-      "name": "E. Demirovic",
-      "tore": 3
-    },
-    {
-      "name": "M. Krattenmacher",
+      "name": "Fabio Silva",
       "tore": 3
     },
     {
@@ -79,10 +95,6 @@
       "tore": 3
     },
     {
-      "name": "Romulo",
-      "tore": 3
-    },
-    {
       "name": "T. Gomis",
       "tore": 3
     },
@@ -92,10 +104,6 @@
     },
     {
       "name": "Aleksandar Pavlovic",
-      "tore": 2
-    },
-    {
-      "name": "D. Upamecano",
       "tore": 2
     },
     {
@@ -123,15 +131,15 @@
       "tore": 2
     },
     {
-      "name": "C. Kofane",
-      "tore": 2
-    },
-    {
       "name": "L. Petkov",
       "tore": 2
     },
     {
-      "name": "S. Guirassy",
+      "name": "Cole Campbell",
+      "tore": 2
+    },
+    {
+      "name": "C. Kofane",
       "tore": 2
     },
     {
@@ -139,7 +147,7 @@
       "tore": 2
     },
     {
-      "name": "Fabio Silva",
+      "name": "B. El Khannouss",
       "tore": 2
     },
     {
@@ -147,7 +155,15 @@
       "tore": 2
     },
     {
+      "name": "F. Keidel",
+      "tore": 2
+    },
+    {
       "name": "H. Bolin",
+      "tore": 2
+    },
+    {
+      "name": "E. Dinkçi",
       "tore": 2
     },
     {
@@ -211,11 +227,15 @@
       "tore": 2
     },
     {
+      "name": "B. Conté",
+      "tore": 2
+    },
+    {
       "name": "M. Muheim",
       "tore": 2
     },
     {
-      "name": "B. Conté",
+      "name": "B. Hollerbach",
       "tore": 2
     },
     {
@@ -243,10 +263,6 @@
       "tore": 1
     },
     {
-      "name": "Cole Campbell",
-      "tore": 1
-    },
-    {
       "name": "David Mokwa Ntusu",
       "tore": 1
     },
@@ -267,15 +283,11 @@
       "tore": 1
     },
     {
-      "name": "B. El Khannouss",
+      "name": "T. Lemperle",
       "tore": 1
     },
     {
       "name": "L. Avdullahu",
-      "tore": 1
-    },
-    {
-      "name": "T. Lemperle",
       "tore": 1
     },
     {
@@ -287,15 +299,7 @@
       "tore": 1
     },
     {
-      "name": "F. Keidel",
-      "tore": 1
-    },
-    {
       "name": "D. Mokwa",
-      "tore": 1
-    },
-    {
-      "name": "E. Dinkçi",
       "tore": 1
     },
     {
@@ -315,11 +319,11 @@
       "tore": 1
     },
     {
-      "name": "R. Gosens",
+      "name": "A. Aouchiche",
       "tore": 1
     },
     {
-      "name": "A. Aouchiche",
+      "name": "R. Gosens",
       "tore": 1
     },
     {
@@ -351,6 +355,10 @@
       "tore": 1
     },
     {
+      "name": "Danny da Costa",
+      "tore": 1
+    },
+    {
       "name": "E. Martel",
       "tore": 1
     },
@@ -359,15 +367,11 @@
       "tore": 1
     },
     {
-      "name": "Danny da Costa",
+      "name": "N. Capaldo",
       "tore": 1
     },
     {
       "name": "R. Ache",
-      "tore": 1
-    },
-    {
-      "name": "N. Capaldo",
       "tore": 1
     },
     {
@@ -403,11 +407,7 @@
       "tore": 1
     },
     {
-      "name": "J. Quansah",
-      "tore": 1
-    },
-    {
-      "name": "B. Hollerbach",
+      "name": "R. Andrich",
       "tore": 1
     },
     {
@@ -415,7 +415,7 @@
       "tore": 1
     },
     {
-      "name": "R. Andrich",
+      "name": "J. Quansah",
       "tore": 1
     },
     {
@@ -423,11 +423,11 @@
       "tore": 1
     },
     {
-      "name": "C. Führich",
+      "name": "J. Chabot",
       "tore": 1
     },
     {
-      "name": "J. Chabot",
+      "name": "C. Führich",
       "tore": 1
     },
     {
@@ -439,19 +439,11 @@
       "tore": 1
     },
     {
-      "name": "K. Karaman",
-      "tore": 1
-    },
-    {
       "name": "K. Goto",
       "tore": 1
     },
     {
-      "name": "Frederik Schmahl",
-      "tore": 1
-    },
-    {
-      "name": "Lasse Günther",
+      "name": "K. Karaman",
       "tore": 1
     },
     {
@@ -459,7 +451,15 @@
       "tore": 1
     },
     {
+      "name": "Lasse Günther",
+      "tore": 1
+    },
+    {
       "name": "Mert Kömür",
+      "tore": 1
+    },
+    {
+      "name": "Frederik Schmahl",
       "tore": 1
     },
     {
@@ -471,11 +471,11 @@
       "tore": 1
     },
     {
-      "name": "J. Haberer",
+      "name": "Han-Noah Massengo",
       "tore": 1
     },
     {
-      "name": "Han-Noah Massengo",
+      "name": "J. Haberer",
       "tore": 1
     },
     {
@@ -487,15 +487,35 @@
       "tore": 1
     },
     {
-      "name": "A. Kramaric",
-      "tore": 1
-    },
-    {
       "name": "M. Moerstedt",
       "tore": 1
     },
     {
+      "name": "A. Kramaric",
+      "tore": 1
+    },
+    {
       "name": "S. Gnabry",
+      "tore": 1
+    },
+    {
+      "name": "Francis Onyeka",
+      "tore": 1
+    },
+    {
+      "name": "J. Leweling",
+      "tore": 1
+    },
+    {
+      "name": "I. Maza",
+      "tore": 1
+    },
+    {
+      "name": "C. Irie",
+      "tore": 1
+    },
+    {
+      "name": "K. Laimer",
       "tore": 1
     }
   ]
