@@ -457,16 +457,40 @@
           "datumAnzeige": "01.11.2026",
           "anstoss": "13:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [
             "smugglerauftrag"
           ],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 10. Spieltag der 2. Bundesliga.",
           "quelleStand": "2026-07-03",
           "heimTeamId": "hannover-96",
-          "auswaertsTeamId": "dynamo-dresden"
+          "auswaertsTeamId": "dynamo-dresden",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-01T22:33:10.826Z",
+            "abgegeben": 72,
+            "nichtAbgegeben": 28,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 49,
+                "prozent": 68.1
+              },
+              "2": {
+                "anzahl": 15,
+                "prozent": 20.8
+              },
+              "X": {
+                "anzahl": 8,
+                "prozent": 11.1
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-01T22:33:10.826Z"
         },
         {
           "id": "sma-2026-27-11-095",
@@ -14935,6 +14959,6 @@
       ]
     }
   ],
-  "datenVersion": 86,
+  "datenVersion": 87,
   "aktualisiert": "2026-11-01"
 }
