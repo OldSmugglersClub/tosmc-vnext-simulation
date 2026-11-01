@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T23:12:11.513Z",
+  "updatedAt": "2026-11-01T05:55:55.395Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -1112,8 +1112,8 @@
       }
     },
     {
-      "id": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina-1793488331997",
-      "createdAt": "2026-10-31T23:12:11.513Z",
+      "id": "2026-27__piratenkodex__piratenkodex-ii-madonnina__pk-2026-27-02-madonnina-1793512555896",
+      "createdAt": "2026-11-01T05:55:55.395Z",
       "mode": "test",
       "valuation": "piratenkodex",
       "round": "Piratenkodex II – Madonnina",
@@ -1123,7 +1123,7 @@
       "status": "test",
       "files": {
         "history": {
-          "fileName": "TOSMC_VNEXT_SIMULATION_KURSBEWEGUNG_3.11.7_2026-11-01.zip",
+          "fileName": "the-old-smugglers-club-main.zip",
           "complete": true
         },
         "tips": {

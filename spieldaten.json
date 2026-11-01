@@ -9863,7 +9863,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T23:12:11.513Z",
+            "stand": "2026-11-01T05:55:55.395Z",
             "abgegeben": 71,
             "nichtAbgegeben": 29,
             "verborgen": 0,
@@ -9882,7 +9882,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T23:12:11.513Z"
+          "aktualisiertAm": "2026-11-01T05:55:55.395Z"
         },
         {
           "id": "pk-2026-27-03-nw-derby",
@@ -14936,5 +14936,5 @@
     }
   ],
   "datenVersion": 86,
-  "aktualisiert": "2026-10-31"
+  "aktualisiert": "2026-11-01"
 }

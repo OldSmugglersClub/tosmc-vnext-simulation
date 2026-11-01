@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
   "datenVersion": 23,
-  "aktualisiert": "2026-10-31",
+  "aktualisiert": "2026-11-01",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-10-31T23:12:11.513Z",
+  "berechnetAm": "2026-11-01T05:55:55.395Z",
   "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
   "gesamt": [
     {

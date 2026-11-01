@@ -2,7 +2,7 @@
   "meta": {
     "season": "2026-27",
     "matchday": "Piratenkodex Piratenkodex II – Madonnina",
-    "exportDate": "2026-10-31",
+    "exportDate": "2026-11-01",
     "source": "Kicktipp-Ranglisten + interne Tippstatistiken / Admin 6.5.0-HF13-TEST4-HF31",
     "privacy": "E-Mail-Adressen werden nicht übernommen.",
     "participantCount": 100,
@@ -12826,17 +12826,23 @@
           "rank": 1,
           "name": "New Smugglers Team",
           "memberCount": 75,
-          "pointsSum": 41,
-          "averagePoints": 0.55,
-          "totalPoints": 0.55
+          "pointsSum": 23,
+          "averagePoints": 0.31,
+          "totalPoints": 0.31,
+          "kicktippControlValue": 0.31,
+          "validated": true,
+          "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
         },
         {
           "rank": 2,
           "name": "Old Smugglers Team",
           "memberCount": 25,
-          "pointsSum": 10,
-          "averagePoints": 0.4,
-          "totalPoints": 0.4
+          "pointsSum": 5,
+          "averagePoints": 0.2,
+          "totalPoints": 0.2,
+          "kicktippControlValue": 0.2,
+          "validated": true,
+          "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
         }
       ],
       "matchdayLabel": "Piratenkodex Piratenkodex II – Madonnina",
@@ -12868,9 +12874,12 @@
         "rank": 1,
         "name": "New Smugglers Team",
         "memberCount": 75,
-        "pointsSum": 41,
-        "averagePoints": 0.55,
-        "totalPoints": 0.55
+        "pointsSum": 23,
+        "averagePoints": 0.31,
+        "totalPoints": 0.31,
+        "kicktippControlValue": 0.31,
+        "validated": true,
+        "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
       },
       "teamResult": "New Smugglers Team"
     },

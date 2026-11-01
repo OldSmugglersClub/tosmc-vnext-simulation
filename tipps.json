@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "datenVersion": 23,
-  "aktualisiert": "2026-10-31",
+  "aktualisiert": "2026-11-01",
   "saison": "2026-27",
   "hinweis": "Interne Detailquelle. Historische und aktuelle sichtbare Tipps werden ID-stabil kumuliert; verborgene Tipps werden nicht gewertet; echte Nichtabgaben werden nicht als Tippdatensatz gespeichert.",
   "tipps": [

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "datenVersion": 1,
-  "aktualisiertAm": "2026-10-31T23:12:11.513Z",
+  "aktualisiertAm": "2026-11-01T05:55:55.395Z",
   "saison": "2026-27",
   "modus": "test",
   "quelle": "Admin 6.5.0-HF13-TEST4-HF29 Website-Adapter",
@@ -7509,17 +7509,23 @@
             "rank": 1,
             "name": "New Smugglers Team",
             "memberCount": 75,
-            "pointsSum": 41,
-            "averagePoints": 0.55,
-            "totalPoints": 0.55
+            "pointsSum": 23,
+            "averagePoints": 0.31,
+            "totalPoints": 0.31,
+            "kicktippControlValue": 0.31,
+            "validated": true,
+            "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
           },
           {
             "rank": 2,
             "name": "Old Smugglers Team",
             "memberCount": 25,
-            "pointsSum": 10,
-            "averagePoints": 0.4,
-            "totalPoints": 0.4
+            "pointsSum": 5,
+            "averagePoints": 0.2,
+            "totalPoints": 0.2,
+            "kicktippControlValue": 0.2,
+            "validated": true,
+            "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
           }
         ],
         "matchdayLabel": "Piratenkodex Piratenkodex II – Madonnina",
@@ -7551,9 +7557,12 @@
           "rank": 1,
           "name": "New Smugglers Team",
           "memberCount": 75,
-          "pointsSum": 41,
-          "averagePoints": 0.55,
-          "totalPoints": 0.55
+          "pointsSum": 23,
+          "averagePoints": 0.31,
+          "totalPoints": 0.31,
+          "kicktippControlValue": 0.31,
+          "validated": true,
+          "source": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
         },
         "teamResult": "New Smugglers Team"
       },

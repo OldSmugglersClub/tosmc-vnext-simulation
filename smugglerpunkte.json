@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "datenVersion": 23,
-  "aktualisiert": "2026-10-31",
+  "aktualisiert": "2026-11-01",
   "saison": "2026-27",
   "hinweis": "Kumulative Smugglerwertung. Jeder abgeschlossene Smugglerauftrag zählt als eigener Spieltag; geteilte Spieltagssiege werden anteilig kumuliert. Testpakete simulieren denselben kumulierten Fachstand wie der spätere Produktivexport.",
-  "berechnetAm": "2026-10-31T23:12:11.513Z",
+  "berechnetAm": "2026-11-01T05:55:55.395Z",
   "regeln": {
     "tendenz": 2,
     "differenz": 3,

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "datenVersion": 23,
-  "aktualisiert": "2026-10-31",
+  "aktualisiert": "2026-11-01",
   "saison": "2026-27",
   "hinweis": "Offizielle Gesamtplatzierung, Gesamtpunkte, Bonuspunkte und Spieltagssiege aus der Kicktipp-Gesamtübersicht; interne Tippstatistiken ergänzend aus den Tipps aller Tipper.",
-  "berechnetAm": "2026-10-31T23:12:11.513Z",
+  "berechnetAm": "2026-11-01T05:55:55.395Z",
   "quelle": "Kicktipp-Gesamtübersicht + interne Detailberechnung",
   "regeln": {
     "tendenz": 2,
