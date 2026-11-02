@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T06:16:39.062Z",
+  "updatedAt": "2026-11-02T06:17:57.653Z",
   "entries": {
     "sma-2026-27-auftakt-001": {
       "datum": "2026-08-09",
@@ -1933,7 +1933,7 @@
       "datumVon": "2026-11-01",
       "datumBis": "2026-11-01",
       "anstoss": "13:30",
-      "status": "terminiert",
+      "status": "beendet",
       "terminBestaetigt": true,
       "quelleStand": "2026-07-03"
     },
