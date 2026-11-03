@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 25,
+  "datenVersion": 26,
   "aktualisiert": "2026-11-01",
   "hinweis": "Zentrale Teilnehmerliste mit stabilen IDs. E-Mail-Adressen aus dem Kicktipp-Export werden aus Datenschutzgründen nicht gespeichert oder veröffentlicht.",
   "import": {
     "quelle": "Kicktipp-Mitgliederexport",
-    "stand": "2026-11-01T22:33:10.826Z",
+    "stand": "2026-11-01T21:56:36.291Z",
     "anzahl": 100,
     "emailAdressenUebernommen": false
   },

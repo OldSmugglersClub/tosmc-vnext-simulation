@@ -471,7 +471,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-01T22:33:10.826Z",
+            "stand": "2026-11-01T21:31:50.037Z",
             "abgegeben": 72,
             "nichtAbgegeben": 28,
             "verborgen": 0,
@@ -490,7 +490,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-01T22:33:10.826Z"
+          "aktualisiertAm": "2026-11-01T21:31:50.037Z"
         },
         {
           "id": "sma-2026-27-11-095",
@@ -4079,7 +4079,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4098,7 +4098,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-065",
@@ -4126,7 +4126,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4145,7 +4145,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-066",
@@ -4161,14 +4161,38 @@
           "datumAnzeige": "01.11.2026",
           "anstoss": "17:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-09-10",
+          "quelleStand": "2026-11-01",
           "heimTeamId": "frankfurt",
-          "auswaertsTeamId": "hamburger-sv"
+          "auswaertsTeamId": "hamburger-sv",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-01T21:56:36.291Z",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 57,
+                "prozent": 80.3
+              },
+              "2": {
+                "anzahl": 7,
+                "prozent": 9.9
+              },
+              "X": {
+                "anzahl": 7,
+                "prozent": 9.9
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-067",
@@ -4196,7 +4220,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4215,7 +4239,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-068",
@@ -4231,14 +4255,38 @@
           "datumAnzeige": "01.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
-          "quelleStand": "2026-09-10",
+          "quelleStand": "2026-11-01",
           "heimTeamId": "union-berlin",
-          "auswaertsTeamId": "koeln"
+          "auswaertsTeamId": "koeln",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-01T21:56:36.291Z",
+            "abgegeben": 71,
+            "nichtAbgegeben": 29,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 22,
+                "prozent": 31
+              },
+              "2": {
+                "anzahl": 23,
+                "prozent": 32.4
+              },
+              "X": {
+                "anzahl": 26,
+                "prozent": 36.6
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-069",
@@ -4266,7 +4314,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4285,7 +4333,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-070",
@@ -4313,7 +4361,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4332,7 +4380,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-071",
@@ -4360,7 +4408,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 70,
             "nichtAbgegeben": 30,
             "verborgen": 0,
@@ -4379,7 +4427,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-08-072",
@@ -4407,7 +4455,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-10-31T20:59:07.125Z",
+            "stand": "2026-11-01T21:56:36.291Z",
             "abgegeben": 68,
             "nichtAbgegeben": 32,
             "verborgen": 0,
@@ -4426,7 +4474,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-10-31T20:59:07.125Z"
+          "aktualisiertAm": "2026-11-01T21:56:36.291Z"
         },
         {
           "id": "bl-2026-27-09-073",
@@ -9887,7 +9935,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-01T05:55:55.395Z",
+            "stand": "2026-10-31T22:42:30.179Z",
             "abgegeben": 71,
             "nichtAbgegeben": 29,
             "verborgen": 0,
@@ -9906,7 +9954,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-01T05:55:55.395Z"
+          "aktualisiertAm": "2026-10-31T22:42:30.179Z"
         },
         {
           "id": "pk-2026-27-03-nw-derby",
@@ -14959,6 +15007,6 @@
       ]
     }
   ],
-  "datenVersion": 87,
+  "datenVersion": 89,
   "aktualisiert": "2026-11-01"
 }

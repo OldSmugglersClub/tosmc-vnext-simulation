@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 24,
+  "datenVersion": 25,
   "aktualisiert": "2026-11-01",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-11-01T22:33:10.826Z",
-  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
+  "berechnetAm": "2026-11-01T21:56:36.291Z",
+  "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / TOSMC-Admin 6.5.0-TOSMC-ADMIN5-HF3-FIX2-HF8",
   "gesamt": [
     {
       "platz": 1,
@@ -36,10 +36,10 @@
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 139,
-      "durchschnitt": 1.85,
+      "punktesumme": 646,
+      "durchschnitt": 8.61,
       "mitglieder": 75,
-      "kicktippKontrollwert": 1.85,
+      "kicktippKontrollwert": 8.61,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -47,10 +47,10 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 37,
-      "durchschnitt": 1.48,
+      "punktesumme": 172,
+      "durchschnitt": 6.88,
       "mitglieder": 25,
-      "kicktippKontrollwert": 1.48,
+      "kicktippKontrollwert": 6.88,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"

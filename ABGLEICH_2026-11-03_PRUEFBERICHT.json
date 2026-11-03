@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-03",
+  "target": "tosmc-vnext-simulation",
+  "basis": "Nutzer-ZIP-Snapshots; kein aktueller Remote-HEAD",
+  "sourceSha256": {
+    "tosmc-vnext-simulation-main(5).zip": "0ce8e3d9e4918663170fade15ef5a8e366ae6eac590be389a28d966589fe9383",
+    "the-old-smugglers-club-main(20261103-144350).zip": "442d5d92509afc8f62502399da5de1bd3f1dadd92754858ee53935a1c1b35297"
+  },
+  "replacedDataFiles": [
+    "spielbetrieb.json",
+    "teilnehmer.json",
+    "import-history.json",
+    "spieldaten.json",
+    "tipps.json",
+    "punkte.json",
+    "spieltagpunkte.json",
+    "wettbewerbspunkte.json",
+    "smugglerpunkte.json",
+    "teampunkte.json",
+    "ranglistenverlauf.json",
+    "highscore.json",
+    "hall-of-fame.json",
+    "ehrenlogbuch-archiv.json",
+    "website-view.json",
+    "spieltag-logbuch.json",
+    "topspieler.json",
+    "teams.json"
+  ],
+  "changedExistingFiles": [
+    ".tosmc-simulation.json",
+    "highscore.json",
+    "import-history.json",
+    "punkte.json",
+    "ranglistenverlauf.json",
+    "smugglerpunkte.json",
+    "spielbetrieb.json",
+    "spieldaten.json",
+    "spieltag-logbuch.json",
+    "spieltagpunkte.json",
+    "teampunkte.json",
+    "teilnehmer.json",
+    "tipps.json",
+    "topspieler.json",
+    "website-view.json",
+    "wettbewerbspunkte.json"
+  ],
+  "allOtherSimulationFilesByteIdentical": true,
+  "simulationMarkerTypeRetained": "tosmc-vnext-website-simulation",
+  "protectedDataSemanticallyUnchanged": true,
+  "orders": 23,
+  "duplicateOrders": false,
+  "repositoryWritePerformed": false,
+  "windowsRuntimeTest": "NOT_RUN",
+  "notes": [
+    "Abgleich uebernimmt vorhandene Live-Abrechnungsdaten; keine neue fachliche Kicktipp-Abrechnung oder vNext-Testbestaetigung.",
+    "schedule-terminstand.json, Bundesliga-Torjaeger, Websitecode und alle Workflows bleiben exakt im Simulationsstand.",
+    "Produktiv-/Testkennzeichen in uebernommenen Daten bleiben als Herkunftsmetadaten unveraendert; Zielschutz durch Simulationsmarker und erhaltenen Websitecode."
+  ]
+}

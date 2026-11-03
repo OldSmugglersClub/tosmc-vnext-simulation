@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "type": "tosmc-vnext-website-simulation",
   "writeTarget": true,
-  "sourceBaseline": "Bereitgestellter Live-ZIP-Snapshot 31.10.2026 vor Madonnina; Bundesliga ST8 Zwischenstand 7/9; kein aktueller GitHub-HEAD-Nachweis",
+  "sourceBaseline": "Bereitgestellter Live-ZIP-Snapshot vom 03.11.2026 vor CL ST4; Bundesliga ST8 vollstaendig; 23 Abschluesse. Kein GitHub-HEAD-Nachweis.",
   "sourceCommit": null,
-  "sourceZipSha256": "094d3be36e61083d1f581d3a77e468a95f0f082d9683f932515ea0af2f758882",
-  "synchronizedAt": "2026-10-31",
+  "sourceZipSha256": "442d5d92509afc8f62502399da5de1bd3f1dadd92754858ee53935a1c1b35297",
+  "synchronizedAt": "2026-11-03",
   "sourcePolicy": "Kontrollierte Live-Vorherbasis nur fuer vNext-Simulation. Test2v2, Live und produktiver TOSMC-Admin bleiben READ ONLY.",
   "createdFor": "TOSMC Admin vNext"
 }

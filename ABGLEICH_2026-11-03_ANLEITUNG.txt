@@ -1,0 +1,8 @@
+Nur fuer tosmc-vnext-simulation. Stand 03.11.2026.
+Vollstaendige Repository-ZIP aus vorhandener Simulation; 18 Abrechnungsdateien aus bereitgestellter Live-ZIP uebernommen. BL ST8 abgeschlossen, Kompass/Madonnina enthalten, CL ST4 weiterhin offen. Simulationsmarker-Herkunft aktualisiert. Websitecode, Workflows und Terminwaechterdaten erhalten.
+
+Vor Uebernahme lokale ungesicherte Aenderungen sichern. Inhalt dieses ZIP-Ordners in das vorhandene lokale Repository tosmc-vnext-simulation kopieren und Dateien ersetzen. Vorhandenen .git-Ordner behalten. Weder Live noch Test2v2 verwenden.
+GitHub Desktop: Diff pruefen, Commit und Push origin. Erwartete Aenderungen siehe Pruefbericht: Abrechnungsdaten plus Marker und drei neue Nachweisdateien; keine Code-/Workflowaenderungen.
+Danach Website kontrollieren: BL ST8 vollstaendig, Kompass und Madonnina erhalten, Simulation erkennbar. Einspielung/Funktion bestaetigen.
+Fuer Admin 3.12.4 danach frisch heruntergeladene Simulations-main.zip als Basis verwenden. Noch kein CL-Abschluss ohne passende Originalexporte und Paketpruefung.
+Historische Abgleichsberichte im Repository bleiben historische Nachweise. Aktuell gilt dieser Bericht. Kein Nachweis des Windows-Uebernahmepfads, der Beschleunigung oder einer neuen Kicktipp-Fachpruefung.
