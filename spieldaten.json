@@ -12861,12 +12861,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "schachtar-donezk",
           "auswaertsTeamId": "sporting-lissabon",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 0,
+          "auswaertstore": 1,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 62,
+            "nichtAbgegeben": 37,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 5,
+                "prozent": 8.1
+              },
+              "2": {
+                "anzahl": 48,
+                "prozent": 77.4
+              },
+              "X": {
+                "anzahl": 9,
+                "prozent": 14.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87443",
@@ -12885,12 +12908,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "galatasaray",
           "auswaertsTeamId": "stuttgart",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 2,
+          "auswaertstore": 0,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 62,
+            "nichtAbgegeben": 37,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 24,
+                "prozent": 38.7
+              },
+              "2": {
+                "anzahl": 14,
+                "prozent": 22.6
+              },
+              "X": {
+                "anzahl": 24,
+                "prozent": 38.7
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87444",
@@ -12909,12 +12955,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "feyenoord-rotterdam",
           "auswaertsTeamId": "inter-mailand",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 0,
+          "auswaertstore": 3,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 11,
+                "prozent": 17.5
+              },
+              "2": {
+                "anzahl": 48,
+                "prozent": 76.2
+              },
+              "X": {
+                "anzahl": 4,
+                "prozent": 6.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87445",
@@ -12933,12 +13002,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "barcelona",
           "auswaertsTeamId": "aston-villa",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 3,
+          "auswaertstore": 0,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 59,
+                "prozent": 93.7
+              },
+              "2": {
+                "anzahl": 1,
+                "prozent": 1.6
+              },
+              "X": {
+                "anzahl": 3,
+                "prozent": 4.8
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87446",
@@ -12957,12 +13049,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "atletico-madrid",
           "auswaertsTeamId": "bayern-muenchen",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 0,
+          "auswaertstore": 2,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 10,
+                "prozent": 15.9
+              },
+              "2": {
+                "anzahl": 36,
+                "prozent": 57.1
+              },
+              "X": {
+                "anzahl": 17,
+                "prozent": 27
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87447",
@@ -12981,12 +13096,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "villarreal-cf",
           "auswaertsTeamId": "paris-saint-germain",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 0,
+          "auswaertstore": 6,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 1,
+                "prozent": 1.6
+              },
+              "2": {
+                "anzahl": 59,
+                "prozent": 93.7
+              },
+              "X": {
+                "anzahl": 3,
+                "prozent": 4.8
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87448",
@@ -13005,12 +13143,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "manchester-united",
           "auswaertsTeamId": "as-rom",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 3,
+          "auswaertstore": 2,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 26,
+                "prozent": 41.3
+              },
+              "2": {
+                "anzahl": 21,
+                "prozent": 33.3
+              },
+              "X": {
+                "anzahl": 16,
+                "prozent": 25.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87449",
@@ -13029,12 +13190,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "bod-glimt",
           "auswaertsTeamId": "osc-lille",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 0,
+          "auswaertstore": 0,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 42,
+                "prozent": 66.7
+              },
+              "2": {
+                "anzahl": 12,
+                "prozent": 19
+              },
+              "X": {
+                "anzahl": 9,
+                "prozent": 14.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87450",
@@ -13053,12 +13237,35 @@
           "terminBestaetigt": true,
           "heimTeamId": "lask",
           "auswaertsTeamId": "slovan-bratislava",
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
-          "ergebnisNach90MinutenBestaetigt": false,
+          "heimtore": 4,
+          "auswaertstore": 0,
+          "status": "beendet",
+          "ergebnisNach90MinutenBestaetigt": true,
           "quelle": "OpenLigaDB",
-          "quelleStand": "2026-09-11"
+          "quelleStand": "2026-09-11",
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-04T15:10:18.894Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 36,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 48,
+                "prozent": 76.2
+              },
+              "2": {
+                "anzahl": 5,
+                "prozent": 7.9
+              },
+              "X": {
+                "anzahl": 10,
+                "prozent": 15.9
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-04T15:10:18.894Z"
         },
         {
           "id": "ucl-2026-27-4-spieltag-87451",
@@ -15007,6 +15214,6 @@
       ]
     }
   ],
-  "datenVersion": 89,
-  "aktualisiert": "2026-11-01"
+  "datenVersion": 90,
+  "aktualisiert": "2026-11-04"
 }
