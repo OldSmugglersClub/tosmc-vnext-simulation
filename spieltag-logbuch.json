@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 25,
-  "aktualisiert": "2026-11-01T21:56:36.291Z",
+  "datenVersion": 26,
+  "aktualisiert": "2026-11-05T14:00:20.348Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -10663,6 +10663,289 @@
             "exakt": 83,
             "differenz": 53,
             "tendenz": 122
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+      "bezeichnung": "Champions League 4. Spieltag",
+      "wettbewerb": "champions-league",
+      "runde": "4. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "ucl-2026-27-4-spieltag-87442",
+        "ucl-2026-27-4-spieltag-87443",
+        "ucl-2026-27-4-spieltag-87444",
+        "ucl-2026-27-4-spieltag-87445",
+        "ucl-2026-27-4-spieltag-87446",
+        "ucl-2026-27-4-spieltag-87447",
+        "ucl-2026-27-4-spieltag-87448",
+        "ucl-2026-27-4-spieltag-87449",
+        "ucl-2026-27-4-spieltag-87450",
+        "ucl-2026-27-4-spieltag-87451",
+        "ucl-2026-27-4-spieltag-87452",
+        "ucl-2026-27-4-spieltag-87453",
+        "ucl-2026-27-4-spieltag-87454",
+        "ucl-2026-27-4-spieltag-87455",
+        "ucl-2026-27-4-spieltag-87456",
+        "ucl-2026-27-4-spieltag-87457",
+        "ucl-2026-27-4-spieltag-87458",
+        "ucl-2026-27-4-spieltag-87459"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "opipeter",
+          "teilnehmer": "Opipeter",
+          "punkte": 40,
+          "exakt": 2,
+          "differenz": 4,
+          "tendenz": 9
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 40,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "opipeter",
+                "teilnehmer": "Opipeter",
+                "punkte": 40,
+                "exakt": 2,
+                "differenz": 4,
+                "tendenz": 9
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "ucl-2026-27-4-spieltag-87452",
+            "heimTeam": "fenerbahce",
+            "auswaertsTeam": "fc-liverpool",
+            "ergebnis": "3:2",
+            "abgegeben": 65,
+            "nichtAbgegeben": 34,
+            "tippverteilung": {
+              "1": 6,
+              "2": 52,
+              "X": 7
+            },
+            "exakt": 0,
+            "differenz": 4,
+            "tendenz": 2,
+            "richtigerAusgang": "1",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 52
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 6,
+              "anteil": 9.2,
+              "tipper": [
+                {
+                  "teilnehmerId": "g-1000",
+                  "teilnehmer": "G.1000",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "mariusv",
+                  "teilnehmer": "mariusv",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "realzaragoza",
+                  "teilnehmer": "Realzaragoza",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "kevinhick",
+                  "teilnehmer": "Kevinhick",
+                  "tipp": "4:2",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "oifinger",
+                  "teilnehmer": "Oifinger",
+                  "tipp": "2:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "3:1",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "ucl-2026-27-4-spieltag-87452",
+                "heimTeam": "fenerbahce",
+                "auswaertsTeam": "fc-liverpool",
+                "ergebnis": "3:2",
+                "abgegeben": 65,
+                "nichtAbgegeben": 34,
+                "tippverteilung": {
+                  "1": 6,
+                  "2": 52,
+                  "X": 7
+                },
+                "exakt": 0,
+                "differenz": 4,
+                "tendenz": 2,
+                "richtigerAusgang": "1",
+                "meistGetippt": {
+                  "ausgang": "2",
+                  "anzahl": 52
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 6,
+                  "anteil": 9.2,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "g-1000",
+                      "teilnehmer": "G.1000",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "mariusv",
+                      "teilnehmer": "mariusv",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "realzaragoza",
+                      "teilnehmer": "Realzaragoza",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "kevinhick",
+                      "teilnehmer": "Kevinhick",
+                      "tipp": "4:2",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "oifinger",
+                      "teilnehmer": "Oifinger",
+                      "tipp": "2:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "3:1",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 4,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "g-threepwood",
+                "teilnehmer": "G.Threepwood",
+                "exakt": 4
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 18.77,
+                "punktesumme": 1389,
+                "mitglieder": 74
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 15.68,
+                "punktesumme": 392,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 3.09
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "tribuna33",
+                "teilnehmer": "TRIBUNA33",
+                "vorher": 37,
+                "jetzt": 26,
+                "veraenderung": 11
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "juri",
+                "teilnehmer": "JuRi",
+                "vorher": 47,
+                "jetzt": 58,
+                "veraenderung": -11
+              }
+            ],
+            "maxGewinn": 11,
+            "maxVerlust": -11
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 1144,
+            "nichtAbgegeben": 638,
+            "exakt": 73,
+            "differenz": 108,
+            "tendenz": 546
           }
         }
       ]

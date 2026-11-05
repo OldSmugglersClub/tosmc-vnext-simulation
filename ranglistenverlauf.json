@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 25,
-  "aktualisiert": "2026-11-01",
+  "datenVersion": 26,
+  "aktualisiert": "2026-11-05",
   "saison": "2026-27",
-  "hinweis": "Historische Checkpoints unveraendert; vor und nach aktuellem Abschluss offizielle Kicktipp-Gesamtplatzierung einschliesslich offener Zwischenstaende.",
+  "hinweis": "Bestehende Historie erhalten; neue Gesamtstände aus Kicktipp. Expliziter Vorherstand berücksichtigt parallele Teilabschlüsse.",
   "verlaeufe": [
     {
       "teilnehmerId": "olympiakos",
@@ -204,6 +204,20 @@
           "platz": 1,
           "punkte": 219,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 2,
+          "punkte": 255,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 1,
+            "punkte": 238,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -414,6 +428,20 @@
           "platz": 2,
           "punkte": 217,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 3,
+          "punkte": 243,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 3,
+            "punkte": 230,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -624,6 +652,20 @@
           "platz": 3,
           "punkte": 216,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 1,
+          "punkte": 256,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 2,
+            "punkte": 234,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -834,6 +876,20 @@
           "platz": 6,
           "punkte": 211,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 5,
+          "punkte": 241,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 4,
+            "punkte": 228,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1044,6 +1100,20 @@
           "platz": 4,
           "punkte": 214,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 4,
+          "punkte": 241,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 5,
+            "punkte": 225,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1254,6 +1324,20 @@
           "platz": 7,
           "punkte": 207,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 8,
+          "punkte": 236,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 10,
+            "punkte": 220,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1464,6 +1548,20 @@
           "platz": 8,
           "punkte": 206,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 9,
+          "punkte": 235,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 8,
+            "punkte": 220,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1674,6 +1772,20 @@
           "platz": 9,
           "punkte": 206,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 6,
+          "punkte": 239,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 7,
+            "punkte": 221,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1884,6 +1996,20 @@
           "platz": 5,
           "punkte": 211,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 7,
+          "punkte": 238,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 6,
+            "punkte": 224,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2094,6 +2220,20 @@
           "platz": 10,
           "punkte": 204,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 18,
+          "punkte": 224,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 13,
+            "punkte": 218,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2304,6 +2444,20 @@
           "platz": 11,
           "punkte": 203,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 21,
+          "punkte": 221,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 27,
+            "punkte": 203,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2514,6 +2668,20 @@
           "platz": 12,
           "punkte": 202,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 12,
+          "punkte": 233,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 11,
+            "punkte": 220,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2724,6 +2892,20 @@
           "platz": 13,
           "punkte": 201,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 13,
+          "punkte": 232,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 12,
+            "punkte": 219,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2934,6 +3116,20 @@
           "platz": 15,
           "punkte": 199,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 16,
+          "punkte": 229,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 14,
+            "punkte": 216,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3144,6 +3340,20 @@
           "platz": 16,
           "punkte": 198,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 17,
+          "punkte": 227,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 18,
+            "punkte": 208,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3354,6 +3564,20 @@
           "platz": 17,
           "punkte": 198,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 10,
+          "punkte": 235,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 9,
+            "punkte": 220,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3774,6 +3998,20 @@
           "platz": 19,
           "punkte": 197,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 14,
+          "punkte": 232,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 16,
+            "punkte": 212,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3976,6 +4214,20 @@
           "platz": 14,
           "punkte": 200,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 11,
+          "punkte": 234,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 15,
+            "punkte": 213,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4186,6 +4438,20 @@
           "platz": 20,
           "punkte": 195,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 19,
+          "punkte": 224,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 22,
+            "punkte": 207,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4396,6 +4662,20 @@
           "platz": 21,
           "punkte": 194,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 31,
+          "punkte": 216,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 28,
+            "punkte": 203,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4606,6 +4886,20 @@
           "platz": 22,
           "punkte": 193,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 27,
+          "punkte": 217,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 23,
+            "punkte": 204,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4816,6 +5110,20 @@
           "platz": 24,
           "punkte": 192,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 24,
+          "punkte": 219,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 26,
+            "punkte": 203,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5026,6 +5334,20 @@
           "platz": 23,
           "punkte": 192,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 30,
+          "punkte": 216,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 30,
+            "punkte": 200,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5236,6 +5558,20 @@
           "platz": 26,
           "punkte": 191,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 23,
+          "punkte": 220,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 19,
+            "punkte": 207,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5446,6 +5782,20 @@
           "platz": 27,
           "punkte": 191,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 35,
+          "punkte": 211,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 31,
+            "punkte": 199,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5656,6 +6006,20 @@
           "platz": 29,
           "punkte": 191,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 29,
+          "punkte": 217,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 21,
+            "punkte": 207,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5866,6 +6230,20 @@
           "platz": 28,
           "punkte": 191,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 28,
+          "punkte": 217,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 20,
+            "punkte": 207,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6076,6 +6454,20 @@
           "platz": 30,
           "punkte": 191,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 15,
+          "punkte": 229,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 17,
+            "punkte": 209,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6286,6 +6678,20 @@
           "platz": 31,
           "punkte": 188,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 22,
+          "punkte": 221,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 25,
+            "punkte": 204,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6496,6 +6902,20 @@
           "platz": 25,
           "punkte": 192,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 25,
+          "punkte": 219,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 24,
+            "punkte": 204,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6706,6 +7126,20 @@
           "platz": 33,
           "punkte": 187,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 20,
+          "punkte": 222,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 29,
+            "punkte": 202,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6916,6 +7350,20 @@
           "platz": 32,
           "punkte": 187,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 58,
+          "punkte": 187,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 47,
+            "punkte": 187,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7126,6 +7574,20 @@
           "platz": 34,
           "punkte": 187,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 37,
+          "punkte": 211,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 32,
+            "punkte": 199,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7336,6 +7798,20 @@
           "platz": 36,
           "punkte": 183,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 42,
+          "punkte": 207,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 44,
+            "punkte": 189,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7546,6 +8022,20 @@
           "platz": 35,
           "punkte": 183,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 38,
+          "punkte": 210,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 35,
+            "punkte": 195,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7756,6 +8246,20 @@
           "platz": 38,
           "punkte": 181,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 36,
+          "punkte": 211,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 41,
+            "punkte": 192,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7966,6 +8470,20 @@
           "platz": 39,
           "punkte": 181,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 40,
+          "punkte": 209,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 36,
+            "punkte": 195,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8176,6 +8694,20 @@
           "platz": 40,
           "punkte": 181,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 26,
+          "punkte": 218,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 37,
+            "punkte": 195,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8386,6 +8918,20 @@
           "platz": 41,
           "punkte": 179,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 43,
+          "punkte": 205,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 43,
+            "punkte": 191,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8596,6 +9142,20 @@
           "platz": 42,
           "punkte": 179,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 45,
+          "punkte": 204,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 45,
+            "punkte": 189,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8806,6 +9366,20 @@
           "platz": 44,
           "punkte": 178,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 44,
+          "punkte": 205,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 42,
+            "punkte": 192,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9016,6 +9590,20 @@
           "platz": 37,
           "punkte": 182,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 34,
+          "punkte": 212,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 34,
+            "punkte": 197,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9226,6 +9814,20 @@
           "platz": 47,
           "punkte": 177,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 41,
+          "punkte": 209,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 40,
+            "punkte": 193,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9436,6 +10038,20 @@
           "platz": 46,
           "punkte": 177,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 47,
+          "punkte": 201,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 48,
+            "punkte": 186,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9646,6 +10262,20 @@
           "platz": 48,
           "punkte": 176,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 32,
+          "punkte": 215,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 38,
+            "punkte": 193,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9856,6 +10486,20 @@
           "platz": 49,
           "punkte": 174,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 53,
+          "punkte": 195,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 50,
+            "punkte": 184,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10066,6 +10710,20 @@
           "platz": 51,
           "punkte": 173,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 56,
+          "punkte": 188,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 56,
+            "punkte": 179,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10276,6 +10934,20 @@
           "platz": 43,
           "punkte": 178,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 33,
+          "punkte": 212,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 33,
+            "punkte": 197,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10486,6 +11158,20 @@
           "platz": 52,
           "punkte": 173,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 39,
+          "punkte": 209,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 39,
+            "punkte": 193,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10696,6 +11382,20 @@
           "platz": 45,
           "punkte": 178,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 51,
+          "punkte": 197,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 52,
+            "punkte": 184,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10906,6 +11606,20 @@
           "platz": 50,
           "punkte": 173,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 50,
+          "punkte": 197,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 53,
+            "punkte": 183,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11116,6 +11830,20 @@
           "platz": 53,
           "punkte": 172,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 49,
+          "punkte": 201,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 46,
+            "punkte": 188,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11326,6 +12054,20 @@
           "platz": 56,
           "punkte": 171,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 46,
+          "punkte": 202,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 49,
+            "punkte": 186,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11536,6 +12278,20 @@
           "platz": 55,
           "punkte": 171,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 52,
+          "punkte": 197,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 54,
+            "punkte": 183,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11730,6 +12486,20 @@
           "platz": 58,
           "punkte": 167,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 54,
+          "punkte": 195,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 55,
+            "punkte": 180,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11940,6 +12710,20 @@
           "platz": 57,
           "punkte": 167,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 48,
+          "punkte": 201,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 50,
+            "punkte": 184,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12150,6 +12934,20 @@
           "platz": 54,
           "punkte": 171,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 55,
+          "punkte": 192,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 57,
+            "punkte": 178,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12360,6 +13158,20 @@
           "platz": 60,
           "punkte": 164,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 57,
+          "punkte": 188,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 58,
+            "punkte": 177,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12570,6 +13382,20 @@
           "platz": 61,
           "punkte": 163,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 60,
+          "punkte": 181,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 59,
+            "punkte": 175,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12780,6 +13606,20 @@
           "platz": 62,
           "punkte": 162,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 59,
+          "punkte": 185,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 60,
+            "punkte": 172,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12974,6 +13814,20 @@
           "platz": 59,
           "punkte": 166,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 62,
+          "punkte": 166,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 61,
+            "punkte": 166,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13176,6 +14030,20 @@
           "platz": 63,
           "punkte": 148,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 61,
+          "punkte": 168,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 62,
+            "punkte": 157,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13386,6 +14254,20 @@
           "platz": 64,
           "punkte": 145,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 65,
+          "punkte": 145,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 63,
+            "punkte": 145,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13588,6 +14470,20 @@
           "platz": 65,
           "punkte": 145,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 66,
+          "punkte": 145,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 64,
+            "punkte": 145,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13798,6 +14694,20 @@
           "platz": 66,
           "punkte": 136,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 67,
+          "punkte": 143,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 67,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14008,6 +14918,20 @@
           "platz": 67,
           "punkte": 136,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 68,
+          "punkte": 136,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 68,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14218,6 +15142,20 @@
           "platz": 68,
           "punkte": 128,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 64,
+          "punkte": 147,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 66,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14428,6 +15366,20 @@
           "platz": 69,
           "punkte": 128,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 63,
+          "punkte": 160,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 65,
+            "punkte": 145,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14638,6 +15590,20 @@
           "platz": 70,
           "punkte": 111,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 69,
+          "punkte": 132,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 69,
+            "punkte": 119,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14848,6 +15814,20 @@
           "platz": 71,
           "punkte": 105,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 71,
+          "punkte": 105,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 71,
+            "punkte": 105,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15058,6 +16038,20 @@
           "platz": 72,
           "punkte": 100,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 70,
+          "punkte": 124,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 70,
+            "punkte": 106,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15268,6 +16262,20 @@
           "platz": 73,
           "punkte": 98,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 72,
+          "punkte": 98,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 72,
+            "punkte": 98,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15478,6 +16486,20 @@
           "platz": 76,
           "punkte": 94,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 75,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 75,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15688,6 +16710,20 @@
           "platz": 75,
           "punkte": 94,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 74,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 74,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15898,6 +16934,20 @@
           "platz": 74,
           "punkte": 97,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 73,
+          "punkte": 97,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 73,
+            "punkte": 97,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16108,6 +17158,20 @@
           "platz": 77,
           "punkte": 81,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 76,
+          "punkte": 81,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 76,
+            "punkte": 81,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16318,6 +17382,20 @@
           "platz": 78,
           "punkte": 77,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 77,
+          "punkte": 77,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 77,
+            "punkte": 77,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16528,6 +17606,20 @@
           "platz": 79,
           "punkte": 76,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 78,
+          "punkte": 76,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 78,
+            "punkte": 76,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16738,6 +17830,20 @@
           "platz": 80,
           "punkte": 75,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 79,
+          "punkte": 75,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 79,
+            "punkte": 75,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16948,6 +18054,20 @@
           "platz": 81,
           "punkte": 65,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 80,
+          "punkte": 65,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 80,
+            "punkte": 65,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17158,6 +18278,20 @@
           "platz": 82,
           "punkte": 62,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 81,
+          "punkte": 62,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 81,
+            "punkte": 62,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17368,6 +18502,20 @@
           "platz": 83,
           "punkte": 51,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 82,
+          "punkte": 51,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 82,
+            "punkte": 51,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17578,6 +18726,20 @@
           "platz": 84,
           "punkte": 44,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 83,
+          "punkte": 44,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 83,
+            "punkte": 44,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17788,6 +18950,20 @@
           "platz": 85,
           "punkte": 43,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 84,
+          "punkte": 43,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 84,
+            "punkte": 43,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17998,6 +19174,20 @@
           "platz": 86,
           "punkte": 33,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 85,
+          "punkte": 33,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 85,
+            "punkte": 33,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -18192,6 +19382,20 @@
           "platz": 87,
           "punkte": 26,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 86,
+          "punkte": 26,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 86,
+            "punkte": 26,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -18402,6 +19606,20 @@
           "platz": 88,
           "punkte": 22,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 87,
+          "punkte": 22,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 87,
+            "punkte": 22,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -18612,6 +19830,20 @@
           "platz": 89,
           "punkte": 22,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 88,
+          "punkte": 22,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 88,
+            "punkte": 22,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -18822,6 +20054,20 @@
           "platz": 90,
           "punkte": 19,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 89,
+          "punkte": 19,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 89,
+            "punkte": 19,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19032,6 +20278,20 @@
           "platz": 91,
           "punkte": 15,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 90,
+          "punkte": 15,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 90,
+            "punkte": 15,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19242,6 +20502,20 @@
           "platz": 92,
           "punkte": 14,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 91,
+          "punkte": 14,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 91,
+            "punkte": 14,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19444,6 +20718,20 @@
           "platz": 93,
           "punkte": 11,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 92,
+          "punkte": 11,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 92,
+            "punkte": 11,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19654,6 +20942,20 @@
           "platz": 95,
           "punkte": 10,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 94,
+          "punkte": 10,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 94,
+            "punkte": 10,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19864,6 +21166,20 @@
           "platz": 96,
           "punkte": 7,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 95,
+          "punkte": 7,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 95,
+            "punkte": 7,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -20074,6 +21390,20 @@
           "platz": 94,
           "punkte": 10,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 93,
+          "punkte": 10,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 93,
+            "punkte": 10,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -20284,6 +21614,20 @@
           "platz": 97,
           "punkte": 4,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 96,
+          "punkte": 4,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 96,
+            "punkte": 4,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -20494,6 +21838,20 @@
           "platz": 98,
           "punkte": 2,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 97,
+          "punkte": 2,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 97,
+            "punkte": 2,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -20704,6 +22062,20 @@
           "platz": 99,
           "punkte": 2,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 98,
+          "punkte": 2,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 98,
+            "punkte": 2,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -21262,6 +22634,20 @@
           "platz": 100,
           "punkte": 0,
           "quelle": "Kicktipp – offizielle Gesamtwertung nach Abschluss"
+        },
+        {
+          "zeitpunkt": "2026-11-05T14:00:20.348Z",
+          "wettbewerb": "champions-league",
+          "runde": "4. Spieltag",
+          "auftragId": "2026-27__champions-league__4-spieltag__ucl-2026-27-4-spieltag-87442-ucl-2026-27-4-spieltag-87443-ucl-2026-27-4-spieltag-87444-ucl-2026-27-4-spieltag-87445-ucl-2026-27-4-spieltag-87446-ucl-2026-27-4-spieltag-87447-ucl-2026-27-4-spieltag-87448-ucl-2026-27-4-spieltag-87449-ucl-2026-27-4-spieltag-87450-ucl-2026-27-4-spieltag-87451-ucl-2026-27-4-spieltag-87452-ucl-2026-27-4-spieltag-87453-ucl-2026-27-4-spieltag-87454-ucl-2026-27-4-spieltag-87455-ucl-2026-27-4-spieltag-87456-ucl-2026-27-4-spieltag-87457-ucl-2026-27-4-spieltag-87458-ucl-2026-27-4-spieltag-87459",
+          "platz": 99,
+          "punkte": 0,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 99,
+            "punkte": 0,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
