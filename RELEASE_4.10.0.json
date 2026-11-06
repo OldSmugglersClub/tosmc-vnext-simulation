@@ -1,0 +1,36 @@
+{
+  "release": "4.10.0",
+  "komponente": "vNext-Simulationswebsite",
+  "datum": "2026-11-06",
+  "versionsschema": "MAJOR.MINOR.PATCH",
+  "aenderungstyp": "Update: Darstellungsfunktionen aus Live uebernommen",
+  "basis_simulation": "4.9.2-HF12-HF120 (Legacy-Kennung; wird durch 4.10.0 abgeloest)",
+  "live_version_in_zip": "4.9.2",
+  "admin_version_unveraendert": "3.12.8",
+  "live_zip": "the-old-smugglers-club-main(20261106-151433).zip",
+  "simulation_zip": "tosmc-vnext-simulation-main(8).zip",
+  "geaenderte_bestandsdateien": {
+    "VERSION.txt": {
+      "sha256_vorher": "34b95f097edc33859aa1170356337795d115e3b1afb09bf52cdc3ad030d0de7e",
+      "sha256_nachher": "f52b4f81a0c60cd988f8ccc9a0333e206b5f7e41dd0f5286c6ab5f7bf2d5335f"
+    },
+    "index.html": {
+      "sha256_vorher": "ec77b7b1b11f5d24c863c6a11b0c3221f03cbdfb33db56d1906641cc552f8dd3",
+      "sha256_nachher": "e3a6b9200519f9c06d3bf534a37022f0ccd5f01af1bdace7bec0649e6e38498c"
+    },
+    "logbuch.css": {
+      "sha256_vorher": "0f2f2c4fecdc63e7aa74615f1949249ee5f7e9dc8267745ad9b5a05540ede776",
+      "sha256_nachher": "eb8fbaaba9e751274ebc25cb57bb97ea06186d955b9925d7980288f7fff87995"
+    },
+    "logbuch.js": {
+      "sha256_vorher": "42c848b7f79f6d14288b966c3c80c13cbec755607a9f8d0da7ea329dc1b05585",
+      "sha256_nachher": "32e3e5c32a8b14c6bcde46b14b14996abfda093e8224d9b8037cf243f130b427"
+    }
+  },
+  "neue_dokumentationsdateien": [
+    "RELEASE_4.10.0.md",
+    "RELEASE_4.10.0.json"
+  ],
+  "nicht_uebernommen": "Simulationsdaten, Terminwaechter, GitHub-Workflows, historische Versionskennungen und Admincode",
+  "einspielstatus": "vorbereitet, nicht bestaetigt"
+}

@@ -49,8 +49,8 @@ function startStat(entry,type){
  const h=highlight(entry,type),d=h?.daten||{};
  if(!h)return null;
  if(type==="kapitaene"){
-  const value=Number(d.anzahl||arr(d.tipper).length||0);
-  return {label:"Kapitäne",value,copy:value===1?"holt die Beute":"teilen die Beute"};
+  const result=captainResult(entry,d);
+  return {label:"Kapitäne",value:result.count,copy:result.winners.length===1?"ein Spieltagssieger":"punktgleiche Spieltagssieger"};
  }
  if(type==="gegen-den-strom"){
   const value=Number(d.richtigeTendenz?.anzahl||0);
@@ -93,10 +93,10 @@ function storyFromEntry(entry){
  }
  const captains=highlight(entry,"kapitaene");
  if(captains){
-  const d=captains.daten||{},count=Number(d.anzahl||arr(d.tipper).length||0);
+  const d=captains.daten||{},result=captainResult(entry,d);
   return {
-   title:count===1?"Ein Kapitän holte die beste Beute.":`${count} Kapitäne teilten die beste Beute.`,
-   text:`Die stärkste Spieltagsleistung lag bei ${Number(d.punkte||0)} Punkten.`
+   title:result.winners.length===1?"Ein Tipper holte die beste Beute.":`${result.winners.length} Tipper teilten die beste Beute.`,
+   text:`Die stärkste Spieltagsleistung lag bei ${result.points} Punkten.`
   };
  }
  return null;
@@ -109,33 +109,44 @@ function thirtySecondsCompletedHtml(entry,withPreviousLabel=false){
  const previous=withPreviousLabel?'<div class="logbook-30s-previous-label"><span class="logbook-kicker">Zuletzt abgeschlossen</span></div>':'';
  return `${previous}<div class="logbook-30s-head"><span class="logbook-kicker">${formatThirtySecondsKicker(entry.bezeichnung||entry.runde||"Letzter Spieltag")}</span></div>${stats.length?`<div class="logbook-30s-stats">${stats.map(stat=>`<article class="logbook-30s-stat"><span>${esc(stat.label)}</span><strong>${Number(stat.value).toLocaleString("de-DE")}</strong><small>${esc(stat.copy)}</small></article>`).join("")}</div>`:""}${story?`<article class="logbook-30s-story"><span>${esc(story.kicker||"Die Geschichte des Spieltags")}</span><strong>${esc(story.title)}</strong><p>${esc(story.text)}</p></article>`:""}`;
 }
-// Startseite: alle abgeschlossenen Wettbewerbsrueckblicke des juengsten Spielwochenendes.
-// Datum kommt ausschliesslich von den zugeordneten Spielen, niemals vom Upload-Zeitpunkt.
-function weekendFriday(dateStr){
+// TEST2v2: zwei durchgaengige Spieltags-Rueckblickbloecke, bezogen auf die Spieltermine.
+// Dienstag-Donnerstag = europaeische Spielwoche, Freitag-Montag = verlaengertes Wochenende.
+// Uebergreifende Zeitraeume werden nach dem juengsten *abgeschlossenen* Spieldatum gewaehlt.
+function storyBlock(dateStr){
  if(!/^\d{4}-\d{2}-\d{2}$/.test(String(dateStr||"")))return null;
  const date=new Date(`${dateStr}T12:00:00Z`);
- if(!Number.isFinite(date.getTime()))return null;
+ if(!Number.isFinite(date.getTime())||date.toISOString().slice(0,10)!==dateStr)return null;
  const day=date.getUTCDay();
- if(day!==5&&day!==6&&day!==0)return null;
- date.setUTCDate(date.getUTCDate()-(day===0?2:day-5));
- return date.toISOString().slice(0,10);
+ const weekend=(day===5||day===6||day===0||day===1);
+ const startOffset=weekend?(day===0?-2:day===1?-3:day===6?-1:0):(day===2?0:day===3?-1:-2);
+ date.setUTCDate(date.getUTCDate()+startOffset);
+ const from=date.toISOString().slice(0,10);
+ date.setUTCDate(date.getUTCDate()+(weekend?3:2));
+ return {key:from,from,to:date.toISOString().slice(0,10),isWeekend:weekend};
 }
-function eventWeekend(entry){
+function eventLastDate(entry){
  const days=arr(entry?.spielIds).map(id=>gameById.get(id)).filter(Boolean)
-  .map(g=>String(g.datum||g.datumVon||"").slice(0,10));
- const weekends=days.map(weekendFriday).filter(Boolean).sort();
- return weekends.at(-1)||null;
+  .map(g=>String(g.datum||g.datumVon||"").slice(0,10))
+  .filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
+ return days.at(-1)||null;
 }
 function weekendCardsHtml(entries){
- const completed=arr(entries).filter(e=>e?.abgeschlossen===true).map(e=>({entry:e,weekend:eventWeekend(e)})).filter(x=>x.weekend);
+ const completed=arr(entries).filter(e=>e?.abgeschlossen===true).map(e=>({entry:e,lastDate:eventLastDate(e)})).filter(x=>x.lastDate);
  if(!completed.length)return null;
- const lastWeekend=completed.reduce((max,x)=>x.weekend>max?x.weekend:max,"");
- const chosen=completed.filter(x=>x.weekend===lastWeekend);
+ const lastDate=completed.reduce((max,x)=>x.lastDate>max?x.lastDate:max,"");
+ const activeBlock=storyBlock(lastDate);
+ if(!activeBlock)return null;
+ const chosen=completed.filter(x=>{
+  const block=storyBlock(x.lastDate);
+  return block&&block.key===activeBlock.key&&block.isWeekend===activeBlock.isWeekend;
+ });
  const uniq=[...new Map(chosen.map(x=>[x.entry.id,x.entry])).values()];
  uniq.sort((a,b)=>String(a.wettbewerb).localeCompare(String(b.wettbewerb),'de')||String(a.runde).localeCompare(String(b.runde),'de'));
  const toDay=iso=>`${iso.slice(8,10)}.${iso.slice(5,7)}.${iso.slice(0,4)}`;
- const start=new Date(`${lastWeekend}T12:00:00Z`),finish=new Date(start);finish.setUTCDate(finish.getUTCDate()+2);
- const title=`Wochenend-Rückblick · ${toDay(lastWeekend)}–${toDay(finish.toISOString().slice(0,10))}`;
+ // Mobile: Label und zusammenhaengendes Datum getrennt rendern, Desktop bleibt einzeilig.
+ const blockLabel=activeBlock.isWeekend?"Wochenend-Rueckblick":"Spieltags-Rückblick";
+ const blockDates=`${toDay(activeBlock.from)}–${toDay(activeBlock.to)}`;
+ const title=`<span class="logbook-weekend-label">${esc(blockLabel)}</span><span class="logbook-weekend-divider" aria-hidden="true"> · </span><span class="logbook-weekend-dates">${esc(blockDates)}</span>`;
  const cards=uniq.map(entry=>{
   const story=storyFromEntry(entry);
   const stats=[startStat(entry,"kapitaene"),startStat(entry,"gegen-den-strom"),startStat(entry,"volltreffer")].filter(Boolean);
@@ -153,9 +164,9 @@ function weekendCardsHtml(entries){
    detail=`<div class="logbook-poster-match">${esc(home)} <span>gegen</span> ${esc(away)}</div><div class="logbook-poster-proof"><strong>${count}${submitted?` von ${submitted}`:""}</strong> tippten anders <span aria-hidden="true">·</span> <strong>${correct}</strong> richtig <span aria-hidden="true">·</span> <strong>${exact}</strong> exakt</div>`;
    theme="sensation";
   }else if(captains){
-   const d=captains.daten||{},count=Number(d.anzahl||arr(d.tipper).length||0);
-   hero=String(count);headline=count===1?"Kapitän des Spieltags":"Kapitäne teilen die Beute";
-   detail=`<div class="logbook-poster-proof"><strong>${Number(d.punkte||0)}</strong> Punkte · beste Spieltagsleistung</div>`;
+   const d=captains.daten||{},result=captainResult(entry,d);
+   hero=String(result.count);headline=result.winners.length===1?"Ein Spieltagssieger":"Geteilte Spieltagsspitze";
+   detail=`<div class="logbook-poster-proof"><strong>${result.points}</strong> Punkte · beste Spieltagsleistung</div>`;
   }else if(story){
    hero="★";headline=esc(story.title||"Spieltag im Fokus");
    detail=story.text?`<div class="logbook-poster-proof">${esc(story.text)}</div>`:"";
@@ -170,14 +181,20 @@ function weekendCardsHtml(entries){
   const competition=esc(rawCompetition.replace(/^(Piratenkodex)\s+\1(?=\s|$)/i,"$1"));
   return `<article class="logbook-weekend-card logbook-weekend-card--${theme}"><div class="logbook-poster-top"><span class="logbook-poster-competition">${competition}</span><span class="logbook-poster-symbol" aria-hidden="true">✦</span></div><div class="logbook-poster-center"><span class="logbook-poster-headline">${headline}</span><strong class="logbook-poster-hero">${hero}</strong>${detail}</div><a class="logbook-weekend-link" href="${link}" aria-label="Rückblick öffnen: ${competition}">Geschichte entdecken <span aria-hidden="true">›</span></a></article>`;
  }).join("");
- return `<div class="logbook-weekend-title">${esc(title)}</div><div class="logbook-weekend-grid">${cards}</div>`;
+ const gridClass=uniq.length===1?" logbook-weekend-grid--single":"";
+ const hint=uniq.length>1?'<p class="logbook-block-swipe-hint">Weitere Wettbewerbe: Karten seitlich wischen</p>':"";
+ return {html:`<div class="logbook-weekend-title">${title}</div><div class="logbook-weekend-grid${gridClass}" aria-label="Wettbewerbsrueckblicke">${cards}</div>${hint}`,isWeekend:activeBlock.isWeekend};
 }
 function renderThirtySeconds(entry,pending){
  const host=$("#logbook-30s"); if(!host) return;
  // Die ausfuehrliche Logbuch-Seite behaelt ihren bisherigen Einzelrueckblick.
  if($(".logbook-teaser")){
   const weekend=weekendCardsHtml(data?.logbuecher);
-  if(weekend){host.innerHTML=weekend;return;}
+  if(weekend){
+   const heading=document.getElementById("logbook-30s-title");
+   if(heading)heading.textContent=weekend.isWeekend?"Die Geschichten des Wochenendes":"Die Geschichten zur Europapokal-Woche";
+   host.innerHTML=weekend.html;return;
+  }
  }
  const completed=thirtySecondsCompletedHtml(entry,Boolean(pending?.active&&entry));
  if(pending?.active){
@@ -208,15 +225,34 @@ function captainTopFour(entry){
  const cutoff=rows[Math.min(3,rows.length-1)].punkte;
  return rows.filter((r,i)=>i<4||r.punkte===cutoff);
 }
+// Nur punktgleiche Bestplatzierte sind gemeinsame Spieltagssieger.
+// Die Kapitaensauswahl (Top 4 inklusive Gleichstand an der Grenze) bleibt separat.
+function captainResult(entry,d){
+ const displayed=captainTopFour(entry)||arr(d.tipper);
+ const valid=displayed.filter(r=>r&&Number.isFinite(Number(r.punkte))&&r.teilnehmer);
+ const max=valid.length?Math.max(...valid.map(r=>Number(r.punkte))):Number(d.punkte||0);
+ const winners=valid.filter(r=>Number(r.punkte)===max);
+ const count=valid.length||Number(d.anzahl||0);
+ const points=Number.isFinite(max)?max:0;
+ return {displayed, winners, count, points};
+}
+function captainSummary(entry,d){
+ const result=captainResult(entry,d);
+ const n=result.winners.length;
+ const names=result.winners.map(r=>esc(r.teilnehmer));
+ const leading=n===1?`${names[0]} erzielt mit ${result.points} Punkten die beste Spieltagsleistung.`
+   :n===2?`${names.join(' und ')} teilen sich mit jeweils ${result.points} Punkten die beste Spieltagsleistung.`
+   :n>2?`<strong>${n} Tipper</strong> teilen sich mit jeweils ${result.points} Punkten die beste Spieltagsleistung.`
+   :`Die beste Spieltagsleistung lag bei ${result.points} Punkten.`;
+ const overview=result.count===1?'Der bestplatzierte Tipper im Überblick.':`Die ${result.count} bestplatzierten Tipper im Überblick.`;
+ return {result, html:`${leading} ${overview}`};
+}
 function outcomeLabel(v){return v==="1"?"Heimsieg":v==="2"?"Auswärtssieg":"Remis"}
 
 function renderHighlight(h,entry){
  const d=h.daten||{};
  if(h.typ==="kapitaene"){
-   const count=Number(d.anzahl||0),name=firstTipperName(d.tipper);
-   const text=count===1
-    ?`${esc(name||"1 Tipper")} holt mit ${Number(d.punkte||0)} Punkten die beste Spieltagsleistung.`
-    :`<strong>${count} Tipper</strong> teilen sich mit ${Number(d.punkte||0)} Punkten die beste Spieltagsleistung.`;
+   const text=captainSummary(entry,d).html;
    const leaders=captainTopFour(entry);
    const leaderNames=leaders?leaders.map(r=>`<span class="lb-name"><span class="lb-captain-name">${esc(r.teilnehmer)}</span><span class="lb-captain-points">${Number(r.punkte).toLocaleString("de-DE")} P.</span></span>`).join(""):shortNames(d.tipper);
    return `<article class="lb-highlight lb-highlight--wide lb-highlight--captains"><h3>Kapitäne des Spieltags</h3><p>${text}</p><div class="lb-names">${leaderNames}</div></article>`;

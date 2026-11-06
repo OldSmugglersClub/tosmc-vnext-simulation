@@ -1138,3 +1138,31 @@ body{overflow-x:hidden}
 .logbook-weekend-link:hover,.logbook-weekend-link:focus-visible{background:rgba(222,151,43,.23)}
 @media(max-width:900px){.logbook-weekend-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.logbook-weekend-grid{grid-template-columns:1fr}.logbook-weekend-card{min-height:230px}.logbook-poster-hero{font-size:3.2rem}}
+
+/* TEST2v2 BLOCK-20261105: kompakte Mehrfachkarten und mobile horizontale Navigation.
+   Keine Aenderung des Logbuchs selbst oder seiner Abschlussdaten. */
+.logbook-weekend-grid--single{grid-template-columns:minmax(0,720px);justify-content:center}
+.logbook-block-swipe-hint{display:none;color:#d1b587;font-size:.75rem;text-align:center;margin:8px 0 0}
+@media(max-width:600px){
+ .logbook-weekend-grid:not(.logbook-weekend-grid--single){
+  display:grid;grid-auto-flow:column;grid-auto-columns:minmax(82%,1fr);
+  grid-template-columns:none;overflow-x:auto;overscroll-behavior-inline:contain;
+  scroll-snap-type:x mandatory;scroll-padding-inline:2px;
+  padding:0 1px 9px;gap:12px;-webkit-overflow-scrolling:touch;
+ }
+ .logbook-weekend-grid:not(.logbook-weekend-grid--single)>.logbook-weekend-card{scroll-snap-align:start}
+ .logbook-weekend-grid--single{grid-template-columns:minmax(0,1fr)}
+ .logbook-block-swipe-hint{display:block}
+}
+
+/* MOBIL-DATUM-FIX1 (2026-11-05): zweizeiliger Rueckblicktitel ohne Datumsumbruch.
+   Nur die Startseiten-Kurzfassung; Desktop und Wettbewerbskarten bleiben unveraendert. */
+@media(max-width:600px){
+ .logbook-weekend-title .logbook-weekend-label{display:block}
+ .logbook-weekend-title .logbook-weekend-divider{display:none}
+ .logbook-weekend-title .logbook-weekend-dates{
+  display:block;white-space:nowrap;overflow-wrap:normal;word-break:normal;
+  font-size:clamp(.68rem,2.85vw,.84rem);letter-spacing:.015em;
+  font-variant-numeric:tabular-nums;
+ }
+}

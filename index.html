@@ -6933,58 +6933,12 @@
           liveMinutesDefault
         });
         const state = window.OSCScheduleTimeline.activeAndNext(timeline.exact, now);
-        // Die Badge-Anzahl beschreibt die Events des aktuell fokussierten Tippspieltags,
-        // nicht ein willkürliches 7-Tage-Zeitfenster. So bleiben Kachel, Liste und Counter konsistent.
-        const focusEvent = state.focus;
-        let upcoming = [];
-        if (focusEvent) {
-          // Der sichtbare Block darf beim Fokuswechsel auf ein eingebettetes Einzelereignis
-          // (z.B. Smugglerauftrag) nicht auf dieses Einzelspiel zusammenschrumpfen.
-          // Deshalb suchen wir den kleinsten Mehrspiel-Tippspieltag, dessen Zeitspanne
-          // das Fokusereignis enthält, und verwenden dessen komplette Spanne als Cluster.
-          const groupedMatchdays = new Map();
-          timeline.exact.forEach(event => {
-            const key = `${event.matchdayType}::${event.matchdayNumber}`;
-            if (!groupedMatchdays.has(key)) groupedMatchdays.set(key, []);
-            groupedMatchdays.get(key).push(event);
-          });
-
-          const containingClusters = [...groupedMatchdays.values()]
-            .filter(events => events.length > 1)
-            .map(events => ({
-              start: new Date(Math.min(...events.map(event => event._start.getTime()))),
-              end: new Date(Math.max(...events.map(event => event._end.getTime())))
-            }))
-            .filter(cluster =>
-              focusEvent._start >= cluster.start &&
-              focusEvent._start <= cluster.end
-            )
-            .sort((a, b) => (a.end - a.start) - (b.end - b.start));
-
-          let clusterStart;
-          let clusterEnd;
-          if (containingClusters.length) {
-            clusterStart = containingClusters[0].start;
-            clusterEnd = containingClusters[0].end;
-          } else {
-            const ownEvents = timeline.exact.filter(event =>
-              event.matchdayNumber === focusEvent.matchdayNumber &&
-              event.matchdayType === focusEvent.matchdayType
-            );
-            clusterStart = ownEvents.length
-              ? new Date(Math.min(...ownEvents.map(event => event._start.getTime())))
-              : focusEvent._start;
-            clusterEnd = ownEvents.length
-              ? new Date(Math.max(...ownEvents.map(event => event._end.getTime())))
-              : focusEvent._end;
-          }
-
-          upcoming = timeline.exact.filter(event =>
-            event._start > now &&
-            event._start >= clusterStart &&
-            event._start <= clusterEnd
-          );
-        }
+        // Startseiten-Terminliste: das konfigurierte Vorschaufenster vollständig anzeigen.
+        // Nicht auf die Zeitspanne des nächsten Einzelereignisses verkürzen:
+        // Freitag-Sonderaufträge dürfen Samstag-/Sonntagspiele nicht verdrängen.
+        const previewDays = Math.max(1, Number(data.anzeigeTage) || 7);
+        const upcoming = window.OSCScheduleTimeline.windowEvents(timeline.exact, now, previewDays)
+          .filter(event => event._start > now);
         configureEventCountdown(timeline.exact, now, locale);
 
         const welcomeEvent = state.focus;
