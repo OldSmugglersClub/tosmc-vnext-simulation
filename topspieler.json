@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 25,
-  "aktualisiertAm": "2026-11-05T14:00:20.348Z",
+  "datenVersion": 26,
+  "aktualisiertAm": "2026-11-06T21:47:40.143Z",
   "saison": "2026-27",
   "status": "Berechnet",
   "kategorien": [
     {
       "titel": "Spieltagsführer",
       "name": "Opipeter",
-      "wert": "256 Punkte"
+      "wert": "258 Punkte"
     },
     {
       "titel": "Meiste exakte Tipps",

@@ -506,16 +506,40 @@
           "datumAnzeige": "06.11.2026",
           "anstoss": "18:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [
             "smugglerauftrag"
           ],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 11. Spieltag der 2. Bundesliga.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "dynamo-dresden",
-          "auswaertsTeamId": "greuther-fuerth"
+          "auswaertsTeamId": "greuther-fuerth",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-06T21:47:40.143Z",
+            "abgegeben": 68,
+            "nichtAbgegeben": 31,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 47,
+                "prozent": 69.1
+              },
+              "2": {
+                "anzahl": 16,
+                "prozent": 23.5
+              },
+              "X": {
+                "anzahl": 5,
+                "prozent": 7.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-06T21:47:40.143Z"
         },
         {
           "id": "sma-2026-27-12-104",
@@ -15421,6 +15445,6 @@
       ]
     }
   ],
-  "datenVersion": 93,
-  "aktualisiert": "2026-11-05"
+  "datenVersion": 94,
+  "aktualisiert": "2026-11-06"
 }
