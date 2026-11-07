@@ -4514,14 +4514,38 @@
           "datumAnzeige": "07.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-07-30",
           "heimTeamId": "dortmund",
-          "auswaertsTeamId": "elversberg"
+          "auswaertsTeamId": "elversberg",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T23:26:27.404Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 61,
+                "prozent": 88.4
+              },
+              "2": {
+                "anzahl": 5,
+                "prozent": 7.2
+              },
+              "X": {
+                "anzahl": 3,
+                "prozent": 4.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-09-074",
@@ -4537,14 +4561,38 @@
           "datumAnzeige": "07.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 5,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-07-30",
           "heimTeamId": "rb-leipzig",
-          "auswaertsTeamId": "augsburg"
+          "auswaertsTeamId": "augsburg",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T23:26:27.404Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 62,
+                "prozent": 89.9
+              },
+              "2": {
+                "anzahl": 2,
+                "prozent": 2.9
+              },
+              "X": {
+                "anzahl": 5,
+                "prozent": 7.2
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-09-075",
@@ -4560,14 +4608,38 @@
           "datumAnzeige": "07.11.2026",
           "anstoss": "18:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "stuttgart",
-          "auswaertsTeamId": "werder-bremen"
+          "auswaertsTeamId": "werder-bremen",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T23:26:27.404Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 40,
+                "prozent": 58
+              },
+              "2": {
+                "anzahl": 10,
+                "prozent": 14.5
+              },
+              "X": {
+                "anzahl": 19,
+                "prozent": 27.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-09-076",
@@ -4629,14 +4701,38 @@
           "datumAnzeige": "07.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-07-30",
           "heimTeamId": "mainz-05",
-          "auswaertsTeamId": "bayern-muenchen"
+          "auswaertsTeamId": "bayern-muenchen",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T23:26:27.404Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 0,
+                "prozent": 0
+              },
+              "2": {
+                "anzahl": 66,
+                "prozent": 95.7
+              },
+              "X": {
+                "anzahl": 3,
+                "prozent": 4.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-09-079",
@@ -4664,7 +4760,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T05:25:16.128Z",
+            "stand": "2026-11-07T23:26:27.404Z",
             "abgegeben": 68,
             "nichtAbgegeben": 31,
             "verborgen": 0,
@@ -4683,7 +4779,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T05:25:16.128Z"
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-09-080",
@@ -4722,14 +4818,38 @@
           "datumAnzeige": "07.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-07-30",
           "heimTeamId": "paderborn",
-          "auswaertsTeamId": "frankfurt"
+          "auswaertsTeamId": "frankfurt",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T23:26:27.404Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 5,
+                "prozent": 7.2
+              },
+              "2": {
+                "anzahl": 55,
+                "prozent": 79.7
+              },
+              "X": {
+                "anzahl": 9,
+                "prozent": 13
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
         },
         {
           "id": "bl-2026-27-10-082",
@@ -15469,6 +15589,6 @@
       ]
     }
   ],
-  "datenVersion": 95,
+  "datenVersion": 96,
   "aktualisiert": "2026-11-07"
 }
