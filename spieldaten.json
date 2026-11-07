@@ -4652,14 +4652,38 @@
           "datumAnzeige": "06.11.2026",
           "anstoss": "20:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "hamburger-sv",
-          "auswaertsTeamId": "moenchengladbach"
+          "auswaertsTeamId": "moenchengladbach",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-07T05:25:16.128Z",
+            "abgegeben": 68,
+            "nichtAbgegeben": 31,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 37,
+                "prozent": 54.4
+              },
+              "2": {
+                "anzahl": 13,
+                "prozent": 19.1
+              },
+              "X": {
+                "anzahl": 18,
+                "prozent": 26.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-07T05:25:16.128Z"
         },
         {
           "id": "bl-2026-27-09-080",
@@ -15445,6 +15469,6 @@
       ]
     }
   ],
-  "datenVersion": 94,
-  "aktualisiert": "2026-11-06"
+  "datenVersion": 95,
+  "aktualisiert": "2026-11-07"
 }
