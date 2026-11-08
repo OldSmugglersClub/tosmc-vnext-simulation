@@ -66,3 +66,74 @@
 
   window.OSCScheduleTimeline=Object.freeze({hasExactKickoff,build,activeAndNext,windowEvents});
 })();
+
+/* vNext-Simulationswebsite 2026-11-08: sichtbare Terminkachel nach Tageswechsel
+   und bei erneuter Tab-Aktivierung aktualisieren. Der bestehende Datenadapter
+   und der Renderer der Startseite bleiben die einzige Quelle/Anzeigelogik. */
+(function(){
+  "use strict";
+
+  const formatter=new Intl.DateTimeFormat("sv-SE",{
+    timeZone:"Europe/Berlin",year:"numeric",month:"2-digit",day:"2-digit"
+  });
+  const dayKey=()=>formatter.format(new Date());
+  const berlinClock=()=>new Intl.DateTimeFormat("en-GB",{
+    timeZone:"Europe/Berlin",hour:"2-digit",minute:"2-digit",hourCycle:"h23"
+  }).format(new Date());
+  let lastDay=dayKey();
+  let refreshedForDay=lastDay;
+  let lastRefreshAt=0;
+  let running=false;
+
+  async function refresh(reason){
+    // requestMatchdayRefresh ist der vorhandene Re-Render-Einstieg aus
+    // index.html und serialisiert bereits laufende/ausstehende Aktualisierungen.
+    // Dadurch können Countdownwechsel und Tab-Aktivierung nicht konkurrieren.
+    if(typeof window.requestMatchdayRefresh==="function"){
+      window.requestMatchdayRefresh();
+      refreshedForDay=dayKey();
+      lastRefreshAt=Date.now();
+      return;
+    }
+    // Rückfall für ältere Startseiten ohne vorhandene Warteschlange.
+    if(running||typeof window.loadMatchdayData!=="function")return;
+    running=true;
+    try{
+      await window.loadMatchdayData();
+      refreshedForDay=dayKey();
+      lastRefreshAt=Date.now();
+    }catch(error){
+      console.warn("Terminkachel-Aktualisierung fehlgeschlagen:",reason,error);
+    }finally{
+      running=false;
+    }
+  }
+
+  function pollDayChange(){
+    const today=dayKey();
+    if(today!==lastDay)lastDay=today;
+    // Um 00:01 Uhr Berliner Zeit ist die Tagesumschaltung fällig.
+    // Falls Hintergrund-Timer gedrosselt wurden, erledigt der nächste
+    // sichtbare Tick bzw. die Tab-Aktivierung die Aktualisierung.
+    if(today!==refreshedForDay && berlinClock()>="00:01"){
+      void refresh("Tageswechsel");
+    }
+  }
+
+  function onReturn(){
+    pollDayChange();
+    // Bei kurzer Fokussierungsfolge (focus + visibilitychange + pageshow)
+    // wird nur einmal neu geladen. Nach längerer Abwesenheit stets frisch.
+    if(Date.now()-lastRefreshAt>=15000)void refresh("Tab erneut aktiv");
+  }
+
+  document.addEventListener("visibilitychange",()=>{
+    if(!document.hidden)onReturn();
+  });
+  window.addEventListener("focus",onReturn);
+  window.addEventListener("pageshow",event=>{
+    if(event.persisted)onReturn();
+  });
+  // Kein Seiten-Reload, keine neue API, keine Änderung von Ergebnis-/Wertungsdaten.
+  setInterval(()=>{if(!document.hidden)pollDayChange();},30000);
+})();
