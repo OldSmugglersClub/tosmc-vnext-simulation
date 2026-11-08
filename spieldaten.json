@@ -4526,9 +4526,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 69,
-            "nichtAbgegeben": 30,
+            "nichtAbgegeben": 31,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4545,7 +4545,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-074",
@@ -4573,9 +4573,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 69,
-            "nichtAbgegeben": 30,
+            "nichtAbgegeben": 31,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4592,7 +4592,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-075",
@@ -4620,9 +4620,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 69,
-            "nichtAbgegeben": 30,
+            "nichtAbgegeben": 31,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4639,7 +4639,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-076",
@@ -4655,14 +4655,38 @@
           "datumAnzeige": "08.11.2026",
           "anstoss": "19:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "hoffenheim",
-          "auswaertsTeamId": "schalke-04"
+          "auswaertsTeamId": "schalke-04",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-08T23:29:04.802Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 56,
+                "prozent": 80
+              },
+              "2": {
+                "anzahl": 5,
+                "prozent": 7.1
+              },
+              "X": {
+                "anzahl": 9,
+                "prozent": 12.9
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-077",
@@ -4678,14 +4702,38 @@
           "datumAnzeige": "08.11.2026",
           "anstoss": "17:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "freiburg",
-          "auswaertsTeamId": "union-berlin"
+          "auswaertsTeamId": "union-berlin",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-08T23:29:04.802Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 59,
+                "prozent": 84.3
+              },
+              "2": {
+                "anzahl": 3,
+                "prozent": 4.3
+              },
+              "X": {
+                "anzahl": 8,
+                "prozent": 11.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-078",
@@ -4713,9 +4761,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 69,
-            "nichtAbgegeben": 30,
+            "nichtAbgegeben": 31,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4732,7 +4780,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-079",
@@ -4760,9 +4808,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 68,
-            "nichtAbgegeben": 31,
+            "nichtAbgegeben": 32,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4779,7 +4827,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-080",
@@ -4795,14 +4843,38 @@
           "datumAnzeige": "08.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "koeln",
-          "auswaertsTeamId": "leverkusen"
+          "auswaertsTeamId": "leverkusen",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-08T23:29:04.802Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 30,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 6,
+                "prozent": 8.6
+              },
+              "2": {
+                "anzahl": 49,
+                "prozent": 70
+              },
+              "X": {
+                "anzahl": 15,
+                "prozent": 21.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-09-081",
@@ -4830,9 +4902,9 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-07T23:26:27.404Z",
+            "stand": "2026-11-08T23:29:04.802Z",
             "abgegeben": 69,
-            "nichtAbgegeben": 30,
+            "nichtAbgegeben": 31,
             "verborgen": 0,
             "tendenzen": {
               "1": {
@@ -4849,7 +4921,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-07T23:26:27.404Z"
+          "aktualisiertAm": "2026-11-08T23:29:04.802Z"
         },
         {
           "id": "bl-2026-27-10-082",
@@ -15589,6 +15661,6 @@
       ]
     }
   ],
-  "datenVersion": 96,
-  "aktualisiert": "2026-11-07"
+  "datenVersion": 97,
+  "aktualisiert": "2026-11-08"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 27,
-  "aktualisiert": "2026-11-06T21:47:40.143Z",
+  "datenVersion": 28,
+  "aktualisiert": "2026-11-08T23:29:04.802Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -11793,6 +11793,326 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 47
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__9-spieltag__bl-2026-27-09-073-bl-2026-27-09-074-bl-2026-27-09-075-bl-2026-27-09-076-bl-2026-27-09-077-bl-2026-27-09-078-bl-2026-27-09-079-bl-2026-27-09-080-bl-2026-27-09-081",
+      "bezeichnung": "Bundesliga 9. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "9. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-09-073",
+        "bl-2026-27-09-074",
+        "bl-2026-27-09-075",
+        "bl-2026-27-09-076",
+        "bl-2026-27-09-077",
+        "bl-2026-27-09-078",
+        "bl-2026-27-09-079",
+        "bl-2026-27-09-080",
+        "bl-2026-27-09-081"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "luki1887",
+          "teilnehmer": "Luki1887",
+          "punkte": 30,
+          "exakt": 4,
+          "differenz": 2,
+          "tendenz": 2
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 30,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "luki1887",
+                "teilnehmer": "Luki1887",
+                "punkte": 30,
+                "exakt": 4,
+                "differenz": 2,
+                "tendenz": 2
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-09-081",
+            "heimTeam": "paderborn",
+            "auswaertsTeam": "frankfurt",
+            "ergebnis": "2:2",
+            "abgegeben": 69,
+            "nichtAbgegeben": 31,
+            "tippverteilung": {
+              "1": 5,
+              "2": 55,
+              "X": 9
+            },
+            "exakt": 1,
+            "differenz": 8,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "2",
+              "anzahl": 55
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 9,
+              "anteil": 13,
+              "tipper": [
+                {
+                  "teilnehmerId": "opipeter",
+                  "teilnehmer": "Opipeter",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "pochzerjung",
+                  "teilnehmer": "PochzerJung",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "bigdog",
+                  "teilnehmer": "Bigdog",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "steff77",
+                  "teilnehmer": "Steff77",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "eckes2359",
+                  "teilnehmer": "Eckes2359",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "manuel",
+                  "teilnehmer": "Manuel",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "18amfg99",
+                  "teilnehmer": "18AMFG99",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "lattenkracher",
+                  "teilnehmer": "Lattenkracher",
+                  "tipp": "0:0",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": true
+                }
+              ],
+              "exakteTipps": 1
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-09-081",
+                "heimTeam": "paderborn",
+                "auswaertsTeam": "frankfurt",
+                "ergebnis": "2:2",
+                "abgegeben": 69,
+                "nichtAbgegeben": 31,
+                "tippverteilung": {
+                  "1": 5,
+                  "2": 55,
+                  "X": 9
+                },
+                "exakt": 1,
+                "differenz": 8,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "2",
+                  "anzahl": 55
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 9,
+                  "anteil": 13,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "opipeter",
+                      "teilnehmer": "Opipeter",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "pochzerjung",
+                      "teilnehmer": "PochzerJung",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "bigdog",
+                      "teilnehmer": "Bigdog",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "steff77",
+                      "teilnehmer": "Steff77",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "eckes2359",
+                      "teilnehmer": "Eckes2359",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "manuel",
+                      "teilnehmer": "Manuel",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "18amfg99",
+                      "teilnehmer": "18AMFG99",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "lattenkracher",
+                      "teilnehmer": "Lattenkracher",
+                      "tipp": "0:0",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "2:2",
+                      "exakt": true
+                    }
+                  ],
+                  "exakteTipps": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 4,
+            "anzahl": 3,
+            "tipper": [
+              {
+                "teilnehmerId": "luki1887",
+                "teilnehmer": "Luki1887",
+                "exakt": 4
+              },
+              {
+                "teilnehmerId": "pauli",
+                "teilnehmer": "Pauli",
+                "exakt": 4
+              },
+              {
+                "teilnehmerId": "tribuna33",
+                "teilnehmer": "TRIBUNA33",
+                "exakt": 4
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 13.13,
+                "punktesumme": 985,
+                "mitglieder": 75
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 10.4,
+                "punktesumme": 260,
+                "mitglieder": 25
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 2.73
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "cobra",
+                "teilnehmer": "cobra",
+                "vorher": 27,
+                "jetzt": 18,
+                "veraenderung": 9
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "vorher": 16,
+                "jetzt": 27,
+                "veraenderung": -11
+              }
+            ],
+            "maxGewinn": 9,
+            "maxVerlust": -11
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 623,
+            "nichtAbgegeben": 277,
+            "exakt": 99,
+            "differenz": 70,
+            "tendenz": 270
           }
         }
       ]

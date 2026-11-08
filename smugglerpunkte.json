@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 27,
-  "aktualisiert": "2026-11-06",
+  "datenVersion": 28,
+  "aktualisiert": "2026-11-08",
   "saison": "2026-27",
   "hinweis": "Kumulative Smugglerwertung. Jeder abgeschlossene Smugglerauftrag zählt als eigener Spieltag; geteilte Spieltagssiege werden anteilig kumuliert. vNext verarbeitet den kumulierten Fachstand ausschließlich im Simulationsrepository.",
-  "berechnetAm": "2026-11-06T21:47:40.143Z",
+  "berechnetAm": "2026-11-08T23:29:04.802Z",
   "regeln": {
     "tendenz": 2,
     "differenz": 3,
