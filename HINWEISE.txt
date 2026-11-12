@@ -1,0 +1,10 @@
+TOSMC vNext Terminwaechter - gezielter Runner-Fix
+
+NUR Repository: OldSmugglersClub/tosmc-vnext-simulation
+Datei: .github/workflows/terminwaechter-sonderwettbewerbe-auto.yml
+Aenderung: runs-on: ubuntu-latest -> runs-on: ubuntu-24.04
+Original-Blob-SHA: 9c340e679eefbefd4973919fbd2777b4512e5ed1
+
+Die Datei aus diesem ZIP an identischer Stelle im lokalen Repository ersetzen, mit GitHub Desktop diff pruefen, committen und pushen. Anschliessend GitHub Actions > Terminwaechter > Run workflow ausfuehren und Browserinstallation, Terminpruefung und Bericht kontrollieren. LIVE und TEST2v2 nicht aendern.
+
+Nicht im Repository eingespielt.
