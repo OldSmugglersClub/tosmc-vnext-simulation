@@ -5205,6 +5205,35 @@
       line-height: 1.2;
     }
 
+    /* Hauptquartier: Name und Punkte nebeneinander; bei Platzmangel umbrechen. */
+    .welcome-status-item--overall-leader > span {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      column-gap: .8rem;
+      row-gap: .15rem;
+      min-width: 0;
+      flex: 1 1 0;
+    }
+    .welcome-status-item--overall-leader #welcome-leader-label {
+      flex: 0 0 100%;
+      min-width: 0;
+    }
+    .welcome-status-item--overall-leader #welcome-champion {
+      flex: 0 0 auto;
+      max-width: 100%;
+      min-width: 0;
+      overflow-wrap: anywhere;
+      word-break: normal;
+      hyphens: none;
+    }
+    .welcome-status-item--overall-leader #welcome-leader-points {
+      flex: 0 0 auto;
+      margin-top: .12rem;
+      white-space: nowrap;
+      max-width: 100%;
+    }
+
     /* Website 4.7.0-RC8.1-HF3 – Missionsblock als geschlossene Einheit zentriert */
     .welcome-status-item--mission {
       align-items: center;
@@ -6036,7 +6065,7 @@
               <svg aria-hidden="true"><use href="#icon-anchor"></use></svg>
               <span><small>Nächste Mission</small><strong id="welcome-next-mission"><span class="welcome-mission-name">Noch kein Termin</span><span class="welcome-mission-date" aria-hidden="true"></span></strong></span>
             </div>
-            <div class="welcome-status-item">
+            <div class="welcome-status-item welcome-status-item--overall-leader">
               <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
               <span><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong><small id="welcome-leader-points" class="welcome-leader-points"></small></span>
             </div>
