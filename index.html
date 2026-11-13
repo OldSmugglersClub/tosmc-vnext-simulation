@@ -6088,6 +6088,21 @@
     font-size:clamp(.88rem,1.35vw,1.08rem);line-height:1.45;text-shadow:0 2px 4px #000;
   }
   .smuggler-masthead .welcome-motto {color:#f3c971 !important;margin-top:4px;text-shadow:0 2px 4px #000;}
+  /* Hauptquartier: kurze Orientierung statt zweier redundanter Erklaersaetze. */
+  .smuggler-masthead .welcome-intro--compact {
+    display:flex;flex-wrap:wrap;justify-content:center;align-items:center;
+    gap:5px clamp(10px,1.8vw,22px);max-width:100%;
+    margin:10px auto 0;padding:0 8px;
+    font-size:clamp(.86rem,1.28vw,1.05rem);line-height:1.5;
+  }
+  .smuggler-masthead .welcome-intro--compact > span {display:inline-block;white-space:nowrap;}
+  .smuggler-masthead .welcome-intro--compact > span:nth-child(2) {
+    color:#f3c971;font-weight:700;
+  }
+  @media(max-width:430px) {
+    .smuggler-masthead .welcome-intro--compact {gap:3px 10px;font-size:.84rem;padding:0;}
+  }
+
   .smuggler-event-area.countdown-panel {
     position:relative;isolation:auto;display:block !important;flex:none !important;
     height:auto !important;min-height:0 !important;width:100% !important;
@@ -6374,14 +6389,10 @@
         <div class="smuggler-combined-inner">
           <div class="smuggler-masthead"><div class="welcome-command-copy">
 <span class="welcome-season-badge" id="welcome-season-badge">Saison noch offen</span>
-<span class="welcome-headquarters-label">Hauptquartier des Old Smugglers Club</span>
+<span class="welcome-headquarters-label">Hauptquartier</span>
 <h1 id="welcome-command-title">Der Hohe Schmugglerrat</h1>
 <div aria-hidden="true" class="welcome-divider"><span></span></div>
-<p class="welcome-intro">
-              Hier werden Kurse gesetzt, Missionen vorbereitet und alle Wettbewerbe
-              des Old Smugglers Club koordiniert.
-              <span class="welcome-motto">Alle Wege beginnen im Hauptquartier.</span>
-</p>
+<p class="welcome-intro welcome-intro--compact"><span>Alle Wettbewerbe.</span><span>Ein Kurs.</span><span>Deine Mission.</span></p>
 </div></div>
           <div class="countdown-panel smuggler-event-area">
             <div class="smuggler-mission-parchment"><div class="pirate-event-scroll">
