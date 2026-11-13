@@ -5196,6 +5196,15 @@
       word-break: normal;
     }
 
+    /* Hauptquartier: Punkte des aktuellen Gesamteinzelwertungs-Fuehrenden. */
+    .welcome-status-item .welcome-leader-points {
+      margin-top: .18rem;
+      color: #d1b17a;
+      font-size: clamp(.64rem, .9vw, .76rem);
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
     /* Website 4.7.0-RC8.1-HF3 – Missionsblock als geschlossene Einheit zentriert */
     .welcome-status-item--mission {
       align-items: center;
@@ -6029,7 +6038,7 @@
             </div>
             <div class="welcome-status-item">
               <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
-              <span><small id="welcome-leader-label">Führender Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong></span>
+              <span><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong><small id="welcome-leader-points" class="welcome-leader-points"></small></span>
             </div>
           </div>
 
@@ -7086,11 +7095,20 @@
         if (!names.length) throw new Error("Kein gueltiger Fuehrender vorhanden");
 
         setText("welcome-champion", names.join(" · "));
-        setText("welcome-leader-label", names.length === 1
-          ? "Führender Gesamteinzelwertung"
-          : "Führende Gesamteinzelwertung");
+        setText("welcome-leader-label", "Platz 1 Gesamteinzelwertung");
+        const leaderPoints = leaders.map(entry => Number(entry?.totalPoints));
+        const validPoints = leaderPoints.filter(Number.isFinite);
+        const pointText = validPoints.length === leaders.length && validPoints.every(points => points === validPoints[0])
+          ? `${new Intl.NumberFormat("de-DE").format(validPoints[0])} Punkte`
+          : leaders.map(entry => {
+              const points = Number(entry?.totalPoints);
+              return `${String(entry?.name || "").trim()}: ${Number.isFinite(points) ? new Intl.NumberFormat("de-DE").format(points) + " Punkte" : "Punktestand nicht verfügbar"}`;
+            }).join(" · ");
+        setText("welcome-leader-points", pointText);
       } catch (error) {
         setText("welcome-champion", "Nicht verfügbar");
+        setText("welcome-leader-label", "Platz 1 Gesamteinzelwertung");
+        setText("welcome-leader-points", "");
         console.warn("Gesamteinzelwertung für Hauptquartier nicht verfügbar.", error);
       }
     }
