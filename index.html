@@ -6073,10 +6073,23 @@
   }
   .smuggler-masthead {text-align:center;min-width:0;padding:0 5px 18px;}
   .smuggler-masthead .welcome-command-copy {max-width:none !important;}
-  .smuggler-masthead .welcome-season-badge {display:inline-flex;}
-  .smuggler-masthead .welcome-headquarters-label {
-    width:auto;margin:7px auto 0;color:#f1cf80 !important;text-shadow:0 2px 5px #000;
-    font-size:clamp(.67rem,1vw,.82rem);letter-spacing:.12em;
+  /* Variante A: Saison und Hauptquartier als eine kompakte Kopfzeile. */
+  .smuggler-masthead .welcome-topline {
+    display:inline-flex;align-items:center;justify-content:center;gap:.48rem;
+    max-width:100%;min-width:0;margin:0 auto 7px;padding:6px 12px;
+    border:1px solid rgba(215,169,76,.62);border-radius:999px;
+    background:rgba(39,24,10,.72);color:#efcf7b;
+    font-size:clamp(.62rem,1vw,.76rem);font-weight:800;
+    letter-spacing:.055em;line-height:1.25;text-transform:uppercase;
+  }
+  .smuggler-masthead .welcome-topline .welcome-season-badge {
+    display:inline !important;min-height:0;margin:0;padding:0;border:0;border-radius:0;
+    background:transparent;box-shadow:none;color:inherit;font:inherit;
+    letter-spacing:inherit;white-space:nowrap;
+  }
+  .smuggler-masthead .welcome-topline .welcome-headquarters-label {
+    display:inline !important;width:auto;margin:0;color:inherit !important;
+    text-shadow:none;font:inherit;letter-spacing:inherit;white-space:nowrap;
   }
   .smuggler-masthead #welcome-command-title {
     margin:4px auto 0;color:#ffda86 !important;font:700 clamp(2.0rem,5vw,4rem)/1.08 Georgia,serif;
@@ -6388,8 +6401,10 @@
       <article class="panel welcome-panel smuggler-command-unified" aria-labelledby="welcome-command-title">
         <div class="smuggler-combined-inner">
           <div class="smuggler-masthead"><div class="welcome-command-copy">
-<span class="welcome-season-badge" id="welcome-season-badge">Saison noch offen</span>
-<span class="welcome-headquarters-label">Hauptquartier</span>
+<div class="welcome-topline" aria-label="Saison und Hauptquartier">
+  <span class="welcome-season-badge" id="welcome-season-badge">Saison noch offen</span>
+  <span class="welcome-headquarters-label">· HAUPTQUARTIER</span>
+</div>
 <h1 id="welcome-command-title">Der Hohe Schmugglerrat</h1>
 <div aria-hidden="true" class="welcome-divider"><span></span></div>
 <p class="welcome-intro welcome-intro--compact"><span>Alle Wettbewerbe.</span><span>Ein Kurs.</span><span>Deine Mission.</span></p>
