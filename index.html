@@ -5742,6 +5742,176 @@
       }
     }
 
+  
+    /* VNEXT NEXT-EVENT: Piraten-Design nach freigegebener Bildvorlage.
+       Illustration nur als Dekor, Mission und Ziffern bleiben echte Live-Daten. */
+    .hero-grid:has(> .countdown-panel) {
+      grid-template-columns: minmax(0,1fr);
+    }
+    .hero-grid > .countdown-panel {
+      box-sizing: border-box;
+      min-height: 440px;
+      padding: 25px clamp(13px,2.4vw,36px) 25px;
+      border: 3px solid #a86b21;
+      border-radius: 20px;
+      background:
+        radial-gradient(ellipse at 50% 48%,rgba(82,44,10,.42),transparent 62%),
+        linear-gradient(rgba(12,7,3,.44),rgba(11,6,3,.64)),
+        url("./assets/next-event/wood.webp") center / 100% 100% no-repeat,
+        #150c06;
+      box-shadow:
+        inset 0 0 0 4px #2d1707,
+        inset 0 0 0 6px rgba(232,168,60,.6),
+        inset 0 0 40px rgba(0,0,0,.7),
+        0 14px 38px rgba(0,0,0,.45);
+    }
+    .hero-grid > .countdown-panel::before {
+      z-index: 0;
+      inset: 10px;
+      border: 2px solid rgba(226,162,61,.45);
+      border-radius: 13px;
+      box-shadow: inset 0 0 0 3px rgba(35,17,5,.6);
+    }
+    .hero-grid > .countdown-panel::after { content: none; }
+    .countdown-panel .countdown-plaque {
+      z-index: 3;
+      align-self: center;
+      width: min(100%,560px);
+      box-sizing: border-box;
+      min-height: 62px;
+      margin: -4px auto 12px;
+      border: 2px solid #f1bd64;
+      border-radius: 13px 13px 22px 22px;
+      background: linear-gradient(170deg,#ffe8a3 0%,#dda94c 36%,#ac6c1e 83%,#5f340f 100%);
+      color:#211004;
+      font: 900 clamp(1.25rem,3vw,2.2rem)/1.1 Georgia,serif;
+      letter-spacing: .035em;
+      text-transform: none;
+      text-shadow: 0 1px rgba(255,230,160,.4);
+      box-shadow: inset 0 2px 0 rgba(255,249,205,.7), inset 0 -3px 5px rgba(63,29,5,.45),0 8px 19px rgba(0,0,0,.6);
+    }
+    .pirate-event-decoration { position:absolute;pointer-events:none;z-index:1;background-repeat:no-repeat;background-size:contain;background-position:center; }
+    .pirate-event-decoration--hourglass {
+      left:1.3%;top:20%;width:21%;height:74%;
+      background-image:url("./assets/next-event/sandglass.webp");
+      filter:drop-shadow(4px 8px 10px rgba(0,0,0,.6));
+    }
+    .pirate-event-decoration--compass {
+      right:1%;top:35%;width:20%;height:57%;
+      background-image:url("./assets/next-event/compass.webp");
+      filter:drop-shadow(-4px 7px 9px rgba(0,0,0,.7));
+    }
+    .countdown-panel .pirate-event-scroll {
+      position: relative;
+      z-index: 2;
+      width: min(100%,760px);
+      box-sizing: border-box;
+      align-self: center;
+      margin: 4px auto 22px;
+      padding: 15px clamp(14px,3vw,40px) 18px;
+      min-height: 112px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:4px;
+      border:2px solid #9d642a;
+      border-radius: 29px 9px 28px 10px / 16px 29px 16px 29px;
+      color:#2c1709;
+      background:
+        linear-gradient(110deg,rgba(119,67,17,.25),transparent 16% 85%,rgba(111,59,20,.28)),
+        radial-gradient(ellipse at 46% 42%,#ffe4a0 0%,#e7bd70 56%,#b87935 100%);
+      box-shadow:inset 0 0 24px rgba(105,52,9,.24),0 9px 20px rgba(0,0,0,.48);
+      text-align:center;
+    }
+    .pirate-event-scroll-label {
+      display:block;color:#57300f;font:800 clamp(.8rem,1.45vw,1.1rem)/1.15 Georgia,serif;
+    }
+    .pirate-event-scroll strong {
+      max-width:100%;font:900 clamp(1.22rem,2.6vw,2rem)/1.2 Georgia,serif;
+      overflow-wrap:anywhere;hyphens:none;word-break:normal;
+    }
+    .countdown-panel .countdown {
+      z-index:3;
+      align-self:center;
+      width:min(100%,800px);
+      box-sizing:border-box;
+      grid-template-columns:repeat(4,minmax(0,1fr));
+      gap:clamp(8px,1.6vw,18px);
+      margin:0 auto;
+      perspective:none;
+    }
+    .countdown-panel .flip-card {
+      box-sizing:border-box;
+      min-height:145px;
+      padding:17px 4px 12px;
+      border:3px ridge #dba451;
+      border-radius:14px;
+      background:linear-gradient(160deg,#32200f,#170d06 72%,#291606);
+      box-shadow:
+        inset 0 0 0 3px #4a2b0e,
+        inset 0 0 0 5px rgba(222,152,48,.35),
+        inset 0 0 20px rgba(0,0,0,.5),
+        0 8px 15px rgba(0,0,0,.52);
+      transform:none;
+      backface-visibility:visible;
+    }
+    .countdown-panel .flip-card::before {content:none;}
+    .countdown-panel .flip-card::after {
+      content:"";position:absolute;inset:8px;border:1px solid rgba(217,155,58,.25);border-radius:6px;
+      background:none;
+    }
+    .countdown-panel .flip-card.is-flipping {animation:none!important;}
+    .countdown-panel .flip-value {
+      font:800 clamp(2.1rem,5vw,4rem)/1.12 Georgia,serif;
+      font-variant-numeric:tabular-nums;
+      color:#f9c971;
+      text-shadow:0 2px 1px #4b2406,0 5px 10px #000,0 0 20px rgba(240,162,44,.35);
+    }
+    .countdown-panel .flip-label {
+      margin-top:12px;color:#f4d692;font:800 clamp(.56rem,1.3vw,.86rem)/1.2 Georgia,serif;
+      letter-spacing:.025em;
+      text-shadow:0 2px 4px #000;
+    }
+    .countdown-panel .countdown-rigging {display:none;}
+    .countdown-panel .countdown-message {
+      z-index:3;
+      align-self:center;
+      box-sizing:border-box;
+      width:min(100%,740px);
+      margin:14px auto 0;
+      padding:8px 15px;
+      color:#efcf91;
+      border:1px solid rgba(202,145,63,.36);
+      border-radius:9px;
+      background:rgba(14,8,4,.77);
+      text-align:center;
+    }
+    .countdown-panel .countdown-message span {
+      margin:0;color:#e8ca93;font-size:.86rem;line-height:1.4;
+      overflow-wrap:anywhere;
+    }
+    .countdown-panel .countdown-message span + span {margin-top:3px;}
+    @media(max-width:900px) {
+      .hero-grid > .countdown-panel {min-height:390px;}
+      .pirate-event-decoration--hourglass {opacity:.65;width:23%;left:-3%;}
+      .pirate-event-decoration--compass {opacity:.65;width:23%;right:-3%;}
+      .countdown-panel .pirate-event-scroll {width:83%;}
+      .countdown-panel .countdown {width:87%;}
+    }
+    @media(max-width:620px) {
+      .hero-grid > .countdown-panel {padding:17px 12px 22px;min-height:0;}
+      .countdown-panel .countdown-plaque {min-height:52px;font-size:1.45rem;}
+      .countdown-panel .pirate-event-scroll {width:100%;min-height:95px;padding:12px;}
+      .pirate-event-scroll strong {font-size:clamp(1.05rem,4.5vw,1.55rem);}
+      .pirate-event-decoration--hourglass,.pirate-event-decoration--compass {display:none;}
+      .countdown-panel .countdown {width:100%;gap:7px;grid-template-columns:repeat(4,minmax(0,1fr));}
+      .countdown-panel .flip-card {min-height:104px;padding:12px 1px 8px;border-width:2px;}
+      .countdown-panel .flip-value {font-size:clamp(1.45rem,6vw,2.25rem);}
+      .countdown-panel .flip-label {font-size:clamp(.42rem,2.05vw,.68rem);letter-spacing:0;}
+      .countdown-panel .countdown-message {padding:8px 5px;}
+    }
+
   </style>
   <link rel="stylesheet" href="./highscore.css?v=4.0.1">
   <link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF122-FINAL">
@@ -6084,7 +6254,15 @@
           Nächstes Event
         </div>
 
-        <div class="countdown" aria-live="polite" aria-label="Countdown bis zum Bundesliga-Start">
+        <div class="pirate-event-decoration pirate-event-decoration--hourglass" aria-hidden="true"></div>
+        <div class="pirate-event-decoration pirate-event-decoration--compass" aria-hidden="true"></div>
+
+        <div class="pirate-event-scroll">
+          <span class="pirate-event-scroll-label">Nächste Mission</span>
+          <strong id="countdown-mission">Mission wird geladen</strong>
+        </div>
+
+        <div class="countdown" aria-live="off" aria-label="Verbleibende Zeit bis zur nächsten Mission">
           <div class="flip-unit">
             <div class="flip-card" data-unit="days">
               <span class="chronometer-rivet rivet-left" aria-hidden="true"></span>
@@ -6571,12 +6749,8 @@
       const card = element.closest(".flip-card");
       const formatted = String(Math.max(0, value)).padStart(2, "0");
       if (element.textContent === formatted) return;
-      if (card) {
-        card.classList.remove("is-flipping");
-        void card.offsetWidth;
-        card.classList.add("is-flipping");
-      }
-      window.setTimeout(() => { element.textContent = formatted; }, 210);
+      // Ruhige Piraten-Chronometer-Anzeige: Werte direkt erneuern, keine Klappanimation.
+      element.textContent = formatted;
     }
 
     function countdownClockNow() {
@@ -6638,11 +6812,10 @@
       const plaque = document.getElementById("countdown-plaque");
       const note = document.getElementById("countdown-note");
       if (plaque) plaque.textContent = plaqueText;
+      const mission = document.getElementById("countdown-mission");
+      if (mission) mission.textContent = headline;
       if (note) {
         note.replaceChildren();
-        const strong = document.createElement("strong");
-        strong.textContent = headline;
-        note.appendChild(strong);
         lines.filter(Boolean).forEach(line => {
           const span = document.createElement("span");
           span.textContent = line;
