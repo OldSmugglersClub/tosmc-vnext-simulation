@@ -6029,7 +6029,7 @@
             </div>
             <div class="welcome-status-item">
               <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
-              <span><small>Aktueller Champion</small><strong id="welcome-champion">Noch offen</strong></span>
+              <span><small id="welcome-leader-label">Führender Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong></span>
             </div>
           </div>
 
@@ -7069,12 +7069,37 @@
       }
     }
 
+    // Nur die Hauptquartier-Kachel: aktuelle Gesamteinzelwertung statt Hall-of-Fame-Champion.
+    // Die Hall of Fame und alle Wertungsdaten bleiben unveraendert.
+    async function loadWelcomeOverallLeader() {
+      try {
+        const highscore = await window.OSCHighscoreDataAdapter.loadHighscore();
+        const entries = highscore.overall?.individual;
+        if (!Array.isArray(entries) || !entries.length) throw new Error("Gesamteinzelwertung leer");
+
+        // Bei gleichen ersten Raengen alle Fuehrenden anzeigen; bei alten
+        // Ranglisten ohne Rangangabe den hoechsten Punktwert verwenden.
+        const ranked = entries.filter(entry => Number(entry?.rank) === 1);
+        const maxPoints = Math.max(...entries.map(entry => Number(entry?.totalPoints)).filter(Number.isFinite));
+        const leaders = ranked.length ? ranked : entries.filter(entry => Number(entry?.totalPoints) === maxPoints);
+        const names = [...new Set(leaders.map(entry => String(entry?.name || "").trim()).filter(Boolean))];
+        if (!names.length) throw new Error("Kein gueltiger Fuehrender vorhanden");
+
+        setText("welcome-champion", names.join(" · "));
+        setText("welcome-leader-label", names.length === 1
+          ? "Führender Gesamteinzelwertung"
+          : "Führende Gesamteinzelwertung");
+      } catch (error) {
+        setText("welcome-champion", "Nicht verfügbar");
+        console.warn("Gesamteinzelwertung für Hauptquartier nicht verfügbar.", error);
+      }
+    }
+
     async function loadClubData() {
       try {
         const data = await window.OSCHighscoreDataAdapter.loadHallOfFame();
 
         setText("champion-name", data.aktuellerChampion?.name);
-        setText("welcome-champion", data.aktuellerChampion?.name || "Noch offen");
         const championSeason = formatChampionSeason(data.aktuellerChampion?.saison || data.aktuellerChampion?.jahr);
         if (championSeason) setText("champion-trophy-season", `SAISON ${championSeason}`);
         setText(
@@ -7209,6 +7234,7 @@
 
     loadSiteData();
     loadClubData();
+    loadWelcomeOverallLeader();
     loadMatchdayData();
 
     document.getElementById("year").textContent = new Date().getFullYear();
