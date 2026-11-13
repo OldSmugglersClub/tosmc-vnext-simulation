@@ -6050,6 +6050,156 @@
   <script src="./highscore-data-adapter.js"></script>
   <link rel="stylesheet" href="./website-mitteilung.css?v=4.9.2-HF12-HF40">
   <link rel="stylesheet" href="./site-navigation.css?v=4.9.2-HF12-HF85">
+<style id="tosmc-unified-command-v1">
+
+  /* TOSMC vNext 2026-11-13: EINE gemeinsame Hauptquartier-/Countdown-Kachel.
+     Bestehende dynamische IDs, Datenquellen und Timerlogik bleiben unverändert. */
+  body main .hero-grid.hero-grid--unified {
+    display:block !important;
+    grid-template-columns:none !important;
+    width:100%;
+    gap:0;
+    margin-bottom:1.25rem;
+  }
+  body main .hero-grid--unified > .smuggler-command-unified {
+    box-sizing:border-box;
+    width:100%;
+    min-width:0;
+    min-height:0 !important;
+    height:auto !important;
+    padding:0 !important;
+    overflow:hidden;
+    position:relative;
+    border:3px double #ad762a !important;
+    border-radius:18px;
+    color:#f6dfa9;
+    background-color:#180b03 !important;
+    background:
+      linear-gradient(90deg,rgba(5,3,1,.44),rgba(13,6,2,.15) 19% 80%,rgba(5,3,1,.44)),
+      repeating-linear-gradient(0deg,rgba(0,0,0,.10) 0 2px,transparent 2px 60px),
+      url("./assets/next-event/wood.webp") center / 720px auto repeat,
+      #180b03 !important;
+    box-shadow:inset 0 0 0 4px #0e0804,inset 0 0 0 7px #7f4b0c,inset 0 0 40px #050201,0 15px 32px #0009;
+  }
+  body main .hero-grid--unified > .smuggler-command-unified::before {
+    display:block !important;content:"" !important;position:absolute;inset:10px;
+    border:1px solid #c78a31;border-radius:12px;pointer-events:none;
+    background:none !important;opacity:1 !important;width:auto !important;height:auto !important;
+  }
+  body main .hero-grid--unified > .smuggler-command-unified::after {display:none !important;content:none !important;}
+  .smuggler-combined-inner {position:relative;z-index:1;padding:clamp(18px,2.8vw,32px);min-width:0;}
+  .smuggler-masthead {text-align:center;padding:0 8px;}
+  .smuggler-masthead .welcome-command-copy {max-width:none;}
+  .smuggler-masthead .welcome-season-badge {display:inline-flex;}
+  .smuggler-masthead .welcome-headquarters-label {margin:8px auto 0;width:auto;letter-spacing:.14em;}
+  .smuggler-masthead #welcome-command-title {
+    margin:4px auto 0;font:700 clamp(2rem,5.15vw,4rem)/1.06 Georgia,serif;
+    color:#f3c767;letter-spacing:-.03em;text-shadow:1px 3px 2px #160700,0 0 22px #603906;
+  }
+  .smuggler-masthead .welcome-divider {margin:5px auto;width:min(66%,530px);}
+  .smuggler-masthead .welcome-intro {margin:4px auto 0;max-width:980px;color:#f5deb0;font-size:clamp(.86rem,1.45vw,1.06rem);line-height:1.45;}
+  .smuggler-masthead .welcome-motto {margin-top:4px;color:#e0ae54;}
+  .smuggler-event-area.countdown-panel {
+    position:relative;min-height:0 !important;padding:0 !important;margin:14px 0 12px;
+    border:0 !important;background:none !important;box-shadow:none !important;
+    display:flex;flex-direction:column;overflow:visible;isolation:auto;
+  }
+  .smuggler-event-area.countdown-panel::before,.smuggler-event-area.countdown-panel::after {display:none !important;content:none !important;}
+  .smuggler-mission-parchment {position:relative;z-index:2;width:min(85%,950px);margin:0 auto -3px;}
+  .smuggler-event-area .pirate-event-scroll {
+    width:100%;min-height:0;min-width:0;box-sizing:border-box;margin:0;
+    padding:13px clamp(14px,3vw,28px) 15px;
+    border:1px solid #a86c29;border-radius:15px 8px 16px 9px;
+    background:linear-gradient(90deg,#bf8336,#f9da8c 16% 83%,#b97c31);
+    box-shadow:inset 0 0 14px #5e330433,0 6px 13px #0009;
+  }
+  .smuggler-event-area .pirate-event-scroll-label {font:800 clamp(.85rem,1.65vw,1.2rem)/1.15 Georgia,serif;color:#472509;}
+  .smuggler-event-area #countdown-mission {
+    color:#251204;font:900 clamp(1.35rem,3.8vw,2.85rem)/1.17 Georgia,serif;
+    overflow-wrap:anywhere;word-break:normal;hyphens:none;
+  }
+  .smuggler-clock-area {
+    display:grid;grid-template-columns:minmax(95px,17%) minmax(0,1fr) minmax(95px,17%);
+    gap:clamp(8px,1.5vw,20px);align-items:center;min-width:0;
+  }
+  .smuggler-hourglass,.smuggler-compass {background-position:center;background-repeat:no-repeat;background-size:contain;min-height:200px;align-self:stretch;}
+  .smuggler-hourglass {background-image:url("./assets/next-event/sandglass.webp");}
+  .smuggler-compass {background-image:url("./assets/next-event/compass.webp");}
+  .smuggler-clock-center {min-width:0;align-self:center;}
+  .smuggler-event-area .countdown {
+    box-sizing:border-box;display:grid !important;width:100% !important;
+    grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+    gap:clamp(5px,1.1vw,15px) !important;margin:12px auto 11px !important;
+  }
+  .smuggler-event-area .flip-unit {min-width:0;}
+  .smuggler-event-area .flip-card {
+    box-sizing:border-box;min-width:0;min-height:clamp(92px,13vw,153px);
+    padding:12px 3px 11px;border:3px double #d99d39;border-radius:12px;
+    background:linear-gradient(155deg,#321b0a,#140903 85%);
+    box-shadow:inset 0 0 0 2px #4b2709,0 5px 10px #0008;
+    gap:4px;
+  }
+  .smuggler-event-area .flip-card::before {content:none !important;}
+  .smuggler-event-area .flip-value {
+    color:#f4c36c;font:900 clamp(1.5rem,4.6vw,4rem)/1 Georgia,serif;
+    letter-spacing:-.055em;font-variant-numeric:tabular-nums;
+    text-shadow:0 3px 5px #000b;
+  }
+  .smuggler-event-area .flip-label {
+    margin-top:6px;color:#f0d18b;font:800 clamp(.49rem,1.15vw,.9rem)/1.1 Georgia,serif;
+    letter-spacing:0;text-transform:uppercase;white-space:nowrap;
+  }
+  .smuggler-event-bar {min-width:0;}
+  .smuggler-event-area .countdown-message {
+    box-sizing:border-box;width:100%;margin:0 !important;padding:11px 13px;
+    border:2px solid #b77b25;border-radius:9px;
+    background:linear-gradient(180deg,#301606ec,#140905f5);
+    text-align:center;box-shadow:inset 0 0 0 1px #e0af4d2a,0 4px 12px #0008;
+  }
+  .smuggler-event-area .countdown-message span,
+  .smuggler-event-area .countdown-message strong {
+    display:block;margin:2px 0;color:#f4d693 !important;
+    font-size:clamp(.82rem,1.55vw,1.14rem) !important;line-height:1.35;
+    overflow-wrap:anywhere;
+  }
+  .smuggler-countdown-state {position:absolute;left:0;top:0;pointer-events:none;}
+  .smuggler-countdown-state .countdown-plaque {position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+  .smuggler-command-bottom {display:flex;flex-direction:column;gap:13px;padding-top:12px;border-top:1px solid #c0883659;}
+  .smuggler-command-bottom .welcome-status {
+    width:100% !important;max-width:none !important;gap:clamp(7px,1.4vw,18px);
+    grid-template-columns:repeat(3,minmax(0,1fr));
+  }
+  .smuggler-command-bottom .welcome-status-item {
+    padding:12px clamp(9px,1.5vw,18px);min-height:66px;box-sizing:border-box;
+    border:2px solid #a76c29;border-radius:9px;
+    background:linear-gradient(#36200eeb,#180b05ec);box-shadow:inset 0 0 0 1px #e3a94b24;
+    gap:clamp(7px,1.2vw,14px);
+  }
+  .smuggler-command-bottom .welcome-status-item svg {width:clamp(26px,3.5vw,45px);height:clamp(26px,3.5vw,45px);}
+  .smuggler-command-bottom .welcome-status-item small {font-size:clamp(.62rem,1.13vw,.91rem);color:#f1cd8b;line-height:1.25;}
+  .smuggler-command-bottom .welcome-status-item strong {font-size:clamp(.8rem,1.5vw,1.25rem);color:#f8d575;line-height:1.24;}
+  .smuggler-command-bottom .welcome-status-item--overall-leader > span {min-width:0;column-gap:12px;}
+  .smuggler-command-bottom .welcome-status-item--overall-leader #welcome-leader-points {font-size:clamp(.68rem,1.1vw,.95rem);color:#f3cf8e;}
+  .smuggler-command-bottom .welcome-command-actions {width:100%;max-width:none;}
+  .smuggler-command-bottom .welcome-command-button {width:100%;box-sizing:border-box;min-height:48px;}
+  .smuggler-command-bottom .welcome-secondary-nav {justify-content:center;}
+  @media(max-width:780px) {
+    .smuggler-clock-area {grid-template-columns:minmax(0,1fr);}
+    .smuggler-hourglass,.smuggler-compass {display:none;}
+    .smuggler-mission-parchment {width:100%;}
+    .smuggler-event-area .flip-card {min-height:95px;}
+    .smuggler-command-bottom .welcome-status {grid-template-columns:1fr;}
+    .smuggler-command-bottom .welcome-status-item {min-height:58px;}
+  }
+  @media(max-width:420px) {
+    .smuggler-combined-inner {padding:17px 13px;}
+    .smuggler-event-area .countdown {gap:5px !important;}
+    .smuggler-event-area .flip-card {min-height:85px;padding:10px 1px 8px;}
+    .smuggler-event-area .flip-value {font-size:clamp(1.25rem,7vw,2rem);}
+    .smuggler-event-area .flip-label {font-size:clamp(.42rem,2.05vw,.58rem);}
+  }
+
+</style>
 </head>
 
 <body>
@@ -6200,115 +6350,104 @@
   </div>
 
   <main>
-    <section class="hero-grid">
-      <article class="panel welcome-panel">
-        <div class="welcome-command-center" aria-labelledby="welcome-command-title">
-          <div class="welcome-command-copy">
-            <span class="welcome-season-badge" id="welcome-season-badge">Saison noch offen</span>
-            <span class="welcome-headquarters-label">Hauptquartier des Old Smugglers Club</span>
-            <h1 id="welcome-command-title">Der Hohe Schmugglerrat</h1>
-            <div class="welcome-divider" aria-hidden="true"><span></span></div>
-            <p class="welcome-intro">
+    <section class="hero-grid hero-grid--unified">
+      <article class="panel welcome-panel smuggler-command-unified" aria-labelledby="welcome-command-title">
+        <div class="smuggler-combined-inner">
+          <div class="smuggler-masthead"><div class="welcome-command-copy">
+<span class="welcome-season-badge" id="welcome-season-badge">Saison noch offen</span>
+<span class="welcome-headquarters-label">Hauptquartier des Old Smugglers Club</span>
+<h1 id="welcome-command-title">Der Hohe Schmugglerrat</h1>
+<div aria-hidden="true" class="welcome-divider"><span></span></div>
+<p class="welcome-intro">
               Hier werden Kurse gesetzt, Missionen vorbereitet und alle Wettbewerbe
               des Old Smugglers Club koordiniert.
               <span class="welcome-motto">Alle Wege beginnen im Hauptquartier.</span>
-            </p>
+</p>
+</div></div>
+          <div class="countdown-panel smuggler-event-area">
+            <div class="smuggler-mission-parchment"><div class="pirate-event-scroll">
+<span class="pirate-event-scroll-label">Nächste Mission</span>
+<strong id="countdown-mission">Mission wird geladen</strong>
+</div></div>
+            <div class="smuggler-clock-area">
+              <div class="smuggler-hourglass" aria-hidden="true"></div>
+              <div class="smuggler-clock-center"><div aria-label="Verbleibende Zeit bis zur nächsten Mission" aria-live="off" class="countdown">
+<div class="flip-unit">
+<div class="flip-card" data-unit="days">
+<span aria-hidden="true" class="chronometer-rivet rivet-left"></span>
+<span aria-hidden="true" class="chronometer-rivet rivet-right"></span>
+<strong class="flip-value" id="days">--</strong>
+<span class="flip-label">Tage</span>
+</div>
+</div>
+<div class="flip-unit">
+<div class="flip-card" data-unit="hours">
+<span aria-hidden="true" class="chronometer-rivet rivet-left"></span>
+<span aria-hidden="true" class="chronometer-rivet rivet-right"></span>
+<strong class="flip-value" id="hours">--</strong>
+<span class="flip-label">Stunden</span>
+</div>
+</div>
+<div class="flip-unit">
+<div class="flip-card" data-unit="minutes">
+<span aria-hidden="true" class="chronometer-rivet rivet-left"></span>
+<span aria-hidden="true" class="chronometer-rivet rivet-right"></span>
+<strong class="flip-value" id="minutes">--</strong>
+<span class="flip-label">Minuten</span>
+</div>
+</div>
+<div class="flip-unit">
+<div class="flip-card" data-unit="seconds">
+<span aria-hidden="true" class="chronometer-rivet rivet-left"></span>
+<span aria-hidden="true" class="chronometer-rivet rivet-right"></span>
+<strong class="flip-value" id="seconds">--</strong>
+<span class="flip-label">Sekunden</span>
+</div>
+</div>
+</div>
+                <div class="smuggler-event-bar" aria-live="polite"><div class="countdown-message" id="countdown-note">
+<strong>Der Zähler läuft bis zum nächsten bestätigten Event.</strong>
+<span>Termin und Begegnung werden aus dem zentralen Spielbetrieb geladen.</span>
+</div></div>
+              </div>
+              <div class="smuggler-compass" aria-hidden="true"></div>
+            </div>
+            <div class="smuggler-countdown-state" aria-hidden="true"><div class="countdown-plaque" id="countdown-plaque">
+          Nächstes Event
+        </div></div>
           </div>
-
-          <div class="welcome-status" aria-label="Aktueller Saisonstatus">
-            <div class="welcome-status-item">
-              <svg aria-hidden="true"><use href="#icon-map"></use></svg>
-              <span><small>Aktuelle Saison</small><strong id="welcome-season">Noch offen</strong></span>
-            </div>
-            <div class="welcome-status-item welcome-status-item--mission">
-              <svg aria-hidden="true"><use href="#icon-anchor"></use></svg>
-              <span><small>Nächste Mission</small><strong id="welcome-next-mission"><span class="welcome-mission-name">Noch kein Termin</span></strong></span>
-            </div>
-            <div class="welcome-status-item welcome-status-item--overall-leader">
-              <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
-              <span><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong><small id="welcome-leader-points" class="welcome-leader-points"></small></span>
-            </div>
-          </div>
-
-          <div class="welcome-command-actions">
-            <a class="welcome-command-button" id="welcome-kicktipp-link"
-               href="#">
-              <svg aria-hidden="true"><use href="#icon-skull"></use></svg>
-              <span>Zur Tipprunde</span>
-            </a>
-            <nav class="welcome-secondary-nav" aria-label="Schnellzugriffe der Startzentrale">
-              <a href="./highscore.html">Highscore</a>
-              <span class="nav-separator" aria-hidden="true">·</span>
-              <a href="./logbuch.html">Logbuch</a>
-              <span class="nav-separator" aria-hidden="true">·</span>
-              <a href="#hall-of-fame">Hall of Fame</a>
-              <span class="nav-separator" aria-hidden="true">·</span>
-              <a href="#wettbewerbe">Wettbewerbe</a>
-            </nav>
+          <div class="smuggler-command-bottom"><div aria-label="Aktueller Saisonstatus" class="welcome-status">
+<div class="welcome-status-item">
+<svg aria-hidden="true"><use href="#icon-map"></use></svg>
+<span><small>Aktuelle Saison</small><strong id="welcome-season">Noch offen</strong></span>
+</div>
+<div class="welcome-status-item welcome-status-item--mission">
+<svg aria-hidden="true"><use href="#icon-anchor"></use></svg>
+<span><small>Nächste Mission</small><strong id="welcome-next-mission"><span class="welcome-mission-name">Noch kein Termin</span></strong></span>
+</div>
+<div class="welcome-status-item welcome-status-item--overall-leader">
+<svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
+<span><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong><small class="welcome-leader-points" id="welcome-leader-points"></small></span>
+</div>
+</div>
+            <div class="welcome-command-actions">
+<a class="welcome-command-button" href="#" id="welcome-kicktipp-link">
+<svg aria-hidden="true"><use href="#icon-skull"></use></svg>
+<span>Zur Tipprunde</span>
+</a>
+<nav aria-label="Schnellzugriffe der Startzentrale" class="welcome-secondary-nav">
+<a href="./highscore.html">Highscore</a>
+<span aria-hidden="true" class="nav-separator">·</span>
+<a href="./logbuch.html">Logbuch</a>
+<span aria-hidden="true" class="nav-separator">·</span>
+<a href="#hall-of-fame">Hall of Fame</a>
+<span aria-hidden="true" class="nav-separator">·</span>
+<a href="#wettbewerbe">Wettbewerbe</a>
+</nav>
+</div>
           </div>
         </div>
       </article>
-
-      <aside class="panel countdown-panel">
-        <div class="countdown-plaque" id="countdown-plaque">
-          Nächstes Event
-        </div>
-
-        <div class="pirate-event-decoration pirate-event-decoration--hourglass" aria-hidden="true"></div>
-        <div class="pirate-event-decoration pirate-event-decoration--compass" aria-hidden="true"></div>
-
-        <div class="pirate-event-scroll">
-          <span class="pirate-event-scroll-label">Nächste Mission</span>
-          <strong id="countdown-mission">Mission wird geladen</strong>
-        </div>
-
-        <div class="countdown" aria-live="off" aria-label="Verbleibende Zeit bis zur nächsten Mission">
-          <div class="flip-unit">
-            <div class="flip-card" data-unit="days">
-              <span class="chronometer-rivet rivet-left" aria-hidden="true"></span>
-              <span class="chronometer-rivet rivet-right" aria-hidden="true"></span>
-              <strong class="flip-value" id="days">--</strong>
-              <span class="flip-label">Tage</span>
-            </div>
-          </div>
-
-          <div class="flip-unit">
-            <div class="flip-card" data-unit="hours">
-              <span class="chronometer-rivet rivet-left" aria-hidden="true"></span>
-              <span class="chronometer-rivet rivet-right" aria-hidden="true"></span>
-              <strong class="flip-value" id="hours">--</strong>
-              <span class="flip-label">Stunden</span>
-            </div>
-          </div>
-
-          <div class="flip-unit">
-            <div class="flip-card" data-unit="minutes">
-              <span class="chronometer-rivet rivet-left" aria-hidden="true"></span>
-              <span class="chronometer-rivet rivet-right" aria-hidden="true"></span>
-              <strong class="flip-value" id="minutes">--</strong>
-              <span class="flip-label">Minuten</span>
-            </div>
-          </div>
-
-          <div class="flip-unit">
-            <div class="flip-card" data-unit="seconds">
-              <span class="chronometer-rivet rivet-left" aria-hidden="true"></span>
-              <span class="chronometer-rivet rivet-right" aria-hidden="true"></span>
-              <strong class="flip-value" id="seconds">--</strong>
-              <span class="flip-label">Sekunden</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="countdown-rigging" aria-hidden="true">
-          <span class="chronometer-seal"><span></span></span>
-        </div>
-
-        <div class="countdown-message" id="countdown-note">
-          <strong>Der Zähler läuft bis zum nächsten bestätigten Event.</strong>
-          <span>Termin und Begegnung werden aus dem zentralen Spielbetrieb geladen.</span>
-        </div>
-      </aside>
     </section>
 
     <section class="section panel matchday-panel sm-schedule" id="aktueller-spieltag">
