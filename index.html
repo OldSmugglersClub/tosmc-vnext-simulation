@@ -2265,7 +2265,7 @@
       border-radius: 11px;
       background:
         linear-gradient(180deg, rgba(255,255,255,.035), transparent 20% 80%, rgba(255,255,255,.015)),
-        linear-gradient(180deg, #2b1a0d 0%, #120b06 48%, #070402 51%, #1d1108 100%);
+        linear-gradient(180deg, #2b1a0d 0%, #1d1108 55%, #120b06 100%);
       box-shadow:
         inset 0 0 0 2px rgba(0,0,0,.54),
         inset 0 1px 0 rgba(255,255,255,.11),
@@ -2273,13 +2273,9 @@
         0 8px 18px rgba(0,0,0,.46);
     }
 
+    /* Durchgehende Tafel ohne funktionslose Klappfuge. */
     .countdown-panel .flip-card::before {
-      top: 52%;
-      height: 2px;
-      background: rgba(0,0,0,.92);
-      box-shadow:
-        0 1px 0 rgba(255,255,255,.055),
-        0 -1px 0 rgba(124,78,26,.24);
+      content: none;
     }
 
     .countdown-panel .flip-card::after {
