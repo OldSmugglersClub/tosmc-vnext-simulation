@@ -6935,7 +6935,10 @@
         return;
       }
       matchdayRefreshPending = true;
-      Promise.resolve(loadMatchdayData()).finally(() => {
+      // Tageswechsel/Tab-Aktivierung: Highscore neu lesen statt den alten
+      // Highscore-Adapter-Cache aus der ersten Seitenladung zu verwenden.
+      window.OSCHighscoreDataAdapter?.clear();
+      Promise.all([loadMatchdayData(), loadWelcomeOverallLeader()]).finally(() => {
         matchdayRefreshPending = false;
         if (matchdayRefreshQueued) {
           matchdayRefreshQueued = false;
@@ -6943,6 +6946,10 @@
         }
       });
     }
+
+    // Die 00:01-Uhr-Aktualisierung in schedule-timeline.js benoetigt
+    // diesen oeffentlichen Einstieg (vorher nicht veroeffentlicht).
+    window.requestMatchdayRefresh = requestMatchdayRefresh;
 
     function synchronizeMatchdayWithCountdown(nextEvent) {
       const nextKey = nextEvent
