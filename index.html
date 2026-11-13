@@ -5267,13 +5267,6 @@
       overflow-wrap: anywhere;
       line-height: 1.08;
     }
-    .welcome-mission-date {
-      display: block;
-      color: #d7b85f;
-      font-size: .86em;
-      line-height: 1;
-      white-space: nowrap;
-    }
 
     .welcome-command-actions {
       width: min(100%, 720px);
@@ -6063,7 +6056,7 @@
             </div>
             <div class="welcome-status-item welcome-status-item--mission">
               <svg aria-hidden="true"><use href="#icon-anchor"></use></svg>
-              <span><small>Nächste Mission</small><strong id="welcome-next-mission"><span class="welcome-mission-name">Noch kein Termin</span><span class="welcome-mission-date" aria-hidden="true"></span></strong></span>
+              <span><small>Nächste Mission</small><strong id="welcome-next-mission"><span class="welcome-mission-name">Noch kein Termin</span></strong></span>
             </div>
             <div class="welcome-status-item welcome-status-item--overall-leader">
               <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
@@ -6886,22 +6879,17 @@
         return Number.isNaN(value.getTime()) ? null : value;
       };
 
-      const setWelcomeMission = (name, date = "") => {
+      const setWelcomeMission = (name) => {
         const target = document.getElementById("welcome-next-mission");
         if (!target) return;
         let nameNode = target.querySelector(".welcome-mission-name");
-        let dateNode = target.querySelector(".welcome-mission-date");
-        if (!nameNode || !dateNode) {
+        if (!nameNode) {
           target.replaceChildren();
           nameNode = document.createElement("span");
           nameNode.className = "welcome-mission-name";
-          dateNode = document.createElement("span");
-          dateNode.className = "welcome-mission-date";
-          target.append(nameNode, dateNode);
+          target.append(nameNode);
         }
         nameNode.textContent = String(name || "Noch kein Termin").trim() || "Noch kein Termin";
-        dateNode.textContent = String(date || "").trim();
-        dateNode.setAttribute("aria-hidden", String(!dateNode.textContent));
       };
 
       try {
@@ -6981,8 +6969,7 @@
 
         const welcomeEvent = state.focus;
         if (welcomeEvent) {
-          const missionDate = new Intl.DateTimeFormat(locale, { day: "2-digit", month: "2-digit", year: "numeric" }).format(welcomeEvent._start);
-          setWelcomeMission(formatEventMatchdayLabel(welcomeEvent), missionDate);
+          setWelcomeMission(formatEventMatchdayLabel(welcomeEvent));
         } else {
           setWelcomeMission("Noch kein bestätigter Termin");
         }
