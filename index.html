@@ -5912,7 +5912,530 @@
       .countdown-panel .countdown-message {padding:8px 5px;}
     }
 
-  </style>
+  
+  /* vNext 4.11.3: selective LIVE 4.9.5 schedule-card visual transfer. */
+
+
+  /* TEST2v2 4.9.4 – nur Spieltags-Kachel: bestehender Piratenstil, bessere Ordnung. */
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-rows: auto auto;
+      align-items: center;
+      column-gap: 24px;
+      row-gap: clamp(20px, 2.4vw, 32px);
+      padding: 14px clamp(8px, 1.8vw, 22px) 18px;
+    }
+    #aktueller-spieltag .sm-schedule__heading { display: contents; }
+    #aktueller-spieltag .sm-schedule__heading .eyebrow {
+      grid-column: 1;
+      grid-row: 1;
+      justify-self: start;
+      margin: 0;
+    }
+    #aktueller-spieltag .sm-schedule__header .matchday-status {
+      grid-column: 2;
+      grid-row: 1;
+      justify-self: end;
+      margin: 0;
+    }
+    #aktueller-spieltag .sm-schedule__heading h2 {
+      grid-column: 1 / -1;
+      grid-row: 2;
+      justify-self: center;
+      margin: 0;
+      width: 100%;
+      font-size: clamp(2rem, 3.7vw, 3.15rem);
+      line-height: 1.12;
+      text-align: center;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+    }
+  }
+  #aktueller-spieltag .sm-event-row {
+    position: relative;
+    grid-template-columns: 76px minmax(110px, 160px) minmax(0, 1fr) minmax(102px, auto);
+  }
+  #aktueller-spieltag .sm-event-row__main-link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: 3px;
+  }
+  #aktueller-spieltag .sm-event-row:has(.sm-event-row__main-link):hover,
+  #aktueller-spieltag .sm-event-row:has(.sm-event-row__main-link):focus-within {
+    background: rgba(102, 60, 20, .24);
+  }
+  #aktueller-spieltag .sm-event-row__main-link:focus-visible {
+    outline: 2px solid #eac270;
+    outline-offset: -3px;
+  }
+  #aktueller-spieltag .sm-event-row__coco {
+    position: relative;
+    z-index: 2;
+    justify-self: end;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 11px;
+    min-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(212, 156, 54, .72);
+    border-radius: 7px;
+    background: linear-gradient(180deg, #724416, #342009);
+    color: #f6db92;
+    font-size: .76rem;
+    font-weight: 800;
+    letter-spacing: .025em;
+    line-height: 1.1;
+    white-space: nowrap;
+    text-decoration: none;
+    box-shadow: inset 0 1px rgba(255, 230, 153, .20), 0 2px 5px rgba(0,0,0,.3);
+  }
+  #aktueller-spieltag .sm-event-row__coco:hover,
+  #aktueller-spieltag .sm-event-row__coco:focus-visible {
+    color: #fff1c1;
+    border-color: #efc477;
+    background: linear-gradient(180deg, #916025, #47290d);
+    outline: 1px solid #efc477;
+    outline-offset: 2px;
+  }
+  #aktueller-spieltag .sm-event-row__status {
+    position: relative;
+    z-index: 2;
+    justify-self: end;
+  }
+  @media (max-width: 760px) {
+    #aktueller-spieltag .sm-event-row {
+      grid-template-columns: minmax(45px, 54px) minmax(0, 1fr) auto;
+      grid-template-rows: auto auto;
+      column-gap: clamp(6px, 2vw, 11px);
+      row-gap: 9px;
+      padding: 11px clamp(8px, 3vw, 13px);
+      align-items: center;
+    }
+    #aktueller-spieltag .sm-event-row__time { grid-column: 1; grid-row: 1; }
+    #aktueller-spieltag .sm-event-row__competition {
+      grid-column: 2; grid-row: 1;
+      min-width: 0;
+      max-width: 100%;
+      padding-inline: 5px;
+      font-size: clamp(.58rem, 2.5vw, .72rem);
+      line-height: 1.12;
+      overflow-wrap: normal;
+      word-break: normal;
+    }
+    #aktueller-spieltag .sm-event-row__match {
+      grid-column: 1 / -1; grid-row: 2;
+      min-width: 0;
+      margin: 0;
+    }
+    #aktueller-spieltag .sm-event-row__coco,
+    #aktueller-spieltag .sm-event-row__status {
+      grid-column: 3; grid-row: 1;
+      justify-self: end;
+      width: auto;
+      white-space: nowrap;
+      margin: 0;
+    }
+    #aktueller-spieltag .sm-event-row__coco {
+      padding: 7px clamp(6px, 2vw, 10px);
+      min-height: 31px;
+      font-size: clamp(.68rem, 2.65vw, .75rem);
+    }
+    #aktueller-spieltag .sm-event-row__status { font-size: .65rem; }
+  }
+
+
+
+  /* TEST2v2 4.9.5 | Spieltagskachel: zurückhaltende Piraten-Inszenierung. */
+  #aktueller-spieltag .sm-schedule__header {
+    position: relative;
+    margin-bottom: 0;
+  }
+  /* Messing-Gravur als Abschluss der Spieltagsüberschrift. */
+  #aktueller-spieltag .sm-schedule__header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 17%; right: 17%; bottom: 3px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(213,160,69,.35) 22%, #deb765 50%, rgba(213,160,69,.35) 78%, transparent);
+    box-shadow: 0 1px 5px rgba(190,118,36,.15);
+    pointer-events: none;
+  }
+  #aktueller-spieltag .sm-schedule__header::before {
+    content: "✦";
+    position: absolute;
+    z-index: 3;
+    bottom: -5px; left: 50%;
+    transform: translateX(-50%);
+    padding: 0 9px;
+    background: #150c07;
+    color: #d8a64b;
+    font-size: 10px;
+    line-height: 16px;
+    pointer-events: none;
+  }
+  #aktueller-spieltag .sm-schedule__subline {
+    position: relative;
+    z-index: 1;
+    margin: 13px 0 14px;
+    padding: 0 12px;
+    text-align: center;
+    color: #d5b678;
+    font-size: clamp(.72rem, 1.2vw, .84rem);
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: .075em;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8);
+  }
+  #aktueller-spieltag .sm-schedule__subline[hidden] {display: none !important;}
+  #aktueller-spieltag .sm-day__title {
+    border-bottom-color: rgba(224,163,66,.58);
+    padding-block: .69rem;
+    background: linear-gradient(90deg, #573011 0%, #3d230f 34%, #231409 100%);
+    box-shadow: inset 0 1px rgba(244,189,99,.09), 0 4px 10px rgba(0,0,0,.31);
+  }
+  #aktueller-spieltag .sm-day__title::before {
+    content: "✦";
+    display: inline-block;
+    margin-right: 10px;
+    color: #c99340;
+    font-size: .79em;
+    vertical-align: 1px;
+  }
+  /* Orakel-Taste: Messingfassung, keine neue Funktion. */
+  #aktueller-spieltag .sm-event-row__coco {
+    border-color: #c18b35;
+    background: linear-gradient(180deg, #88521c 0%, #55300f 48%, #32200d 100%);
+    box-shadow: inset 0 1px rgba(255,232,164,.31), inset 0 -1px rgba(35,17,3,.55), 0 2px 6px rgba(0,0,0,.4);
+    text-shadow: 0 1px 1px #1e0e04;
+    gap: 5px;
+  }
+  #aktueller-spieltag .sm-event-row__coco::before {
+    content: "✧";
+    font-size: .9em;
+    color: #f2d184;
+    line-height: 1;
+  }
+  #aktueller-spieltag .sm-event-row__coco:hover,
+  #aktueller-spieltag .sm-event-row__coco:focus-visible {
+    background: linear-gradient(180deg, #a16924, #653713 65%, #3d230b);
+  }
+  /* Die bereits vorhandene Aktion als abgeschlossenes Fußstück statt schwarzer Restfläche. */
+  #aktueller-spieltag .sm-schedule__actions {
+    margin-top: 15px;
+    padding: 12px 13px;
+    border: 1px solid rgba(172,113,35,.47);
+    border-radius: 7px;
+    background: linear-gradient(90deg, rgba(61,35,14,.63), rgba(20,12,7,.4) 55%, rgba(65,38,15,.38));
+    box-shadow: inset 0 1px rgba(242,186,83,.07);
+  }
+  #aktueller-spieltag #sm-kicktipp-link {
+    top: 0;
+  }
+  @media (max-width: 760px) {
+    #aktueller-spieltag .sm-schedule__header::after { left: 12%; right: 12%; bottom: -1px; }
+    #aktueller-spieltag .sm-schedule__header::before { bottom: -9px; }
+    #aktueller-spieltag .sm-schedule__subline {
+      margin: 17px 0 13px;
+      letter-spacing: .025em;
+      font-size: .74rem;
+    }
+    #aktueller-spieltag .sm-day__title {
+      padding: .65rem .72rem;
+      letter-spacing: .045em;
+    }
+    #aktueller-spieltag .sm-day__title::before { margin-right: 6px; }
+    #aktueller-spieltag .sm-event-row__coco {
+      gap: 3px;
+      padding-inline: clamp(5px,1.6vw,8px);
+    }
+    #aktueller-spieltag .sm-schedule__actions {
+      padding: 10px;
+      margin-top: 12px;
+    }
+  }
+
+
+  /* TEST2v2 4.9.7 – nur Kopf-Akzent, Faktenzeile und beide Fußaktionen. */
+  #aktueller-spieltag .sm-schedule__header {
+    background: radial-gradient(ellipse 45% 70% at 50% 82%, rgba(169,106,30,.11), transparent 100%);
+    border-radius: 9px;
+  }
+  #aktueller-spieltag .sm-schedule__heading h2 {
+    text-shadow: 0 2px 1px rgba(32,15,3,.75), 0 0 17px rgba(209,144,50,.16);
+  }
+  #aktueller-spieltag .sm-schedule__subline {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: .045em;
+    margin-top: 11px;
+    margin-bottom: 15px;
+  }
+  #aktueller-spieltag .sm-schedule__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(10px, 2.5vw, 22px);
+  }
+  #aktueller-spieltag .sm-schedule__back-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    min-height: 40px;
+    padding: 9px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    z-index: 2;
+  }
+  #aktueller-spieltag .sm-schedule__back-top:focus-visible {
+    outline: 2px solid #f2d084;
+    outline-offset: 3px;
+  }
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__header {
+      row-gap: clamp(7px, 1vw, 12px);
+      padding-top: 9px;
+      padding-bottom: 13px;
+    }
+  }
+  @media (max-width: 760px) {
+    #aktueller-spieltag .sm-schedule__subline {
+      font-size: clamp(.55rem, 2.55vw, .75rem);
+      letter-spacing: 0;
+      padding-inline: 0;
+      margin-top: 16px;
+      margin-bottom: 13px;
+    }
+    #aktueller-spieltag .sm-schedule__actions {
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+    #aktueller-spieltag .sm-schedule__actions #sm-kicktipp-link,
+    #aktueller-spieltag .sm-schedule__back-top {
+      min-width: 0;
+      max-width: 100%;
+      text-align: center;
+      font-size: clamp(.7rem, 2.6vw, .9rem);
+    }
+    #aktueller-spieltag .sm-schedule__back-top {padding: 9px 10px;}
+  }
+
+  /* TEST2v2 4.9.6 – ruhiger Spieltags-Feinschliff ohne bevorzugte Partie. */
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__header {
+      row-gap: clamp(10px, 1.4vw, 17px);
+      padding-top: 12px;
+      padding-bottom: 15px;
+    }
+    #aktueller-spieltag .sm-event-row__competition {
+      justify-self: start;
+      width: 100%;
+      box-sizing: border-box;
+      max-width: 160px;
+    }
+  }
+  #aktueller-spieltag .sm-schedule__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 9px 12px;
+    min-height: 0;
+  }
+  #aktueller-spieltag #sm-kicktipp-link {
+    margin: 0;
+  }
+  @media (max-width: 760px) {
+    #aktueller-spieltag .sm-event-row__competition {
+      justify-self: stretch;
+      max-width: 100%;
+    }
+    #aktueller-spieltag .sm-schedule__actions {
+      padding: 9px 10px;
+    }
+  }
+
+
+  /* TEST2v2 4.9.8: Inszenierter Desktop-Kopf, keine Änderung an Spielzeilen/Mobilstruktur. */
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__header {
+      isolation: isolate;
+      row-gap: clamp(14px, 1.8vw, 23px);
+      padding: 17px clamp(12px, 2vw, 25px) 20px;
+      background:
+        radial-gradient(ellipse 47% 110% at 50% 82%, rgba(221,149,50,.19) 0%, rgba(134,77,21,.08) 51%, transparent 100%),
+        radial-gradient(circle at 10% 82%, rgba(149,91,27,.085), transparent 29%),
+        radial-gradient(circle at 90% 82%, rgba(149,91,27,.085), transparent 29%);
+    }
+    #aktueller-spieltag .sm-schedule__heading h2 {
+      position: relative;
+      box-sizing: border-box;
+      justify-self: center;
+      width: min(100%, 900px);
+      padding: 18px clamp(14px, 2vw, 28px) 20px;
+      border: 1px solid rgba(208,145,56,.61);
+      border-radius: 10px;
+      background:
+        linear-gradient(180deg, rgba(212,151,64,.17) 0%, rgba(103,57,19,.40) 29%, rgba(44,24,12,.91) 74%, rgba(35,19,11,.96) 100%);
+      box-shadow:
+        inset 0 1px rgba(255,224,145,.38),
+        inset 0 0 0 3px rgba(18,10,5,.50),
+        inset 0 -8px 18px rgba(18,10,5,.35),
+        0 0 26px rgba(196,126,40,.14),
+        0 8px 19px rgba(0,0,0,.31);
+      color: #f6d88c;
+      text-shadow: 0 2px 2px rgba(24,11,3,.88), 0 0 20px rgba(241,190,93,.28);
+      line-height: 1.17;
+    }
+    #aktueller-spieltag .sm-schedule__heading h2::before {
+      content: "✦  SPIELPLAN AN DECK  ✦";
+      display: block;
+      margin: 0 0 6px;
+      font-size: clamp(.65rem, .9vw, .77rem);
+      font-weight: 800;
+      letter-spacing: .16em;
+      line-height: 1.35;
+      color: #ddb267;
+      text-shadow: 0 1px 2px rgba(0,0,0,.9);
+    }
+    #aktueller-spieltag .sm-schedule__header::after {
+      left: 23%;
+      right: 23%;
+      bottom: 5px;
+      background: linear-gradient(90deg, transparent, rgba(234,177,82,.5), #e4ba68 50%, rgba(234,177,82,.5), transparent);
+      box-shadow: 0 0 8px rgba(213,145,45,.25);
+    }
+    #aktueller-spieltag .sm-schedule__header::before { bottom: -4px; }
+    #aktueller-spieltag .sm-schedule__subline:not([hidden]) {
+      box-sizing: border-box;
+      display: table;
+      width: auto;
+      max-width: calc(100% - 32px);
+      margin: 15px auto 19px;
+      padding: 10px clamp(22px, 4vw, 52px);
+      border: 1px solid rgba(172,113,35,.53);
+      border-radius: 7px;
+      background: linear-gradient(180deg, rgba(78,43,16,.86), rgba(32,18,9,.92));
+      box-shadow: inset 0 1px rgba(255,220,143,.18), 0 3px 12px rgba(0,0,0,.29);
+      color: #edcb81;
+      font-size: clamp(.78rem, 1.05vw, .94rem);
+      letter-spacing: .055em;
+      text-shadow: 0 1px 2px rgba(0,0,0,.95);
+      white-space: normal;
+    }
+  }
+
+
+  /* TEST2v2 4.9.9 – ausschließlich Desktop: Tafel aus dunklem Holz und Messing.
+     Der kompassartige Dekor nutzt das bereits vorhandene Website-Asset.
+     Keine DOM-/Daten-/Navigations- oder Mobile-Änderungen. */
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__heading h2 {
+      isolation: isolate;
+      overflow: hidden;
+      background-color: #2a160b;
+      background-image:
+        radial-gradient(ellipse 64% 110% at 49% 52%, rgba(223,158,65,.29) 0%, rgba(166,97,33,.20) 40%, transparent 76%),
+        linear-gradient(180deg, rgba(244,192,96,.22), rgba(80,43,14,.07) 17%, rgba(14,7,3,.12) 78%, rgba(8,4,2,.58)),
+        repeating-linear-gradient(2deg, rgba(231,166,86,.052) 0px, rgba(231,166,86,.052) 1px, transparent 2px, transparent 9px, rgba(0,0,0,.10) 11px, transparent 14px),
+        repeating-linear-gradient(177deg, #3a2112 0px, #4c2914 17px, #281609 27px, #422413 42px, #211108 55px);
+      border: 2px solid #ba8338;
+      border-radius: 11px;
+      outline: 1px solid rgba(61,30,7,.9);
+      outline-offset: -5px;
+      box-shadow:
+        inset 0 2px 0 rgba(255,227,149,.51),
+        inset 0 0 0 5px rgba(13,7,4,.64),
+        inset 0 0 0 6px rgba(217,156,59,.22),
+        inset 0 -8px 14px rgba(8,4,2,.62),
+        inset 11px 0 25px rgba(12,6,3,.36),
+        inset -11px 0 25px rgba(12,6,3,.36),
+        0 0 18px rgba(212,139,52,.19),
+        0 7px 18px rgba(0,0,0,.42);
+      color: #ffe09a;
+      text-shadow:
+        0 1px 0 rgba(255,245,184,.24),
+        0 3px 2px rgba(13,7,3,.95),
+        0 0 14px rgba(249,186,73,.46),
+        0 0 28px rgba(246,160,53,.22);
+      padding-block: 19px 22px;
+    }
+    #aktueller-spieltag .sm-schedule__heading h2::before {
+      position: relative;
+      z-index: 2;
+      color: #f1ca7d;
+      font-weight: 800;
+      letter-spacing: .18em;
+      margin-bottom: 8px;
+      text-shadow: 0 1px 2px #100803, 0 0 9px rgba(239,179,77,.28);
+    }
+    /* Nur transparentes Kompass- und Nietendekor; keine neue HTML-Struktur. */
+    #aktueller-spieltag .sm-schedule__heading h2::after {
+      content: "";
+      position: absolute;
+      z-index: 0;
+      inset: 0;
+      border-radius: inherit;
+      pointer-events: none;
+      background-image:
+        radial-gradient(circle, rgba(253,215,126,.85) 0 2px, rgba(78,41,10,.75) 3px, transparent 4px),
+        radial-gradient(circle, rgba(253,215,126,.85) 0 2px, rgba(78,41,10,.75) 3px, transparent 4px),
+        radial-gradient(circle, rgba(253,215,126,.85) 0 2px, rgba(78,41,10,.75) 3px, transparent 4px),
+        radial-gradient(circle, rgba(253,215,126,.85) 0 2px, rgba(78,41,10,.75) 3px, transparent 4px),
+        url("./assets/next-event/compass.webp");
+      background-repeat: no-repeat;
+      background-size: 9px 9px,9px 9px,9px 9px,9px 9px,clamp(105px, 12vw, 185px) auto;
+      background-position: 13px 11px,calc(100% - 13px) 11px,13px calc(100% - 11px),calc(100% - 13px) calc(100% - 11px),calc(100% - 14px) 50%;
+      opacity: .23;
+      filter: sepia(.72) saturate(.85);
+    }
+    /* Bei schmalem Desktop Kompass im Titelfeld zurücknehmen. */
+  }
+  @media (min-width: 761px) and (max-width: 1050px) {
+    #aktueller-spieltag .sm-schedule__heading h2::after { opacity: .12; }
+  }
+
+
+  /* TOSMC 4.9.10: Ausschließlich Desktop – Messingtafeln etwas voller ausführen.
+     Die dynamischen Beschriftungen, Layoutzeilen und mobilen Regeln bleiben unberührt. */
+  @media (min-width: 761px) {
+    #aktueller-spieltag .sm-schedule__heading .eyebrow {
+      box-sizing: border-box;
+      min-width: clamp(270px, 26vw, 325px);
+      min-height: 41px;
+      padding: 8px 35px;
+      text-align: center;
+      justify-content: center;
+      box-shadow:
+        inset 0 1px rgba(255,255,255,.38),
+        inset 0 -2px rgba(42,23,5,.43),
+        0 5px 15px rgba(0,0,0,.34),
+        0 0 12px rgba(208,147,62,.09);
+    }
+    #aktueller-spieltag .sm-schedule__header .matchday-status {
+      box-sizing: border-box;
+      min-width: clamp(145px, 14vw, 178px);
+      min-height: 41px;
+      padding: 8px 30px;
+      text-align: center;
+      justify-content: center;
+      box-shadow:
+        inset 0 1px rgba(255,255,255,.38),
+        inset 0 -2px rgba(42,23,5,.43),
+        0 5px 15px rgba(0,0,0,.37),
+        0 0 12px rgba(208,147,62,.09);
+    }
+</style>
   <link rel="stylesheet" href="./highscore.css?v=4.0.1">
   <link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF122-FINAL">
   <link rel="stylesheet" href="./accessibility-v33.css">
@@ -6835,37 +7358,23 @@
     <section class="section panel matchday-panel sm-schedule" id="aktueller-spieltag">
       <header class="sm-schedule__header">
         <div class="sm-schedule__heading">
-          <div class="eyebrow" id="sm-schedule-label">Nächste Ereignisse</div>
+          <div class="eyebrow" id="sm-schedule-label">Nächste Tippereignisse</div>
           <h2 id="sm-schedule-title">Die nächsten 7 Tage</h2>
         </div>
         <div class="matchday-status" id="sm-schedule-status">Keine Termine</div>
       </header>
 
+      <p class="sm-schedule__subline" id="sm-schedule-subline" hidden aria-live="polite"></p>
+
       <p class="lead is-hidden" id="sm-schedule-note"></p>
-
-      <a class="sm-next-event" id="sm-next-event" aria-label="Nächstes Ereignis">
-        <span class="sm-next-event__date" id="sm-next-date">TT.MM.JJJJ · --:--</span>
-        <span class="sm-next-event__competition" id="sm-next-competition">Wettbewerb offen</span>
-        <span class="sm-next-event__match" id="sm-next-match">
-          <span class="sm-team sm-team--home">
-            <span class="sm-team__seal" id="sm-next-home-seal" aria-hidden="true"><span>HEIM</span></span>
-            <span class="sm-team__name" id="sm-next-home-name">Heimteam</span>
-          </span>
-          <span class="sm-next-event__separator" id="sm-next-separator">–</span>
-          <span class="sm-team sm-team--away">
-            <span class="sm-team__name" id="sm-next-away-name">Auswärtsteam</span>
-            <span class="sm-team__seal" id="sm-next-away-seal" aria-hidden="true"><span>GAST</span></span>
-          </span>
-        </span>
-      </a>
-
-      <div class="sm-event-list" id="sm-event-list" tabindex="0" aria-label="Kommende Tippereignisse"></div>
+<div class="sm-event-list" id="sm-event-list" tabindex="0" aria-label="Kommende Tippereignisse"></div>
 
       <footer class="matchday-actions sm-schedule__actions">
         <a class="button button-secondary is-hidden" id="sm-overview-link" href="#" aria-hidden="true"></a>
         <a class="button button-primary sm-kicktipp-live-action" id="sm-kicktipp-link"
            href="./kicktipp.html?path=tippuebersicht&br_p=%2Fthe-old-smugglers-club%2Ftippuebersicht"
            aria-label="Kicktipp Live Action öffnen">Kicktipp Live Action</a>
+        <a class="tosmc-nav-button tosmc-nav-button--top sm-schedule__back-top" href="#start" aria-label="Zurück zum Anfang der Website">Nach oben</a>
       </footer>
     </section>
 
@@ -7814,30 +8323,31 @@
         const focus = state.focus;
         if (!focus) {
           if (elements.label) elements.label.textContent = "Nächste Tippereignisse";
-          if (elements.title) renderScheduleHeading(elements.title, "Noch kein bestätigter Termin");
+          if (elements.title) renderScheduleHeading(elements.title, `Die nächsten ${previewDays} Tage`);
           if (elements.status) elements.status.textContent = "KEINE EXAKTEN TERMINE";
           setPlaceholder(data);
         } else {
-          if (elements.label) elements.label.textContent = "Nächstes Tippereignis";
-          if (elements.title) renderScheduleHeading(elements.title, formatMatchdayTitle(focus));
+          if (elements.label) elements.label.textContent = "Nächste Tippereignisse";
+          if (elements.title) renderScheduleHeading(elements.title, `Die nächsten ${previewDays} Tage`);
           if (elements.status) elements.status.textContent = `${upcoming.length} EVENT${upcoming.length===1?"":"S"}`;
 
-          elements.next?.classList.remove("is-placeholder");
-          const focusDate = new Intl.DateTimeFormat(locale,{weekday:"short",day:"2-digit",month:"2-digit",year:"numeric"}).format(focus._start);
-          if(elements.nextDate) elements.nextDate.textContent=`${focusDate} · ${focus.anstoss}`;
-          if(elements.nextCompetition) elements.nextCompetition.textContent="Nächstes Spiel";
-          if(elements.nextHomeName) elements.nextHomeName.textContent=focus.heim;
-          if(elements.nextSeparator) elements.nextSeparator.textContent=focus.trenner||"–";
-          if(elements.nextAwayName) elements.nextAwayName.textContent=focus.auswaerts;
-          renderTeamSeal(elements.nextHomeSeal,focus.heimTeamId,focus.heim);
-          renderTeamSeal(elements.nextAwaySeal,focus.auswaertsTeamId,focus.auswaerts);
-          if(elements.next&&focus.ereignisLink) elements.next.href=focus.ereignisLink; else elements.next?.removeAttribute("href");
         }
 
         if(elements.list){
           elements.list.replaceChildren();
           elements.list.classList.remove("is-empty","is-single","is-double","is-multiple");
           const visibleExact=upcoming;
+          const subline=document.getElementById("sm-schedule-subline");
+          if (subline) {
+            const count=visibleExact.length;
+            const competitions=new Set(visibleExact.map(game=>{
+              const type=String(game.matchdayType||"").trim().toLowerCase();
+              if (type==="smugglerauftrag") return `special:${type}`;
+              return String(game.wettbewerb||game.wettbewerbAnzeige||game.matchdayType||"unbekannt").trim().toLowerCase();
+            }));
+            subline.hidden=count===0;
+            subline.textContent=count===0?"":`${count} ${count===1?"Begegnung":"Begegnungen"} ✦ ${competitions.size} ${competitions.size===1?"Wettbewerb":"Wettbewerbe"}`;
+          }
           elements.list.classList.add(visibleExact.length===1?"is-single":visibleExact.length===2?"is-double":"is-multiple");
           const groups=new Map();
           visibleExact.forEach(game=>{
@@ -7851,9 +8361,16 @@
             dayTitle.textContent=new Intl.DateTimeFormat(locale,{weekday:"long",day:"2-digit",month:"long"}).format(eventsForDay[0]._start);
             day.appendChild(dayTitle);
             eventsForDay.forEach(game=>{
-              const row=document.createElement(game.ereignisLink?"a":"div");
+              // Two independent actions. No nested anchors.
+              const row=document.createElement("div");
               row.className="sm-event-row"; row.dataset.competition=game.matchdayType||game.wettbewerb||"";
-              if(game.ereignisLink)row.href=game.ereignisLink;
+              if(game.ereignisLink){
+                const mainLink=document.createElement("a");
+                mainLink.className="sm-event-row__main-link";
+                mainLink.href=game.ereignisLink;
+                mainLink.setAttribute("aria-label",`Ereignis öffnen: ${game.heim||"Heimteam"} gegen ${game.auswaerts||"Auswärtsteam"}`);
+                row.appendChild(mainLink);
+              }
               const time=document.createElement("span"); time.className="sm-event-row__time"; time.textContent=game.anstoss;
               const competition=document.createElement("span"); competition.className="sm-event-row__competition";
               competition.textContent=String(game.matchdayType||"").trim().toLowerCase()==="smugglerauftrag"?(game.matchdayName||"Smugglerauftrag"):(game.wettbewerbAnzeige||game.wettbewerb||"Ereignis");
@@ -7875,9 +8392,24 @@
               renderTeamSeal(homeSeal,game.heimTeamId,game.heim);
               renderTeamSeal(awaySeal,game.auswaertsTeamId,game.auswaerts);
 
-              const rowStatus=document.createElement("span"); rowStatus.className="sm-event-row__status";
-              rowStatus.textContent=game.status||"TERMINIERT";
-              row.append(time,competition,match,rowStatus); day.appendChild(row);
+              const statusValue=String(game.status||"").trim();
+              const ordinaryStatus=!statusValue || /^(terminiert|geplant|angesetzt)$/i.test(statusValue);
+              const canAskCoco=Boolean(game.id && game.heimTeamId && game.auswaertsTeamId && ordinaryStatus);
+              let lastCell;
+              if(canAskCoco){
+                const coco=document.createElement("a");
+                coco.className="sm-event-row__coco";
+                coco.href=`./coco/?game=${encodeURIComponent(String(game.id))}`;
+                coco.textContent="Coco’s Tipp";
+                coco.setAttribute("aria-label",`Coco’s Tipp für ${game.heim} gegen ${game.auswaerts} öffnen`);
+                lastCell=coco;
+              }else{
+                const rowStatus=document.createElement("span");
+                rowStatus.className="sm-event-row__status";
+                rowStatus.textContent=statusValue || "Tipp nicht verfügbar";
+                lastCell=rowStatus;
+              }
+              row.append(time,competition,match,lastCell); day.appendChild(row);
             });
             elements.list.appendChild(day);
           });
@@ -7910,10 +8442,12 @@
         setWelcomeMission("Noch kein Termin");
         configureWelcomeKicktipp(null);
         console.error("Spieltagskachel:", error);
-        if (elements.label) elements.label.textContent = "Nächster Tippspieltag";
+        if (elements.label) elements.label.textContent = "Nächste Tippereignisse";
         if (elements.title) renderScheduleHeading(elements.title, "Daten konnten nicht geladen werden");
         if (elements.status) elements.status.textContent = "DATENFEHLER";
         setPlaceholder();
+        const failedSubline=document.getElementById("sm-schedule-subline");
+        if(failedSubline){ failedSubline.hidden=true; failedSubline.textContent=""; }
         elements.list?.replaceChildren();
         elements.list?.classList.add("is-empty");
       }
