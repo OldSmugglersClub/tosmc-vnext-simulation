@@ -6359,6 +6359,116 @@
     .smuggler-command-bottom .welcome-leader-line {column-gap:6px;}
   }
 
+
+/* vNext 4.11.1 – zentrierte Begegnung; Wappen symmetrisch, ohne Rahmenueberlauf. */
+.smuggler-command-bottom .welcome-leader-side {
+  border-left: 0 !important;
+  padding-left: 0 !important;
+}
+.smuggler-command-bottom .welcome-status-item--overall-leader > .welcome-leader-layout {
+  column-gap: clamp(14px, 2.3vw, 28px);
+}
+/* Diese weitere Spielzeile dupliziert die grosse Begegnung im Hauptquartier.
+   DOM und IDs fuer den bestehenden Datenrenderer bleiben erhalten. */
+#aktueller-spieltag > #sm-next-event { display: none !important; }
+.smuggler-event-area #countdown-note:has(.smuggler-match-row) {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: clamp(7px, 1vw, 12px);
+}
+.smuggler-event-area #countdown-note:has(.smuggler-match-row) > span:first-child {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 !important;
+}
+.smuggler-event-area #countdown-note .smuggler-match-row {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,4.2fr) minmax(0,1fr);
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  gap: clamp(5px, 1.2vw, 16px);
+}
+.smuggler-event-area #countdown-note .smuggler-match-seal {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: min(100%, 86px);
+  height: clamp(44px, 7.5vw, 86px);
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.smuggler-event-area #countdown-note .smuggler-match-seal > img,
+.smuggler-event-area #countdown-note .smuggler-match-seal > svg {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+.smuggler-event-area #countdown-note .smuggler-match-names {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto minmax(0,1fr);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  column-gap: clamp(4px, .9vw, 12px);
+}
+.smuggler-event-area #countdown-note .smuggler-match-name {
+  display: block;
+  flex: none;
+  min-width: 0;
+  width: auto;
+  max-width: 100%;
+  font-size: clamp(.85rem,1.45vw,1.18rem) !important;
+  line-height: 1.28;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: none;
+}
+.smuggler-event-area #countdown-note .smuggler-match-name:first-child { text-align:right; }
+.smuggler-event-area #countdown-note .smuggler-match-name:last-child { text-align:left; }
+.smuggler-event-area #countdown-note .smuggler-match-separator {
+  flex: none;
+  white-space: nowrap;
+  align-self: center;
+}
+@media(max-width:760px) {
+  .smuggler-event-area #countdown-note .smuggler-match-row {
+    grid-template-columns: minmax(0,1fr) minmax(0,4.9fr) minmax(0,1fr);
+    gap: clamp(3px,1.1vw,8px);
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-seal {
+    width: min(100%, 52px);
+    height: clamp(29px,8.7vw,52px);
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-name {
+    font-size: clamp(.70rem, 2.65vw, .94rem) !important;
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-names {
+    column-gap: clamp(3px, .9vw, 7px);
+  }
+}
+@media(max-width:360px) {
+  .smuggler-event-area #countdown-note .smuggler-match-row {
+    grid-template-columns: minmax(0,1fr) minmax(0,5.3fr) minmax(0,1fr);
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-name {
+    font-size: .69rem !important;
+  }
+  .smuggler-command-bottom .welcome-status-item--overall-leader > .welcome-leader-layout {
+    column-gap: 9px;
+  }
+}
+
 </style>
 </head>
 
