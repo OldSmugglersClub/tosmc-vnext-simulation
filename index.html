@@ -6469,6 +6469,129 @@
   }
 }
 
+
+/* vNext 4.11.2 – finale 3-Zonen-Saisonkachel und symmetrische Begegnung.
+   Nur Darstellung: alle DOM-IDs und Berechnungen bleiben erhalten. */
+.smuggler-command-bottom .welcome-status-item--season-progress {
+  display:flex; align-items:center; gap:clamp(9px,1.5vw,19px);
+  padding:clamp(10px,1.4vw,15px) clamp(12px,1.8vw,20px);
+}
+.smuggler-command-bottom .welcome-status-item--season-progress > svg {
+  width:clamp(32px,4vw,46px); height:clamp(32px,4vw,46px);
+  flex:0 0 auto;
+}
+.smuggler-command-bottom .welcome-season-progress-content {
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto !important;
+  grid-template-rows:auto auto !important;
+  align-items:center !important;
+  column-gap:clamp(9px,1.6vw,22px) !important;
+  row-gap:2px !important;
+  min-width:0; flex:1 1 auto; width:100%;
+}
+.smuggler-command-bottom .welcome-season-progress-content > small:first-child {
+  grid-column:1; grid-row:1; align-self:end;
+}
+.smuggler-command-bottom .welcome-season-progress-content > #welcome-season {
+  grid-column:1; grid-row:2; align-self:start;
+}
+.smuggler-command-bottom .season-progress-block,
+.smuggler-command-bottom .season-progress-summary {
+  display:contents !important;
+}
+.smuggler-command-bottom .season-progress-caption {
+  grid-column:2; grid-row:1 / 3;
+  display:flex; flex-direction:column; justify-content:center;
+  min-width:0; gap:5px; text-align:left;
+}
+.smuggler-command-bottom .season-progress-caption > small {
+  order:-1; font-size:clamp(.68rem,1.12vw,.9rem) !important;
+  color:#dec08b !important; white-space:nowrap;
+}
+.smuggler-command-bottom .season-progress-caption > strong {
+  font-size:clamp(1rem,1.7vw,1.45rem) !important;
+  line-height:1.15; white-space:nowrap;
+}
+.smuggler-command-bottom #season-progress-percent {
+  grid-column:3; grid-row:1 / 3;
+  justify-self:center; align-self:center;
+  display:inline-flex; align-items:center; justify-content:center;
+  min-width:clamp(58px,6vw,82px);
+  box-sizing:border-box;
+  padding:7px 13px; border-radius:999px;
+  border:1px solid rgba(197,145,59,.65);
+  background:rgba(41,22,9,.7); color:#ffdf9a;
+  font-size:clamp(.9rem,1.45vw,1.22rem) !important;
+  font-weight:800; white-space:nowrap;
+}
+/* Der bisherige Balken bleibt fuer die Screenreader-Progressbar im DOM,
+   ist aber optisch ausgeblendet: Referenzbild zeigt drei Spalten ohne Balken. */
+.smuggler-command-bottom #season-progress-track {
+  position:absolute !important; width:1px !important; height:1px !important;
+  overflow:hidden !important; clip-path:inset(50%) !important;
+  white-space:nowrap !important; border:0 !important; padding:0 !important;
+}
+/* Exakte Mittelachse: Datum und gesamte Namensgruppe teilen die gleiche Mitte.
+   Die beiden Wappenzonen sind identisch breit und mittig ausgerichtet. */
+.smuggler-event-area #countdown-note:has(.smuggler-match-row) {
+  align-items:stretch; width:100%;
+}
+.smuggler-event-area #countdown-note .smuggler-match-row {
+  grid-template-columns:minmax(0,1fr) minmax(0,4.3fr) minmax(0,1fr) !important;
+  align-items:center; justify-items:stretch;
+  gap:clamp(8px,1.4vw,19px);
+  width:100%; min-width:0;
+}
+.smuggler-event-area #countdown-note .smuggler-match-seal {
+  justify-self:center !important; align-self:center;
+  width:min(100%,88px); height:clamp(44px,7vw,88px);
+  min-width:0; overflow:hidden;
+}
+.smuggler-event-area #countdown-note .smuggler-match-names {
+  display:flex !important; flex-wrap:wrap;
+  align-items:center; justify-content:center !important;
+  gap:0 clamp(5px,.9vw,12px);
+  width:100%; min-width:0; margin:0 auto;
+  text-align:center;
+}
+.smuggler-event-area #countdown-note .smuggler-match-name {
+  display:block; flex:0 1 auto !important;
+  max-width:calc(50% - 12px); width:auto;
+  min-width:0; text-align:center !important;
+  overflow-wrap:anywhere; word-break:normal; hyphens:none;
+  font-size:clamp(.81rem,1.47vw,1.16rem) !important;
+  line-height:1.26;
+}
+.smuggler-event-area #countdown-note .smuggler-match-separator {
+  flex:0 0 auto; align-self:center;
+}
+@media(max-width:760px) {
+  .smuggler-event-area #countdown-note .smuggler-match-row {
+    grid-template-columns:minmax(0,1fr) minmax(0,4.8fr) minmax(0,1fr) !important;
+    gap:clamp(3px,1vw,8px) !important;
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-seal {
+    width:min(100%,54px); height:clamp(30px,8.5vw,54px);
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-names {gap:0 4px;}
+  .smuggler-event-area #countdown-note .smuggler-match-name {
+    font-size:clamp(.68rem,2.5vw,.89rem) !important;
+    max-width:calc(50% - 9px);
+  }
+  .smuggler-command-bottom .welcome-status-item--season-progress {gap:8px;padding:11px 9px;}
+  .smuggler-command-bottom .welcome-season-progress-content {column-gap:7px !important;}
+  .smuggler-command-bottom .season-progress-caption > small {font-size:.66rem !important;}
+  .smuggler-command-bottom .season-progress-caption > strong {font-size:.97rem !important;}
+  .smuggler-command-bottom #season-progress-percent {min-width:55px;padding:6px 9px;font-size:.84rem !important;}
+}
+@media(max-width:360px) {
+  .smuggler-command-bottom .welcome-status-item--season-progress > svg {width:27px;height:27px;}
+  .smuggler-command-bottom .welcome-season-progress-content {column-gap:5px !important;}
+  .smuggler-command-bottom .season-progress-caption > small {font-size:.6rem !important;}
+  .smuggler-command-bottom .season-progress-caption > strong {font-size:.87rem !important;}
+  .smuggler-command-bottom #season-progress-percent {min-width:47px;padding:5px 7px;font-size:.76rem !important;}
+}
+
 </style>
 </head>
 
