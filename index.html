@@ -6246,6 +6246,119 @@
     .smuggler-event-area .flip-label {font-size:clamp(.43rem,2.05vw,.61rem) !important;}
     .smuggler-event-area .pirate-event-scroll {min-height:90px;}
   }
+
+  /* TOSMC-VNEXT 4.11.0 – LIVE 4.9.3 functions, isolated to simulation. */
+  .smuggler-command-bottom .welcome-status {
+    display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    align-items:stretch;gap:clamp(9px,1.2vw,16px);
+  }
+  .smuggler-command-bottom .welcome-status-item--mission {display:none !important;}
+  .smuggler-command-bottom .welcome-status-item {min-width:0;min-height:85px;box-sizing:border-box;}
+  .smuggler-command-bottom .welcome-status-item--season-progress > svg {flex:0 0 auto;}
+  .smuggler-command-bottom .welcome-season-progress-content {
+    display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.28fr);
+    grid-template-rows:auto auto;column-gap:clamp(6px,1vw,13px);row-gap:4px;
+    flex:1 1 auto;align-items:center;min-width:0;width:100%;
+  }
+  .smuggler-command-bottom .welcome-season-progress-content > small:first-child {grid-column:1;grid-row:1;align-self:end;}
+  .smuggler-command-bottom .welcome-season-progress-content > #welcome-season {grid-column:1;grid-row:2;align-self:start;}
+  .smuggler-command-bottom .season-progress-block {
+    grid-column:2;grid-row:1 / 3;display:flex;flex-direction:column;
+    justify-content:center;gap:7px;min-width:0;
+  }
+  .smuggler-command-bottom .season-progress-summary {display:flex;align-items:center;justify-content:space-between;gap:5px;min-width:0;}
+  .smuggler-command-bottom .season-progress-caption {display:flex;flex-direction:column;gap:2px;min-width:0;line-height:1.1;}
+  .smuggler-command-bottom .season-progress-caption > strong {font-size:clamp(.87rem,1.65vw,1.32rem) !important;white-space:nowrap;}
+  .smuggler-command-bottom .season-progress-caption > small {font-size:clamp(.61rem,.82vw,.72rem) !important;white-space:nowrap;}
+  .smuggler-command-bottom .season-progress-percent {
+    display:inline-block;flex:0 0 auto;padding:4px 6px;border:1px solid #b58a48;
+    border-radius:6px;background:#3c220f;color:#ffe0a0;font-size:clamp(.66rem,1vw,.84rem);
+    font-weight:800;white-space:nowrap;
+  }
+  .smuggler-command-bottom .season-progress-track {
+    position:relative;display:block;height:7px;border-radius:999px;overflow:hidden;
+    border:1px solid rgba(191,132,61,.65);background:rgba(0,0,0,.55);
+  }
+  .smuggler-command-bottom .season-progress-fill {
+    display:block;height:100%;width:0%;border-radius:inherit;
+    background:linear-gradient(90deg,#aa652a,#ffd17a);transition:width .35s ease;
+  }
+  .smuggler-command-bottom .welcome-status-item--overall-leader > .welcome-leader-layout {
+    display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr);
+    gap:clamp(9px,1.1vw,17px);align-items:center;min-width:0;flex:1 1 auto;width:100%;
+  }
+  .smuggler-command-bottom .welcome-leader-main,.smuggler-command-bottom .welcome-leader-side {
+    display:flex;flex-direction:column;justify-content:center;gap:5px;min-width:0;
+  }
+  .smuggler-command-bottom .welcome-leader-side {padding-left:clamp(8px,1vw,15px);border-left:1px solid rgba(207,151,54,.35);}
+  .smuggler-command-bottom .welcome-leader-line {display:flex;flex-wrap:wrap;align-items:baseline;column-gap:12px;row-gap:3px;min-width:0;}
+  .smuggler-command-bottom .welcome-leader-line #welcome-champion {min-width:0;max-width:100%;overflow-wrap:anywhere;}
+  .smuggler-command-bottom .welcome-leader-line #welcome-leader-points {white-space:nowrap;min-width:0;font-size:clamp(.75rem,1.1vw,.94rem) !important;}
+  .smuggler-command-bottom .welcome-leader-side #welcome-leader-margin {overflow-wrap:anywhere;font-size:clamp(.84rem,1.3vw,1.13rem) !important;}
+  /* Countdown result: original club badges and names aligned symmetrically. */
+  .smuggler-event-area #countdown-note:has(.smuggler-match-row) {
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-row {
+    display:grid;grid-template-columns:clamp(36px,5vw,58px) minmax(0,1fr) clamp(36px,5vw,58px);
+    gap:clamp(5px,1.1vw,12px);align-items:center;width:100%;min-width:0;
+  }
+  .smuggler-event-area #countdown-note .smuggler-match-seal {display:block;width:100%;height:clamp(36px,5vw,58px);min-width:0;}
+  .smuggler-event-area #countdown-note .smuggler-match-names {display:flex;align-items:center;justify-content:center;gap:clamp(3px,.8vw,10px);min-width:0;width:100%;}
+  .smuggler-event-area #countdown-note .smuggler-match-name {display:block;flex:1 1 0;min-width:0;max-width:100%;font-size:clamp(.78rem,1.5vw,1.13rem) !important;line-height:1.25;overflow-wrap:anywhere;}
+  .smuggler-event-area #countdown-note .smuggler-match-name:first-child {text-align:right;}
+  .smuggler-event-area #countdown-note .smuggler-match-name:last-child {text-align:left;}
+  .smuggler-event-area #countdown-note .smuggler-match-separator {display:block;flex:0 0 auto;white-space:nowrap;}
+  /* Mobile event heading: two clear header fields, title below, no broken words. */
+  @media(max-width:850px) {
+    .smuggler-command-bottom .welcome-status {grid-template-columns:1fr !important;}
+  }
+  @media(max-width:760px) {
+    #aktueller-spieltag .sm-schedule__header {
+      display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;
+      align-items:start;column-gap:clamp(10px,3vw,18px);row-gap:clamp(14px,4vw,24px);
+      padding:clamp(10px,3vw,16px) clamp(9px,2.6vw,16px) clamp(16px,4vw,23px);
+    }
+    #aktueller-spieltag .sm-schedule__heading {display:contents;}
+    #aktueller-spieltag .sm-schedule__heading .eyebrow {
+      grid-column:1;grid-row:1;display:flex;align-items:center;justify-content:center;
+      min-height:45px;min-width:0;width:100%;box-sizing:border-box;padding:8px 10px;
+      font-size:clamp(.61rem,2.25vw,.73rem);text-align:center;
+    }
+    #aktueller-spieltag .sm-schedule__header .matchday-status {
+      grid-column:2;grid-row:1;box-sizing:border-box;align-self:stretch;
+      display:flex;align-items:center;justify-content:center;min-height:45px;min-width:90px;
+      padding:8px 15px;font-size:clamp(.61rem,2.25vw,.73rem);white-space:nowrap;
+    }
+    #aktueller-spieltag .sm-schedule__header .matchday-status::before,
+    #aktueller-spieltag .sm-schedule__header .matchday-status::after {pointer-events:none;}
+    #aktueller-spieltag .sm-schedule__heading h2 {
+      grid-column:1/-1;grid-row:2;display:block;width:100%;min-width:0;margin:0;
+      font-size:clamp(1.15rem,6vw,1.65rem);line-height:1.24;text-align:center;
+      white-space:normal;overflow-wrap:normal;word-break:normal;hyphens:none;
+    }
+    #aktueller-spieltag .sm-schedule-title-line {display:block;white-space:normal;overflow-wrap:anywhere;}
+    #aktueller-spieltag .sm-schedule-title-line + .sm-schedule-title-line {margin-top:3px;}
+    .smuggler-event-area #countdown-note .smuggler-match-row {grid-template-columns:clamp(29px,8vw,42px) minmax(0,1fr) clamp(29px,8vw,42px);gap:4px;}
+    .smuggler-event-area #countdown-note .smuggler-match-seal {height:clamp(29px,8vw,42px);}
+    .smuggler-event-area #countdown-note .smuggler-match-name {font-size:clamp(.7rem,2.45vw,.86rem) !important;}
+  }
+  @media(max-width:430px) {
+    .smuggler-command-bottom .welcome-season-progress-content {grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);column-gap:6px;}
+    .smuggler-command-bottom .season-progress-caption > strong {font-size:.84rem !important;}
+    .smuggler-command-bottom .season-progress-caption > small {font-size:.61rem !important;}
+    .smuggler-command-bottom .season-progress-percent {font-size:.65rem;padding:3px 4px;}
+    .smuggler-command-bottom .welcome-status-item--overall-leader > .welcome-leader-layout {grid-template-columns:minmax(0,1fr) minmax(0,.75fr);gap:7px;}
+    .smuggler-command-bottom .welcome-leader-side {padding-left:7px;}
+    #aktueller-spieltag .sm-schedule__header .matchday-status {padding-inline:13px;}
+  }
+  @media(max-width:360px) {
+    .smuggler-command-bottom .welcome-status-item--season-progress {gap:5px;padding:8px 6px;}
+    .smuggler-command-bottom .welcome-season-progress-content {grid-template-columns:minmax(0,1fr) minmax(0,1fr);}
+    .smuggler-command-bottom .season-progress-caption > small {font-size:.56rem !important;}
+    .smuggler-command-bottom .welcome-leader-line {column-gap:6px;}
+  }
+
 </style>
 </head>
 
@@ -6462,9 +6575,9 @@
         </div></div>
           </div>
           <div class="smuggler-command-bottom"><div aria-label="Aktueller Saisonstatus" class="welcome-status">
-<div class="welcome-status-item">
+<div class="welcome-status-item welcome-status-item--season-progress">
 <svg aria-hidden="true"><use href="#icon-map"></use></svg>
-<span><small>Aktuelle Saison</small><strong id="welcome-season">Noch offen</strong></span>
+<span class="welcome-season-progress-content"><small>Aktuelle Saison</small><strong id="welcome-season">Noch offen</strong><span class="season-progress-block" role="group" aria-label="Abgeschlossene Tippspieltage der Saison"><span class="season-progress-summary"><span class="season-progress-caption" id="season-progress-caption"><strong id="season-progress-count">– / –</strong><small>Tippspieltage</small></span><span id="season-progress-percent" class="season-progress-percent" aria-label="Saisonfortschritt in Prozent">–</span></span><span id="season-progress-track" class="season-progress-track" role="progressbar" aria-label="Saisonfortschritt" aria-valuemin="0" aria-valuemax="100"><span id="season-progress-fill" class="season-progress-fill"></span></span></span></span>
 </div>
 <div class="welcome-status-item welcome-status-item--mission">
 <svg aria-hidden="true"><use href="#icon-anchor"></use></svg>
@@ -6472,7 +6585,7 @@
 </div>
 <div class="welcome-status-item welcome-status-item--overall-leader">
 <svg aria-hidden="true"><use href="#icon-trophy"></use></svg>
-<span><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><strong id="welcome-champion">Wird geladen</strong><small class="welcome-leader-points" id="welcome-leader-points"></small></span>
+<span class="welcome-leader-layout"><span class="welcome-leader-main"><small id="welcome-leader-label">Platz 1 Gesamteinzelwertung</small><span class="welcome-leader-line"><strong id="welcome-champion">Wird geladen</strong><small class="welcome-leader-points" id="welcome-leader-points"></small></span></span><span class="welcome-leader-side"><small id="welcome-leader-margin-label">Vorsprung auf Platz 2</small><strong id="welcome-leader-margin">–</strong></span></span>
 </div>
 </div>
             <div class="welcome-command-actions">
@@ -6933,6 +7046,94 @@
       return new Date(countdownRuntime.baseNow + (Date.now() - countdownRuntime.startedAt));
     }
 
+    function renderScheduleHeading(titleElement, sourceTitle) {
+      if (!titleElement) return;
+      const full = String(sourceTitle || "").trim().replace(/\s+/g, " ");
+      const headingText = full.replace(/\u00a0/g, " ");
+      titleElement.dataset.fullTitle = full;
+      titleElement.setAttribute("aria-label", full);
+
+      const draw = () => {
+        // Desktop: original data and native typography, without mobile spans or font overrides.
+        titleElement.style.removeProperty("font-size");
+        if (!window.matchMedia("(max-width: 760px)").matches) {
+          titleElement.textContent = full;
+          return;
+        }
+        const css = getComputedStyle(titleElement);
+        const available = titleElement.clientWidth;
+        if (!available) {
+          titleElement.textContent = full;
+          return;
+        }
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+        if (!ctx) {
+          titleElement.textContent = full;
+          return;
+        }
+        const family = css.fontFamily;
+        const weight = css.fontWeight;
+        const desired = parseFloat(css.fontSize);
+        const preferred = Number.isFinite(desired) ? desired : 22;
+        const minimum = 16; // unter 16px nicht zur Einzeiligkeit zwingen
+        const oneLineMinimum = Math.max(18, preferred * .85);
+        const measure = (str, size) => {
+          ctx.font = `${weight} ${size}px ${family}`;
+          return ctx.measureText(str).width;
+        };
+        const fit = (lines, startSize, minSize) => {
+          for (let size = startSize; size >= minSize; size -= .5) {
+            if (lines.every(line => measure(line, size) <= available - 2)) return size;
+          }
+          return null;
+        };
+
+        // Eine Zeile bevorzugen, sofern sie mindestens 16px gross sein kann.
+        let lines = [headingText];
+        let size = fit(lines, preferred, oneLineMinimum);
+        if (size === null) {
+          const words = headingText.split(" ");
+          const variants = [];
+          for (let i = 1; i < words.length; i++) {
+            const first = words.slice(0, i).join(" ");
+            const second = words.slice(i).join(" ");
+            // Sinnvolle Grenze vor Spieltag/Runde/Finale bevorzugen.
+            const semantic = /^(?:\d{1,2}\.\s*(?:Spieltag|Runde)|Achtelfinale|Viertelfinale|Halbfinale|Finale)/i.test(second);
+            variants.push({ lines: [first, second], score: Math.max(measure(first,preferred),measure(second,preferred)) - (semantic ? 30 : 0) });
+          }
+          variants.sort((a,b) => a.score - b.score);
+          for (const option of variants) {
+            const candidate = fit(option.lines, preferred, minimum);
+            if (candidate !== null) {
+              lines = option.lines;
+              size = candidate;
+              break;
+            }
+          }
+          if (size === null && variants.length) {
+            lines = variants[0].lines;
+            size = minimum;
+          }
+        }
+        titleElement.replaceChildren();
+        lines.forEach(line => {
+          const span = document.createElement("span");
+          span.className = "sm-schedule-title-line";
+          span.textContent = line.replace(/(\d{1,2}\.)\s+(Spieltag|Runde)/gi, "$1\u00a0$2");
+          titleElement.appendChild(span);
+        });
+        titleElement.style.fontSize = `${size || minimum}px`;
+      };
+      draw();
+      if (!titleElement.dataset.headingResizeBound) {
+        titleElement.dataset.headingResizeBound = "1";
+        window.addEventListener("resize", () => {
+          if (titleElement.dataset.fullTitle) renderScheduleHeading(titleElement, titleElement.dataset.fullTitle);
+        }, { passive: true });
+      }
+    }
+
     function formatEventMatchdayLabel(event, fallback = "Nächstes Event") {
       const name = String(event?.matchdayName || "").trim().replace(/(\d+\.)\s+(Spieltag)/gi, "$1\u00a0$2");
       const type = String(event?.matchdayType || "").trim().toLowerCase();
@@ -6964,7 +7165,7 @@
       // Tageswechsel/Tab-Aktivierung: Highscore neu lesen statt den alten
       // Highscore-Adapter-Cache aus der ersten Seitenladung zu verwenden.
       window.OSCHighscoreDataAdapter?.clear();
-      Promise.all([loadMatchdayData(), loadWelcomeOverallLeader()]).finally(() => {
+      Promise.all([loadMatchdayData(), loadWelcomeOverallLeader(), loadSeasonProgress()]).finally(() => {
         matchdayRefreshPending = false;
         if (matchdayRefreshQueued) {
           matchdayRefreshQueued = false;
@@ -6990,22 +7191,62 @@
       requestMatchdayRefresh();
     }
 
-    function setCountdownInfo(plaqueText, headline, lines = []) {
+    let countdownInfoRenderedKey = null;
+    function setCountdownInfo(plaqueText, headline, lines = [], event = null) {
+      const nextKey = JSON.stringify([plaqueText, headline, lines, event?.id, event?.heimTeamId, event?.auswaertsTeamId]);
+      if (countdownInfoRenderedKey === nextKey) return;
+      countdownInfoRenderedKey = nextKey;
       const plaque = document.getElementById("countdown-plaque");
       const note = document.getElementById("countdown-note");
       if (plaque) plaque.textContent = plaqueText;
       const mission = document.getElementById("countdown-mission");
       if (mission) mission.textContent = headline;
-      if (note) {
-        note.replaceChildren();
-        lines.filter(Boolean).forEach(line => {
+      if (!note) return;
+      note.replaceChildren();
+      if (lines[0]) {
+        const dateLine = document.createElement("span");
+        dateLine.textContent = lines[0];
+        note.appendChild(dateLine);
+      }
+      if (event) {
+        const match = document.createElement("div");
+        match.className = "smuggler-match-row";
+        const makeTeam = (id, name, side) => {
+          const wrapper = document.createElement("div");
+          wrapper.className = `smuggler-match-team smuggler-match-team--${side}`;
+          const label = document.createElement("span");
+          label.className = "smuggler-match-name";
+          label.textContent = name || "Team offen";
+          const badge = document.createElement("span");
+          badge.className = "smuggler-match-seal";
+          badge.setAttribute("aria-hidden", "true");
+          if (side === "home") wrapper.append(badge, label);
+          else wrapper.append(label, badge);
+          if (window.OSCTeamBadge) window.OSCTeamBadge.render(badge, id, name);
+          else badge.hidden = true;
+          return wrapper;
+        };
+        const dash = document.createElement("span");
+        dash.className = "smuggler-match-separator";
+        dash.textContent = event.trenner || "–";
+        const homeTeam = makeTeam(event.heimTeamId, event.heim, "home");
+        const awayTeam = makeTeam(event.auswaertsTeamId, event.auswaerts, "away");
+        const homeBadge = homeTeam.querySelector(".smuggler-match-seal");
+        const awayBadge = awayTeam.querySelector(".smuggler-match-seal");
+        const names = document.createElement("div");
+        names.className = "smuggler-match-names";
+        names.append(homeTeam.querySelector(".smuggler-match-name"), dash,
+          awayTeam.querySelector(".smuggler-match-name"));
+        match.append(homeBadge, names, awayBadge);
+        note.appendChild(match);
+      } else {
+        lines.slice(1).filter(Boolean).forEach(line => {
           const span = document.createElement("span");
           span.textContent = line;
           note.appendChild(span);
         });
       }
     }
-
 
     function updateCountdown() {
       if (!countdownRuntime || !countdownRuntime.events.length) {
@@ -7036,7 +7277,7 @@
       setCountdownInfo("NÄCHSTES EVENT", formatEventMatchdayLabel(next, "Nächstes Tippspiel"), [
         dateLabel,
         `${next.heim} ${next.trenner || "–"} ${next.auswaerts}`
-      ]);
+      ], next);
     }
 
     updateCountdown();
@@ -7340,12 +7581,12 @@
         const focus = state.focus;
         if (!focus) {
           if (elements.label) elements.label.textContent = "Nächste Tippereignisse";
-          if (elements.title) elements.title.textContent = "Noch kein bestätigter Termin";
+          if (elements.title) renderScheduleHeading(elements.title, "Noch kein bestätigter Termin");
           if (elements.status) elements.status.textContent = "KEINE EXAKTEN TERMINE";
           setPlaceholder(data);
         } else {
           if (elements.label) elements.label.textContent = "Nächstes Tippereignis";
-          if (elements.title) elements.title.textContent = formatMatchdayTitle(focus);
+          if (elements.title) renderScheduleHeading(elements.title, formatMatchdayTitle(focus));
           if (elements.status) elements.status.textContent = `${upcoming.length} EVENT${upcoming.length===1?"":"S"}`;
 
           elements.next?.classList.remove("is-placeholder");
@@ -7437,7 +7678,7 @@
         configureWelcomeKicktipp(null);
         console.error("Spieltagskachel:", error);
         if (elements.label) elements.label.textContent = "Nächster Tippspieltag";
-        if (elements.title) elements.title.textContent = "Daten konnten nicht geladen werden";
+        if (elements.title) renderScheduleHeading(elements.title, "Daten konnten nicht geladen werden");
         if (elements.status) elements.status.textContent = "DATENFEHLER";
         setPlaceholder();
         elements.list?.replaceChildren();
@@ -7445,38 +7686,115 @@
       }
     }
 
-    // Nur die Hauptquartier-Kachel: aktuelle Gesamteinzelwertung statt Hall-of-Fame-Champion.
-    // Die Hall of Fame und alle Wertungsdaten bleiben unveraendert.
+    // vNext 4.11.0: belegter Saisonfortschritt und aktueller Rang 1 mit Vorsprung.
+    // Nur tatsaechlich abgeschlossene Tippspieltage zaehlen, nicht abgelaufene Kalendertermine.
+    let seasonProgressInFlight = null;
+    async function loadSeasonProgress() {
+      if (seasonProgressInFlight) return seasonProgressInFlight;
+      const label = document.getElementById("season-progress-caption");
+      const countLabel = document.getElementById("season-progress-count");
+      const percentLabel = document.getElementById("season-progress-percent");
+      const track = document.getElementById("season-progress-track");
+      const fill = document.getElementById("season-progress-fill");
+      if (!label || !countLabel || !percentLabel || !track || !fill) return;
+      seasonProgressInFlight = (async () => {
+        try {
+          const read = async path => {
+            const response = await fetch(path, {cache:"no-store"});
+            if (!response.ok) throw new Error(path + " HTTP " + response.status);
+            return response.json();
+          };
+          const [daysDocument, logbookDocument] = await Promise.all([
+            read("./tippspieltage.json"), read("./spieltag-logbuch.json")
+          ]);
+          const seasonId = String(daysDocument?.aktiveSaison || "");
+          const season = daysDocument?.saisons?.find(item => String(item?.id) === seasonId);
+          const days = season?.tippspieltage;
+          if (!seasonId || !Array.isArray(days) || !Array.isArray(logbookDocument?.logbuecher) ||
+              String(logbookDocument.saison) !== seasonId) throw new Error("Saisondaten unvollstaendig");
+          const total = days.filter(day => day?.aktiv !== false).length;
+          const completedIds = new Set(logbookDocument.logbuecher
+            .filter(item => item?.abgeschlossen === true &&
+              typeof item.id === "string" && item.id.startsWith(seasonId + "__"))
+            .map(item => item.id));
+          const completed = completedIds.size;
+          if (total < 1 || completed > total) throw new Error("Abschlusszaehlung widerspricht Saisonplanung");
+          const percent = Math.round(completed / total * 100);
+          countLabel.textContent = `${completed} / ${total}`;
+          percentLabel.textContent = `${percent} %`;
+          track.setAttribute("aria-valuenow", String(percent));
+          track.setAttribute("aria-valuetext", `${completed} von ${total} Tippspieltagen abgeschlossen`);
+          fill.style.width = `${percent}%`;
+        } catch (error) {
+          countLabel.textContent = "– / –";
+          percentLabel.textContent = "–";
+          label.title = "Saisonfortschritt derzeit nicht verfügbar";
+          track.removeAttribute("aria-valuenow");
+          track.removeAttribute("aria-valuetext");
+          fill.style.width = "0%";
+          console.warn("Saisonfortschritt:", error);
+        }
+      })();
+      try { await seasonProgressInFlight; }
+      finally { seasonProgressInFlight = null; }
+    }
+
     async function loadWelcomeOverallLeader() {
+      const label = document.getElementById("welcome-champion");
+      const pointsLabel = document.getElementById("welcome-leader-points");
+      const marginLabel = document.getElementById("welcome-leader-margin-label");
+      const marginValue = document.getElementById("welcome-leader-margin");
+      if (!label || !pointsLabel || !marginLabel || !marginValue) return;
       try {
-        const highscore = await window.OSCHighscoreDataAdapter.loadHighscore();
-        const entries = highscore.overall?.individual;
-        if (!Array.isArray(entries) || !entries.length) throw new Error("Gesamteinzelwertung leer");
-
-        // Bei gleichen ersten Raengen alle Fuehrenden anzeigen; bei alten
-        // Ranglisten ohne Rangangabe den hoechsten Punktwert verwenden.
-        const ranked = entries.filter(entry => Number(entry?.rank) === 1);
-        const maxPoints = Math.max(...entries.map(entry => Number(entry?.totalPoints)).filter(Number.isFinite));
-        const leaders = ranked.length ? ranked : entries.filter(entry => Number(entry?.totalPoints) === maxPoints);
-        const names = [...new Set(leaders.map(entry => String(entry?.name || "").trim()).filter(Boolean))];
-        if (!names.length) throw new Error("Kein gueltiger Fuehrender vorhanden");
-
-        setText("welcome-champion", names.join(" · "));
-        setText("welcome-leader-label", "Platz 1 Gesamteinzelwertung");
-        const leaderPoints = leaders.map(entry => Number(entry?.totalPoints));
-        const validPoints = leaderPoints.filter(Number.isFinite);
-        const pointText = validPoints.length === leaders.length && validPoints.every(points => points === validPoints[0])
-          ? `${new Intl.NumberFormat("de-DE").format(validPoints[0])} Punkte`
-          : leaders.map(entry => {
-              const points = Number(entry?.totalPoints);
-              return `${String(entry?.name || "").trim()}: ${Number.isFinite(points) ? new Intl.NumberFormat("de-DE").format(points) + " Punkte" : "Punktestand nicht verfügbar"}`;
-            }).join(" · ");
-        setText("welcome-leader-points", pointText);
+        const data = await window.OSCHighscoreDataAdapter.loadHighscore();
+        const individuals = data?.overall?.individual;
+        if (!Array.isArray(individuals) || !individuals.length) {
+          label.textContent = "Noch offen";
+          pointsLabel.textContent = "Noch keine Gesamtwertung";
+          marginLabel.textContent = "Vorsprung auf Platz 2";
+          marginValue.textContent = "–";
+          return;
+        }
+        const entries = individuals.filter(entry =>
+          typeof entry?.name === "string" && entry.name.trim() &&
+          entry?.totalPoints !== null && entry?.totalPoints !== undefined && entry?.totalPoints !== "" &&
+          Number.isFinite(Number(entry.totalPoints))
+        );
+        const leaders = entries.filter(entry => Number(entry?.rank) === 1);
+        label.textContent = leaders.length
+          ? leaders.map(entry => entry.name.trim()).join(" · ")
+          : "Noch offen";
+        const points = leaders.length ? leaders[0].totalPoints : null;
+        const validPoints = points !== null && points !== undefined &&
+          points !== "" && Number.isFinite(Number(points));
+        pointsLabel.textContent = validPoints
+          ? `${Number(points).toLocaleString("de-DE")} Punkte`
+          : "Punktestand nicht verfügbar";
+        const leaderPoints = validPoints ? Number(points) : null;
+        const secondPlace = entries.find(entry => Number(entry?.rank) === 2);
+        if (leaders.length > 1) {
+          marginLabel.textContent = "Führungsstatus";
+          marginValue.textContent = "Punktgleich";
+        } else if (leaderPoints !== null && secondPlace && Number.isFinite(Number(secondPlace.totalPoints))) {
+          const gap = leaderPoints - Number(secondPlace.totalPoints);
+          if (gap > 0) {
+            marginLabel.textContent = "Vorsprung auf Platz 2";
+            marginValue.textContent = `+${gap.toLocaleString("de-DE")} ${gap === 1 ? "Punkt" : "Punkte"}`;
+          } else {
+            marginLabel.textContent = "Führungsstatus";
+            marginValue.textContent = "Punktgleich";
+          }
+        } else {
+          marginLabel.textContent = "Vorsprung auf Platz 2";
+          marginValue.textContent = "–";
+        }
+        label.title = leaders.length ? "Platz 1 Gesamteinzelwertung" : "Keine bestätigte Führung verfügbar";
       } catch (error) {
-        setText("welcome-champion", "Nicht verfügbar");
-        setText("welcome-leader-label", "Platz 1 Gesamteinzelwertung");
-        setText("welcome-leader-points", "");
-        console.warn("Gesamteinzelwertung für Hauptquartier nicht verfügbar.", error);
+        label.textContent = "Nicht verfügbar";
+        pointsLabel.textContent = "Punktestand nicht verfügbar";
+        marginLabel.textContent = "Vorsprung auf Platz 2";
+        marginValue.textContent = "–";
+        console.warn("Führende Gesamteinzelwertung konnte nicht geladen werden:", error);
       }
     }
 
@@ -7620,6 +7938,7 @@
     loadSiteData();
     loadClubData();
     loadWelcomeOverallLeader();
+    loadSeasonProgress();
     loadMatchdayData();
 
     document.getElementById("year").textContent = new Date().getFullYear();
