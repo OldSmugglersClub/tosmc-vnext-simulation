@@ -5,14 +5,28 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const script = fs.readFileSync(path.join(root, "wettbewerb.js"), "utf8");
 
-const requiredSnippets = [
+// TEST2v2 4.9.26: CL-Spielplan seit 4.9.25 aus zentralen TOSMC-Spielen.
+// Sicherung gegen doppelte Renderpfade und API-Fallback beibehalten.
+const phaseOverview = script.match(/function renderChampionsLeaguePhaseOverview\([\s\S]*?(?=\n  function openLigaDbSafeIconUrl\()/)?.[0];
+if (!phaseOverview) throw new Error("CL-Doppellisten-Schutz: renderChampionsLeaguePhaseOverview fehlt");
+const requiredPhaseSnippets = [
   'if (slug !== "champions-league") return false;',
-  'if (!matches.length) return false;',
-  'root.appendChild(schedule);\n    return true;',
+  'centralGamesForCompetition(centralGameData, "champions-league")',
+  'if (!centralMatches.length) return false;',
+  'root.appendChild(section);',
+  'return true;'
+];
+for (const snippet of requiredPhaseSnippets) {
+  if (!phaseOverview.includes(snippet)) throw new Error(`CL-Doppellisten-Schutz fehlt: ${snippet}`);
+}
+if ((phaseOverview.match(/root\.appendChild\(section\)/g) || []).length !== 1) {
+  throw new Error("CL-Doppellisten-Schutz: die CL-Spielplan-Sektion muss genau einmal eingefuegt werden");
+}
+const requiredIntegrationSnippets = [
+  'if (!rendered) renderPlaceholderSection(',
   'if (championsLeaguePhaseOverviewRendered && section.typ === "spiele" && section.zentral === true) return;'
 ];
-
-for (const snippet of requiredSnippets) {
+for (const snippet of requiredIntegrationSnippets) {
   if (!script.includes(snippet)) throw new Error(`CL-Doppellisten-Schutz fehlt: ${snippet}`);
 }
 
@@ -42,4 +56,4 @@ for (const page of pages) {
   }
 }
 
-console.log(`CL-Doppellisten-Prüfung bestanden: obere Ligaphasenansicht ersetzt die zentrale Doppelliste; Fallback bleibt erhalten; gemeinsame Skriptkennung konsistent (${sharedScriptTag}).`);
+console.log(`CL-Doppellisten-Prüfung bestanden: zentraler CL-Spielplan wird genau einmal angezeigt; bei fehlenden zentralen Spielen bleibt der Platzhalter erhalten; gemeinsame Skriptkennung konsistent (${sharedScriptTag}).`);

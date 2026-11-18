@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const script = fs.readFileSync(new URL('../../wettbewerb.js', import.meta.url), 'utf8');
+const suffix = '  load();\n})();';
+assert(script.includes(suffix), 'Bekannter Skriptabschluss erforderlich');
+const ctx = { location: { pathname: '/europa-league.html' }, window: {}, document: {}, console, URL, Map, Set, Object, String, Array, Number };
+vm.runInNewContext(script.replace(suffix, '  globalThis.__resolve = championsLeagueLocalBadgeId;\n})();'), ctx);
+assert.equal(ctx.__resolve('SK Puntigamer Sturm Graz'), 'sturm-graz');
+assert.equal(ctx.__resolve('Puntigamer Sturm Graz'), 'sturm-graz');
+assert.equal(ctx.__resolve('SK Sturm Graz'), 'sturm-graz');
+assert.equal(ctx.__resolve('Sturm Graz'), 'sturm-graz');
+assert.equal(ctx.__resolve('Unbekannter Verein Testfall'), '');
+console.log('EL-Wappenalias Sturm Graz: 5/5 bestanden');

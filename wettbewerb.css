@@ -2285,3 +2285,16 @@ body.page-dynamo-dresden{
   .match-list .match-row > .match-pairing > .team-identity--away {grid-template-columns:26px minmax(0,1fr);}
   .match-list .match-row > .match-pairing .team-identity__badge {width:26px;height:26px;flex:0 0 26px;}
 }
+
+/* vNext 4.11.5 – LIVE 4.9.10: Mannschaftsnamen mobil nur an echten Wortgrenzen umbrechen.
+   Ziel: regulaere Matchlisten inkl. Smugglerauftraege, keine Tabellen oder KO-Baeume. */
+@media (max-width: 520px) {
+  body .match-list .match-row > .match-pairing > .team-identity > .team-identity__name {
+    font-size: clamp(.72rem, 3.4vw, .875rem);
+    line-height: 1.25;
+    hyphens: none;
+    overflow-wrap: normal;
+    word-break: normal;
+    text-wrap: balance;
+  }
+}

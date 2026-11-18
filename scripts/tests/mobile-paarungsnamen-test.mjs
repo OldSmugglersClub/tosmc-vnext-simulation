@@ -1,0 +1,10 @@
+import fs from "node:fs";
+import assert from "node:assert/strict";
+const css = fs.readFileSync(new URL("../../wettbewerb.css", import.meta.url), "utf8");
+const marker = "/* vNext 4.11.5 – LIVE 4.9.10: Mannschaftsnamen mobil";
+assert(css.includes(marker));
+const fix = css.slice(css.indexOf(marker));
+assert.match(fix, /@media \(max-width: 520px\)/);
+for(const x of ["hyphens: none;", "overflow-wrap: normal;", "word-break: normal;", "text-wrap: balance;"]) assert(fix.includes(x));
+assert.match(css, /grid-template-columns:minmax\(0,1fr\) clamp\(14px,1\.6vw,20px\) minmax\(0,1fr\)/);
+console.log("PASS mobile Paarungsnamen: Silbentrennung deaktiviert; Achse unveraendert");

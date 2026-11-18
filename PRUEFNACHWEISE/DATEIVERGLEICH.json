@@ -1,0 +1,85 @@
+{
+  "source_repo": "OldSmugglersClub/tosmc-vnext-simulation",
+  "base_commit": "b99cf9a8cb72c4ec26fb822a7c9cc9f14c63035e",
+  "base_version": "4.11.4",
+  "target_version": "4.11.5",
+  "files": [
+    {
+      "path": "VERSION.txt",
+      "action": "modified",
+      "before_sha256": "7075021e330c6567de565f020e6d8b6dcc38dc225ba2146d82cb9283a027699c",
+      "after_sha256": "1c32dc24e8a6be9edf9d9021606b6aa6cb6098e7bf7cc0b70a6fa80dc9b7522f",
+      "size_bytes": 7
+    },
+    {
+      "path": "scripts/tests/champions-league-doppelliste-test.mjs",
+      "action": "modified",
+      "before_sha256": "b7a96de3b7efa0ed8fc22ee41ff8b54c2f68794e7401bab853723f2fe4c3c6c5",
+      "after_sha256": "17a7566f0622a50efdc03c4575eefb950bed4f8353d9ef4dcdae9ca128c6645f",
+      "size_bytes": 2578
+    },
+    {
+      "path": "scripts/tests/dfb-ergebnisplatzhalter-regression-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "15d2716889332e448cb1c0b3aad21847aa171d84b7120ab106663e37a38cac99",
+      "size_bytes": 2276
+    },
+    {
+      "path": "scripts/tests/dfb-termine-torjaeger-regression-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "cb0ef7a8dee67708ac95c73beb0aaa763333ad4162c5213a5283073ce0f8cd41",
+      "size_bytes": 3133
+    },
+    {
+      "path": "scripts/tests/europa-league-sturm-graz-wappen-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "7de702142e5875c0d64aeb29ef9f133754bc10bbdcdb6cb89f1431fc7b4f670c",
+      "size_bytes": 926
+    },
+    {
+      "path": "scripts/tests/mobile-paarungsnamen-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "cd234710e89246738dd8466c0681e30518b07b663528d4d50dd70cd73cf41ee1",
+      "size_bytes": 676
+    },
+    {
+      "path": "scripts/tests/openligadb-quellenabgleich-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "dc326002efb3622962e5ab07c2710b0cd0ffef5eab1de3167c75cc84fe95fc8a",
+      "size_bytes": 3286
+    },
+    {
+      "path": "scripts/tests/vnext4115-layout-isoliert.py",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "3665aa8dd7c553d9222045b5be6f674564cfdd4bb167c6a0bff27163cbf67b21",
+      "size_bytes": 2699
+    },
+    {
+      "path": "scripts/tests/vnext4115-zentraldaten-test.mjs",
+      "action": "added",
+      "before_sha256": null,
+      "after_sha256": "680ebf4a6596b7ea3e8997bbc9965d7e70168c6e83ad8649216fa0c9c8bfc5bc",
+      "size_bytes": 3863
+    },
+    {
+      "path": "wettbewerb.css",
+      "action": "modified",
+      "before_sha256": "4335f7b1a4e31a66640a05cb8e4fecbabe25b36f830b9bf5a2e5e842f930f071",
+      "after_sha256": "647d93d874683454fae0c993fe0fc18438957736217de4abeb09f3025d3a55a4",
+      "size_bytes": 61027
+    },
+    {
+      "path": "wettbewerb.js",
+      "action": "modified",
+      "before_sha256": "34b2b898e36e674f1458d49b47c3a67192857873068d466903f4b88886d3a779",
+      "after_sha256": "24c0edbbf7cfbb884cf2fa25a009e7ff999ac744ead48893731693ede87f8e3e",
+      "size_bytes": 180866
+    }
+  ]
+}

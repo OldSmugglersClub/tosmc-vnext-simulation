@@ -1,0 +1,804 @@
+--- a/VERSION.txt
++++ b/VERSION.txt
+@@ -1 +1 @@
+-4.11.4
++4.11.5
+--- a/scripts/tests/champions-league-doppelliste-test.mjs
++++ b/scripts/tests/champions-league-doppelliste-test.mjs
+@@ -5,14 +5,28 @@
+ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+ const script = fs.readFileSync(path.join(root, "wettbewerb.js"), "utf8");
+ 
+-const requiredSnippets = [
++// TEST2v2 4.9.26: CL-Spielplan seit 4.9.25 aus zentralen TOSMC-Spielen.
++// Sicherung gegen doppelte Renderpfade und API-Fallback beibehalten.
++const phaseOverview = script.match(/function renderChampionsLeaguePhaseOverview\([\s\S]*?(?=\n  function openLigaDbSafeIconUrl\()/)?.[0];
++if (!phaseOverview) throw new Error("CL-Doppellisten-Schutz: renderChampionsLeaguePhaseOverview fehlt");
++const requiredPhaseSnippets = [
+   'if (slug !== "champions-league") return false;',
+-  'if (!matches.length) return false;',
+-  'root.appendChild(schedule);\n    return true;',
++  'centralGamesForCompetition(centralGameData, "champions-league")',
++  'if (!centralMatches.length) return false;',
++  'root.appendChild(section);',
++  'return true;'
++];
++for (const snippet of requiredPhaseSnippets) {
++  if (!phaseOverview.includes(snippet)) throw new Error(`CL-Doppellisten-Schutz fehlt: ${snippet}`);
++}
++if ((phaseOverview.match(/root\.appendChild\(section\)/g) || []).length !== 1) {
++  throw new Error("CL-Doppellisten-Schutz: die CL-Spielplan-Sektion muss genau einmal eingefuegt werden");
++}
++const requiredIntegrationSnippets = [
++  'if (!rendered) renderPlaceholderSection(',
+   'if (championsLeaguePhaseOverviewRendered && section.typ === "spiele" && section.zentral === true) return;'
+ ];
+-
+-for (const snippet of requiredSnippets) {
++for (const snippet of requiredIntegrationSnippets) {
+   if (!script.includes(snippet)) throw new Error(`CL-Doppellisten-Schutz fehlt: ${snippet}`);
+ }
+ 
+@@ -42,4 +56,4 @@
+   }
+ }
+ 
+-console.log(`CL-Doppellisten-Prüfung bestanden: obere Ligaphasenansicht ersetzt die zentrale Doppelliste; Fallback bleibt erhalten; gemeinsame Skriptkennung konsistent (${sharedScriptTag}).`);
++console.log(`CL-Doppellisten-Prüfung bestanden: zentraler CL-Spielplan wird genau einmal angezeigt; bei fehlenden zentralen Spielen bleibt der Platzhalter erhalten; gemeinsame Skriptkennung konsistent (${sharedScriptTag}).`);
+--- /dev/null
++++ b/scripts/tests/dfb-ergebnisplatzhalter-regression-test.mjs
+@@ -0,0 +1,29 @@
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import path from 'node:path';
++import vm from 'node:vm';
++import {fileURLToPath} from 'node:url';
++const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
++const src=fs.readFileSync(path.join(root,'wettbewerb.js'),'utf8');
++assert(src.includes('const finalScore = openLigaDbFinalResult(match);'));
++assert(src.includes('if (slug === "dfb-pokal" && !finalScore) result.hidden = true;'));
++const marker='  load();\n})();';
++assert(src.includes(marker));
++function element(tag) { return {tag, children:[], dataset:{}, textContent:'', hidden:false, append(...v){this.children.push(...v);},appendChild(v){this.children.push(v);},setAttribute(k,v){this[k]=v;}}; }
++const ctx={location:{pathname:'/dfb-pokal.html'},window:{},document:{createElement:element},console,Date,Map,Set,Number,String,Object,Array,URL};
++vm.runInNewContext(src.replace(marker, '  globalThis.__fixture={createBracketMatch};\n})();'),ctx);
++const base={team1:{teamId:1,teamName:'VfB Stuttgart'},team2:{teamId:2,teamName:'Dynamo Dresden'},group:{groupName:'Achtelfinale'},matchDateTime:'2026-12-01T18:00:00',matchResults:[]};
++const pending=ctx.__fixture.createBracketMatch(base);
++assert.equal(pending.children[1].children[0].hidden,true,'Unfinished DFB result placeholder hidden');
++assert.equal(pending.children[1].children[0].textContent,'');
++assert.equal(pending.children[1].children[1].textContent,'01.12. · 18:00');
++const played=ctx.__fixture.createBracketMatch({...base,matchResults:[{resultTypeID:2,pointsTeam1:2,pointsTeam2:1}]});
++assert.equal(played.children[1].children[0].hidden,false);
++assert.equal(played.children[1].children[0].textContent,'2:1');
++ctx.location.pathname='/europa-league.html'; // independent VM for slug captured at initialization
++const el={...ctx,location:{pathname:'/europa-league.html'}};
++vm.runInNewContext(src.replace(marker, '  globalThis.__fixture={createBracketMatch};\n})();'),el);
++const other=el.__fixture.createBracketMatch(base);
++assert.equal(other.children[1].children[0].hidden,false,'Other competitions unchanged');
++assert.equal(other.children[1].children[0].textContent,'–');
++console.log('PASS DFB pending result hidden; scheduled kickoff retained; finished score and EL unchanged');
+--- /dev/null
++++ b/scripts/tests/dfb-termine-torjaeger-regression-test.mjs
+@@ -0,0 +1,42 @@
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import path from 'node:path';
++import vm from 'node:vm';
++import {fileURLToPath} from 'node:url';
++const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
++const src=fs.readFileSync(path.join(root,'wettbewerb.js'),'utf8');
++const clubs=[
++['stuttgart','VfB Stuttgart'],['dynamo-dresden','SG Dynamo Dresden'],['holstein-kiel','Holstein Kiel'],['koeln','1. FC Köln'],
++['bayern-muenchen','FC Bayern München'],['hertha-bsc','Hertha BSC'],['moenchengladbach','Borussia Mönchengladbach'],['darmstadt-98','SV Darmstadt 98'],
++['leverkusen','Bayer 04 Leverkusen'],['rb-leipzig','RB Leipzig'],['kaiserslautern','1. FC Kaiserslautern'],['freiburg','Sport-Club Freiburg'],
++['frankfurt','Eintracht Frankfurt'],['dortmund','Borussia Dortmund'],['bochum','VfL Bochum 1848'],['augsburg','FC Augsburg']
++];
++const target='  load();\n})();';
++assert(src.includes(target));
++const injected=src.replace(target,`  currentTeamData={teams:${JSON.stringify(clubs.map(([id,name])=>({id,name})))}};
++  globalThis.__fixture={dfbVerifiedRound16Kickoff,dfbPokalInfoCards};\n})();`);
++const ctx={location:{pathname:'/dfb-pokal.html'},window:{},document:{},Date,Map,Set,Number,String,Object,Array,console};
++vm.runInNewContext(injected,ctx);
++const fixtures=[
++[0,1,'2026-12-01','18:00'],[2,3,'2026-12-01','18:00'],[4,5,'2026-12-01','20:45'],[6,7,'2026-12-01','20:45'],
++[8,9,'2026-12-02','18:00'],[10,11,'2026-12-02','18:00'],[12,13,'2026-12-02','20:45'],[14,15,'2026-12-02','20:45']
++];
++const match=(home,away,round='Achtelfinale')=>({team1:{teamId:home,teamName:clubs[home][1]},team2:{teamId:away,teamName:clubs[away][1]},group:{groupName:round}});
++for(const [h,a,date,time] of fixtures){
++  const got=ctx.__fixture.dfbVerifiedRound16Kickoff(match(h,a));
++  assert.equal(got?.date,date);
++  assert.equal(got?.time,time);
++  assert.equal(ctx.__fixture.dfbVerifiedRound16Kickoff(match(a,h)),null,'No reversed pairing');
++  assert.equal(ctx.__fixture.dfbVerifiedRound16Kickoff(match(h,a,'Viertelfinale')),null,'Only round of 16');
++}
++assert.equal(ctx.__fixture.dfbVerifiedRound16Kickoff(match(0,3)),null,'No invented fixture');
++assert(src.includes('hasRealApiTime ? apiTime : official?.time || ""'),'New valid OpenLigaDB time wins');
++assert(src.includes('openIndex = visibleRounds.findIndex'),'Next opening round logic exists');
++assert(!src.includes('if (openIndex < 0) openIndex = Math.max(visibleRounds.length - 1, 0);'),'No automatic past round');
++assert(src.includes('round.open = index === openIndex'),'Manual toggling preserved');
++assert(src.includes('const leader = entries.find(entry => entry.tore > 0) || null;'),'DFB 0-goal scorer not incorrectly crowned');
++const cards=ctx.__fixture.dfbPokalInfoCards([{titel:'Original'}],[{goalGetterName:'A',goalCount:0}]);
++assert.equal(cards[0].leader,undefined,'No 0-goal leader');
++const scored=ctx.__fixture.dfbPokalInfoCards([{titel:'Original'}],[{goalGetterName:'B',goalCount:2}]);
++assert.equal(scored[0].leader.name,'B');
++console.log('PASS DFB round-of-16 all 8 verified times, unknown pairing rejected, round focus and 0-goal safeguards');
+--- /dev/null
++++ b/scripts/tests/europa-league-sturm-graz-wappen-test.mjs
+@@ -0,0 +1,14 @@
++import fs from 'node:fs';
++import vm from 'node:vm';
++import assert from 'node:assert/strict';
++const script = fs.readFileSync(new URL('../../wettbewerb.js', import.meta.url), 'utf8');
++const suffix = '  load();\n})();';
++assert(script.includes(suffix), 'Bekannter Skriptabschluss erforderlich');
++const ctx = { location: { pathname: '/europa-league.html' }, window: {}, document: {}, console, URL, Map, Set, Object, String, Array, Number };
++vm.runInNewContext(script.replace(suffix, '  globalThis.__resolve = championsLeagueLocalBadgeId;\n})();'), ctx);
++assert.equal(ctx.__resolve('SK Puntigamer Sturm Graz'), 'sturm-graz');
++assert.equal(ctx.__resolve('Puntigamer Sturm Graz'), 'sturm-graz');
++assert.equal(ctx.__resolve('SK Sturm Graz'), 'sturm-graz');
++assert.equal(ctx.__resolve('Sturm Graz'), 'sturm-graz');
++assert.equal(ctx.__resolve('Unbekannter Verein Testfall'), '');
++console.log('EL-Wappenalias Sturm Graz: 5/5 bestanden');
+--- /dev/null
++++ b/scripts/tests/mobile-paarungsnamen-test.mjs
+@@ -0,0 +1,10 @@
++import fs from "node:fs";
++import assert from "node:assert/strict";
++const css = fs.readFileSync(new URL("../../wettbewerb.css", import.meta.url), "utf8");
++const marker = "/* vNext 4.11.5 – LIVE 4.9.10: Mannschaftsnamen mobil";
++assert(css.includes(marker));
++const fix = css.slice(css.indexOf(marker));
++assert.match(fix, /@media \(max-width: 520px\)/);
++for(const x of ["hyphens: none;", "overflow-wrap: normal;", "word-break: normal;", "text-wrap: balance;"]) assert(fix.includes(x));
++assert.match(css, /grid-template-columns:minmax\(0,1fr\) clamp\(14px,1\.6vw,20px\) minmax\(0,1fr\)/);
++console.log("PASS mobile Paarungsnamen: Silbentrennung deaktiviert; Achse unveraendert");
+--- /dev/null
++++ b/scripts/tests/openligadb-quellenabgleich-test.mjs
+@@ -0,0 +1,33 @@
++import fs from 'node:fs';
++import vm from 'node:vm';
++import assert from 'node:assert/strict';
++const src=fs.readFileSync(new URL('../../wettbewerb.js',import.meta.url),'utf8');
++assert(src.includes('  load();\n})();'));
++const diag=[];
++const ctx={location:{pathname:'/champions-league.html'},window:{},document:{},console:{warn:(...x)=>diag.push(x),info(){}},Date,Map,Set,Number,String,Object,Array};
++vm.runInNewContext(src.replace('  load();\n})();',`  globalThis.__test = {guardOpenLigaDbMatches};\n})();`),ctx);
++const run=(matches,competition='champions-league',central=[])=>ctx.__test.guardOpenLigaDbMatches(matches,competition,central);
++const base=(id=87469,team2='FC Barcelona')=>({matchID:id,team1:{teamId:11,teamName:'Sabah FC'},team2:{teamId:22,teamName:team2},matchDateTime:'2026-11-25T18:45:00',matchIsFinished:false,matchResults:[]});
++const central=[{apiMatchId:'87469',wettbewerb:'champions-league',heimTeamId:'sabah-fc',auswaertsTeamId:'barcelona',datum:'2026-11-25',anstoss:'18:45',status:'terminiert'}];
++assert.equal(run([base()],undefined,central).matches.length,1,'verified match survives');
++assert.equal(run([base(87469,'Excelsior Rotterdam')],undefined,central).matches.length,0,'conflicting teams removed');
++assert.equal(run([base()],undefined,central).rejected.length,0,'corrected feed restores acceptance');
++assert.equal(run([base()], 'europa-league').matches.length,1,'external-only remains accepted as structurally plausible');
++const live=base();live.matchResults=[{resultTypeID:2,pointsTeam1:9,pointsTeam2:8}];
++assert.equal(run([live],undefined,central).matches[0].matchResults.length,0,'unfinished score hidden');
++const two=[base(10),base(10,'Excelsior Rotterdam')];
++assert.equal(run(two,'europa-league').matches.length,0,'conflicting IDs removed');
++const collide=[base(10),{...base(11),team2:{teamId:23,teamName:'Real Madrid'}}];
++assert.equal(run(collide,'dfb-pokal').matches.length,0,'impossible same-team kickoff removed');
++assert.equal(run([base(10),base(10)],'dfb-pokal').matches.length,1,'exact duplicate de-duplicated');
++const finished={...base(),matchIsFinished:true,matchResults:[{resultTypeID:2,pointsTeam1:1,pointsTeam2:2}]};
++const centralFinished=[{...central[0],status:'beendet',ergebnisNach90MinutenBestaetigt:true,heimtore:3,auswaertstore:0}];
++assert.equal(run([finished],undefined,centralFinished).matches.length,0,'wrong finished score rejected');
++const correctFinished={...finished,matchResults:[{resultTypeID:2,pointsTeam1:3,pointsTeam2:0}]};
++assert.equal(run([correctFinished],undefined,centralFinished).matches.length,1,'matching completed result accepted');
++const unconfirmedFinished={...finished,matchResults:[{resultTypeID:2,pointsTeam1:1,pointsTeam2:2}]};
++assert.equal(run([unconfirmedFinished],undefined,central).matches[0].matchResults.length,0,'central pending match never displays API final result');
++assert.equal(run([{...base(),team2:{teamId:11,teamName:'Sabah FC'}}],'dfb-pokal').matches.length,0,'identical clubs rejected');
++assert.equal(run([{...base(),matchDateTime:'bad datetime'}],'europa-league').matches.length,0,'invalid date rejected');
++assert.equal(run([base(12,'FC Barcelona')],'bundesliga-2').matches.length,1,'Dynamo/second league fixture accepted structurally');
++console.log('PASS 14 external-data-guard scenarios');
+--- /dev/null
++++ b/scripts/tests/vnext4115-layout-isoliert.py
+@@ -0,0 +1,31 @@
++from playwright.sync_api import sync_playwright
++from pathlib import Path
++css=(Path(__file__).resolve().parents[2]/'wettbewerb.css').read_text()
++html='''<!doctype html><html lang="de"><head><meta charset="UTF-8"><style>'''+css+'''</style></head><body class="page-champions-league"><main class="page"><section class="dynamic-section"><div class="match-list"><article class="match-row"><div class="match-pairing"><span class="team-identity team-identity--home"><span class="team-identity__name">Galatasaray Istanbul</span><span class="team-identity__badge">G</span></span><span class="match-pairing__separator">–</span><span class="team-identity team-identity--away"><span class="team-identity__badge">B</span><span class="team-identity__name">Bodø/Glimt</span></span></div></article></div></section></main></body></html>'''
++widths=[320,350,375,390,425,520,760,800,820,1024,1280,1440]
++rows=[]
++with sync_playwright() as p:
++ browser=p.chromium.launch(headless=True, executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
++ page=browser.new_page()
++ for w in widths:
++  page.set_viewport_size({'width':w,'height':900})
++  page.set_content(html)
++  out=page.evaluate('''() => {
++   const pair=document.querySelector('.match-pairing'),sep=pair.querySelector('.match-pairing__separator');
++   const home=pair.querySelector('.team-identity--home'),away=pair.querySelector('.team-identity--away');
++   const names=[home.querySelector('.team-identity__name'),away.querySelector('.team-identity__name')];
++   const badges=[home.querySelector('.team-identity__badge'),away.querySelector('.team-identity__badge')];
++   const rect=e=>{const r=e.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top,bottom:r.bottom,width:r.width}};
++   const s=rect(sep),h=rect(badges[0]),a=rect(badges[1]);
++   const cs=names.map(x=>getComputedStyle(x));
++   return {viewport:innerWidth,bodyScrollWidth:document.documentElement.scrollWidth,pair:rect(pair),sep:s,home:h,away:a,
++       hyphens:cs.map(x=>x.hyphens),wordBreak:cs.map(x=>x.wordBreak),overflowWrap:cs.map(x=>x.overflowWrap),
++       sameRow:[Math.abs(h.top-s.top)<18,Math.abs(a.top-s.top)<18],axis:h.right<=s.right+4&&a.left>=s.left-4};
++  }''')
++  ok=(out['bodyScrollWidth']<=w+1 and all(out['sameRow']) and out['axis'] and out['pair']['width']>0 and (w>520 or out['hyphens']==['none','none']))
++  rows.append({'width':w,'passed':ok,'horizontal_overflow':out['bodyScrollWidth']>w+1,'axis':out['axis'],'same_row':out['sameRow'],'hyphens':out['hyphens']})
++ browser.close()
++import json
++# Results are printed; no file or repository modification.
++print(json.dumps(rows,ensure_ascii=False))
++assert all(r['passed'] for r in rows),'layout failed'
+--- /dev/null
++++ b/scripts/tests/vnext4115-zentraldaten-test.mjs
+@@ -0,0 +1,45 @@
++import fs from 'node:fs';
++import path from 'node:path';
++import vm from 'node:vm';
++import assert from 'node:assert/strict';
++import {fileURLToPath} from 'node:url';
++const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
++const src=fs.readFileSync(path.join(root,'wettbewerb.js'),'utf8');
++const games=JSON.parse(fs.readFileSync(path.join(root,'spieldaten.json'),'utf8'));
++const teams=JSON.parse(fs.readFileSync(path.join(root,'teams.json'),'utf8'));
++const marker='  load();\n})();';
++assert(src.includes(marker));
++const node=(tag)=>({tag,className:'',textContent:'',style:{},children:[],dataset:{},classList:{add(){},toggle(){}},append(...v){this.children.push(...v)},appendChild(v){this.children.push(v);return v},setAttribute(k,v){this[k]=v},getAttribute(k){return this[k]}});
++const ctx={location:{pathname:'/champions-league.html'},window:{location:{pathname:'/champions-league.html',search:''}},document:{createElement:node},console:{warn(){},info(){}},URLSearchParams,Date,Map,Set,Number,String,Object,Array};
++vm.runInNewContext(src.replace(marker,`  currentTeamData=${JSON.stringify(teams)};
++  globalThis.__test={allCentralGames,centralGamesForCompetition,centralChampionsLeagueDisplayMatch,renderChampionsLeagueTable,renderChampionsLeaguePhaseOverview,auditChampionsLeagueApiMatches};\n})();`),ctx);
++const t=ctx.__test;
++const cl=Array.from(t.centralGamesForCompetition(games,'champions-league'));
++assert.equal(cl.length,144);
++const rounds=new Map();for(const g of cl)rounds.set(g.spieltagNummer,(rounds.get(g.spieltagNummer)||0)+1);
++assert.equal(rounds.size,8);
++for(const n of rounds.values())assert.equal(n,18);
++assert.equal(new Set(cl.flatMap(x=>[x.heimTeamId,x.auswaertsTeamId])).size,36);
++const sample=cl.find(x=>String(x.apiMatchId)==='87469');assert(sample,'known Sabah fixture');
++const actual=t.centralChampionsLeagueDisplayMatch(sample);
++assert.equal(actual.auswaertsTeamId,'barcelona');assert.equal(actual.heimTeamId,'sabah-fc');
++assert.equal(actual.id,sample.id);assert.equal(actual.anstoss,sample.anstoss);
++const wrong=[{matchID:87469,team1:{teamId:1,teamName:'Sabah FC'},team2:{teamId:2,teamName:'Excelsior Rotterdam'},matchDateTime:'2026-11-25T18:45:00',matchIsFinished:false,group:{groupName:'5. Spieltag'},matchResults:[]}];
++assert.equal(t.auditChampionsLeagueApiMatches([sample],wrong).conflicts.length,1);
++const rows=[];const htmlRoot=node('main');
++assert.equal(t.renderChampionsLeaguePhaseOverview(wrong,games,htmlRoot),true);
++assert.equal(htmlRoot.children.length,1,'single CL phase section');
++const accordion=htmlRoot.children[0].children.find(x=>x.className==='matchday-accordion');
++assert.equal(accordion.children.length,8);
++for(const section of accordion.children)assert.equal(section.children[1].children.length,18);
++const tableRoot=node('main');t.renderChampionsLeagueTable(games,tableRoot);
++const wrapper=tableRoot.children[0].children.find(x=>x.className==='table-scroll');assert(wrapper,'central standings shown');
++const tbody=wrapper.children[0].children.find(x=>x.tag==='tbody');assert.equal(tbody.children.length,36);
++// Unconfirmed score must not contribute to table calculations.
++const unfinished=structuredClone(games);const gg=unfinished.saisons.flatMap(s=>s.spiele).find(g=>g.id===cl[0].id);
++gg.status='terminiert';gg.ergebnisNach90MinutenBestaetigt=false;gg.heimtore=99;gg.auswaertstore=99;
++const check=node('main');t.renderChampionsLeagueTable(unfinished,check);
++const table=check.children[0].children.find(x=>x.className==='table-scroll').children[0];
++const body=table.children.find(x=>x.tag==='tbody');
++for(const tr of body.children){const cells=tr.children;const goals=String(cells[6].textContent);assert(!goals.includes('99'),'unconfirmed 99-goal score not counted')}
++console.log('PASS CL: 144 Spiele / 8×18 / 36 Teams; central-only against wrong API; no duplicate; standings confirmed only');
+--- a/wettbewerb.css
++++ b/wettbewerb.css
+@@ -2285,3 +2285,16 @@
+   .match-list .match-row > .match-pairing > .team-identity--away {grid-template-columns:26px minmax(0,1fr);}
+   .match-list .match-row > .match-pairing .team-identity__badge {width:26px;height:26px;flex:0 0 26px;}
+ }
++
++/* vNext 4.11.5 – LIVE 4.9.10: Mannschaftsnamen mobil nur an echten Wortgrenzen umbrechen.
++   Ziel: regulaere Matchlisten inkl. Smugglerauftraege, keine Tabellen oder KO-Baeume. */
++@media (max-width: 520px) {
++  body .match-list .match-row > .match-pairing > .team-identity > .team-identity__name {
++    font-size: clamp(.72rem, 3.4vw, .875rem);
++    line-height: 1.25;
++    hyphens: none;
++    overflow-wrap: normal;
++    word-break: normal;
++    text-wrap: balance;
++  }
++}
+--- a/wettbewerb.js
++++ b/wettbewerb.js
+@@ -872,6 +872,8 @@
+     "ac sparta praha": "sparta-praha",
+     "sparta praha": "sparta-praha",
+     "sparta prag": "sparta-praha",
++    "sk puntigamer sturm graz": "sturm-graz",
++    "puntigamer sturm graz": "sturm-graz",
+     "sk sturm graz": "sturm-graz",
+     "sturm graz": "sturm-graz",
+     "sunderland afc": "sunderland",
+@@ -963,6 +965,97 @@
+     return String(team?.teamName ?? team?.TeamName ?? "Team offen").trim() || "Team offen";
+   }
+ 
++  // TEST2v2 4.9.27: Gemeinsame Plausibilitaetspruefung vor der Nutzung von
++  // OpenLigaDB-Spieldaten (CL, EL, DFB-Pokal, Dynamo/2. BL).
++  // Ohne zentralen Referenzdatensatz ist eine externe Paarung NICHT inhaltlich
++  // bestaetigt; moeglich sind dann nur strukturelle Konfliktpruefungen.
++  // Die Pruefung laeuft bei jeder neuen API-Antwort erneut, ohne Ausnahmelisten.
++  function guardOpenLigaDbMatches(matches, competition, centralGames = []) {
++    const rejected = [];
++    const input = safeArray(matches);
++    const reference = new Map();
++    safeArray(centralGames).filter(game => game && game.wettbewerb === competition).forEach(game => {
++      const key = String(game.apiMatchId ?? game.spielNummer ?? "").trim();
++      if (key) reference.set(key, game);
++    });
++    const eligible = [];
++    const seenIds = new Map();
++    const badIds = new Set();
++    input.forEach((match, index) => {
++      const id = String(match?.matchID ?? match?.matchId ?? match?.MatchID ?? "").trim();
++      const h = match?.team1, a = match?.team2;
++      const home = openLigaDbTeamName(h), away = openLigaDbTeamName(a);
++      const homeId = String(h?.teamId ?? h?.teamID ?? h?.TeamId ?? h?.TeamID ?? "").trim();
++      const awayId = String(a?.teamId ?? a?.teamID ?? a?.TeamId ?? a?.TeamID ?? "").trim();
++      const dateTime = String(match?.matchDateTime ?? match?.MatchDateTime ?? "").trim();
++      const kickoff = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(dateTime) ? dateTime.slice(0, 16) : "";
++      const invalid = !id || !homeId || !awayId || !home || !away ||
++        home === "Team offen" || away === "Team offen" || homeId === awayId ||
++        bracketTeamKey(home) === bracketTeamKey(away) ||
++        (dateTime && !kickoff);
++      if (invalid) {
++        rejected.push({ reason: "unvollstaendige-oder-unplausible-paarung", id, index });
++        return;
++      }
++      const central = reference.get(id);
++      if (central) {
++        const homeLocal = championsLeagueLocalBadgeId(home);
++        const awayLocal = championsLeagueLocalBadgeId(away);
++        const centralDate = String(central.datum || central.datumVon || "");
++        const centralTime = String(central.anstoss || "");
++        const dateMismatch = kickoff && centralDate && kickoff.slice(0, 10) !== centralDate;
++        const timeMismatch = kickoff && centralTime && kickoff.slice(11, 16) !== centralTime;
++        if (!homeLocal || !awayLocal || homeLocal !== central.heimTeamId ||
++            awayLocal !== central.auswaertsTeamId || dateMismatch || timeMismatch) {
++          rejected.push({ reason: "konflikt-mit-tosmc-referenz", id, index });
++          return;
++        }
++        const centralFinished = central.status === "beendet" || central.ergebnisNach90MinutenBestaetigt === true;
++        if (centralFinished && Number.isFinite(central.heimtore) && Number.isFinite(central.auswaertstore)) {
++          const externalScore = openLigaDbFinalResult(match);
++          const centralScore = `${central.heimtore}:${central.auswaertstore}`;
++          if (externalScore && externalScore !== centralScore) {
++            rejected.push({ reason: "ergebniskonflikt-mit-tosmc", id, index });
++            return;
++          }
++        }
++      }
++      // Die API kann auch Zwischenstaende in matchResults liefern.
++      // Ergebnisse nur fuer als beendet gekennzeichnete Spiele verwenden.
++      const safeMatch = match.matchIsFinished === true &&
++        (!central || (central.status === "beendet" && central.ergebnisNach90MinutenBestaetigt === true))
++        ? match : { ...match, matchResults: [] };
++      const signature = [homeId, awayId, bracketTeamKey(home), bracketTeamKey(away), kickoff, openLigaDbFinalResult(safeMatch)].join("|");
++      if (seenIds.has(id)) {
++        const previous = seenIds.get(id);
++        if (previous.signature !== signature) badIds.add(id);
++        rejected.push({ reason: previous.signature === signature ? "duplikat" : "widerspruechliche-match-id", id, index });
++        return;
++      }
++      seenIds.set(id, { signature });
++      eligible.push({ match: safeMatch, id, kickoff, homeId, awayId });
++    });
++    const kickoffTeams = new Map();
++    const conflictingIds = new Set(badIds);
++    eligible.forEach(row => {
++      if (!row.kickoff) return;
++      for (const teamId of [row.homeId, row.awayId]) {
++        const key = `${row.kickoff}|${teamId}`;
++        if (kickoffTeams.has(key) && kickoffTeams.get(key) !== row.id) {
++          conflictingIds.add(row.id);
++          conflictingIds.add(kickoffTeams.get(key));
++        } else kickoffTeams.set(key, row.id);
++      }
++    });
++    const accepted = eligible.filter(row => {
++      if (!conflictingIds.has(row.id)) return true;
++      rejected.push({ reason: "mehrfachansetzung-oder-id-konflikt", id: row.id });
++      return false;
++    }).map(row => row.match);
++    if (rejected.length) console.warn(`OpenLigaDB ${competition}: ${rejected.length} Datensaetze/Zuordnungen ausgeschlossen`, rejected);
++    return { matches: accepted, rejected };
++  }
++
+   function bracketTeamKey(value) {
+     return String(value || "")
+       .toLocaleLowerCase("de")
+@@ -970,6 +1063,29 @@
+       .replace(/[\u0300-\u036f]/g, "")
+       .replace(/[^a-z0-9]+/g, " ")
+       .trim();
++  }
++
++  // TEST2v2 4.9.29: Nur fuer das offiziell terminierte DFB-Achtelfinale
++  // 2026/27. Anzeige-Fallback bei API-Platzhalterzeit, keine Datenpersistenz.
++  // Quelle: DFB Datencenter, Achtelfinale 01./02.12.2026 (04.11.2026).
++  // Ein aktualisierter gueltiger API-Termin hat Vorrang; unbekannte Partien
++  // erhalten KEINE erfundene Anstosszeit.
++  const DFB_2026_VERIFIED_ROUND16 = Object.freeze([
++    ["stuttgart", "dynamo-dresden", "2026-12-01", "18:00"],
++    ["holstein-kiel", "koeln", "2026-12-01", "18:00"],
++    ["bayern-muenchen", "hertha-bsc", "2026-12-01", "20:45"],
++    ["moenchengladbach", "darmstadt-98", "2026-12-01", "20:45"],
++    ["leverkusen", "rb-leipzig", "2026-12-02", "18:00"],
++    ["kaiserslautern", "freiburg", "2026-12-02", "18:00"],
++    ["frankfurt", "dortmund", "2026-12-02", "20:45"],
++    ["bochum", "augsburg", "2026-12-02", "20:45"]
++  ]);
++  function dfbVerifiedRound16Kickoff(match) {
++    if (slug !== "dfb-pokal" || openLigaDbRoundKey(match) !== "achtelfinale") return null;
++    const home = championsLeagueLocalBadgeId(openLigaDbTeamName(match?.team1));
++    const away = championsLeagueLocalBadgeId(openLigaDbTeamName(match?.team2));
++    const entry = DFB_2026_VERIFIED_ROUND16.find(row => row[0] === home && row[1] === away);
++    return entry ? { date: entry[2], time: entry[3] } : null;
+   }
+ 
+   function createBracketMatch(match) {
+@@ -998,14 +1114,29 @@
+ 
+     const result = document.createElement("strong");
+     result.className = "ko-match__result";
+-    result.textContent = openLigaDbFinalResult(match) || "–";
++    const finalScore = openLigaDbFinalResult(match);
++    // DFB: Offene Begegnungen zeigen nur den Termin, keinen Ergebnis-Platzhalter.
++    // Abschlussergebnisse und andere Wettbewerbe bleiben unveraendert.
++    result.textContent = finalScore || (slug === "dfb-pokal" ? "" : "–");
++    if (slug === "dfb-pokal" && !finalScore) result.hidden = true;
+ 
+     const date = document.createElement("span");
+     date.className = "ko-match__date";
+     const rawDate = String(match?.matchDateTime ?? match?.MatchDateTime ?? "");
+-    date.textContent = rawDate && /^\d{4}-\d{2}-\d{2}/.test(rawDate)
+-      ? formatDate(rawDate.slice(0, 10))
++    const apiDate = rawDate.match(/^(\d{4}-\d{2}-\d{2})/)?.[1] || "";
++    const apiTime = rawDate.match(/T(\d{2}:\d{2})/)?.[1] || "";
++    // OpenLigaDB kann fuer feststehende Paarungen 00:00 als Platzhalter liefern.
++    const hasRealApiTime = Boolean(apiDate && apiTime && apiTime !== "00:00");
++    const official = dfbVerifiedRound16Kickoff(match);
++    const shownDate = (!hasRealApiTime && official?.date) || apiDate || official?.date || "";
++    const shownTime = slug === "dfb-pokal" && openLigaDbRoundKey(match) === "achtelfinale"
++      ? (hasRealApiTime ? apiTime : official?.time || "") : "";
++    // Kurze Datumszeile fuer den bestehenden schmalen KO-Kartenbereich.
++    // Vollstaendiger Termin bleibt im Tooltip erhalten.
++    date.textContent = shownDate
++      ? (shownTime ? `${shownDate.slice(8, 10)}.${shownDate.slice(5, 7)}. · ${shownTime}` : formatDate(shownDate))
+       : "Termin offen";
++    if (shownDate && shownTime) date.title = `${formatDate(shownDate)} · ${shownTime} Uhr`;
+ 
+     meta.append(result, date);
+     card.append(teams, meta);
+@@ -1272,73 +1403,111 @@
+     }).filter(Boolean);
+   }
+ 
++  // TEST2v2 4.9.25: CL-Ansetzungen kommen ausschliesslich aus dem zentralen
++  // TOSMC-Spielplan. Externe APIs duerfen Namen, Anstoss, Resultate und
++  // Tippverteilungen niemals anhand einer blossen Match-ID ueberschreiben.
++  // Ein nachtraeglich von OpenLigaDB behobener Konflikt gilt automatisch als OK.
++  function auditChampionsLeagueApiMatches(centralMatches, openLigaDbMatches) {
++    const byApiId = new Map();
++    championsLeaguePhaseMatches(openLigaDbMatches).forEach(match => {
++      const id = String(match?.matchID ?? match?.matchId ?? match?.MatchID ?? "").trim();
++      if (id) byApiId.set(id, match);
++    });
++    const conflicts = [];
++    let checked = 0;
++    safeArray(centralMatches).forEach(central => {
++      const id = String(central?.apiMatchId ?? central?.spielNummer ?? "").trim();
++      const external = byApiId.get(id);
++      if (!id || !external) return;
++      checked++;
++      const home = championsLeagueLocalBadgeId(openLigaDbTeamName(external?.team1));
++      const away = championsLeagueLocalBadgeId(openLigaDbTeamName(external?.team2));
++      const apiDate = openLigaDbMatchDate(external);
++      const apiTime = String(external?.matchDateTime ?? external?.MatchDateTime ?? "").match(/T(\d{2}:\d{2})/)?.[1] || "";
++      // Unbekannte Teamnamen niemals irrtuemlich als korrekte Zuordnung werten.
++      if (!home || !away || home !== central.heimTeamId || away !== central.auswaertsTeamId ||
++          (apiDate && apiDate !== central.datum) || (apiTime && apiTime !== central.anstoss)) {
++        conflicts.push({ id, central: `${central.heimTeamId} – ${central.auswaertsTeamId}`,
++          api: `${openLigaDbTeamName(external?.team1)} – ${openLigaDbTeamName(external?.team2)}`,
++          datum: central.datum, anstoss: central.anstoss });
++      }
++    });
++    // Rein diagnostisch: keine Persistenz, keine Auswertungs- oder Anzeigeaenderung.
++    if (conflicts.length) console.warn("CL: externe Paarungen weichen vom TOSMC-Spielplan ab", conflicts);
++    else if (checked) console.info(`CL: ${checked} externe Paarungen mit TOSMC abgeglichen; keine Abweichung.`);
++    return { checked, conflicts };
++  }
++
++  function centralChampionsLeagueDisplayMatch(match) {
++    const names = createTeamLookup(currentTeamData);
++    const homeName = teamName(names, match.heimTeamId, match.heim);
++    const awayName = teamName(names, match.auswaertsTeamId, match.auswaerts);
++    const completed = match.status === "beendet" && match.ergebnisNach90MinutenBestaetigt === true &&
++      Number.isFinite(match.heimtore) && Number.isFinite(match.auswaertstore);
++    return {
++      id: match.id, datum: formatDate(match.datum), datumIso: match.datum,
++      datumSortierung: match.datum, anstoss: match.anstoss,
++      heimTeamId: match.heimTeamId, heim: homeName,
++      auswaertsTeamId: match.auswaertsTeamId, auswaerts: awayName,
++      trenner: "–", ergebnis: completed ? `${match.heimtore}:${match.auswaertstore}` : "",
++      runde: match.runde, spieltagNummer: match.spieltagNummer,
++      terminBestaetigt: match.terminBestaetigt === true,
++      abgeschlossen: completed, tippverteilung: match.tippverteilung || null,
++      canonicalTosmc: true
++    };
++  }
++
+   function renderChampionsLeaguePhaseOverview(openLigaDbMatches, centralGameData, root) {
+     if (slug !== "champions-league") return false;
+-    const matches = championsLeaguePhaseMatches(openLigaDbMatches);
+-    const clusters = championsLeagueMatchdayClusters(matches);
+-    const scheduledMatchdays = clusters.length;
+-    const scheduleConfirmed = scheduledMatchdays > 0;
+-    const centralMatches = centralGamesForCompetition(centralGameData, "champions-league");
+-
+-    if (!matches.length) return false;
+-    const schedule = document.createElement("section");
+-    schedule.className = "dynamic-section";
++    const centralMatches = centralGamesForCompetition(centralGameData, "champions-league")
++      .filter(match => match?.id && match?.datum && match?.heimTeamId && match?.auswaertsTeamId &&
++        Number.isInteger(match?.spieltagNummer) && match.spieltagNummer >= 1 && match.spieltagNummer <= 8);
++    // Kein ungepruefter API-Fallback, weil gerade dieser falsche Gegner erzeugte.
++    if (!centralMatches.length) return false;
++    auditChampionsLeagueApiMatches(centralMatches, openLigaDbMatches);
++    const roundMap = new Map();
++    centralMatches.forEach(match => {
++      const n = match.spieltagNummer;
++      if (!roundMap.has(n)) roundMap.set(n, []);
++      roundMap.get(n).push(match);
++    });
++    const clusters = [...roundMap.entries()].sort((a, b) => a[0] - b[0])
++      .map(([matchdayNumber, matches]) => ({
++        matchdayNumber,
++        matches: matches.sort((a, b) => `${a.datum}T${a.anstoss}`.localeCompare(`${b.datum}T${b.anstoss}`)),
++        dates: [...new Set(matches.map(match => match.datum))].sort()
++      }));
++    const section = document.createElement("section");
++    section.className = "dynamic-section";
+     const title = document.createElement("h2");
+-    title.textContent = scheduleConfirmed ? "Spiele der Champions League" : "Ligaphase · Paarungen in Vorbereitung";
+-    schedule.appendChild(title);
+-    if (!scheduleConfirmed) {
+-      const note = document.createElement("p");
+-      note.className = "data-note";
+-      note.textContent = "OpenLigaDB hat bereits Ligaphasen-Paarungen erfasst, aber noch keinen vollständigen terminieren 18er-Spieltag. Deshalb werden keine erfundenen Spieltagsnummern oder Platzhaltertermine angezeigt.";
+-      schedule.appendChild(note);
+-    }
+-
+-    if (scheduleConfirmed) {
+-      // Dieselbe Auswahlregel wie bei der Bundesliga: den nächsten Spieltag
+-      // mit mindestens einem Spiel heute oder in der Zukunft aufklappen.
+-      // Lokales Kalenderdatum statt UTC verwenden (Tageswechsel in Deutschland).
+-      const today = new Date();
+-      const todayIso = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+-      let openIndex = clusters.findIndex(cluster =>
+-        safeArray(cluster.dates).some(date => date >= todayIso)
+-      );
+-      if (openIndex < 0) openIndex = Math.max(clusters.length - 1, 0);
+-
+-      const accordion = document.createElement("div");
+-      accordion.className = "matchday-accordion";
+-      clusters.forEach((cluster, index) => {
+-        const details = document.createElement("details");
+-        details.className = "matchday-group";
+-        details.open = index === openIndex;
+-        const summary = document.createElement("summary");
+-        summary.className = "matchday-summary";
+-        const matchdayNumber = cluster.matchdayNumber || index + 1;
+-        const label = document.createElement("span"); label.textContent = `${matchdayNumber}. Spieltag`;
+-        const count = document.createElement("span"); count.className = "matchday-count"; count.textContent = `${cluster.matches.length} Spiele`;
+-        summary.append(label, count);
+-        const rows = cluster.matches
+-          .slice()
+-          .sort((a, b) => String(a?.matchDateTime ?? "").localeCompare(String(b?.matchDateTime ?? "")))
+-          .map(match => championsLeagueDisplayMatch(match, matchdayNumber, false, centralMatches));
+-        details.append(summary, createMatchList(rows, {
+-          teamIdentityFactory: (teamId, teamName, modifier, match, side) => {
+-            const sourceTeam = side === "home" ? match?.heimTeamSource : match?.auswaertsTeamSource;
+-            return createChampionsLeagueTeamIdentity(
+-              sourceTeam || { teamId, teamName },
+-              modifier
+-            );
+-          }
+-        }));
+-        accordion.appendChild(details);
+-      });
+-      schedule.appendChild(accordion);
+-    } else {
+-      const waiting = document.createElement("p");
+-      waiting.className = "data-note";
+-      waiting.textContent = `${matches.length} Paarungen sind bei OpenLigaDB bereits erfasst. Die Besucheransicht schaltet jeden Spieltag einzeln frei, sobald dafür 18 Spiele mit bestätigtem Anstoß und 36 eindeutigen Teams vorliegen.`;
+-      schedule.appendChild(waiting);
+-    }
+-    root.appendChild(schedule);
++    title.textContent = "Spiele der Champions League";
++    section.appendChild(title);
++    const today = new Date();
++    const todayIso = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
++    let openIndex = clusters.findIndex(cluster => cluster.dates.some(date => date >= todayIso));
++    if (openIndex < 0) openIndex = Math.max(clusters.length - 1, 0);
++    const accordion = document.createElement("div");
++    accordion.className = "matchday-accordion";
++    clusters.forEach((cluster, index) => {
++      const details = document.createElement("details");
++      details.className = "matchday-group";
++      details.open = index === openIndex;
++      const summary = document.createElement("summary");
++      summary.className = "matchday-summary";
++      const label = document.createElement("span");
++      label.textContent = `${cluster.matchdayNumber}. Spieltag`;
++      const count = document.createElement("span");
++      count.className = "matchday-count";
++      count.textContent = `${cluster.matches.length} Spiele`;
++      summary.append(label, count);
++      const rows = cluster.matches.map(centralChampionsLeagueDisplayMatch);
++      details.append(summary, createMatchList(rows, {
++        teamIdentityFactory: (teamId, teamName, modifier) => createTeamIdentity(teamId, teamName, modifier)
++      }));
++      accordion.appendChild(details);
++    });
++    section.appendChild(accordion);
++    root.appendChild(section);
+     return true;
+   }
+ 
+@@ -1420,38 +1589,41 @@
+     return wrap;
+   }
+ 
+-  function renderChampionsLeagueTable(openLigaDbMatches, root) {
++  function renderChampionsLeagueTable(centralGameData, root) {
+     if (slug !== "champions-league") return;
+ 
+-    const leaguePhaseMatches = championsLeaguePhaseMatches(openLigaDbMatches);
+-
++    // TEST2v2 4.9.28: Die CL-Tabelle wird ausschliesslich aus den zentralen
++    // TOSMC-Spielen gebildet. Ein fehlerhafter/externer Teilnehmername darf
++    // niemals die vollstaendige 36er-Anzeige verhindern oder Punkte verschieben.
++    const leaguePhaseMatches = centralGamesForCompetition(centralGameData, "champions-league")
++      .filter(match => match?.heimTeamId && match?.auswaertsTeamId &&
++        Number.isInteger(match?.spieltagNummer) && match.spieltagNummer >= 1 && match.spieltagNummer <= 8);
++    const teamLookup = createTeamLookup(currentTeamData);
+     const teams = new Map();
+ 
+-    function ensureTeam(team) {
+-      const id = String(team?.teamId ?? team?.teamID ?? team?.TeamId ?? team?.TeamID ?? "");
+-      const name = openLigaDbTeamName(team);
+-      const key = id || bracketTeamKey(name);
+-      if (!teams.has(key)) {
+-        teams.set(key, { id, name, sourceTeam: team, played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, points: 0 });
++    function ensureTeam(teamId, fallbackName) {
++      const id = String(teamId || "");
++      if (!id) return null;
++      if (!teams.has(id)) {
++        const name = teamName(teamLookup, id, fallbackName);
++        teams.set(id, {
++          id, name, sourceTeam: { teamId: id, teamName: name },
++          played: 0, wins: 0, draws: 0, losses: 0, goalsFor: 0, goalsAgainst: 0, points: 0
++        });
+       }
+-      return teams.get(key);
++      return teams.get(id);
+     }
+ 
+     leaguePhaseMatches.forEach(match => {
+-      const home = ensureTeam(match?.team1);
+-      const away = ensureTeam(match?.team2);
+-      const results = safeArray(match?.matchResults);
+-      const finalResult = results.find(result => Number(result?.resultTypeID ?? result?.resultTypeId ?? result?.ResultTypeID ?? -1) === 2)
+-        || results.find(result => {
+-          const name = String(result?.resultName ?? result?.resultTypeName ?? "").toLocaleLowerCase("de");
+-          return name.includes("end") || name.includes("final");
+-        })
+-        || results.at(-1);
+-      if (!finalResult) return;
+-      const homeGoals = Number(finalResult?.pointsTeam1 ?? finalResult?.PointsTeam1);
+-      const awayGoals = Number(finalResult?.pointsTeam2 ?? finalResult?.PointsTeam2);
+-      if (!Number.isFinite(homeGoals) || !Number.isFinite(awayGoals)) return;
+-
++      const home = ensureTeam(match.heimTeamId, match.heim);
++      const away = ensureTeam(match.auswaertsTeamId, match.auswaerts);
++      if (!home || !away) return;
++      // Nur bereits freigegebene TOSMC-Endergebnisse zaehlen.
++      if (match.status !== "beendet" || match.ergebnisNach90MinutenBestaetigt !== true ||
++          !Number.isInteger(match.heimtore) || !Number.isInteger(match.auswaertstore) ||
++          match.heimtore < 0 || match.auswaertstore < 0) return;
++      const homeGoals = match.heimtore;
++      const awayGoals = match.auswaertstore;
+       home.played += 1; away.played += 1;
+       home.goalsFor += homeGoals; home.goalsAgainst += awayGoals;
+       away.goalsFor += awayGoals; away.goalsAgainst += homeGoals;
+@@ -1488,13 +1660,11 @@
+       section.appendChild(note); root.appendChild(section); return;
+     }
+ 
+-    // Keine scheinbar vollständige CL-Tabelle anzeigen, solange OpenLigaDB
+-    // noch nicht alle 36 Teilnehmer über die Ligaphasen-Paarungen geliefert hat.
+-    // Die Prüfung läuft bei jedem Laden erneut; ab 36 Teams erscheint die Tabelle automatisch.
+-    if (rows.length < 36) {
++    // Bei unvollstaendiger zentraler Saisonbasis keine Vollstaendigkeit vortaeuschen.
++    if (rows.length !== 36) {
+       const note = document.createElement("p");
+       note.className = "data-note";
+-      note.textContent = `OpenLigaDB hat derzeit ${rows.length} von 36 Teilnehmern in den erfassten Ligaphasen-Paarungen geliefert. Die vollständige Tabelle wird automatisch eingeblendet, sobald alle 36 Vereine vorhanden sind.`;
++      note.textContent = `TOSMC-Spielplan: ${rows.length} von 36 CL-Teilnehmern nachgewiesen. Tabelle bis zur vollstaendigen Datenbasis zurueckgestellt.`;
+       section.appendChild(note);
+       root.appendChild(section);
+       return;
+@@ -1719,12 +1889,19 @@
+       return true;
+     }
+ 
++    // Wie bei der CL: naechsten Spieltag mit mindestens einem Spiel heute
++    // oder in der Zukunft oeffnen. Nach Saisonende den letzten Spieltag.
++    const today = new Date();
++    const todayIso = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
++    let openIndex = clusters.findIndex(cluster => safeArray(cluster.dates).some(date => date >= todayIso));
++    if (openIndex < 0) openIndex = Math.max(clusters.length - 1, 0);
++
+     const accordion = document.createElement("div");
+     accordion.className = "matchday-accordion";
+     clusters.forEach((cluster, index) => {
+       const details = document.createElement("details");
+       details.className = "matchday-group";
+-      details.open = index === 0;
++      details.open = index === openIndex;
+ 
+       const summary = document.createElement("summary");
+       summary.className = "matchday-summary";
+@@ -2307,7 +2484,8 @@
+     let openIndex = visibleRounds.findIndex(([key]) =>
+       (groups.get(key) || []).some(match => openLigaDbMatchDate(match) >= todayIso)
+     );
+-    if (openIndex < 0) openIndex = Math.max(visibleRounds.length - 1, 0);
++    // Alle bereits beendeten 1./2. Hauptrunden bleiben standardmaessig zu.
++    // Ab Achtelfinale ist der Turnierbaum die relevante naechste Runde.
+ 
+     const accordion = document.createElement("div");
+     accordion.className = "matchday-accordion";
+@@ -2737,7 +2915,7 @@
+     if (slug !== "dfb-pokal") return result;
+ 
+     const entries = normalizeGoalGetterEntries(goalGetterData);
+-    const leader = entries[0] || null;
++    const leader = entries.find(entry => entry.tore > 0) || null;
+ 
+     result[0] = leader
+       ? {
+@@ -3812,7 +3990,7 @@
+ 
+       championsLeaguePhaseOverviewRendered = renderStandardGamesSlot(coreSections, buttons, root, { championsLeague: true, openLigaDbMatches: openLigaDbClTable, gameData, title: "Spiele der Champions League" });
+       renderMidNavigation(buttons, root);
+-      renderChampionsLeagueTable(openLigaDbClTable, root);
++      renderChampionsLeagueTable(gameData, root);
+       renderMidNavigation(buttons, root);
+       renderChampionsLeagueFormTable(openLigaDbClTable, root);
+ 
+@@ -3968,6 +4146,14 @@
+       text("title", data.titel);
+       text("description", data.beschreibung);
+ 
++      // Ein zentraler Schutz fuer saemtliche OpenLigaDB-Spiel-Datenwege.
++      // Die CL-Ligaphase wird weiterhin autoritativ aus TOSMC dargestellt.
++      const centralGames = allCentralGames(centralGameData);
++      const verifiedDfbMatches = guardOpenLigaDbMatches(openLigaDbDfbMatches, "dfb-pokal", centralGames).matches;
++      const verifiedClMatches = guardOpenLigaDbMatches(openLigaDbClTable, "champions-league", centralGames).matches;
++      const verifiedElMatches = guardOpenLigaDbMatches(openLigaDbElMatches, "europa-league", centralGames).matches;
++      const verifiedDynamoMatches = guardOpenLigaDbMatches(dynamoMatchData, "bundesliga-2", centralGames).matches;
++
+       const preparedCards = slug === "bundesliga"
+         ? bundesligaInfoCards(data.karten, bundesligaGoalGetterData)
+         : slug === "dfb-pokal"
+@@ -3977,7 +4163,7 @@
+             : slug === "europa-league"
+               ? europaLeagueInfoCards(data.karten, europaLeagueGoalGetterData)
+             : slug === "dynamo-dresden"
+-              ? dynamoDresdenInfoCards(data.karten, dynamoMatchData)
++              ? dynamoDresdenInfoCards(data.karten, verifiedDynamoMatches)
+               : slug === "relegation"
+                 ? relegationInfoCards(data.karten, centralGameData)
+                 : slug === "piratenkodex"
+@@ -3999,7 +4185,7 @@
+             : [centralSection, ...editorialSections])
+         : editorialSections;
+ 
+-      renderSections(sections, data.buttons, centralGameData, teamData, bundesligaTableData, openLigaDbDfbMatches, openLigaDbClTable, openLigaDbElMatches, europaLeagueFallback, dynamoMatchData);
++      renderSections(sections, data.buttons, centralGameData, teamData, bundesligaTableData, verifiedDfbMatches, verifiedClMatches, verifiedElMatches, europaLeagueFallback, verifiedDynamoMatches);
+       renderButtons(data.buttons);
+       text("footer-text", data.fusszeile);
+       await loadFooterVersion();
