@@ -2242,3 +2242,46 @@ body.page-dynamo-dresden{
 .synchronized-placeholder .data-note {
   margin-bottom: 0;
 }
+
+
+/* vNext 4.11.4 – LIVE 4.9.6: zentrale Wappenachse nur fuer createMatchList-Paarungen.
+   Einschliesslich Smugglerauftrag (body.page-dynamo-dresden), ohne KO-Baeume/Tabellen. */
+.match-list .match-row > .match-pairing {
+  display:grid; grid-template-columns:minmax(0,1fr) clamp(14px,1.6vw,20px) minmax(0,1fr);
+  grid-template-rows:auto; align-items:center; column-gap:clamp(4px,.8vw,10px);
+  justify-items:stretch;min-width:0;width:100%;
+}
+.match-list .match-row > .match-pairing > .team-identity--home {
+  display:grid;grid-template-columns:minmax(0,1fr) 32px;grid-template-rows:auto;
+  align-items:center;min-width:0;gap:6px;width:100%;
+  justify-content:stretch;text-align:right;grid-column:1;grid-row:1;
+}
+.match-list .match-row > .match-pairing > .team-identity--away {
+  display:grid;grid-template-columns:32px minmax(0,1fr);grid-template-rows:auto;
+  align-items:center;min-width:0;gap:6px;width:100%;
+  justify-content:stretch;text-align:left;grid-column:3;grid-row:1;
+}
+.match-list .match-row > .match-pairing > .team-identity--home > .team-identity__name {
+  grid-column:1;grid-row:1;justify-self:end;text-align:right;
+  white-space:normal;overflow-wrap:break-word;word-break:normal;min-width:0;width:auto;
+}
+.match-list .match-row > .match-pairing > .team-identity--home > .team-identity__badge {
+  grid-column:2;grid-row:1;justify-self:center;width:32px;height:32px;min-width:0;flex:0 0 32px;
+}
+.match-list .match-row > .match-pairing > .match-pairing__separator {
+  grid-column:2;grid-row:1;justify-self:center;text-align:center;
+}
+.match-list .match-row > .match-pairing > .team-identity--away > .team-identity__badge {
+  grid-column:1;grid-row:1;justify-self:center;width:32px;height:32px;min-width:0;flex:0 0 32px;
+}
+.match-list .match-row > .match-pairing > .team-identity--away > .team-identity__name {
+  grid-column:2;grid-row:1;justify-self:start;text-align:left;
+  white-space:normal;overflow-wrap:break-word;word-break:normal;min-width:0;width:auto;
+}
+@media(max-width:520px){
+  .match-list .match-row > .match-pairing > .team-identity--home,
+  .match-list .match-row > .match-pairing > .team-identity--away {gap:4px;}
+  .match-list .match-row > .match-pairing > .team-identity--home {grid-template-columns:minmax(0,1fr) 26px;}
+  .match-list .match-row > .match-pairing > .team-identity--away {grid-template-columns:26px minmax(0,1fr);}
+  .match-list .match-row > .match-pairing .team-identity__badge {width:26px;height:26px;flex:0 0 26px;}
+}

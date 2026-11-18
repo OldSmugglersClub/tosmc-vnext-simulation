@@ -3541,7 +3541,11 @@ function normalizeGoalGetterEntries(goalGetterData) {
       const result = document.createElement("span");
       result.className = "result";
       result.textContent = match.ergebnis || "";
-      resultWrap.append(stateBadge, result);
+      const hasConfirmedKickoff = state === "scheduled"
+        && /^\d{2}:\d{2}$/.test(String(match.anstoss || ""))
+        && Boolean(match.datumIso || match.datumSortierung || match.datum);
+      if (!hasConfirmedKickoff) resultWrap.appendChild(stateBadge);
+      resultWrap.appendChild(result);
       const cocoLink = createCocoMatchLink(match);
       if (cocoLink) resultWrap.appendChild(cocoLink);
 

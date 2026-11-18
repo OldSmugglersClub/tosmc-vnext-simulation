@@ -6435,6 +6435,8 @@
         0 5px 15px rgba(0,0,0,.37),
         0 0 12px rgba(208,147,62,.09);
     }
+
+
 </style>
   <link rel="stylesheet" href="./highscore.css?v=4.0.1">
   <link rel="stylesheet" href="./logbuch.css?v=4.9.2-HF12-HF122-FINAL">
@@ -7115,6 +7117,78 @@
   .smuggler-command-bottom #season-progress-percent {min-width:47px;padding:5px 7px;font-size:.76rem !important;}
 }
 
+</style>
+<style id="vnext-4114-live496-layout">
+  /* vNext 4.11.4 – LIVE 4.9.6: zugängliche 7-Tage-Gruppen und feste Wappenmitte. */
+  #aktueller-spieltag .sm-event-list,
+  #aktueller-spieltag .sm-event-list.is-empty,
+  #aktueller-spieltag .sm-event-list.is-single,
+  #aktueller-spieltag .sm-event-list.is-double,
+  #aktueller-spieltag .sm-event-list.is-multiple {
+    height:auto; max-height:none; min-height:0; overflow:visible;
+    overscroll-behavior:auto; scrollbar-gutter:auto; flex:0 0 auto;
+  }
+  #aktueller-spieltag .sm-day { min-width:0; }
+  #aktueller-spieltag .sm-day > summary.sm-day__title {
+    position:relative; top:auto; display:list-item; cursor:pointer;
+    list-style:none; padding-right:2.8rem;
+  }
+  #aktueller-spieltag .sm-day > summary.sm-day__title::-webkit-details-marker {display:none;}
+  #aktueller-spieltag .sm-day > summary.sm-day__title::after {
+    content:"+"; position:absolute; right:1rem; top:50%; transform:translateY(-50%);
+    color:#f1d18d; font-size:1.25rem; font-weight:800;
+  }
+  #aktueller-spieltag .sm-day[open] > summary.sm-day__title::after {content:"−";}
+  #aktueller-spieltag .sm-day > summary.sm-day__title:focus-visible {
+    outline:2px solid #eac270; outline-offset:-2px;
+  }
+  #aktueller-spieltag .sm-event-row__match {
+    display:grid; grid-template-columns:minmax(0,1fr) 32px 1.2rem 32px minmax(0,1fr);
+    grid-template-rows:auto; align-items:center; column-gap:6px;
+    max-width:620px; width:100%; margin-inline:auto; text-align:initial;
+  }
+  #aktueller-spieltag .sm-event-row__team {display:contents;}
+  #aktueller-spieltag .sm-event-row__team--home > .sm-event-row__team-name {
+    grid-column:1;grid-row:1;justify-self:end;text-align:right;
+  }
+  #aktueller-spieltag .sm-event-row__team--home > .sm-event-row__seal {
+    grid-column:2;grid-row:1;justify-self:center;
+  }
+  #aktueller-spieltag .sm-event-row__separator {
+    display:block; grid-column:3;grid-row:1;justify-self:center;align-self:center;text-align:center;
+    width:auto; min-width:0;
+  }
+  #aktueller-spieltag .sm-event-row__team--away > .sm-event-row__seal {
+    grid-column:4;grid-row:1;justify-self:center;
+  }
+  #aktueller-spieltag .sm-event-row__team--away > .sm-event-row__team-name {
+    grid-column:5;grid-row:1;justify-self:start;text-align:left;
+  }
+  #aktueller-spieltag .sm-event-row__team-name {
+    min-width:0;width:auto;max-width:100%;white-space:normal;
+    overflow-wrap:break-word;word-break:normal;hyphens:none;
+  }
+  #aktueller-spieltag .sm-event-row__competition--smugglerauftrag {
+    font-size:.72rem;letter-spacing:.05em;white-space:nowrap;
+    word-break:normal;overflow-wrap:normal;hyphens:none;
+  }
+  @media(max-width:760px){
+    #aktueller-spieltag .sm-event-row__match {
+      grid-template-columns:minmax(0,1fr) 27px .85rem 27px minmax(0,1fr);
+      column-gap:4px;
+    }
+    #aktueller-spieltag .sm-event-row__seal {width:27px;height:27px;min-width:0;flex:0 0 27px;}
+    #aktueller-spieltag .sm-event-row__competition--smugglerauftrag {
+      font-size:clamp(.58rem,2.5vw,.72rem);letter-spacing:0;
+    }
+  }
+  @media(max-width:380px){
+    #aktueller-spieltag .sm-event-row__match {
+      grid-template-columns:minmax(0,1fr) 23px .7rem 23px minmax(0,1fr);
+      column-gap:3px;
+    }
+    #aktueller-spieltag .sm-event-row__seal {width:23px;height:23px;flex:0 0 23px;}
+  }
 </style>
 </head>
 
@@ -8356,8 +8430,11 @@
             groups.get(key).push(game);
           });
           groups.forEach(eventsForDay=>{
-            const day=document.createElement("section"); day.className="sm-day";
-            const dayTitle=document.createElement("h3"); dayTitle.className="sm-day__title";
+            const day=document.createElement("details"); day.className="sm-day";
+            // Wochentag des Veranstaltungstages, nicht der Beginn des Vorschaufensters.
+            const weekday=eventsForDay[0]._start.getDay();
+            day.open=(weekday===5 || weekday===6 || weekday===0 || weekday===1);
+            const dayTitle=document.createElement("summary"); dayTitle.className="sm-day__title";
             dayTitle.textContent=new Intl.DateTimeFormat(locale,{weekday:"long",day:"2-digit",month:"long"}).format(eventsForDay[0]._start);
             day.appendChild(dayTitle);
             eventsForDay.forEach(game=>{
@@ -8373,7 +8450,12 @@
               }
               const time=document.createElement("span"); time.className="sm-event-row__time"; time.textContent=game.anstoss;
               const competition=document.createElement("span"); competition.className="sm-event-row__competition";
-              competition.textContent=String(game.matchdayType||"").trim().toLowerCase()==="smugglerauftrag"?(game.matchdayName||"Smugglerauftrag"):(game.wettbewerbAnzeige||game.wettbewerb||"Ereignis");
+              if(String(game.matchdayType||"").trim().toLowerCase()==="smugglerauftrag"){
+                competition.classList.add("sm-event-row__competition--smugglerauftrag");
+                competition.textContent="SMUGGLERAUFTRAG";
+              }else{
+                competition.textContent=game.wettbewerbAnzeige||game.wettbewerb||"Ereignis";
+              }
               const match=document.createElement("span"); match.className="sm-event-row__match";
 
               const homeWrap=document.createElement("span"); homeWrap.className="sm-event-row__team sm-event-row__team--home";
