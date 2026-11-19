@@ -7190,6 +7190,18 @@
     #aktueller-spieltag .sm-event-row__seal {width:23px;height:23px;flex:0 0 23px;}
   }
 </style>
+<style id="vnext-4116-mobile-plakettennieten">
+/* vNext 4.11.6: ausschließlich linke mobile Messingplakette. */
+@media (max-width: 760px) {
+  #aktueller-spieltag #sm-schedule-label {
+    box-sizing: border-box;
+    padding: 8px 24px;
+    overflow-wrap: anywhere;
+  }
+  #aktueller-spieltag #sm-schedule-label::before { left: 8px; }
+  #aktueller-spieltag #sm-schedule-label::after { right: 8px; }
+}
+</style>
 </head>
 
 <body>
