@@ -8443,9 +8443,10 @@
           });
           groups.forEach(eventsForDay=>{
             const day=document.createElement("details"); day.className="sm-day";
-            // Wochentag des Veranstaltungstages, nicht der Beginn des Vorschaufensters.
-            const weekday=eventsForDay[0]._start.getDay();
-            day.open=(weekday===5 || weekday===6 || weekday===0 || weekday===1);
+            // Pro Tagesgruppe 72 Stunden vor dem fruehesten Eventstart automatisch oeffnen.
+            // Keine Bevorzugung bestimmter Wochentage oder Wettbewerbe.
+            const firstEventStart=Math.min(...eventsForDay.map(event=>event._start.getTime()));
+            day.open=(firstEventStart-now.getTime()<=3*24*60*60*1000);
             const dayTitle=document.createElement("summary"); dayTitle.className="sm-day__title";
             dayTitle.textContent=new Intl.DateTimeFormat(locale,{weekday:"long",day:"2-digit",month:"long"}).format(eventsForDay[0]._start);
             day.appendChild(dayTitle);

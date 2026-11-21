@@ -1,34 +1,16 @@
-# TOSMC Admin vNext 4.11.6 – Mobile Plakettennieten
-Datum: 19.11.2026 (Europe/Berlin)
+# vNext 4.11.7 – Prüfbericht (21.11.2026)
 
-## Quellen
-- Übergabe `TOSMC_AN_VNEXT_2026-11-19_Mobile_Plakettennieten(1).md` vollständig gelesen.
-- vNext-Regelwerk 1.3 und Fehlerprotokoll aus geprüfter Übergabe-ZIP vom 18.11.2026 berücksichtigt.
-- GitHub vNext `OldSmugglersClub/tosmc-vnext-simulation`, Branch `main`, HEAD `d61cbf9e5343b94074d78bddb186f0754acbddb5`, VERSION `4.11.5`, read-only abgerufen.
-- GitHub Blob `index.html`: `7121b9c521543fbdbecbb97051df65f4c47a9acb`; lokale Originalbytes identisch.
-- Operativer Referenzcommit `4d92cdca5ffb390dede73a5a39f1b73abb058322`, nur Diff gelesen, keine operative Datei kopiert.
+Basis: `tosmc-vnext-simulation-main (1).zip`, Website-Root `index.html`, Version 4.11.6. Dieser Dateistand stimmt mit dem zuvor direkt gelesenen GitHub-Blob `4feed780a59cdbba89639832de48f63230d976fc` überein.
 
-## Befund
-Im vorhandenen vNext-Mobilcode ist ein Innenabstand von 10 px dokumentiert, während die Nietendekoration ursprünglich 12 px zum Plakettenrand einhält. Ein tatsächliches Überdecken von Glyphen wurde im isolierten Testaufbau nicht reproduziert. Die abweichende Geometrie gegenüber dem auf LIVE bestätigten Fix ist nachgewiesen.
+Änderung: Nur automatische Öffnungsregel der Tagesgruppen in `#aktueller-spieltag`: 72 Stunden vor frühestem Eventstart der Gruppe, statt Freitag/Samstag/Sonntag/Montag. Kein Wettbewerbsvorrang; manuelles `details`-Verhalten bleibt unverändert. Version 4.11.7.
 
-## Änderung
-- `index.html`: ein eigener, auf max. 760 px und ausschließlich `#aktueller-spieltag #sm-schedule-label` begrenzter CSS-Block mit padding `8px 24px`, `overflow-wrap:anywhere`, Nieten links/rechts je 8 px.
-- `VERSION.txt`: 4.11.5 → 4.11.6.
-- Keine Änderung der rechten Statusplakette, der Desktop-CSS-Regeln, JS, Daten, Berechnungen, Links oder Workflows.
+Prüfungen:
+- 11/11 JS-Zeitgrenz- und Gruppentests bestanden (auch unsortierte Events und Wochenenden).
+- 3 eingebettete JavaScript-Blöcke: `node --check` bestanden.
+- Außer der Öffnungsregel keine Änderung an `index.html`; `VERSION.txt` 4.11.7.
+- Basis-SHA256 index.html: `b7ce88e41424f443171efad6b2b4febf7918269d6261404760e7d2810d7424d1`.
+- Update-SHA256 index.html: `9cec555dc509e506f2255d98f2e09bcdd7a03e971571f4cb2b484ed5c03cb535`.
+- ZIP-CRC, SHA-256: geprüft (siehe SHA256SUMS.txt).
+- Browser-/LIVE-Sichtabnahme offen. Kein GitHub-Schreibzugriff, keine operative Website-Änderung.
 
-## Regressionen
-- Lokaler isolierter Chromium-CSS/DOM-Test: 9/9 Breiten 320, 360, 375, 390, 520, 760, 800, 1024, 1440 px bestanden.
-- Linke Plakette: ab 760 px und darunter 24 px horizontaler Innenabstand, Nieten je 8 px Randabstand; keine im Test beobachtete Text-/Nietenüberlappung.
-- Rechte Plakette: alle neun Layoutmessungen vor/nach Änderung identisch.
-- Desktop 800/1024/1440 px: alle gemessenen linken Layoutwerte vor/nach Änderung identisch.
-- Dokumentbreite: an neun Testbreiten kein neuer horizontaler Overflow.
-- HTML via Python HTMLParser ohne Parserfehler verarbeitet.
-- Dateidiff auf zwei Website-Dateien begrenzt; bisherige `index.html` bis auf neuen CSS-Block byteidentisch.
-
-## Offene Nachweise
-- Echter vollständiger Seitenaufruf im Browser: durch `ERR_BLOCKED_BY_ADMINISTRATOR` gesperrt; isolierte CSS-/DOM-Tests wurden stattdessen erfolgreich durchgeführt.
-- Visuelle Nutzerprüfung nach manueller Simulationseinspielung ausstehend.
-- Kein GitHub-Commit, Push, Workflowstart, LIVE/TEST2v2-Eingriff oder produktiver Abschluss durchgeführt.
-
-## Einspielung
-Nur `index.html` und `VERSION.txt` im Repository `OldSmugglersClub/tosmc-vnext-simulation` auf Basis des oben angegebenen HEAD manuell ersetzen. Bei neuerem HEAD vor Einspielung erneut abgleichen. Das Paket ist ein kleines UPDATE, kein vollständiges Repository.
+Voraussetzung: Vor Einspielung den aktuellen Website-Stand mit Basis vergleichen; dieses Update überschreibt nur `index.html` und `VERSION.txt`.
