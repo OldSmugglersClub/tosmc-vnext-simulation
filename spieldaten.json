@@ -4937,14 +4937,38 @@
           "datumAnzeige": "20.11.2026",
           "anstoss": "20:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 1,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "bayern-muenchen",
-          "auswaertsTeamId": "koeln"
+          "auswaertsTeamId": "koeln",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-21T00:15:44.842Z",
+            "abgegeben": 67,
+            "nichtAbgegeben": 15,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 64,
+                "prozent": 95.5
+              },
+              "2": {
+                "anzahl": 2,
+                "prozent": 3
+              },
+              "X": {
+                "anzahl": 1,
+                "prozent": 1.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-21T00:15:44.842Z"
         },
         {
           "id": "bl-2026-27-10-083",
@@ -15661,6 +15685,6 @@
       ]
     }
   ],
-  "datenVersion": 97,
-  "aktualisiert": "2026-11-08"
+  "datenVersion": 98,
+  "aktualisiert": "2026-11-21"
 }
