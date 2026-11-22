@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 28,
-  "aktualisiertAm": "2026-11-22T16:50:42.337Z",
+  "datenVersion": 29,
+  "aktualisiertAm": "2026-11-22T19:43:10.283Z",
   "saison": "2026-27",
   "status": "Berechnet",
   "kategorien": [
     {
       "titel": "Spieltagsführer",
-      "name": "Opipeter",
-      "wert": "281 Punkte"
+      "name": "Olympiakos",
+      "wert": "294 Punkte"
     },
     {
       "titel": "Meiste exakte Tipps",

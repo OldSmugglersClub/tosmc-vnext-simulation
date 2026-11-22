@@ -4973,7 +4973,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -4992,7 +4992,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-083",
@@ -5020,7 +5020,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5039,7 +5039,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-084",
@@ -5067,7 +5067,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5086,7 +5086,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-085",
@@ -5102,14 +5102,38 @@
           "datumAnzeige": "22.11.2026",
           "anstoss": "15:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "augsburg",
-          "auswaertsTeamId": "mainz-05"
+          "auswaertsTeamId": "mainz-05",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-22T19:43:10.283Z",
+            "abgegeben": 69,
+            "nichtAbgegeben": 13,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 37,
+                "prozent": 53.6
+              },
+              "2": {
+                "anzahl": 13,
+                "prozent": 18.8
+              },
+              "X": {
+                "anzahl": 19,
+                "prozent": 27.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-086",
@@ -5137,7 +5161,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5156,7 +5180,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-087",
@@ -5184,7 +5208,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5203,7 +5227,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-088",
@@ -5219,14 +5243,38 @@
           "datumAnzeige": "22.11.2026",
           "anstoss": "17:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 4,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "werder-bremen",
-          "auswaertsTeamId": "hamburger-sv"
+          "auswaertsTeamId": "hamburger-sv",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-22T19:43:10.283Z",
+            "abgegeben": 70,
+            "nichtAbgegeben": 12,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 52,
+                "prozent": 74.3
+              },
+              "2": {
+                "anzahl": 3,
+                "prozent": 4.3
+              },
+              "X": {
+                "anzahl": 15,
+                "prozent": 21.4
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-089",
@@ -5254,7 +5302,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5273,7 +5321,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-10-090",
@@ -5301,7 +5349,7 @@
           "tippverteilung": {
             "schemaVersion": 1,
             "quelle": "Kicktipp – Tipps aller Tipper",
-            "stand": "2026-11-21T21:56:23.046Z",
+            "stand": "2026-11-22T19:43:10.283Z",
             "abgegeben": 67,
             "nichtAbgegeben": 15,
             "verborgen": 0,
@@ -5320,7 +5368,7 @@
               }
             }
           },
-          "aktualisiertAm": "2026-11-21T21:56:23.046Z"
+          "aktualisiertAm": "2026-11-22T19:43:10.283Z"
         },
         {
           "id": "bl-2026-27-11-091",
@@ -15853,6 +15901,6 @@
       ]
     }
   ],
-  "datenVersion": 100,
+  "datenVersion": 101,
   "aktualisiert": "2026-11-22"
 }

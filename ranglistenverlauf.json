@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 29,
+  "datenVersion": 30,
   "aktualisiert": "2026-11-22",
   "saison": "2026-27",
   "hinweis": "Bestehende Historie erhalten; neue Gesamtstände aus Kicktipp. Expliziter Vorherstand berücksichtigt parallele Teilabschlüsse.",
@@ -254,6 +254,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 1,
           "punkte": 290,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 1,
+            "punkte": 290,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 1,
+          "punkte": 296,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 1,
@@ -526,6 +540,20 @@
             "punkte": 278,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 3,
+          "punkte": 282,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 3,
+            "punkte": 278,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -792,6 +820,20 @@
             "punkte": 286,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 2,
+          "punkte": 292,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 2,
+            "punkte": 286,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1051,6 +1093,20 @@
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 7,
+          "punkte": 267,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 7,
+            "punkte": 267,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 14,
           "punkte": 267,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
@@ -1324,6 +1380,20 @@
             "punkte": 267,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 5,
+          "punkte": 276,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 6,
+            "punkte": 267,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1590,6 +1660,20 @@
             "punkte": 264,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 10,
+          "punkte": 270,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 13,
+            "punkte": 264,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -1850,6 +1934,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 4,
           "punkte": 271,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 4,
+            "punkte": 271,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 4,
+          "punkte": 277,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 4,
@@ -2122,6 +2220,20 @@
             "punkte": 271,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 6,
+          "punkte": 275,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 5,
+            "punkte": 271,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2382,6 +2494,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 11,
           "punkte": 264,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 11,
+            "punkte": 264,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 12,
+          "punkte": 268,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 11,
@@ -2654,6 +2780,20 @@
             "punkte": 249,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 29,
+          "punkte": 253,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 26,
+            "punkte": 249,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -2913,6 +3053,20 @@
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 37,
+          "punkte": 242,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 37,
+            "punkte": 242,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 41,
           "punkte": 242,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
@@ -3186,6 +3340,20 @@
             "punkte": 259,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 17,
+          "punkte": 265,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 17,
+            "punkte": 259,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3446,6 +3614,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 10,
           "punkte": 265,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 10,
+            "punkte": 265,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 11,
+          "punkte": 269,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 10,
@@ -3718,6 +3900,20 @@
             "punkte": 252,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 21,
+          "punkte": 257,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 21,
+            "punkte": 255,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -3984,6 +4180,20 @@
             "punkte": 247,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 30,
+          "punkte": 251,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 28,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4244,6 +4454,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 8,
           "punkte": 266,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 8,
+            "punkte": 266,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 7,
+          "punkte": 270,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 8,
@@ -4726,6 +4950,20 @@
             "punkte": 259,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 8,
+          "punkte": 270,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 12,
+            "punkte": 264,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -4978,6 +5216,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 9,
           "punkte": 266,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 9,
+            "punkte": 266,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 9,
+          "punkte": 270,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 9,
@@ -5250,6 +5502,20 @@
             "punkte": 252,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 27,
+          "punkte": 254,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 23,
+            "punkte": 252,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -5510,6 +5776,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 33,
           "punkte": 247,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 33,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 32,
+          "punkte": 251,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 33,
@@ -5782,6 +6062,20 @@
             "punkte": 257,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 18,
+          "punkte": 261,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 18,
+            "punkte": 257,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6042,6 +6336,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 30,
           "punkte": 247,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 30,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 31,
+          "punkte": 251,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 30,
@@ -6314,6 +6622,20 @@
             "punkte": 247,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 28,
+          "punkte": 253,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 29,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6580,6 +6902,20 @@
             "punkte": 252,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 20,
+          "punkte": 259,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 20,
+            "punkte": 255,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -6839,6 +7175,20 @@
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 42,
+          "punkte": 234,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 42,
+            "punkte": 234,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 44,
           "punkte": 234,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
@@ -7112,6 +7462,20 @@
             "punkte": 247,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 33,
+          "punkte": 249,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 32,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7372,6 +7736,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 31,
           "punkte": 247,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 31,
+            "punkte": 247,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 26,
+          "punkte": 254,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 31,
@@ -7644,6 +8022,20 @@
             "punkte": 262,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 16,
+          "punkte": 266,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 15,
+            "punkte": 262,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -7904,6 +8296,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 19,
           "punkte": 257,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 19,
+            "punkte": 257,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 19,
+          "punkte": 261,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 19,
@@ -8176,6 +8582,20 @@
             "punkte": 262,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 13,
+          "punkte": 268,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 14,
+            "punkte": 262,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8439,6 +8859,20 @@
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 21,
+            "punkte": 252,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 22,
+          "punkte": 256,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 22,
             "punkte": 252,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
@@ -8708,6 +9142,20 @@
             "punkte": 215,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 54,
+          "punkte": 222,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 54,
+            "punkte": 218,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -8968,6 +9416,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 38,
           "punkte": 242,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 38,
+            "punkte": 242,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 38,
+          "punkte": 246,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 38,
@@ -9240,6 +9702,20 @@
             "punkte": 245,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 35,
+          "punkte": 247,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 34,
+            "punkte": 245,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -9500,6 +9976,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 40,
           "punkte": 238,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 40,
+            "punkte": 238,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 39,
+          "punkte": 244,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 40,
@@ -9772,6 +10262,20 @@
             "punkte": 239,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 37,
+          "punkte": 246,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 39,
+            "punkte": 239,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10032,6 +10536,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 53,
           "punkte": 219,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 53,
+            "punkte": 219,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 53,
+          "punkte": 223,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 53,
@@ -10304,6 +10822,20 @@
             "punkte": 260,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 15,
+          "punkte": 266,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 16,
+            "punkte": 260,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -10564,6 +11096,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 50,
           "punkte": 224,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 50,
+            "punkte": 224,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 51,
+          "punkte": 228,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 50,
@@ -10836,6 +11382,20 @@
             "punkte": 236,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 40,
+          "punkte": 242,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 41,
+            "punkte": 236,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11096,6 +11656,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 43,
           "punkte": 233,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 43,
+            "punkte": 233,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 42,
+          "punkte": 237,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 43,
@@ -11368,6 +11942,20 @@
             "punkte": 250,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 25,
+          "punkte": 254,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 25,
+            "punkte": 250,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -11628,6 +12216,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 36,
           "punkte": 242,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 36,
+            "punkte": 242,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 34,
+          "punkte": 248,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 36,
@@ -11900,6 +12502,20 @@
             "punkte": 242,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 36,
+          "punkte": 246,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 35,
+            "punkte": 242,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12160,6 +12776,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 27,
           "punkte": 248,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 27,
+            "punkte": 248,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 24,
+          "punkte": 254,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 27,
@@ -12432,6 +13062,20 @@
             "punkte": 222,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 52,
+          "punkte": 228,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 52,
+            "punkte": 222,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12698,6 +13342,20 @@
             "punkte": 207,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 58,
+          "punkte": 212,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 56,
+            "punkte": 212,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -12958,6 +13616,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 51,
           "punkte": 223,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 51,
+            "punkte": 223,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 50,
+          "punkte": 229,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 51,
@@ -13230,6 +13902,20 @@
             "punkte": 248,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 23,
+          "punkte": 255,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 24,
+            "punkte": 251,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -13490,6 +14176,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 55,
           "punkte": 215,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 55,
+            "punkte": 215,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 55,
+          "punkte": 219,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 55,
@@ -13762,6 +14462,20 @@
             "punkte": 227,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 45,
+          "punkte": 233,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 47,
+            "punkte": 227,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14022,6 +14736,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 45,
           "punkte": 228,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 45,
+            "punkte": 228,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 47,
+          "punkte": 232,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 45,
@@ -14294,6 +15022,20 @@
             "punkte": 228,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 48,
+          "punkte": 230,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 46,
+            "punkte": 228,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14560,6 +15302,20 @@
             "punkte": 227,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 46,
+          "punkte": 233,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 49,
+            "punkte": 227,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -14804,6 +15560,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 59,
           "punkte": 206,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 59,
+            "punkte": 206,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 57,
+          "punkte": 213,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 59,
@@ -15076,6 +15846,20 @@
             "punkte": 233,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 43,
+          "punkte": 235,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 44,
+            "punkte": 233,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15336,6 +16120,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 60,
           "punkte": 202,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 60,
+            "punkte": 202,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 60,
+          "punkte": 204,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 60,
@@ -15608,6 +16406,20 @@
             "punkte": 224,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 49,
+          "punkte": 229,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 48,
+            "punkte": 227,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -15868,6 +16680,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 61,
           "punkte": 198,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 61,
+            "punkte": 198,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 61,
+          "punkte": 203,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 61,
@@ -16140,6 +16966,20 @@
             "punkte": 206,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 59,
+          "punkte": 208,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 58,
+            "punkte": 206,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -16384,6 +17224,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 62,
           "punkte": 193,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 62,
+            "punkte": 193,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 62,
+          "punkte": 199,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 62,
@@ -16646,6 +17500,20 @@
           "vorherGesamtstand": {
             "platz": 57,
             "punkte": 207,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 56,
+          "punkte": 216,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 57,
+            "punkte": 212,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
         }
@@ -16914,6 +17782,20 @@
             "punkte": 168,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 65,
+          "punkte": 172,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 65,
+            "punkte": 168,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17166,6 +18048,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 63,
           "punkte": 180,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 63,
+            "punkte": 180,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 63,
+          "punkte": 182,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 63,
@@ -17438,6 +18334,20 @@
             "punkte": 151,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 67,
+          "punkte": 153,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 67,
+            "punkte": 151,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -17696,6 +18606,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 69,
+          "punkte": 136,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 69,
+            "punkte": 136,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 69,
           "punkte": 136,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -17964,6 +18888,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 64,
           "punkte": 170,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 64,
+            "punkte": 170,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 64,
+          "punkte": 172,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 64,
@@ -18488,6 +19426,20 @@
             "punkte": 154,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 66,
+          "punkte": 156,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 66,
+            "punkte": 154,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19006,6 +19958,20 @@
             "punkte": 143,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 68,
+          "punkte": 149,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 68,
+            "punkte": 143,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19264,6 +20230,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 71,
+          "punkte": 98,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 71,
+            "punkte": 98,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 71,
           "punkte": 98,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -19538,6 +20518,20 @@
             "punkte": 94,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 73,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 73,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -19796,6 +20790,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 72,
+          "punkte": 94,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 72,
+            "punkte": 94,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 72,
           "punkte": 94,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -20064,6 +21072,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 70,
           "punkte": 125,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 70,
+            "punkte": 125,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 70,
+          "punkte": 127,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 70,
@@ -20588,6 +21610,20 @@
             "punkte": 77,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 74,
+          "punkte": 77,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 74,
+            "punkte": 77,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -20846,6 +21882,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 75,
+          "punkte": 76,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 75,
+            "punkte": 76,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 75,
           "punkte": 76,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -21372,6 +22422,20 @@
             "punkte": 65,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 76,
+          "punkte": 65,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 76,
+            "punkte": 65,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -21630,6 +22694,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 77,
+          "punkte": 62,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 77,
+            "punkte": 62,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 77,
           "punkte": 62,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -22400,6 +23478,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 78,
+          "punkte": 43,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 78,
+            "punkte": 43,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 78,
           "punkte": 43,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -24406,6 +25498,20 @@
           "wettbewerb": "smugglerauftrag",
           "runde": "12. Spieltag",
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+          "platz": 81,
+          "punkte": 11,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 81,
+            "punkte": 11,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
           "platz": 81,
           "punkte": 11,
           "quelle": "Kicktipp-Gesamtübersicht",
@@ -26729,6 +27835,20 @@
             "punkte": 19,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 79,
+          "punkte": 21,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 79,
+            "punkte": 19,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -26749,6 +27869,20 @@
             "punkte": 0,
             "quelle": "Website-Gesamtwertung vor diesem Abschluss"
           }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 82,
+          "punkte": 2,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 82,
+            "punkte": 0,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
         }
       ]
     },
@@ -26763,6 +27897,20 @@
           "auftragId": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
           "platz": 80,
           "punkte": 12,
+          "quelle": "Kicktipp-Gesamtübersicht",
+          "vorherGesamtstand": {
+            "platz": 80,
+            "punkte": 12,
+            "quelle": "Website-Gesamtwertung vor diesem Abschluss"
+          }
+        },
+        {
+          "zeitpunkt": "2026-11-22T19:43:10.283Z",
+          "wettbewerb": "bundesliga",
+          "runde": "10. Spieltag",
+          "auftragId": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+          "platz": 80,
+          "punkte": 19,
           "quelle": "Kicktipp-Gesamtübersicht",
           "vorherGesamtstand": {
             "platz": 80,

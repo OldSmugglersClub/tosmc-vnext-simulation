@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 29,
-  "aktualisiert": "2026-11-22T16:50:42.337Z",
+  "datenVersion": 30,
+  "aktualisiert": "2026-11-22T19:43:10.283Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -12501,6 +12501,281 @@
             "exakt": 3,
             "differenz": 5,
             "tendenz": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090",
+      "bezeichnung": "Bundesliga 10. Spieltag",
+      "wettbewerb": "bundesliga",
+      "runde": "10. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "bl-2026-27-10-082",
+        "bl-2026-27-10-083",
+        "bl-2026-27-10-084",
+        "bl-2026-27-10-085",
+        "bl-2026-27-10-086",
+        "bl-2026-27-10-087",
+        "bl-2026-27-10-088",
+        "bl-2026-27-10-089",
+        "bl-2026-27-10-090"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "heini1860",
+          "teilnehmer": "Heini1860",
+          "punkte": 19,
+          "exakt": 1,
+          "differenz": 2,
+          "tendenz": 4
+        },
+        {
+          "teilnehmerId": "mythos",
+          "teilnehmer": "Mythos",
+          "punkte": 19,
+          "exakt": 1,
+          "differenz": 2,
+          "tendenz": 4
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 19,
+            "anzahl": 2,
+            "tipper": [
+              {
+                "teilnehmerId": "heini1860",
+                "teilnehmer": "Heini1860",
+                "punkte": 19,
+                "exakt": 1,
+                "differenz": 2,
+                "tendenz": 4
+              },
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "punkte": 19,
+                "exakt": 1,
+                "differenz": 2,
+                "tendenz": 4
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "bl-2026-27-10-082",
+            "heimTeam": "bayern-muenchen",
+            "auswaertsTeam": "koeln",
+            "ergebnis": "1:1",
+            "abgegeben": 67,
+            "nichtAbgegeben": 15,
+            "tippverteilung": {
+              "1": 64,
+              "2": 2,
+              "X": 1
+            },
+            "exakt": 0,
+            "differenz": 1,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 64
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 1,
+              "anteil": 1.5,
+              "tipper": [
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": false
+                }
+              ],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "bl-2026-27-10-082",
+                "heimTeam": "bayern-muenchen",
+                "auswaertsTeam": "koeln",
+                "ergebnis": "1:1",
+                "abgegeben": 67,
+                "nichtAbgegeben": 15,
+                "tippverteilung": {
+                  "1": 64,
+                  "2": 2,
+                  "X": 1
+                },
+                "exakt": 0,
+                "differenz": 1,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 64
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 1,
+                  "anteil": 1.5,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "2:2",
+                      "exakt": false
+                    }
+                  ],
+                  "exakteTipps": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 1,
+            "anzahl": 10,
+            "tipper": [
+              {
+                "teilnehmerId": "heini1860",
+                "teilnehmer": "Heini1860",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "max",
+                "teilnehmer": "Max",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "baslermario",
+                "teilnehmer": "baslermario",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "gerrit1887",
+                "teilnehmer": "Gerrit1887",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "kevinhick",
+                "teilnehmer": "Kevinhick",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "pochzerjung",
+                "teilnehmer": "PochzerJung",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "sam-entspender",
+                "teilnehmer": "SAM_ENTSPENDER",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "gruber",
+                "teilnehmer": "gRuBer",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "salas1904",
+                "teilnehmer": "Salas1904",
+                "exakt": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 10.45,
+                "punktesumme": 669,
+                "mitglieder": 64
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 9.5,
+                "punktesumme": 171,
+                "mitglieder": 18
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 0.95
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "dominik1966",
+                "teilnehmer": "dominik1966",
+                "vorher": 31,
+                "jetzt": 26,
+                "veraenderung": 5
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "jwfussball",
+                "teilnehmer": "JWFUSSBALL",
+                "vorher": 7,
+                "jetzt": 14,
+                "veraenderung": -7
+              }
+            ],
+            "maxGewinn": 5,
+            "maxVerlust": -7
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 608,
+            "nichtAbgegeben": 130,
+            "exakt": 10,
+            "differenz": 94,
+            "tendenz": 254
           }
         }
       ]

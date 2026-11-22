@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 30,
+  "datenVersion": 31,
   "aktualisiert": "2026-11-22",
   "hinweis": "Zentrale Teilnehmerliste mit stabilen IDs. E-Mail-Adressen aus dem Kicktipp-Export werden aus Datenschutzgründen nicht gespeichert oder veröffentlicht.",
   "import": {
     "quelle": "Kicktipp-Mitgliederexport",
-    "stand": "2026-11-22T16:50:42.337Z",
+    "stand": "2026-11-22T19:43:10.283Z",
     "anzahl": 82,
     "emailAdressenUebernommen": false
   },
@@ -23,8 +23,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 264,
-        "position": 12,
+        "punkte": 270,
+        "position": 8,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -43,7 +43,7 @@
       "kicktipp": {
         "importiertAm": "2026-11-22",
         "punkte": 234,
-        "position": 42,
+        "position": 44,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -61,7 +61,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 222,
+        "punkte": 228,
         "position": 52,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -99,8 +99,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 238,
-        "position": 40,
+        "punkte": 244,
+        "position": 39,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -137,7 +137,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 143,
+        "punkte": 149,
         "position": 68,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -156,8 +156,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 249,
-        "position": 26,
+        "punkte": 253,
+        "position": 29,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -232,7 +232,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 259,
+        "punkte": 265,
         "position": 17,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -251,7 +251,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 257,
+        "punkte": 261,
         "position": 18,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -307,7 +307,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 242,
+        "punkte": 246,
         "position": 38,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -364,7 +364,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 257,
+        "punkte": 261,
         "position": 19,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -383,7 +383,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 255,
+        "punkte": 259,
         "position": 20,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -402,7 +402,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 278,
+        "punkte": 282,
         "position": 3,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -440,8 +440,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 31,
+        "punkte": 254,
+        "position": 26,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -459,8 +459,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 29,
+        "punkte": 253,
+        "position": 28,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -516,8 +516,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 265,
-        "position": 10,
+        "punkte": 269,
+        "position": 11,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -535,7 +535,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 219,
+        "punkte": 223,
         "position": 53,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -554,8 +554,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 227,
-        "position": 49,
+        "punkte": 233,
+        "position": 46,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -610,8 +610,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 264,
-        "position": 13,
+        "punkte": 270,
+        "position": 10,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -629,8 +629,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 262,
-        "position": 15,
+        "punkte": 266,
+        "position": 16,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -648,7 +648,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 215,
+        "punkte": 219,
         "position": 55,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -687,7 +687,7 @@
       "kicktipp": {
         "importiertAm": "2026-11-22",
         "punkte": 212,
-        "position": 56,
+        "position": 58,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -705,7 +705,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 255,
+        "punkte": 257,
         "position": 21,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
@@ -724,8 +724,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 264,
-        "position": 11,
+        "punkte": 268,
+        "position": 12,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -761,7 +761,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 151,
+        "punkte": 153,
         "position": 67,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -818,7 +818,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 218,
+        "punkte": 222,
         "position": 54,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -838,7 +838,7 @@
       "kicktipp": {
         "importiertAm": "2026-11-22",
         "punkte": 267,
-        "position": 7,
+        "position": 14,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -856,8 +856,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 206,
-        "position": 58,
+        "punkte": 208,
+        "position": 59,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -876,7 +876,7 @@
       "kicktipp": {
         "importiertAm": "2026-11-22",
         "punkte": 242,
-        "position": 37,
+        "position": 41,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -894,8 +894,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 224,
-        "position": 50,
+        "punkte": 228,
+        "position": 51,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -950,8 +950,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 223,
-        "position": 51,
+        "punkte": 229,
+        "position": 50,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1045,8 +1045,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 251,
-        "position": 24,
+        "punkte": 255,
+        "position": 23,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1064,7 +1064,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 252,
+        "punkte": 256,
         "position": 22,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1083,8 +1083,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 242,
-        "position": 36,
+        "punkte": 248,
+        "position": 34,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1102,8 +1102,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 233,
-        "position": 43,
+        "punkte": 237,
+        "position": 42,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1140,8 +1140,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 266,
-        "position": 8,
+        "punkte": 270,
+        "position": 7,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1159,8 +1159,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 252,
-        "position": 23,
+        "punkte": 254,
+        "position": 27,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1178,7 +1178,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 170,
+        "punkte": 172,
         "position": 64,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
@@ -1235,8 +1235,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 227,
-        "position": 48,
+        "punkte": 229,
+        "position": 49,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1291,8 +1291,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 248,
-        "position": 27,
+        "punkte": 254,
+        "position": 24,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1348,7 +1348,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 154,
+        "punkte": 156,
         "position": 66,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
@@ -1367,7 +1367,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 202,
+        "punkte": 204,
         "position": 60,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1404,7 +1404,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 286,
+        "punkte": 292,
         "position": 2,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1423,8 +1423,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 262,
-        "position": 14,
+        "punkte": 268,
+        "position": 13,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1442,8 +1442,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 32,
+        "punkte": 249,
+        "position": 33,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1461,8 +1461,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 267,
-        "position": 6,
+        "punkte": 276,
+        "position": 5,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1499,8 +1499,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 228,
-        "position": 46,
+        "punkte": 230,
+        "position": 48,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1518,8 +1518,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 242,
-        "position": 35,
+        "punkte": 246,
+        "position": 36,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1556,8 +1556,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 271,
-        "position": 5,
+        "punkte": 275,
+        "position": 6,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1593,7 +1593,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 198,
+        "punkte": 203,
         "position": 61,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
@@ -1612,7 +1612,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 168,
+        "punkte": 172,
         "position": 65,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1631,8 +1631,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 245,
-        "position": 34,
+        "punkte": 247,
+        "position": 35,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1668,8 +1668,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 233,
-        "position": 44,
+        "punkte": 235,
+        "position": 43,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1687,8 +1687,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 28,
+        "punkte": 251,
+        "position": 30,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1706,8 +1706,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 227,
-        "position": 47,
+        "punkte": 233,
+        "position": 45,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1725,8 +1725,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 236,
-        "position": 41,
+        "punkte": 242,
+        "position": 40,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1744,8 +1744,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 239,
-        "position": 39,
+        "punkte": 246,
+        "position": 37,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1763,8 +1763,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 260,
-        "position": 16,
+        "punkte": 266,
+        "position": 15,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1782,8 +1782,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 33,
+        "punkte": 251,
+        "position": 32,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1801,8 +1801,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 247,
-        "position": 30,
+        "punkte": 251,
+        "position": 31,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -1820,7 +1820,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 271,
+        "punkte": 277,
         "position": 4,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1839,7 +1839,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 125,
+        "punkte": 127,
         "position": 70,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
@@ -1896,8 +1896,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 228,
-        "position": 45,
+        "punkte": 232,
+        "position": 47,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1934,7 +1934,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 250,
+        "punkte": 254,
         "position": 25,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -1972,8 +1972,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 212,
-        "position": 57,
+        "punkte": 216,
+        "position": 56,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "old-smugglers"
       }
@@ -1991,7 +1991,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 266,
+        "punkte": 270,
         "position": 9,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2029,7 +2029,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 290,
+        "punkte": 296,
         "position": 1,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2048,7 +2048,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 180,
+        "punkte": 182,
         "position": 63,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2067,8 +2067,8 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 206,
-        "position": 59,
+        "punkte": 213,
+        "position": 57,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
       }
@@ -2105,7 +2105,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 193,
+        "punkte": 199,
         "position": 62,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2124,7 +2124,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 19,
+        "punkte": 21,
         "position": 79,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2143,7 +2143,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 0,
+        "punkte": 2,
         "position": 82,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"
@@ -2162,7 +2162,7 @@
       },
       "kicktipp": {
         "importiertAm": "2026-11-22",
-        "punkte": 12,
+        "punkte": 19,
         "position": 80,
         "quelle": "Kicktipp-Mitgliederexport",
         "teamId": "new-smugglers"

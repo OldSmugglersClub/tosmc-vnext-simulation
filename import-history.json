@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T16:50:42.337Z",
+  "updatedAt": "2026-11-22T19:43:10.283Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -1474,6 +1474,59 @@
         },
         "teamMatchdayNew": {
           "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_Smugglerauftrag Sturm-2026-11-22-15-31-01-+0000.zip",
+          "complete": true
+        }
+      }
+    },
+    {
+      "id": "2026-27__bundesliga__10-spieltag__bl-2026-27-10-082-bl-2026-27-10-083-bl-2026-27-10-084-bl-2026-27-10-085-bl-2026-27-10-086-bl-2026-27-10-087-bl-2026-27-10-088-bl-2026-27-10-089-bl-2026-27-10-090-1795376591028",
+      "createdAt": "2026-11-22T19:43:10.283Z",
+      "mode": "produktiv",
+      "valuation": "bundesliga",
+      "round": "10. Spieltag",
+      "participantCount": 82,
+      "oldSmugglers": 18,
+      "newSmugglers": 64,
+      "status": "ok",
+      "files": {
+        "history": {
+          "fileName": "tosmc-vnext-simulation-main.zip",
+          "complete": true
+        },
+        "tips": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipps-10. Spieltag-2026-11-22-19-17-04-+0000.zip",
+          "complete": true
+        },
+        "overall": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Einzelwertung-2026-11-22-19-16-56-+0000.zip",
+          "complete": true
+        },
+        "matchday": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_10. Spieltag-2026-11-22-19-16-43-+0000.zip",
+          "complete": true
+        },
+        "bonus": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Bonus-2026-11-22-19-17-11-+0000.zip",
+          "complete": true
+        },
+        "tipper": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipper-2026-11-22-19-16-25-+0000.zip",
+          "complete": true
+        },
+        "teamOverallOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Old Smugglers Team-2026-11-22-19-17-00-+0000.zip",
+          "complete": true
+        },
+        "teamOverallNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Neue Piraten-2026-11-22-19-16-58-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Old Smugglers Team_10. Spieltag-2026-11-22-19-16-50-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_10. Spieltag-2026-11-22-19-16-47-+0000.zip",
           "complete": true
         }
       }
