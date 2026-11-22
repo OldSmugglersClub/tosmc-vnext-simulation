@@ -510,11 +510,10 @@
       if (ev.exact) exact += 1;
       sequence.push(ev.tendencyHit);
     }
-    let streak = 0, streakType = '–';
-    if (sequence.length) {
-      const last = sequence[sequence.length - 1]; streakType = last ? 'Treffer' : 'Fehler';
-      for (let i=sequence.length-1; i>=0 && sequence[i]===last; i-=1) streak += 1;
-    }
+    const last = sequence.at(-1);
+    let streak = 0;
+    for (let i = sequence.length - 1; i >= 0 && sequence[i] === last; i -= 1) streak += 1;
+    const streakType = last ? 'Treffer' : streak === 1 ? 'Fehltipp' : 'Fehltipps';
     let bestStreak = 0, runningStreak = 0;
     for (const hit of sequence) {
       runningStreak = hit ? runningStreak + 1 : 0;
@@ -542,7 +541,7 @@
       <div><strong>${finished.length}</strong><span>ausgewertet</span></div>
       <div><strong>${tendency}</strong><span>Tendenz · ${pct(tendency, finished.length)}</span></div>
       <div><strong>${exact}</strong><span>Volltreffer · ${pct(exact, finished.length)}</span></div>
-      <div><strong>${streak || '–'}</strong><span>Serie · ${streakType}</span></div>
+      <div><span>Aktuelle Tippserie</span><strong>${streak || '–'}</strong><span>${streak ? streakType + ' in Folge' : 'Noch keine Auswertung'}</span></div>
       <div><strong>${bestStreak || '–'}</strong><span>Beste Treffer-Serie</span></div>
       <div><strong>${formText}</strong><span>Form · letzte ${recent.length}</span></div>
       ${teamStats}`;
