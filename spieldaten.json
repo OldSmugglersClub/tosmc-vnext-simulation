@@ -555,16 +555,40 @@
           "datumAnzeige": "22.11.2026",
           "anstoss": "13:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 2,
+          "status": "beendet",
           "sonderwertungen": [
             "smugglerauftrag"
           ],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 12. Spieltag der 2. Bundesliga.",
           "quelleStand": "2026-07-03",
           "heimTeamId": "kaiserslautern",
-          "auswaertsTeamId": "dynamo-dresden"
+          "auswaertsTeamId": "dynamo-dresden",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-22T16:50:42.337Z",
+            "abgegeben": 65,
+            "nichtAbgegeben": 17,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 49,
+                "prozent": 75.4
+              },
+              "2": {
+                "anzahl": 8,
+                "prozent": 12.3
+              },
+              "X": {
+                "anzahl": 8,
+                "prozent": 12.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-22T16:50:42.337Z"
         },
         {
           "id": "sma-2026-27-13-112",
@@ -15829,6 +15853,6 @@
       ]
     }
   ],
-  "datenVersion": 99,
-  "aktualisiert": "2026-11-21"
+  "datenVersion": 100,
+  "aktualisiert": "2026-11-22"
 }

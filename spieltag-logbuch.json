@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 28,
-  "aktualisiert": "2026-11-08T23:29:04.802Z",
+  "datenVersion": 29,
+  "aktualisiert": "2026-11-22T16:50:42.337Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -12113,6 +12113,394 @@
             "exakt": 99,
             "differenz": 70,
             "tendenz": 270
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__smugglerauftrag__12-spieltag__sma-2026-27-12-104",
+      "bezeichnung": "Smuggleraufträge 12. Spieltag",
+      "wettbewerb": "smugglerauftrag",
+      "runde": "12. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "sma-2026-27-12-104"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "11le",
+          "teilnehmer": "11LE",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "gruber",
+          "teilnehmer": "gRuBer",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        },
+        {
+          "teilnehmerId": "vebfriwiwerk",
+          "teilnehmer": "VebFriwiwerk",
+          "punkte": 5,
+          "exakt": 1,
+          "differenz": 0,
+          "tendenz": 0
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 5,
+            "anzahl": 3,
+            "tipper": [
+              {
+                "teilnehmerId": "11le",
+                "teilnehmer": "11LE",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "gruber",
+                "teilnehmer": "gRuBer",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              },
+              {
+                "teilnehmerId": "vebfriwiwerk",
+                "teilnehmer": "VebFriwiwerk",
+                "punkte": 5,
+                "exakt": 1,
+                "differenz": 0,
+                "tendenz": 0
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "sma-2026-27-12-104",
+            "heimTeam": "kaiserslautern",
+            "auswaertsTeam": "dynamo-dresden",
+            "ergebnis": "2:2",
+            "abgegeben": 65,
+            "nichtAbgegeben": 17,
+            "tippverteilung": {
+              "1": 49,
+              "2": 8,
+              "X": 8
+            },
+            "exakt": 3,
+            "differenz": 5,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 49
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 8,
+              "anteil": 12.3,
+              "tipper": [
+                {
+                  "teilnehmerId": "11le",
+                  "teilnehmer": "11LE",
+                  "tipp": "2:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "cobra75",
+                  "teilnehmer": "Cobra75",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "handgottes",
+                  "teilnehmer": "HandGottes",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "luki1887",
+                  "teilnehmer": "Luki1887",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "mikoog",
+                  "teilnehmer": "MiKoog",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "juri",
+                  "teilnehmer": "JuRi",
+                  "tipp": "1:1",
+                  "exakt": false
+                },
+                {
+                  "teilnehmerId": "gruber",
+                  "teilnehmer": "gRuBer",
+                  "tipp": "2:2",
+                  "exakt": true
+                },
+                {
+                  "teilnehmerId": "vebfriwiwerk",
+                  "teilnehmer": "VebFriwiwerk",
+                  "tipp": "2:2",
+                  "exakt": true
+                }
+              ],
+              "exakteTipps": 3
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "sma-2026-27-12-104",
+                "heimTeam": "kaiserslautern",
+                "auswaertsTeam": "dynamo-dresden",
+                "ergebnis": "2:2",
+                "abgegeben": 65,
+                "nichtAbgegeben": 17,
+                "tippverteilung": {
+                  "1": 49,
+                  "2": 8,
+                  "X": 8
+                },
+                "exakt": 3,
+                "differenz": 5,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 49
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 8,
+                  "anteil": 12.3,
+                  "tipper": [
+                    {
+                      "teilnehmerId": "11le",
+                      "teilnehmer": "11LE",
+                      "tipp": "2:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "cobra75",
+                      "teilnehmer": "Cobra75",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "handgottes",
+                      "teilnehmer": "HandGottes",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "luki1887",
+                      "teilnehmer": "Luki1887",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "mikoog",
+                      "teilnehmer": "MiKoog",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "juri",
+                      "teilnehmer": "JuRi",
+                      "tipp": "1:1",
+                      "exakt": false
+                    },
+                    {
+                      "teilnehmerId": "gruber",
+                      "teilnehmer": "gRuBer",
+                      "tipp": "2:2",
+                      "exakt": true
+                    },
+                    {
+                      "teilnehmerId": "vebfriwiwerk",
+                      "teilnehmer": "VebFriwiwerk",
+                      "tipp": "2:2",
+                      "exakt": true
+                    }
+                  ],
+                  "exakteTipps": 3
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 1,
+            "anzahl": 3,
+            "tipper": [
+              {
+                "teilnehmerId": "11le",
+                "teilnehmer": "11LE",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "gruber",
+                "teilnehmer": "gRuBer",
+                "exakt": 1
+              },
+              {
+                "teilnehmerId": "vebfriwiwerk",
+                "teilnehmer": "VebFriwiwerk",
+                "exakt": 1
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 0.72,
+                "punktesumme": 13,
+                "mitglieder": 18
+              },
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 0.27,
+                "punktesumme": 17,
+                "mitglieder": 64
+              }
+            ],
+            "sieger": "Old Smugglers Team",
+            "differenz": 0.45
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "11le",
+                "teilnehmer": "11LE",
+                "vorher": 17,
+                "jetzt": 12,
+                "veraenderung": 5
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "g-1000",
+                "teilnehmer": "G.1000",
+                "vorher": 12,
+                "jetzt": 13,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "baslermario",
+                "teilnehmer": "baslermario",
+                "vorher": 25,
+                "jetzt": 26,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "best10",
+                "teilnehmer": "Best10",
+                "vorher": 16,
+                "jetzt": 17,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "gerrit1887",
+                "teilnehmer": "Gerrit1887",
+                "vorher": 14,
+                "jetzt": 15,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "pauli",
+                "teilnehmer": "Pauli",
+                "vorher": 13,
+                "jetzt": 14,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "maikiliii",
+                "teilnehmer": "Maikiliii",
+                "vorher": 21,
+                "jetzt": 22,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "tribuna33",
+                "teilnehmer": "TRIBUNA33",
+                "vorher": 15,
+                "jetzt": 16,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "sgbw",
+                "teilnehmer": "sgbw",
+                "vorher": 24,
+                "jetzt": 25,
+                "veraenderung": -1
+              },
+              {
+                "teilnehmerId": "flying-dutchman",
+                "teilnehmer": "Flying-Dutchman",
+                "vorher": 48,
+                "jetzt": 49,
+                "veraenderung": -1
+              }
+            ],
+            "maxGewinn": 5,
+            "maxVerlust": -1
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 65,
+            "nichtAbgegeben": 17,
+            "exakt": 3,
+            "differenz": 5,
+            "tendenz": 0
           }
         }
       ]
