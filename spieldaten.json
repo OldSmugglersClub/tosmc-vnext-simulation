@@ -10450,16 +10450,40 @@
           "datumAnzeige": "22.11.2026",
           "anstoss": "17:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 4,
+          "auswaertstore": 0,
+          "status": "beendet",
           "sonderwertungen": [
             "piratenkodex"
           ],
           "notiz": "Piratenkodex III – NW Derby",
           "quelleStand": "2026-07-30",
           "heimTeamId": "fc-liverpool",
-          "auswaertsTeamId": "manchester-united"
+          "auswaertsTeamId": "manchester-united",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-22T20:08:48.678Z",
+            "abgegeben": 63,
+            "nichtAbgegeben": 19,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 53,
+                "prozent": 84.1
+              },
+              "2": {
+                "anzahl": 4,
+                "prozent": 6.3
+              },
+              "X": {
+                "anzahl": 6,
+                "prozent": 9.5
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-22T20:08:48.678Z"
         },
         {
           "id": "pk-2026-27-04-ditalia",
@@ -15901,6 +15925,6 @@
       ]
     }
   ],
-  "datenVersion": 101,
+  "datenVersion": 102,
   "aktualisiert": "2026-11-22"
 }

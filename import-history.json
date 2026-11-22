@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T19:43:10.283Z",
+  "updatedAt": "2026-11-22T20:08:48.678Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -1527,6 +1527,59 @@
         },
         "teamMatchdayNew": {
           "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_10. Spieltag-2026-11-22-19-16-47-+0000.zip",
+          "complete": true
+        }
+      }
+    },
+    {
+      "id": "2026-27__piratenkodex__piratenkodex-iii-nw-derby__pk-2026-27-03-nw-derby-1795378129353",
+      "createdAt": "2026-11-22T20:08:48.678Z",
+      "mode": "produktiv",
+      "valuation": "piratenkodex",
+      "round": "Piratenkodex III – NW Derby",
+      "participantCount": 82,
+      "oldSmugglers": 18,
+      "newSmugglers": 64,
+      "status": "ok",
+      "files": {
+        "history": {
+          "fileName": "tosmc-vnext-simulation-main.zip",
+          "complete": true
+        },
+        "tips": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipps-Piratenkodex III - NW Derby-2026-11-22-19-52-40-+0000.zip",
+          "complete": true
+        },
+        "overall": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Einzelwertung-2026-11-22-19-52-32-+0000.zip",
+          "complete": true
+        },
+        "matchday": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Piratenkodex III - NW Derby-2026-11-22-19-52-22-+0000.zip",
+          "complete": true
+        },
+        "bonus": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Bonus-2026-11-22-19-52-49-+0000.zip",
+          "complete": true
+        },
+        "tipper": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipper-2026-11-22-19-52-11-+0000.zip",
+          "complete": true
+        },
+        "teamOverallOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Old Smugglers Team-2026-11-22-19-52-37-+0000.zip",
+          "complete": true
+        },
+        "teamOverallNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Neue Piraten-2026-11-22-19-52-34-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Old Smugglers Team_Piratenkodex III - NW Derby-2026-11-22-19-52-27-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_Piratenkodex III - NW Derby-2026-11-22-19-52-25-+0000.zip",
           "complete": true
         }
       }

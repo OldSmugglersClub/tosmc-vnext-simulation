@@ -1,10 +1,10 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 30,
+  "datenVersion": 31,
   "aktualisiert": "2026-11-22",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-11-22T19:43:10.283Z",
+  "berechnetAm": "2026-11-22T20:08:48.678Z",
   "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
   "gesamt": [
     {
@@ -36,10 +36,10 @@
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 669,
-      "durchschnitt": 10.45,
+      "punktesumme": 84,
+      "durchschnitt": 1.31,
       "mitglieder": 64,
-      "kicktippKontrollwert": 10.45,
+      "kicktippKontrollwert": 1.31,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -47,10 +47,10 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 171,
-      "durchschnitt": 9.5,
+      "punktesumme": 22,
+      "durchschnitt": 1.22,
       "mitglieder": 18,
-      "kicktippKontrollwert": 9.5,
+      "kicktippKontrollwert": 1.22,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
