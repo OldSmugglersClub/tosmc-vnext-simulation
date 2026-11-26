@@ -1175,3 +1175,51 @@ body{overflow-x:hidden}
   font-variant-numeric:tabular-nums;
  }
 }
+
+/* HERO2 – Spieltags-Logbuch: zentrierte Buttons und Abstaende; vNext 4.11.11 */
+.lb-hero.lb-hero--compact{
+  display:grid;
+  grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);
+  align-items:center;
+  gap:clamp(22px,3.2vw,42px);
+  padding:clamp(22px,3vw,36px);
+  text-align:left;
+}
+.lb-hero--compact .lb-hero-main{min-width:0;display:flex;flex-direction:column;justify-content:center;gap:clamp(16px,2vw,24px)}
+.lb-hero--compact .lb-hero-heading{display:flex;align-items:center;gap:18px}
+.lb-hero--compact .lb-crest{flex:none;width:72px;height:72px;margin:0}
+.lb-hero--compact h1{margin:.15rem 0;font-size:clamp(2rem,3.7vw,3.05rem);line-height:1.1}
+.lb-hero--compact .lb-kicker{font-size:.7rem;letter-spacing:.13em}
+.lb-hero--compact .lb-hero-intro{max-width:unset;margin:0;line-height:1.5}
+.lb-hero--compact .lb-toolbar{justify-content:center;margin:0}
+.lb-hero-highlights{
+  border:1px solid rgba(200,144,56,.55);border-radius:14px;
+  padding:20px 22px;
+  background:linear-gradient(135deg,rgba(103,55,21,.23),rgba(10,6,4,.46));
+}
+.lb-hero-highlights-title{
+  margin-bottom:14px;color:#efc976;font-family:Georgia,"Times New Roman",serif;
+  font-size:1.14rem;font-weight:700;letter-spacing:.035em;
+}
+.lb-hero-keywords{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;
+  padding:0;margin:0;list-style:none;
+}
+.lb-hero-keywords li{
+  border:1px solid rgba(202,142,48,.45);border-radius:8px;
+  background:rgba(19,10,5,.66);color:#eed7a1;
+  padding:12px 10px;text-align:center;font-weight:700;font-size:.92rem;
+}
+.lb-hero-keywords li:last-child{grid-column:1 / -1}
+@media(max-width:760px){
+  .lb-hero.lb-hero--compact{grid-template-columns:minmax(0,1fr);gap:20px;text-align:center}
+  .lb-hero--compact .lb-hero-heading{flex-direction:column;gap:8px}
+  .lb-hero--compact .lb-crest{margin:0 auto;width:64px;height:64px}
+  .lb-hero--compact .lb-toolbar{justify-content:center}
+  .lb-hero--compact .lb-hero-intro{margin:0}
+}
+@media(max-width:420px){
+  .lb-hero-highlights{padding:16px 12px}
+  .lb-hero-keywords{gap:7px}
+  .lb-hero-keywords li{padding:11px 6px;font-size:.81rem}
+}
