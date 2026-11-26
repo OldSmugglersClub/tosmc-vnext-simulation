@@ -10593,11 +10593,11 @@
           "runde": "Smugglers Weihnachtsregatta",
           "spieltagNummer": 1,
           "spielNummer": null,
-          "datum": "2026-12-27",
-          "datumVon": "2026-12-27",
-          "datumBis": "2026-12-27",
-          "datumAnzeige": "27.12.2026",
-          "anstoss": "18:00",
+          "datum": "2026-12-29",
+          "datumVon": "2026-12-29",
+          "datumBis": "2026-12-29",
+          "datumAnzeige": "29.12.2026",
+          "anstoss": "21:45",
           "terminBestaetigt": true,
           "heimtore": null,
           "auswaertstore": null,
@@ -10606,7 +10606,7 @@
             "weihnachtsregatta"
           ],
           "notiz": "Smugglers Weihnachtsregatta",
-          "quelleStand": "2026-07-30",
+          "quelleStand": "2026-11-26",
           "heimTeamId": "benfica-lissabon",
           "auswaertsTeamId": "sporting-lissabon"
         },
@@ -16339,6 +16339,6 @@
       ]
     }
   ],
-  "datenVersion": 104,
-  "aktualisiert": "2026-11-26"
+  "datenVersion": 105,
+  "aktualisiert": "2026-11-26T13:59:35.401Z"
 }
