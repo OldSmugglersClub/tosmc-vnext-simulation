@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 31,
-  "aktualisiert": "2026-11-22T20:08:48.678Z",
+  "datenVersion": 32,
+  "aktualisiert": "2026-11-26T04:38:48.405Z",
   "saison": "2026-27",
   "regelwerk": {
     "kapitaene": "Alle Tipper mit der höchsten tatsächlichen Spieltagspunktzahl; kein künstlicher Tie-Break.",
@@ -13696,6 +13696,227 @@
             "exakt": 0,
             "differenz": 0,
             "tendenz": 53
+          }
+        }
+      ]
+    },
+    {
+      "id": "2026-27__champions-league__5-spieltag__ucl-2026-27-5-spieltag-87460-ucl-2026-27-5-spieltag-87461-ucl-2026-27-5-spieltag-87462-ucl-2026-27-5-spieltag-87463-ucl-2026-27-5-spieltag-87464-ucl-2026-27-5-spieltag-87465-ucl-2026-27-5-spieltag-87466-ucl-2026-27-5-spieltag-87467-ucl-2026-27-5-spieltag-87468-ucl-2026-27-5-spieltag-87469-ucl-2026-27-5-spieltag-87470-ucl-2026-27-5-spieltag-87471-ucl-2026-27-5-spieltag-87472-ucl-2026-27-5-spieltag-87473-ucl-2026-27-5-spieltag-87474-ucl-2026-27-5-spieltag-87475-ucl-2026-27-5-spieltag-87476-ucl-2026-27-5-spieltag-87477",
+      "bezeichnung": "Champions League 5. Spieltag",
+      "wettbewerb": "champions-league",
+      "runde": "5. Spieltag",
+      "abgeschlossen": true,
+      "spielIds": [
+        "ucl-2026-27-5-spieltag-87460",
+        "ucl-2026-27-5-spieltag-87461",
+        "ucl-2026-27-5-spieltag-87462",
+        "ucl-2026-27-5-spieltag-87463",
+        "ucl-2026-27-5-spieltag-87464",
+        "ucl-2026-27-5-spieltag-87465",
+        "ucl-2026-27-5-spieltag-87466",
+        "ucl-2026-27-5-spieltag-87467",
+        "ucl-2026-27-5-spieltag-87468",
+        "ucl-2026-27-5-spieltag-87469",
+        "ucl-2026-27-5-spieltag-87470",
+        "ucl-2026-27-5-spieltag-87471",
+        "ucl-2026-27-5-spieltag-87472",
+        "ucl-2026-27-5-spieltag-87473",
+        "ucl-2026-27-5-spieltag-87474",
+        "ucl-2026-27-5-spieltag-87475",
+        "ucl-2026-27-5-spieltag-87476",
+        "ucl-2026-27-5-spieltag-87477"
+      ],
+      "kapitaene": [
+        {
+          "teilnehmerId": "olympiakos",
+          "teilnehmer": "Olympiakos",
+          "punkte": 44,
+          "exakt": 5,
+          "differenz": 3,
+          "tendenz": 5
+        }
+      ],
+      "highlights": [
+        {
+          "typ": "kapitaene",
+          "prioritaet": 100,
+          "anzeigen": true,
+          "daten": {
+            "punkte": 44,
+            "anzahl": 1,
+            "tipper": [
+              {
+                "teilnehmerId": "olympiakos",
+                "teilnehmer": "Olympiakos",
+                "punkte": 44,
+                "exakt": 5,
+                "differenz": 3,
+                "tendenz": 5
+              }
+            ]
+          }
+        },
+        {
+          "typ": "gegen-den-strom",
+          "prioritaet": 90,
+          "anzeigen": true,
+          "daten": {
+            "spielId": "ucl-2026-27-5-spieltag-87473",
+            "heimTeam": "paris-saint-germain",
+            "auswaertsTeam": "as-rom",
+            "ergebnis": "2:2",
+            "abgegeben": 62,
+            "nichtAbgegeben": 19,
+            "tippverteilung": {
+              "1": 58,
+              "2": 4,
+              "X": 0
+            },
+            "exakt": 0,
+            "differenz": 0,
+            "tendenz": 0,
+            "richtigerAusgang": "X",
+            "meistGetippt": {
+              "ausgang": "1",
+              "anzahl": 58
+            },
+            "gegenDenStrom": true,
+            "richtigeTendenz": {
+              "anzahl": 0,
+              "anteil": 0,
+              "tipper": [],
+              "exakteTipps": 0
+            }
+          }
+        },
+        {
+          "typ": "wer-hats-gerochen",
+          "prioritaet": 85,
+          "anzeigen": true,
+          "daten": {
+            "grenzeProzent": 25,
+            "testOverride": false,
+            "faelle": [
+              {
+                "spielId": "ucl-2026-27-5-spieltag-87473",
+                "heimTeam": "paris-saint-germain",
+                "auswaertsTeam": "as-rom",
+                "ergebnis": "2:2",
+                "abgegeben": 62,
+                "nichtAbgegeben": 19,
+                "tippverteilung": {
+                  "1": 58,
+                  "2": 4,
+                  "X": 0
+                },
+                "exakt": 0,
+                "differenz": 0,
+                "tendenz": 0,
+                "richtigerAusgang": "X",
+                "meistGetippt": {
+                  "ausgang": "1",
+                  "anzahl": 58
+                },
+                "gegenDenStrom": true,
+                "richtigeTendenz": {
+                  "anzahl": 0,
+                  "anteil": 0,
+                  "tipper": [],
+                  "exakteTipps": 0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "typ": "volltreffer",
+          "prioritaet": 80,
+          "anzeigen": true,
+          "daten": {
+            "maxExakt": 6,
+            "anzahl": 2,
+            "tipper": [
+              {
+                "teilnehmerId": "mariusv",
+                "teilnehmer": "mariusv",
+                "exakt": 6
+              },
+              {
+                "teilnehmerId": "sgbw",
+                "teilnehmer": "sgbw",
+                "exakt": 6
+              }
+            ]
+          }
+        },
+        {
+          "typ": "crewduell",
+          "prioritaet": 70,
+          "anzeigen": true,
+          "daten": {
+            "teams": [
+              {
+                "team": "New Smugglers Team",
+                "durchschnitt": 21.38,
+                "punktesumme": 1347,
+                "mitglieder": 63
+              },
+              {
+                "team": "Old Smugglers Team",
+                "durchschnitt": 19.67,
+                "punktesumme": 354,
+                "mitglieder": 18
+              }
+            ],
+            "sieger": "New Smugglers Team",
+            "differenz": 1.71
+          }
+        },
+        {
+          "typ": "kursbewegung",
+          "prioritaet": 40,
+          "anzeigen": true,
+          "grund": null,
+          "daten": {
+            "gewinner": [
+              {
+                "teilnehmerId": "wildemoni",
+                "teilnehmer": "WildeMoni",
+                "vorher": 41,
+                "jetzt": 32,
+                "veraenderung": 9
+              },
+              {
+                "teilnehmerId": "mythos",
+                "teilnehmer": "Mythos",
+                "vorher": 23,
+                "jetzt": 14,
+                "veraenderung": 9
+              }
+            ],
+            "verlierer": [
+              {
+                "teilnehmerId": "steff77",
+                "teilnehmer": "Steff77",
+                "vorher": 40,
+                "jetzt": 50,
+                "veraenderung": -10
+              }
+            ],
+            "maxGewinn": 9,
+            "maxVerlust": -10
+          }
+        },
+        {
+          "typ": "zahlen-aus-der-kombuese",
+          "prioritaet": 30,
+          "anzeigen": true,
+          "daten": {
+            "abgegeben": 1085,
+            "nichtAbgegeben": 373,
+            "exakt": 104,
+            "differenz": 179,
+            "tendenz": 322
           }
         }
       ]

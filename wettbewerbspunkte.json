@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "datenVersion": 31,
-  "aktualisiert": "2026-11-22",
+  "datenVersion": 32,
+  "aktualisiert": "2026-11-26",
   "saison": "2026-27",
   "hinweis": "Kumulativ aus der zentralen Spielbetriebsdatenbank erzeugt. Bei bislang genau einem abgeschlossenen Wettbewerb wird nur die Reihenfolge vollständig gleichrangiger Teilnehmer anhand der offiziellen Kicktipp-Gesamtreihenfolge stabilisiert.",
-  "berechnetAm": "2026-11-22T20:08:48.678Z",
+  "berechnetAm": "2026-11-26T04:38:48.405Z",
   "quelle": "Admin 6.5.0-HF13-TEST4-HF31",
   "rangReferenz": {
     "applied": false,
@@ -2154,22 +2154,382 @@
     {
       "wettbewerb": "champions-league",
       "label": "Champions League",
-      "spieltage": 4,
-      "wertungen": 7182,
-      "punkte": 7712,
+      "spieltage": 5,
+      "wertungen": 8640,
+      "punkte": 9413,
       "rangliste": [
         {
           "platz": 1,
-          "teilnehmerId": "opipeter",
-          "teilnehmer": "Opipeter",
-          "punkte": 140,
-          "exakt": 7,
-          "differenz": 17,
-          "tendenz": 27,
+          "teilnehmerId": "olympiakos",
+          "teilnehmer": "Olympiakos",
+          "punkte": 173,
+          "exakt": 12,
+          "differenz": 13,
+          "tendenz": 37,
           "spieltagssiege": 1
         },
         {
           "platz": 2,
+          "teilnehmerId": "opipeter",
+          "teilnehmer": "Opipeter",
+          "punkte": 169,
+          "exakt": 7,
+          "differenz": 22,
+          "tendenz": 34,
+          "spieltagssiege": 1
+        },
+        {
+          "platz": 3,
+          "teilnehmerId": "mariusv",
+          "teilnehmer": "mariusv",
+          "punkte": 163,
+          "exakt": 11,
+          "differenz": 8,
+          "tendenz": 42,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 4,
+          "teilnehmerId": "dani1893",
+          "teilnehmer": "Dani1893",
+          "punkte": 162,
+          "exakt": 11,
+          "differenz": 13,
+          "tendenz": 34,
+          "spieltagssiege": 1
+        },
+        {
+          "platz": 5,
+          "teilnehmerId": "flokicker94",
+          "teilnehmer": "FloKicker94",
+          "punkte": 160,
+          "exakt": 8,
+          "differenz": 12,
+          "tendenz": 42,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 6,
+          "teilnehmerId": "11le",
+          "teilnehmer": "11LE",
+          "punkte": 159,
+          "exakt": 6,
+          "differenz": 17,
+          "tendenz": 39,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 7,
+          "teilnehmerId": "xib0o",
+          "teilnehmer": "Xib0o",
+          "punkte": 154,
+          "exakt": 7,
+          "differenz": 11,
+          "tendenz": 43,
+          "spieltagssiege": 1
+        },
+        {
+          "platz": 8,
+          "teilnehmerId": "g-threepwood",
+          "teilnehmer": "G.Threepwood",
+          "punkte": 153,
+          "exakt": 11,
+          "differenz": 12,
+          "tendenz": 31,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 9,
+          "teilnehmerId": "mythos",
+          "teilnehmer": "Mythos",
+          "punkte": 152,
+          "exakt": 7,
+          "differenz": 9,
+          "tendenz": 45,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 10,
+          "teilnehmerId": "bvb09-opam",
+          "teilnehmer": "BvB09-OpaM",
+          "punkte": 151,
+          "exakt": 5,
+          "differenz": 18,
+          "tendenz": 36,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 11,
+          "teilnehmerId": "best10",
+          "teilnehmer": "Best10",
+          "punkte": 150,
+          "exakt": 9,
+          "differenz": 7,
+          "tendenz": 42,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 12,
+          "teilnehmerId": "rk69",
+          "teilnehmer": "RK69",
+          "punkte": 150,
+          "exakt": 4,
+          "differenz": 16,
+          "tendenz": 41,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 13,
+          "teilnehmerId": "pauli",
+          "teilnehmer": "Pauli",
+          "punkte": 147,
+          "exakt": 6,
+          "differenz": 15,
+          "tendenz": 36,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 14,
+          "teilnehmerId": "pochzerjung",
+          "teilnehmer": "PochzerJung",
+          "punkte": 146,
+          "exakt": 7,
+          "differenz": 15,
+          "tendenz": 33,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 15,
+          "teilnehmerId": "lattenkracher",
+          "teilnehmer": "Lattenkracher",
+          "punkte": 146,
+          "exakt": 7,
+          "differenz": 11,
+          "tendenz": 39,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 16,
+          "teilnehmerId": "handgottes",
+          "teilnehmer": "HandGottes",
+          "punkte": 146,
+          "exakt": 6,
+          "differenz": 18,
+          "tendenz": 31,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 17,
+          "teilnehmerId": "cobra",
+          "teilnehmer": "cobra",
+          "punkte": 145,
+          "exakt": 5,
+          "differenz": 16,
+          "tendenz": 36,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 18,
+          "teilnehmerId": "maikiliii",
+          "teilnehmer": "Maikiliii",
+          "punkte": 145,
+          "exakt": 5,
+          "differenz": 12,
+          "tendenz": 42,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 19,
+          "teilnehmerId": "cobra75",
+          "teilnehmer": "Cobra75",
+          "punkte": 144,
+          "exakt": 11,
+          "differenz": 11,
+          "tendenz": 28,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 20,
+          "teilnehmerId": "sgbw",
+          "teilnehmer": "sgbw",
+          "punkte": 144,
+          "exakt": 10,
+          "differenz": 10,
+          "tendenz": 32,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 21,
+          "teilnehmerId": "finch",
+          "teilnehmer": "Finch",
+          "punkte": 144,
+          "exakt": 8,
+          "differenz": 14,
+          "tendenz": 31,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 22,
+          "teilnehmerId": "zweikampfgott",
+          "teilnehmer": "ZweikampfGott",
+          "punkte": 144,
+          "exakt": 8,
+          "differenz": 12,
+          "tendenz": 34,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 23,
+          "teilnehmerId": "flying-dutchman",
+          "teilnehmer": "Flying-Dutchman",
+          "punkte": 142,
+          "exakt": 9,
+          "differenz": 11,
+          "tendenz": 32,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 24,
+          "teilnehmerId": "luki1887",
+          "teilnehmer": "Luki1887",
+          "punkte": 142,
+          "exakt": 7,
+          "differenz": 13,
+          "tendenz": 34,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 25,
+          "teilnehmerId": "gerrit1887",
+          "teilnehmer": "Gerrit1887",
+          "punkte": 142,
+          "exakt": 3,
+          "differenz": 15,
+          "tendenz": 41,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 26,
+          "teilnehmerId": "kleinersachse",
+          "teilnehmer": "kleinersachse",
+          "punkte": 141,
+          "exakt": 10,
+          "differenz": 13,
+          "tendenz": 26,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 27,
+          "teilnehmerId": "wildemoni",
+          "teilnehmer": "WildeMoni",
+          "punkte": 141,
+          "exakt": 9,
+          "differenz": 12,
+          "tendenz": 30,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 28,
+          "teilnehmerId": "bigdog",
+          "teilnehmer": "Bigdog",
+          "punkte": 139,
+          "exakt": 9,
+          "differenz": 8,
+          "tendenz": 35,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 29,
+          "teilnehmerId": "baslermario",
+          "teilnehmer": "baslermario",
+          "punkte": 139,
+          "exakt": 5,
+          "differenz": 18,
+          "tendenz": 30,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 30,
+          "teilnehmerId": "18amfg99",
+          "teilnehmer": "18AMFG99",
+          "punkte": 138,
+          "exakt": 7,
+          "differenz": 13,
+          "tendenz": 32,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 31,
+          "teilnehmerId": "waltersen",
+          "teilnehmer": "Waltersen",
+          "punkte": 136,
+          "exakt": 4,
+          "differenz": 16,
+          "tendenz": 34,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 32,
+          "teilnehmerId": "souvard",
+          "teilnehmer": "Souvard",
+          "punkte": 136,
+          "exakt": 3,
+          "differenz": 9,
+          "tendenz": 47,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 33,
+          "teilnehmerId": "marius",
+          "teilnehmer": "Marius",
+          "punkte": 135,
+          "exakt": 4,
+          "differenz": 15,
+          "tendenz": 35,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 34,
+          "teilnehmerId": "oifinger",
+          "teilnehmer": "Oifinger",
+          "punkte": 133,
+          "exakt": 6,
+          "differenz": 15,
+          "tendenz": 29,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 35,
+          "teilnehmerId": "dominik1966",
+          "teilnehmer": "dominik1966",
+          "punkte": 133,
+          "exakt": 5,
+          "differenz": 14,
+          "tendenz": 33,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 36,
+          "teilnehmerId": "hardy17",
+          "teilnehmer": "Hardy17",
+          "punkte": 133,
+          "exakt": 3,
+          "differenz": 14,
+          "tendenz": 38,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 37,
+          "teilnehmerId": "tortugasge",
+          "teilnehmer": "TortugaSGE",
+          "punkte": 132,
+          "exakt": 8,
+          "differenz": 10,
+          "tendenz": 31,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 38,
           "teilnehmerId": "jwfussball",
           "teilnehmer": "JWFUSSBALL",
           "punkte": 131,
@@ -2179,137 +2539,147 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 3,
-          "teilnehmerId": "xib0o",
-          "teilnehmer": "Xib0o",
+          "platz": 39,
+          "teilnehmerId": "manuel",
+          "teilnehmer": "Manuel",
           "punkte": 131,
           "exakt": 6,
           "differenz": 11,
           "tendenz": 34,
-          "spieltagssiege": 1
-        },
-        {
-          "platz": 4,
-          "teilnehmerId": "flokicker94",
-          "teilnehmer": "FloKicker94",
-          "punkte": 130,
-          "exakt": 7,
-          "differenz": 9,
-          "tendenz": 34,
           "spieltagssiege": 0
         },
         {
-          "platz": 5,
-          "teilnehmerId": "olympiakos",
-          "teilnehmer": "Olympiakos",
+          "platz": 40,
+          "teilnehmerId": "tribuna33",
+          "teilnehmer": "TRIBUNA33",
           "punkte": 129,
-          "exakt": 7,
-          "differenz": 10,
-          "tendenz": 32,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 6,
-          "teilnehmerId": "11le",
-          "teilnehmer": "11LE",
-          "punkte": 128,
           "exakt": 5,
-          "differenz": 11,
-          "tendenz": 35,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 7,
-          "teilnehmerId": "dani1893",
-          "teilnehmer": "Dani1893",
-          "punkte": 125,
-          "exakt": 9,
-          "differenz": 8,
+          "differenz": 16,
           "tendenz": 28,
-          "spieltagssiege": 1
+          "spieltagssiege": 0
         },
         {
-          "platz": 8,
-          "teilnehmerId": "best10",
-          "teilnehmer": "Best10",
-          "punkte": 124,
-          "exakt": 7,
-          "differenz": 7,
+          "platz": 41,
+          "teilnehmerId": "glatze583",
+          "teilnehmer": "Glatze583",
+          "punkte": 129,
+          "exakt": 5,
+          "differenz": 12,
           "tendenz": 34,
           "spieltagssiege": 0
         },
         {
-          "platz": 9,
-          "teilnehmerId": "lattenkracher",
-          "teilnehmer": "Lattenkracher",
-          "punkte": 123,
+          "platz": 42,
+          "teilnehmerId": "eckes2359",
+          "teilnehmer": "Eckes2359",
+          "punkte": 127,
           "exakt": 5,
-          "differenz": 10,
-          "tendenz": 34,
+          "differenz": 14,
+          "tendenz": 30,
           "spieltagssiege": 0
         },
         {
-          "platz": 10,
-          "teilnehmerId": "wildemoni",
-          "teilnehmer": "WildeMoni",
-          "punkte": 122,
-          "exakt": 7,
-          "differenz": 11,
-          "tendenz": 27,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 11,
-          "teilnehmerId": "g-threepwood",
-          "teilnehmer": "G.Threepwood",
-          "punkte": 121,
-          "exakt": 8,
-          "differenz": 9,
-          "tendenz": 27,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 12,
-          "teilnehmerId": "mariusv",
-          "teilnehmer": "mariusv",
-          "punkte": 121,
+          "platz": 43,
+          "teilnehmerId": "playboymarc88",
+          "teilnehmer": "PlayBoyMarc88",
+          "punkte": 127,
           "exakt": 5,
-          "differenz": 6,
+          "differenz": 8,
           "tendenz": 39,
           "spieltagssiege": 0
         },
         {
-          "platz": 13,
-          "teilnehmerId": "rk69",
-          "teilnehmer": "RK69",
+          "platz": 44,
+          "teilnehmerId": "sam-entspender",
+          "teilnehmer": "SAM_ENTSPENDER",
+          "punkte": 123,
+          "exakt": 7,
+          "differenz": 10,
+          "tendenz": 29,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 45,
+          "teilnehmerId": "quick",
+          "teilnehmer": "Quick",
+          "punkte": 122,
+          "exakt": 8,
+          "differenz": 8,
+          "tendenz": 29,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 46,
+          "teilnehmerId": "kevinhick",
+          "teilnehmer": "Kevinhick",
+          "punkte": 122,
+          "exakt": 7,
+          "differenz": 9,
+          "tendenz": 30,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 47,
+          "teilnehmerId": "stevie26",
+          "teilnehmer": "Stevie26",
+          "punkte": 122,
+          "exakt": 4,
+          "differenz": 10,
+          "tendenz": 36,
+          "spieltagssiege": 1
+        },
+        {
+          "platz": 48,
+          "teilnehmerId": "realzaragoza",
+          "teilnehmer": "Realzaragoza",
           "punkte": 121,
           "exakt": 3,
-          "differenz": 12,
+          "differenz": 10,
+          "tendenz": 38,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 49,
+          "teilnehmerId": "adamj",
+          "teilnehmer": "AdamJ",
+          "punkte": 120,
+          "exakt": 1,
+          "differenz": 13,
+          "tendenz": 38,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 50,
+          "teilnehmerId": "vebfriwiwerk",
+          "teilnehmer": "VebFriwiwerk",
+          "punkte": 118,
+          "exakt": 2,
+          "differenz": 18,
+          "tendenz": 27,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 51,
+          "teilnehmerId": "salas1904",
+          "teilnehmer": "Salas1904",
+          "punkte": 117,
+          "exakt": 10,
+          "differenz": 5,
+          "tendenz": 26,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 52,
+          "teilnehmerId": "kev1999",
+          "teilnehmer": "Kev1999",
+          "punkte": 117,
+          "exakt": 7,
+          "differenz": 4,
           "tendenz": 35,
           "spieltagssiege": 0
         },
         {
-          "platz": 14,
-          "teilnehmerId": "gerrit1887",
-          "teilnehmer": "Gerrit1887",
-          "punkte": 120,
-          "exakt": 3,
-          "differenz": 13,
-          "tendenz": 33,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 15,
-          "teilnehmerId": "bvb09-opam",
-          "teilnehmer": "BvB09-OpaM",
-          "punkte": 118,
-          "exakt": 4,
-          "differenz": 12,
-          "tendenz": 31,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 16,
+          "platz": 53,
           "teilnehmerId": "steff77",
           "teilnehmer": "Steff77",
           "punkte": 116,
@@ -2319,7 +2689,17 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 17,
+          "platz": 54,
+          "teilnehmerId": "sven-huhn",
+          "teilnehmer": "Sven_Huhn",
+          "punkte": 116,
+          "exakt": 5,
+          "differenz": 11,
+          "tendenz": 29,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 55,
           "teilnehmerId": "g-1000",
           "teilnehmer": "G.1000",
           "punkte": 116,
@@ -2329,327 +2709,57 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 18,
-          "teilnehmerId": "cobra",
-          "teilnehmer": "cobra",
-          "punkte": 116,
-          "exakt": 4,
-          "differenz": 12,
-          "tendenz": 30,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 19,
-          "teilnehmerId": "handgottes",
-          "teilnehmer": "HandGottes",
+          "platz": 56,
+          "teilnehmerId": "kevin",
+          "teilnehmer": "Kevin",
           "punkte": 115,
           "exakt": 5,
-          "differenz": 12,
-          "tendenz": 27,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 20,
-          "teilnehmerId": "pochzerjung",
-          "teilnehmer": "PochzerJung",
-          "punkte": 114,
-          "exakt": 5,
-          "differenz": 11,
-          "tendenz": 28,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 21,
-          "teilnehmerId": "pauli",
-          "teilnehmer": "Pauli",
-          "punkte": 114,
-          "exakt": 5,
-          "differenz": 9,
-          "tendenz": 31,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 22,
-          "teilnehmerId": "maikiliii",
-          "teilnehmer": "Maikiliii",
-          "punkte": 114,
-          "exakt": 4,
-          "differenz": 8,
-          "tendenz": 35,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 23,
-          "teilnehmerId": "tortugasge",
-          "teilnehmer": "TortugaSGE",
-          "punkte": 113,
-          "exakt": 7,
-          "differenz": 10,
-          "tendenz": 24,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 24,
-          "teilnehmerId": "18amfg99",
-          "teilnehmer": "18AMFG99",
-          "punkte": 113,
-          "exakt": 6,
-          "differenz": 9,
-          "tendenz": 28,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 25,
-          "teilnehmerId": "hardy17",
-          "teilnehmer": "Hardy17",
-          "punkte": 113,
-          "exakt": 3,
-          "differenz": 12,
-          "tendenz": 31,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 26,
-          "teilnehmerId": "mythos",
-          "teilnehmer": "Mythos",
-          "punkte": 113,
-          "exakt": 3,
-          "differenz": 6,
-          "tendenz": 40,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 27,
-          "teilnehmerId": "manuel",
-          "teilnehmer": "Manuel",
-          "punkte": 112,
-          "exakt": 6,
-          "differenz": 8,
-          "tendenz": 29,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 28,
-          "teilnehmerId": "cobra75",
-          "teilnehmer": "Cobra75",
-          "punkte": 111,
-          "exakt": 8,
-          "differenz": 7,
-          "tendenz": 25,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 29,
-          "teilnehmerId": "bigdog",
-          "teilnehmer": "Bigdog",
-          "punkte": 111,
-          "exakt": 7,
-          "differenz": 4,
-          "tendenz": 32,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 30,
-          "teilnehmerId": "flying-dutchman",
-          "teilnehmer": "Flying-Dutchman",
-          "punkte": 111,
-          "exakt": 5,
-          "differenz": 10,
-          "tendenz": 28,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 30,
-          "teilnehmerId": "luki1887",
-          "teilnehmer": "Luki1887",
-          "punkte": 111,
-          "exakt": 5,
-          "differenz": 10,
-          "tendenz": 28,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 32,
-          "teilnehmerId": "waltersen",
-          "teilnehmer": "Waltersen",
-          "punkte": 111,
-          "exakt": 4,
-          "differenz": 11,
-          "tendenz": 29,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 33,
-          "teilnehmerId": "kleinersachse",
-          "teilnehmer": "kleinersachse",
-          "punkte": 110,
-          "exakt": 7,
-          "differenz": 11,
+          "differenz": 16,
           "tendenz": 21,
           "spieltagssiege": 0
         },
         {
-          "platz": 34,
-          "teilnehmerId": "finch",
-          "teilnehmer": "Finch",
-          "punkte": 110,
-          "exakt": 6,
-          "differenz": 10,
-          "tendenz": 25,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 35,
-          "teilnehmerId": "dominik1966",
-          "teilnehmer": "dominik1966",
-          "punkte": 110,
-          "exakt": 5,
-          "differenz": 11,
-          "tendenz": 26,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 36,
-          "teilnehmerId": "zweikampfgott",
-          "teilnehmer": "ZweikampfGott",
-          "punkte": 108,
-          "exakt": 4,
-          "differenz": 10,
-          "tendenz": 29,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 37,
-          "teilnehmerId": "stevie26",
-          "teilnehmer": "Stevie26",
-          "punkte": 107,
+          "platz": 57,
+          "teilnehmerId": "andy1304",
+          "teilnehmer": "Andy1304",
+          "punkte": 115,
           "exakt": 3,
-          "differenz": 8,
-          "tendenz": 34,
-          "spieltagssiege": 1
-        },
-        {
-          "platz": 38,
-          "teilnehmerId": "quick",
-          "teilnehmer": "Quick",
-          "punkte": 106,
-          "exakt": 6,
-          "differenz": 8,
-          "tendenz": 26,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 39,
-          "teilnehmerId": "baslermario",
-          "teilnehmer": "baslermario",
-          "punkte": 106,
-          "exakt": 3,
-          "differenz": 13,
-          "tendenz": 26,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 40,
-          "teilnehmerId": "marius",
-          "teilnehmer": "Marius",
-          "punkte": 106,
-          "exakt": 2,
           "differenz": 12,
-          "tendenz": 30,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 41,
-          "teilnehmerId": "souvard",
-          "teilnehmer": "Souvard",
-          "punkte": 105,
-          "exakt": 2,
-          "differenz": 5,
-          "tendenz": 40,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 42,
-          "teilnehmerId": "kevin",
-          "teilnehmer": "Kevin",
-          "punkte": 104,
-          "exakt": 5,
-          "differenz": 13,
-          "tendenz": 20,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 43,
-          "teilnehmerId": "tribuna33",
-          "teilnehmer": "TRIBUNA33",
-          "punkte": 103,
-          "exakt": 4,
-          "differenz": 11,
-          "tendenz": 25,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 44,
-          "teilnehmerId": "sgbw",
-          "teilnehmer": "sgbw",
-          "punkte": 103,
-          "exakt": 4,
-          "differenz": 9,
-          "tendenz": 28,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 45,
-          "teilnehmerId": "playboymarc88",
-          "teilnehmer": "PlayBoyMarc88",
-          "punkte": 102,
-          "exakt": 4,
-          "differenz": 6,
           "tendenz": 32,
           "spieltagssiege": 0
         },
         {
-          "platz": 46,
-          "teilnehmerId": "kevinhick",
-          "teilnehmer": "Kevinhick",
-          "punkte": 101,
+          "platz": 58,
+          "teilnehmerId": "mikoog",
+          "teilnehmer": "MiKoog",
+          "punkte": 115,
+          "exakt": 2,
+          "differenz": 11,
+          "tendenz": 36,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 59,
+          "teilnehmerId": "gruber",
+          "teilnehmer": "gRuBer",
+          "punkte": 114,
           "exakt": 5,
-          "differenz": 8,
-          "tendenz": 26,
+          "differenz": 7,
+          "tendenz": 34,
           "spieltagssiege": 0
         },
         {
-          "platz": 47,
-          "teilnehmerId": "eckes2359",
-          "teilnehmer": "Eckes2359",
-          "punkte": 101,
-          "exakt": 4,
+          "platz": 60,
+          "teilnehmerId": "juri",
+          "teilnehmer": "JuRi",
+          "punkte": 113,
+          "exakt": 6,
           "differenz": 9,
-          "tendenz": 27,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 48,
-          "teilnehmerId": "glatze583",
-          "teilnehmer": "Glatze583",
-          "punkte": 101,
-          "exakt": 3,
-          "differenz": 10,
           "tendenz": 28,
           "spieltagssiege": 0
         },
         {
-          "platz": 49,
-          "teilnehmerId": "realzaragoza",
-          "teilnehmer": "Realzaragoza",
-          "punkte": 101,
-          "exakt": 3,
-          "differenz": 8,
-          "tendenz": 31,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 50,
+          "platz": 61,
           "teilnehmerId": "marc86",
           "teilnehmer": "Marc86",
           "punkte": 97,
@@ -2659,7 +2769,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 51,
+          "platz": 62,
           "teilnehmerId": "audauzvares",
           "teilnehmer": "Audauzvares",
           "punkte": 97,
@@ -2669,117 +2779,27 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 52,
-          "teilnehmerId": "oifinger",
-          "teilnehmer": "Oifinger",
-          "punkte": 96,
-          "exakt": 2,
-          "differenz": 12,
-          "tendenz": 25,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 53,
-          "teilnehmerId": "sam-entspender",
-          "teilnehmer": "SAM_ENTSPENDER",
-          "punkte": 95,
-          "exakt": 6,
-          "differenz": 7,
-          "tendenz": 22,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 54,
-          "teilnehmerId": "adamj",
-          "teilnehmer": "AdamJ",
-          "punkte": 94,
-          "exakt": 0,
-          "differenz": 10,
-          "tendenz": 32,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 55,
-          "teilnehmerId": "salas1904",
-          "teilnehmer": "Salas1904",
-          "punkte": 93,
-          "exakt": 7,
-          "differenz": 4,
-          "tendenz": 23,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 56,
-          "teilnehmerId": "vebfriwiwerk",
-          "teilnehmer": "VebFriwiwerk",
-          "punkte": 93,
-          "exakt": 2,
-          "differenz": 13,
-          "tendenz": 22,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 57,
-          "teilnehmerId": "andy1304",
-          "teilnehmer": "Andy1304",
-          "punkte": 92,
-          "exakt": 2,
-          "differenz": 8,
-          "tendenz": 29,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 58,
-          "teilnehmerId": "sven-huhn",
-          "teilnehmer": "Sven_Huhn",
-          "punkte": 91,
-          "exakt": 4,
-          "differenz": 7,
-          "tendenz": 25,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 59,
-          "teilnehmerId": "mikoog",
-          "teilnehmer": "MiKoog",
-          "punkte": 91,
-          "exakt": 2,
-          "differenz": 7,
-          "tendenz": 30,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 60,
-          "teilnehmerId": "kev1999",
-          "teilnehmer": "Kev1999",
-          "punkte": 89,
-          "exakt": 5,
-          "differenz": 2,
-          "tendenz": 29,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 61,
-          "teilnehmerId": "juri",
-          "teilnehmer": "JuRi",
-          "punkte": 84,
-          "exakt": 3,
-          "differenz": 9,
-          "tendenz": 21,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 62,
-          "teilnehmerId": "gruber",
-          "teilnehmer": "gRuBer",
-          "punkte": 84,
-          "exakt": 3,
-          "differenz": 5,
-          "tendenz": 27,
-          "spieltagssiege": 0
-        },
-        {
           "platz": 63,
+          "teilnehmerId": "mrjensationell",
+          "teilnehmer": "MrJensationell",
+          "punkte": 88,
+          "exakt": 6,
+          "differenz": 6,
+          "tendenz": 20,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 64,
+          "teilnehmerId": "mary-grace",
+          "teilnehmer": "Mary-Grace",
+          "punkte": 80,
+          "exakt": 2,
+          "differenz": 6,
+          "tendenz": 26,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 65,
           "teilnehmerId": "redwing",
           "teilnehmer": "Redwing",
           "punkte": 79,
@@ -2789,17 +2809,27 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 64,
+          "platz": 66,
           "teilnehmerId": "aufdieblaue",
           "teilnehmer": "AufdieBlaue",
-          "punkte": 69,
-          "exakt": 5,
+          "punkte": 78,
+          "exakt": 6,
           "differenz": 4,
-          "tendenz": 16,
+          "tendenz": 18,
           "spieltagssiege": 0
         },
         {
-          "platz": 65,
+          "platz": 67,
+          "teilnehmerId": "nurderscf",
+          "teilnehmer": "NurDerSCF",
+          "punkte": 68,
+          "exakt": 1,
+          "differenz": 5,
+          "tendenz": 24,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 68,
           "teilnehmerId": "jungunddurstig",
           "teilnehmer": "JungundDurstig",
           "punkte": 67,
@@ -2809,17 +2839,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 66,
-          "teilnehmerId": "mary-grace",
-          "teilnehmer": "Mary-Grace",
-          "punkte": 65,
-          "exakt": 2,
-          "differenz": 5,
-          "tendenz": 20,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 67,
+          "platz": 69,
           "teilnehmerId": "maxpam",
           "teilnehmer": "MaxPam",
           "punkte": 63,
@@ -2829,33 +2849,13 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 68,
+          "platz": 70,
           "teilnehmerId": "jakob",
           "teilnehmer": "Jakob",
           "punkte": 62,
           "exakt": 3,
           "differenz": 5,
           "tendenz": 16,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 69,
-          "teilnehmerId": "mrjensationell",
-          "teilnehmer": "MrJensationell",
-          "punkte": 60,
-          "exakt": 3,
-          "differenz": 5,
-          "tendenz": 15,
-          "spieltagssiege": 0
-        },
-        {
-          "platz": 70,
-          "teilnehmerId": "nurderscf",
-          "teilnehmer": "NurDerSCF",
-          "punkte": 57,
-          "exakt": 1,
-          "differenz": 4,
-          "tendenz": 20,
           "spieltagssiege": 0
         },
         {
@@ -2950,6 +2950,16 @@
         },
         {
           "platz": 80,
+          "teilnehmerId": "heini1860",
+          "teilnehmer": "Heini1860",
+          "punkte": 28,
+          "exakt": 2,
+          "differenz": 2,
+          "tendenz": 6,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 81,
           "teilnehmerId": "ximmox",
           "teilnehmer": "xIMMOx",
           "punkte": 23,
@@ -2959,7 +2969,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 81,
+          "platz": 82,
           "teilnehmerId": "nick-zg-1501",
           "teilnehmer": "Nick_ZG_1501",
           "punkte": 21,
@@ -2969,7 +2979,17 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 82,
+          "platz": 83,
+          "teilnehmerId": "max",
+          "teilnehmer": "Max",
+          "punkte": 19,
+          "exakt": 0,
+          "differenz": 3,
+          "tendenz": 5,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 84,
           "teilnehmerId": "medic",
           "teilnehmer": "Medic",
           "punkte": 18,
@@ -2979,7 +2999,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 83,
+          "platz": 85,
           "teilnehmerId": "frankfurterjung",
           "teilnehmer": "FrankfurterJung",
           "punkte": 16,
@@ -2989,7 +3009,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "ben1909",
           "teilnehmer": "Ben1909",
           "punkte": 0,
@@ -2999,7 +3019,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "bene",
           "teilnehmer": "Bene",
           "punkte": 0,
@@ -3009,7 +3029,17 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
+          "teilnehmerId": "benjamin",
+          "teilnehmer": "Benjamin",
+          "punkte": 0,
+          "exakt": 0,
+          "differenz": 0,
+          "tendenz": 0,
+          "spieltagssiege": 0
+        },
+        {
+          "platz": 86,
           "teilnehmerId": "berndibroti",
           "teilnehmer": "Berndibroti",
           "punkte": 0,
@@ -3019,7 +3049,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "birgit-blaubart",
           "teilnehmer": "Birgit_Blaubart",
           "punkte": 0,
@@ -3029,7 +3059,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "cali79",
           "teilnehmer": "Cali79",
           "punkte": 0,
@@ -3039,7 +3069,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "co",
           "teilnehmer": "Co",
           "punkte": 0,
@@ -3049,7 +3079,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "erik",
           "teilnehmer": "Erik",
           "punkte": 0,
@@ -3059,7 +3089,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "fcahnungslos",
           "teilnehmer": "FCAhnungslos",
           "punkte": 0,
@@ -3069,7 +3099,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "gordinho",
           "teilnehmer": "Gordinho",
           "punkte": 0,
@@ -3079,7 +3109,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "juergen70",
           "teilnehmer": "Juergen70",
           "punkte": 0,
@@ -3089,7 +3119,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "lucas",
           "teilnehmer": "Lucas",
           "punkte": 0,
@@ -3099,7 +3129,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "lucaspodolski",
           "teilnehmer": "LucasPodolski",
           "punkte": 0,
@@ -3109,7 +3139,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "marcor",
           "teilnehmer": "MarcoR",
           "punkte": 0,
@@ -3119,7 +3149,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "milad",
           "teilnehmer": "Milad",
           "punkte": 0,
@@ -3129,7 +3159,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "moosmuzel",
           "teilnehmer": "Moosmuzel",
           "punkte": 0,
@@ -3139,7 +3169,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "normiks",
           "teilnehmer": "Normiks",
           "punkte": 0,
@@ -3149,7 +3179,7 @@
           "spieltagssiege": 0
         },
         {
-          "platz": 84,
+          "platz": 86,
           "teilnehmerId": "yauguru",
           "teilnehmer": "Yauguru",
           "punkte": 0,
@@ -3163,16 +3193,16 @@
         {
           "platz": 1,
           "team": "New Smugglers Team",
-          "punktesumme": 5986,
-          "mitglieder": 75,
-          "durchschnitt": 79.81
+          "punktesumme": 7333,
+          "mitglieder": 78,
+          "durchschnitt": 94.01
         },
         {
           "platz": 2,
           "team": "Old Smugglers Team",
-          "punktesumme": 1726,
+          "punktesumme": 2080,
           "mitglieder": 25,
-          "durchschnitt": 69.04
+          "durchschnitt": 83.2
         }
       ]
     },

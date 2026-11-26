@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T20:08:48.678Z",
+  "updatedAt": "2026-11-26T04:38:48.405Z",
   "imports": [
     {
       "id": "2026-27__smugglerauftrag__1-spieltag__sma-2026-27-auftakt-001-1786299073479",
@@ -1580,6 +1580,59 @@
         },
         "teamMatchdayNew": {
           "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_Piratenkodex III - NW Derby-2026-11-22-19-52-25-+0000.zip",
+          "complete": true
+        }
+      }
+    },
+    {
+      "id": "2026-27__champions-league__5-spieltag__ucl-2026-27-5-spieltag-87460-ucl-2026-27-5-spieltag-87461-ucl-2026-27-5-spieltag-87462-ucl-2026-27-5-spieltag-87463-ucl-2026-27-5-spieltag-87464-ucl-2026-27-5-spieltag-87465-ucl-2026-27-5-spieltag-87466-ucl-2026-27-5-spieltag-87467-ucl-2026-27-5-spieltag-87468-ucl-2026-27-5-spieltag-87469-ucl-2026-27-5-spieltag-87470-ucl-2026-27-5-spieltag-87471-ucl-2026-27-5-spieltag-87472-ucl-2026-27-5-spieltag-87473-ucl-2026-27-5-spieltag-87474-ucl-2026-27-5-spieltag-87475-ucl-2026-27-5-spieltag-87476-ucl-2026-27-5-spieltag-87477-1795667929123",
+      "createdAt": "2026-11-26T04:38:48.405Z",
+      "mode": "produktiv",
+      "valuation": "champions-league",
+      "round": "5. Spieltag",
+      "participantCount": 81,
+      "oldSmugglers": 18,
+      "newSmugglers": 63,
+      "status": "ok",
+      "files": {
+        "history": {
+          "fileName": "tosmc-vnext-simulation-main.zip",
+          "complete": true
+        },
+        "tips": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipps-5. Spieltag - CL-2026-11-26-04-13-54-+0000.zip",
+          "complete": true
+        },
+        "overall": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Einzelwertung-2026-11-26-04-13-29-+0000.zip",
+          "complete": true
+        },
+        "matchday": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_5. Spieltag - CL-2026-11-26-04-13-12-+0000.zip",
+          "complete": true
+        },
+        "bonus": {
+          "fileName": "kicktipp-the-old-smugglers-club-Rangliste-Einzelwertung_Bonus-2026-11-26-04-13-26-+0000.zip",
+          "complete": true
+        },
+        "tipper": {
+          "fileName": "kicktipp-the-old-smugglers-club-Tipper-2026-11-26-04-12-56-+0000.zip",
+          "complete": true
+        },
+        "teamOverallOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Old Smugglers Team-2026-11-26-04-13-35-+0000.zip",
+          "complete": true
+        },
+        "teamOverallNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Gesamtübersicht-Neue Piraten-2026-11-26-04-13-33-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayOld": {
+          "fileName": "kicktipp-the-old-smugglers-club-Old Smugglers Team_5. Spieltag - CL-2026-11-26-04-13-18-+0000.zip",
+          "complete": true
+        },
+        "teamMatchdayNew": {
+          "fileName": "kicktipp-the-old-smugglers-club-Neue Piraten_5. Spieltag - CL-2026-11-26-04-13-15-+0000.zip",
           "complete": true
         }
       }
