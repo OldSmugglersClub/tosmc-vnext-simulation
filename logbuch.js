@@ -505,16 +505,60 @@ function courseMovementCard(entry){
  <p class="lb-form-explain">Vergleich der Gesamtplatzierung vor und nach diesem Spieltagsabschluss.</p></article>`;
 }
 
+// HERO3: Anker werden bei jedem Logbuchwechsel neu ermittelt.
+const jumpTargets={
+ beute:[".lb-highlight--captains",".lb-highlight--bilanz"],
+ volltreffer:[".lb-highlight--volltreffer",".lb-highlight--galley"],
+ crew:[".lb-highlight--crew",".lb-highlight--bilanz"],
+ serien:[".lb-highlight--form",".lb-highlight--movement"],
+ momente:[".lb-highlight--hero",".lb-highlight--smelled",".lb-highlight--coco",".lb-highlight--galley"]
+};
+let jumpFlashTimeout=null;
+function updateHeroNavigation(){
+ const host=$("#lb-current");
+ const completed=host?.querySelector(".lb-entry:not(.lb-entry--pending)");
+ const captains=completed?.querySelector(".lb-highlight--captains");
+ // Fallback: Untere Navigation bleibt immer bestehen, auch ohne Kapitaene.
+ if(captains){
+  const back=document.createElement("div");
+  back.className="lb-mobile-back-row tosmc-nav";
+  back.innerHTML='<a class="lb-btn tosmc-nav-button tosmc-nav-button--back" href="./index.html#logbuch">Zurück zur Clubseite</a>';
+  captains.after(back);
+ }
+}
+function setupHeroNavigation(){
+ const nav=document.querySelector(".lb-hero-keywords");
+ if(!nav)return;
+ nav.addEventListener("click",event=>{
+  const link=event.target.closest("a[data-lb-jump]");
+  if(!link||!nav.contains(link))return;
+  event.preventDefault();
+  const host=$("#lb-current");
+  const completed=host?.querySelector(".lb-entry:not(.lb-entry--pending)");
+  const reduced=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(!completed){document.querySelector("#lb-archive-list")?.scrollIntoView({behavior:reduced?"auto":"smooth",block:"start"});return;}
+  const candidates=jumpTargets[link.dataset.lbJump]||[];
+  const target=candidates.map(selector=>completed.querySelector(selector)).find(Boolean)||completed.querySelector(".lb-highlight")||completed;
+  if(jumpFlashTimeout!==null)clearTimeout(jumpFlashTimeout);
+  document.querySelectorAll(".lb-jump-flash").forEach(node=>node.classList.remove("lb-jump-flash"));
+  target.classList.add("lb-jump-target","lb-jump-flash");
+  target.scrollIntoView({behavior:reduced?"auto":"smooth",block:"start"});
+  jumpFlashTimeout=setTimeout(()=>target.classList.remove("lb-jump-flash"),1600);
+ });
+}
+
 function renderEntry(entry,pending){
  const host=$("#lb-current"); if(!host) return;
  const pendingHtml=pending?.active?`<section class="lb-entry lb-entry--pending"><header class="lb-entry-head"><span>${esc(pending.kicker)}</span><h2>${esc(keepSpieltag(pending.title))}</h2></header><div class="lb-pending-copy"><p>${esc(pending.text)}</p>${pending.detail?`<strong>${esc(pending.detail)}</strong>`:""}<small>Abgeschlossene Spieltage bleiben weiterhin vollständig abrufbar.</small></div></section>`:"";
  if(!entry){
   host.innerHTML=pendingHtml||'<div class="lb-status">Noch kein abgeschlossenes Logbuch vorhanden.</div>';
+  updateHeroNavigation();
   if(pending?.active)document.title="Auswertung läuft | The Old Smugglers Club";
   return;
  }
  const completedHtml=`<section class="lb-entry"><header class="lb-entry-head"><span>${pending?.active?"Zuletzt abgeschlossen · ":""}${esc(entry.wettbewerb||"Spieltag")}</span><h2>${esc(keepSpieltag(String(entry.bezeichnung||entry.runde||"Logbuch").replace(/^(Piratenkodex)\s+\1(?=\s|$)/i,"$1")))}</h2></header><div class="lb-highlight-grid">${renderHighlightsWithCoco(entry)}</div></section>`;
  host.innerHTML=`${pendingHtml}${completedHtml}`;
+ updateHeroNavigation();
  document.title=pending?.active?"Auswertung läuft | The Old Smugglers Club":`${entry.bezeichnung||"Logbuch"} | The Old Smugglers Club`;
 }
 function archive(){
@@ -649,6 +693,7 @@ function buildPending(view,matchdayDoc,gameDoc,logs){
 }
 
 async function init(){
+ setupHeroNavigation();
  try{
    const [logDoc,view,matchdays,games,spieltagpunkte,teams,ranglistenverlauf,tipps]=await Promise.all([
      fetchJson("./spieltag-logbuch.json"),fetchJson("./website-view.json"),fetchJson("./tippspieltage.json"),fetchJson("./spieldaten.json"),fetchJson("./spieltagpunkte.json"),fetchJson("./teams.json"),fetchJson("./ranglistenverlauf.json"),fetchJson("./tipps.json")
