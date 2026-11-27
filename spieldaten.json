@@ -5545,14 +5545,38 @@
           "datumAnzeige": "27.11.2026",
           "anstoss": "20:30",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 3,
+          "auswaertstore": 3,
+          "status": "beendet",
           "sonderwertungen": [],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "werder-bremen",
-          "auswaertsTeamId": "moenchengladbach"
+          "auswaertsTeamId": "moenchengladbach",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-27T22:42:50.879Z",
+            "abgegeben": 68,
+            "nichtAbgegeben": 13,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 57,
+                "prozent": 83.8
+              },
+              "2": {
+                "anzahl": 3,
+                "prozent": 4.4
+              },
+              "X": {
+                "anzahl": 8,
+                "prozent": 11.8
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-27T22:42:50.879Z"
         },
         {
           "id": "bl-2026-27-11-099",
@@ -16339,6 +16363,6 @@
       ]
     }
   ],
-  "datenVersion": 105,
-  "aktualisiert": "2026-11-26T13:59:35.401Z"
+  "datenVersion": 106,
+  "aktualisiert": "2026-11-27"
 }
