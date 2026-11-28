@@ -1,20 +1,20 @@
 {
   "schemaVersion": 2,
-  "datenVersion": 32,
-  "aktualisiert": "2026-11-26",
+  "datenVersion": 33,
+  "aktualisiert": "2026-11-28",
   "saison": "2026-27",
   "hinweis": "Die Gesamt-Teamwertung wird aus den offiziellen Kicktipp-Team-Gesamtübersichten übernommen. Die Spieltags-Teamwertung wird als arithmetisches Mittel aller aktiven Teammitglieder berechnet und gegen Kicktipp geprüft; echte Nichtabgabe zählt mit 0 Punkten.",
-  "berechnetAm": "2026-11-26T04:38:48.405Z",
+  "berechnetAm": "2026-11-28T15:12:39.436Z",
   "quelle": "Kicktipp-Team-Gesamtübersichten + Kicktipp-Einzelranglisten + Tipper-Gruppen / Admin 6.5.0-HF13-TEST4-HF31",
   "gesamt": [
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 14540,
-      "durchschnitt": 230.79,
-      "berechneterDurchschnitt": 230.79,
+      "punktesumme": 14664,
+      "durchschnitt": 232.76,
+      "berechneterDurchschnitt": 232.76,
       "mitglieder": 63,
-      "kicktippKontrollwert": 230.79,
+      "kicktippKontrollwert": 232.76,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-Gesamtübersicht"
@@ -22,11 +22,11 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 4148,
-      "durchschnitt": 230.44,
-      "berechneterDurchschnitt": 230.44,
+      "punktesumme": 4177,
+      "durchschnitt": 232.06,
+      "berechneterDurchschnitt": 232.06,
       "mitglieder": 18,
-      "kicktippKontrollwert": 230.44,
+      "kicktippKontrollwert": 232.06,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-Gesamtübersicht"
@@ -36,10 +36,10 @@
     {
       "platz": 1,
       "team": "New Smugglers Team",
-      "punktesumme": 1347,
-      "durchschnitt": 21.38,
+      "punktesumme": 106,
+      "durchschnitt": 1.68,
       "mitglieder": 63,
-      "kicktippKontrollwert": 21.38,
+      "kicktippKontrollwert": 1.68,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -47,10 +47,10 @@
     {
       "platz": 2,
       "team": "Old Smugglers Team",
-      "punktesumme": 354,
-      "durchschnitt": 19.67,
+      "punktesumme": 23,
+      "durchschnitt": 1.28,
       "mitglieder": 18,
-      "kicktippKontrollwert": 19.67,
+      "kicktippKontrollwert": 1.28,
       "abweichung": 0,
       "validiert": true,
       "wertungsquelle": "Kicktipp-kontrollierter Mitglieder-Durchschnitt"
@@ -71,19 +71,49 @@
       "teilnehmerId": "opipeter",
       "teilnehmer": "Opipeter",
       "team": "New Smugglers Team",
-      "punkte": 321
+      "punkte": 326
     },
     {
       "teilnehmerId": "dani1893",
       "teilnehmer": "Dani1893",
       "team": "New Smugglers Team",
-      "punkte": 319
+      "punkte": 324
     },
     {
       "teilnehmerId": "pochzerjung",
       "teilnehmer": "PochzerJung",
       "team": "New Smugglers Team",
-      "punkte": 308
+      "punkte": 310
+    },
+    {
+      "teilnehmerId": "g-threepwood",
+      "teilnehmer": "G.Threepwood",
+      "team": "New Smugglers Team",
+      "punkte": 307
+    },
+    {
+      "teilnehmerId": "11le",
+      "teilnehmer": "11LE",
+      "team": "Old Smugglers Team",
+      "punkte": 306
+    },
+    {
+      "teilnehmerId": "pauli",
+      "teilnehmer": "Pauli",
+      "team": "New Smugglers Team",
+      "punkte": 306
+    },
+    {
+      "teilnehmerId": "xib0o",
+      "teilnehmer": "Xib0o",
+      "team": "New Smugglers Team",
+      "punkte": 305
+    },
+    {
+      "teilnehmerId": "marius",
+      "teilnehmer": "Marius",
+      "team": "Old Smugglers Team",
+      "punkte": 304
     },
     {
       "teilnehmerId": "rk69",
@@ -98,40 +128,16 @@
       "punkte": 303
     },
     {
-      "teilnehmerId": "g-threepwood",
-      "teilnehmer": "G.Threepwood",
-      "team": "New Smugglers Team",
-      "punkte": 302
-    },
-    {
-      "teilnehmerId": "11le",
-      "teilnehmer": "11LE",
-      "team": "Old Smugglers Team",
-      "punkte": 301
-    },
-    {
-      "teilnehmerId": "pauli",
-      "teilnehmer": "Pauli",
-      "team": "New Smugglers Team",
-      "punkte": 301
-    },
-    {
-      "teilnehmerId": "xib0o",
-      "teilnehmer": "Xib0o",
-      "team": "New Smugglers Team",
-      "punkte": 300
-    },
-    {
-      "teilnehmerId": "marius",
-      "teilnehmer": "Marius",
-      "team": "Old Smugglers Team",
-      "punkte": 299
-    },
-    {
       "teilnehmerId": "mariusv",
       "teilnehmer": "mariusv",
       "team": "New Smugglers Team",
-      "punkte": 296
+      "punkte": 301
+    },
+    {
+      "teilnehmerId": "mythos",
+      "teilnehmer": "Mythos",
+      "team": "New Smugglers Team",
+      "punkte": 298
     },
     {
       "teilnehmerId": "sgbw",
@@ -140,9 +146,9 @@
       "punkte": 295
     },
     {
-      "teilnehmerId": "mythos",
-      "teilnehmer": "Mythos",
-      "team": "New Smugglers Team",
+      "teilnehmerId": "handgottes",
+      "teilnehmer": "HandGottes",
+      "team": "Old Smugglers Team",
       "punkte": 293
     },
     {
@@ -158,6 +164,18 @@
       "punkte": 292
     },
     {
+      "teilnehmerId": "luki1887",
+      "teilnehmer": "Luki1887",
+      "team": "New Smugglers Team",
+      "punkte": 291
+    },
+    {
+      "teilnehmerId": "gerrit1887",
+      "teilnehmer": "Gerrit1887",
+      "team": "New Smugglers Team",
+      "punkte": 291
+    },
+    {
       "teilnehmerId": "best10",
       "teilnehmer": "Best10",
       "team": "New Smugglers Team",
@@ -168,6 +186,12 @@
       "teilnehmer": "cobra",
       "team": "New Smugglers Team",
       "punkte": 290
+    },
+    {
+      "teilnehmerId": "baslermario",
+      "teilnehmer": "baslermario",
+      "team": "New Smugglers Team",
+      "punkte": 289
     },
     {
       "teilnehmerId": "bigdog",
@@ -182,58 +206,46 @@
       "punkte": 288
     },
     {
-      "teilnehmerId": "gerrit1887",
-      "teilnehmer": "Gerrit1887",
-      "team": "New Smugglers Team",
-      "punkte": 288
-    },
-    {
-      "teilnehmerId": "handgottes",
-      "teilnehmer": "HandGottes",
-      "team": "Old Smugglers Team",
-      "punkte": 288
-    },
-    {
       "teilnehmerId": "maikiliii",
       "teilnehmer": "Maikiliii",
       "team": "New Smugglers Team",
       "punkte": 287
     },
     {
-      "teilnehmerId": "luki1887",
-      "teilnehmer": "Luki1887",
-      "team": "New Smugglers Team",
-      "punkte": 286
-    },
-    {
-      "teilnehmerId": "baslermario",
-      "teilnehmer": "baslermario",
-      "team": "New Smugglers Team",
-      "punkte": 286
-    },
-    {
       "teilnehmerId": "eckes2359",
       "teilnehmer": "Eckes2359",
       "team": "New Smugglers Team",
-      "punkte": 279
+      "punkte": 284
     },
     {
       "teilnehmerId": "bvb09-opam",
       "teilnehmer": "BvB09-OpaM",
       "team": "New Smugglers Team",
-      "punkte": 279
-    },
-    {
-      "teilnehmerId": "dominik1966",
-      "teilnehmer": "dominik1966",
-      "team": "New Smugglers Team",
-      "punkte": 277
+      "punkte": 284
     },
     {
       "teilnehmerId": "waltersen",
       "teilnehmer": "Waltersen",
       "team": "New Smugglers Team",
-      "punkte": 276
+      "punkte": 281
+    },
+    {
+      "teilnehmerId": "dominik1966",
+      "teilnehmer": "dominik1966",
+      "team": "New Smugglers Team",
+      "punkte": 280
+    },
+    {
+      "teilnehmerId": "playboymarc88",
+      "teilnehmer": "PlayBoyMarc88",
+      "team": "New Smugglers Team",
+      "punkte": 277
+    },
+    {
+      "teilnehmerId": "wildemoni",
+      "teilnehmer": "WildeMoni",
+      "team": "New Smugglers Team",
+      "punkte": 275
     },
     {
       "teilnehmerId": "sam-entspender",
@@ -242,28 +254,28 @@
       "punkte": 275
     },
     {
-      "teilnehmerId": "playboymarc88",
-      "teilnehmer": "PlayBoyMarc88",
-      "team": "New Smugglers Team",
-      "punkte": 274
-    },
-    {
-      "teilnehmerId": "wildemoni",
-      "teilnehmer": "WildeMoni",
+      "teilnehmerId": "andy1304",
+      "teilnehmer": "Andy1304",
       "team": "New Smugglers Team",
       "punkte": 270
+    },
+    {
+      "teilnehmerId": "souvard",
+      "teilnehmer": "Souvard",
+      "team": "New Smugglers Team",
+      "punkte": 269
+    },
+    {
+      "teilnehmerId": "tortugasge",
+      "teilnehmer": "TortugaSGE",
+      "team": "Old Smugglers Team",
+      "punkte": 268
     },
     {
       "teilnehmerId": "zweikampfgott",
       "teilnehmer": "ZweikampfGott",
       "team": "Old Smugglers Team",
       "punkte": 268
-    },
-    {
-      "teilnehmerId": "andy1304",
-      "teilnehmer": "Andy1304",
-      "team": "New Smugglers Team",
-      "punkte": 267
     },
     {
       "teilnehmerId": "jwfussball",
@@ -290,18 +302,6 @@
       "punkte": 266
     },
     {
-      "teilnehmerId": "souvard",
-      "teilnehmer": "Souvard",
-      "team": "New Smugglers Team",
-      "punkte": 266
-    },
-    {
-      "teilnehmerId": "tortugasge",
-      "teilnehmer": "TortugaSGE",
-      "team": "Old Smugglers Team",
-      "punkte": 265
-    },
-    {
       "teilnehmerId": "flying-dutchman",
       "teilnehmer": "Flying-Dutchman",
       "team": "Old Smugglers Team",
@@ -323,31 +323,31 @@
       "teilnehmerId": "adamj",
       "teilnehmer": "AdamJ",
       "team": "New Smugglers Team",
-      "punkte": 254
+      "punkte": 259
     },
     {
       "teilnehmerId": "mikoog",
       "teilnehmer": "MiKoog",
       "team": "New Smugglers Team",
-      "punkte": 253
+      "punkte": 258
     },
     {
       "teilnehmerId": "flokicker94",
       "teilnehmer": "FloKicker94",
       "team": "New Smugglers Team",
-      "punkte": 253
+      "punkte": 256
+    },
+    {
+      "teilnehmerId": "lattenkracher",
+      "teilnehmer": "Lattenkracher",
+      "team": "New Smugglers Team",
+      "punkte": 254
     },
     {
       "teilnehmerId": "kevin",
       "teilnehmer": "Kevin",
       "team": "Old Smugglers Team",
       "punkte": 253
-    },
-    {
-      "teilnehmerId": "lattenkracher",
-      "teilnehmer": "Lattenkracher",
-      "team": "New Smugglers Team",
-      "punkte": 252
     },
     {
       "teilnehmerId": "juri",
@@ -362,16 +362,28 @@
       "punkte": 251
     },
     {
+      "teilnehmerId": "glatze583",
+      "teilnehmer": "Glatze583",
+      "team": "New Smugglers Team",
+      "punkte": 249
+    },
+    {
       "teilnehmerId": "stevie26",
       "teilnehmer": "Stevie26",
       "team": "New Smugglers Team",
       "punkte": 248
     },
     {
-      "teilnehmerId": "glatze583",
-      "teilnehmer": "Glatze583",
+      "teilnehmerId": "gruber",
+      "teilnehmer": "gRuBer",
       "team": "New Smugglers Team",
       "punkte": 247
+    },
+    {
+      "teilnehmerId": "oifinger",
+      "teilnehmer": "Oifinger",
+      "team": "New Smugglers Team",
+      "punkte": 246
     },
     {
       "teilnehmerId": "quick",
@@ -380,21 +392,15 @@
       "punkte": 246
     },
     {
-      "teilnehmerId": "gruber",
-      "teilnehmer": "gRuBer",
-      "team": "New Smugglers Team",
-      "punkte": 242
-    },
-    {
-      "teilnehmerId": "oifinger",
-      "teilnehmer": "Oifinger",
-      "team": "New Smugglers Team",
-      "punkte": 241
-    },
-    {
       "teilnehmerId": "vebfriwiwerk",
       "teilnehmer": "VebFriwiwerk",
       "team": "Old Smugglers Team",
+      "punkte": 244
+    },
+    {
+      "teilnehmerId": "kev1999",
+      "teilnehmer": "Kev1999",
+      "team": "New Smugglers Team",
       "punkte": 241
     },
     {
@@ -404,16 +410,16 @@
       "punkte": 237
     },
     {
-      "teilnehmerId": "kev1999",
-      "teilnehmer": "Kev1999",
+      "teilnehmerId": "kevinhick",
+      "teilnehmer": "Kevinhick",
       "team": "New Smugglers Team",
       "punkte": 236
     },
     {
-      "teilnehmerId": "kevinhick",
-      "teilnehmer": "Kevinhick",
-      "team": "New Smugglers Team",
-      "punkte": 234
+      "teilnehmerId": "salas1904",
+      "teilnehmer": "Salas1904",
+      "team": "Old Smugglers Team",
+      "punkte": 232
     },
     {
       "teilnehmerId": "mrjensationell",
@@ -422,22 +428,16 @@
       "punkte": 227
     },
     {
-      "teilnehmerId": "salas1904",
-      "teilnehmer": "Salas1904",
-      "team": "Old Smugglers Team",
-      "punkte": 227
-    },
-    {
       "teilnehmerId": "mary-grace",
       "teilnehmer": "Mary-Grace",
       "team": "Old Smugglers Team",
-      "punkte": 187
+      "punkte": 190
     },
     {
       "teilnehmerId": "seboso",
       "teilnehmer": "Seboso",
       "team": "New Smugglers Team",
-      "punkte": 182
+      "punkte": 187
     },
     {
       "teilnehmerId": "sam2004",
@@ -521,7 +521,7 @@
       "teilnehmerId": "heini1860",
       "teilnehmer": "Heini1860",
       "team": "New Smugglers Team",
-      "punkte": 49
+      "punkte": 52
     },
     {
       "teilnehmerId": "normiks",
@@ -533,7 +533,7 @@
       "teilnehmerId": "max",
       "teilnehmer": "Max",
       "team": "New Smugglers Team",
-      "punkte": 38
+      "punkte": 40
     },
     {
       "teilnehmerId": "gordinho",

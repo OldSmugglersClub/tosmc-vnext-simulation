@@ -604,16 +604,40 @@
           "datumAnzeige": "28.11.2026",
           "anstoss": "13:00",
           "terminBestaetigt": true,
-          "heimtore": null,
-          "auswaertstore": null,
-          "status": "terminiert",
+          "heimtore": 2,
+          "auswaertstore": 1,
+          "status": "beendet",
           "sonderwertungen": [
             "smugglerauftrag"
           ],
           "notiz": "Die genaue Ansetzung innerhalb des angegebenen Spieltagszeitraums ist noch offen. Smugglerauftrag zum 13. Spieltag der 2. Bundesliga.",
           "quelleStand": "2026-09-10",
           "heimTeamId": "dynamo-dresden",
-          "auswaertsTeamId": "st-pauli"
+          "auswaertsTeamId": "st-pauli",
+          "ergebnisNach90MinutenBestaetigt": true,
+          "tippverteilung": {
+            "schemaVersion": 1,
+            "quelle": "Kicktipp – Tipps aller Tipper",
+            "stand": "2026-11-28T15:12:39.436Z",
+            "abgegeben": 64,
+            "nichtAbgegeben": 17,
+            "verborgen": 0,
+            "tendenzen": {
+              "1": {
+                "anzahl": 33,
+                "prozent": 51.6
+              },
+              "2": {
+                "anzahl": 18,
+                "prozent": 28.1
+              },
+              "X": {
+                "anzahl": 13,
+                "prozent": 20.3
+              }
+            }
+          },
+          "aktualisiertAm": "2026-11-28T15:12:39.436Z"
         },
         {
           "id": "sma-2026-27-14-125",
@@ -16363,6 +16387,6 @@
       ]
     }
   ],
-  "datenVersion": 106,
-  "aktualisiert": "2026-11-27"
+  "datenVersion": 107,
+  "aktualisiert": "2026-11-28"
 }
